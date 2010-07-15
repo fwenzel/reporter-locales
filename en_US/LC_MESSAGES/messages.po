@@ -16,18 +16,8 @@ msgstr ""
 msgid "&laquo; previous"
 msgstr "&laquo; previous"
 
-#. Link to user agent info.
-#: apps/dashboard/templates/dashboard/messages.html:11
-msgid "(UA)"
-msgstr "(UA)"
-
-#. Link to an opinion's URL.
-#: apps/dashboard/templates/dashboard/messages.html:14
-msgid "(URL)"
-msgstr "(URL)"
-
 #. L10n: This is a placeholder in the search form, for all items in a list.
-#: apps/search/forms.py:37
+#: apps/search/forms.py:40
 msgid "-- all --"
 msgstr "-- all --"
 
@@ -56,7 +46,7 @@ msgstr "Advanced"
 msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
 msgstr "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
 
-#: apps/search/forms.py:60
+#: apps/search/forms.py:63
 msgid "Date range:"
 msgstr "Date range:"
 
@@ -156,7 +146,7 @@ msgstr "Last {count} Messages"
 msgid "Legal Notices"
 msgstr "Legal Notices"
 
-#: apps/feedback/__init__.py:55
+#: apps/feedback/__init__.py:56
 msgid "Linux"
 msgstr "Linux"
 
@@ -164,7 +154,7 @@ msgstr "Linux"
 msgid "Locale"
 msgstr "Locale"
 
-#: apps/search/forms.py:55
+#: apps/search/forms.py:58
 msgid "Locale:"
 msgstr "Locale:"
 
@@ -172,15 +162,15 @@ msgstr "Locale:"
 msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
 msgstr "Locale: <span class=\"opt\">%(locale)s</span>;"
 
-#: apps/dashboard/templates/dashboard/messages.html:24
+#: apps/dashboard/templates/dashboard/messages.html:34
 msgid "Locale: {locale}"
 msgstr "Locale: {locale}"
 
-#: apps/feedback/__init__.py:50
+#: apps/feedback/__init__.py:51
 msgid "Mac OS X"
 msgstr "Mac OS X"
 
-#: apps/feedback/__init__.py:15
+#: apps/feedback/__init__.py:16
 msgid "Mobile"
 msgstr "Mobile"
 
@@ -196,7 +186,7 @@ msgstr "Not Found"
 msgid "OS"
 msgstr "OS"
 
-#: apps/search/forms.py:57
+#: apps/search/forms.py:60
 msgid "OS:"
 msgstr "OS:"
 
@@ -204,7 +194,7 @@ msgstr "OS:"
 msgid "OS: <span class=\"opt\">%(os)s</span>"
 msgstr "OS: <span class=\"opt\">%(os)s</span>"
 
-#: apps/dashboard/templates/dashboard/messages.html:22
+#: apps/dashboard/templates/dashboard/messages.html:32
 msgid "OS: {os_name}"
 msgstr "OS: {os_name}"
 
@@ -212,7 +202,7 @@ msgstr "OS: {os_name}"
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be a part of our Beta Program."
 msgstr "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be a part of our Beta Program."
 
-#: apps/feedback/__init__.py:60
+#: apps/feedback/__init__.py:61
 msgid "Other"
 msgstr "Other"
 
@@ -252,7 +242,7 @@ msgstr "Proceed to footer"
 msgid "Proceed to main content"
 msgstr "Proceed to main content"
 
-#: apps/search/forms.py:49
+#: apps/search/forms.py:52
 msgid "Product:"
 msgstr "Product:"
 
@@ -272,7 +262,7 @@ msgstr "Search"
 msgid "Search Results"
 msgstr "Search Results"
 
-#: apps/search/forms.py:47
+#: apps/search/forms.py:50
 msgid "Search Terms"
 msgstr "Search Terms"
 
@@ -280,7 +270,7 @@ msgstr "Search Terms"
 msgid "Search Unavailable"
 msgstr "Search Unavailable"
 
-#: apps/search/forms.py:53
+#: apps/search/forms.py:56
 msgid "Sentiment:"
 msgstr "Sentiment:"
 
@@ -321,9 +311,26 @@ msgstr "Thanks!"
 msgid "To join, simply go to our download page and get <a href=\"%(url)s\">the latest Firefox Beta!</a>"
 msgstr "To join, simply go to our download page and get <a href=\"%(url)s\">the latest Firefox Beta!</a>"
 
+#. Link to Google Translator
+#: apps/dashboard/templates/dashboard/messages.html:13
+msgid "Translate!"
+msgstr "Translate!"
+
 #: apps/dashboard/templates/dashboard/dashboard.html:23 apps/search/templates/search/search.html:87
 msgid "Trends"
 msgstr "Trends"
+
+#. Link to user agent info.
+#: apps/dashboard/templates/dashboard/messages.html:16
+#, fuzzy
+msgid "UA"
+msgstr "(UA)"
+
+#. Link to an opinion's URL.
+#: apps/dashboard/templates/dashboard/messages.html:20
+#, fuzzy
+msgid "URL"
+msgstr "(URL)"
 
 #: apps/feedback/validators.py:29
 msgid "User agent string was not recognizable."
@@ -333,7 +340,7 @@ msgstr "User agent string was not recognizable."
 msgid "User-Agent request header must be set."
 msgstr "User-Agent request header must be set."
 
-#: apps/search/forms.py:52
+#: apps/search/forms.py:55
 msgid "Version:"
 msgstr "Version:"
 
@@ -349,12 +356,11 @@ msgstr "We are sorry that you have not had a good experience with our browser. P
 msgid "Welcome!"
 msgstr "Welcome!"
 
-#: apps/feedback/__init__.py:45
+#: apps/feedback/__init__.py:46
 msgid "Windows"
 msgstr "Windows"
 
 #: apps/feedback/validators.py:46
-#, fuzzy
 msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
 msgstr "Your comments contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
 
@@ -370,10 +376,9 @@ msgstr "Your feedback seems to contain an email address. Please remove this and 
 msgid "all"
 msgstr "all"
 
-#: apps/dashboard/templates/dashboard/sentiments.html:29 apps/search/forms.py:21
-#, fuzzy
+#: apps/dashboard/templates/dashboard/sentiments.html:29 apps/search/forms.py:24
 msgid "happy"
-msgstr "happy face"
+msgstr "happy"
 
 #: apps/feedback/helpers.py:36
 msgid "happy face"
@@ -387,7 +392,7 @@ msgstr "next &raquo;"
 msgid "page %(pagenum)s of %(total)s"
 msgstr "page %(pagenum)s of %(total)s"
 
-#: apps/dashboard/templates/dashboard/sentiments.html:31 apps/search/forms.py:22
+#: apps/dashboard/templates/dashboard/sentiments.html:31 apps/search/forms.py:25
 msgid "sad"
 msgstr "sad"
 
@@ -396,15 +401,15 @@ msgid "sad face"
 msgstr "sad face"
 
 #. L10n: This indicates the second part of a date range.
-#: apps/search/forms.py:63
+#: apps/search/forms.py:66
 msgid "to"
 msgstr "to"
 
-#: apps/dashboard/templates/dashboard/demographics.html:13 apps/feedback/helpers.py:16 apps/search/forms.py:27
+#: apps/dashboard/templates/dashboard/demographics.html:13 apps/feedback/helpers.py:16 apps/search/forms.py:30
 msgid "unknown"
 msgstr "unknown"
 
 #. This is a link to the URL associated with an opinion.
-#: apps/dashboard/templates/dashboard/messages.html:17
+#: apps/dashboard/templates/dashboard/messages.html:27
 msgid "visit &rarr;"
 msgstr "visit &rarr;"
