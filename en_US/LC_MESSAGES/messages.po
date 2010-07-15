@@ -84,7 +84,7 @@ msgstr "Due to software constraints, we can only show the last 1000 messages for
 msgid "Enter your feedback here."
 msgstr "Enter your feedback here."
 
-#: templates/base.html:55
+#: templates/base.html:56
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
 "any later version."
@@ -103,6 +103,10 @@ msgstr "Find out the latest news from Mozilla:"
 #: apps/feedback/__init__.py:9
 msgid "Firefox"
 msgstr "Firefox"
+
+#: templates/includes/lang_switcher.html:10
+msgid "Go"
+msgstr "Go"
 
 #: apps/feedback/templates/feedback/feedback.html:34
 msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
@@ -148,7 +152,7 @@ msgstr "Internal Server Error"
 msgid "Last {count} Messages"
 msgstr "Last {count} Messages"
 
-#: templates/base.html:51
+#: templates/base.html:52
 msgid "Legal Notices"
 msgstr "Legal Notices"
 
@@ -212,6 +216,10 @@ msgstr "Oh! So, you want to offer us feedback on the next version of Firefox. Th
 msgid "Other"
 msgstr "Other"
 
+#: templates/includes/lang_switcher.html:2
+msgid "Other languages:"
+msgstr "Other languages:"
+
 #: apps/search/templates/search/unavailable.html:9
 msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
 msgstr "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
@@ -232,7 +240,7 @@ msgstr "Please ensure that there is no personally identifiable information here.
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 msgstr "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 
-#: templates/base.html:50
+#: templates/base.html:51
 msgid "Privacy Policy"
 msgstr "Privacy Policy"
 
@@ -252,7 +260,7 @@ msgstr "Product:"
 msgid "Query has timed out."
 msgstr "Query has timed out."
 
-#: templates/base.html:52
+#: templates/base.html:53
 msgid "Report Trademark Abuse"
 msgstr "Report Trademark Abuse"
 

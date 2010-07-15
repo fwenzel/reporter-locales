@@ -82,7 +82,7 @@ msgstr "Aus technischen Gründen können wir nur die jüngsten 1000 Nachrichten 
 msgid "Enter your feedback here."
 msgstr "Geben Sie hier Ihren Kommentar ein."
 
-#: templates/base.html:55
+#: templates/base.html:56
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
 "any later version."
@@ -101,6 +101,10 @@ msgstr "Die jüngsten Neuigkeiten über Mozilla finden Sie hier:"
 #: apps/feedback/__init__.py:9
 msgid "Firefox"
 msgstr "Firefox"
+
+#: templates/includes/lang_switcher.html:10
+msgid "Go"
+msgstr "Weiter"
 
 #: apps/feedback/templates/feedback/feedback.html:34
 msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
@@ -146,7 +150,7 @@ msgstr "Server-Fehler"
 msgid "Last {count} Messages"
 msgstr "Die letzten {count} Kommentare"
 
-#: templates/base.html:51
+#: templates/base.html:52
 msgid "Legal Notices"
 msgstr "Rechtshinweise"
 
@@ -210,6 +214,10 @@ msgstr "Oh! Sie möchten uns gerne Feedback für die nächste Version von Firefo
 msgid "Other"
 msgstr "Andere"
 
+#: templates/includes/lang_switcher.html:2
+msgid "Other languages:"
+msgstr "Weitere Sprachen:"
+
 #: apps/search/templates/search/unavailable.html:9
 msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
 msgstr "Unsere Suchmaschine ist möglicherweise gerade nicht erreichbar. Sie können noch einmal zur <a href=\"%(url)s\">Hauptseite</a> zurückgehen und es später erneut versuchen."
@@ -230,7 +238,7 @@ msgstr "Bitte stellen Sie sicher, keine sensiblen Daten preiszugeben."
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 msgstr "Bitte gehen Sie zurück zur <a href=\"%(dashboard_url)s\">Hauptseite</a>."
 
-#: templates/base.html:50
+#: templates/base.html:51
 msgid "Privacy Policy"
 msgstr "Datenschutzerklärung"
 
@@ -250,7 +258,7 @@ msgstr "Produkt:"
 msgid "Query has timed out."
 msgstr "Zeitüberschreitung beim Suchen."
 
-#: templates/base.html:52
+#: templates/base.html:53
 msgid "Report Trademark Abuse"
 msgstr "Missbrauch unserer Warenzeichen melden"
 
