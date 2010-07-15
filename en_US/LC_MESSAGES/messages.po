@@ -16,6 +16,16 @@ msgstr ""
 msgid "&laquo; previous"
 msgstr "&laquo; previous"
 
+#. Link to user agent info.
+#: apps/dashboard/templates/dashboard/messages.html:11
+msgid "(UA)"
+msgstr "(UA)"
+
+#. Link to an opinion's URL.
+#: apps/dashboard/templates/dashboard/messages.html:14
+msgid "(URL)"
+msgstr "(URL)"
+
 #. L10n: This is a placeholder in the search form, for all items in a list.
 #: apps/search/forms.py:37
 msgid "-- all --"
@@ -158,7 +168,7 @@ msgstr "Locale:"
 msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
 msgstr "Locale: <span class=\"opt\">%(locale)s</span>;"
 
-#: apps/dashboard/templates/dashboard/messages.html:21
+#: apps/dashboard/templates/dashboard/messages.html:24
 msgid "Locale: {locale}"
 msgstr "Locale: {locale}"
 
@@ -190,7 +200,7 @@ msgstr "OS:"
 msgid "OS: <span class=\"opt\">%(os)s</span>"
 msgstr "OS: <span class=\"opt\">%(os)s</span>"
 
-#: apps/dashboard/templates/dashboard/messages.html:19
+#: apps/dashboard/templates/dashboard/messages.html:22
 msgid "OS: {os_name}"
 msgstr "OS: {os_name}"
 
@@ -385,3 +395,8 @@ msgstr "to"
 #: apps/dashboard/templates/dashboard/demographics.html:13 apps/feedback/helpers.py:16 apps/search/forms.py:27
 msgid "unknown"
 msgstr "unknown"
+
+#. This is a link to the URL associated with an opinion.
+#: apps/dashboard/templates/dashboard/messages.html:17
+msgid "visit &rarr;"
+msgstr "visit &rarr;"
