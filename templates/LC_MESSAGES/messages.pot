@@ -1,3 +1,21 @@
+#: apps/dashboard/forms.py:9
+msgid "1 day"
+msgstr ""
+
+#: apps/dashboard/forms.py:10
+msgid "1 week"
+msgstr ""
+
+#: apps/dashboard/forms.py:11
+msgid "1 month"
+msgstr ""
+
+#: apps/dashboard/forms.py:12
+#: apps/search/templates/search/search.html:32
+#: apps/search/templates/search/search.html:35
+msgid "all"
+msgstr ""
+
 #: apps/dashboard/templates/dashboard/dashboard.html:12
 msgid "Please enable JavaScript to view this page."
 msgstr ""
@@ -36,6 +54,7 @@ msgstr ""
 
 #: apps/dashboard/templates/dashboard/demographics.html:13
 #: apps/feedback/helpers.py:16
+#: apps/search/forms.py:27
 msgid "unknown"
 msgstr ""
 
@@ -53,11 +72,37 @@ msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
 msgstr ""
 
 #: apps/dashboard/templates/dashboard/sentiments.html:29
+#: apps/search/forms.py:21
 msgid "happy"
 msgstr ""
 
 #: apps/dashboard/templates/dashboard/sentiments.html:31
+#: apps/search/forms.py:22
 msgid "sad"
+msgstr ""
+
+#: apps/feedback/__init__.py:9
+msgid "Firefox"
+msgstr ""
+
+#: apps/feedback/__init__.py:15
+msgid "Mobile"
+msgstr ""
+
+#: apps/feedback/__init__.py:45
+msgid "Windows"
+msgstr ""
+
+#: apps/feedback/__init__.py:50
+msgid "Mac OS X"
+msgstr ""
+
+#: apps/feedback/__init__.py:55
+msgid "Linux"
+msgstr ""
+
+#: apps/feedback/__init__.py:60
+msgid "Other"
 msgstr ""
 
 #: apps/feedback/forms.py:21
@@ -181,6 +226,11 @@ msgstr ""
 msgid "Sphinx threw an unknown exception: %s"
 msgstr ""
 
+#. L10n: This is a placeholder in the search form, for all items in a list.
+#: apps/search/forms.py:37
+msgid "-- all --"
+msgstr ""
+
 #: apps/search/forms.py:47
 msgid "Search Terms"
 msgstr ""
@@ -235,11 +285,6 @@ msgstr ""
 
 #: apps/search/templates/search/search.html:32
 msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
-msgstr ""
-
-#: apps/search/templates/search/search.html:32
-#: apps/search/templates/search/search.html:35
-msgid "all"
 msgstr ""
 
 #: apps/search/templates/search/search.html:35

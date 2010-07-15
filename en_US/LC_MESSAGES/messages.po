@@ -16,6 +16,23 @@ msgstr ""
 msgid "&laquo; previous"
 msgstr "&laquo; previous"
 
+#. L10n: This is a placeholder in the search form, for all items in a list.
+#: apps/search/forms.py:37
+msgid "-- all --"
+msgstr "-- all --"
+
+#: apps/dashboard/forms.py:9
+msgid "1 day"
+msgstr "1 day"
+
+#: apps/dashboard/forms.py:11
+msgid "1 month"
+msgstr "1 month"
+
+#: apps/dashboard/forms.py:10
+msgid "1 week"
+msgstr "1 week"
+
 #. Total refers to a message count.
 #: apps/dashboard/templates/dashboard/sentiments.html:23
 msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
@@ -73,6 +90,10 @@ msgstr "Feedback must not contain HTML."
 msgid "Find out the latest news from Mozilla:"
 msgstr "Find out the latest news from Mozilla:"
 
+#: apps/feedback/__init__.py:9
+msgid "Firefox"
+msgstr "Firefox"
+
 #: apps/feedback/templates/feedback/feedback.html:34
 msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
 msgstr "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
@@ -121,6 +142,10 @@ msgstr "Last {count} Messages"
 msgid "Legal Notices"
 msgstr "Legal Notices"
 
+#: apps/feedback/__init__.py:55
+msgid "Linux"
+msgstr "Linux"
+
 #: apps/dashboard/templates/dashboard/demographics.html:10
 msgid "Locale"
 msgstr "Locale"
@@ -136,6 +161,14 @@ msgstr "Locale: <span class=\"opt\">%(locale)s</span>;"
 #: apps/dashboard/templates/dashboard/messages.html:21
 msgid "Locale: {locale}"
 msgstr "Locale: {locale}"
+
+#: apps/feedback/__init__.py:50
+msgid "Mac OS X"
+msgstr "Mac OS X"
+
+#: apps/feedback/__init__.py:15
+msgid "Mobile"
+msgstr "Mobile"
 
 #: apps/search/templates/search/search.html:49
 msgid "No search results found."
@@ -164,6 +197,10 @@ msgstr "OS: {os_name}"
 #: apps/feedback/templates/feedback/need_beta.html:8
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be a part of our Beta Program."
 msgstr "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be a part of our Beta Program."
+
+#: apps/feedback/__init__.py:60
+msgid "Other"
+msgstr "Other"
 
 #: apps/search/templates/search/unavailable.html:9
 msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
@@ -294,6 +331,10 @@ msgstr "We are sorry that you have not had a good experience with our browser. P
 msgid "Welcome!"
 msgstr "Welcome!"
 
+#: apps/feedback/__init__.py:45
+msgid "Windows"
+msgstr "Windows"
+
 #: apps/feedback/validators.py:46
 #, fuzzy
 msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
@@ -307,11 +348,11 @@ msgstr "Your feedback seems to contain a URL. Please remove this and similar per
 msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
 
-#: apps/search/templates/search/search.html:32 apps/search/templates/search/search.html:35
+#: apps/dashboard/forms.py:12 apps/search/templates/search/search.html:32 apps/search/templates/search/search.html:35
 msgid "all"
 msgstr "all"
 
-#: apps/dashboard/templates/dashboard/sentiments.html:29
+#: apps/dashboard/templates/dashboard/sentiments.html:29 apps/search/forms.py:21
 #, fuzzy
 msgid "happy"
 msgstr "happy face"
@@ -328,7 +369,7 @@ msgstr "next &raquo;"
 msgid "page %(pagenum)s of %(total)s"
 msgstr "page %(pagenum)s of %(total)s"
 
-#: apps/dashboard/templates/dashboard/sentiments.html:31
+#: apps/dashboard/templates/dashboard/sentiments.html:31 apps/search/forms.py:22
 msgid "sad"
 msgstr "sad"
 
@@ -341,6 +382,6 @@ msgstr "sad face"
 msgid "to"
 msgstr "to"
 
-#: apps/dashboard/templates/dashboard/demographics.html:13 apps/feedback/helpers.py:16
+#: apps/dashboard/templates/dashboard/demographics.html:13 apps/feedback/helpers.py:16 apps/search/forms.py:27
 msgid "unknown"
 msgstr "unknown"
