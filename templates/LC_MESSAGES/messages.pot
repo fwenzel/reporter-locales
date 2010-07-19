@@ -54,50 +54,50 @@ msgstr ""
 
 #: apps/dashboard/templates/dashboard/demographics.html:13
 #: apps/feedback/helpers.py:16
-#: apps/search/forms.py:30
+#: apps/search/forms.py:31
 msgid "unknown"
 msgstr ""
 
 #. Link to Google Translator
-#: apps/dashboard/templates/dashboard/messages.html:13
+#: apps/dashboard/templates/dashboard/messages.html:17
 msgid "Translate!"
 msgstr ""
 
 #. Link to user agent info.
-#: apps/dashboard/templates/dashboard/messages.html:16
+#: apps/dashboard/templates/dashboard/messages.html:20
 msgid "UA"
 msgstr ""
 
 #. Link to an opinion's URL.
-#: apps/dashboard/templates/dashboard/messages.html:20
+#: apps/dashboard/templates/dashboard/messages.html:24
 msgid "URL"
 msgstr ""
 
 #. This is a link to the URL associated with an opinion.
-#: apps/dashboard/templates/dashboard/messages.html:27
+#: apps/dashboard/templates/dashboard/messages.html:31
 msgid "visit &rarr;"
 msgstr ""
 
-#: apps/dashboard/templates/dashboard/messages.html:32
+#: apps/dashboard/templates/dashboard/messages.html:36
 msgid "OS: {os_name}"
 msgstr ""
 
-#: apps/dashboard/templates/dashboard/messages.html:34
+#: apps/dashboard/templates/dashboard/messages.html:38
 msgid "Locale: {locale}"
 msgstr ""
 
 #. Total refers to a message count.
-#: apps/dashboard/templates/dashboard/sentiments.html:23
+#: apps/dashboard/templates/dashboard/sentiments.html:26
 msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
 msgstr ""
 
-#: apps/dashboard/templates/dashboard/sentiments.html:29
-#: apps/search/forms.py:24
+#: apps/dashboard/templates/dashboard/sentiments.html:32
+#: apps/search/forms.py:25
 msgid "happy"
 msgstr ""
 
-#: apps/dashboard/templates/dashboard/sentiments.html:31
-#: apps/search/forms.py:25
+#: apps/dashboard/templates/dashboard/sentiments.html:34
+#: apps/search/forms.py:26
 msgid "sad"
 msgstr ""
 
@@ -125,11 +125,11 @@ msgstr ""
 msgid "Other"
 msgstr ""
 
-#: apps/feedback/forms.py:21
+#: apps/feedback/forms.py:22
 msgid "Enter your feedback here."
 msgstr ""
 
-#: apps/feedback/forms.py:33
+#: apps/feedback/forms.py:37
 msgid "We already got your feedback! Thanks."
 msgstr ""
 
@@ -247,40 +247,40 @@ msgid "Sphinx threw an unknown exception: %s"
 msgstr ""
 
 #. L10n: This is a placeholder in the search form, for all items in a list.
-#: apps/search/forms.py:40
+#: apps/search/forms.py:41
 msgid "-- all --"
 msgstr ""
 
-#: apps/search/forms.py:50
+#: apps/search/forms.py:46
 msgid "Search Terms"
 msgstr ""
 
-#: apps/search/forms.py:52
+#: apps/search/forms.py:48
 msgid "Product:"
 msgstr ""
 
-#: apps/search/forms.py:55
+#: apps/search/forms.py:51
 msgid "Version:"
 msgstr ""
 
-#: apps/search/forms.py:56
+#: apps/search/forms.py:52
 msgid "Sentiment:"
 msgstr ""
 
-#: apps/search/forms.py:58
+#: apps/search/forms.py:54
 msgid "Locale:"
 msgstr ""
 
-#: apps/search/forms.py:60
+#: apps/search/forms.py:56
 msgid "OS:"
 msgstr ""
 
-#: apps/search/forms.py:63
+#: apps/search/forms.py:59
 msgid "Date range:"
 msgstr ""
 
 #. L10n: This indicates the second part of a date range.
-#: apps/search/forms.py:66
+#: apps/search/forms.py:62
 msgid "to"
 msgstr ""
 
@@ -331,7 +331,7 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: apps/search/templates/search/search_form.html:22
+#: apps/search/templates/search/search_form.html:27
 msgid "Advanced"
 msgstr ""
 
