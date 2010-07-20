@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 15:37+0200\n"
-"PO-Revision-Date: 2010-07-19 20:02+0200\n"
+"PO-Revision-Date: 2010-07-20 10:49+0200\n"
 "Last-Translator: Leszek <leszekz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -49,7 +49,7 @@ msgstr "Tendencje"
 #: apps/dashboard/templates/dashboard/dashboard.html:27
 #: apps/search/templates/search/search.html:94
 msgid "Demographics"
-msgstr "Demografiki"
+msgstr "Statystyki"
 
 #. Link on the dashboard to show more messages.
 #: apps/dashboard/templates/dashboard/dashboard.html:35
@@ -66,13 +66,13 @@ msgstr "OS"
 
 #: apps/dashboard/templates/dashboard/demographics.html:10
 msgid "Locale"
-msgstr "Lokalizacje"
+msgstr "Języki"
 
 #: apps/dashboard/templates/dashboard/demographics.html:13
 #: apps/feedback/helpers.py:16
 #: apps/search/forms.py:31
 msgid "unknown"
-msgstr "nieznany"
+msgstr "nieznana"
 
 #. Link to Google Translator
 #: apps/dashboard/templates/dashboard/messages.html:17
@@ -110,12 +110,12 @@ msgstr "<a href=\"%(url)s\">Ogółem</a>: %(count)s"
 #: apps/dashboard/templates/dashboard/sentiments.html:32
 #: apps/search/forms.py:25
 msgid "happy"
-msgstr "uśmiech"
+msgstr "pozytywne"
 
 #: apps/dashboard/templates/dashboard/sentiments.html:34
 #: apps/search/forms.py:26
 msgid "sad"
-msgstr "smutek"
+msgstr "negatywne"
 
 #: apps/feedback/__init__.py:9
 msgid "Firefox"
@@ -284,7 +284,7 @@ msgstr "Sphinx zwrócił nieznany wyjątek: %s"
 #. L10n: This is a placeholder in the search form, for all items in a list.
 #: apps/search/forms.py:41
 msgid "-- all --"
-msgstr "— wszystko —"
+msgstr "— wszystkie —"
 
 #: apps/search/forms.py:46
 msgid "Search Terms"
