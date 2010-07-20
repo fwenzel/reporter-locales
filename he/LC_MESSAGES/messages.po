@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-20 20:41+0200\n"
-"PO-Revision-Date: 2010-07-20 20:42+0200\n"
+"PO-Revision-Date: 2010-07-21 00:40+0200\n"
 "Last-Translator: Tomer <tomer@gmx.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -23,286 +23,309 @@ msgstr "שבוע"
 
 #: apps/dashboard/forms.py:11
 msgid "1 month"
-msgstr ""
+msgstr "חודש"
 
 #: apps/dashboard/forms.py:12
 #: apps/search/templates/search/search.html:32
 #: apps/search/templates/search/search.html:35
 msgid "all"
-msgstr ""
+msgstr "הכל"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:12
 msgid "Please enable JavaScript to view this page."
-msgstr ""
+msgstr "נא לאפשר JavaScript כדי לצפות בדף זה."
 
 #: apps/dashboard/templates/dashboard/dashboard.html:19
 #: apps/search/templates/search/search.html:80
 msgid "Overview"
-msgstr ""
+msgstr "סקירה"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:23
 #: apps/search/templates/search/search.html:87
 msgid "Trends"
-msgstr ""
+msgstr "מגמות"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:27
 #: apps/search/templates/search/search.html:94
 msgid "Demographics"
-msgstr ""
+msgstr "דמוגרפיה"
 
 #. Link on the dashboard to show more messages.
 #: apps/dashboard/templates/dashboard/dashboard.html:35
 msgid "Show more"
-msgstr ""
+msgstr "הצג עוד"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:37
 msgid "Last {count} Messages"
-msgstr ""
+msgstr "{count} הודעות אחרונות"
 
 #: apps/dashboard/templates/dashboard/demographics.html:3
 msgid "OS"
-msgstr ""
+msgstr "מערכת הפעלה"
 
 #: apps/dashboard/templates/dashboard/demographics.html:10
 msgid "Locale"
-msgstr ""
+msgstr "שפה"
 
 #: apps/dashboard/templates/dashboard/demographics.html:13
 #: apps/feedback/helpers.py:16
 #: apps/search/forms.py:31
 msgid "unknown"
-msgstr ""
+msgstr "לא ידוע"
 
 #. Link to Google Translator
 #: apps/dashboard/templates/dashboard/messages.html:17
 msgid "Translate!"
-msgstr ""
+msgstr "תרגם!"
 
 #. Link to user agent info.
 #: apps/dashboard/templates/dashboard/messages.html:20
 msgid "UA"
-msgstr ""
+msgstr "סוכן משתמש"
 
 #. Link to an opinion's URL.
 #: apps/dashboard/templates/dashboard/messages.html:24
 msgid "URL"
-msgstr ""
+msgstr "כתובת"
 
 #. This is a link to the URL associated with an opinion.
 #: apps/dashboard/templates/dashboard/messages.html:31
 msgid "visit &rarr;"
-msgstr ""
+msgstr "בקר &rarr;"
 
 #: apps/dashboard/templates/dashboard/messages.html:36
 msgid "OS: {os_name}"
-msgstr ""
+msgstr "מערכת הפעלה: {os_name}"
 
 #: apps/dashboard/templates/dashboard/messages.html:38
 msgid "Locale: {locale}"
-msgstr ""
+msgstr "שפה: {locale}"
 
 #. Total refers to a message count.
 #: apps/dashboard/templates/dashboard/sentiments.html:26
 msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
-msgstr ""
+msgstr "<a href=\"%(url)s\">סך־הכל</a>: %(count)s"
 
 #: apps/dashboard/templates/dashboard/sentiments.html:32
 #: apps/search/forms.py:25
 msgid "happy"
-msgstr ""
+msgstr "שמח"
 
 #: apps/dashboard/templates/dashboard/sentiments.html:34
 #: apps/search/forms.py:26
 msgid "sad"
-msgstr ""
+msgstr "עצוב"
 
 #: apps/feedback/__init__.py:9
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: apps/feedback/__init__.py:16
 msgid "Mobile"
-msgstr ""
+msgstr "Mobile"
 
 #: apps/feedback/__init__.py:46
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: apps/feedback/__init__.py:51
 msgid "Mac OS X"
-msgstr ""
+msgstr "Mac OS X"
 
 #: apps/feedback/__init__.py:56
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: apps/feedback/__init__.py:61
 msgid "Other"
-msgstr ""
+msgstr "אחר"
 
 #: apps/feedback/forms.py:22
 msgid "Enter your feedback here."
-msgstr ""
+msgstr "הכנס את המשוב שלך כאן."
 
 #: apps/feedback/forms.py:37
 msgid "We already got your feedback! Thanks."
-msgstr ""
+msgstr "קיבלנו את המשוב שלך! תודה."
 
 #: apps/feedback/helpers.py:36
 msgid "happy face"
-msgstr ""
+msgstr "פנים שמחות"
 
 #: apps/feedback/helpers.py:39
 msgid "sad face"
-msgstr ""
+msgstr "פנים עצובות"
 
 #: apps/feedback/validators.py:29
 msgid "User agent string was not recognizable."
-msgstr ""
+msgstr "מחרוזת סוכן המשתמש לא זוהתה."
 
 #: apps/feedback/validators.py:37
 msgid "Submitted User Agent is not the latest beta version."
-msgstr ""
+msgstr "סוכן המשתמש שנשלח אינו גרסת הבטא האחרונה."
 
+# 'swear' is a promise or a curse? I just want to make sure I'm not doing mistakes here. 
 #: apps/feedback/validators.py:46
+#, fuzzy
 msgid ""
 "Your comment contains swear words (%s). In order to help us improve our "
 "products, please use words that help us create an action or to-do from your "
 "constructive feedback. Thanks!"
 msgstr ""
+"התגובה שלך כוללת קללות (%s). כדי לסייע לנו להפיק את המיטב מהמוצרים שלנו, אנא "
+"השתמש במילים שיכולות לעזור לנו לבצע פעולה או רשימת משימות מהמשוב הבונה שלך. "
+"תודה!"
 
 #: apps/feedback/validators.py:55
 msgid "Feedback must not contain HTML."
-msgstr ""
+msgstr "המשוב אינו יכול להכיל HTML."
 
 #: apps/feedback/validators.py:62
 msgid ""
 "Your feedback seems to contain an email address. Please remove this and "
 "similar personal data from the text, then try again. Thanks!"
 msgstr ""
+"נראה שהמשוב שלך כולל כתובת דואר אלקטרוני. אנא הסר כתובת זו ונתונים אישיים "
+"דומים מהמלל ונסה שוב. תודה!"
 
 #: apps/feedback/validators.py:71
 msgid ""
 "Your feedback seems to contain a URL. Please remove this and similar "
 "personal data from the text, then try again. Thanks!"
 msgstr ""
+"המשוב שלך כולל כתובת של אתר. בבקשה הסר אותה ונתונים אישיים דומים מהמלל ונסה "
+"שוב. תודה!"
 
 #: apps/feedback/views.py:32
 msgid "User-Agent request header must be set."
-msgstr ""
+msgstr "חובה להגדיר בבקשה כותר סוכן משתמש."
 
 #: apps/feedback/templates/feedback/feedback.html:3
 #: apps/feedback/templates/feedback/feedback.html:56
 msgid "Submit Feedback"
-msgstr ""
+msgstr "שליחת משוב"
 
 #: apps/feedback/templates/feedback/feedback.html:13
 msgid ""
 "Super! It's great to hear that you like our pre-released browser. Please "
 "explain what you specifically like!"
 msgstr ""
+"מעולה! אנו שמחים לשמוע שאתה נהנה מגרסת הטרום־שחרור של הדפדפן שלנו. בבקשה ספר "
+"לנו מה אתה אוהב במיוחד."
 
 #: apps/feedback/templates/feedback/feedback.html:20
 msgid ""
 "We are sorry that you have not had a good experience with our browser. "
 "Please tell us why, so we can improve it!"
 msgstr ""
+"אנו מצטערים לשמוע שלא הייתה לך חווית שימוש טובה עם הדפדפן שלנו. בבקשה ספר "
+"לנו מדוע, כדי שנוכל לשפר אותו."
 
 #: apps/feedback/templates/feedback/feedback.html:34
 msgid ""
 "Had an issue with a specific website? Please add the URL, so we can find the "
 "issue faster!"
 msgstr ""
+"הייתה לך בעיה עם אתר מסויים? בבקשה הכנס את כתובתו, כדי שנוכל למצוא את המידע "
+"מהר יותר."
 
 #: apps/feedback/templates/feedback/feedback.html:54
 msgid ""
 "Please ensure that there is no personally identifiable information here."
-msgstr ""
+msgstr "אנא וודא כי אין בטופס מידע אישי שניתן לזיהוי."
 
 #: apps/feedback/templates/feedback/need_beta.html:3
 msgid "Download Beta"
-msgstr ""
+msgstr "הורדת גרסת הבטא"
 
 #: apps/feedback/templates/feedback/need_beta.html:8
 msgid ""
 "Oh! So, you want to offer us feedback on the next version of Firefox. Thank "
 "you, but you'll need to be a part of our Beta Program."
 msgstr ""
+"נראה שאתה מציע לנו משוב על הגרסה הבאה של Firefox. תודה לך, אבל תצטרך להיות "
+"חלק מתכנית הבטא שלנו לשם כך."
 
 #: apps/feedback/templates/feedback/need_beta.html:14
 msgid ""
 "To join, simply go to our download page and get <a href=\"%(url)s\">the latest "
 "Firefox Beta!</a>"
 msgstr ""
+"כדי להצטרף, עליך לעבור לדף ההורדה ולהוריד את <a href=\"%(url)s\">גרסת הבטא של "
+"Firefox!</a>"
 
 #: apps/feedback/templates/feedback/thanks.html:3
 msgid "Thanks for Your Feedback"
-msgstr ""
+msgstr "תודה על המשוב"
 
 #: apps/feedback/templates/feedback/thanks.html:7
 msgid "Thanks for sending us your feedback!"
-msgstr ""
+msgstr "תודה רבה על ששלחת אלינו את המשוב שלך!"
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid ""
 "If you want to see where your feedback was sent to, take a look at our <a "
 "href=\"%(url)s\">Firefox Input Dashboard</a>."
 msgstr ""
+"במידה וברצונך לראות לאן המשוב שלך נשלח, היכנס ל־<a href=\"%(url)s\">Firefox "
+"Input Dashboard</a>."
 
 #: apps/feedback/templates/feedback/thanks.html:17
 msgid "Find out the latest news from Mozilla:"
-msgstr ""
+msgstr "עוד חדשות מ־Mozilla:"
 
 #: apps/search/client.py:60
 msgid "Query has timed out."
-msgstr ""
+msgstr "פג הזמן לשאילתה."
 
 #: apps/search/client.py:62
+#, fuzzy
 msgid "Sphinx threw an unknown exception: %s"
-msgstr ""
+msgstr "Sphinx threw an unknown exception: %s"
 
 #. L10n: This is a placeholder in the search form, for all items in a list.
 #: apps/search/forms.py:41
 msgid "-- all --"
-msgstr ""
+msgstr "-- הכל --"
 
 #: apps/search/forms.py:46
 msgid "Search Terms"
-msgstr ""
+msgstr "מילות חיפוש"
 
 #: apps/search/forms.py:48
 msgid "Product:"
-msgstr ""
+msgstr "מוצר:"
 
 #: apps/search/forms.py:51
 msgid "Version:"
-msgstr ""
+msgstr "גרסה:"
 
 #: apps/search/forms.py:52
 msgid "Sentiment:"
 msgstr ""
 
+# locale -> language, because of lack of better translation.
 #: apps/search/forms.py:54
 msgid "Locale:"
-msgstr ""
+msgstr "שפה:"
 
 #: apps/search/forms.py:56
 msgid "OS:"
-msgstr ""
+msgstr "מערכת הפעלה:"
 
 #: apps/search/forms.py:59
 msgid "Date range:"
-msgstr ""
+msgstr "טווח תאריכים:"
 
 #. L10n: This indicates the second part of a date range.
 #: apps/search/forms.py:62
 msgid "to"
-msgstr ""
+msgstr "עד"
 
 #: apps/search/templates/search/search.html:5
 #: apps/search/templates/search/search.html:7
 msgid "Search Results"
-msgstr ""
+msgstr "תוצאות חיפוש"
 
 #: apps/search/templates/search/search.html:12
 msgid ""
@@ -328,31 +351,31 @@ msgstr ""
 
 #: apps/search/templates/search/search.html:49
 msgid "No search results found."
-msgstr ""
+msgstr "לא נמצאו תוצאות חיפוש."
 
 #: apps/search/templates/search/search.html:59
 msgid "&laquo; previous"
-msgstr ""
+msgstr "&laquo; קודם"
 
 #: apps/search/templates/search/search.html:65
 msgid "next &raquo;"
-msgstr ""
+msgstr "הבא &raquo;"
 
 #: apps/search/templates/search/search.html:69
 msgid "page %(pagenum)s of %(total)s"
-msgstr ""
+msgstr "דף %(pagenum)s מתוך %(total)s"
 
 #: apps/search/templates/search/search_form.html:18
 msgid "Search"
-msgstr ""
+msgstr "חיפוש"
 
 #: apps/search/templates/search/search_form.html:27
 msgid "Advanced"
-msgstr ""
+msgstr "מתקדם"
 
 #: apps/search/templates/search/unavailable.html:4
 msgid "Search Unavailable"
-msgstr ""
+msgstr "חיפוש אינו זמין"
 
 #: apps/search/templates/search/unavailable.html:6
 msgid "I'm sorry, there was an error with your search."
@@ -376,11 +399,11 @@ msgstr ""
 
 #: apps/search/templates/search/unavailable.html:25
 msgid "Thanks!"
-msgstr ""
+msgstr "תודה!"
 
 #: templates/404.html:4
 msgid "Not Found"
-msgstr ""
+msgstr "לא נמצא"
 
 #: templates/404.html:6
 msgid "I'm sorry, I could not find what you were looking for."
@@ -399,7 +422,7 @@ msgstr ""
 
 #: templates/500.html:4
 msgid "Internal Server Error"
-msgstr ""
+msgstr "שגיאת שרת פנימית"
 
 #: templates/500.html:7
 msgid ""
