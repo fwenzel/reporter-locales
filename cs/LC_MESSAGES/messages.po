@@ -6,75 +6,344 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.6.0\n"
 
+#: apps/search/templates/search/search.html:59
+msgid "&laquo; previous"
+msgstr "&laquo; předchozí"
+
+#: apps/search/forms.py:39
+#, fuzzy
+msgctxt "locale_choice"
+msgid "-- all --"
+msgstr "-- vše --"
+
+#: apps/search/forms.py:34
+#, fuzzy
+msgctxt "os_choice"
+msgid "-- all --"
+msgstr "-- vše --"
+
+#: apps/search/forms.py:27
+#, fuzzy
+msgctxt "sentiment_choice"
+msgid "-- all --"
+msgstr "-- vše --"
+
+#: apps/search/forms.py:19
+#, fuzzy
+msgctxt "version_choice"
+msgid "-- all --"
+msgstr "-- vše --"
+
 #: apps/dashboard/forms.py:9
+#, fuzzy
+msgctxt "dashboard_period"
 msgid "1 day"
 msgstr "1 den"
 
-#: apps/dashboard/forms.py:10
-msgid "1 week"
-msgstr "1 týden"
-
 #: apps/dashboard/forms.py:11
+#, fuzzy
+msgctxt "dashboard_period"
 msgid "1 month"
 msgstr "1 měsíc"
 
-#: apps/dashboard/forms.py:12
+#: apps/dashboard/forms.py:10
+#, fuzzy
+msgctxt "dashboard_period"
+msgid "1 week"
+msgstr "1 týden"
+
+#. Total refers to a message count.
+#: apps/dashboard/templates/dashboard/sentiments.html:26
+msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
+msgstr "<a href=\"%(url)s\">Celkem</a>: %(count)s"
+
+#: apps/search/templates/search/search_form.html:27
+msgid "Advanced"
+msgstr "Rozšířené"
+
+#: templates/500.html:7
+msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
+msgstr "V aplikaci se vyskytla nezachycená výjimka. Chyba byla zalogována a byl o ní informován administrátor. Omlouváme se za problémy!"
+
+#: apps/search/forms.py:61
+msgid "Date range:"
+msgstr "Časové rozmezí:"
+
+#: apps/search/templates/search/search.html:27
+msgid "Dates: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
+msgstr "Data: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
+
+#: apps/dashboard/templates/dashboard/dashboard.html:27 apps/search/templates/search/search.html:94
+msgid "Demographics"
+msgstr "Demografie"
+
+#: apps/search/templates/search/search.html:23
+msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
+msgstr "Popis: <span class=\"opt\">\"%(query)s\"</span>;"
+
+#: apps/feedback/templates/feedback/need_beta.html:3
+msgid "Download Beta"
+msgstr "Stáhnout betaverzi"
+
+#: apps/search/templates/search/search.html:12
+msgid "Due to software constraints, we can only show the last 1000 messages for this search query."
+msgstr "Vzhledem k omezení software lze u vašeho vyhledávání zobrazit nejvýše 1000 zpráv."
+
+#: apps/feedback/forms.py:22
+msgid "Enter your feedback here."
+msgstr "Zde vložte svou reakci."
+
+#: templates/base.html:56
+msgid ""
+"Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
+"any later version."
+msgstr ""
+"Pokud není <a href=\"%(legal_url)s\">uvedeno</a> jinak, je obsah tohoto webu pod <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> či jakoukoliv novější "
+"verzí."
+
+#: apps/feedback/validators.py:55
+msgid "Feedback must not contain HTML."
+msgstr "Reakce nesmí obsahovat HTML."
+
+#: apps/feedback/templates/feedback/thanks.html:17
+msgid "Find out the latest news from Mozilla:"
+msgstr "Podívejte se na poslední novinky od Mozilly:"
+
+#: apps/feedback/__init__.py:9
+msgid "Firefox"
+msgstr "Firefox"
+
+#: templates/includes/lang_switcher.html:10
+msgid "Go"
+msgstr "Přejít"
+
+#: apps/feedback/templates/feedback/feedback.html:34
+msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
+msgstr "Máte problém s konkrétního webovou stránkou? Vyplňte URL a my tak budeme moci chybu rychleji nalézt!"
+
+#: templates/404.html:6
+msgid "I'm sorry, I could not find what you were looking for."
+msgstr "Omlouváme se, ale nepodařilo se nalézt to, co hledáte."
+
+#: apps/search/templates/search/unavailable.html:6
+msgid "I'm sorry, there was an error with your search."
+msgstr "Omlouváme se, ale při vyhledávání se vyskytla chyba."
+
+#: apps/search/templates/search/unavailable.html:16
+msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
+msgstr "Pokud tento problém přetrvá, <a href=\"%(bug_url)s\">nahlašte prosím chybu</a> s informací o URL, ke kterému přistupujete."
+
+#: templates/500.html:20
+msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+msgstr "Pokud máte další informace, jak zreprodukovat tento problém, <a href=\"%(bug_url)s\">nahlašte prosím chybu</a>. Děkujeme!"
+
+#: apps/feedback/templates/feedback/thanks.html:10
+msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
+msgstr "Pokud se chcete podívat, kam byla vaše reakce zaslána, podívejte se na <a href=\"%(url)s\">Firefox Input Dashboard</a>."
+
+#: templates/404.html:14
+msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+msgstr "Pokud jste někde klepli na chybný odkaz, <a href=\"%(bug_url)s\">nahlašte prosím chybu</a>. Děkujeme!"
+
+#: apps/search/templates/search/unavailable.html:22
+msgid "Include the following error message in your bug report:"
+msgstr "Do vašeho hlášení o chybě zahrňte následující chybové hlášení:"
+
+#: templates/base.html:29
+msgid "Input Dashboard"
+msgstr "Input Dashboard"
+
+#: templates/500.html:4
+msgid "Internal Server Error"
+msgstr "Interní chyba serveru"
+
+#: apps/dashboard/templates/dashboard/dashboard.html:37
+msgid "Last {count} Messages"
+msgstr "Posledních {count} zpráv"
+
+#: templates/base.html:52
+msgid "Legal Notices"
+msgstr "Právní informace"
+
+#: apps/feedback/__init__.py:56
+msgid "Linux"
+msgstr "Linux"
+
+#: apps/dashboard/templates/dashboard/demographics.html:10
+msgid "Locale"
+msgstr "Jazyk"
+
+#: apps/search/forms.py:56
+msgid "Locale:"
+msgstr "Jazyk:"
+
 #: apps/search/templates/search/search.html:32
+msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
+msgstr "Jazyk: <span class=\"opt\">%(locale)s</span>;"
+
+#: apps/dashboard/templates/dashboard/messages.html:38
+msgid "Locale: {locale}"
+msgstr "Jazyk: {locale}"
+
+#: apps/feedback/__init__.py:51
+msgid "Mac OS X"
+msgstr "Mac OS X"
+
+#: apps/feedback/__init__.py:16
+msgid "Mobile"
+msgstr "Mobilní"
+
+#: apps/search/templates/search/search.html:49
+msgid "No search results found."
+msgstr "Nebyly nalezeny žádné výsledky vyhledávání."
+
+#: templates/404.html:4
+msgid "Not Found"
+msgstr "Nenalezeno"
+
+#: apps/dashboard/templates/dashboard/demographics.html:3
+msgid "OS"
+msgstr "OS"
+
+#: apps/search/forms.py:58
+msgid "OS:"
+msgstr "OS:"
+
 #: apps/search/templates/search/search.html:35
-msgid "all"
-msgstr "vše"
+msgid "OS: <span class=\"opt\">%(os)s</span>"
+msgstr "OS: <span class=\"opt\">%(os)s</span>"
+
+#: apps/dashboard/templates/dashboard/messages.html:36
+msgid "OS: {os_name}"
+msgstr "OS: {os_name}"
+
+#: apps/feedback/templates/feedback/need_beta.html:8
+msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be a part of our Beta Program."
+msgstr "Skvělé! Chcete přidat reakci na poslední verzi Firefoxu. Děkujeme, ale potřebujete být součástí našeho beta programu."
+
+#: apps/feedback/__init__.py:61
+msgid "Other"
+msgstr "Ostatní"
+
+#: templates/includes/lang_switcher.html:2
+msgid "Other languages:"
+msgstr "Ostatní jazyky:"
+
+#: apps/search/templates/search/unavailable.html:9
+msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
+msgstr "Náš vyhledávač může být aktuálně nedostupný. Můžete pokračovat  na <a href=\"%(url)s\">titulní stránku</a> a zkusit to později znovu."
+
+#: apps/dashboard/templates/dashboard/dashboard.html:19 apps/search/templates/search/search.html:80
+msgid "Overview"
+msgstr "Přehled"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:12
 msgid "Please enable JavaScript to view this page."
 msgstr "Pro zobrazení této stránky prosím povolte JavaScript"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:19
-#: apps/search/templates/search/search.html:80
-msgid "Overview"
-msgstr "Přehled"
+#: apps/feedback/templates/feedback/feedback.html:54
+msgid "Please ensure that there is no personally identifiable information here."
+msgstr "Ujistěte se prosím, že nezadáváte žádné osobní údaje."
 
-#: apps/dashboard/templates/dashboard/dashboard.html:23
-#: apps/search/templates/search/search.html:87
-msgid "Trends"
-msgstr "Trendy"
+#: templates/404.html:9 templates/500.html:14
+msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
+msgstr "Začněte na <a href=\"%(dashboard_url)s\">hlavní stránce</a>."
 
-#: apps/dashboard/templates/dashboard/dashboard.html:27
-#: apps/search/templates/search/search.html:94
-msgid "Demographics"
-msgstr "Demografie"
+#: templates/base.html:51
+msgid "Privacy Policy"
+msgstr "Zásady ochrany soukromí"
+
+#: templates/base.html:18
+msgid "Proceed to footer"
+msgstr "Přechod na patičku"
+
+#: templates/base.html:17
+msgid "Proceed to main content"
+msgstr "Přechod na hlavní obsah"
+
+#: apps/search/forms.py:51
+msgid "Product:"
+msgstr "Produkt:"
+
+#: apps/search/client.py:64
+msgid "Query has timed out."
+msgstr "Platnost dotazu vypršela."
+
+#: templates/base.html:53
+msgid "Report Trademark Abuse"
+msgstr "Nahlásit zneužití ochranných známek"
+
+#: apps/search/templates/search/search_form.html:18
+msgid "Search"
+msgstr "Vyhledat"
+
+#: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:7
+msgid "Search Results"
+msgstr "Výsledky vyhledávání"
+
+#: apps/search/forms.py:49
+msgid "Search Terms"
+msgstr "Hledané výrazy"
+
+#: apps/search/templates/search/unavailable.html:4
+msgid "Search Unavailable"
+msgstr "Vyhledávání není dostupné"
+
+#: apps/search/forms.py:54
+msgid "Sentiment:"
+msgstr "Pocit:"
 
 #. Link on the dashboard to show more messages.
 #: apps/dashboard/templates/dashboard/dashboard.html:35
 msgid "Show more"
 msgstr "Zobrazit více"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:37
-msgid "Last {count} Messages"
-msgstr "Posledních {count} zpráv"
+#: apps/search/client.py:66
+msgid "Sphinx threw an unknown exception: %s"
+msgstr "Sphinx vyhodil neznámou výjimku: %s"
 
-#: apps/dashboard/templates/dashboard/demographics.html:3
-msgid "OS"
-msgstr "OS"
+#: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:56
+msgid "Submit Feedback"
+msgstr "Odeslat reakci"
 
-#: apps/dashboard/templates/dashboard/demographics.html:10
-msgid "Locale"
-msgstr "Jazyk"
+#: apps/feedback/validators.py:37
+msgid "Submitted User Agent is not the latest beta version."
+msgstr "Přijmutý user agent neodpovídá poslední betaverzi."
 
-#: apps/dashboard/templates/dashboard/demographics.html:13
-#: apps/feedback/helpers.py:16
-#: apps/search/forms.py:31
-msgid "unknown"
-msgstr "neznámý"
+#: apps/feedback/templates/feedback/feedback.html:13
+msgid "Super! It's great to hear that you like our pre-released browser. Please explain what you specifically like!"
+msgstr "Skvělé! Je hezké slyšet, že se vám vývojová verze prohlížeče líbí. Řekněte nám konkrétně, co se vám líbí!"
+
+#: apps/feedback/templates/feedback/thanks.html:3
+msgid "Thanks for Your Feedback"
+msgstr "Děkujeme za vaši reakci."
+
+#: apps/feedback/templates/feedback/thanks.html:7
+msgid "Thanks for sending us your feedback!"
+msgstr "Děkujeme za odeslání reakce!"
+
+#: apps/search/templates/search/unavailable.html:25
+msgid "Thanks!"
+msgstr "Děkujeme!"
+
+#: apps/feedback/templates/feedback/need_beta.html:14
+msgid "To join, simply go to our download page and get <a href=\"%(url)s\">the latest Firefox Beta!</a>"
+msgstr "Pro připojení jednoduše přejděte na stránku ke stažení a získejte <a href=\"%(url)s\">poslední betaverzi Firefoxu!</a>"
 
 #. Link to Google Translator
 #: apps/dashboard/templates/dashboard/messages.html:17
 msgid "Translate!"
 msgstr "Přeložit!"
+
+#: apps/dashboard/templates/dashboard/dashboard.html:23 apps/search/templates/search/search.html:87
+msgid "Trends"
+msgstr "Trendy"
 
 #. Link to user agent info.
 #: apps/dashboard/templates/dashboard/messages.html:20
@@ -86,271 +355,63 @@ msgstr "UA"
 msgid "URL"
 msgstr "URL"
 
-#. This is a link to the URL associated with an opinion.
-#: apps/dashboard/templates/dashboard/messages.html:31
-msgid "visit &rarr;"
-msgstr "navštívit &rarr;"
-
-#: apps/dashboard/templates/dashboard/messages.html:36
-msgid "OS: {os_name}"
-msgstr "OS: {os_name}"
-
-#: apps/dashboard/templates/dashboard/messages.html:38
-msgid "Locale: {locale}"
-msgstr "Jazyk: {locale}"
-
-#. Total refers to a message count.
-#: apps/dashboard/templates/dashboard/sentiments.html:26
-msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
-msgstr "<a href=\"%(url)s\">Celkem</a>: %(count)s"
-
-#: apps/dashboard/templates/dashboard/sentiments.html:32
-#: apps/search/forms.py:25
-msgid "happy"
-msgstr "šťastný"
-
-#: apps/dashboard/templates/dashboard/sentiments.html:34
-#: apps/search/forms.py:26
-msgid "sad"
-msgstr "smutný"
-
-#: apps/feedback/__init__.py:9
-msgid "Firefox"
-msgstr "Firefox"
-
-#: apps/feedback/__init__.py:16
-msgid "Mobile"
-msgstr "Mobilní"
-
-#: apps/feedback/__init__.py:46
-msgid "Windows"
-msgstr "Windows"
-
-#: apps/feedback/__init__.py:51
-msgid "Mac OS X"
-msgstr "Mac OS X"
-
-#: apps/feedback/__init__.py:56
-msgid "Linux"
-msgstr "Linux"
-
-#: apps/feedback/__init__.py:61
-msgid "Other"
-msgstr "Ostatní"
-
-#: apps/feedback/forms.py:22
-msgid "Enter your feedback here."
-msgstr "Zde vložte svou reakci."
-
-#: apps/feedback/forms.py:37
-msgid "We already got your feedback! Thanks."
-msgstr "Již jsme vaši reakci získali. Díky!"
-
-#: apps/feedback/helpers.py:36
-msgid "happy face"
-msgstr "veselá tvář"
-
-#: apps/feedback/helpers.py:39
-msgid "sad face"
-msgstr "smutná tvář"
-
 #: apps/feedback/validators.py:29
 msgid "User agent string was not recognizable."
 msgstr "User agent řetězec nebyl rozpoznán."
-
-#: apps/feedback/validators.py:37
-msgid "Submitted User Agent is not the latest beta version."
-msgstr "Přijmutý user agent neodpovídá poslední betaverzi."
-
-#: apps/feedback/validators.py:46
-msgid ""
-"Your comment contains swear words (%s). In order to help us improve our "
-"products, please use words that help us create an action or to-do from your "
-"constructive feedback. Thanks!"
-msgstr ""
-"Váš komentář obsahuje některá nevhodná slova (%s). Pokud chcete pomoci "
-"vylepšit naše produkty, pište prosím reakci konstruktivně. Děkujeme!"
-
-#: apps/feedback/validators.py:55
-msgid "Feedback must not contain HTML."
-msgstr "Reakce nesmí obsahovat HTML."
-
-#: apps/feedback/validators.py:62
-msgid ""
-"Your feedback seems to contain an email address. Please remove this and "
-"similar personal data from the text, then try again. Thanks!"
-msgstr ""
-"Zdá se, že vaše reakce obsahuje e-mailovou adresu. Odstraňte ji prosím spolu "
-"s dalšími případnými osobními údaji a zkuste to znovu. Děkujeme!"
-
-#: apps/feedback/validators.py:71
-msgid ""
-"Your feedback seems to contain a URL. Please remove this and similar "
-"personal data from the text, then try again. Thanks!"
-msgstr ""
-"Zdá se, že vaše reakce obsahuje URL. Proveďte prosím její odstranění spolu s "
-"odstraněním jakýchkoliv osobních dat a zkuste to znovu. Děkujeme!"
 
 #: apps/feedback/views.py:32
 msgid "User-Agent request header must be set."
 msgstr "Hlavička user-agent musí být nastavena."
 
-#: apps/feedback/templates/feedback/feedback.html:3
-#: apps/feedback/templates/feedback/feedback.html:56
-msgid "Submit Feedback"
-msgstr "Odeslat reakci"
-
-#: apps/feedback/templates/feedback/feedback.html:13
-msgid ""
-"Super! It's great to hear that you like our pre-released browser. Please "
-"explain what you specifically like!"
-msgstr ""
-"Skvělé! Je hezké slyšet, že se vám vývojová verze prohlížeče líbí. Řekněte "
-"nám konkrétně, co se vám líbí!"
-
-#: apps/feedback/templates/feedback/feedback.html:20
-msgid ""
-"We are sorry that you have not had a good experience with our browser. "
-"Please tell us why, so we can improve it!"
-msgstr ""
-"Je nám líto, že máte špatnou zkušenost s našim prohlížečem. Řekněte nám "
-"prosím proč, abychom to mohli změnit!"
-
-#: apps/feedback/templates/feedback/feedback.html:34
-msgid ""
-"Had an issue with a specific website? Please add the URL, so we can find the "
-"issue faster!"
-msgstr ""
-"Máte problém s konkrétního webovou stránkou? Vyplňte URL a my tak budeme "
-"moci chybu rychleji nalézt!"
-
-#: apps/feedback/templates/feedback/feedback.html:54
-msgid ""
-"Please ensure that there is no personally identifiable information here."
-msgstr "Ujistěte se prosím, že nezadáváte žádné osobní údaje."
-
-#: apps/feedback/templates/feedback/need_beta.html:3
-msgid "Download Beta"
-msgstr "Stáhnout betaverzi"
-
-#: apps/feedback/templates/feedback/need_beta.html:8
-msgid ""
-"Oh! So, you want to offer us feedback on the next version of Firefox. Thank "
-"you, but you'll need to be a part of our Beta Program."
-msgstr ""
-"Skvělé! Chcete přidat reakci na poslední verzi Firefoxu. Děkujeme, ale "
-"potřebujete být součástí našeho beta programu."
-
-#: apps/feedback/templates/feedback/need_beta.html:14
-msgid ""
-"To join, simply go to our download page and get <a href=\"%(url)s\">the latest "
-"Firefox Beta!</a>"
-msgstr ""
-"Pro připojení jednoduše přejděte na stránku ke stažení a získejte <a href=\"%"
-"(url)s\">poslední betaverzi Firefoxu!</a>"
-
-#: apps/feedback/templates/feedback/thanks.html:3
-msgid "Thanks for Your Feedback"
-msgstr "Děkujeme za vaši reakci."
-
-#: apps/feedback/templates/feedback/thanks.html:7
-msgid "Thanks for sending us your feedback!"
-msgstr "Děkujeme za odeslání reakce!"
-
-#: apps/feedback/templates/feedback/thanks.html:10
-msgid ""
-"If you want to see where your feedback was sent to, take a look at our <a "
-"href=\"%(url)s\">Firefox Input Dashboard</a>."
-msgstr ""
-"Pokud se chcete podívat, kam byla vaše reakce zaslána, podívejte se na <a "
-"href=\"%(url)s\">Firefox Input Dashboard</a>."
-
-#: apps/feedback/templates/feedback/thanks.html:17
-msgid "Find out the latest news from Mozilla:"
-msgstr "Podívejte se na poslední novinky od Mozilly:"
-
-#: apps/search/client.py:60
-msgid "Query has timed out."
-msgstr "Platnost dotazu vypršela."
-
-#: apps/search/client.py:62
-msgid "Sphinx threw an unknown exception: %s"
-msgstr "Sphinx vyhodil neznámou výjimku: %s"
-
-#. L10n: This is a placeholder in the search form, for all items in a list.
-#: apps/search/forms.py:41
-msgid "-- all --"
-msgstr "-- vše --"
-
-#: apps/search/forms.py:46
-msgid "Search Terms"
-msgstr "Hledané výrazy"
-
-#: apps/search/forms.py:48
-msgid "Product:"
-msgstr "Produkt:"
-
-#: apps/search/forms.py:51
+#: apps/search/forms.py:53
 msgid "Version:"
 msgstr "Verze:"
 
-#: apps/search/forms.py:52
-msgid "Sentiment:"
-msgstr "Pocit:"
+#: apps/feedback/forms.py:37
+msgid "We already got your feedback! Thanks."
+msgstr "Již jsme vaši reakci získali. Díky!"
 
-#: apps/search/forms.py:54
-msgid "Locale:"
-msgstr "Jazyk:"
+#: apps/feedback/templates/feedback/feedback.html:20
+msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can improve it!"
+msgstr "Je nám líto, že máte špatnou zkušenost s našim prohlížečem. Řekněte nám prosím proč, abychom to mohli změnit!"
 
-#: apps/search/forms.py:56
-msgid "OS:"
-msgstr "OS:"
+#: templates/base.html:5
+msgid "Welcome!"
+msgstr "Vítejte!"
 
-#: apps/search/forms.py:59
-msgid "Date range:"
-msgstr "Časové rozmezí:"
+#: apps/feedback/__init__.py:46
+msgid "Windows"
+msgstr "Windows"
 
-#. L10n: This indicates the second part of a date range.
-#: apps/search/forms.py:62
-msgid "to"
-msgstr "do"
+#: apps/feedback/validators.py:46
+msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
+msgstr "Váš komentář obsahuje některá nevhodná slova (%s). Pokud chcete pomoci vylepšit naše produkty, pište prosím reakci konstruktivně. Děkujeme!"
 
-#: apps/search/templates/search/search.html:5
-#: apps/search/templates/search/search.html:7
-msgid "Search Results"
-msgstr "Výsledky vyhledávání"
+#: apps/feedback/validators.py:71
+msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
+msgstr "Zdá se, že vaše reakce obsahuje URL. Proveďte prosím její odstranění spolu s odstraněním jakýchkoliv osobních dat a zkuste to znovu. Děkujeme!"
 
-#: apps/search/templates/search/search.html:12
-msgid ""
-"Due to software constraints, we can only show the last 1000 messages for "
-"this search query."
-msgstr ""
-"Vzhledem k omezení software lze u vašeho vyhledávání zobrazit nejvýše 1000 "
-"zpráv."
+#: apps/feedback/validators.py:62
+msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
+msgstr "Zdá se, že vaše reakce obsahuje e-mailovou adresu. Odstraňte ji prosím spolu s dalšími případnými osobními údaji a zkuste to znovu. Děkujeme!"
 
-#: apps/search/templates/search/search.html:23
-msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
-msgstr "Popis: <span class=\"opt\">\"%(query)s\"</span>;"
+#: apps/search/templates/search/search.html:32 apps/search/templates/search/search.html:35
+msgid "all"
+msgstr "vše"
 
-#: apps/search/templates/search/search.html:27
-msgid "Dates: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
-msgstr "Data: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
+#: apps/dashboard/forms.py:12
+#, fuzzy
+msgctxt "dashboard_period"
+msgid "all"
+msgstr "vše"
 
-#: apps/search/templates/search/search.html:32
-msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
-msgstr "Jazyk: <span class=\"opt\">%(locale)s</span>;"
+#: apps/dashboard/templates/dashboard/sentiments.html:32 apps/search/forms.py:28
+msgid "happy"
+msgstr "šťastný"
 
-#: apps/search/templates/search/search.html:35
-msgid "OS: <span class=\"opt\">%(os)s</span>"
-msgstr "OS: <span class=\"opt\">%(os)s</span>"
-
-#: apps/search/templates/search/search.html:49
-msgid "No search results found."
-msgstr "Nebyly nalezeny žádné výsledky vyhledávání."
-
-#: apps/search/templates/search/search.html:59
-msgid "&laquo; previous"
-msgstr "&laquo; předchozí"
+#: apps/feedback/helpers.py:36
+msgid "happy face"
+msgstr "veselá tvář"
 
 #: apps/search/templates/search/search.html:65
 msgid "next &raquo;"
@@ -360,129 +421,24 @@ msgstr "další &raquo;"
 msgid "page %(pagenum)s of %(total)s"
 msgstr "stránka %(pagenum)s z %(total)s"
 
-#: apps/search/templates/search/search_form.html:18
-msgid "Search"
-msgstr "Vyhledat"
+#: apps/dashboard/templates/dashboard/sentiments.html:34 apps/search/forms.py:29
+msgid "sad"
+msgstr "smutný"
 
-#: apps/search/templates/search/search_form.html:27
-msgid "Advanced"
-msgstr "Rozšířené"
+#: apps/feedback/helpers.py:39
+msgid "sad face"
+msgstr "smutná tvář"
 
-#: apps/search/templates/search/unavailable.html:4
-msgid "Search Unavailable"
-msgstr "Vyhledávání není dostupné"
+#. L10n: This indicates the second part of a date range.
+#: apps/search/forms.py:64
+msgid "to"
+msgstr "do"
 
-#: apps/search/templates/search/unavailable.html:6
-msgid "I'm sorry, there was an error with your search."
-msgstr "Omlouváme se, ale při vyhledávání se vyskytla chyba."
+#: apps/dashboard/templates/dashboard/demographics.html:13 apps/feedback/helpers.py:16 apps/search/forms.py:40
+msgid "unknown"
+msgstr "neznámý"
 
-#: apps/search/templates/search/unavailable.html:9
-msgid ""
-"Our search engine might be currently unavailable. You may start over on the "
-"<a href=\"%(url)s\">dashboard</a> and try again later."
-msgstr ""
-"Náš vyhledávač může být aktuálně nedostupný. Můžete pokračovat  na <a href=\""
-"%(url)s\">titulní stránku</a> a zkusit to později znovu."
-
-#: apps/search/templates/search/unavailable.html:16
-msgid ""
-"If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, "
-"mentioning the URL you were accessing."
-msgstr ""
-"Pokud tento problém přetrvá, <a href=\"%(bug_url)s\">nahlašte prosím chybu</a> "
-"s informací o URL, ke kterému přistupujete."
-
-#: apps/search/templates/search/unavailable.html:22
-msgid "Include the following error message in your bug report:"
-msgstr "Do vašeho hlášení o chybě zahrňte následující chybové hlášení:"
-
-#: apps/search/templates/search/unavailable.html:25
-msgid "Thanks!"
-msgstr "Děkujeme!"
-
-#: templates/404.html:4
-msgid "Not Found"
-msgstr "Nenalezeno"
-
-#: templates/404.html:6
-msgid "I'm sorry, I could not find what you were looking for."
-msgstr "Omlouváme se, ale nepodařilo se nalézt to, co hledáte."
-
-#: templates/404.html:9
-#: templates/500.html:14
-msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
-msgstr "Začněte na <a href=\"%(dashboard_url)s\">hlavní stránce</a>."
-
-#: templates/404.html:14
-msgid ""
-"If you were following a broken link, please <a href=\"%(bug_url)s\">file a "
-"bug.</a> Thanks!"
-msgstr ""
-"Pokud jste někde klepli na chybný odkaz, <a href=\"%(bug_url)s\">nahlašte "
-"prosím chybu</a>. Děkujeme!"
-
-#: templates/500.html:4
-msgid "Internal Server Error"
-msgstr "Interní chyba serveru"
-
-#: templates/500.html:7
-msgid ""
-"An unhandled error occurred in the application. The error has been logged "
-"and an administrator was notified. We apologize for the inconvenience!"
-msgstr ""
-"V aplikaci se vyskytla nezachycená výjimka. Chyba byla zalogována a byl o ní "
-"informován administrátor. Omlouváme se za problémy!"
-
-#: templates/500.html:20
-msgid ""
-"If you have additional information how to reproduce this problem, please <a "
-"href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-msgstr ""
-"Pokud máte další informace, jak zreprodukovat tento problém, <a href=\"%"
-"(bug_url)s\">nahlašte prosím chybu</a>. Děkujeme!"
-
-#: templates/base.html:5
-msgid "Welcome!"
-msgstr "Vítejte!"
-
-#: templates/base.html:17
-msgid "Proceed to main content"
-msgstr "Přechod na hlavní obsah"
-
-#: templates/base.html:18
-msgid "Proceed to footer"
-msgstr "Přechod na patičku"
-
-#: templates/base.html:29
-msgid "Input Dashboard"
-msgstr "Input Dashboard"
-
-#: templates/base.html:51
-msgid "Privacy Policy"
-msgstr "Zásady ochrany soukromí"
-
-#: templates/base.html:52
-msgid "Legal Notices"
-msgstr "Právní informace"
-
-#: templates/base.html:53
-msgid "Report Trademark Abuse"
-msgstr "Nahlásit zneužití ochranných známek"
-
-#: templates/base.html:56
-msgid ""
-"Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this "
-"site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons "
-"Attribution Share-Alike License v3.0</a> or any later version."
-msgstr ""
-"Pokud není <a href=\"%(legal_url)s\">uvedeno</a> jinak, je obsah tohoto webu "
-"pod <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike "
-"License v3.0</a> či jakoukoliv novější verzí."
-
-#: templates/includes/lang_switcher.html:2
-msgid "Other languages:"
-msgstr "Ostatní jazyky:"
-
-#: templates/includes/lang_switcher.html:10
-msgid "Go"
-msgstr "Přejít"
+#. This is a link to the URL associated with an opinion.
+#: apps/dashboard/templates/dashboard/messages.html:31
+msgid "visit &rarr;"
+msgstr "navštívit &rarr;"

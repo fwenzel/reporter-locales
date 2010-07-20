@@ -1,18 +1,20 @@
 #: apps/dashboard/forms.py:9
+msgctxt "dashboard_period"
 msgid "1 day"
 msgstr ""
 
 #: apps/dashboard/forms.py:10
+msgctxt "dashboard_period"
 msgid "1 week"
 msgstr ""
 
 #: apps/dashboard/forms.py:11
+msgctxt "dashboard_period"
 msgid "1 month"
 msgstr ""
 
 #: apps/dashboard/forms.py:12
-#: apps/search/templates/search/search.html:32
-#: apps/search/templates/search/search.html:35
+msgctxt "dashboard_period"
 msgid "all"
 msgstr ""
 
@@ -54,7 +56,7 @@ msgstr ""
 
 #: apps/dashboard/templates/dashboard/demographics.html:13
 #: apps/feedback/helpers.py:16
-#: apps/search/forms.py:31
+#: apps/search/forms.py:40
 msgid "unknown"
 msgstr ""
 
@@ -92,12 +94,12 @@ msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
 msgstr ""
 
 #: apps/dashboard/templates/dashboard/sentiments.html:32
-#: apps/search/forms.py:25
+#: apps/search/forms.py:28
 msgid "happy"
 msgstr ""
 
 #: apps/dashboard/templates/dashboard/sentiments.html:34
-#: apps/search/forms.py:26
+#: apps/search/forms.py:29
 msgid "sad"
 msgstr ""
 
@@ -238,49 +240,64 @@ msgstr ""
 msgid "Find out the latest news from Mozilla:"
 msgstr ""
 
-#: apps/search/client.py:60
+#: apps/search/client.py:64
 msgid "Query has timed out."
 msgstr ""
 
-#: apps/search/client.py:62
+#: apps/search/client.py:66
 msgid "Sphinx threw an unknown exception: %s"
 msgstr ""
 
-#. L10n: This is a placeholder in the search form, for all items in a list.
-#: apps/search/forms.py:41
+#: apps/search/forms.py:19
+msgctxt "version_choice"
 msgid "-- all --"
 msgstr ""
 
-#: apps/search/forms.py:46
+#: apps/search/forms.py:27
+msgctxt "sentiment_choice"
+msgid "-- all --"
+msgstr ""
+
+#: apps/search/forms.py:34
+msgctxt "os_choice"
+msgid "-- all --"
+msgstr ""
+
+#: apps/search/forms.py:39
+msgctxt "locale_choice"
+msgid "-- all --"
+msgstr ""
+
+#: apps/search/forms.py:49
 msgid "Search Terms"
 msgstr ""
 
-#: apps/search/forms.py:48
+#: apps/search/forms.py:51
 msgid "Product:"
 msgstr ""
 
-#: apps/search/forms.py:51
+#: apps/search/forms.py:53
 msgid "Version:"
 msgstr ""
 
-#: apps/search/forms.py:52
+#: apps/search/forms.py:54
 msgid "Sentiment:"
 msgstr ""
 
-#: apps/search/forms.py:54
+#: apps/search/forms.py:56
 msgid "Locale:"
 msgstr ""
 
-#: apps/search/forms.py:56
+#: apps/search/forms.py:58
 msgid "OS:"
 msgstr ""
 
-#: apps/search/forms.py:59
+#: apps/search/forms.py:61
 msgid "Date range:"
 msgstr ""
 
 #. L10n: This indicates the second part of a date range.
-#: apps/search/forms.py:62
+#: apps/search/forms.py:64
 msgid "to"
 msgstr ""
 
@@ -305,6 +322,11 @@ msgstr ""
 
 #: apps/search/templates/search/search.html:32
 msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
+msgstr ""
+
+#: apps/search/templates/search/search.html:32
+#: apps/search/templates/search/search.html:35
+msgid "all"
 msgstr ""
 
 #: apps/search/templates/search/search.html:35
