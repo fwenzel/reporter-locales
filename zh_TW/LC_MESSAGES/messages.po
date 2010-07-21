@@ -13,431 +13,431 @@ msgstr ""
 
 #: apps/dashboard/forms.py:9
 msgid "1 day"
-msgstr ""
+msgstr "1 天"
 
 #: apps/dashboard/forms.py:10
 msgid "1 week"
-msgstr ""
+msgstr "1 星期"
 
 #: apps/dashboard/forms.py:11
 msgid "1 month"
-msgstr ""
+msgstr "1 個月"
 
 #: apps/dashboard/forms.py:12
 #: apps/search/templates/search/search.html:32
 #: apps/search/templates/search/search.html:35
 msgid "all"
-msgstr ""
+msgstr "全部"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:12
 msgid "Please enable JavaScript to view this page."
-msgstr ""
+msgstr "請啟用 JavaScript 以檢視這個頁面。"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:19
 #: apps/search/templates/search/search.html:80
 msgid "Overview"
-msgstr ""
+msgstr "概況"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:23
 #: apps/search/templates/search/search.html:87
 msgid "Trends"
-msgstr ""
+msgstr "趨勢"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:27
 #: apps/search/templates/search/search.html:94
 msgid "Demographics"
-msgstr ""
+msgstr "參與者統計"
 
 #. Link on the dashboard to show more messages.
 #: apps/dashboard/templates/dashboard/dashboard.html:35
 msgid "Show more"
-msgstr ""
+msgstr "顯示更多"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:37
 msgid "Last {count} Messages"
-msgstr ""
+msgstr "最新的 {count} 條訊息"
 
 #: apps/dashboard/templates/dashboard/demographics.html:3
 msgid "OS"
-msgstr ""
+msgstr "作業系統"
 
 #: apps/dashboard/templates/dashboard/demographics.html:10
 msgid "Locale"
-msgstr ""
+msgstr "地區語言"
 
 #: apps/dashboard/templates/dashboard/demographics.html:13
 #: apps/feedback/helpers.py:16
 #: apps/search/forms.py:31
 msgid "unknown"
-msgstr ""
+msgstr "未知"
 
 #. Link to Google Translator
 #: apps/dashboard/templates/dashboard/messages.html:17
 msgid "Translate!"
-msgstr ""
+msgstr "翻譯！"
 
 #. Link to user agent info.
 #: apps/dashboard/templates/dashboard/messages.html:20
 msgid "UA"
-msgstr ""
+msgstr "UA"
 
 #. Link to an opinion's URL.
 #: apps/dashboard/templates/dashboard/messages.html:24
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #. This is a link to the URL associated with an opinion.
 #: apps/dashboard/templates/dashboard/messages.html:31
 msgid "visit &rarr;"
-msgstr ""
+msgstr "前往該頁面&rarr;"
 
 #: apps/dashboard/templates/dashboard/messages.html:36
 msgid "OS: {os_name}"
-msgstr ""
+msgstr "作業系統: {os_name}"
 
 #: apps/dashboard/templates/dashboard/messages.html:38
 msgid "Locale: {locale}"
-msgstr ""
+msgstr "地區語言: {locale}"
 
 #. Total refers to a message count.
 #: apps/dashboard/templates/dashboard/sentiments.html:26
 msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
-msgstr ""
+msgstr "<a href=\"%(url)s\">總計</a>： %(count)s"
 
 #: apps/dashboard/templates/dashboard/sentiments.html:32
 #: apps/search/forms.py:25
 msgid "happy"
-msgstr ""
+msgstr "高興"
 
 #: apps/dashboard/templates/dashboard/sentiments.html:34
 #: apps/search/forms.py:26
 msgid "sad"
-msgstr ""
+msgstr "難過"
 
 #: apps/feedback/__init__.py:9
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: apps/feedback/__init__.py:16
 msgid "Mobile"
-msgstr ""
+msgstr "Mobile"
 
 #: apps/feedback/__init__.py:46
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: apps/feedback/__init__.py:51
 msgid "Mac OS X"
-msgstr ""
+msgstr "Mac OS X"
 
 #: apps/feedback/__init__.py:56
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: apps/feedback/__init__.py:61
 msgid "Other"
-msgstr ""
+msgstr "其他"
 
 #: apps/feedback/forms.py:22
 msgid "Enter your feedback here."
-msgstr ""
+msgstr "在此輸入您的回饋。"
 
 #: apps/feedback/forms.py:37
 msgid "We already got your feedback! Thanks."
-msgstr ""
+msgstr "我們已經收到您的回饋！感謝您。"
 
 #: apps/feedback/helpers.py:36
 msgid "happy face"
-msgstr ""
+msgstr "高興的臉"
 
 #: apps/feedback/helpers.py:39
 msgid "sad face"
-msgstr ""
+msgstr "難過的臉"
 
 #: apps/feedback/validators.py:29
 msgid "User agent string was not recognizable."
-msgstr ""
+msgstr "無法辨識使用者代理字串。"
 
 #: apps/feedback/validators.py:37
 msgid "Submitted User Agent is not the latest beta version."
-msgstr ""
+msgstr "送出的使用者代理並非最新的 Beta 版本。"
 
 #: apps/feedback/validators.py:46
 msgid ""
 "Your comment contains swear words (%s). In order to help us improve our "
 "products, please use words that help us create an action or to-do from your "
 "constructive feedback. Thanks!"
-msgstr ""
+msgstr "您的意見包含不雅字詞（%s）。為了協助改進產品，請回饋建設性的內容，以利我們採取行動或歸納待完成項目。感謝！"
 
 #: apps/feedback/validators.py:55
 msgid "Feedback must not contain HTML."
-msgstr ""
+msgstr "回饋內容不得包含 HTML。"
 
 #: apps/feedback/validators.py:62
 msgid ""
 "Your feedback seems to contain an email address. Please remove this and "
 "similar personal data from the text, then try again. Thanks!"
-msgstr ""
+msgstr "您的回饋內容似乎包含電子郵件地址。請將電子郵件地址和其他類似的個人資訊從內容中移除，然後再試一次。感謝！"
 
 #: apps/feedback/validators.py:71
 msgid ""
 "Your feedback seems to contain a URL. Please remove this and similar "
 "personal data from the text, then try again. Thanks!"
-msgstr ""
+msgstr "您的回饋內容似乎包含網址。請將包含網址的所有個人資訊從內容中移除，然後再試一次。感謝！"
 
 #: apps/feedback/views.py:32
 msgid "User-Agent request header must be set."
-msgstr ""
+msgstr "Request Header 中需設定 User-Agent。"
 
 #: apps/feedback/templates/feedback/feedback.html:3
 #: apps/feedback/templates/feedback/feedback.html:56
 msgid "Submit Feedback"
-msgstr ""
+msgstr "傳送意見回饋"
 
 #: apps/feedback/templates/feedback/feedback.html:13
 msgid ""
 "Super! It's great to hear that you like our pre-released browser. Please "
 "explain what you specifically like!"
-msgstr ""
+msgstr "太棒了！真高興您喜歡我們預先釋出的瀏覽器。請寫下您特別喜愛的地方吧！"
 
 #: apps/feedback/templates/feedback/feedback.html:20
 msgid ""
 "We are sorry that you have not had a good experience with our browser. "
 "Please tell us why, so we can improve it!"
-msgstr ""
+msgstr "很抱歉，我們的瀏覽器沒有帶給您良好的體驗。請告訴我們原因，以利未來的改進！"
 
 #: apps/feedback/templates/feedback/feedback.html:34
 msgid ""
 "Had an issue with a specific website? Please add the URL, so we can find the "
 "issue faster!"
-msgstr ""
+msgstr "在特定網站上出現問題？請填寫網址，讓我們更快發現問題！"
 
 #: apps/feedback/templates/feedback/feedback.html:54
 msgid ""
 "Please ensure that there is no personally identifiable information here."
-msgstr ""
+msgstr "請確定內容中沒有可供識別的個人資訊。"
 
 #: apps/feedback/templates/feedback/need_beta.html:3
 msgid "Download Beta"
-msgstr ""
+msgstr "下載 Beta 版"
 
 #: apps/feedback/templates/feedback/need_beta.html:8
 msgid ""
 "Oh! So, you want to offer us feedback on the next version of Firefox. Thank "
 "you, but you'll need to be a part of our Beta Program."
-msgstr ""
+msgstr "喔，您似乎想要回報對下一版 Firefox 的意見。感謝您的支持，但您必須參與 Beta 計畫才能回報。"
 
 #: apps/feedback/templates/feedback/need_beta.html:14
 msgid ""
 "To join, simply go to our download page and get <a href=\"%(url)s\">the latest "
 "Firefox Beta!</a>"
-msgstr ""
+msgstr "要加入 Beta 計畫，只要到我們的網站下載<a href=\"%(url)s\">Firefox 最新的 Beta 版本</a>即可！"
 
 #: apps/feedback/templates/feedback/thanks.html:3
 msgid "Thanks for Your Feedback"
-msgstr ""
+msgstr "感謝您的回饋"
 
 #: apps/feedback/templates/feedback/thanks.html:7
 msgid "Thanks for sending us your feedback!"
-msgstr ""
+msgstr "感謝您傳送回饋給我們！"
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid ""
 "If you want to see where your feedback was sent to, take a look at our <a "
 "href=\"%(url)s\">Firefox Input Dashboard</a>."
-msgstr ""
+msgstr "如果想知道您的回饋送往何方，可以看看<a href=\"%(url)s\">Firefox Input Dashboard</a>。"
 
 #: apps/feedback/templates/feedback/thanks.html:17
 msgid "Find out the latest news from Mozilla:"
-msgstr ""
+msgstr "閱讀 Mozilla 的最新消息："
 
 #: apps/search/client.py:60
 msgid "Query has timed out."
-msgstr ""
+msgstr "查詢已經逾時。"
 
 #: apps/search/client.py:62
 msgid "Sphinx threw an unknown exception: %s"
-msgstr ""
+msgstr "Sphinx 傳出未知的意外： %s"
 
 #. L10n: This is a placeholder in the search form, for all items in a list.
 #: apps/search/forms.py:41
 msgid "-- all --"
-msgstr ""
+msgstr "-- 全部 --"
 
 #: apps/search/forms.py:46
 msgid "Search Terms"
-msgstr ""
+msgstr "搜尋字詞"
 
 #: apps/search/forms.py:48
 msgid "Product:"
-msgstr ""
+msgstr "產品："
 
 #: apps/search/forms.py:51
 msgid "Version:"
-msgstr ""
+msgstr "版本："
 
 #: apps/search/forms.py:52
 msgid "Sentiment:"
-msgstr ""
+msgstr "心情："
 
 #: apps/search/forms.py:54
 msgid "Locale:"
-msgstr ""
+msgstr "地區語言："
 
 #: apps/search/forms.py:56
 msgid "OS:"
-msgstr ""
+msgstr "作業系統："
 
 #: apps/search/forms.py:59
 msgid "Date range:"
-msgstr ""
+msgstr "日期範圍："
 
 #. L10n: This indicates the second part of a date range.
 #: apps/search/forms.py:62
 msgid "to"
-msgstr ""
+msgstr "到"
 
 #: apps/search/templates/search/search.html:5
 #: apps/search/templates/search/search.html:7
 msgid "Search Results"
-msgstr ""
+msgstr "搜尋結果"
 
 #: apps/search/templates/search/search.html:12
 msgid ""
 "Due to software constraints, we can only show the last 1000 messages for "
 "this search query."
-msgstr ""
+msgstr "由於系統限制，我們只能顯示查詢結果中最新的 1000 筆資料。"
 
 #: apps/search/templates/search/search.html:23
 msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
-msgstr ""
+msgstr "敘述：<span class=\"opt\">\"%(query)s\"</span>;"
 
 #: apps/search/templates/search/search.html:27
 msgid "Dates: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
-msgstr ""
+msgstr "日期：<span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
 
 #: apps/search/templates/search/search.html:32
 msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
-msgstr ""
+msgstr "地區語言：<span class=\"opt\">%(locale)s</span>;"
 
 #: apps/search/templates/search/search.html:35
 msgid "OS: <span class=\"opt\">%(os)s</span>"
-msgstr ""
+msgstr "作業系統：<span class=\"opt\">%(os)s</span>"
 
 #: apps/search/templates/search/search.html:49
 msgid "No search results found."
-msgstr ""
+msgstr "找不到搜尋結果。"
 
 #: apps/search/templates/search/search.html:59
 msgid "&laquo; previous"
-msgstr ""
+msgstr "&laquo; 上一頁"
 
 #: apps/search/templates/search/search.html:65
 msgid "next &raquo;"
-msgstr ""
+msgstr "下一頁 &raquo;"
 
 #: apps/search/templates/search/search.html:69
 msgid "page %(pagenum)s of %(total)s"
-msgstr ""
+msgstr "第 %(pagenum)s 頁，共 %(total)s 頁"
 
 #: apps/search/templates/search/search_form.html:18
 msgid "Search"
-msgstr ""
+msgstr "搜尋"
 
 #: apps/search/templates/search/search_form.html:27
 msgid "Advanced"
-msgstr ""
+msgstr "進階"
 
 #: apps/search/templates/search/unavailable.html:4
 msgid "Search Unavailable"
-msgstr ""
+msgstr "無法使用搜尋"
 
 #: apps/search/templates/search/unavailable.html:6
 msgid "I'm sorry, there was an error with your search."
-msgstr ""
+msgstr "很抱歉，搜尋時發生錯誤。"
 
 #: apps/search/templates/search/unavailable.html:9
 msgid ""
 "Our search engine might be currently unavailable. You may start over on the "
 "<a href=\"%(url)s\">dashboard</a> and try again later."
-msgstr ""
+msgstr "我們的搜尋引擎目前可能暫時無法使用。您可以從 <a href=\"%(url)s\">Dashboard</a> 重新開始，並稍候再試一次。"
 
 #: apps/search/templates/search/unavailable.html:16
 msgid ""
 "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, "
 "mentioning the URL you were accessing."
-msgstr ""
+msgstr "如果問題持續發生，請<a href=\"%(bug_url)s\">送交一份臭蟲報告</a>，並附上您欲瀏覽的網址。"
 
 #: apps/search/templates/search/unavailable.html:22
 msgid "Include the following error message in your bug report:"
-msgstr ""
+msgstr "也請在錯誤報告中附上以下的錯誤訊息："
 
 #: apps/search/templates/search/unavailable.html:25
 msgid "Thanks!"
-msgstr ""
+msgstr "感謝！"
 
 #: templates/404.html:4
 msgid "Not Found"
-msgstr ""
+msgstr "找不到頁面"
 
 #: templates/404.html:6
 msgid "I'm sorry, I could not find what you were looking for."
-msgstr ""
+msgstr "很抱歉，但我找不到您想找的東西。"
 
 #: templates/404.html:9
 #: templates/500.html:14
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
-msgstr ""
+msgstr "請從 <a href=\"%(url)s\">dashboard</a> 重新開始。"
 
 #: templates/404.html:14
 msgid ""
 "If you were following a broken link, please <a href=\"%(bug_url)s\">file a "
 "bug.</a> Thanks!"
-msgstr ""
+msgstr "如果您是從損壞的頁面連結連到此頁，請<a href=\"%(bug_url)s\">送交一份臭蟲報告</a>。感謝！"
 
 #: templates/500.html:4
 msgid "Internal Server Error"
-msgstr ""
+msgstr "伺服器內部錯誤"
 
 #: templates/500.html:7
 msgid ""
 "An unhandled error occurred in the application. The error has been logged "
 "and an administrator was notified. We apologize for the inconvenience!"
-msgstr ""
+msgstr "應用程式發生一個未知的錯誤。這個錯誤已被記錄，管理員將收到通知。抱歉造成您的不便！"
 
 #: templates/500.html:20
 msgid ""
 "If you have additional information how to reproduce this problem, please <a "
 "href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-msgstr ""
+msgstr "如果您擁有重現問題的相關資訊，請<a href=\"%(bug_url)s\">送交一份臭蟲報告</a>。感謝！"
 
 #: templates/base.html:5
 msgid "Welcome!"
-msgstr ""
+msgstr "歡迎！"
 
 #: templates/base.html:17
 msgid "Proceed to main content"
-msgstr ""
+msgstr "跳轉到主要內容"
 
 #: templates/base.html:18
 msgid "Proceed to footer"
-msgstr ""
+msgstr "跳轉到頁尾"
 
 #: templates/base.html:29
 msgid "Input Dashboard"
-msgstr ""
+msgstr "Input Dashboard"
 
 #: templates/base.html:51
 msgid "Privacy Policy"
-msgstr ""
+msgstr "隱私權政策"
 
 #: templates/base.html:52
 msgid "Legal Notices"
-msgstr ""
+msgstr "法律聲明"
 
 #: templates/base.html:53
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "回報商標濫用"
 
 #: templates/base.html:56
 msgid ""
@@ -445,11 +445,13 @@ msgid ""
 "site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons "
 "Attribution Share-Alike License v3.0</a> or any later version."
 msgstr ""
+"除另有<a href=\"%(legal_url)s\">註明</a>，本站內容皆採<br/> <a href=\"%(license_url)s\">創用 "
+"CC 姓名標示 - 相同方式分享條款 3.0</a> 或更新的版本授權使用。"
 
 #: templates/includes/lang_switcher.html:2
 msgid "Other languages:"
-msgstr ""
+msgstr "其他語言："
 
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
-msgstr ""
+msgstr "前往"
