@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 15:37+0200\n"
 "PO-Revision-Date: 2010-07-21 04:10+0200\n"
-"Last-Translator: Γιώργος <fiotakis@otenet.gr>\n"
+"Last-Translator: Γιώργος Φιωτάκης <fiotakis@otenet.gr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
@@ -15,12 +15,12 @@ msgstr ""
 
 #: apps/search/templates/search/search.html:59
 msgid "&laquo; previous"
-msgstr "&laquo; προηγούμενο"
+msgstr "&laquo; προηγούμενη"
 
 #: apps/search/forms.py:39
 msgctxt "locale_choice"
 msgid "-- all --"
-msgstr "-- όλα --"
+msgstr "-- όλες --"
 
 #: apps/search/forms.py:34
 msgctxt "os_choice"
@@ -30,12 +30,12 @@ msgstr "-- όλα --"
 #: apps/search/forms.py:27
 msgctxt "sentiment_choice"
 msgid "-- all --"
-msgstr "-- όλα --"
+msgstr "-- όλες --"
 
 #: apps/search/forms.py:19
 msgctxt "version_choice"
 msgid "-- all --"
-msgstr "-- όλα --"
+msgstr "-- όλες --"
 
 #: apps/dashboard/forms.py:9
 msgctxt "dashboard_period"
@@ -241,7 +241,7 @@ msgstr "ΛΣ: {os_name}"
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be a part of our Beta Program."
 msgstr ""
 "Σας ευχαριστούμε που θέλετε να μας προσφέρετε τα σχόλια σας για την επόμενη "
-"έκδοση του Firefox, αλλά για να το κάνετε αυτό θα πρέπει να λάβετε μέρος στο "
+"έκδοση του Firefox, αλλά για να το κάνετε αυτό, θα πρέπει να λάβετε μέρος στο "
 "πρόγραμμα των δοκιμαστικών μας εκδόσεων."
 
 #: apps/feedback/__init__.py:61
@@ -323,7 +323,7 @@ msgstr "Δεν είναι διαθέσιμη η αναζήτηση"
 
 #: apps/search/forms.py:54
 msgid "Sentiment:"
-msgstr "Συναίσθημα:"
+msgstr "Άποψη:"
 
 #. Link on the dashboard to show more messages.
 #: apps/dashboard/templates/dashboard/dashboard.html:35
@@ -371,7 +371,7 @@ msgstr ""
 #. Link to Google Translator
 #: apps/dashboard/templates/dashboard/messages.html:17
 msgid "Translate!"
-msgstr "Μεταφράστε!"
+msgstr "Μετάφραση!"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:23 apps/search/templates/search/search.html:87
 msgid "Trends"
@@ -446,7 +446,7 @@ msgstr "όλα"
 #: apps/dashboard/forms.py:12
 msgctxt "dashboard_period"
 msgid "all"
-msgstr "όλα"
+msgstr "όλες"
 
 #: apps/dashboard/templates/dashboard/sentiments.html:32 apps/search/forms.py:28
 msgid "happy"
@@ -458,7 +458,7 @@ msgstr "ευχαριστημένη φατσούλα"
 
 #: apps/search/templates/search/search.html:65
 msgid "next &raquo;"
-msgstr "επόμενο &raquo;"
+msgstr "επόμενη &raquo;"
 
 #: apps/search/templates/search/search.html:69
 msgid "page %(pagenum)s of %(total)s"
@@ -467,7 +467,7 @@ msgstr "σελίδα %(pagenum)s από %(total)s"
 #: apps/dashboard/templates/dashboard/sentiments.html:34 apps/search/forms.py:29
 msgid "sad"
 msgstr "δυσαρεστημένος"
-
+   
 #: apps/feedback/helpers.py:39
 msgid "sad face"
 msgstr "δυσαρεστημένη φατσούλα"
@@ -475,11 +475,11 @@ msgstr "δυσαρεστημένη φατσούλα"
 #. L10n: This indicates the second part of a date range.
 #: apps/search/forms.py:64
 msgid "to"
-msgstr "προς"
+msgstr "ως"
 
 #: apps/dashboard/templates/dashboard/demographics.html:13 apps/feedback/helpers.py:16 apps/search/forms.py:40
 msgid "unknown"
-msgstr "άγνωστο"
+msgstr "Άγνωστη"
 
 #. This is a link to the URL associated with an opinion.
 #: apps/dashboard/templates/dashboard/messages.html:31
