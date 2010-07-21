@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-20 20:41+0200\n"
-"PO-Revision-Date: 2010-07-21 00:40+0200\n"
+"PO-Revision-Date: 2010-07-21 11:08+0200\n"
 "Last-Translator: Tomer <tomer@gmx.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -166,7 +166,6 @@ msgstr "סוכן המשתמש שנשלח אינו גרסת הבטא האחרונ
 
 # 'swear' is a promise or a curse? I just want to make sure I'm not doing mistakes here. 
 #: apps/feedback/validators.py:46
-#, fuzzy
 msgid ""
 "Your comment contains swear words (%s). In order to help us improve our "
 "products, please use words that help us create an action or to-do from your "
@@ -279,7 +278,6 @@ msgid "Query has timed out."
 msgstr "פג הזמן לשאילתה."
 
 #: apps/search/client.py:62
-#, fuzzy
 msgid "Sphinx threw an unknown exception: %s"
 msgstr "Sphinx threw an unknown exception: %s"
 
@@ -302,7 +300,7 @@ msgstr "גרסה:"
 
 #: apps/search/forms.py:52
 msgid "Sentiment:"
-msgstr ""
+msgstr "הרגשה:"
 
 # locale -> language, because of lack of better translation.
 #: apps/search/forms.py:54
@@ -332,22 +330,24 @@ msgid ""
 "Due to software constraints, we can only show the last 1000 messages for "
 "this search query."
 msgstr ""
+"עקב אילוצי תוכנה, באפשרותנו להציג רק את 1,000 ההודעות האחרונות לשאילתת חיפוש "
+"זו."
 
 #: apps/search/templates/search/search.html:23
 msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
-msgstr ""
+msgstr "תיאור: <span class=\"opt\">\"%(query)s\"</span>;"
 
 #: apps/search/templates/search/search.html:27
 msgid "Dates: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
-msgstr ""
+msgstr "תאריכים: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
 
 #: apps/search/templates/search/search.html:32
 msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
-msgstr ""
+msgstr "שפה: <span class=\"opt\">%(locale)s</span>;"
 
 #: apps/search/templates/search/search.html:35
 msgid "OS: <span class=\"opt\">%(os)s</span>"
-msgstr ""
+msgstr "מערכת הפעלה: <span class=\"opt\">%(os)s</span>"
 
 #: apps/search/templates/search/search.html:49
 msgid "No search results found."
@@ -379,23 +379,27 @@ msgstr "חיפוש אינו זמין"
 
 #: apps/search/templates/search/unavailable.html:6
 msgid "I'm sorry, there was an error with your search."
-msgstr ""
+msgstr "מצטערים, אירעה שגיאה עם חיפוש שלך."
 
 #: apps/search/templates/search/unavailable.html:9
 msgid ""
 "Our search engine might be currently unavailable. You may start over on the "
 "<a href=\"%(url)s\">dashboard</a> and try again later."
 msgstr ""
+"מנוע החיפוש שלנו אינו זמין כעת. באפשרותך להתחיל מחדש ב־<a href=\"%"
+"(url)s\">dashboard</a> ולנסות שוב מאוחר יותר."
 
 #: apps/search/templates/search/unavailable.html:16
 msgid ""
 "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, "
 "mentioning the URL you were accessing."
 msgstr ""
+"במידה והבעיה נמשכת, בבקשה <a href=\"%(bug_url)s\">לפתוח באג</a>, המציין את "
+"הכתובת אליה ניסית לגשת."
 
 #: apps/search/templates/search/unavailable.html:22
 msgid "Include the following error message in your bug report:"
-msgstr ""
+msgstr "כלול את הודעת השגיאה שלהלן בדיווח הבאג שלך:"
 
 #: apps/search/templates/search/unavailable.html:25
 msgid "Thanks!"
@@ -407,18 +411,19 @@ msgstr "לא נמצא"
 
 #: templates/404.html:6
 msgid "I'm sorry, I could not find what you were looking for."
-msgstr ""
+msgstr "מצטערים, לא הצלחנו למצוא את מה שחיפשת."
 
 #: templates/404.html:9
 #: templates/500.html:14
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
-msgstr ""
+msgstr "בבקשה התחל מחדש ב־<a href=\"%(dashboard_url)s\">dashboard</a>."
 
 #: templates/404.html:14
 msgid ""
 "If you were following a broken link, please <a href=\"%(bug_url)s\">file a "
 "bug.</a> Thanks!"
 msgstr ""
+"במידה והגעת לקישור שבור, בבקשה <a href=\"%(bug_url)s\">לפתוח באג</a>. תודה!"
 
 #: templates/500.html:4
 msgid "Internal Server Error"
@@ -429,40 +434,44 @@ msgid ""
 "An unhandled error occurred in the application. The error has been logged "
 "and an administrator was notified. We apologize for the inconvenience!"
 msgstr ""
+"אירעה שגיאה לא ידועה ביישום. השגיאה נרשמה ומנהל המערכת עודכן על כך. אנו "
+"מצטערים על אי הנוחות!"
 
 #: templates/500.html:20
 msgid ""
 "If you have additional information how to reproduce this problem, please <a "
 "href=\"%(bug_url)s\">file a bug.</a> Thanks!"
 msgstr ""
+"במידה וברשותך מידע נוסף כיצד ניתן לשחזר את הבעה, בבקשה <a href=\"%"
+"(bug_url)s\">פתח באג</a>. תודה!"
 
 #: templates/base.html:5
 msgid "Welcome!"
-msgstr ""
+msgstr "ברוכים הבאים!"
 
 #: templates/base.html:17
 msgid "Proceed to main content"
-msgstr ""
+msgstr "עבור לתוכן"
 
 #: templates/base.html:18
 msgid "Proceed to footer"
-msgstr ""
+msgstr "עבור לקצה תחתון"
 
 #: templates/base.html:29
 msgid "Input Dashboard"
-msgstr ""
+msgstr "Input Dashboard"
 
 #: templates/base.html:51
 msgid "Privacy Policy"
-msgstr ""
+msgstr "מדיניות פרטיות"
 
 #: templates/base.html:52
 msgid "Legal Notices"
-msgstr ""
+msgstr "הערות משפטיות"
 
 #: templates/base.html:53
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "דווח על שימוש לרעה בסימן רשום"
 
 #: templates/base.html:56
 msgid ""
@@ -470,11 +479,14 @@ msgid ""
 "site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons "
 "Attribution Share-Alike License v3.0</a> or any later version."
 msgstr ""
+"התוכן באתר זה תחת <a href=\"%(license_url)s\">רישיון Creative Commons "
+"ייחוס-שיתוף זהה 3.0 </a><br/> או כל גרסה מאוחרת יותר, אלא אם <a href=\"%"
+"(legal_url)s\">צויין</a> אחרת."
 
 #: templates/includes/lang_switcher.html:2
 msgid "Other languages:"
-msgstr ""
+msgstr "שפות אחרות:"
 
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
-msgstr ""
+msgstr "עבור"
