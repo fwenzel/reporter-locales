@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-20 23:17+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2010-07-20 23:27+0100\n"
+"Last-Translator: wladow <info@wladow.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,11 +13,11 @@ msgstr ""
 
 #: apps/dashboard/forms.py:9
 msgid "1 day"
-msgstr ""
+msgstr "1 deň"
 
 #: apps/dashboard/forms.py:10
 msgid "1 week"
-msgstr ""
+msgstr "1 týždeň"
 
 #: apps/dashboard/forms.py:11
 msgid "1 month"
@@ -163,10 +163,7 @@ msgid "Submitted User Agent is not the latest beta version."
 msgstr ""
 
 #: apps/feedback/validators.py:46
-msgid ""
-"Your comment contains swear words (%s). In order to help us improve our "
-"products, please use words that help us create an action or to-do from your "
-"constructive feedback. Thanks!"
+msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
 msgstr ""
 
 #: apps/feedback/validators.py:55
@@ -174,15 +171,11 @@ msgid "Feedback must not contain HTML."
 msgstr ""
 
 #: apps/feedback/validators.py:62
-msgid ""
-"Your feedback seems to contain an email address. Please remove this and "
-"similar personal data from the text, then try again. Thanks!"
+msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr ""
 
 #: apps/feedback/validators.py:71
-msgid ""
-"Your feedback seems to contain a URL. Please remove this and similar "
-"personal data from the text, then try again. Thanks!"
+msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr ""
 
 #: apps/feedback/views.py:32
@@ -195,26 +188,19 @@ msgid "Submit Feedback"
 msgstr ""
 
 #: apps/feedback/templates/feedback/feedback.html:13
-msgid ""
-"Super! It's great to hear that you like our pre-released browser. Please "
-"explain what you specifically like!"
+msgid "Super! It's great to hear that you like our pre-released browser. Please explain what you specifically like!"
 msgstr ""
 
 #: apps/feedback/templates/feedback/feedback.html:20
-msgid ""
-"We are sorry that you have not had a good experience with our browser. "
-"Please tell us why, so we can improve it!"
+msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can improve it!"
 msgstr ""
 
 #: apps/feedback/templates/feedback/feedback.html:34
-msgid ""
-"Had an issue with a specific website? Please add the URL, so we can find the "
-"issue faster!"
+msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
 msgstr ""
 
 #: apps/feedback/templates/feedback/feedback.html:54
-msgid ""
-"Please ensure that there is no personally identifiable information here."
+msgid "Please ensure that there is no personally identifiable information here."
 msgstr ""
 
 #: apps/feedback/templates/feedback/need_beta.html:3
@@ -222,15 +208,11 @@ msgid "Download Beta"
 msgstr ""
 
 #: apps/feedback/templates/feedback/need_beta.html:8
-msgid ""
-"Oh! So, you want to offer us feedback on the next version of Firefox. Thank "
-"you, but you'll need to be a part of our Beta Program."
+msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be a part of our Beta Program."
 msgstr ""
 
 #: apps/feedback/templates/feedback/need_beta.html:14
-msgid ""
-"To join, simply go to our download page and get <a href=\"%(url)s\">the latest "
-"Firefox Beta!</a>"
+msgid "To join, simply go to our download page and get <a href=\"%(url)s\">the latest Firefox Beta!</a>"
 msgstr ""
 
 #: apps/feedback/templates/feedback/thanks.html:3
@@ -242,9 +224,7 @@ msgid "Thanks for sending us your feedback!"
 msgstr ""
 
 #: apps/feedback/templates/feedback/thanks.html:10
-msgid ""
-"If you want to see where your feedback was sent to, take a look at our <a "
-"href=\"%(url)s\">Firefox Input Dashboard</a>."
+msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
 msgstr ""
 
 #: apps/feedback/templates/feedback/thanks.html:17
@@ -303,9 +283,7 @@ msgid "Search Results"
 msgstr ""
 
 #: apps/search/templates/search/search.html:12
-msgid ""
-"Due to software constraints, we can only show the last 1000 messages for "
-"this search query."
+msgid "Due to software constraints, we can only show the last 1000 messages for this search query."
 msgstr ""
 
 #: apps/search/templates/search/search.html:23
@@ -357,15 +335,11 @@ msgid "I'm sorry, there was an error with your search."
 msgstr ""
 
 #: apps/search/templates/search/unavailable.html:9
-msgid ""
-"Our search engine might be currently unavailable. You may start over on the "
-"<a href=\"%(url)s\">dashboard</a> and try again later."
+msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
 msgstr ""
 
 #: apps/search/templates/search/unavailable.html:16
-msgid ""
-"If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, "
-"mentioning the URL you were accessing."
+msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
 msgstr ""
 
 #: apps/search/templates/search/unavailable.html:22
@@ -390,9 +364,7 @@ msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 msgstr ""
 
 #: templates/404.html:14
-msgid ""
-"If you were following a broken link, please <a href=\"%(bug_url)s\">file a "
-"bug.</a> Thanks!"
+msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
 msgstr ""
 
 #: templates/500.html:4
@@ -400,15 +372,11 @@ msgid "Internal Server Error"
 msgstr ""
 
 #: templates/500.html:7
-msgid ""
-"An unhandled error occurred in the application. The error has been logged "
-"and an administrator was notified. We apologize for the inconvenience!"
+msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
 msgstr ""
 
 #: templates/500.html:20
-msgid ""
-"If you have additional information how to reproduce this problem, please <a "
-"href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
 msgstr ""
 
 #: templates/base.html:5
@@ -440,10 +408,7 @@ msgid "Report Trademark Abuse"
 msgstr ""
 
 #: templates/base.html:56
-msgid ""
-"Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this "
-"site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons "
-"Attribution Share-Alike License v3.0</a> or any later version."
+msgid "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any later version."
 msgstr ""
 
 #: templates/includes/lang_switcher.html:2
@@ -453,3 +418,4 @@ msgstr ""
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
 msgstr ""
+
