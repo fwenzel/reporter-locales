@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 15:37+0200\n"
-"PO-Revision-Date: 2010-07-21 19:02+0200\n"
+"PO-Revision-Date: 2010-07-22 10:50+0200\n"
 "Last-Translator: Leszek <leszekz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -148,7 +148,7 @@ msgstr "Jeśli został znaleziony niedziałający odnośnik, proszę <a href=\"%
 
 #: apps/search/templates/search/unavailable.html:22
 msgid "Include the following error message in your bug report:"
-msgstr "W zgłoszeniu błędu zawrzyj natsepującą informację o błędzie:"
+msgstr "W zgłoszeniu błędu zawrzyj niestepującą informację o błędzie:"
 
 #: templates/base.html:29
 msgid "Input Dashboard"
@@ -176,15 +176,15 @@ msgstr "Języki"
 
 #: apps/search/forms.py:56
 msgid "Locale:"
-msgstr "Lokalizacja:"
+msgstr "Język:"
 
 #: apps/search/templates/search/search.html:32
 msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
-msgstr "Lokalizacja: <span class=\"opt\">%(locale)s</span>;"
+msgstr "Język: <span class=\"opt\">%(locale)s</span>;"
 
 #: apps/dashboard/templates/dashboard/messages.html:38
 msgid "Locale: {locale}"
-msgstr "Lokalizacja: {locale}"
+msgstr "Język: {locale}"
 
 #: apps/feedback/__init__.py:51
 msgid "Mac OS X"
@@ -248,7 +248,7 @@ msgstr "Sprawdź, czy nie ma tutaj danych osobowych."
 
 #: templates/404.html:9 templates/500.html:14
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
-msgstr "Należy rozpocząć na <a href=\"% dashboard_url)s\">tablicy</a>."
+msgstr "Należy rozpocząć od <a href=\"% dashboard_url)s\">tablicy</a>."
 
 #: templates/base.html:51
 msgid "Privacy Policy"
