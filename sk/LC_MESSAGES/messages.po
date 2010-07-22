@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: REPORTER 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-20 23:17+0200\n"
-"PO-Revision-Date: 2010-07-22 20:47+0100\n"
+"PO-Revision-Date: 2010-07-22 21:08+0100\n"
 "Last-Translator: wladow <info@wladow.sk>\n"
 "Language-Team: SLOVAK <l10n@mozilla.sk>\n"
 "MIME-Version: 1.0\n"
@@ -165,7 +165,7 @@ msgstr "Poskytnutý reťazec User Agent nepochádza z najnovšej verzie beta."
 
 #: apps/feedback/validators.py:46
 msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
-msgstr ""
+msgstr "Váš komentár obsahuje niektoré nevhodné slová (%s). Ak chcete pomôcť vylepšiť naše produkty, používajte slová, ktoré nám pomôžu pri opravovaním prípadných chýb a nedostatkov. Ďakujeme!"
 
 #: apps/feedback/validators.py:55
 msgid "Feedback must not contain HTML."
@@ -173,11 +173,11 @@ msgstr "Spätná väzba nesmie obsahovať kód HTML."
 
 #: apps/feedback/validators.py:62
 msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
-msgstr ""
+msgstr "Zdá sa, že Váš text obsahuje e-mailovú adresu. Prosím, odstráňte ju a podobné osobné údaje a skúste to znova. Ďakujeme!"
 
 #: apps/feedback/validators.py:71
 msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
-msgstr ""
+msgstr "Zdá sa, že Váš text obsahuje adresu URL. Prosím, odstráňte ju a podobné osobné údaje a skúste to znova. Ďakujeme!"
 
 #: apps/feedback/views.py:32
 msgid "User-Agent request header must be set."
@@ -202,7 +202,7 @@ msgstr "Máte problém na konkrétnej stránke? Zadajte jej adresu, aby sme mohl
 
 #: apps/feedback/templates/feedback/feedback.html:54
 msgid "Please ensure that there is no personally identifiable information here."
-msgstr "Uisite sa, že nezadávate žiadne osobné údaje."
+msgstr "Uistite sa, že nezadávate žiadne osobné údaje."
 
 #: apps/feedback/templates/feedback/need_beta.html:3
 msgid "Download Beta"
@@ -210,11 +210,11 @@ msgstr "Prevziať verziu beta"
 
 #: apps/feedback/templates/feedback/need_beta.html:8
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be a part of our Beta Program."
-msgstr ""
+msgstr "Oh! Chcete nám napísať názor na najnovšiu verziu nadchádzajúcej generácie Firefoxu? Ďakujeme, ale musíte byť súčasťou beta programu."
 
 #: apps/feedback/templates/feedback/need_beta.html:14
 msgid "To join, simply go to our download page and get <a href=\"%(url)s\">the latest Firefox Beta!</a>"
-msgstr ""
+msgstr "Ak sa chcete zapojiť, jednoducho prejdite na stránku <a href=\"%(url)s\">Na prevzatie</a> a nainštalujte si najnovšiu verziu Firefox beta."
 
 #: apps/feedback/templates/feedback/thanks.html:3
 msgid "Thanks for Your Feedback"
@@ -226,7 +226,7 @@ msgstr "Ďakujeme za odoslanie Vášho názoru!"
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
-msgstr ""
+msgstr "Ak chcete vidieť, kam bol Váš názor odoslaný, navštívte našu <a href=\"%(url)s\">Nástenku názorov na Firefox</a>."
 
 #: apps/feedback/templates/feedback/thanks.html:17
 msgid "Find out the latest news from Mozilla:"
@@ -337,7 +337,7 @@ msgstr "Ospravedlňujeme sa, pri vyhľadávaní sa vyskytla chyba."
 
 #: apps/search/templates/search/unavailable.html:9
 msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
-msgstr ""
+msgstr "Naše vyhľadávanie nie je momentálne dostupné. Zatiaľ si pozrite <a href=\"%(url)s\">Nástenku názorov</a> a vyhľadávanie vyskúšajte neskôr."
 
 #: apps/search/templates/search/unavailable.html:16
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
@@ -345,7 +345,7 @@ msgstr "Ak problém pretrváva, prosím, <a href=\"%(bug_url)s\">založte bug</a
 
 #: apps/search/templates/search/unavailable.html:22
 msgid "Include the following error message in your bug report:"
-msgstr "Zahnúť nasledujúcu chybovú hlášku do správy o chybe."
+msgstr "Zahnúť nasledujúce chybové hlásenie do správy o chybe."
 
 #: apps/search/templates/search/unavailable.html:25
 msgid "Thanks!"
@@ -362,7 +362,7 @@ msgstr "Prepáčte, to čo hľadáte sa tu nenachádza."
 #: templates/404.html:9
 #: templates/500.html:14
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
-msgstr ""
+msgstr "Začnite návštevou stránky <a href=\"%(dashboard_url)s\">Nástenka názorov</a>."
 
 #: templates/404.html:14
 msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
@@ -374,7 +374,7 @@ msgstr "Vnútorná chyba servera"
 
 #: templates/500.html:7
 msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
-msgstr ""
+msgstr "V aplikácii sa vyskytla nespracovaná chyba, ktorá bola zaznamenaná a bol o nej informovaný administrátor. Za prípadné problémy sa ospravedlňujeme!"
 
 #: templates/500.html:20
 msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
