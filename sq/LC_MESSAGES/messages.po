@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-07-21 14:08+0200\n"
+"PO-Revision-Date: 2010-07-22 12:41+0200\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -164,7 +164,7 @@ msgstr "Agjenti i Përdoruesit i përdorur nuk është i versionit më të fundit beta
 
 #: apps/feedback/validators.py:46
 msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
-msgstr ""
+msgstr "Komenti juaj përmban fjalë fyese (%s). Që të na ndihmoni të përmirësojmë produktet tona, ju lutem,  përdorni te përshtypjet tuaja fjalë të dobishme që mund të bëhen nxitje për veprime. Faleminderit!"
 
 #: apps/feedback/validators.py:55
 msgid "Feedback must not contain HTML."
@@ -172,15 +172,15 @@ msgstr "Teksti i përshtypjeve nuk duhet të përmbajë HTML."
 
 #: apps/feedback/validators.py:62
 msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
-msgstr ""
+msgstr "Duket se përshtypjet tuaja përmbajnë një adresë email. Ju lutem, hiqeni nga teksti atë dhe të tjera të dhëna personale, e mandej riprovoni. Faleminderit!"
 
 #: apps/feedback/validators.py:71
 msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
-msgstr ""
+msgstr "Duket se përshtypjet tuaja përmbajnë një URL. Ju lutem, hiqeni nga teksti atë dhe të tjera të dhëna personale, e mandej riprovoni. Faleminderit!"
 
 #: apps/feedback/views.py:32
 msgid "User-Agent request header must be set."
-msgstr ""
+msgstr "Titulli i kërkesës së Agjentit të Përdoruesit duhet caktuar."
 
 #: apps/feedback/templates/feedback/feedback.html:3
 #: apps/feedback/templates/feedback/feedback.html:56
@@ -193,15 +193,15 @@ msgstr "Super! Ka lezet të dëgjosh që e pëlqeni shfletuesin tonë në versionin pa
 
 #: apps/feedback/templates/feedback/feedback.html:20
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can improve it!"
-msgstr ""
+msgstr "Na vjen keq që nuk patët përshtypje të mira nga shfletuesi ynë. Ju lutemi, na tregoni pse, që kështu të mund ta përmirësojmë!"
 
 #: apps/feedback/templates/feedback/feedback.html:34
 msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
-msgstr ""
+msgstr "Patët problem me një <em>site</em> web të dhënë? Ju lutem, shtoni këtu URL-në e tij, që kështu të mund ta gjejmë më shpejt problemin!"
 
 #: apps/feedback/templates/feedback/feedback.html:54
 msgid "Please ensure that there is no personally identifiable information here."
-msgstr ""
+msgstr "Ju lutem, sigurohuni që këtu nuk përmbahen të dhëna personale të identifikueshme."
 
 #: apps/feedback/templates/feedback/need_beta.html:3
 msgid "Download Beta"
@@ -209,11 +209,11 @@ msgstr "Shkarkoni Beta-n"
 
 #: apps/feedback/templates/feedback/need_beta.html:8
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be a part of our Beta Program."
-msgstr ""
+msgstr "Oh! Pra, dëshironi të na jepni përshtypjet mbi versionin pasues të Firefox-it. Ju faleminderit, por për këtë lypset të bëheni pjesë e Programit tonë Beta."
 
 #: apps/feedback/templates/feedback/need_beta.html:14
 msgid "To join, simply go to our download page and get <a href=\"%(url)s\">the latest Firefox Beta!</a>"
-msgstr ""
+msgstr "Për t'u bërë pjesë, thjesht shkoni te faqja jonë e shkarkimeve dhe merrni <a href=\"%(url)s\">versionin më të ri Firefox Beta!</a>"
 
 #: apps/feedback/templates/feedback/thanks.html:3
 msgid "Thanks for Your Feedback"
@@ -225,7 +225,7 @@ msgstr "Ju faleminderit që na dërgoni përshtypjet tuaja!"
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
-msgstr ""
+msgstr "Nëse dëshironi të shihni se ku u dërguan përshtypjet tuaja, hidhini një sy <a href=\"%(url)s\">Pultit tonë për Firefox Input</a>."
 
 #: apps/feedback/templates/feedback/thanks.html:17
 msgid "Find out the latest news from Mozilla:"
@@ -273,7 +273,7 @@ msgstr "Version:"
 
 #: apps/search/forms.py:54
 msgid "Sentiment:"
-msgstr ""
+msgstr "Ndjenjë:"
 
 #: apps/search/forms.py:56
 msgid "Locale:"
@@ -299,7 +299,7 @@ msgstr "Përfundime Kërkimi"
 
 #: apps/search/templates/search/search.html:12
 msgid "Due to software constraints, we can only show the last 1000 messages for this search query."
-msgstr ""
+msgstr "Për shkak kufizimesh të software-it, mund të shfaqim vetëm 1000 mesazhet e fundit që përputhen me këtë kërkesë."
 
 #: apps/search/templates/search/search.html:23
 msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
@@ -307,7 +307,7 @@ msgstr "Përshkrim: <span class=\"opt\">\"%(query)s\"</span>;"
 
 #: apps/search/templates/search/search.html:27
 msgid "Dates: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
-msgstr ""
+msgstr "Data: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
 
 #: apps/search/templates/search/search.html:32
 msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
@@ -348,7 +348,7 @@ msgstr "Të mëtejshme"
 
 #: apps/search/templates/search/unavailable.html:4
 msgid "Search Unavailable"
-msgstr ""
+msgstr "Kërkim i Pamundur Tani"
 
 #: apps/search/templates/search/unavailable.html:6
 msgid "I'm sorry, there was an error with your search."
@@ -356,11 +356,11 @@ msgstr "Na ndjeni, pati një gabim te kërkimi juaj."
 
 #: apps/search/templates/search/unavailable.html:9
 msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
-msgstr ""
+msgstr "Motori ynë i kërkimeve mund të jetë jashtë pune hëpërhë. Mund t'ia nisni nga e para te <a href=\"%(url)s\">pulti</a> dhe të riprovoni më vonë."
 
 #: apps/search/templates/search/unavailable.html:16
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
-msgstr ""
+msgstr "Po qe se keni prapë të njëjtin problem, ju lutem, <a href=\"%(bug_url)s\">njoftojeni të metën</a>, duke treguar URL-në ku po provonit të hynit."
 
 #: apps/search/templates/search/unavailable.html:22
 msgid "Include the following error message in your bug report:"
@@ -385,7 +385,7 @@ msgstr "Ju lutem, fillojani nga e para te <a href=\"%(dashboard_url)s\">pulti</a
 
 #: templates/404.html:14
 msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-msgstr ""
+msgstr "Po qe se po hapnit një lidhje e dëmtuar, ju lutem <a href=\"%(bug_url)s\">njoftojeni të metën.</a> Faleminderit!"
 
 #: templates/500.html:4
 msgid "Internal Server Error"
@@ -393,11 +393,11 @@ msgstr "Gabim i Brendshëm Shërbyesi"
 
 #: templates/500.html:7
 msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
-msgstr ""
+msgstr "Te zbatimi ndodhi një gabim i paparashikuar. Gabimi është regjistruar dhe rreth tij u njoftuan përgjegjësit. Kërkojmë ndjesë për bezdisjen!"
 
 #: templates/500.html:20
 msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-msgstr ""
+msgstr "Po qe se keni të dhëna shtesë rreth se si të riprodhohet problemi, ju lutem <a href=\"%(bug_url)s\">njoftojeni këtë.</a> Faleminderit!"
 
 #: templates/base.html:5
 msgid "Welcome!"
@@ -409,11 +409,11 @@ msgstr "Kalo te lënda bazë"
 
 #: templates/base.html:18
 msgid "Proceed to footer"
-msgstr ""
+msgstr "Kalo te titulli"
 
 #: templates/base.html:29
 msgid "Input Dashboard"
-msgstr ""
+msgstr "Pulti i Input-eve"
 
 #: templates/base.html:51
 msgid "Privacy Policy"
