@@ -1,15 +1,16 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: REPORTER 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-20 23:17+0200\n"
-"PO-Revision-Date: 2010-07-20 23:27+0100\n"
+"PO-Revision-Date: 2010-07-22 20:03+0100\n"
 "Last-Translator: wladow <info@wladow.sk>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: SLOVAK <l10n@mozilla.sk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.6.0\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: apps/dashboard/forms.py:9
 msgid "1 day"
@@ -21,13 +22,13 @@ msgstr "1 týždeň"
 
 #: apps/dashboard/forms.py:11
 msgid "1 month"
-msgstr ""
+msgstr "1 mesiac"
 
 #: apps/dashboard/forms.py:12
 #: apps/search/templates/search/search.html:32
 #: apps/search/templates/search/search.html:35
 msgid "all"
-msgstr ""
+msgstr "všetky"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:12
 msgid "Please enable JavaScript to view this page."
@@ -36,12 +37,12 @@ msgstr ""
 #: apps/dashboard/templates/dashboard/dashboard.html:19
 #: apps/search/templates/search/search.html:80
 msgid "Overview"
-msgstr ""
+msgstr "Prehľad"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:23
 #: apps/search/templates/search/search.html:87
 msgid "Trends"
-msgstr ""
+msgstr "Trendy"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:27
 #: apps/search/templates/search/search.html:94
@@ -59,11 +60,11 @@ msgstr ""
 
 #: apps/dashboard/templates/dashboard/demographics.html:3
 msgid "OS"
-msgstr ""
+msgstr "OS"
 
 #: apps/dashboard/templates/dashboard/demographics.html:10
 msgid "Locale"
-msgstr ""
+msgstr "Jazyk"
 
 #: apps/dashboard/templates/dashboard/demographics.html:13
 #: apps/feedback/helpers.py:16
@@ -74,17 +75,17 @@ msgstr ""
 #. Link to Google Translator
 #: apps/dashboard/templates/dashboard/messages.html:17
 msgid "Translate!"
-msgstr ""
+msgstr "Preložiť!"
 
 #. Link to user agent info.
 #: apps/dashboard/templates/dashboard/messages.html:20
 msgid "UA"
-msgstr ""
+msgstr "UA"
 
 #. Link to an opinion's URL.
 #: apps/dashboard/templates/dashboard/messages.html:24
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #. This is a link to the URL associated with an opinion.
 #: apps/dashboard/templates/dashboard/messages.html:31
@@ -93,30 +94,30 @@ msgstr ""
 
 #: apps/dashboard/templates/dashboard/messages.html:36
 msgid "OS: {os_name}"
-msgstr ""
+msgstr "OS: {os_name}"
 
 #: apps/dashboard/templates/dashboard/messages.html:38
 msgid "Locale: {locale}"
-msgstr ""
+msgstr "Jazyk: {locale}"
 
 #. Total refers to a message count.
 #: apps/dashboard/templates/dashboard/sentiments.html:26
 msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
-msgstr ""
+msgstr "<a href=\"%(url)s\">Celkom</a>: %(count)s"
 
 #: apps/dashboard/templates/dashboard/sentiments.html:32
 #: apps/search/forms.py:25
 msgid "happy"
-msgstr ""
+msgstr "šťastný"
 
 #: apps/dashboard/templates/dashboard/sentiments.html:34
 #: apps/search/forms.py:26
 msgid "sad"
-msgstr ""
+msgstr "smutný"
 
 #: apps/feedback/__init__.py:9
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: apps/feedback/__init__.py:16
 msgid "Mobile"
@@ -124,15 +125,15 @@ msgstr ""
 
 #: apps/feedback/__init__.py:46
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: apps/feedback/__init__.py:51
 msgid "Mac OS X"
-msgstr ""
+msgstr "Mac OS X"
 
 #: apps/feedback/__init__.py:56
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: apps/feedback/__init__.py:61
 msgid "Other"
@@ -242,45 +243,45 @@ msgstr ""
 #. L10n: This is a placeholder in the search form, for all items in a list.
 #: apps/search/forms.py:41
 msgid "-- all --"
-msgstr ""
+msgstr "-- všetky --"
 
 #: apps/search/forms.py:46
 msgid "Search Terms"
-msgstr ""
+msgstr "Výrazy vyhľadávania"
 
 #: apps/search/forms.py:48
 msgid "Product:"
-msgstr ""
+msgstr "Produkt:"
 
 #: apps/search/forms.py:51
 msgid "Version:"
-msgstr ""
+msgstr "Verzia:"
 
 #: apps/search/forms.py:52
 msgid "Sentiment:"
-msgstr ""
+msgstr "Pocit:"
 
 #: apps/search/forms.py:54
 msgid "Locale:"
-msgstr ""
+msgstr "Jazyk:"
 
 #: apps/search/forms.py:56
 msgid "OS:"
-msgstr ""
+msgstr "OS:"
 
 #: apps/search/forms.py:59
 msgid "Date range:"
-msgstr ""
+msgstr "Dátum od:"
 
 #. L10n: This indicates the second part of a date range.
 #: apps/search/forms.py:62
 msgid "to"
-msgstr ""
+msgstr "do:"
 
 #: apps/search/templates/search/search.html:5
 #: apps/search/templates/search/search.html:7
 msgid "Search Results"
-msgstr ""
+msgstr "Výsledky vyhľadávania"
 
 #: apps/search/templates/search/search.html:12
 msgid "Due to software constraints, we can only show the last 1000 messages for this search query."
@@ -292,39 +293,39 @@ msgstr ""
 
 #: apps/search/templates/search/search.html:27
 msgid "Dates: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
-msgstr ""
+msgstr "Obdobie: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
 
 #: apps/search/templates/search/search.html:32
 msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
-msgstr ""
+msgstr "Jazyk: <span class=\"opt\">%(locale)s</span>;"
 
 #: apps/search/templates/search/search.html:35
 msgid "OS: <span class=\"opt\">%(os)s</span>"
-msgstr ""
+msgstr "OS: <span class=\"opt\">%(os)s</span>"
 
 #: apps/search/templates/search/search.html:49
 msgid "No search results found."
-msgstr ""
+msgstr "Neboli nájdené žiadne výsledky."
 
 #: apps/search/templates/search/search.html:59
 msgid "&laquo; previous"
-msgstr ""
+msgstr "&laquo; predchádzajúca"
 
 #: apps/search/templates/search/search.html:65
 msgid "next &raquo;"
-msgstr ""
+msgstr "ďalšia &raquo;"
 
 #: apps/search/templates/search/search.html:69
 msgid "page %(pagenum)s of %(total)s"
-msgstr ""
+msgstr "strana %(pagenum)s z %(total)s"
 
 #: apps/search/templates/search/search_form.html:18
 msgid "Search"
-msgstr ""
+msgstr "Hľadať"
 
 #: apps/search/templates/search/search_form.html:27
 msgid "Advanced"
-msgstr ""
+msgstr "Rozšírené"
 
 #: apps/search/templates/search/unavailable.html:4
 msgid "Search Unavailable"
@@ -348,7 +349,7 @@ msgstr ""
 
 #: apps/search/templates/search/unavailable.html:25
 msgid "Thanks!"
-msgstr ""
+msgstr "Ďakujeme!"
 
 #: templates/404.html:4
 msgid "Not Found"
@@ -381,7 +382,7 @@ msgstr ""
 
 #: templates/base.html:5
 msgid "Welcome!"
-msgstr ""
+msgstr "Vitajte!"
 
 #: templates/base.html:17
 msgid "Proceed to main content"
@@ -397,23 +398,23 @@ msgstr ""
 
 #: templates/base.html:51
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Zásady ochrany súkromia"
 
 #: templates/base.html:52
 msgid "Legal Notices"
-msgstr ""
+msgstr "Právne informácie"
 
 #: templates/base.html:53
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "Nahlásiť zneužitie ochrannej známky"
 
 #: templates/base.html:56
 msgid "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any later version."
-msgstr ""
+msgstr "Ak nie je <a href=\"%(legal_url)s\">uvedené</a> inak, obsah tejto stránky je vedený pod licenciou<br /><a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a></strong> alebo ktorejkoľvek vyššej verzie"
 
 #: templates/includes/lang_switcher.html:2
 msgid "Other languages:"
-msgstr ""
+msgstr "Ďalšie jazyky:"
 
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
