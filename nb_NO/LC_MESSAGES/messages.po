@@ -3,166 +3,170 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-21 13:51+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2010-07-22 11:36+0200\n"
+"Last-Translator: Håvard <havard.mork@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.3\n"
 
 #: apps/dashboard/forms.py:9
 msgctxt "dashboard_period"
 msgid "1 day"
-msgstr ""
+msgstr "1 dag"
 
 #: apps/dashboard/forms.py:10
 msgctxt "dashboard_period"
 msgid "1 week"
-msgstr ""
+msgstr "1 uke"
 
 #: apps/dashboard/forms.py:11
 msgctxt "dashboard_period"
 msgid "1 month"
-msgstr ""
+msgstr "1 måned"
 
 #: apps/dashboard/forms.py:12
 msgctxt "dashboard_period"
 msgid "all"
-msgstr ""
+msgstr "alle"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:12
 msgid "Please enable JavaScript to view this page."
-msgstr ""
+msgstr "Slå på JavaScript for å vise denne siden."
 
 #: apps/dashboard/templates/dashboard/dashboard.html:19
 #: apps/search/templates/search/search.html:80
 msgid "Overview"
-msgstr ""
+msgstr "Oversikt"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:23
 #: apps/search/templates/search/search.html:87
 msgid "Trends"
-msgstr ""
+msgstr "Trender"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:27
 #: apps/search/templates/search/search.html:94
 msgid "Demographics"
-msgstr ""
+msgstr "Demografi"
 
 #. Link on the dashboard to show more messages.
 #: apps/dashboard/templates/dashboard/dashboard.html:35
 msgid "Show more"
-msgstr ""
+msgstr "Vis mer"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:37
 msgid "Last {count} Messages"
-msgstr ""
+msgstr "Siste {count} meldinger"
 
 #: apps/dashboard/templates/dashboard/demographics.html:3
 msgid "OS"
-msgstr ""
+msgstr "OS"
 
 #: apps/dashboard/templates/dashboard/demographics.html:10
 msgid "Locale"
-msgstr ""
+msgstr "Språk"
 
 #: apps/dashboard/templates/dashboard/demographics.html:13
 #: apps/feedback/helpers.py:16
 #: apps/search/forms.py:40
 msgid "unknown"
-msgstr ""
+msgstr "ukjent"
 
 #. Link to Google Translator
 #: apps/dashboard/templates/dashboard/messages.html:17
 msgid "Translate!"
-msgstr ""
+msgstr "Oversett!"
 
 #. Link to user agent info.
 #: apps/dashboard/templates/dashboard/messages.html:20
 msgid "UA"
-msgstr ""
+msgstr "UA"
 
 #. Link to an opinion's URL.
 #: apps/dashboard/templates/dashboard/messages.html:24
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #. This is a link to the URL associated with an opinion.
 #: apps/dashboard/templates/dashboard/messages.html:31
 msgid "visit &rarr;"
-msgstr ""
+msgstr "besøk &rarr;"
 
 #: apps/dashboard/templates/dashboard/messages.html:36
 msgid "OS: {os_name}"
-msgstr ""
+msgstr "OS: {os_name}"
 
 #: apps/dashboard/templates/dashboard/messages.html:38
 msgid "Locale: {locale}"
-msgstr ""
+msgstr "Språk: {locale}"
 
 #. Total refers to a message count.
 #: apps/dashboard/templates/dashboard/sentiments.html:26
 msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
-msgstr ""
+msgstr "<a href=\"%(url)s\">Totalt</a>: %(count)s"
 
 #: apps/dashboard/templates/dashboard/sentiments.html:32
 #: apps/search/forms.py:28
 msgid "happy"
-msgstr ""
+msgstr "glad"
 
 #: apps/dashboard/templates/dashboard/sentiments.html:34
 #: apps/search/forms.py:29
 msgid "sad"
-msgstr ""
+msgstr "trist"
 
 #: apps/feedback/__init__.py:9
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: apps/feedback/__init__.py:16
 msgid "Mobile"
-msgstr ""
+msgstr "Mobil"
 
 #: apps/feedback/__init__.py:46
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: apps/feedback/__init__.py:51
 msgid "Mac OS X"
-msgstr ""
+msgstr "Mac OS X"
 
 #: apps/feedback/__init__.py:56
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: apps/feedback/__init__.py:61
 msgid "Other"
-msgstr ""
+msgstr "Annet"
 
 #: apps/feedback/forms.py:22
 msgid "Enter your feedback here."
-msgstr ""
+msgstr "Skriv inn tilbakemeldingen her."
 
 #: apps/feedback/forms.py:37
 msgid "We already got your feedback! Thanks."
-msgstr ""
+msgstr "Vi har allerede mottatt tilbakemeldingen din! Takk."
 
 #: apps/feedback/helpers.py:36
 msgid "happy face"
-msgstr ""
+msgstr "smileansikt"
 
 #: apps/feedback/helpers.py:39
 msgid "sad face"
-msgstr ""
+msgstr "trist ansikt"
 
 #: apps/feedback/validators.py:29
 msgid "User agent string was not recognizable."
-msgstr ""
+msgstr "User agent-teksten var ikke gjenkjennbar."
 
 #: apps/feedback/validators.py:37
 msgid "Submitted User Agent is not the latest beta version."
 msgstr ""
+"User agent-teksten som ble sendt indikerer at den nyeste betaversjonen ikke "
+"brukes."
 
 #: apps/feedback/validators.py:46
 msgid ""
@@ -170,296 +174,329 @@ msgid ""
 "products, please use words that help us create an action or to-do from your "
 "constructive feedback. Thanks!"
 msgstr ""
+"Kommentaren inneholder banneord (%s). Bruk heller ord som hjelper oss å lage "
+"en handlings- eller oppgaveliste for å forbedre produktene våre fra dine "
+"konstruktive tilbakemeldinger. Takk!"
 
 #: apps/feedback/validators.py:55
 msgid "Feedback must not contain HTML."
-msgstr ""
+msgstr "Tilbakemeldingen må ikke inneholde HTML."
 
 #: apps/feedback/validators.py:62
 msgid ""
 "Your feedback seems to contain an email address. Please remove this and "
 "similar personal data from the text, then try again. Thanks!"
 msgstr ""
+"Tilbakemeldingen din ser ut til å inneholde en e-postadresse. Vennligst "
+"fjern denne og evt. annen personlig identifiserbar informasjon i teksten, og "
+"prøv igjen. Takk!"
 
 #: apps/feedback/validators.py:71
 msgid ""
 "Your feedback seems to contain a URL. Please remove this and similar "
 "personal data from the text, then try again. Thanks!"
 msgstr ""
+"Tilbakemeldingen din ser ut til å inneholde en URL. Fjern denne og evt. "
+"annen personlig identifiserbar informasjon, og prøv igjen. Takk!"
 
 #: apps/feedback/views.py:32
 msgid "User-Agent request header must be set."
-msgstr ""
+msgstr "User Agent-headeren må være satt i forespørselen."
 
 #: apps/feedback/templates/feedback/feedback.html:3
 #: apps/feedback/templates/feedback/feedback.html:56
 msgid "Submit Feedback"
-msgstr ""
+msgstr "Send tilbakemelding"
 
 #: apps/feedback/templates/feedback/feedback.html:13
 msgid ""
 "Super! It's great to hear that you like our pre-released browser. Please "
 "explain what you specifically like!"
 msgstr ""
+"Supert! Det er bra å høre at du liker prøveutgaven av nettleseren vår. "
+"Forklar hva du liker med den!"
 
 #: apps/feedback/templates/feedback/feedback.html:20
 msgid ""
 "We are sorry that you have not had a good experience with our browser. "
 "Please tell us why, so we can improve it!"
 msgstr ""
+"Vi er lei for å høre at du ikke hadde en god opplevelse med nettleseren vår. "
+"Fortell oss hvorfor, slik at vi kan forbedre den!"
 
 #: apps/feedback/templates/feedback/feedback.html:34
 msgid ""
 "Had an issue with a specific website? Please add the URL, so we can find the "
 "issue faster!"
 msgstr ""
+"Hadde du et problem med et bestemt nettsted? Legg til URL-en, slik at vi kan "
+"finne problemet raskere!"
 
 #: apps/feedback/templates/feedback/feedback.html:54
 msgid ""
 "Please ensure that there is no personally identifiable information here."
-msgstr ""
+msgstr "Sjekk at du ikke oppgir noen personlig identifiserbar informasjon her."
 
 #: apps/feedback/templates/feedback/need_beta.html:3
 msgid "Download Beta"
-msgstr ""
+msgstr "Last ned betaen"
 
 #: apps/feedback/templates/feedback/need_beta.html:8
 msgid ""
 "Oh! So, you want to offer us feedback on the next version of Firefox. Thank "
 "you, but you'll need to be a part of our Beta Program."
 msgstr ""
+"Åh! Så du ønsker å gi oss tilbakemelding på den neste versjonen av Firefox. "
+"Takk, men du må være en del av betaprogrammet vårt for å gjøre det."
 
 #: apps/feedback/templates/feedback/need_beta.html:14
 msgid ""
 "To join, simply go to our download page and get <a href=\"%(url)s\">the latest "
 "Firefox Beta!</a>"
 msgstr ""
+"For å bli med, gå til nedlastingssiden og last ned <a href=\"%(url)s\">den "
+"nyeste Firefox-betaen!</a>"
 
 #: apps/feedback/templates/feedback/thanks.html:3
 msgid "Thanks for Your Feedback"
-msgstr ""
+msgstr "Takk for tilbakemeldingen"
 
 #: apps/feedback/templates/feedback/thanks.html:7
 msgid "Thanks for sending us your feedback!"
-msgstr ""
+msgstr "Takk for at du sender oss din tilbakemelding!"
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid ""
 "If you want to see where your feedback was sent to, take a look at our <a "
 "href=\"%(url)s\">Firefox Input Dashboard</a>."
 msgstr ""
+"Dersom du ønsker å se hvor tilbakemeldingen din ble sendt kan du se vårt <a "
+"href=\"%(url)s\">Firefox Input-instrumentbord</a>."
 
 #: apps/feedback/templates/feedback/thanks.html:17
 msgid "Find out the latest news from Mozilla:"
-msgstr ""
+msgstr "Få de siste nyhetene fra Mozilla:"
 
 #: apps/search/client.py:64
 msgid "Query has timed out."
-msgstr ""
+msgstr "Forespørselen fikk tidsavbrudd."
 
 #: apps/search/client.py:66
 msgid "Sphinx threw an unknown exception: %s"
-msgstr ""
+msgstr "Sphinx kastet et ukjent unntak: %s"
 
 #: apps/search/forms.py:19
 msgctxt "version_choice"
 msgid "-- all --"
-msgstr ""
+msgstr "-- alle --"
 
 #: apps/search/forms.py:27
 msgctxt "sentiment_choice"
 msgid "-- all --"
-msgstr ""
+msgstr "-- alle --"
 
 #: apps/search/forms.py:34
 msgctxt "os_choice"
 msgid "-- all --"
-msgstr ""
+msgstr "-- alle --"
 
 #: apps/search/forms.py:39
 msgctxt "locale_choice"
 msgid "-- all --"
-msgstr ""
+msgstr "-- alle --"
 
 #: apps/search/forms.py:49
 msgid "Search Terms"
-msgstr ""
+msgstr "Søkeord"
 
 #: apps/search/forms.py:51
 msgid "Product:"
-msgstr ""
+msgstr "Produkt:"
 
 #: apps/search/forms.py:53
 msgid "Version:"
-msgstr ""
+msgstr "Versjon:"
 
 #: apps/search/forms.py:54
 msgid "Sentiment:"
-msgstr ""
+msgstr "Mening:"
 
 #: apps/search/forms.py:56
 msgid "Locale:"
-msgstr ""
+msgstr "Språk:"
 
 #: apps/search/forms.py:58
 msgid "OS:"
-msgstr ""
+msgstr "OS:"
 
 #: apps/search/forms.py:61
 msgid "Date range:"
-msgstr ""
+msgstr "Datoområde:"
 
 #. L10n: This indicates the second part of a date range.
 #: apps/search/forms.py:64
 msgid "to"
-msgstr ""
+msgstr "til"
 
 #: apps/search/templates/search/search.html:5
 #: apps/search/templates/search/search.html:7
 msgid "Search Results"
-msgstr ""
+msgstr "Søkeresultater"
 
 #: apps/search/templates/search/search.html:12
 msgid ""
 "Due to software constraints, we can only show the last 1000 messages for "
 "this search query."
 msgstr ""
+"På grunn av programvarebegrensinger kan vi bare vise de siste 1000 "
+"meldingene i denne søkeforespørselen."
 
 #: apps/search/templates/search/search.html:23
 msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
-msgstr ""
+msgstr "Beskrivelse: <span class=\"opt\">\"%(query)s\"</span>;"
 
 #: apps/search/templates/search/search.html:27
 msgid "Dates: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
 msgstr ""
+"Datoområde: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
 
 #: apps/search/templates/search/search.html:32
 msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
-msgstr ""
+msgstr "Språk: <span class=\"opt\">%(locale)s</span>;"
 
 #: apps/search/templates/search/search.html:32
 #: apps/search/templates/search/search.html:35
 msgid "all"
-msgstr ""
+msgstr "alle"
 
 #: apps/search/templates/search/search.html:35
 msgid "OS: <span class=\"opt\">%(os)s</span>"
-msgstr ""
+msgstr "OS: <span class=\"opt\">%(os)s</span>"
 
 #: apps/search/templates/search/search.html:49
 msgid "No search results found."
-msgstr ""
+msgstr "Ingen søkeresultater ble funnet."
 
 #: apps/search/templates/search/search.html:59
 msgid "&laquo; previous"
-msgstr ""
+msgstr "&laquo; forrige"
 
 #: apps/search/templates/search/search.html:65
 msgid "next &raquo;"
-msgstr ""
+msgstr "neste &raquo;"
 
 #: apps/search/templates/search/search.html:69
 msgid "page %(pagenum)s of %(total)s"
-msgstr ""
+msgstr "side %(pagenum)s av %(total)s"
 
 #: apps/search/templates/search/search_form.html:18
 msgid "Search"
-msgstr ""
+msgstr "Søk"
 
 #: apps/search/templates/search/search_form.html:27
 msgid "Advanced"
-msgstr ""
+msgstr "Avansert"
 
 #: apps/search/templates/search/unavailable.html:4
 msgid "Search Unavailable"
-msgstr ""
+msgstr "Søk er utilgjengelig"
 
 #: apps/search/templates/search/unavailable.html:6
 msgid "I'm sorry, there was an error with your search."
-msgstr ""
+msgstr "Beklager, men en feil oppstod under behandling av søket ditt."
 
 #: apps/search/templates/search/unavailable.html:9
 msgid ""
 "Our search engine might be currently unavailable. You may start over on the "
 "<a href=\"%(url)s\">dashboard</a> and try again later."
 msgstr ""
+"Søkemotoren vår er muligens utilgjengelig akkurat nå. Du kan prøve igjen fra "
+"<a href=\"%(url)s\">instrumentbordet</a>, og forsøke på nytt senere."
 
 #: apps/search/templates/search/unavailable.html:16
 msgid ""
 "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, "
 "mentioning the URL you were accessing."
 msgstr ""
+"Dersom problemet vedvarer, <a href=\"%(bug_url)s\">opprett en bug</a> der du "
+"nevner URL-en du besøkte."
 
 #: apps/search/templates/search/unavailable.html:22
 msgid "Include the following error message in your bug report:"
-msgstr ""
+msgstr "Ta med følgende feilmelding i bugrapporten:"
 
 #: apps/search/templates/search/unavailable.html:25
 msgid "Thanks!"
-msgstr ""
+msgstr "Takk!"
 
 #: templates/404.html:4
 msgid "Not Found"
-msgstr ""
+msgstr "Ikke funnet"
 
 #: templates/404.html:6
 msgid "I'm sorry, I could not find what you were looking for."
-msgstr ""
+msgstr "Beklager, klarte ikke finne det du lette etter."
 
 #: templates/404.html:9
 #: templates/500.html:14
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
-msgstr ""
+msgstr "Start på nytt på <a href=\"%(dashboard_url)s\">instrumentbordet</a>."
 
 #: templates/404.html:14
 msgid ""
 "If you were following a broken link, please <a href=\"%(bug_url)s\">file a "
 "bug.</a> Thanks!"
 msgstr ""
+"Dersom du fulgte en ødelagt lenke, <a href=\"%(bug_url)s\">rapporter en "
+"bug.</a> Takk!"
 
 #: templates/500.html:4
 msgid "Internal Server Error"
-msgstr ""
+msgstr "Intern tjenerfeil"
 
 #: templates/500.html:7
 msgid ""
 "An unhandled error occurred in the application. The error has been logged "
 "and an administrator was notified. We apologize for the inconvenience!"
 msgstr ""
+"En ukjent feil oppstod i applikasjonen. Feilen er logget og en "
+"systemansvarlig ble varslet. Vi beklager bryderiet!"
 
 #: templates/500.html:20
 msgid ""
 "If you have additional information how to reproduce this problem, please <a "
 "href=\"%(bug_url)s\">file a bug.</a> Thanks!"
 msgstr ""
+"Dersom du har mer informasjon om hvordan gjenskape denne feilen, <a href=\"%"
+"(bug_url)s\">meld inn en bug.</a> Takk!"
 
 #: templates/base.html:5
 msgid "Welcome!"
-msgstr ""
+msgstr "Velkommen!"
 
 #: templates/base.html:17
 msgid "Proceed to main content"
-msgstr ""
+msgstr "Gå til hovedinnholdet"
 
 #: templates/base.html:18
 msgid "Proceed to footer"
-msgstr ""
+msgstr "Fortsett til fotnoter"
 
 #: templates/base.html:29
 msgid "Input Dashboard"
-msgstr ""
+msgstr "Input-instrumentbord"
 
 #: templates/base.html:51
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Personvern"
 
 #: templates/base.html:52
 msgid "Legal Notices"
-msgstr ""
+msgstr "Juridiske merknader"
 
 #: templates/base.html:53
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "Rapporter varemerke-misbruk"
 
 #: templates/base.html:56
 msgid ""
@@ -467,11 +504,15 @@ msgid ""
 "site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons "
 "Attribution Share-Alike License v3.0</a> or any later version."
 msgstr ""
+"Med unntak av hvor noe annet er <a href=\"%(legal_url)s\">oppgitt</a> er "
+"innhold på dette nettstedet lisensiert under <br/> <a href=\"%"
+"(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> "
+"eller nyere versjoner."
 
 #: templates/includes/lang_switcher.html:2
 msgid "Other languages:"
-msgstr ""
+msgstr "Andre språk:"
 
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
-msgstr ""
+msgstr "Gå"
