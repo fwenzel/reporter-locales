@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: REPORTER 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-20 23:17+0200\n"
-"PO-Revision-Date: 2010-07-22 20:03+0100\n"
+"PO-Revision-Date: 2010-07-22 20:47+0100\n"
 "Last-Translator: wladow <info@wladow.sk>\n"
 "Language-Team: SLOVAK <l10n@mozilla.sk>\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgstr "všetky"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:12
 msgid "Please enable JavaScript to view this page."
-msgstr ""
+msgstr "Ak chcete zobraziť túto stránku, musíte mať povolený JavaScript."
 
 #: apps/dashboard/templates/dashboard/dashboard.html:19
 #: apps/search/templates/search/search.html:80
@@ -47,16 +47,16 @@ msgstr "Trendy"
 #: apps/dashboard/templates/dashboard/dashboard.html:27
 #: apps/search/templates/search/search.html:94
 msgid "Demographics"
-msgstr ""
+msgstr "Demografia"
 
 #. Link on the dashboard to show more messages.
 #: apps/dashboard/templates/dashboard/dashboard.html:35
 msgid "Show more"
-msgstr ""
+msgstr "Zobraziť ďalšie"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:37
 msgid "Last {count} Messages"
-msgstr ""
+msgstr "{count} najnovších správ"
 
 #: apps/dashboard/templates/dashboard/demographics.html:3
 msgid "OS"
@@ -70,7 +70,7 @@ msgstr "Jazyk"
 #: apps/feedback/helpers.py:16
 #: apps/search/forms.py:31
 msgid "unknown"
-msgstr ""
+msgstr "neznámy"
 
 #. Link to Google Translator
 #: apps/dashboard/templates/dashboard/messages.html:17
@@ -90,7 +90,7 @@ msgstr "URL"
 #. This is a link to the URL associated with an opinion.
 #: apps/dashboard/templates/dashboard/messages.html:31
 msgid "visit &rarr;"
-msgstr ""
+msgstr "navštíviť &rarr;"
 
 #: apps/dashboard/templates/dashboard/messages.html:36
 msgid "OS: {os_name}"
@@ -121,7 +121,7 @@ msgstr "Firefox"
 
 #: apps/feedback/__init__.py:16
 msgid "Mobile"
-msgstr ""
+msgstr "Mobilný Firefox"
 
 #: apps/feedback/__init__.py:46
 msgid "Windows"
@@ -137,31 +137,31 @@ msgstr "Linux"
 
 #: apps/feedback/__init__.py:61
 msgid "Other"
-msgstr ""
+msgstr "Iný"
 
 #: apps/feedback/forms.py:22
 msgid "Enter your feedback here."
-msgstr ""
+msgstr "sem zadajte svoj názor"
 
 #: apps/feedback/forms.py:37
 msgid "We already got your feedback! Thanks."
-msgstr ""
+msgstr "Svoj názor ste už odoslali! Ďakujeme."
 
 #: apps/feedback/helpers.py:36
 msgid "happy face"
-msgstr ""
+msgstr "šťastná tvár"
 
 #: apps/feedback/helpers.py:39
 msgid "sad face"
-msgstr ""
+msgstr "smutná tvár"
 
 #: apps/feedback/validators.py:29
 msgid "User agent string was not recognizable."
-msgstr ""
+msgstr "Reťazec User agent nebol rozpoznaný."
 
 #: apps/feedback/validators.py:37
 msgid "Submitted User Agent is not the latest beta version."
-msgstr ""
+msgstr "Poskytnutý reťazec User Agent nepochádza z najnovšej verzie beta."
 
 #: apps/feedback/validators.py:46
 msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
@@ -169,7 +169,7 @@ msgstr ""
 
 #: apps/feedback/validators.py:55
 msgid "Feedback must not contain HTML."
-msgstr ""
+msgstr "Spätná väzba nesmie obsahovať kód HTML."
 
 #: apps/feedback/validators.py:62
 msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
@@ -181,32 +181,32 @@ msgstr ""
 
 #: apps/feedback/views.py:32
 msgid "User-Agent request header must be set."
-msgstr ""
+msgstr "Hlavička požiadavky musí obsahovať User-Agent."
 
 #: apps/feedback/templates/feedback/feedback.html:3
 #: apps/feedback/templates/feedback/feedback.html:56
 msgid "Submit Feedback"
-msgstr ""
+msgstr "Odoslať názor"
 
 #: apps/feedback/templates/feedback/feedback.html:13
 msgid "Super! It's great to hear that you like our pre-released browser. Please explain what you specifically like!"
-msgstr ""
+msgstr "Super! Sme radi, že sa Vám naša testovacia verzia prehliadača páči. Teraz nám, prosím, povedzte, čo sa Vám páči najviac."
 
 #: apps/feedback/templates/feedback/feedback.html:20
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can improve it!"
-msgstr ""
+msgstr "Je nám ľúto, že sa Vám táto verzia prehliadača nepáči. Prosím, povedzte nám, prečo je to tak, aby sme ho mohli vylepšiť."
 
 #: apps/feedback/templates/feedback/feedback.html:34
 msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
-msgstr ""
+msgstr "Máte problém na konkrétnej stránke? Zadajte jej adresu, aby sme mohli opraviť chybu ešte rýchlejšie."
 
 #: apps/feedback/templates/feedback/feedback.html:54
 msgid "Please ensure that there is no personally identifiable information here."
-msgstr ""
+msgstr "Uisite sa, že nezadávate žiadne osobné údaje."
 
 #: apps/feedback/templates/feedback/need_beta.html:3
 msgid "Download Beta"
-msgstr ""
+msgstr "Prevziať verziu beta"
 
 #: apps/feedback/templates/feedback/need_beta.html:8
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be a part of our Beta Program."
@@ -218,11 +218,11 @@ msgstr ""
 
 #: apps/feedback/templates/feedback/thanks.html:3
 msgid "Thanks for Your Feedback"
-msgstr ""
+msgstr "Ďakujeme za Váš názor"
 
 #: apps/feedback/templates/feedback/thanks.html:7
 msgid "Thanks for sending us your feedback!"
-msgstr ""
+msgstr "Ďakujeme za odoslanie Vášho názoru!"
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
@@ -230,15 +230,15 @@ msgstr ""
 
 #: apps/feedback/templates/feedback/thanks.html:17
 msgid "Find out the latest news from Mozilla:"
-msgstr ""
+msgstr "Najnovšie správy z Mozilly:"
 
 #: apps/search/client.py:60
 msgid "Query has timed out."
-msgstr ""
+msgstr "Časový limit požiadavky vypršal."
 
 #: apps/search/client.py:62
 msgid "Sphinx threw an unknown exception: %s"
-msgstr ""
+msgstr "Sphinx vyhodil neočakávanú výnimku: %s"
 
 #. L10n: This is a placeholder in the search form, for all items in a list.
 #: apps/search/forms.py:41
@@ -285,11 +285,11 @@ msgstr "Výsledky vyhľadávania"
 
 #: apps/search/templates/search/search.html:12
 msgid "Due to software constraints, we can only show the last 1000 messages for this search query."
-msgstr ""
+msgstr "Kvôli softvérovým obmedzeniam je možné pre toto vyhľadávanie zobraziť len 1000 správ."
 
 #: apps/search/templates/search/search.html:23
 msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
-msgstr ""
+msgstr "Popis: <span class=\"opt\">\"%(query)s\"</span>;"
 
 #: apps/search/templates/search/search.html:27
 msgid "Dates: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
@@ -329,11 +329,11 @@ msgstr "Rozšírené"
 
 #: apps/search/templates/search/unavailable.html:4
 msgid "Search Unavailable"
-msgstr ""
+msgstr "Vyhľadávanie nie je dostupné."
 
 #: apps/search/templates/search/unavailable.html:6
 msgid "I'm sorry, there was an error with your search."
-msgstr ""
+msgstr "Ospravedlňujeme sa, pri vyhľadávaní sa vyskytla chyba."
 
 #: apps/search/templates/search/unavailable.html:9
 msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
@@ -341,11 +341,11 @@ msgstr ""
 
 #: apps/search/templates/search/unavailable.html:16
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
-msgstr ""
+msgstr "Ak problém pretrváva, prosím, <a href=\"%(bug_url)s\">založte bug</a> a spomeňte v ňom adresu stránky, ktorú sa snažíte navštíviť."
 
 #: apps/search/templates/search/unavailable.html:22
 msgid "Include the following error message in your bug report:"
-msgstr ""
+msgstr "Zahnúť nasledujúcu chybovú hlášku do správy o chybe."
 
 #: apps/search/templates/search/unavailable.html:25
 msgid "Thanks!"
@@ -353,11 +353,11 @@ msgstr "Ďakujeme!"
 
 #: templates/404.html:4
 msgid "Not Found"
-msgstr ""
+msgstr "Nebolo nájdené"
 
 #: templates/404.html:6
 msgid "I'm sorry, I could not find what you were looking for."
-msgstr ""
+msgstr "Prepáčte, to čo hľadáte sa tu nenachádza."
 
 #: templates/404.html:9
 #: templates/500.html:14
@@ -366,11 +366,11 @@ msgstr ""
 
 #: templates/404.html:14
 msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-msgstr ""
+msgstr "Ak ste klikli na nefunkčný odkaz, prosím, <a href=\"%(bug_url)s\">založte bug</a>. Ďakujeme!"
 
 #: templates/500.html:4
 msgid "Internal Server Error"
-msgstr ""
+msgstr "Vnútorná chyba servera"
 
 #: templates/500.html:7
 msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
@@ -378,7 +378,7 @@ msgstr ""
 
 #: templates/500.html:20
 msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-msgstr ""
+msgstr "Ak máte ďalšie informácie ako postupovať pri reprodukcii tohto problému, prosím, <a href=\"%(bug_url)s\">založte bug</a>. Ďakujeme!"
 
 #: templates/base.html:5
 msgid "Welcome!"
@@ -386,15 +386,15 @@ msgstr "Vitajte!"
 
 #: templates/base.html:17
 msgid "Proceed to main content"
-msgstr ""
+msgstr "Pokračovať na hlavný obsah"
 
 #: templates/base.html:18
 msgid "Proceed to footer"
-msgstr ""
+msgstr "Pokračovať na pätu"
 
 #: templates/base.html:29
 msgid "Input Dashboard"
-msgstr ""
+msgstr "Nástenka názorov"
 
 #: templates/base.html:51
 msgid "Privacy Policy"
@@ -418,5 +418,5 @@ msgstr "Ďalšie jazyky:"
 
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
-msgstr ""
+msgstr "Prejsť"
 
