@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: REPORTER 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-20 23:17+0200\n"
-"PO-Revision-Date: 2010-07-22 21:08+0100\n"
+"PO-Revision-Date: 2010-07-23 23:22+0100\n"
 "Last-Translator: wladow <info@wladow.sk>\n"
 "Language-Team: SLOVAK <l10n@mozilla.sk>\n"
 "MIME-Version: 1.0\n"
@@ -108,12 +108,12 @@ msgstr "<a href=\"%(url)s\">Celkom</a>: %(count)s"
 #: apps/dashboard/templates/dashboard/sentiments.html:32
 #: apps/search/forms.py:25
 msgid "happy"
-msgstr "šťastný"
+msgstr "šťastných"
 
 #: apps/dashboard/templates/dashboard/sentiments.html:34
 #: apps/search/forms.py:26
 msgid "sad"
-msgstr "smutný"
+msgstr "smutných"
 
 #: apps/feedback/__init__.py:9
 msgid "Firefox"
@@ -242,6 +242,26 @@ msgstr "Sphinx vyhodil neočakávanú výnimku: %s"
 
 #. L10n: This is a placeholder in the search form, for all items in a list.
 #: apps/search/forms.py:41
+msgid "-- all --"
+msgstr "-- všetky --"
+
+#: apps/search/forms.py:39
+msgctxt "locale_choice"
+msgid "-- all --"
+msgstr "-- všetky --"
+
+#: apps/search/forms.py:34
+msgctxt "os_choice"
+msgid "-- all --"
+msgstr "-- všetky --"
+
+#: apps/search/forms.py:27
+msgctxt "sentiment_choice"
+msgid "-- all --"
+msgstr "-- všetky --"
+
+#: apps/search/forms.py:19
+msgctxt "version_choice"
 msgid "-- all --"
 msgstr "-- všetky --"
 
@@ -406,7 +426,7 @@ msgstr "Právne informácie"
 
 #: templates/base.html:53
 msgid "Report Trademark Abuse"
-msgstr "Nahlásiť zneužitie ochrannej známky"
+msgstr "Nahlásiť porušenie ochrannej známky"
 
 #: templates/base.html:56
 msgid "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any later version."
