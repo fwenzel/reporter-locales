@@ -3,432 +3,484 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 15:37+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2010-07-27 08:52+0200\n"
+"Last-Translator: Mark <markh@babelzilla.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.3\n"
 
 #: apps/search/templates/search/search.html:59
 msgid "&laquo; previous"
-msgstr ""
+msgstr "&laquo; vorige"
 
 #: apps/search/forms.py:39
 msgctxt "locale_choice"
 msgid "-- all --"
-msgstr ""
+msgstr "-- alles --"
 
 #: apps/search/forms.py:34
 msgctxt "os_choice"
 msgid "-- all --"
-msgstr ""
+msgstr "-- alles --"
 
 #: apps/search/forms.py:27
 msgctxt "sentiment_choice"
 msgid "-- all --"
-msgstr ""
+msgstr "-- alles --"
 
 #: apps/search/forms.py:19
 msgctxt "version_choice"
 msgid "-- all --"
-msgstr ""
+msgstr "-- alles --"
 
 #: apps/dashboard/forms.py:9
 msgctxt "dashboard_period"
 msgid "1 day"
-msgstr ""
+msgstr "1 dag"
 
 #: apps/dashboard/forms.py:11
 msgctxt "dashboard_period"
 msgid "1 month"
-msgstr ""
+msgstr "1 maand"
 
 #: apps/dashboard/forms.py:10
 msgctxt "dashboard_period"
 msgid "1 week"
-msgstr ""
+msgstr "1 week"
 
 #. Total refers to a message count.
 #: apps/dashboard/templates/dashboard/sentiments.html:26
 msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
-msgstr ""
+msgstr "<a href=\"%(url)s\">Totaal</a>: %(count)s"
 
 #: apps/search/templates/search/search_form.html:27
 msgid "Advanced"
-msgstr ""
+msgstr "Geavanceerd"
 
 #: templates/500.html:7
 msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
 msgstr ""
+"Er is een onverwerkte fout opgetreden in de toepassing. De fout is in het "
+"logboek vermeld en er is een beheerder ingelicht. Onze excuses voor het "
+"ongemak!"
 
 #: apps/search/forms.py:61
+#: apps/search/forms.py:59
 msgid "Date range:"
-msgstr ""
+msgstr "Datumbereik:"
 
 #: apps/search/templates/search/search.html:27
 msgid "Dates: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
-msgstr ""
+msgstr "Data: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:27 apps/search/templates/search/search.html:94
 msgid "Demographics"
-msgstr ""
+msgstr "Demografie"
 
 #: apps/search/templates/search/search.html:23
 msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
-msgstr ""
+msgstr "Beschrijving: <span class=\"opt\">\"%(query)s\"</span>;"
 
 #: apps/feedback/templates/feedback/need_beta.html:3
 msgid "Download Beta"
-msgstr ""
+msgstr "Bèta downloaden"
 
 #: apps/search/templates/search/search.html:12
 msgid "Due to software constraints, we can only show the last 1000 messages for this search query."
 msgstr ""
+"Vanwege softwarebeperkingen kunnen we slechts de laatste 1000 berichten voor "
+"deze zoekopdracht weergeven."
 
 #: apps/feedback/forms.py:22
 msgid "Enter your feedback here."
-msgstr ""
+msgstr "Voer hier uw feedback in."
 
 #: templates/base.html:56
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
 "any later version."
 msgstr ""
+"Behalve waar anderszins <a href=\"%(legal_url)s\">aangegeven</a>valt de inhoud "
+"van deze site onder de <br/> <a href=\"%(license_url)s\">Creative Commons "
+"Attribution Share-Alike License v3.0</a> of een latere versie."
 
 #: apps/feedback/validators.py:55
 msgid "Feedback must not contain HTML."
-msgstr ""
+msgstr "Feedback mag geen HTML bevatten."
 
 #: apps/feedback/templates/feedback/thanks.html:17
 msgid "Find out the latest news from Mozilla:"
-msgstr ""
+msgstr "Lees het laatste nieuws van Mozilla:"
 
 #: apps/feedback/__init__.py:9
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
-msgstr ""
+msgstr "OK"
 
 #: apps/feedback/templates/feedback/feedback.html:34
 msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
 msgstr ""
+"Hebt u een probleem met een specifieke website? Voeg a.u.b. de URL toe, "
+"zodat we het probleem sneller kunnen vinden!"
 
 #: templates/404.html:6
 msgid "I'm sorry, I could not find what you were looking for."
-msgstr ""
+msgstr "Sorry, ik kan niet vinden wat u zoekt."
 
 #: apps/search/templates/search/unavailable.html:6
 msgid "I'm sorry, there was an error with your search."
-msgstr ""
+msgstr "Sorry, er is een fout opgetreden tijdens het zoeken."
 
 #: apps/search/templates/search/unavailable.html:16
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
 msgstr ""
+"Als het probleem aanhoudt, kunt u <a href=\"%(bug_url)s\">een bug "
+"indienen</a>, onder vermelding van de URL die u wilde benaderen."
 
 #: templates/500.html:20
 msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
 msgstr ""
+"Als u aanvullende informatie hebt over hoe we dit probleem kunnen laten "
+"optreden, <a href=\"%(bug_url)s\">dien dan een bugrapport in</a>. Bedankt!"
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
 msgstr ""
+"Als u wilt zien waar uw feedback naartoe is gestuurd, kijk dan op ons <a "
+"href=\"%(url)s\">Firefox-invoerdashboard</a>."
 
 #: templates/404.html:14
 msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
 msgstr ""
+"Als u een niet-werkende koppeling aantrof, <a href=\"%(bug_url)s\">dien dan "
+"een bug in</a>. Bedankt!"
 
 #: apps/search/templates/search/unavailable.html:22
 msgid "Include the following error message in your bug report:"
-msgstr ""
+msgstr "Neem de volgende foutmelding op in uw bugrapport:"
 
 #: templates/base.html:29
 msgid "Input Dashboard"
-msgstr ""
+msgstr "Invoerdashboard"
 
 #: templates/500.html:4
 msgid "Internal Server Error"
-msgstr ""
+msgstr "Interne serverfout"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:37
 msgid "Last {count} Messages"
-msgstr ""
+msgstr "Laatste {count} berichten"
 
 #: templates/base.html:52
 msgid "Legal Notices"
-msgstr ""
+msgstr "Juridische opmerkingen"
 
 #: apps/feedback/__init__.py:56
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: apps/dashboard/templates/dashboard/demographics.html:10
 msgid "Locale"
-msgstr ""
+msgstr "Taal"
 
 #: apps/search/forms.py:56
+#: apps/search/forms.py:54
 msgid "Locale:"
-msgstr ""
+msgstr "Locale:"
 
 #: apps/search/templates/search/search.html:32
 msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
-msgstr ""
+msgstr "Locale: <span class=\"opt\">%(locale)s</span>;"
 
 #: apps/dashboard/templates/dashboard/messages.html:38
 msgid "Locale: {locale}"
-msgstr ""
+msgstr "Locale: {locale}"
 
 #: apps/feedback/__init__.py:51
 msgid "Mac OS X"
-msgstr ""
+msgstr "Mac OS X"
 
 #: apps/feedback/__init__.py:16
 msgid "Mobile"
-msgstr ""
+msgstr "Mobile"
 
 #: apps/search/templates/search/search.html:49
 msgid "No search results found."
-msgstr ""
+msgstr "Geen zoekresultaten."
 
 #: templates/404.html:4
 msgid "Not Found"
-msgstr ""
+msgstr "Niet gevonden"
 
 #: apps/dashboard/templates/dashboard/demographics.html:3
 msgid "OS"
-msgstr ""
+msgstr "Besturingssysteem"
 
 #: apps/search/forms.py:58
+#: apps/search/forms.py:56
 msgid "OS:"
-msgstr ""
+msgstr "Besturingssysteem:"
 
 #: apps/search/templates/search/search.html:35
 msgid "OS: <span class=\"opt\">%(os)s</span>"
-msgstr ""
+msgstr "Besturingssysteem: <span class=\"opt\">%(os)s</span>"
 
 #: apps/dashboard/templates/dashboard/messages.html:36
 msgid "OS: {os_name}"
-msgstr ""
+msgstr "Besturingssysteem: {os_name}"
 
 #: apps/feedback/templates/feedback/need_beta.html:8
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be a part of our Beta Program."
 msgstr ""
+"Oh! Dus u wilt ons feedback geven over de volgende versie van Firefox. Dank "
+"u, maar u dient deel uit te maken van ons Bèta-programma."
 
 #: apps/feedback/__init__.py:61
 msgid "Other"
-msgstr ""
+msgstr "Overig"
 
 #: templates/includes/lang_switcher.html:2
 msgid "Other languages:"
-msgstr ""
+msgstr "Overige talen:"
 
 #: apps/search/templates/search/unavailable.html:9
 msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
 msgstr ""
+"Mogelijk is onze zoekmachine momenteel niet beschikbaar. U kunt opnieuw "
+"beginnen op het <a href=\"%(url)s\">dashboard</a> en het later nog eens "
+"proberen."
 
 #: apps/dashboard/templates/dashboard/dashboard.html:19 apps/search/templates/search/search.html:80
 msgid "Overview"
-msgstr ""
+msgstr "Overzicht"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:12
 msgid "Please enable JavaScript to view this page."
-msgstr ""
+msgstr "Schakel a.u.b. JavaScript in om deze pagina te bekijken."
 
 #: apps/feedback/templates/feedback/feedback.html:54
 msgid "Please ensure that there is no personally identifiable information here."
-msgstr ""
+msgstr "Zorg er a.u.b. voor dat zich hier geen persoonlijke informatie bevindt."
 
 #: templates/404.html:9 templates/500.html:14
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
-msgstr ""
+msgstr "Begin a.u.b. opnieuw op het <a href=\"%(dashboard_url)s\">dashboard</a>."
 
 #: templates/base.html:51
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Privacybeleid"
 
 #: templates/base.html:18
 msgid "Proceed to footer"
-msgstr ""
+msgstr "Door naar voettekst"
 
 #: templates/base.html:17
 msgid "Proceed to main content"
-msgstr ""
+msgstr "Door naar hoofdvenster"
 
 #: apps/search/forms.py:51
+#: apps/search/forms.py:48
 msgid "Product:"
-msgstr ""
+msgstr "Product:"
 
 #: apps/search/client.py:64
+#: apps/search/client.py:60
 msgid "Query has timed out."
-msgstr ""
+msgstr "Uw zoekopdracht is verlopen."
 
 #: templates/base.html:53
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "Misbruik van handelsmerk melden"
 
 #: apps/search/templates/search/search_form.html:18
 msgid "Search"
-msgstr ""
+msgstr "Zoeken"
 
 #: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:7
 msgid "Search Results"
-msgstr ""
+msgstr "Zoekresultaten"
 
 #: apps/search/forms.py:49
+#: apps/search/forms.py:46
 msgid "Search Terms"
-msgstr ""
+msgstr "Zoektermen"
 
 #: apps/search/templates/search/unavailable.html:4
 msgid "Search Unavailable"
-msgstr ""
+msgstr "Zoekfunctie niet beschikbaar"
 
 #: apps/search/forms.py:54
+#: apps/search/forms.py:52
 msgid "Sentiment:"
-msgstr ""
+msgstr "Gevoel:"
 
 #. Link on the dashboard to show more messages.
 #: apps/dashboard/templates/dashboard/dashboard.html:35
 msgid "Show more"
-msgstr ""
+msgstr "Meer"
 
 #: apps/search/client.py:66
+#: apps/search/client.py:62
 msgid "Sphinx threw an unknown exception: %s"
-msgstr ""
+msgstr "Sphinx heeft een onbekende uitzondering opgeleverd: %s"
 
 #: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:56
 msgid "Submit Feedback"
-msgstr ""
+msgstr "Feedback indienen"
 
 #: apps/feedback/validators.py:37
 msgid "Submitted User Agent is not the latest beta version."
-msgstr ""
+msgstr "De ingediende useragent is niet de meest recente bètaversie."
 
 #: apps/feedback/templates/feedback/feedback.html:13
 msgid "Super! It's great to hear that you like our pre-released browser. Please explain what you specifically like!"
 msgstr ""
+"Geweldig! We vinden het fijn te horen dat u plezier beleeft aan onze pre-"
+"release-browser. Vertel ons wat u vooral aanspreekt!"
 
 #: apps/feedback/templates/feedback/thanks.html:3
 msgid "Thanks for Your Feedback"
-msgstr ""
+msgstr "Bedankt voor uw feedback"
 
 #: apps/feedback/templates/feedback/thanks.html:7
 msgid "Thanks for sending us your feedback!"
-msgstr ""
+msgstr "Bedankt voor het insturen van uw feedback!"
 
 #: apps/search/templates/search/unavailable.html:25
 msgid "Thanks!"
-msgstr ""
+msgstr "Bedankt!"
 
 #: apps/feedback/templates/feedback/need_beta.html:14
 msgid "To join, simply go to our download page and get <a href=\"%(url)s\">the latest Firefox Beta!</a>"
 msgstr ""
+"Ga naar onze downloadpagina gaan en haal <a href=\"%(url)s\">de meest recente "
+"Firefox-bèta</a> op om mee te doen!"
 
 #. Link to Google Translator
 #: apps/dashboard/templates/dashboard/messages.html:17
 msgid "Translate!"
-msgstr ""
+msgstr "Vertalen!"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:23 apps/search/templates/search/search.html:87
 msgid "Trends"
-msgstr ""
+msgstr "Trends"
 
 #. Link to user agent info.
 #: apps/dashboard/templates/dashboard/messages.html:20
 msgid "UA"
-msgstr ""
+msgstr "UA"
 
 #. Link to an opinion's URL.
 #: apps/dashboard/templates/dashboard/messages.html:24
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: apps/feedback/validators.py:29
 msgid "User agent string was not recognizable."
-msgstr ""
+msgstr "De useragent-string werd niet herkend."
 
 #: apps/feedback/views.py:32
 msgid "User-Agent request header must be set."
-msgstr ""
+msgstr "De useragent-verzoekheader moet zijn ingesteld."
 
 #: apps/search/forms.py:53
+#: apps/search/forms.py:51
 msgid "Version:"
-msgstr ""
+msgstr "Versie:"
 
 #: apps/feedback/forms.py:37
 msgid "We already got your feedback! Thanks."
-msgstr ""
+msgstr "We hebben uw feedback al! Bedankt."
 
 #: apps/feedback/templates/feedback/feedback.html:20
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can improve it!"
 msgstr ""
+"Het spijt ons dat u geen goede ervaring heeft gehad met onze browser. Vertel "
+"ons a.u.b. waarom, zodat we dit kunnen verbeteren!"
 
 #: templates/base.html:5
 msgid "Welcome!"
-msgstr ""
+msgstr "Welkom!"
 
 #: apps/feedback/__init__.py:46
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: apps/feedback/validators.py:46
 msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
 msgstr ""
+"Uw reactie bevat scheldwoorden (%s). Gebruik om ons te helpen onze producten "
+"te verbeteren a.u.b. woorden die ons helpen een actie of to-do te genereren "
+"uit uw constructieve feedback. Bedankt!"
 
 #: apps/feedback/validators.py:71
 msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr ""
+"Uw feedback lijkt een URL te bevatten. Verwijder dit en vergelijkbare "
+"persoonlijke gegevens a.u.b. uit de tekst, en probeer het opnieuw. Bedankt!"
 
 #: apps/feedback/validators.py:62
 msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr ""
+"Uw feedback lijkt een e-mailadres te bevatten. Verwijder dit en "
+"vergelijkbare persoonlijke gegevens a.u.b. uit de tekst, en probeer het "
+"opnieuw. Bedankt!"
 
 #: apps/search/templates/search/search.html:32 apps/search/templates/search/search.html:35
+#: apps/dashboard/forms.py:12
 msgid "all"
-msgstr ""
+msgstr "alles"
 
 #: apps/dashboard/forms.py:12
 msgctxt "dashboard_period"
 msgid "all"
-msgstr ""
+msgstr "alles"
 
 #: apps/dashboard/templates/dashboard/sentiments.html:32 apps/search/forms.py:28
+#: apps/search/forms.py:25
 msgid "happy"
-msgstr ""
+msgstr "blij"
 
 #: apps/feedback/helpers.py:36
 msgid "happy face"
-msgstr ""
+msgstr "blij gezicht"
 
 #: apps/search/templates/search/search.html:65
 msgid "next &raquo;"
-msgstr ""
+msgstr "volgende &raquo;"
 
 #: apps/search/templates/search/search.html:69
 msgid "page %(pagenum)s of %(total)s"
-msgstr ""
+msgstr "pagina %(pagenum)s van %(total)s"
 
 #: apps/dashboard/templates/dashboard/sentiments.html:34 apps/search/forms.py:29
+#: apps/search/forms.py:26
 msgid "sad"
-msgstr ""
+msgstr "verdrietig"
 
 #: apps/feedback/helpers.py:39
 msgid "sad face"
-msgstr ""
+msgstr "bedroefd gezicht"
 
 #. L10n: This indicates the second part of a date range.
 #: apps/search/forms.py:64
+#: apps/search/forms.py:62
 msgid "to"
-msgstr ""
+msgstr "tot"
 
 #: apps/dashboard/templates/dashboard/demographics.html:13 apps/feedback/helpers.py:16 apps/search/forms.py:40
+#: apps/search/forms.py:31
 msgid "unknown"
-msgstr ""
+msgstr "onbekend"
 
 #. This is a link to the URL associated with an opinion.
 #: apps/dashboard/templates/dashboard/messages.html:31
 msgid "visit &rarr;"
-msgstr ""
+msgstr "&rarr; bezoeken"
