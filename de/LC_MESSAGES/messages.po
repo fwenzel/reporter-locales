@@ -57,7 +57,7 @@ msgstr "<a href=\"%(url)s\">Gesamt</a>: %(count)s"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:25
 msgid "Add URL of last visited page?"
-msgstr ""
+msgstr "Die URL der letzten besuchten Seite hinzufügen?"
 
 #: apps/search/templates/search/search_form.html:28
 msgid "Advanced"
@@ -69,11 +69,11 @@ msgstr "Ein unerwarteter Fehler ist aufgetreten. Der Fehler wurde gespeichert un
 
 #: templates/includes/nav_buttons.html:2
 msgid "Clusters"
-msgstr ""
+msgstr "Cluster"
 
 #: apps/feedback/templates/feedback/cluster.html:3 apps/feedback/templates/feedback/clusters.html:3
 msgid "Clusters of Opinions"
-msgstr ""
+msgstr "Kommentar-Cluster"
 
 #: apps/search/forms.py:65
 msgid "Date range:"
@@ -170,11 +170,11 @@ msgstr "Server-Fehler"
 
 #: apps/dashboard/templates/dashboard/sentiments.html:35
 msgid "Issues"
-msgstr ""
+msgstr "Probleme"
 
 #: apps/feedback/templates/feedback/feedback.html:34
 msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
-msgstr ""
+msgstr "Kennen Sie eine Webseite, die mit dieser Beta-Version besser funktioniert als mit vorherigen Firefox-Versionen? Bitte teilen Sie uns die URL mit, damit wir bescheid wissen!"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:37 apps/dashboard/templates/dashboard/mobile/dashboard.html:37
 msgid "Last {count} Messages"
@@ -214,7 +214,7 @@ msgstr "Mobile"
 
 #: apps/feedback/templates/feedback/cluster.html:25 apps/feedback/templates/feedback/clusters.html:20
 msgid "No clusters of opinions found."
-msgstr ""
+msgstr "Keine Kommentar-Cluster gefunden."
 
 #: apps/search/templates/search/search.html:56 apps/search/templates/search/mobile/search.html:55
 msgid "No search results found."
@@ -241,13 +241,12 @@ msgid "OS: {os_name}"
 msgstr "OS: {os_name}"
 
 #: apps/feedback/templates/feedback/need_beta.html:8
-#, fuzzy
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
-msgstr "Oh! Sie möchten uns gerne Feedback für die nächste Version von Firefox geben? Vielen Dank, aber dazu müssen Sie an unserem Beta-Programm teilnehmen."
+msgstr "Oh! Sie möchten uns gerne Feedback für die nächste Version von Firefox geben? Vielen Dank, aber dazu müssen Sie unsere neueste Beta-Version verwenden."
 
 #: apps/feedback/templates/feedback/mobile/need_beta.html:9
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
-msgstr ""
+msgstr "Oh! Sie möchten uns gerne Feedback geben? Dann benötigen Sie die neueste Beta-Version! Gehen Sie einfach auf unsere Beta-Seite und <a href=\"%(url)s\">laden Sie die herunter!</a>"
 
 #: apps/feedback/__init__.py:67
 msgid "Other"
@@ -280,7 +279,7 @@ msgstr "Bitte gehen Sie zurück zur <a href=\"%(dashboard_url)s\">Hauptseite</a>
 
 #: apps/dashboard/templates/dashboard/sentiments.html:33
 msgid "Praise"
-msgstr ""
+msgstr "Lob"
 
 #: templates/base.html:59 templates/base_mobile.html:53
 msgid "Privacy Policy"
@@ -334,15 +333,15 @@ msgstr "Mehr Kommentare"
 #. This is referring to the first few clusters.
 #: apps/feedback/templates/feedback/cluster.html:17
 msgid "Showing the first {count}"
-msgstr ""
+msgstr "Die ersten {count} Einträge"
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:11
 msgid "Some ways to help out more:"
-msgstr ""
+msgstr "Ein paar Möglichkeiten, noch mehr auszuhelfen:"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:15
 msgid "Sorry! Please tell us more!"
-msgstr ""
+msgstr "Das tut uns leid! Bitte erklären Sie genauer!"
 
 #. L10n: Sphinx is the name of the search engine software.
 #: apps/search/client.py:66
@@ -364,7 +363,7 @@ msgstr "Super! Wir freuen uns, dass Sie unseren neuen Browser mögen. Bitte erkl
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:13
 msgid "Super! Please tell us more!"
-msgstr ""
+msgstr "Super! Bitte erzählen Sie uns mehr!"
 
 #: apps/feedback/templates/feedback/thanks.html:3 apps/feedback/templates/feedback/mobile/thanks.html:3
 msgid "Thanks for Your Feedback"
@@ -379,7 +378,6 @@ msgid "Thanks!"
 msgstr "Vielen Dank!"
 
 #: apps/feedback/templates/feedback/need_beta.html:14
-#, fuzzy
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
 msgstr "Um daran teilzunehmen, gehen Sie einfach zu unserer Download-Seite und laden Sie die <a href=\"%(url)s\">neueste Firefox Beta-Version</a> herunter!"
 
