@@ -3,14 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 22:34+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2010-07-28 20:56+0200\n"
+"Last-Translator: Alexander <unghost@mozilla-russia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.6.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.0.3\n"
 
 #: apps/search/templates/search/search.html:66 apps/search/templates/search/mobile/search.html:65
 msgid "&laquo; previous"
@@ -58,7 +60,7 @@ msgstr "<a href=\"%(url)s\">Всего</a>: %(count)s"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:25
 msgid "Add URL of last visited page?"
-msgstr ""
+msgstr "Добавить ссылку на страницу, посещённую последней?"
 
 #: apps/search/templates/search/search_form.html:28
 msgid "Advanced"
@@ -70,11 +72,11 @@ msgstr "В приложении произошла необработанная 
 
 #: templates/includes/nav_buttons.html:2
 msgid "Clusters"
-msgstr ""
+msgstr "Скопление"
 
 #: apps/feedback/templates/feedback/cluster.html:3 apps/feedback/templates/feedback/clusters.html:3
 msgid "Clusters of Opinions"
-msgstr ""
+msgstr "Скопление мнений"
 
 #: apps/search/forms.py:65
 msgid "Date range:"
@@ -171,11 +173,14 @@ msgstr "Внутренняя ошибка сервера"
 
 #: apps/dashboard/templates/dashboard/sentiments.html:35
 msgid "Issues"
-msgstr ""
+msgstr "Проблемы"
 
 #: apps/feedback/templates/feedback/feedback.html:34
 msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
 msgstr ""
+"Знаете сайт, который работает лучше в этой бете, чем в более ранних версиях "
+"Firefox? Пожалуйста, добавьте ссылку на этот сайт, чтобы мы могли это "
+"отслеживать!"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:37 apps/dashboard/templates/dashboard/mobile/dashboard.html:37
 msgid "Last {count} Messages"
@@ -215,7 +220,7 @@ msgstr "Мобильный"
 
 #: apps/feedback/templates/feedback/cluster.html:25 apps/feedback/templates/feedback/clusters.html:20
 msgid "No clusters of opinions found."
-msgstr ""
+msgstr "Скоплений мнений не найдено. "
 
 #: apps/search/templates/search/search.html:56 apps/search/templates/search/mobile/search.html:55
 msgid "No search results found."
@@ -242,13 +247,16 @@ msgid "OS: {os_name}"
 msgstr "ОС: {os_name}"
 
 #: apps/feedback/templates/feedback/need_beta.html:8
-#, fuzzy
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
-msgstr "Так вы хотите отправить нам отзыв на следующую версию Firefox. Спасибо, но вы должны принять участие в нашей программе бета-тестирования."
+msgstr ""
+"О! Так вы хотите отправить нам отзыв на следующую версию Firefox. Спасибо, "
+"но вы должны использовать нашу последнюю бета-версию."
 
 #: apps/feedback/templates/feedback/mobile/need_beta.html:9
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
 msgstr ""
+"О! Так вы хотите отправить нам отзыв. Вам нужно установить последнюю бету! "
+"Перейдите на нашу страницу бета-версий и <a href=\"%(url)s\">загрузите её!</a>"
 
 #: apps/feedback/__init__.py:67
 msgid "Other"
@@ -281,7 +289,7 @@ msgstr "Пожалуйста, начните заново на <a href=\"%(dashb
 
 #: apps/dashboard/templates/dashboard/sentiments.html:33
 msgid "Praise"
-msgstr ""
+msgstr "Похвалить"
 
 #: templates/base.html:59 templates/base_mobile.html:53
 msgid "Privacy Policy"
@@ -335,11 +343,11 @@ msgstr "Показать ещё"
 #. This is referring to the first few clusters.
 #: apps/feedback/templates/feedback/cluster.html:17
 msgid "Showing the first {count}"
-msgstr ""
+msgstr "Показать первые {count}"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:15
 msgid "Sorry! Please tell us more!"
-msgstr ""
+msgstr "Извините! Расскажите поподробней!"
 
 #. L10n: Sphinx is the name of the search engine software.
 #: apps/search/client.py:66
@@ -361,7 +369,7 @@ msgstr "Супер! Мы очень рады, что вам понравился
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:13
 msgid "Super! Please tell us more!"
-msgstr ""
+msgstr "Супер! Пожалуйста, поделитесь подробностями!"
 
 #: apps/feedback/templates/feedback/thanks.html:3 apps/feedback/templates/feedback/mobile/thanks.html:3
 msgid "Thanks for Your Feedback"
@@ -376,9 +384,10 @@ msgid "Thanks!"
 msgstr "Спасибо!"
 
 #: apps/feedback/templates/feedback/need_beta.html:14
-#, fuzzy
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
-msgstr "Чтобы присоединиться, просто перейдите на нашу страницу загрузки и получите <a href=\"%(url)s\">последнюю бета-версию Firefox!</a>"
+msgstr ""
+"Чтобы сделать это, просто перейдите на нашу страницу загрузки и "
+"установите/обновите <a href=\"%(url)s\">последнюю бета-версию Firefox!</a>"
 
 #. Link to Google Translator
 #: apps/dashboard/templates/dashboard/messages.html:17
@@ -425,19 +434,16 @@ msgid "Welcome!"
 msgstr "Добро пожаловать!"
 
 #: apps/feedback/__init__.py:47
-#, fuzzy
 msgid "Windows 7"
-msgstr "Windows"
+msgstr "Windows 7"
 
 #: apps/feedback/__init__.py:52
-#, fuzzy
 msgid "Windows Vista"
-msgstr "Windows"
+msgstr "Windows Vista"
 
 #: apps/feedback/__init__.py:42
-#, fuzzy
 msgid "Windows XP"
-msgstr "Windows"
+msgstr "Windows XP"
 
 #: apps/feedback/validators.py:47
 msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
