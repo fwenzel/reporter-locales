@@ -3,490 +3,588 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-21 07:57+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2010-07-28 23:01+0200\n"
+"Last-Translator: Toni <toniher@softcatala.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.3\n"
 
 #: apps/search/templates/search/search.html:66 apps/search/templates/search/mobile/search.html:65
+#: apps/search/templates/search/search.html:59
 msgid "&laquo; previous"
-msgstr ""
+msgstr "&laquo; anterior"
 
 #: apps/search/forms.py:46
 msgctxt "locale_choice"
 msgid "-- all --"
-msgstr ""
+msgstr "-- totes --"
 
 #: apps/search/forms.py:42
 msgctxt "os_choice"
 msgid "-- all --"
-msgstr ""
+msgstr "-- tots --"
 
 #: apps/search/forms.py:35
 msgctxt "sentiment_choice"
 msgid "-- all --"
-msgstr ""
+msgstr "-- totes --"
 
 #: apps/search/forms.py:22 apps/search/forms.py:29
 msgctxt "version_choice"
 msgid "-- all --"
-msgstr ""
+msgstr "-- totes --"
 
 #: apps/dashboard/forms.py:9
 msgctxt "dashboard_period"
 msgid "1 day"
-msgstr ""
+msgstr "1 dia"
 
 #: apps/dashboard/forms.py:11
 msgctxt "dashboard_period"
 msgid "1 month"
-msgstr ""
+msgstr "1 mes"
 
 #: apps/dashboard/forms.py:10
 msgctxt "dashboard_period"
 msgid "1 week"
-msgstr ""
+msgstr "1 setmana"
 
 #. Total refers to a message count.
 #: apps/dashboard/templates/dashboard/sentiments.html:27
+#: apps/dashboard/templates/dashboard/sentiments.html:26
 msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
-msgstr ""
+msgstr "<a href=\"%(url)s\">Total</a>: %(count)s"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:25
 msgid "Add URL of last visited page?"
-msgstr ""
+msgstr "Voleu afegir l'URL de la darrera pàgina visitada?"
 
 #: apps/search/templates/search/search_form.html:28
+#: apps/search/templates/search/search_form.html:27
 msgid "Advanced"
-msgstr ""
+msgstr "Avançada"
 
 #: templates/500.html:7
 msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
 msgstr ""
+"S'ha produït un error inesperat a l'aplicació. S'ha registrat l'error i s'ha "
+"notificat a un administrador. Us demanem disculpes!"
 
 #: templates/includes/nav_buttons.html:2
 msgid "Clusters"
-msgstr ""
+msgstr "Grups"
 
 #: apps/feedback/templates/feedback/cluster.html:3 apps/feedback/templates/feedback/clusters.html:3
 msgid "Clusters of Opinions"
-msgstr ""
+msgstr "Grup d'opinions"
 
 #: apps/search/forms.py:65
+#: apps/search/forms.py:59
 msgid "Date range:"
-msgstr ""
+msgstr "Interval de les dates:"
 
 #: apps/search/templates/search/search.html:34 apps/search/templates/search/mobile/search.html:35
+#: apps/search/templates/search/search.html:27
 msgid "Dates: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
-msgstr ""
+msgstr "Dates: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:27 apps/dashboard/templates/dashboard/mobile/dashboard.html:27 apps/search/templates/search/search.html:101
 #: apps/search/templates/search/mobile/search.html:100
+#: apps/search/templates/search/search.html:94
 msgid "Demographics"
-msgstr ""
+msgstr "Dades demogràfiques"
 
 #: apps/search/templates/search/search.html:30 apps/search/templates/search/mobile/search.html:31
+#: apps/search/templates/search/search.html:23
 msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
-msgstr ""
+msgstr "Descripció: <span class=\"opt\">\"%(query)s\"</span>;"
 
 #: apps/feedback/templates/feedback/need_beta.html:3 apps/feedback/templates/feedback/mobile/need_beta.html:3
 msgid "Download Beta"
-msgstr ""
+msgstr "Baixeu la versió beta"
 
 #: apps/search/templates/search/search.html:19 apps/search/templates/search/mobile/search.html:18
+#: apps/search/templates/search/search.html:12
 msgid "Due to software constraints, we can only show the last 1000 messages for this search query."
 msgstr ""
+"A causa de les limitacions del programari, només poden mostrar-se el darrers "
+"1000 missatges d'aquesta consulta de cerca."
 
 #: apps/feedback/forms.py:22
 msgid "Enter your feedback here."
-msgstr ""
+msgstr "Introduïu el vostre comentari a continuació."
 
 #: templates/base.html:64 templates/base_mobile.html:58
+#: templates/base.html:56
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
 "any later version."
 msgstr ""
+"Excepte si <a href=\"%(legal_url)s\">s'indica</a> el contrari, el contingut "
+"d'aquest lloc està sota una <br/> <a href=\"%(license_url)s\">llicència "
+"Creative Commons Atribució-Compartir igual v3.0</a> o qualsevol altra versió "
+"posterior."
 
 #: apps/feedback/validators.py:56
+#: apps/feedback/validators.py:55
 msgid "Feedback must not contain HTML."
-msgstr ""
+msgstr "No es permet codi HTML als comentaris."
 
 #: apps/feedback/templates/feedback/thanks.html:17 apps/feedback/templates/feedback/mobile/thanks.html:12
 msgid "Find out the latest news from Mozilla:"
-msgstr ""
+msgstr "Descobriu les darreres novetats de Mozilla:"
 
 #: apps/feedback/__init__.py:9
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
-msgstr ""
+msgstr "Vés-hi"
 
 #: apps/feedback/templates/feedback/feedback.html:42
+#: apps/feedback/templates/feedback/feedback.html:34
 msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
 msgstr ""
+"Heu tingut cap incidència amb un web? Indiqueu-nos l'URL perquè puguem "
+"trobar una solució com més aviat millor!"
 
 #: templates/404.html:6
 msgid "I'm sorry, I could not find what you were looking for."
-msgstr ""
+msgstr "No ha estat possible trobar què cercàveu."
 
 #: apps/search/templates/search/unavailable.html:6
 msgid "I'm sorry, there was an error with your search."
-msgstr ""
+msgstr "Ho sentim, s'ha produït un error en la cerca."
 
 #: apps/search/templates/search/unavailable.html:16
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
 msgstr ""
+"Si el problema persisteix, podeu omplir un <a href=\"%(bug_url)s\">informe "
+"d'error</a> tot indicant l'URL al qual estàveu accedint."
 
 #: templates/500.html:20
 msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
 msgstr ""
+"Si disposeu d'informació addicional per reproduir el problema, <a href=\"%"
+"(bug_url)s\">ompliu-ne un informe d'error</a>. Gràcies!"
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
 msgstr ""
+"Si voleu saber on s'ha enviat el vostre comentari, feu una ullada al <a "
+"href=\"%(url)s\">tauler del Firefox Input</a>."
 
 #: templates/404.html:14
 msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
 msgstr ""
+"Si heu trobat un enllaç trencat, <a href=\"%(bug_url)s\">podeu notificar-"
+"ho</a>. Gràcies!"
 
 #: apps/search/templates/search/unavailable.html:22
 msgid "Include the following error message in your bug report:"
-msgstr ""
+msgstr "Inclogueu el missatge d'error següent en el vostre informe d'error."
 
 #: templates/base.html:31 templates/base_mobile.html:27
+#: templates/base.html:29
 msgid "Input Dashboard"
-msgstr ""
+msgstr "Tauler dels comentaris"
 
 #: templates/500.html:4
 msgid "Internal Server Error"
-msgstr ""
+msgstr "Error intern del servidor"
 
 #: apps/dashboard/templates/dashboard/sentiments.html:35
 msgid "Issues"
-msgstr ""
+msgstr "Problemes"
 
 #: apps/feedback/templates/feedback/feedback.html:34
 msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
 msgstr ""
+"Coneixeu cap web que funcioni millor amb aquesta versió beta que en versions "
+"anteriors del Firefox? Indiqueu-nos l'URL, perquè puguem seguir-ne la "
+"pista!"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:37 apps/dashboard/templates/dashboard/mobile/dashboard.html:37
 msgid "Last {count} Messages"
-msgstr ""
+msgstr "Darrers {count} missatges"
 
 #: templates/base.html:60 templates/base_mobile.html:54
+#: templates/base.html:52
 msgid "Legal Notices"
-msgstr ""
+msgstr "Nota legal"
 
 #: apps/feedback/__init__.py:62
+#: apps/feedback/__init__.py:56
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: apps/dashboard/templates/dashboard/demographics.html:10
 msgid "Locale"
-msgstr ""
+msgstr "Llengua"
 
 #: apps/search/forms.py:60
+#: apps/search/forms.py:54
 msgid "Locale:"
-msgstr ""
+msgstr "Llengua:"
 
 #: apps/search/templates/search/search.html:39 apps/search/templates/search/mobile/search.html:40
+#: apps/search/templates/search/search.html:32
 msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
-msgstr ""
+msgstr "Llengua: <span class=\"opt\">%(locale)s</span>;"
 
 #: apps/dashboard/templates/dashboard/messages.html:38
 msgid "Locale: {locale}"
-msgstr ""
+msgstr "Llengua: {locale}"
 
 #: apps/feedback/__init__.py:57
+#: apps/feedback/__init__.py:51
 msgid "Mac OS X"
-msgstr ""
+msgstr "Mac OS X"
 
 #: apps/feedback/__init__.py:16
 msgid "Mobile"
-msgstr ""
+msgstr "Mobile"
 
 #: apps/feedback/templates/feedback/cluster.html:25 apps/feedback/templates/feedback/clusters.html:20
 msgid "No clusters of opinions found."
-msgstr ""
+msgstr "No s'ha trobat cap grup d'opinions."
 
 #: apps/search/templates/search/search.html:56 apps/search/templates/search/mobile/search.html:55
+#: apps/search/templates/search/search.html:49
 msgid "No search results found."
-msgstr ""
+msgstr "No s'ha trobat cap coincidència."
 
 #: templates/404.html:4
 msgid "Not Found"
-msgstr ""
+msgstr "No s'ha trobat"
 
 #: apps/dashboard/templates/dashboard/demographics.html:3
 msgid "OS"
-msgstr ""
+msgstr "SO"
 
 #: apps/search/forms.py:62
+#: apps/search/forms.py:56
 msgid "OS:"
-msgstr ""
+msgstr "SO:"
 
 #: apps/search/templates/search/search.html:42 apps/search/templates/search/mobile/search.html:43
+#: apps/search/templates/search/search.html:35
 msgid "OS: <span class=\"opt\">%(os)s</span>"
-msgstr ""
+msgstr "SO: <span class=\"opt\">%(os)s</span>"
 
 #: apps/dashboard/templates/dashboard/messages.html:36
 msgid "OS: {os_name}"
-msgstr ""
+msgstr "SO: {os_name}"
 
 #: apps/feedback/templates/feedback/need_beta.html:8
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
 msgstr ""
+"Us agraïm que vulgueu compartir amb nosaltres la vostra experiència amb la "
+"nova versió del Firefox, però només ho podeu fer emprant la darrera versió "
+"beta."
 
 #: apps/feedback/templates/feedback/mobile/need_beta.html:9
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
 msgstr ""
+"Per compartir amb nosaltres la vostra experiència amb la nova versió del "
+"Firefox, necessiteu la darrera versió beta. <a href=\"%(url)s\">Baixeu-la!</a>"
 
 #: apps/feedback/__init__.py:67
+#: apps/feedback/__init__.py:61
 msgid "Other"
-msgstr ""
+msgstr "Altre"
 
 #: templates/includes/lang_switcher.html:2
 msgid "Other languages:"
-msgstr ""
+msgstr "Altres llengües:"
 
 #: apps/search/templates/search/unavailable.html:9
 msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
 msgstr ""
+"El motor de cerca no es troba actualment disponible. Aneu al <a href=\"%"
+"(url)s\">tauler de comentaris</a> i torneu-ho a provar."
 
 #: apps/dashboard/templates/dashboard/dashboard.html:19 apps/dashboard/templates/dashboard/mobile/dashboard.html:19 apps/search/templates/search/search.html:87
 #: apps/search/templates/search/mobile/search.html:86
+#: apps/search/templates/search/search.html:80
 msgid "Overview"
-msgstr ""
+msgstr "Informació general"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:12 apps/dashboard/templates/dashboard/mobile/dashboard.html:12
 msgid "Please enable JavaScript to view this page."
-msgstr ""
+msgstr "Habiliteu el Javascript per veure correctament aquesta pàgina."
 
 #: apps/feedback/templates/feedback/feedback.html:63 apps/feedback/templates/feedback/mobile/feedback.html:43
+#: apps/feedback/templates/feedback/feedback.html:54
 msgid "Please ensure that there is no personally identifiable information here."
 msgstr ""
+"Assegureu-vos que no inclogueu cap informació personal que pugui revelar la "
+"vostra identitat."
 
 #: templates/404.html:9 templates/500.html:14
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 msgstr ""
+"Torneu a començar al <a href=\"%(dashboard_url)s\">tauler de comentaris</a>."
 
 #: apps/dashboard/templates/dashboard/sentiments.html:33
 msgid "Praise"
-msgstr ""
+msgstr "Felicitació"
 
 #: templates/base.html:59 templates/base_mobile.html:53
+#: templates/base.html:51
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Política de privadesa"
 
 #: templates/base.html:19 templates/base_mobile.html:17
+#: templates/base.html:18
 msgid "Proceed to footer"
-msgstr ""
+msgstr "Vés al peu de pàgina"
 
 #: templates/base.html:18 templates/base_mobile.html:16
+#: templates/base.html:17
 msgid "Proceed to main content"
-msgstr ""
+msgstr "Vés al contingut principal"
 
 #: apps/search/forms.py:54
+#: apps/search/forms.py:48
 msgid "Product:"
-msgstr ""
+msgstr "Aplicació:"
 
 #: apps/search/client.py:63
+#: apps/search/client.py:60
 msgid "Query has timed out."
-msgstr ""
+msgstr "S'ha esgotat el temps d'espera de la consulta."
 
 #: templates/base.html:61 templates/base_mobile.html:55
+#: templates/base.html:53
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "Informa d'un abús de la marca"
 
 #: apps/search/templates/search/search_form.html:19
+#: apps/search/templates/search/search_form.html:18
 msgid "Search"
-msgstr ""
+msgstr "Cerca"
 
 #: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:7 apps/search/templates/search/mobile/search.html:5 apps/search/templates/search/mobile/search.html:6
 msgid "Search Results"
-msgstr ""
+msgstr "Resultats de la cerca"
 
 #: apps/search/forms.py:53
+#: apps/search/forms.py:46
 msgid "Search Terms"
-msgstr ""
+msgstr "Termes de cerca"
 
 #: apps/search/templates/search/unavailable.html:4
 msgid "Search Unavailable"
-msgstr ""
+msgstr "Cerca no disponible"
 
 #: apps/search/forms.py:58
+#: apps/search/forms.py:52
 msgid "Sentiment:"
-msgstr ""
+msgstr "Parer:"
 
 #. Link on the dashboard to show more messages.
 #: apps/dashboard/templates/dashboard/dashboard.html:35 apps/dashboard/templates/dashboard/mobile/dashboard.html:35
 msgid "Show more"
-msgstr ""
+msgstr "Mostra'n més"
 
 #. This is referring to the first few clusters.
 #: apps/feedback/templates/feedback/cluster.html:17
 msgid "Showing the first {count}"
-msgstr ""
+msgstr "Mostra el primer {count}"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:15
 msgid "Sorry! Please tell us more!"
-msgstr ""
+msgstr "Indiqueu-nos quelcom més!"
 
 #. L10n: Sphinx is the name of the search engine software.
 #: apps/search/client.py:66
+#: apps/search/client.py:62
 msgid "Sphinx threw an unknown exception: %s"
-msgstr ""
+msgstr "L'Sphinx ha llençat una excepció desconeguda: %s"
 
 #: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:65 apps/feedback/templates/feedback/mobile/feedback.html:3
 #: apps/feedback/templates/feedback/mobile/feedback.html:45
+#: apps/feedback/templates/feedback/feedback.html:56
 msgid "Submit Feedback"
-msgstr ""
+msgstr "Tramet el comentari"
 
 #: apps/feedback/validators.py:37
 msgid "Submitted User Agent is not the latest beta version."
-msgstr ""
+msgstr "L'agent d'usuari tramès no correspon a la darrera versió beta."
 
 #: apps/feedback/templates/feedback/feedback.html:13
 msgid "Super! It's great to hear that you like our pre-released browser. Please explain what you specifically like!"
 msgstr ""
+"Fantàstic! És genial sentir que us agrada la versió preliminar del nostre "
+"navegador. Expliqueu-nos que us agrada concretament!"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:13
 msgid "Super! Please tell us more!"
-msgstr ""
+msgstr "Perfecte! No dubteu a dir-nos quelcom més."
 
 #: apps/feedback/templates/feedback/thanks.html:3 apps/feedback/templates/feedback/mobile/thanks.html:3
 msgid "Thanks for Your Feedback"
-msgstr ""
+msgstr "Gràcies pel vostre comentari"
 
 #: apps/feedback/templates/feedback/thanks.html:7 apps/feedback/templates/feedback/mobile/thanks.html:8
 msgid "Thanks for sending us your feedback!"
-msgstr ""
+msgstr "Gràcies per enviar el vostre comentari."
 
 #: apps/search/templates/search/unavailable.html:25
 msgid "Thanks!"
-msgstr ""
+msgstr "Gràcies!"
 
 #: apps/feedback/templates/feedback/need_beta.html:14
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
 msgstr ""
+"Per poder fer-ho, només heu d'instal·lar/actualitzar des del nostre web a la "
+"<a href=\"%(url)s\">darrera versió Beta del Firefox!</a>"
 
 #. Link to Google Translator
 #: apps/dashboard/templates/dashboard/messages.html:17
 msgid "Translate!"
-msgstr ""
+msgstr "Traduïu-ho!"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:23 apps/dashboard/templates/dashboard/mobile/dashboard.html:23 apps/search/templates/search/search.html:94
 #: apps/search/templates/search/mobile/search.html:93
+#: apps/search/templates/search/search.html:87
 msgid "Trends"
-msgstr ""
+msgstr "Tendències"
 
 #. Link to user agent info.
 #: apps/dashboard/templates/dashboard/messages.html:20
 msgid "UA"
-msgstr ""
+msgstr "Agent d'usuari"
 
 #. Link to an opinion's URL.
 #: apps/dashboard/templates/dashboard/messages.html:24
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: apps/feedback/validators.py:29
 msgid "User agent string was not recognizable."
-msgstr ""
+msgstr "No s'ha reconegut correctament l'agent d'usuari."
 
 #: apps/feedback/views.py:33
+#: apps/feedback/views.py:32
 msgid "User-Agent request header must be set."
-msgstr ""
+msgstr "S'ha d'especificar la capçalera de l'agent d'usuari."
 
 #: apps/search/forms.py:56
+#: apps/search/forms.py:51
 msgid "Version:"
-msgstr ""
+msgstr "Versió:"
 
 #: apps/feedback/forms.py:43
+#: apps/feedback/forms.py:37
 msgid "We already got your feedback! Thanks."
-msgstr ""
+msgstr "Hem rebut el vostre comentari. Gràcies!"
 
 #: apps/feedback/templates/feedback/feedback.html:20
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can improve it!"
 msgstr ""
+"Sentim que no hàgiu gaudit d'una bona experiència amb el nostre navegador. "
+"Si ens indiqueu el motiu, intentarem millorar-ho!"
 
 #: templates/base.html:5 templates/base_mobile.html:5
 msgid "Welcome!"
-msgstr ""
+msgstr "Us donem la benvinguda!"
 
 #: apps/feedback/__init__.py:47
 msgid "Windows 7"
-msgstr ""
+msgstr "Windows 7"
 
 #: apps/feedback/__init__.py:52
 msgid "Windows Vista"
-msgstr ""
+msgstr "Windows Vista"
 
 #: apps/feedback/__init__.py:42
 msgid "Windows XP"
-msgstr ""
+msgstr "Windows XP"
 
 #: apps/feedback/validators.py:47
+#: apps/feedback/validators.py:46
 msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
 msgstr ""
+"El vostre comentari conté paraules ofensives (%s). Amb la finalitat d"
+"'ajudar-nos a millorar el nostre producte, millor empreu paraules que ens "
+"ajudin a prendre accions a partir d'una opinió constructiva. Gràcies!"
 
 #: apps/feedback/validators.py:72
+#: apps/feedback/validators.py:71
 msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr ""
+"Sembla que el vostre comentari conté una adreça URL. Torneu-ho a provar una "
+"vegada hàgiu esborrat l'URL o qualsevol altra dada personal. Gràcies!"
 
 #: apps/feedback/validators.py:63
+#: apps/feedback/validators.py:62
 msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr ""
+"Sembla que al vostre comentari hi ha una adreça de correu electrònic. "
+"Torneu-ho a provar una vegada hàgiu esborrat qualsevol dada personal. "
+"Gràcies!"
 
 #: apps/search/templates/search/search.html:39 apps/search/templates/search/search.html:42 apps/search/templates/search/mobile/search.html:40 apps/search/templates/search/mobile/search.html:43
+#: apps/dashboard/forms.py:12
+#: apps/search/templates/search/search.html:32
+#: apps/search/templates/search/search.html:35
 msgid "all"
-msgstr ""
+msgstr "tot"
 
 #: apps/dashboard/forms.py:12
 msgctxt "dashboard_period"
 msgid "all"
-msgstr ""
+msgstr "tot"
 
 #: apps/search/forms.py:36
+#: apps/dashboard/templates/dashboard/sentiments.html:32
+#: apps/search/forms.py:25
 msgid "happy"
-msgstr ""
+msgstr "m'agrada"
 
 #: apps/feedback/helpers.py:36
 msgid "happy face"
-msgstr ""
+msgstr "cara feliç"
 
 #: apps/search/templates/search/search.html:72 apps/search/templates/search/mobile/search.html:71
+#: apps/search/templates/search/search.html:65
 msgid "next &raquo;"
-msgstr ""
+msgstr "següent &raquo;"
 
 #: apps/search/templates/search/search.html:76 apps/search/templates/search/mobile/search.html:75
+#: apps/search/templates/search/search.html:69
 msgid "page %(pagenum)s of %(total)s"
-msgstr ""
+msgstr "pàgina %(pagenum)s de %(total)s"
 
 #: apps/search/forms.py:37
+#: apps/dashboard/templates/dashboard/sentiments.html:34
+#: apps/search/forms.py:26
 msgid "sad"
-msgstr ""
+msgstr "no m'agrada"
 
 #: apps/feedback/helpers.py:39
 msgid "sad face"
-msgstr ""
+msgstr "cara trista"
 
 #. L10n: This indicates the second part of a date range.
 #: apps/search/forms.py:68
+#: apps/search/forms.py:62
 msgid "to"
-msgstr ""
+msgstr "al"
 
 #: apps/dashboard/templates/dashboard/demographics.html:13 apps/feedback/helpers.py:16 apps/search/forms.py:47
+#: apps/search/forms.py:31
 msgid "unknown"
-msgstr ""
+msgstr "desconeguda"
 
 #. This is a link to the URL associated with an opinion.
 #: apps/dashboard/templates/dashboard/messages.html:31
 msgid "visit &rarr;"
-msgstr ""
+msgstr "visiteu &rarr;"
