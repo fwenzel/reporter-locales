@@ -3,14 +3,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 15:37+0200\n"
-"PO-Revision-Date: 2010-07-25 18:26+0200\n"
+"PO-Revision-Date: 2010-07-28 19:13+0200\n"
 "Last-Translator: Leszek <leszekz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.0.3\n"
 
 #: apps/search/templates/search/search.html:66 apps/search/templates/search/mobile/search.html:65
@@ -59,7 +60,7 @@ msgstr "<a href=\"%(url)s\">Ogółem</a>: %(count)s"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:25
 msgid "Add URL of last visited page?"
-msgstr ""
+msgstr "Dodać adres URL ostatnio odwiedzonej strony?"
 
 #: apps/search/templates/search/search_form.html:28
 msgid "Advanced"
@@ -71,11 +72,11 @@ msgstr "W programie wystąpił nieobsługiwany błąd. Błąd został zapisany i
 
 #: templates/includes/nav_buttons.html:2
 msgid "Clusters"
-msgstr ""
+msgstr "Grupy"
 
 #: apps/feedback/templates/feedback/cluster.html:3 apps/feedback/templates/feedback/clusters.html:3
 msgid "Clusters of Opinions"
-msgstr ""
+msgstr "Grupy opinii"
 
 #: apps/search/forms.py:65
 msgid "Date range:"
@@ -104,7 +105,7 @@ msgstr "Dla tego wyszukiwania, z powodu ograniczeń programu, możemy wyświetli
 
 #: apps/feedback/forms.py:22
 msgid "Enter your feedback here."
-msgstr "Tutaj wprowadź swoja opinię."
+msgstr "Tutaj wprowadź swoją opinię."
 
 #: templates/base.html:64 templates/base_mobile.html:58
 msgid ""
@@ -160,7 +161,7 @@ msgstr "Jeśli został znaleziony niedziałający odnośnik, proszę <a href=\"%
 
 #: apps/search/templates/search/unavailable.html:22
 msgid "Include the following error message in your bug report:"
-msgstr "W zgłoszeniu błędu zawrzyj niestepującą informację o błędzie:"
+msgstr "W zgłoszeniu błędu zawrzyj następującą informację o błędzie:"
 
 #: templates/base.html:31 templates/base_mobile.html:27
 msgid "Input Dashboard"
@@ -172,11 +173,13 @@ msgstr "Wewnętrzny błąd serwera"
 
 #: apps/dashboard/templates/dashboard/sentiments.html:35
 msgid "Issues"
-msgstr ""
+msgstr "Problemy"
 
 #: apps/feedback/templates/feedback/feedback.html:34
 msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
 msgstr ""
+"Znasz witrynę, która działa lepiej w tej wersji niż w poprzednich wersjach "
+"Firefoksa? Dodaj adres URL do niej – będziemy również mogli to sprawdzić!"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:37 apps/dashboard/templates/dashboard/mobile/dashboard.html:37
 msgid "Last {count} Messages"
@@ -216,7 +219,7 @@ msgstr "Mobile"
 
 #: apps/feedback/templates/feedback/cluster.html:25 apps/feedback/templates/feedback/clusters.html:20
 msgid "No clusters of opinions found."
-msgstr ""
+msgstr "Nie znaleziono grup opinii."
 
 #: apps/search/templates/search/search.html:56 apps/search/templates/search/mobile/search.html:55
 msgid "No search results found."
@@ -243,13 +246,17 @@ msgid "OS: {os_name}"
 msgstr "OS: {os_name}"
 
 #: apps/feedback/templates/feedback/need_beta.html:8
-#, fuzzy
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
-msgstr "Och! Proponujesz nam opinię dotyczącą następnej wersji Firefoksa. Dziękujemy, ale musisz być uczestnikiem naszego programu Beta."
+msgstr ""
+"Och! Chcesz zaoferować nam opinię na temat kolejnej wersji Firefoksa. "
+"Dziękujemy, ale musisz mieć zainstalowaną najnowszą wersję beta."
 
 #: apps/feedback/templates/feedback/mobile/need_beta.html:9
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
 msgstr ""
+"Och! Chcesz zaoferować nam swoją opinię. Musisz mieć zainstalowaną najnowszą "
+"wersję beta. Przejdź na stronę wersji beta i <a href=\"%(url)s\">ją "
+"pobierz!</a>"
 
 #: apps/feedback/__init__.py:67
 msgid "Other"
@@ -282,7 +289,7 @@ msgstr "Należy rozpocząć od <a href=\"% dashboard_url)s\">tablicy</a>."
 
 #: apps/dashboard/templates/dashboard/sentiments.html:33
 msgid "Praise"
-msgstr ""
+msgstr "Pochwała"
 
 #: templates/base.html:59 templates/base_mobile.html:53
 msgid "Privacy Policy"
@@ -336,11 +343,11 @@ msgstr "Wyświetl więcej"
 #. This is referring to the first few clusters.
 #: apps/feedback/templates/feedback/cluster.html:17
 msgid "Showing the first {count}"
-msgstr ""
+msgstr "Wyświetl pierwsze {count}"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:15
 msgid "Sorry! Please tell us more!"
-msgstr ""
+msgstr "Przepraszamy! Przekaż nam więcej!"
 
 #. L10n: Sphinx is the name of the search engine software.
 #: apps/search/client.py:66
@@ -362,7 +369,7 @@ msgstr "Wspaniale! Miło nam słyszeć, że nasze przedwstępne wydanie przeglą
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:13
 msgid "Super! Please tell us more!"
-msgstr ""
+msgstr "Super! Przekaż nam więcej!"
 
 #: apps/feedback/templates/feedback/thanks.html:3 apps/feedback/templates/feedback/mobile/thanks.html:3
 msgid "Thanks for Your Feedback"
@@ -377,9 +384,10 @@ msgid "Thanks!"
 msgstr "Dziękujemy!"
 
 #: apps/feedback/templates/feedback/need_beta.html:14
-#, fuzzy
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
-msgstr "Aby się przyłączyć, przejdź do naszej strony pobierania i pobierz najnowszą <a href=\"%(url)s\">wersję beta</a> Firefoksa!"
+msgstr ""
+"Aby to zrobić, przejdź do naszej strony pobierania i zainstaluj lub "
+"zaktualizuj<a href=\"%(url)s\">wersję beta</a> Firefoksa!"
 
 #. Link to Google Translator
 #: apps/dashboard/templates/dashboard/messages.html:17
@@ -426,19 +434,16 @@ msgid "Welcome!"
 msgstr "Witamy!"
 
 #: apps/feedback/__init__.py:47
-#, fuzzy
 msgid "Windows 7"
-msgstr "Windows"
+msgstr "Windows 7"
 
 #: apps/feedback/__init__.py:52
-#, fuzzy
 msgid "Windows Vista"
-msgstr "Windows"
+msgstr "Windows Vista"
 
 #: apps/feedback/__init__.py:42
-#, fuzzy
 msgid "Windows XP"
-msgstr "Windows"
+msgstr "Windows XP"
 
 #: apps/feedback/validators.py:47
 msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
