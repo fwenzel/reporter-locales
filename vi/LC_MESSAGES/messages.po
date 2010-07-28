@@ -13,70 +13,390 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.0.3\n"
 
+#: apps/search/templates/search/search.html:66 apps/search/templates/search/mobile/search.html:65
+msgid "&laquo; previous"
+msgstr "&laquo; trước"
+
+#: apps/search/forms.py:46
+#, fuzzy
+msgctxt "locale_choice"
+msgid "-- all --"
+msgstr "-- tất cả --"
+
+#: apps/search/forms.py:42
+#, fuzzy
+msgctxt "os_choice"
+msgid "-- all --"
+msgstr "-- tất cả --"
+
+#: apps/search/forms.py:35
+#, fuzzy
+msgctxt "sentiment_choice"
+msgid "-- all --"
+msgstr "-- tất cả --"
+
+#: apps/search/forms.py:22 apps/search/forms.py:29
+#, fuzzy
+msgctxt "version_choice"
+msgid "-- all --"
+msgstr "-- tất cả --"
+
 #: apps/dashboard/forms.py:9
+#, fuzzy
+msgctxt "dashboard_period"
 msgid "1 day"
 msgstr "1 ngày"
 
-#: apps/dashboard/forms.py:10
-msgid "1 week"
-msgstr "1 tuần"
-
 #: apps/dashboard/forms.py:11
+#, fuzzy
+msgctxt "dashboard_period"
 msgid "1 month"
 msgstr "1 tháng"
 
-#: apps/dashboard/forms.py:12
-#: apps/search/templates/search/search.html:32
-#: apps/search/templates/search/search.html:35
-msgid "all"
-msgstr "tất cả"
+#: apps/dashboard/forms.py:10
+#, fuzzy
+msgctxt "dashboard_period"
+msgid "1 week"
+msgstr "1 tuần"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:12
-msgid "Please enable JavaScript to view this page."
-msgstr "Vui lòng bật JavaScript để xem trang này."
+#. Total refers to a message count.
+#: apps/dashboard/templates/dashboard/sentiments.html:27
+msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
+msgstr "<a href=\"%(url)s\">Tổng</a>: %(count)s"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:19
-#: apps/search/templates/search/search.html:80
-msgid "Overview"
-msgstr "Tổng quan"
+#: apps/feedback/templates/feedback/mobile/feedback.html:25
+msgid "Add URL of last visited page?"
+msgstr ""
 
-#: apps/dashboard/templates/dashboard/dashboard.html:23
-#: apps/search/templates/search/search.html:87
-msgid "Trends"
-msgstr "Xu hướng"
+#: apps/search/templates/search/search_form.html:28
+msgid "Advanced"
+msgstr "Nâng cao"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:27
-#: apps/search/templates/search/search.html:94
+#: templates/500.html:7
+msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
+msgstr "Một lỗi xảy ra trong chương trình. Lỗi này đã được lưu kí lại và thông báo tới một quản trị viên. Chúng tôi xin lỗi về sự bất tiện này!"
+
+#: templates/includes/nav_buttons.html:2
+msgid "Clusters"
+msgstr ""
+
+#: apps/feedback/templates/feedback/cluster.html:3 apps/feedback/templates/feedback/clusters.html:3
+msgid "Clusters of Opinions"
+msgstr ""
+
+#: apps/search/forms.py:65
+msgid "Date range:"
+msgstr "Khoảng thời gian:"
+
+#: apps/search/templates/search/search.html:34 apps/search/templates/search/mobile/search.html:35
+msgid "Dates: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
+msgstr "Ngày: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
+
+#: apps/dashboard/templates/dashboard/dashboard.html:27 apps/dashboard/templates/dashboard/mobile/dashboard.html:27 apps/search/templates/search/search.html:101
+#: apps/search/templates/search/mobile/search.html:100
 msgid "Demographics"
 msgstr "Ảnh đồ họa mẫu"
 
-#. Link on the dashboard to show more messages.
-#: apps/dashboard/templates/dashboard/dashboard.html:35
-msgid "Show more"
-msgstr "Hiện thêm"
+#: apps/search/templates/search/search.html:30 apps/search/templates/search/mobile/search.html:31
+msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
+msgstr "Mô tả: <span class=\"opt\">\"%(query)s\"</span>;"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:37
+#: apps/feedback/templates/feedback/need_beta.html:3 apps/feedback/templates/feedback/mobile/need_beta.html:3
+msgid "Download Beta"
+msgstr "Tải xuống Beta"
+
+#: apps/search/templates/search/search.html:19 apps/search/templates/search/mobile/search.html:18
+msgid "Due to software constraints, we can only show the last 1000 messages for this search query."
+msgstr "Vì hạn chế của phần mềm, chúng tôi chỉ có thể hiển thị 1000 thông điệp mới nhất cho truy vấn tìm kiếm này."
+
+#: apps/feedback/forms.py:22
+msgid "Enter your feedback here."
+msgstr "Nhập góp ý của bạn tại đây."
+
+#: templates/base.html:64 templates/base_mobile.html:58
+msgid ""
+"Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
+"any later version."
+msgstr ""
+"Trừ khi có <a href=\"%(legal_url)s\">ghi chú</a> khác, nội dung trên trang này tuân theo <br/> <a href=\"%(license_url)s\">Giấy phép Chia sẻ Tương tự Tính chất Creative Commons v3.0</a> và bất kì "
+"phiên bản nào sau này của nó."
+
+#: apps/feedback/validators.py:56
+msgid "Feedback must not contain HTML."
+msgstr "Góp ý không được chứa HTML."
+
+#: apps/feedback/templates/feedback/thanks.html:17 apps/feedback/templates/feedback/mobile/thanks.html:12
+msgid "Find out the latest news from Mozilla:"
+msgstr "Tìm hiểu tin tức mới nhất từ Mozilla."
+
+#: apps/feedback/__init__.py:9
+msgid "Firefox"
+msgstr "Firefox"
+
+#: templates/includes/lang_switcher.html:10
+msgid "Go"
+msgstr "Đi"
+
+#: apps/feedback/templates/feedback/feedback.html:42
+msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
+msgstr "Có vấn đề với trang web cụ thể nào đó? Vui lòng thêm URL, để chúng tôi có thể tìm ra vấn đề nhanh hơn!"
+
+#: templates/404.html:6
+msgid "I'm sorry, I could not find what you were looking for."
+msgstr "Xin lỗi, tôi không thể tìm thấy cái bạn muốn."
+
+#: apps/search/templates/search/unavailable.html:6
+msgid "I'm sorry, there was an error with your search."
+msgstr "Xin lỗi, có lỗi với tìm kiếm của bạn."
+
+#: apps/search/templates/search/unavailable.html:16
+msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
+msgstr "Nếu vấn đề vẫn còn, vui lòng <a href=\"%(bug_url)s\">báo cáo lỗi</a>, ghi rõ URL mà bạn đang truy cập."
+
+#: templates/500.html:20
+msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+msgstr "Nếu bạn có thêm thông tin về cách tạo ra lỗi này, vui lòng <a href=\"%(bug_url)s\">báo cáo lỗi.</a> Cảm ơn!"
+
+#: apps/feedback/templates/feedback/thanks.html:10
+msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
+msgstr "Nếu bạn muốn biết góp ý của mình được gửi tới đâu, hãy nhìn trang <a href=\"%(url)s\">Bảng thống kê Firefox Input</a> của chúng tôi."
+
+#: templates/404.html:14
+msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+msgstr "Nếu bạn gặp một liên kết hỏng, vui lòng <a href=\"%(bug_url)s\">báo cáo lỗi.</a> Cảm ơn!"
+
+#: apps/search/templates/search/unavailable.html:22
+msgid "Include the following error message in your bug report:"
+msgstr "Bao gồm thông báo lỗi sau trong báo cáo lỗi của bạn:"
+
+#: templates/base.html:31 templates/base_mobile.html:27
+msgid "Input Dashboard"
+msgstr "Bảng thống kê Input"
+
+#: templates/500.html:4
+msgid "Internal Server Error"
+msgstr "Lỗi nội bộ máy chủ"
+
+#: apps/dashboard/templates/dashboard/sentiments.html:35
+msgid "Issues"
+msgstr ""
+
+#: apps/feedback/templates/feedback/feedback.html:34
+msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
+msgstr ""
+
+#: apps/dashboard/templates/dashboard/dashboard.html:37 apps/dashboard/templates/dashboard/mobile/dashboard.html:37
 msgid "Last {count} Messages"
 msgstr "{count} thông điệp cuối"
 
-#: apps/dashboard/templates/dashboard/demographics.html:3
-msgid "OS"
-msgstr "HĐH"
+#: templates/base.html:60 templates/base_mobile.html:54
+msgid "Legal Notices"
+msgstr "Lưu ý Pháp lí"
+
+#: apps/feedback/__init__.py:62
+msgid "Linux"
+msgstr "Linux"
 
 #: apps/dashboard/templates/dashboard/demographics.html:10
 msgid "Locale"
 msgstr "Bản địa"
 
-#: apps/dashboard/templates/dashboard/demographics.html:13
-#: apps/feedback/helpers.py:16
-#: apps/search/forms.py:31
-msgid "unknown"
-msgstr "không rõ"
+#: apps/search/forms.py:60
+msgid "Locale:"
+msgstr "Bản địa:"
+
+#: apps/search/templates/search/search.html:39 apps/search/templates/search/mobile/search.html:40
+msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
+msgstr "Bản địa: <span class=\"opt\">%(locale)s</span>;"
+
+#: apps/dashboard/templates/dashboard/messages.html:38
+msgid "Locale: {locale}"
+msgstr "Bản địa: {locale}"
+
+#: apps/feedback/__init__.py:57
+msgid "Mac OS X"
+msgstr "Mac OS X"
+
+#: apps/feedback/__init__.py:16
+msgid "Mobile"
+msgstr "Di động"
+
+#: apps/feedback/templates/feedback/cluster.html:25 apps/feedback/templates/feedback/clusters.html:20
+msgid "No clusters of opinions found."
+msgstr ""
+
+#: apps/search/templates/search/search.html:56 apps/search/templates/search/mobile/search.html:55
+msgid "No search results found."
+msgstr "Không tìm thấy kết quả."
+
+#: templates/404.html:4
+msgid "Not Found"
+msgstr "Không tìm thấy"
+
+#: apps/dashboard/templates/dashboard/demographics.html:3
+msgid "OS"
+msgstr "HĐH"
+
+#: apps/search/forms.py:62
+msgid "OS:"
+msgstr "HĐH:"
+
+#: apps/search/templates/search/search.html:42 apps/search/templates/search/mobile/search.html:43
+msgid "OS: <span class=\"opt\">%(os)s</span>"
+msgstr "HĐH: <span class=\"opt\">%(os)s</span>"
+
+#: apps/dashboard/templates/dashboard/messages.html:36
+msgid "OS: {os_name}"
+msgstr "HĐH: {os_name}"
+
+#: apps/feedback/templates/feedback/need_beta.html:8
+#, fuzzy
+msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
+msgstr "Ồ, vậy là bạn muốn cung cấp góp ý cho chúng tôi về phiên bản tiếp theo của Firefox. Cảm ơn, nhưng bạn sẽ cần là một phần trong Chương trình Beta của chúng tôi."
+
+#: apps/feedback/templates/feedback/mobile/need_beta.html:9
+msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
+msgstr ""
+
+#: apps/feedback/__init__.py:67
+msgid "Other"
+msgstr "Khác"
+
+#: templates/includes/lang_switcher.html:2
+msgid "Other languages:"
+msgstr "Ngôn ngữ khác:"
+
+#: apps/search/templates/search/unavailable.html:9
+msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
+msgstr "Máy tìm kiếm của chúng tôi hiện không sử dụng được. Bạn có thể bắt đầu trên <a href=\"%(url)s\">bảng thống kê</a> và thử lại sau."
+
+#: apps/dashboard/templates/dashboard/dashboard.html:19 apps/dashboard/templates/dashboard/mobile/dashboard.html:19 apps/search/templates/search/search.html:87
+#: apps/search/templates/search/mobile/search.html:86
+msgid "Overview"
+msgstr "Tổng quan"
+
+#: apps/dashboard/templates/dashboard/dashboard.html:12 apps/dashboard/templates/dashboard/mobile/dashboard.html:12
+msgid "Please enable JavaScript to view this page."
+msgstr "Vui lòng bật JavaScript để xem trang này."
+
+#: apps/feedback/templates/feedback/feedback.html:63 apps/feedback/templates/feedback/mobile/feedback.html:43
+msgid "Please ensure that there is no personally identifiable information here."
+msgstr "Vui lòng chắc chắn rằng không có thông tin nhận dạng cá nhân nào ở đây."
+
+#: templates/404.html:9 templates/500.html:14
+msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
+msgstr "Vui lòng bắt đầu trên <a href=\"%(dashboard_url)s\">bảng thống kê</a>."
+
+#: apps/dashboard/templates/dashboard/sentiments.html:33
+msgid "Praise"
+msgstr ""
+
+#: templates/base.html:59 templates/base_mobile.html:53
+msgid "Privacy Policy"
+msgstr "Chính sách Riêng tư"
+
+#: templates/base.html:19 templates/base_mobile.html:17
+msgid "Proceed to footer"
+msgstr "Đi tới chân trang"
+
+#: templates/base.html:18 templates/base_mobile.html:16
+msgid "Proceed to main content"
+msgstr "Đi tới nội dung chính"
+
+#: apps/search/forms.py:54
+msgid "Product:"
+msgstr "Sản phẩm:"
+
+#: apps/search/client.py:63
+msgid "Query has timed out."
+msgstr "Truy vấn đã bị hết giờ."
+
+#: templates/base.html:61 templates/base_mobile.html:55
+msgid "Report Trademark Abuse"
+msgstr "Báo cáo Lạm dụng Thương hiệu"
+
+#: apps/search/templates/search/search_form.html:19
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:7 apps/search/templates/search/mobile/search.html:5 apps/search/templates/search/mobile/search.html:6
+msgid "Search Results"
+msgstr "Kết quả Tìm kiếm"
+
+#: apps/search/forms.py:53
+msgid "Search Terms"
+msgstr "Thuật ngữ Tìm kiếm"
+
+#: apps/search/templates/search/unavailable.html:4
+msgid "Search Unavailable"
+msgstr "Tìm kiếm Không hiện hữu"
+
+#: apps/search/forms.py:58
+msgid "Sentiment:"
+msgstr "Cảm nghĩ:"
+
+#. Link on the dashboard to show more messages.
+#: apps/dashboard/templates/dashboard/dashboard.html:35 apps/dashboard/templates/dashboard/mobile/dashboard.html:35
+msgid "Show more"
+msgstr "Hiện thêm"
+
+#. This is referring to the first few clusters.
+#: apps/feedback/templates/feedback/cluster.html:17
+msgid "Showing the first {count}"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback.html:15
+msgid "Sorry! Please tell us more!"
+msgstr ""
+
+#. L10n: Sphinx is the name of the search engine software.
+#: apps/search/client.py:66
+msgid "Sphinx threw an unknown exception: %s"
+msgstr "Sphinx đưa ra một lỗi ngoại lệ chưa biết: %s"
+
+#: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:65 apps/feedback/templates/feedback/mobile/feedback.html:3
+#: apps/feedback/templates/feedback/mobile/feedback.html:45
+msgid "Submit Feedback"
+msgstr "Gửi góp ý"
+
+#: apps/feedback/validators.py:37
+msgid "Submitted User Agent is not the latest beta version."
+msgstr "Chuỗi đại diện người dùng được gửi lên không phải là phiên bản beta."
+
+#: apps/feedback/templates/feedback/feedback.html:13
+msgid "Super! It's great to hear that you like our pre-released browser. Please explain what you specifically like!"
+msgstr "Tuyệt! Thật vui khi biết rằng bạn thích trình duyệt thử nghiệm của chúng tôi. Vui lòng nêu lí do cho những điểm mà bạn đặc biệt thích nhé!"
+
+#: apps/feedback/templates/feedback/mobile/feedback.html:13
+msgid "Super! Please tell us more!"
+msgstr ""
+
+#: apps/feedback/templates/feedback/thanks.html:3 apps/feedback/templates/feedback/mobile/thanks.html:3
+msgid "Thanks for Your Feedback"
+msgstr "Cảm ơn về Góp Ý Của Bạn"
+
+#: apps/feedback/templates/feedback/thanks.html:7 apps/feedback/templates/feedback/mobile/thanks.html:8
+msgid "Thanks for sending us your feedback!"
+msgstr "Cảm ơn đã gửi cho chúng tôi góp ý của bạn!"
+
+#: apps/search/templates/search/unavailable.html:25
+msgid "Thanks!"
+msgstr "Cảm ơn!"
+
+#: apps/feedback/templates/feedback/need_beta.html:14
+#, fuzzy
+msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
+msgstr "Để tham gia, chỉ cần  vào trang tải xuống của chúng tôi và tải <a href=\"%(url)s\">Firefox Beta mới nhất!</a>"
 
 #. Link to Google Translator
 #: apps/dashboard/templates/dashboard/messages.html:17
 msgid "Translate!"
 msgstr "Dịch!"
+
+#: apps/dashboard/templates/dashboard/dashboard.html:23 apps/dashboard/templates/dashboard/mobile/dashboard.html:23 apps/search/templates/search/search.html:94
+#: apps/search/templates/search/mobile/search.html:93
+msgid "Trends"
+msgstr "Xu hướng"
 
 #. Link to user agent info.
 #: apps/dashboard/templates/dashboard/messages.html:20
@@ -88,406 +408,103 @@ msgstr "UA"
 msgid "URL"
 msgstr "URL"
 
-#. This is a link to the URL associated with an opinion.
-#: apps/dashboard/templates/dashboard/messages.html:31
-msgid "visit &rarr;"
-msgstr "vào &rarr;"
+#: apps/feedback/validators.py:29
+msgid "User agent string was not recognizable."
+msgstr "Không thể nhận diện được chuỗi đại diện người dùng."
 
-#: apps/dashboard/templates/dashboard/messages.html:36
-msgid "OS: {os_name}"
-msgstr "HĐH: {os_name}"
+#: apps/feedback/views.py:33
+msgid "User-Agent request header must be set."
+msgstr "Đầu đề yêu cầu của chuỗi Đại diện Người dùng phải được thiết lập."
 
-#: apps/dashboard/templates/dashboard/messages.html:38
-msgid "Locale: {locale}"
-msgstr "Bản địa: {locale}"
+#: apps/search/forms.py:56
+msgid "Version:"
+msgstr "Phiên bản:"
 
-#. Total refers to a message count.
-#: apps/dashboard/templates/dashboard/sentiments.html:26
-msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
-msgstr "<a href=\"%(url)s\">Tổng</a>: %(count)s"
-
-#: apps/dashboard/templates/dashboard/sentiments.html:32
-#: apps/search/forms.py:25
-msgid "happy"
-msgstr "vui"
-
-#: apps/dashboard/templates/dashboard/sentiments.html:34
-#: apps/search/forms.py:26
-msgid "sad"
-msgstr "buồn"
-
-#: apps/feedback/__init__.py:9
-msgid "Firefox"
-msgstr "Firefox"
-
-#: apps/feedback/__init__.py:16
-msgid "Mobile"
-msgstr "Di động"
-
-#: apps/feedback/__init__.py:46
-msgid "Windows"
-msgstr "Windows"
-
-#: apps/feedback/__init__.py:51
-msgid "Mac OS X"
-msgstr "Mac OS X"
-
-#: apps/feedback/__init__.py:56
-msgid "Linux"
-msgstr "Linux"
-
-#: apps/feedback/__init__.py:61
-msgid "Other"
-msgstr "Khác"
-
-#: apps/feedback/forms.py:22
-msgid "Enter your feedback here."
-msgstr "Nhập góp ý của bạn tại đây."
-
-#: apps/feedback/forms.py:37
+#: apps/feedback/forms.py:43
 msgid "We already got your feedback! Thanks."
 msgstr "Chúng tôi đã nhận được góp ý của bạn! Xin cảm ơn."
+
+#: apps/feedback/templates/feedback/feedback.html:20
+msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can improve it!"
+msgstr "Chúng tôi rất tiếc là bạn đã không có trải nghiệm tốt với trình duyệt của chúng tôi. Vui lòng cho chúng tôi biết tại sao, để chúng tôi có thể cải tiến nó!"
+
+#: templates/base.html:5 templates/base_mobile.html:5
+msgid "Welcome!"
+msgstr "Chào mừng!"
+
+#: apps/feedback/__init__.py:47
+#, fuzzy
+msgid "Windows 7"
+msgstr "Windows"
+
+#: apps/feedback/__init__.py:52
+#, fuzzy
+msgid "Windows Vista"
+msgstr "Windows"
+
+#: apps/feedback/__init__.py:42
+#, fuzzy
+msgid "Windows XP"
+msgstr "Windows"
+
+#: apps/feedback/validators.py:47
+msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
+msgstr ""
+"Bình luận của bạn có chứa từ ngữ chửi thề (%s). Để giúp chúng tôi cải tiến sản phẩm của mình, vui lòng dùng những lời lẽ có thể giúp chúng tôi tạo ra hành động cần thiết từ những góp ý có tính xây "
+"dựng của bạn. Cảm ơn!"
+
+#: apps/feedback/validators.py:72
+msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
+msgstr "Dường như góp ý của bạn có chứa một URL Vui lòng xóa bỏ nó và những thông tin cá nhân tương tự khỏi văn bản, rồi thử lại. Cảm ơn!"
+
+#: apps/feedback/validators.py:63
+msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
+msgstr "Dường như góp ý của bạn có chứa một địa chỉ email. Vui lòng xóa bỏ nó và những thông tin cá nhân tương tự khỏi văn bản, rồi thử lại. Cảm ơn!"
+
+#: apps/search/templates/search/search.html:39 apps/search/templates/search/search.html:42 apps/search/templates/search/mobile/search.html:40 apps/search/templates/search/mobile/search.html:43
+msgid "all"
+msgstr "tất cả"
+
+#: apps/dashboard/forms.py:12
+#, fuzzy
+msgctxt "dashboard_period"
+msgid "all"
+msgstr "tất cả"
+
+#: apps/search/forms.py:36
+msgid "happy"
+msgstr "vui"
 
 #: apps/feedback/helpers.py:36
 msgid "happy face"
 msgstr "mặt vui"
 
+#: apps/search/templates/search/search.html:72 apps/search/templates/search/mobile/search.html:71
+msgid "next &raquo;"
+msgstr "tiếp &raquo;"
+
+#: apps/search/templates/search/search.html:76 apps/search/templates/search/mobile/search.html:75
+msgid "page %(pagenum)s of %(total)s"
+msgstr "trang %(pagenum)s trên tổng %(total)s"
+
+#: apps/search/forms.py:37
+msgid "sad"
+msgstr "buồn"
+
 #: apps/feedback/helpers.py:39
 msgid "sad face"
 msgstr "mặt buồn"
 
-#: apps/feedback/validators.py:29
-msgid "User agent string was not recognizable."
-msgstr "Không thể nhận diện được chuỗi đại diện người dùng."
-
-#: apps/feedback/validators.py:37
-msgid "Submitted User Agent is not the latest beta version."
-msgstr "Chuỗi đại diện người dùng được gửi lên không phải là phiên bản beta."
-
-#: apps/feedback/validators.py:46
-msgid ""
-"Your comment contains swear words (%s). In order to help us improve our "
-"products, please use words that help us create an action or to-do from your "
-"constructive feedback. Thanks!"
-msgstr ""
-"Bình luận của bạn có chứa từ ngữ chửi thề (%s). Để giúp chúng tôi cải tiến "
-"sản phẩm của mình, vui lòng dùng những lời lẽ có thể giúp chúng tôi tạo ra "
-"hành động cần thiết từ những góp ý có tính xây dựng của bạn. Cảm ơn!"
-
-#: apps/feedback/validators.py:55
-msgid "Feedback must not contain HTML."
-msgstr "Góp ý không được chứa HTML."
-
-#: apps/feedback/validators.py:62
-msgid ""
-"Your feedback seems to contain an email address. Please remove this and "
-"similar personal data from the text, then try again. Thanks!"
-msgstr ""
-"Dường như góp ý của bạn có chứa một địa chỉ email. Vui lòng xóa bỏ nó và "
-"những thông tin cá nhân tương tự khỏi văn bản, rồi thử lại. Cảm ơn!"
-
-#: apps/feedback/validators.py:71
-msgid ""
-"Your feedback seems to contain a URL. Please remove this and similar "
-"personal data from the text, then try again. Thanks!"
-msgstr ""
-"Dường như góp ý của bạn có chứa một URL Vui lòng xóa bỏ nó và những thông "
-"tin cá nhân tương tự khỏi văn bản, rồi thử lại. Cảm ơn!"
-
-#: apps/feedback/views.py:32
-msgid "User-Agent request header must be set."
-msgstr "Đầu đề yêu cầu của chuỗi Đại diện Người dùng phải được thiết lập."
-
-#: apps/feedback/templates/feedback/feedback.html:3
-#: apps/feedback/templates/feedback/feedback.html:56
-msgid "Submit Feedback"
-msgstr "Gửi góp ý"
-
-#: apps/feedback/templates/feedback/feedback.html:13
-msgid ""
-"Super! It's great to hear that you like our pre-released browser. Please "
-"explain what you specifically like!"
-msgstr ""
-"Tuyệt! Thật vui khi biết rằng bạn thích trình duyệt thử nghiệm của chúng "
-"tôi. Vui lòng nêu lí do cho những điểm mà bạn đặc biệt thích nhé!"
-
-#: apps/feedback/templates/feedback/feedback.html:20
-msgid ""
-"We are sorry that you have not had a good experience with our browser. "
-"Please tell us why, so we can improve it!"
-msgstr ""
-"Chúng tôi rất tiếc là bạn đã không có trải nghiệm tốt với trình duyệt của "
-"chúng tôi. Vui lòng cho chúng tôi biết tại sao, để chúng tôi có thể cải tiến "
-"nó!"
-
-#: apps/feedback/templates/feedback/feedback.html:34
-msgid ""
-"Had an issue with a specific website? Please add the URL, so we can find the "
-"issue faster!"
-msgstr ""
-"Có vấn đề với trang web cụ thể nào đó? Vui lòng thêm URL, để chúng tôi có "
-"thể tìm ra vấn đề nhanh hơn!"
-
-#: apps/feedback/templates/feedback/feedback.html:54
-msgid ""
-"Please ensure that there is no personally identifiable information here."
-msgstr "Vui lòng chắc chắn rằng không có thông tin nhận dạng cá nhân nào ở đây."
-
-#: apps/feedback/templates/feedback/need_beta.html:3
-msgid "Download Beta"
-msgstr "Tải xuống Beta"
-
-#: apps/feedback/templates/feedback/need_beta.html:8
-msgid ""
-"Oh! So, you want to offer us feedback on the next version of Firefox. Thank "
-"you, but you'll need to be a part of our Beta Program."
-msgstr ""
-"Ồ, vậy là bạn muốn cung cấp góp ý cho chúng tôi về phiên bản tiếp theo của "
-"Firefox. Cảm ơn, nhưng bạn sẽ cần là một phần trong Chương trình Beta của "
-"chúng tôi."
-
-#: apps/feedback/templates/feedback/need_beta.html:14
-msgid ""
-"To join, simply go to our download page and get <a href=\"%(url)s\">the latest "
-"Firefox Beta!</a>"
-msgstr ""
-"Để tham gia, chỉ cần  vào trang tải xuống của chúng tôi và tải <a href=\"%"
-"(url)s\">Firefox Beta mới nhất!</a>"
-
-#: apps/feedback/templates/feedback/thanks.html:3
-msgid "Thanks for Your Feedback"
-msgstr "Cảm ơn về Góp Ý Của Bạn"
-
-#: apps/feedback/templates/feedback/thanks.html:7
-msgid "Thanks for sending us your feedback!"
-msgstr "Cảm ơn đã gửi cho chúng tôi góp ý của bạn!"
-
-#: apps/feedback/templates/feedback/thanks.html:10
-msgid ""
-"If you want to see where your feedback was sent to, take a look at our <a "
-"href=\"%(url)s\">Firefox Input Dashboard</a>."
-msgstr ""
-"Nếu bạn muốn biết góp ý của mình được gửi tới đâu, hãy nhìn trang <a href=\"%"
-"(url)s\">Bảng thống kê Firefox Input</a> của chúng tôi."
-
-#: apps/feedback/templates/feedback/thanks.html:17
-msgid "Find out the latest news from Mozilla:"
-msgstr "Tìm hiểu tin tức mới nhất từ Mozilla."
-
-#: apps/search/client.py:60
-msgid "Query has timed out."
-msgstr "Truy vấn đã bị hết giờ."
-
-#: apps/search/client.py:62
-msgid "Sphinx threw an unknown exception: %s"
-msgstr "Sphinx đưa ra một lỗi ngoại lệ chưa biết: %s"
-
-#. L10n: This is a placeholder in the search form, for all items in a list.
-#: apps/search/forms.py:41
-msgid "-- all --"
-msgstr "-- tất cả --"
-
-#: apps/search/forms.py:46
-msgid "Search Terms"
-msgstr "Thuật ngữ Tìm kiếm"
-
-#: apps/search/forms.py:48
-msgid "Product:"
-msgstr "Sản phẩm:"
-
-#: apps/search/forms.py:51
-msgid "Version:"
-msgstr "Phiên bản:"
-
-#: apps/search/forms.py:52
-msgid "Sentiment:"
-msgstr "Cảm nghĩ:"
-
-#: apps/search/forms.py:54
-msgid "Locale:"
-msgstr "Bản địa:"
-
-#: apps/search/forms.py:56
-msgid "OS:"
-msgstr "HĐH:"
-
-#: apps/search/forms.py:59
-msgid "Date range:"
-msgstr "Khoảng thời gian:"
-
 #. L10n: This indicates the second part of a date range.
-#: apps/search/forms.py:62
+#: apps/search/forms.py:68
 msgid "to"
 msgstr "tới"
 
-#: apps/search/templates/search/search.html:5
-#: apps/search/templates/search/search.html:7
-msgid "Search Results"
-msgstr "Kết quả Tìm kiếm"
+#: apps/dashboard/templates/dashboard/demographics.html:13 apps/feedback/helpers.py:16 apps/search/forms.py:47
+msgid "unknown"
+msgstr "không rõ"
 
-#: apps/search/templates/search/search.html:12
-msgid ""
-"Due to software constraints, we can only show the last 1000 messages for "
-"this search query."
-msgstr ""
-"Vì hạn chế của phần mềm, chúng tôi chỉ có thể hiển thị 1000 thông điệp mới "
-"nhất cho truy vấn tìm kiếm này."
-
-#: apps/search/templates/search/search.html:23
-msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
-msgstr "Mô tả: <span class=\"opt\">\"%(query)s\"</span>;"
-
-#: apps/search/templates/search/search.html:27
-msgid "Dates: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
-msgstr "Ngày: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
-
-#: apps/search/templates/search/search.html:32
-msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
-msgstr "Bản địa: <span class=\"opt\">%(locale)s</span>;"
-
-#: apps/search/templates/search/search.html:35
-msgid "OS: <span class=\"opt\">%(os)s</span>"
-msgstr "HĐH: <span class=\"opt\">%(os)s</span>"
-
-#: apps/search/templates/search/search.html:49
-msgid "No search results found."
-msgstr "Không tìm thấy kết quả."
-
-#: apps/search/templates/search/search.html:59
-msgid "&laquo; previous"
-msgstr "&laquo; trước"
-
-#: apps/search/templates/search/search.html:65
-msgid "next &raquo;"
-msgstr "tiếp &raquo;"
-
-#: apps/search/templates/search/search.html:69
-msgid "page %(pagenum)s of %(total)s"
-msgstr "trang %(pagenum)s trên tổng %(total)s"
-
-#: apps/search/templates/search/search_form.html:18
-msgid "Search"
-msgstr "Tìm kiếm"
-
-#: apps/search/templates/search/search_form.html:27
-msgid "Advanced"
-msgstr "Nâng cao"
-
-#: apps/search/templates/search/unavailable.html:4
-msgid "Search Unavailable"
-msgstr "Tìm kiếm Không hiện hữu"
-
-#: apps/search/templates/search/unavailable.html:6
-msgid "I'm sorry, there was an error with your search."
-msgstr "Xin lỗi, có lỗi với tìm kiếm của bạn."
-
-#: apps/search/templates/search/unavailable.html:9
-msgid ""
-"Our search engine might be currently unavailable. You may start over on the "
-"<a href=\"%(url)s\">dashboard</a> and try again later."
-msgstr ""
-"Máy tìm kiếm của chúng tôi hiện không sử dụng được. Bạn có thể bắt đầu trên "
-"<a href=\"%(url)s\">bảng thống kê</a> và thử lại sau."
-
-#: apps/search/templates/search/unavailable.html:16
-msgid ""
-"If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, "
-"mentioning the URL you were accessing."
-msgstr ""
-"Nếu vấn đề vẫn còn, vui lòng <a href=\"%(bug_url)s\">báo cáo lỗi</a>, ghi rõ "
-"URL mà bạn đang truy cập."
-
-#: apps/search/templates/search/unavailable.html:22
-msgid "Include the following error message in your bug report:"
-msgstr "Bao gồm thông báo lỗi sau trong báo cáo lỗi của bạn:"
-
-#: apps/search/templates/search/unavailable.html:25
-msgid "Thanks!"
-msgstr "Cảm ơn!"
-
-#: templates/404.html:4
-msgid "Not Found"
-msgstr "Không tìm thấy"
-
-#: templates/404.html:6
-msgid "I'm sorry, I could not find what you were looking for."
-msgstr "Xin lỗi, tôi không thể tìm thấy cái bạn muốn."
-
-#: templates/404.html:9
-#: templates/500.html:14
-msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
-msgstr "Vui lòng bắt đầu trên <a href=\"%(dashboard_url)s\">bảng thống kê</a>."
-
-#: templates/404.html:14
-msgid ""
-"If you were following a broken link, please <a href=\"%(bug_url)s\">file a "
-"bug.</a> Thanks!"
-msgstr ""
-"Nếu bạn gặp một liên kết hỏng, vui lòng <a href=\"%(bug_url)s\">báo cáo "
-"lỗi.</a> Cảm ơn!"
-
-#: templates/500.html:4
-msgid "Internal Server Error"
-msgstr "Lỗi nội bộ máy chủ"
-
-#: templates/500.html:7
-msgid ""
-"An unhandled error occurred in the application. The error has been logged "
-"and an administrator was notified. We apologize for the inconvenience!"
-msgstr ""
-"Một lỗi xảy ra trong chương trình. Lỗi này đã được lưu kí lại và thông báo "
-"tới một quản trị viên. Chúng tôi xin lỗi về sự bất tiện này!"
-
-#: templates/500.html:20
-msgid ""
-"If you have additional information how to reproduce this problem, please <a "
-"href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-msgstr ""
-"Nếu bạn có thêm thông tin về cách tạo ra lỗi này, vui lòng <a href=\"%"
-"(bug_url)s\">báo cáo lỗi.</a> Cảm ơn!"
-
-#: templates/base.html:5
-msgid "Welcome!"
-msgstr "Chào mừng!"
-
-#: templates/base.html:17
-msgid "Proceed to main content"
-msgstr "Đi tới nội dung chính"
-
-#: templates/base.html:18
-msgid "Proceed to footer"
-msgstr "Đi tới chân trang"
-
-#: templates/base.html:29
-msgid "Input Dashboard"
-msgstr "Bảng thống kê Input"
-
-#: templates/base.html:51
-msgid "Privacy Policy"
-msgstr "Chính sách Riêng tư"
-
-#: templates/base.html:52
-msgid "Legal Notices"
-msgstr "Lưu ý Pháp lí"
-
-#: templates/base.html:53
-msgid "Report Trademark Abuse"
-msgstr "Báo cáo Lạm dụng Thương hiệu"
-
-#: templates/base.html:56
-msgid ""
-"Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this "
-"site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons "
-"Attribution Share-Alike License v3.0</a> or any later version."
-msgstr ""
-"Trừ khi có <a href=\"%(legal_url)s\">ghi chú</a> khác, nội dung trên trang này "
-"tuân theo <br/> <a href=\"%(license_url)s\">Giấy phép Chia sẻ Tương tự Tính "
-"chất Creative Commons v3.0</a> và bất kì phiên bản nào sau này của nó."
-
-#: templates/includes/lang_switcher.html:2
-msgid "Other languages:"
-msgstr "Ngôn ngữ khác:"
-
-#: templates/includes/lang_switcher.html:10
-msgid "Go"
-msgstr "Đi"
+#. This is a link to the URL associated with an opinion.
+#: apps/dashboard/templates/dashboard/messages.html:31
+msgid "visit &rarr;"
+msgstr "vào &rarr;"
