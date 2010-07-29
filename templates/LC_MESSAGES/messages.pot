@@ -103,10 +103,13 @@ msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
 msgstr ""
 
 #: apps/dashboard/templates/dashboard/sentiments.html:33
+#: apps/feedback/helpers.py:36
+#: apps/search/forms.py:36
 msgid "Praise"
 msgstr ""
 
 #: apps/dashboard/templates/dashboard/sentiments.html:35
+#: apps/search/forms.py:37
 msgid "Issues"
 msgstr ""
 
@@ -150,12 +153,8 @@ msgstr ""
 msgid "We already got your feedback! Thanks."
 msgstr ""
 
-#: apps/feedback/helpers.py:36
-msgid "happy face"
-msgstr ""
-
 #: apps/feedback/helpers.py:39
-msgid "sad face"
+msgid "Issue"
 msgstr ""
 
 #: apps/feedback/validators.py:29
@@ -189,7 +188,7 @@ msgid ""
 "personal data from the text, then try again. Thanks!"
 msgstr ""
 
-#: apps/feedback/views.py:33
+#: apps/feedback/views.py:34
 msgid "User-Agent request header must be set."
 msgstr ""
 
@@ -319,14 +318,6 @@ msgstr ""
 #: apps/search/forms.py:35
 msgctxt "sentiment_choice"
 msgid "-- all --"
-msgstr ""
-
-#: apps/search/forms.py:36
-msgid "happy"
-msgstr ""
-
-#: apps/search/forms.py:37
-msgid "sad"
 msgstr ""
 
 #: apps/search/forms.py:42

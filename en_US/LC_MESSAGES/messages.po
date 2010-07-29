@@ -1,16 +1,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-26 18:00-0700\n"
-"PO-Revision-Date: 2010-04-26 18:00-0700\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
-"Language: \n"
+"Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.6.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: apps/search/templates/search/search.html:66 apps/search/templates/search/mobile/search.html:65
@@ -18,43 +14,36 @@ msgid "&laquo; previous"
 msgstr "&laquo; previous"
 
 #: apps/search/forms.py:46
-#, fuzzy
 msgctxt "locale_choice"
 msgid "-- all --"
 msgstr "-- all --"
 
 #: apps/search/forms.py:42
-#, fuzzy
 msgctxt "os_choice"
 msgid "-- all --"
 msgstr "-- all --"
 
 #: apps/search/forms.py:35
-#, fuzzy
 msgctxt "sentiment_choice"
 msgid "-- all --"
 msgstr "-- all --"
 
 #: apps/search/forms.py:22 apps/search/forms.py:29
-#, fuzzy
 msgctxt "version_choice"
 msgid "-- all --"
 msgstr "-- all --"
 
 #: apps/dashboard/forms.py:9
-#, fuzzy
 msgctxt "dashboard_period"
 msgid "1 day"
 msgstr "1 day"
 
 #: apps/dashboard/forms.py:11
-#, fuzzy
 msgctxt "dashboard_period"
 msgid "1 month"
 msgstr "1 month"
 
 #: apps/dashboard/forms.py:10
-#, fuzzy
 msgctxt "dashboard_period"
 msgid "1 week"
 msgstr "1 week"
@@ -177,7 +166,11 @@ msgstr "Input Dashboard"
 msgid "Internal Server Error"
 msgstr "Internal Server Error"
 
-#: apps/dashboard/templates/dashboard/sentiments.html:35
+#: apps/feedback/helpers.py:39
+msgid "Issue"
+msgstr "Issue"
+
+#: apps/dashboard/templates/dashboard/sentiments.html:35 apps/search/forms.py:37
 msgid "Issues"
 msgstr "Issues"
 
@@ -222,9 +215,8 @@ msgid "Mobile"
 msgstr "Mobile"
 
 #: apps/feedback/templates/feedback/cluster.html:25 apps/feedback/templates/feedback/clusters.html:20
-#, fuzzy
 msgid "No clusters of opinions found."
-msgstr "Clusters of Opinions"
+msgstr "No clusters of opinions found."
 
 #: apps/search/templates/search/search.html:56 apps/search/templates/search/mobile/search.html:55
 msgid "No search results found."
@@ -251,9 +243,8 @@ msgid "OS: {os_name}"
 msgstr "OS: {os_name}"
 
 #: apps/feedback/templates/feedback/need_beta.html:8
-#, fuzzy
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
-msgstr "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be a part of our Beta Program."
+msgstr "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
 
 #: apps/feedback/templates/feedback/mobile/need_beta.html:9
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
@@ -288,7 +279,7 @@ msgstr "Please ensure that there is no personally identifiable information here.
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 msgstr "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 
-#: apps/dashboard/templates/dashboard/sentiments.html:33
+#: apps/dashboard/templates/dashboard/sentiments.html:33 apps/feedback/helpers.py:36 apps/search/forms.py:36
 msgid "Praise"
 msgstr "Praise"
 
@@ -385,9 +376,8 @@ msgid "Thanks!"
 msgstr "Thanks!"
 
 #: apps/feedback/templates/feedback/need_beta.html:14
-#, fuzzy
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
-msgstr "To join, simply go to our download page and get <a href=\"%(url)s\">the latest Firefox Beta!</a>"
+msgstr "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
 
 #. Link to Google Translator
 #: apps/dashboard/templates/dashboard/messages.html:17
@@ -413,7 +403,7 @@ msgstr "URL"
 msgid "User agent string was not recognizable."
 msgstr "User agent string was not recognizable."
 
-#: apps/feedback/views.py:33
+#: apps/feedback/views.py:34
 msgid "User-Agent request header must be set."
 msgstr "User-Agent request header must be set."
 
@@ -434,23 +424,20 @@ msgid "Welcome!"
 msgstr "Welcome!"
 
 #: apps/feedback/__init__.py:47
-#, fuzzy
 msgid "Windows 7"
-msgstr "Windows"
+msgstr "Windows 7"
 
 #: apps/feedback/__init__.py:52
-#, fuzzy
 msgid "Windows Vista"
-msgstr "Windows"
+msgstr "Windows Vista"
 
 #: apps/feedback/__init__.py:42
-#, fuzzy
 msgid "Windows XP"
-msgstr "Windows"
+msgstr "Windows XP"
 
 #: apps/feedback/validators.py:47
 msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
-msgstr "Your comments contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
+msgstr "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
 
 #: apps/feedback/validators.py:72
 msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
@@ -465,18 +452,9 @@ msgid "all"
 msgstr "all"
 
 #: apps/dashboard/forms.py:12
-#, fuzzy
 msgctxt "dashboard_period"
 msgid "all"
 msgstr "all"
-
-#: apps/search/forms.py:36
-msgid "happy"
-msgstr "happy"
-
-#: apps/feedback/helpers.py:36
-msgid "happy face"
-msgstr "happy face"
 
 #: apps/search/templates/search/search.html:72 apps/search/templates/search/mobile/search.html:71
 msgid "next &raquo;"
@@ -485,14 +463,6 @@ msgstr "next &raquo;"
 #: apps/search/templates/search/search.html:76 apps/search/templates/search/mobile/search.html:75
 msgid "page %(pagenum)s of %(total)s"
 msgstr "page %(pagenum)s of %(total)s"
-
-#: apps/search/forms.py:37
-msgid "sad"
-msgstr "sad"
-
-#: apps/feedback/helpers.py:39
-msgid "sad face"
-msgstr "sad face"
 
 #. L10n: This indicates the second part of a date range.
 #: apps/search/forms.py:68
@@ -507,6 +477,3 @@ msgstr "unknown"
 #: apps/dashboard/templates/dashboard/messages.html:31
 msgid "visit &rarr;"
 msgstr "visit &rarr;"
-
-#~ msgid "Some ways to help out more:"
-#~ msgstr "Some ways to help out more:"
