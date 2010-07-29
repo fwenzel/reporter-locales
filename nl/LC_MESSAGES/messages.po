@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 15:37+0200\n"
-"PO-Revision-Date: 2010-07-27 08:52+0200\n"
+"PO-Revision-Date: 2010-07-29 09:11+0200\n"
 "Last-Translator: Mark <markh@babelzilla.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -59,7 +59,7 @@ msgstr "<a href=\"%(url)s\">Totaal</a>: %(count)s"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:25
 msgid "Add URL of last visited page?"
-msgstr ""
+msgstr "URL van laatst bezochte pagina toevoegen?"
 
 #: apps/search/templates/search/search_form.html:28
 msgid "Advanced"
@@ -71,11 +71,11 @@ msgstr "Er is een onverwerkte fout opgetreden in de toepassing. De fout is in he
 
 #: templates/includes/nav_buttons.html:2
 msgid "Clusters"
-msgstr ""
+msgstr "Clusters"
 
 #: apps/feedback/templates/feedback/cluster.html:3 apps/feedback/templates/feedback/clusters.html:3
 msgid "Clusters of Opinions"
-msgstr ""
+msgstr "Clusters van meningen"
 
 #: apps/search/forms.py:65
 msgid "Date range:"
@@ -172,11 +172,13 @@ msgstr "Interne serverfout"
 
 #: apps/dashboard/templates/dashboard/sentiments.html:35
 msgid "Issues"
-msgstr ""
+msgstr "Problemen"
 
 #: apps/feedback/templates/feedback/feedback.html:34
 msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
 msgstr ""
+"Kent u een website die in deze bèta beter werkt dan in eerdere versies van "
+"Firefox? Voeg dan a.u.b. de URL toe, zodat we deze kunnen volgen!"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:37 apps/dashboard/templates/dashboard/mobile/dashboard.html:37
 msgid "Last {count} Messages"
@@ -216,7 +218,7 @@ msgstr "Mobile"
 
 #: apps/feedback/templates/feedback/cluster.html:25 apps/feedback/templates/feedback/clusters.html:20
 msgid "No clusters of opinions found."
-msgstr ""
+msgstr "Geen clusters van meningen gevonden."
 
 #: apps/search/templates/search/search.html:56 apps/search/templates/search/mobile/search.html:55
 msgid "No search results found."
@@ -243,13 +245,16 @@ msgid "OS: {os_name}"
 msgstr "Besturingssysteem: {os_name}"
 
 #: apps/feedback/templates/feedback/need_beta.html:8
-#, fuzzy
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
-msgstr "Oh! Dus u wilt ons feedback geven over de volgende versie van Firefox. Dank u, maar u dient deel uit te maken van ons Bèta-programma."
+msgstr ""
+"Oh! Dus u wilt ons feedback geven over de volgende versie van Firefox. Dank "
+"u, maar u dient de meest recente bèta-versie te gebruiken."
 
 #: apps/feedback/templates/feedback/mobile/need_beta.html:9
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
 msgstr ""
+"Oh! Dus u wilt ons feedback geven. Dan hebt u de mest recente Bèta-versie "
+"nodig! Ga naar onze bèta-pagina en <a href=\"%(url)s\">download deze!</a>"
 
 #: apps/feedback/__init__.py:67
 msgid "Other"
@@ -261,7 +266,10 @@ msgstr "Overige talen:"
 
 #: apps/search/templates/search/unavailable.html:9
 msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
-msgstr "Mogelijk is onze zoekmachine momenteel niet beschikbaar. U kunt opnieuw beginnen op het <a href=\"%(url)s\">dashboard</a> en het later nog eens proberen."
+msgstr ""
+"Mogelijk is onze zoekmachine momenteel niet beschikbaar. U kunt opnieuw "
+"beginnen op het <a href=\"%(url)s\">dashboard</a> en het later nog eens "
+"proberen."
 
 #: apps/dashboard/templates/dashboard/dashboard.html:19 apps/dashboard/templates/dashboard/mobile/dashboard.html:19 apps/search/templates/search/search.html:87
 #: apps/search/templates/search/mobile/search.html:86
@@ -282,7 +290,7 @@ msgstr "Begin a.u.b. opnieuw op het <a href=\"%(dashboard_url)s\">dashboard</a>.
 
 #: apps/dashboard/templates/dashboard/sentiments.html:33
 msgid "Praise"
-msgstr ""
+msgstr "Aanprijzen"
 
 #: templates/base.html:59 templates/base_mobile.html:53
 msgid "Privacy Policy"
@@ -336,11 +344,11 @@ msgstr "Meer"
 #. This is referring to the first few clusters.
 #: apps/feedback/templates/feedback/cluster.html:17
 msgid "Showing the first {count}"
-msgstr ""
+msgstr "Weergave van de eerste {count}"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:15
 msgid "Sorry! Please tell us more!"
-msgstr ""
+msgstr "Sorry! Vertel ons a.u.b. meer!"
 
 #. L10n: Sphinx is the name of the search engine software.
 #: apps/search/client.py:66
@@ -362,7 +370,7 @@ msgstr "Geweldig! We vinden het fijn te horen dat u plezier beleeft aan onze pre
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:13
 msgid "Super! Please tell us more!"
-msgstr ""
+msgstr "Geweldig! Vertel ons a.u.b. meer!"
 
 #: apps/feedback/templates/feedback/thanks.html:3 apps/feedback/templates/feedback/mobile/thanks.html:3
 msgid "Thanks for Your Feedback"
@@ -377,9 +385,10 @@ msgid "Thanks!"
 msgstr "Bedankt!"
 
 #: apps/feedback/templates/feedback/need_beta.html:14
-#, fuzzy
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
-msgstr "Ga naar onze downloadpagina gaan en haal <a href=\"%(url)s\">de meest recente Firefox-bèta</a> op om mee te doen!"
+msgstr ""
+"Ga naar onze downloadpagina gaan en installeer/werk bij naar <a href=\"%"
+"(url)s\">de meest recente Firefox-bèta</a> om mee te doen!"
 
 #. Link to Google Translator
 #: apps/dashboard/templates/dashboard/messages.html:17
@@ -426,19 +435,16 @@ msgid "Welcome!"
 msgstr "Welkom!"
 
 #: apps/feedback/__init__.py:47
-#, fuzzy
 msgid "Windows 7"
-msgstr "Windows"
+msgstr "Windows 7"
 
 #: apps/feedback/__init__.py:52
-#, fuzzy
 msgid "Windows Vista"
-msgstr "Windows"
+msgstr "Windows Vista"
 
 #: apps/feedback/__init__.py:42
-#, fuzzy
 msgid "Windows XP"
-msgstr "Windows"
+msgstr "Windows XP"
 
 #: apps/feedback/validators.py:47
 msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
@@ -480,7 +486,7 @@ msgstr "pagina %(pagenum)s van %(total)s"
 
 #: apps/search/forms.py:37
 msgid "sad"
-msgstr "verdrietig"
+msgstr "bedroefd"
 
 #: apps/feedback/helpers.py:39
 msgid "sad face"
