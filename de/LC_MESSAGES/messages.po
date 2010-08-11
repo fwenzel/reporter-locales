@@ -2,14 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Frederic Wenzel <fwenzel@mozilla.com>\n"
+"PO-Revision-Date: 2010-08-11 11:23+0200\n"
+"Last-Translator: wenzel <wenzel@mozilla.com>\n"
 "Language-Team: none\n"
-"Language: \n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.3\n"
 
 #: apps/search/templates/search/search.html:66 apps/search/templates/search/mobile/search.html:65
 msgid "&laquo; previous"
@@ -109,8 +110,9 @@ msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
 "any later version."
 msgstr ""
-"Wenn nicht anders <a href=\"%(legal_url)s\">angegeben</a>, steht der Inhalt dieser Seite unter einer <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike Lizenz</a>, Version 3 "
-"oder später."
+"Wenn nicht anders <a href=\"%(legal_url)s\">angegeben</a>, steht der Inhalt "
+"dieser Seite unter einer <br/> <a href=\"%(license_url)s\">Creative Commons "
+"Attribution Share-Alike Lizenz</a> Version 3.0 oder später."
 
 #: apps/feedback/validators.py:56
 msgid "Feedback must not contain HTML."
@@ -150,7 +152,9 @@ msgstr "Falls Sie zur Reproduktion dieses Fehlers weitere Informationen haben, v
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
-msgstr "Wenn Sie sehen wollen, wo Ihr Kommentar bald auftauchen wird, sehen Sie sich unsere <a href=\"%(url)s\">Firefox Input Übersicht</a> an."
+msgstr ""
+"Wenn Sie sehen wollen, wo Ihr Kommentar bald auftauchen wird, sehen Sie sich "
+"unsere <a href=\"%(url)s\">Firefox Input-Übersicht</a> an."
 
 #: templates/404.html:14
 msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
@@ -162,7 +166,7 @@ msgstr "Erwähnen Sie die folgende Fehlermeldung in Ihrem Bericht:"
 
 #: templates/base.html:31 templates/base_mobile.html:27
 msgid "Input Dashboard"
-msgstr "Input Übersicht"
+msgstr "Input-Übersicht"
 
 #: templates/500.html:4
 msgid "Internal Server Error"
@@ -355,7 +359,7 @@ msgstr "Kommentar abschicken"
 
 #: apps/feedback/validators.py:37
 msgid "Submitted User Agent is not the latest beta version."
-msgstr "Der übermittelte User Agent entspricht nicht der neuesten Beta-Version."
+msgstr "Der übermittelte User-Agent entspricht nicht der neuesten Beta-Version."
 
 #: apps/feedback/templates/feedback/feedback.html:13
 msgid "Super! It's great to hear that you like our pre-released browser. Please explain what you specifically like!"
@@ -426,19 +430,16 @@ msgid "Welcome!"
 msgstr "Willkommen!"
 
 #: apps/feedback/__init__.py:47
-#, fuzzy
 msgid "Windows 7"
-msgstr "Windows"
+msgstr "Windows 7"
 
 #: apps/feedback/__init__.py:52
-#, fuzzy
 msgid "Windows Vista"
-msgstr "Windows"
+msgstr "Windows Vista"
 
 #: apps/feedback/__init__.py:42
-#, fuzzy
 msgid "Windows XP"
-msgstr "Windows"
+msgstr "Windows XP"
 
 #: apps/feedback/validators.py:47
 msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
