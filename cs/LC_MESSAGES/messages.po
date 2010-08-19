@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Firefox Input\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 18:31+0200\n"
-"PO-Revision-Date: 2010-08-19 21:46+0100\n"
+"PO-Revision-Date: 2010-08-19 21:54+0100\n"
 "Last-Translator: Pavel Cvrček <pcvrcek@mozilla.cz>\n"
 "Language-Team: cs <info@mozilla.cz>\n"
 "Language: \n"
@@ -81,7 +81,7 @@ msgstr "<a href=\"%(url)s\">Celkem</a>: %(count)s"
 
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
-msgstr ""
+msgstr "ATOM pro toto vyhledávání"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:25
 msgid "Add URL of last visited page?"
@@ -114,12 +114,12 @@ msgstr "Beta"
 
 #: templates/includes/nav_buttons.html:2
 msgid "Clusters"
-msgstr ""
+msgstr "Seskupení"
 
 #: apps/feedback/templates/feedback/cluster.html:3
 #: apps/feedback/templates/feedback/clusters.html:3
 msgid "Clusters of Opinions"
-msgstr ""
+msgstr "Seskupené reakce"
 
 #: apps/dashboard/templates/dashboard/message_list.html:29
 msgid "Copy User Agent"
@@ -237,7 +237,7 @@ msgstr "Do vašeho hlášení o chybě zahrňte následující chybové hlášen
 #: templates/base_mobile.html:27
 #: templates/base_old.html:31
 msgid "Input Dashboard"
-msgstr "Input Dashboard"
+msgstr "Nástěnka názorů"
 
 #: templates/500.html:4
 msgid "Internal Server Error"
@@ -334,7 +334,7 @@ msgstr "Mobilní"
 
 #: apps/dashboard/templates/dashboard/message_list.html:26
 msgid "More Options"
-msgstr ""
+msgstr "Více možností"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:79
 msgid "More sites..."
@@ -343,12 +343,12 @@ msgstr "Více stránek..."
 #: apps/dashboard/templates/dashboard/dashboard.html:65
 #: apps/search/templates/search/search.html:74
 msgid "Newer Messages &raquo;"
-msgstr ""
+msgstr "Novější zprávy &raquo;"
 
 #: apps/feedback/templates/feedback/cluster.html:27
 #: apps/feedback/templates/feedback/clusters.html:24
 msgid "No clusters of opinions found."
-msgstr ""
+msgstr "Nebyly nalezeny žádné seskupené názory."
 
 #: apps/website_issues/templates/website_issues/sites_list.html:27
 msgid "No results found!"
@@ -382,7 +382,7 @@ msgstr "OS: {os_name}"
 #. Refers to terms often mentioned in feedback.
 #: apps/dashboard/templates/dashboard/themes.html:3
 msgid "Often Mentioned"
-msgstr ""
+msgstr "Často zmíněno"
 
 #: apps/feedback/templates/feedback/need_beta.html:8
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
@@ -394,7 +394,7 @@ msgstr "Zdá se, že chcete přidat reakci, ale k tomu potřebujete poslední be
 
 #: apps/feedback/templates/feedback/opinion.html:3
 msgid "Opinion"
-msgstr ""
+msgstr "Názor"
 
 #: apps/feedback/__init__.py:67
 msgid "Other"
@@ -494,7 +494,7 @@ msgstr "Výsledky vyhledávání"
 
 #: apps/search/views.py:42
 msgid "Search Results in Firefox Beta Feedback."
-msgstr ""
+msgstr "Výsledky vyhledávání ve Firefox Beta Feedback."
 
 #: apps/search/templates/search/unavailable.html:5
 msgid "Search Unavailable"
@@ -672,7 +672,7 @@ msgstr "Kdy"
 #. Refers to sites that were reported in feedback.
 #: apps/dashboard/templates/dashboard/sites.html:4
 msgid "While Visiting"
-msgstr ""
+msgstr "Při návštěvě"
 
 #: apps/feedback/__init__.py:47
 msgid "Windows 7"
@@ -718,7 +718,7 @@ msgstr "stránka %(pagenum)s z %(total)s"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:28
 msgid "reset my search"
-msgstr ""
+msgstr "zrušit vyhledávání"
 
 #. L10n: This indicates the second part of a date range.
 #: apps/search/forms.py:68
@@ -738,7 +738,7 @@ msgstr "navštívit &rarr;"
 #. {0} is a time delta, e.g.: 2 weeks
 #: apps/dashboard/templates/dashboard/message_list.html:15
 msgid "{0} ago"
-msgstr ""
+msgstr "Před {0}"
 
 #: apps/feedback/templates/feedback/cluster.html:8
 msgid "{0} opinions for Firefox {1} {2}"
