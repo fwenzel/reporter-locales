@@ -13,7 +13,15 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.0.3\n"
 
-#: apps/search/templates/search/search.html:66 apps/search/templates/search/mobile/search.html:65
+#: apps/website_issues/templates/website_issues/paginate_sites.html:3
+msgid "&laquo; Next Page"
+msgstr ""
+
+#: apps/dashboard/templates/dashboard/dashboard.html:64 apps/search/templates/search/search.html:64
+msgid "&laquo; Older Messages"
+msgstr ""
+
+#: apps/search/templates/search/mobile/search.html:65
 msgid "&laquo; previous"
 msgstr "&laquo; 上一頁"
 
@@ -37,25 +45,41 @@ msgctxt "version_choice"
 msgid "-- all --"
 msgstr "-- 全部 --"
 
-#: apps/dashboard/forms.py:9
+#: apps/dashboard/forms.py:10
 msgctxt "dashboard_period"
 msgid "1 day"
 msgstr "1 天"
 
-#: apps/dashboard/forms.py:11
+#: apps/dashboard/forms.py:12
 msgctxt "dashboard_period"
 msgid "1 month"
 msgstr "1 個月"
 
-#: apps/dashboard/forms.py:10
+#: apps/dashboard/forms.py:11
 msgctxt "dashboard_period"
 msgid "1 week"
 msgstr "1 星期"
 
+#: apps/dashboard/templates/dashboard/when.html:7
+msgid "1d"
+msgstr ""
+
+#: apps/dashboard/templates/dashboard/when.html:13
+msgid "30d"
+msgstr ""
+
+#: apps/dashboard/templates/dashboard/when.html:10 apps/website_issues/templates/website_issues/website_issues.html:22
+msgid "7d"
+msgstr ""
+
 #. Total refers to a message count.
-#: apps/dashboard/templates/dashboard/sentiments.html:27
+#: apps/dashboard/templates/dashboard/sentiments.html:32
 msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
 msgstr "<a href=\"%(url)s\">總計</a>： %(count)s"
+
+#: apps/search/templates/search/search.html:10
+msgid "ATOM feed for this search"
+msgstr ""
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:25
 msgid "Add URL of last visited page?"
@@ -65,9 +89,27 @@ msgstr "新增最後開啟網頁的網址？"
 msgid "Advanced"
 msgstr "進階"
 
+#: apps/website_issues/templates/website_issues/website_issues.html:32
+#, fuzzy
+msgctxt "sites_search_all_feedback"
+msgid "All"
+msgstr "全部"
+
+#: apps/website_issues/templates/website_issues/website_issues.html:32
+msgid "All feedback"
+msgstr ""
+
 #: templates/500.html:7
 msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
 msgstr "應用程式發生一個未知的錯誤。這個錯誤已被記錄，管理員將收到通知。抱歉造成您的不便！"
+
+#: apps/website_issues/templates/website_issues/single_site.html:3
+msgid "Back to all sites &raquo;"
+msgstr ""
+
+#: apps/website_issues/templates/website_issues/website_issues.html:23
+msgid "Beta"
+msgstr ""
 
 #: templates/includes/nav_buttons.html:2
 msgid "Clusters"
@@ -77,20 +119,33 @@ msgstr "意見群"
 msgid "Clusters of Opinions"
 msgstr "意見群"
 
+#: apps/dashboard/templates/dashboard/message_list.html:29
+msgid "Copy User Agent"
+msgstr ""
+
+#. Tooltip for custom date range button
+#: apps/dashboard/templates/dashboard/when.html:17
+msgid "Custom"
+msgstr ""
+
+#: templates/base.html:27
+#, fuzzy
+msgid "Dashboard"
+msgstr "Input Dashboard"
+
 #: apps/search/forms.py:65
 msgid "Date range:"
 msgstr "日期範圍："
 
-#: apps/search/templates/search/search.html:34 apps/search/templates/search/mobile/search.html:35
+#: apps/search/templates/search/mobile/search.html:35
 msgid "Dates: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
 msgstr "日期：<span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:27 apps/dashboard/templates/dashboard/mobile/dashboard.html:27 apps/search/templates/search/search.html:101
-#: apps/search/templates/search/mobile/search.html:100
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:27 apps/search/templates/search/mobile/search.html:100
 msgid "Demographics"
 msgstr "參與者統計"
 
-#: apps/search/templates/search/search.html:30 apps/search/templates/search/mobile/search.html:31
+#: apps/search/templates/search/mobile/search.html:31
 msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
 msgstr "敘述：<span class=\"opt\">\"%(query)s\"</span>;"
 
@@ -98,7 +153,7 @@ msgstr "敘述：<span class=\"opt\">\"%(query)s\"</span>;"
 msgid "Download Beta"
 msgstr "下載 Beta 版"
 
-#: apps/search/templates/search/search.html:19 apps/search/templates/search/mobile/search.html:18
+#: apps/search/templates/search/search.html:53 apps/search/templates/search/mobile/search.html:18
 msgid "Due to software constraints, we can only show the last 1000 messages for this search query."
 msgstr "由於系統限制，我們只能顯示查詢結果中最新的 1000 筆資料。"
 
@@ -106,11 +161,16 @@ msgstr "由於系統限制，我們只能顯示查詢結果中最新的 1000 筆
 msgid "Enter your feedback here."
 msgstr "在此輸入您的回饋。"
 
-#: templates/base.html:64 templates/base_mobile.html:58
+#: templates/base.html:55 templates/base_mobile.html:58 templates/base_old.html:64
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
 "any later version."
 msgstr "除另有<a href=\"%(legal_url)s\">註明</a>，本站內容皆採<br/> <a href=\"%(license_url)s\">創用 CC 姓名標示 - 相同方式分享條款 3.0</a> 或更新的版本授權使用。"
+
+#: templates/base.html:32
+#, fuzzy
+msgid "Feedback"
+msgstr "傳送意見回饋"
 
 #: apps/feedback/validators.py:56
 msgid "Feedback must not contain HTML."
@@ -124,6 +184,16 @@ msgstr "閱讀 Mozilla 的最新消息："
 msgid "Firefox"
 msgstr "Firefox"
 
+#: apps/search/views.py:41 apps/search/views.py:59
+#, fuzzy
+msgid "Firefox Input"
+msgstr "Firefox"
+
+#. L10n: This is the title to the Search ATOM feed.
+#: apps/search/views.py:58
+msgid "Firefox Input: '{query}'"
+msgstr ""
+
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
 msgstr "前往"
@@ -136,11 +206,11 @@ msgstr "在特定網站上出現問題？請填寫網址，讓我們更快發現
 msgid "I'm sorry, I could not find what you were looking for."
 msgstr "很抱歉，但我找不到您想找的東西。"
 
-#: apps/search/templates/search/unavailable.html:6
+#: apps/search/templates/search/unavailable.html:7
 msgid "I'm sorry, there was an error with your search."
 msgstr "很抱歉，搜尋時發生錯誤。"
 
-#: apps/search/templates/search/unavailable.html:16
+#: apps/search/templates/search/unavailable.html:17
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
 msgstr "如果問題持續發生，請<a href=\"%(bug_url)s\">送交一份臭蟲報告</a>，並附上您欲瀏覽的網址。"
 
@@ -156,11 +226,11 @@ msgstr "如果想知道您的回饋送往何方，可以看看<a href=\"%(url)s\
 msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
 msgstr "如果您是從損壞的頁面鏈結連到此頁，請<a href=\"%(bug_url)s\">送交一份臭蟲報告</a>。感謝！"
 
-#: apps/search/templates/search/unavailable.html:22
+#: apps/search/templates/search/unavailable.html:24
 msgid "Include the following error message in your bug report:"
 msgstr "也請在錯誤報告中附上以下的錯誤訊息："
 
-#: templates/base.html:31 templates/base_mobile.html:27
+#: templates/base_mobile.html:27 templates/base_old.html:31
 msgid "Input Dashboard"
 msgstr "Input Dashboard"
 
@@ -168,19 +238,56 @@ msgstr "Input Dashboard"
 msgid "Internal Server Error"
 msgstr "伺服器內部錯誤"
 
-#: apps/dashboard/templates/dashboard/sentiments.html:35
+#: apps/dashboard/templates/dashboard/message_list.html:8 apps/feedback/helpers.py:39
+#, fuzzy
+msgid "Issue"
+msgstr "有問題"
+
+#. Formerly called "sad"
+#: apps/dashboard/templates/dashboard/overview.html:23 apps/dashboard/templates/dashboard/sentiments.html:27 apps/search/forms.py:37
+#: apps/website_issues/templates/website_issues/website_issues.html:34
 msgid "Issues"
+msgstr "有問題"
+
+#: apps/website_issues/templates/website_issues/website_issues.html:34
+#, fuzzy
+msgid "Issues only"
 msgstr "有問題"
 
 #: apps/feedback/templates/feedback/feedback.html:34
 msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
 msgstr "您知道哪個網站在這個 Firefox Beta 版本中表現得比之前的版本更好嗎？請附上網址，這樣我們就能繼續追蹤！"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:37 apps/dashboard/templates/dashboard/mobile/dashboard.html:37
+#. short for 30 days
+#: apps/dashboard/templates/dashboard/when.html:13
+msgid "Last 30 days"
+msgstr ""
+
+#. short for 7 days
+#: apps/dashboard/templates/dashboard/when.html:10 apps/website_issues/templates/website_issues/website_issues.html:22
+msgid "Last 7 days"
+msgstr ""
+
+#. short for 1 day
+#: apps/dashboard/templates/dashboard/when.html:7
+#, fuzzy
+msgid "Last day"
+msgstr "1 天"
+
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:37
 msgid "Last {count} Messages"
 msgstr "最新的 {count} 條訊息"
 
-#: templates/base.html:60 templates/base_mobile.html:54
+#: apps/website_issues/templates/website_issues/website_issues.html:23
+msgid "Latest Beta"
+msgstr ""
+
+#: apps/dashboard/templates/dashboard/dashboard.html:54
+#, fuzzy
+msgid "Latest Feedback"
+msgstr "傳送意見回饋"
+
+#: templates/base.html:51 templates/base_mobile.html:54 templates/base_old.html:60
 msgid "Legal Notices"
 msgstr "法律聲明"
 
@@ -188,7 +295,7 @@ msgstr "法律聲明"
 msgid "Linux"
 msgstr "Linux"
 
-#: apps/dashboard/templates/dashboard/demographics.html:10
+#: apps/dashboard/templates/dashboard/demographics.html:10 apps/dashboard/templates/dashboard/locales.html:14
 msgid "Locale"
 msgstr "地區語言"
 
@@ -196,11 +303,11 @@ msgstr "地區語言"
 msgid "Locale:"
 msgstr "地區語言："
 
-#: apps/search/templates/search/search.html:39 apps/search/templates/search/mobile/search.html:40
+#: apps/search/templates/search/mobile/search.html:40
 msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
 msgstr "地區語言：<span class=\"opt\">%(locale)s</span>;"
 
-#: apps/dashboard/templates/dashboard/messages.html:38
+#: apps/dashboard/templates/dashboard/messages.html:39
 msgid "Locale: {locale}"
 msgstr "地區語言: {locale}"
 
@@ -208,15 +315,37 @@ msgstr "地區語言: {locale}"
 msgid "Mac OS X"
 msgstr "Mac OS X"
 
+#. Title text for a complete message count.
+#: apps/dashboard/templates/dashboard/opinion_count.html:3
+msgid "Messages"
+msgstr ""
+
 #: apps/feedback/__init__.py:16
 msgid "Mobile"
 msgstr "Mobile"
 
-#: apps/feedback/templates/feedback/cluster.html:25 apps/feedback/templates/feedback/clusters.html:20
+#: apps/dashboard/templates/dashboard/message_list.html:26
+msgid "More Options"
+msgstr ""
+
+#: apps/website_issues/templates/website_issues/website_issues.html:79
+msgid "More sites..."
+msgstr ""
+
+#: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
+msgid "Newer Messages &raquo;"
+msgstr ""
+
+#: apps/feedback/templates/feedback/cluster.html:27 apps/feedback/templates/feedback/clusters.html:24
 msgid "No clusters of opinions found."
 msgstr "找不到意見群。"
 
-#: apps/search/templates/search/search.html:56 apps/search/templates/search/mobile/search.html:55
+#: apps/website_issues/templates/website_issues/sites_list.html:27
+#, fuzzy
+msgid "No results found!"
+msgstr "找不到搜尋結果。"
+
+#: apps/dashboard/templates/dashboard/message_list.html:39 apps/search/templates/search/mobile/search.html:55
 msgid "No search results found."
 msgstr "找不到搜尋結果。"
 
@@ -232,13 +361,18 @@ msgstr "作業系統"
 msgid "OS:"
 msgstr "作業系統："
 
-#: apps/search/templates/search/search.html:42 apps/search/templates/search/mobile/search.html:43
+#: apps/search/templates/search/mobile/search.html:43
 msgid "OS: <span class=\"opt\">%(os)s</span>"
 msgstr "作業系統：<span class=\"opt\">%(os)s</span>"
 
-#: apps/dashboard/templates/dashboard/messages.html:36
+#: apps/dashboard/templates/dashboard/messages.html:37
 msgid "OS: {os_name}"
 msgstr "作業系統: {os_name}"
+
+#. Refers to terms often mentioned in feedback.
+#: apps/dashboard/templates/dashboard/themes.html:3
+msgid "Often Mentioned"
+msgstr ""
 
 #: apps/feedback/templates/feedback/need_beta.html:8
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
@@ -246,9 +380,11 @@ msgstr "喔，您似乎想要回報對下一版 Firefox 的意見。感謝您的
 
 #: apps/feedback/templates/feedback/mobile/need_beta.html:9
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
+msgstr "喔，您似乎想要給我們一些回應，但您需要最新的 Beta 測試版！請直接到我們的 Beta 頁面並且 <a href=\"%(url)s\">下載安裝！</a>"
+
+#: apps/feedback/templates/feedback/opinion.html:3
+msgid "Opinion"
 msgstr ""
-"喔，您似乎想要給我們一些回應，但您需要最新的 Beta 測試版！請直接到我們的 Beta 頁面並且 <a href=\"%"
-"(url)s\">下載安裝！</a>"
 
 #: apps/feedback/__init__.py:67
 msgid "Other"
@@ -258,16 +394,19 @@ msgstr "其他"
 msgid "Other languages:"
 msgstr "其他語言："
 
-#: apps/search/templates/search/unavailable.html:9
+#: apps/search/templates/search/unavailable.html:10
 msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
 msgstr "我們的搜尋引擎目前可能暫時無法使用。您可以從 <a href=\"%(url)s\">Dashboard</a> 重新開始，並稍候再試一次。"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:19 apps/dashboard/templates/dashboard/mobile/dashboard.html:19 apps/search/templates/search/search.html:87
-#: apps/search/templates/search/mobile/search.html:86
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:19 apps/search/templates/search/mobile/search.html:86
 msgid "Overview"
 msgstr "概況"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:12 apps/dashboard/templates/dashboard/mobile/dashboard.html:12
+#: apps/dashboard/templates/dashboard/platforms.html:11
+msgid "Platform"
+msgstr ""
+
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:12
 msgid "Please enable JavaScript to view this page."
 msgstr "請啟用 JavaScript 以檢視這個頁面。"
 
@@ -279,19 +418,30 @@ msgstr "請確定內容中沒有可供識別的個人資訊。"
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 msgstr "請從 <a href=\"%(url)s\">dashboard</a> 重新開始。"
 
-#: apps/dashboard/templates/dashboard/sentiments.html:33
+#. Formerly called "happy"
+#: apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:11 apps/dashboard/templates/dashboard/sentiments.html:25 apps/feedback/helpers.py:36
+#: apps/search/forms.py:36 apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Praise"
 msgstr "讚"
 
-#: templates/base.html:59 templates/base_mobile.html:53
+#: apps/website_issues/templates/website_issues/website_issues.html:33
+#, fuzzy
+msgid "Praise only"
+msgstr "讚"
+
+#: apps/website_issues/templates/website_issues/paginate_sites.html:11
+msgid "Previous Page &raquo;"
+msgstr ""
+
+#: templates/base.html:50 templates/base_mobile.html:53 templates/base_old.html:59
 msgid "Privacy Policy"
 msgstr "隱私權政策"
 
-#: templates/base.html:19 templates/base_mobile.html:17
+#: templates/base.html:21 templates/base_mobile.html:17 templates/base_old.html:19
 msgid "Proceed to footer"
 msgstr "跳轉到頁尾"
 
-#: templates/base.html:18 templates/base_mobile.html:16
+#: templates/base.html:20 templates/base_mobile.html:16 templates/base_old.html:18
 msgid "Proceed to main content"
 msgstr "跳轉到主要內容"
 
@@ -299,11 +449,11 @@ msgstr "跳轉到主要內容"
 msgid "Product:"
 msgstr "產品："
 
-#: apps/search/client.py:63
+#: apps/search/client.py:77
 msgid "Query has timed out."
 msgstr "查詢已經逾時。"
 
-#: templates/base.html:61 templates/base_mobile.html:55
+#: templates/base.html:52 templates/base_mobile.html:55 templates/base_old.html:61
 msgid "Report Trademark Abuse"
 msgstr "回報商標濫用"
 
@@ -311,38 +461,67 @@ msgstr "回報商標濫用"
 msgid "Search"
 msgstr "搜尋"
 
-#: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:7 apps/search/templates/search/mobile/search.html:5 apps/search/templates/search/mobile/search.html:6
+#: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:41 apps/search/templates/search/mobile/search.html:5 apps/search/templates/search/mobile/search.html:6
 msgid "Search Results"
 msgstr "搜尋結果"
 
-#: apps/search/forms.py:53
-msgid "Search Terms"
-msgstr "搜尋字詞"
+#: apps/search/views.py:42
+msgid "Search Results in Firefox Beta Feedback."
+msgstr ""
 
-#: apps/search/templates/search/unavailable.html:4
+#: apps/search/templates/search/unavailable.html:5
 msgid "Search Unavailable"
 msgstr "無法使用搜尋"
+
+#: apps/search/forms.py:53
+#, fuzzy
+msgid "Search by keyword"
+msgstr "搜尋字詞"
+
+#: apps/website_issues/forms.py:34
+#, fuzzy
+msgctxt "website_issues_search"
+msgid "Search for domain"
+msgstr "搜尋字詞"
 
 #: apps/search/forms.py:58
 msgid "Sentiment:"
 msgstr "心情："
 
+#. Button text for setting a custom date range.
+#: apps/dashboard/templates/dashboard/when.html:25
+msgctxt "date_range_set"
+msgid "Set"
+msgstr ""
+
 #. Link on the dashboard to show more messages.
-#: apps/dashboard/templates/dashboard/dashboard.html:35 apps/dashboard/templates/dashboard/mobile/dashboard.html:35
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:35
 msgid "Show more"
 msgstr "顯示更多"
 
-#. This is referring to the first few clusters.
+#. Link text for showing/hiding options
+#: apps/dashboard/templates/includes/filter_box_toggle.html:1
+msgid "Show/Hide Options"
+msgstr ""
+
 #: apps/feedback/templates/feedback/cluster.html:17
 msgid "Showing the first {count}"
 msgstr "顯示當中的前 {count} 個"
+
+#: apps/website_issues/templates/website_issues/sites_list.html:12 apps/website_issues/templates/website_issues/website_issues.html:10 templates/base.html:34 templates/includes/nav_buttons.html:4
+msgid "Sites"
+msgstr ""
+
+#: apps/website_issues/templates/website_issues/sites_list.html:14
+msgid "Sites with only one message"
+msgstr ""
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:15
 msgid "Sorry! Please tell us more!"
 msgstr "抱歉，請再多告訴我們一些東西！"
 
 #. L10n: Sphinx is the name of the search engine software.
-#: apps/search/client.py:66
+#: apps/search/client.py:80
 msgid "Sphinx threw an unknown exception: %s"
 msgstr "Sphinx 傳出未知的意外： %s"
 
@@ -371,41 +550,69 @@ msgstr "感謝您的回饋"
 msgid "Thanks for sending us your feedback!"
 msgstr "感謝您傳送回饋給我們！"
 
-#: apps/search/templates/search/unavailable.html:25
+#: apps/search/templates/search/unavailable.html:28
 msgid "Thanks!"
 msgstr "感謝！"
+
+#. Formerly: Clusters
+#: templates/base.html:33
+msgid "Themes"
+msgstr ""
 
 #: apps/feedback/templates/feedback/need_beta.html:14
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
 msgstr "要加入 Beta 計畫，只要到我們的網站下載<a href=\"%(url)s\">Firefox 最新的 Beta 測試版本</a>即可！"
 
+#: apps/dashboard/templates/includes/filter_box_toggle.html:1
+msgid "Toggle"
+msgstr ""
+
 #. Link to Google Translator
-#: apps/dashboard/templates/dashboard/messages.html:17
+#: apps/dashboard/templates/dashboard/message_list.html:31
+#, fuzzy
+msgid "Translate Message"
+msgstr "翻譯！"
+
+#. Link to Google Translator
+#: apps/dashboard/templates/dashboard/messages.html:18
 msgid "Translate!"
 msgstr "翻譯！"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:23 apps/dashboard/templates/dashboard/mobile/dashboard.html:23 apps/search/templates/search/search.html:94
-#: apps/search/templates/search/mobile/search.html:93
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:23 apps/search/templates/search/mobile/search.html:93
 msgid "Trends"
 msgstr "趨勢"
 
+#: apps/dashboard/templates/dashboard/overview.html:2 apps/website_issues/templates/website_issues/website_issues.html:29
+#, fuzzy
+msgid "Type of Feedback"
+msgstr "感謝您的回饋"
+
 #. Link to user agent info.
-#: apps/dashboard/templates/dashboard/messages.html:20
+#: apps/dashboard/templates/dashboard/messages.html:21
 msgid "UA"
 msgstr "UA"
 
 #. Link to an opinion's URL.
-#: apps/dashboard/templates/dashboard/messages.html:24
+#: apps/dashboard/templates/dashboard/messages.html:25
 msgid "URL"
 msgstr "URL"
+
+#: apps/website_issues/templates/website_issues/website_issues.html:73
+msgid "Uncommon Sites"
+msgstr ""
 
 #: apps/feedback/validators.py:29
 msgid "User agent string was not recognizable."
 msgstr "無法辨識使用者代理字串。"
 
-#: apps/feedback/views.py:33
+#: apps/feedback/views.py:34
 msgid "User-Agent request header must be set."
 msgstr "Request Header 中需設定 User-Agent。"
+
+#: apps/dashboard/templates/dashboard/versions.html:3
+#, fuzzy
+msgid "Version"
+msgstr "版本："
 
 #: apps/search/forms.py:56
 msgid "Version:"
@@ -419,9 +626,19 @@ msgstr "我們已經收到您的回饋！感謝您。"
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can improve it!"
 msgstr "很抱歉，我們的瀏覽器沒有帶給您良好的體驗。請告訴我們原因，以利未來的改進！"
 
-#: templates/base.html:5 templates/base_mobile.html:5
+#: templates/base.html:5 templates/base_mobile.html:5 templates/base_old.html:5
 msgid "Welcome!"
 msgstr "歡迎！"
+
+#. Title for a time-based search filter
+#: apps/dashboard/templates/dashboard/when.html:2 apps/website_issues/templates/website_issues/website_issues.html:19
+msgid "When"
+msgstr ""
+
+#. Refers to sites that were reported in feedback.
+#: apps/dashboard/templates/dashboard/sites.html:4
+msgid "While Visiting"
+msgstr ""
 
 #: apps/feedback/__init__.py:47
 msgid "Windows 7"
@@ -447,49 +664,85 @@ msgstr "您的回饋內容似乎包含網址。請將包含網址的所有個人
 msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr "您的回饋內容似乎包含電子郵件地址。請將電子郵件地址和其他類似的個人資訊從內容中移除，然後再試一次。感謝！"
 
-#: apps/search/templates/search/search.html:39 apps/search/templates/search/search.html:42 apps/search/templates/search/mobile/search.html:40 apps/search/templates/search/mobile/search.html:43
+#: apps/search/templates/search/mobile/search.html:40 apps/search/templates/search/mobile/search.html:43
 msgid "all"
 msgstr "全部"
 
-#: apps/dashboard/forms.py:12
+#: apps/dashboard/forms.py:13
 msgctxt "dashboard_period"
 msgid "all"
 msgstr "全部"
 
-#: apps/search/forms.py:36
-msgid "happy"
-msgstr "高興"
-
-#: apps/feedback/helpers.py:36
-msgid "happy face"
-msgstr "高興的臉"
-
-#: apps/search/templates/search/search.html:72 apps/search/templates/search/mobile/search.html:71
+#: apps/search/templates/search/mobile/search.html:71
 msgid "next &raquo;"
 msgstr "下一頁 &raquo;"
 
-#: apps/search/templates/search/search.html:76 apps/search/templates/search/mobile/search.html:75
+#: apps/search/templates/search/mobile/search.html:75
 msgid "page %(pagenum)s of %(total)s"
 msgstr "第 %(pagenum)s 頁，共 %(total)s 頁"
 
-#: apps/search/forms.py:37
-msgid "sad"
-msgstr "難過"
-
-#: apps/feedback/helpers.py:39
-msgid "sad face"
-msgstr "難過的臉"
+#: apps/website_issues/templates/website_issues/sites_list.html:28
+msgid "reset my search"
+msgstr ""
 
 #. L10n: This indicates the second part of a date range.
 #: apps/search/forms.py:68
 msgid "to"
 msgstr "到"
 
-#: apps/dashboard/templates/dashboard/demographics.html:13 apps/feedback/helpers.py:16 apps/search/forms.py:47
+#: apps/feedback/helpers.py:16 apps/search/forms.py:47
 msgid "unknown"
 msgstr "未知"
 
 #. This is a link to the URL associated with an opinion.
-#: apps/dashboard/templates/dashboard/messages.html:31
+#: apps/dashboard/templates/dashboard/messages.html:32
 msgid "visit &rarr;"
 msgstr "前往該頁面&rarr;"
+
+#. {0} is a time delta, e.g.: 2 weeks
+#: apps/dashboard/templates/dashboard/message_list.html:15
+msgid "{0} ago"
+msgstr ""
+
+#: apps/feedback/templates/feedback/cluster.html:8
+msgid "{0} opinions for Firefox {1} {2}"
+msgstr ""
+
+#: apps/feedback/templates/feedback/cluster.html:12
+msgid "{0} opinions similar to <q>{1}</q>"
+msgstr ""
+
+#: apps/website_issues/templates/website_issues/sites_list.html:37
+#, fuzzy
+msgid "{count} messages"
+msgstr "最新的 {count} 條訊息"
+
+#. "similar" refers to "similar messages".
+#: apps/website_issues/templates/website_issues/sites_list.html:54
+msgid "{count} similar"
+msgstr ""
+
+#: apps/website_issues/templates/website_issues/single_site.html:17
+#, fuzzy
+msgid "{count} similar messages"
+msgstr "最新的 {count} 條訊息"
+
+#: apps/website_issues/templates/website_issues/sites_list.html:43
+msgid "{percentage}% issues"
+msgstr ""
+
+#: apps/website_issues/templates/website_issues/sites_list.html:41
+msgid "{percentage}% praise"
+msgstr ""
+
+#~ msgid "happy"
+#~ msgstr "高興"
+
+#~ msgid "happy face"
+#~ msgstr "高興的臉"
+
+#~ msgid "sad"
+#~ msgstr "難過"
+
+#~ msgid "sad face"
+#~ msgstr "難過的臉"
