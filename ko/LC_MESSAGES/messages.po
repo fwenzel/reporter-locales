@@ -14,11 +14,11 @@ msgstr ""
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:3
 msgid "&laquo; Next Page"
-msgstr ""
+msgstr "&laquo; 다음 메시지"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:64 apps/search/templates/search/search.html:64
 msgid "&laquo; Older Messages"
-msgstr ""
+msgstr "&laquo; 이전 메시지"
 
 #: apps/search/templates/search/mobile/search.html:65
 msgid "&laquo; previous"
@@ -61,15 +61,15 @@ msgstr "한 주"
 
 #: apps/dashboard/templates/dashboard/when.html:7
 msgid "1d"
-msgstr ""
+msgstr "1일"
 
 #: apps/dashboard/templates/dashboard/when.html:13
 msgid "30d"
-msgstr ""
+msgstr "30일"
 
 #: apps/dashboard/templates/dashboard/when.html:10 apps/website_issues/templates/website_issues/website_issues.html:22
 msgid "7d"
-msgstr ""
+msgstr "7일"
 
 #. Total refers to a message count.
 #: apps/dashboard/templates/dashboard/sentiments.html:32
@@ -78,7 +78,7 @@ msgstr "<a href=\"%(url)s\">합계</a>: %(count)s"
 
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
-msgstr ""
+msgstr "검색 결과 ATOM 피드"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:25
 msgid "Add URL of last visited page?"
@@ -96,7 +96,7 @@ msgstr "전체"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:32
 msgid "All feedback"
-msgstr ""
+msgstr "전체 의견"
 
 #: templates/500.html:7
 msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
@@ -104,11 +104,11 @@ msgstr "알수 없는 오류가 발생하였습니다. 이 오류를 기록하�
 
 #: apps/website_issues/templates/website_issues/single_site.html:3
 msgid "Back to all sites &raquo;"
-msgstr ""
+msgstr "전체 사이트 보기 &raquo;"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:23
 msgid "Beta"
-msgstr ""
+msgstr "베타"
 
 #: templates/includes/nav_buttons.html:2
 msgid "Clusters"
@@ -120,12 +120,12 @@ msgstr "의견 모아보기"
 
 #: apps/dashboard/templates/dashboard/message_list.html:29
 msgid "Copy User Agent"
-msgstr ""
+msgstr "프로그램명 복사"
 
 #. Tooltip for custom date range button
 #: apps/dashboard/templates/dashboard/when.html:17
 msgid "Custom"
-msgstr ""
+msgstr "사용자 정의"
 
 #: templates/base.html:27
 #, fuzzy
@@ -185,12 +185,12 @@ msgstr ""
 
 #: apps/search/views.py:41 apps/search/views.py:59
 msgid "Firefox Input"
-msgstr ""
+msgstr "Firefox 사용자 평가"
 
 #. L10n: This is the title to the Search ATOM feed.
 #: apps/search/views.py:58
 msgid "Firefox Input: '{query}'"
-msgstr ""
+msgstr "Firefox 사용자 평가: '{query}'"
 
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
@@ -259,12 +259,12 @@ msgstr "Firefox 이전 버전에서 제공되는 것이 제공되지 않은 사�
 #. short for 30 days
 #: apps/dashboard/templates/dashboard/when.html:13
 msgid "Last 30 days"
-msgstr ""
+msgstr "30일"
 
 #. short for 7 days
 #: apps/dashboard/templates/dashboard/when.html:10 apps/website_issues/templates/website_issues/website_issues.html:22
 msgid "Last 7 days"
-msgstr ""
+msgstr "7일"
 
 #. short for 1 day
 #: apps/dashboard/templates/dashboard/when.html:7
@@ -278,7 +278,7 @@ msgstr "최종 메시지: {count}개"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:23
 msgid "Latest Beta"
-msgstr ""
+msgstr "최신 베타버전"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:54
 #, fuzzy
@@ -316,7 +316,7 @@ msgstr ""
 #. Title text for a complete message count.
 #: apps/dashboard/templates/dashboard/opinion_count.html:3
 msgid "Messages"
-msgstr ""
+msgstr "메시지"
 
 #: apps/feedback/__init__.py:16
 msgid "Mobile"
@@ -324,15 +324,15 @@ msgstr "모바일"
 
 #: apps/dashboard/templates/dashboard/message_list.html:26
 msgid "More Options"
-msgstr ""
+msgstr "고급 옵션"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:79
 msgid "More sites..."
-msgstr ""
+msgstr "목록 더보기... "
 
 #: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
 msgid "Newer Messages &raquo;"
-msgstr ""
+msgstr "새 메시지 &raquo;"
 
 #: apps/feedback/templates/feedback/cluster.html:27 apps/feedback/templates/feedback/clusters.html:24
 msgid "No clusters of opinions found."
@@ -382,7 +382,7 @@ msgstr "Firefox 차기 버전에 대한 의견을 제공해 주셔서 감사합�
 
 #: apps/feedback/templates/feedback/opinion.html:3
 msgid "Opinion"
-msgstr ""
+msgstr "의견"
 
 #: apps/feedback/__init__.py:67
 msgid "Other"
@@ -402,7 +402,7 @@ msgstr "전체 보기"
 
 #: apps/dashboard/templates/dashboard/platforms.html:11
 msgid "Platform"
-msgstr ""
+msgstr "플랫폼"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:12
 msgid "Please enable JavaScript to view this page."
@@ -465,7 +465,7 @@ msgstr "검색 결과"
 
 #: apps/search/views.py:42
 msgid "Search Results in Firefox Beta Feedback."
-msgstr ""
+msgstr "Firefox 베타 의견 검색 결과"
 
 #: apps/search/templates/search/unavailable.html:5
 msgid "Search Unavailable"
@@ -490,7 +490,7 @@ msgstr "평가 의견:"
 #: apps/dashboard/templates/dashboard/when.html:25
 msgctxt "date_range_set"
 msgid "Set"
-msgstr ""
+msgstr "모음"
 
 #. Link on the dashboard to show more messages.
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:35
@@ -500,7 +500,7 @@ msgstr "더 보기"
 #. Link text for showing/hiding options
 #: apps/dashboard/templates/includes/filter_box_toggle.html:1
 msgid "Show/Hide Options"
-msgstr ""
+msgstr "보이기/숨기기 설정"
 
 #: apps/feedback/templates/feedback/cluster.html:17
 msgid "Showing the first {count}"
@@ -508,11 +508,11 @@ msgstr "최신 {count}개 보기"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:12 apps/website_issues/templates/website_issues/website_issues.html:10 templates/base.html:34 templates/includes/nav_buttons.html:4
 msgid "Sites"
-msgstr ""
+msgstr "사이트"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:14
 msgid "Sites with only one message"
-msgstr ""
+msgstr "한 메시지만 있는 사이트"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:15
 msgid "Sorry! Please tell us more!"
@@ -563,7 +563,7 @@ msgstr "다운로드 페이지에서 최신 <a href=\"%(url)s\">Firefox 베타</
 
 #: apps/dashboard/templates/includes/filter_box_toggle.html:1
 msgid "Toggle"
-msgstr ""
+msgstr "토글"
 
 #. Link to Google Translator
 #: apps/dashboard/templates/dashboard/message_list.html:31
@@ -597,7 +597,7 @@ msgstr ""
 
 #: apps/website_issues/templates/website_issues/website_issues.html:73
 msgid "Uncommon Sites"
-msgstr ""
+msgstr "문제 있는 사이트"
 
 #: apps/feedback/validators.py:29
 msgid "User agent string was not recognizable."
@@ -631,12 +631,12 @@ msgstr "어서오세요!"
 #. Title for a time-based search filter
 #: apps/dashboard/templates/dashboard/when.html:2 apps/website_issues/templates/website_issues/website_issues.html:19
 msgid "When"
-msgstr ""
+msgstr "일시"
 
 #. Refers to sites that were reported in feedback.
 #: apps/dashboard/templates/dashboard/sites.html:4
 msgid "While Visiting"
-msgstr ""
+msgstr "방문 기간"
 
 #: apps/feedback/__init__.py:47
 msgid "Windows 7"
@@ -681,7 +681,7 @@ msgstr "페이지: %(pagenum)s 전체: %(total)s"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:28
 msgid "reset my search"
-msgstr ""
+msgstr "검색 재설정"
 
 #. L10n: This indicates the second part of a date range.
 #: apps/search/forms.py:68
@@ -700,15 +700,15 @@ msgstr "방문 &rarr;"
 #. {0} is a time delta, e.g.: 2 weeks
 #: apps/dashboard/templates/dashboard/message_list.html:15
 msgid "{0} ago"
-msgstr ""
+msgstr "{0} 전"
 
 #: apps/feedback/templates/feedback/cluster.html:8
 msgid "{0} opinions for Firefox {1} {2}"
-msgstr ""
+msgstr "{0} 의견- Firefox {1} {2}"
 
 #: apps/feedback/templates/feedback/cluster.html:12
 msgid "{0} opinions similar to <q>{1}</q>"
-msgstr ""
+msgstr "{0} 의견- <q>{1}</q>와 유사함"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:37
 #, fuzzy
@@ -718,7 +718,7 @@ msgstr "최종 메시지: {count}개"
 #. "similar" refers to "similar messages".
 #: apps/website_issues/templates/website_issues/sites_list.html:54
 msgid "{count} similar"
-msgstr ""
+msgstr "{count} 유사함"
 
 #: apps/website_issues/templates/website_issues/single_site.html:17
 #, fuzzy
@@ -727,11 +727,11 @@ msgstr "최종 메시지: {count}개"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:43
 msgid "{percentage}% issues"
-msgstr ""
+msgstr "{percentage}% 문제점"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:41
 msgid "{percentage}% praise"
-msgstr ""
+msgstr "{percentage}% 장점"
 
 #~ msgid "happy"
 #~ msgstr "행복"
