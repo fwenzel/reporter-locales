@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 15:37+0200\n"
-"PO-Revision-Date: 2010-08-20 02:14+0200\n"
+"PO-Revision-Date: 2010-08-20 14:42+0200\n"
 "Last-Translator: Leszek <leszekz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -20,7 +20,7 @@ msgstr "&laquo; Następna strona"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:64 apps/search/templates/search/search.html:64
 msgid "&laquo; Older Messages"
-msgstr "&laquo; Starsze wiadomości"
+msgstr "&laquo; Starsze"
 
 #: apps/search/templates/search/mobile/search.html:65
 msgid "&laquo; previous"
@@ -126,7 +126,7 @@ msgstr "Kopiuj User Agent"
 #. Tooltip for custom date range button
 #: apps/dashboard/templates/dashboard/when.html:17
 msgid "Custom"
-msgstr "Dostosuj"
+msgstr "Własny zakres"
 
 #: templates/base.html:27
 msgid "Dashboard"
@@ -154,7 +154,9 @@ msgstr "Pobierz wersję beta"
 
 #: apps/search/templates/search/search.html:53 apps/search/templates/search/mobile/search.html:18
 msgid "Due to software constraints, we can only show the last 1000 messages for this search query."
-msgstr "Z powodu ograniczeń programu, dla tego wyszukiwania możemy wyświetlić tylko ostatnie 1000 wiadomości."
+msgstr ""
+"Z powodu ograniczeń programu, dla tego wyszukiwania możemy wyświetlić tylko "
+"ostatnie 1000 wiadomości."
 
 #: apps/feedback/forms.py:22
 msgid "Enter your feedback here."
@@ -170,7 +172,7 @@ msgstr ""
 
 #: templates/base.html:32
 msgid "Feedback"
-msgstr "Wyślij ocenę"
+msgstr "Wyślij opinię"
 
 #: apps/feedback/validators.py:56
 msgid "Feedback must not contain HTML."
@@ -219,7 +221,9 @@ msgstr "Jeśli posiadasz dodatkowe informacje, jak ponownie wywołać problem �
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
-msgstr "Jeśli chcesz zobaczyć, gdzie Twoja opinia została wysłana, popatrz na <a href=\"%(url)s\">tablicę Firefoksa</a>."
+msgstr ""
+"Jeśli chcesz zobaczyć, gdzie Twoja opinia została wysłana, popatrz na <a "
+"href=\"%(url)s\">zawartość witryny</a>."
 
 #: templates/404.html:14
 msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
@@ -276,7 +280,7 @@ msgstr "Ostatnie {count} wiadomości"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:23
 msgid "Latest Beta"
-msgstr "Ostatnia Beta"
+msgstr "Ostatnia wersja beta"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:54
 msgid "Latest Feedback"
@@ -329,7 +333,7 @@ msgstr "Więcej witryn…"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
 msgid "Newer Messages &raquo;"
-msgstr "Nowsze wiadomości &raquo;"
+msgstr "Nowsze &raquo;"
 
 #: apps/feedback/templates/feedback/cluster.html:27 apps/feedback/templates/feedback/clusters.html:24
 msgid "No clusters of opinions found."
@@ -519,11 +523,11 @@ msgstr "Sphinx zwrócił nieznany wyjątek: %s"
 #: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:65 apps/feedback/templates/feedback/mobile/feedback.html:3
 #: apps/feedback/templates/feedback/mobile/feedback.html:45
 msgid "Submit Feedback"
-msgstr "Wyślij ocenę"
+msgstr "Wyślij opinię"
 
 #: apps/feedback/validators.py:37
 msgid "Submitted User Agent is not the latest beta version."
-msgstr "Wysłany identyfikator (UA) nie oznacza wersji beta."
+msgstr "Przesłany identyfikator (UA) nie oznacza wersji beta."
 
 #: apps/feedback/templates/feedback/feedback.html:13
 msgid "Super! It's great to hear that you like our pre-released browser. Please explain what you specifically like!"
@@ -621,7 +625,7 @@ msgstr "Witamy!"
 #. Title for a time-based search filter
 #: apps/dashboard/templates/dashboard/when.html:2 apps/website_issues/templates/website_issues/website_issues.html:19
 msgid "When"
-msgstr "Kiedy"
+msgstr "Zakres"
 
 #. Refers to sites that were reported in feedback.
 #: apps/dashboard/templates/dashboard/sites.html:4
@@ -647,11 +651,15 @@ msgstr ""
 
 #: apps/feedback/validators.py:72
 msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
-msgstr "W treści Twojej oceny prawdopodobnie znajduje się adres URL. Prosimy go usunąć, a także inne dane osobiste i spróbować ponownie. Dziękujemy!"
+msgstr ""
+"W treści Twojej oceny prawdopodobnie znajduje się adres URL. Prosimy usunąć "
+"go, a także inne dane osobiste i spróbować ponownie. Dziękujemy!"
 
 #: apps/feedback/validators.py:63
 msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
-msgstr "W treści Twojej oceny prawdopodobnie znajduje się adres e-mail. Prosimy go usunąć, a także inne dane osobiste i spróbować ponownie. Dziękujemy!"
+msgstr ""
+"W treści Twojej oceny prawdopodobnie znajduje się adres e-mail. Prosimy "
+"usunąć go, a także inne dane osobiste i spróbować ponownie. Dziękujemy!"
 
 #: apps/search/templates/search/mobile/search.html:40 apps/search/templates/search/mobile/search.html:43
 msgid "all"
@@ -703,16 +711,16 @@ msgstr "{0} opinie podobne do <q>{1}</q>"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:37
 msgid "{count} messages"
-msgstr "{count} wiadomości"
+msgstr "wiadomości: {count}"
 
 #. "similar" refers to "similar messages".
 #: apps/website_issues/templates/website_issues/sites_list.html:54
 msgid "{count} similar"
-msgstr "{count} podobne"
+msgstr "podobne: {count}"
 
 #: apps/website_issues/templates/website_issues/single_site.html:17
 msgid "{count} similar messages"
-msgstr "{count} podobnych wiadomości"
+msgstr "podobnych wiadomości: {count}"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:43
 msgid "{percentage}% issues"
