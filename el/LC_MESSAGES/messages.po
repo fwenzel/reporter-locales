@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 15:37+0200\n"
-"PO-Revision-Date: 2010-08-20 05:55+0200\n"
+"PO-Revision-Date: 2010-08-23 02:28+0200\n"
 "Last-Translator: Γιώργος Φιωτάκης <fiotakis@otenet.gr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -17,12 +17,12 @@ msgstr ""
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:3
 msgid "&laquo; Next Page"
-msgstr ""
+msgstr "&laquo; Επόμενη σελίδα"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:64
 #: apps/search/templates/search/search.html:64
 msgid "&laquo; Older Messages"
-msgstr ""
+msgstr "&laquo; Παλιότερα μηνύματα"
 
 #: apps/search/templates/search/mobile/search.html:65
 msgid "&laquo; previous"
@@ -66,16 +66,16 @@ msgstr "1 εβδομάδα"
 
 #: apps/dashboard/templates/dashboard/when.html:7
 msgid "1d"
-msgstr ""
+msgstr "1ημ."
 
 #: apps/dashboard/templates/dashboard/when.html:13
 msgid "30d"
-msgstr ""
+msgstr "30ημ."
 
 #: apps/dashboard/templates/dashboard/when.html:10
 #: apps/website_issues/templates/website_issues/website_issues.html:22
 msgid "7d"
-msgstr ""
+msgstr "7ημ."
 
 #. Total refers to a message count.
 #: apps/dashboard/templates/dashboard/sentiments.html:32
@@ -84,7 +84,7 @@ msgstr "<a href=\"%(url)s\">Σύνολο</a>: %(count)s"
 
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
-msgstr ""
+msgstr "Ροή ΑΤΟΜ της αναζήτησης"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:25
 msgid "Add URL of last visited page?"
@@ -101,7 +101,7 @@ msgstr "όλα"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:32
 msgid "All feedback"
-msgstr ""
+msgstr "Όλα τα σχόλια"
 
 #: templates/500.html:7
 msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
@@ -109,11 +109,11 @@ msgstr "Παρουσίαστηκε ένα μη αναμενόμενο σφάλμ
 
 #: apps/website_issues/templates/website_issues/single_site.html:3
 msgid "Back to all sites &raquo;"
-msgstr ""
+msgstr "Πίσω σε όλους τους ιστότοπους &raquo;"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:23
 msgid "Beta"
-msgstr ""
+msgstr "Δοκιμαστική έκδοση"
 
 #: templates/includes/nav_buttons.html:2
 msgid "Clusters"
@@ -126,12 +126,12 @@ msgstr "Ομαδοποιήση απόψεων"
 
 #: apps/dashboard/templates/dashboard/message_list.html:29
 msgid "Copy User Agent"
-msgstr ""
+msgstr "Αντιγραφή User Agent"
 
 #. Tooltip for custom date range button
 #: apps/dashboard/templates/dashboard/when.html:17
 msgid "Custom"
-msgstr ""
+msgstr "Προσαρμοσμένη"
 
 #: templates/base.html:27
 msgid "Dashboard"
@@ -199,7 +199,7 @@ msgstr "Firefox Input"
 #. L10n: This is the title to the Search ATOM feed.
 #: apps/search/views.py:58
 msgid "Firefox Input: '{query}'"
-msgstr ""
+msgstr "Firefox Input: '{query}'"
 
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
@@ -270,13 +270,13 @@ msgstr "Βρήκατε κάποια σελίδα που δουλεύει καλ�
 #. short for 30 days
 #: apps/dashboard/templates/dashboard/when.html:13
 msgid "Last 30 days"
-msgstr ""
+msgstr "Τελευταίες 30 ημέρες"
 
 #. short for 7 days
 #: apps/dashboard/templates/dashboard/when.html:10
 #: apps/website_issues/templates/website_issues/website_issues.html:22
 msgid "Last 7 days"
-msgstr ""
+msgstr "Τελευταίες 7 ημέρες"
 
 #. short for 1 day
 #: apps/dashboard/templates/dashboard/when.html:7
@@ -289,11 +289,11 @@ msgstr "Τελευταία {count} μηνύματα"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:23
 msgid "Latest Beta"
-msgstr ""
+msgstr "Πιο πρόσφατη δοκιμαστική"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:54
 msgid "Latest Feedback"
-msgstr "Τελευταία σχόλια"
+msgstr "Τελευταια σχολια"
 
 #: templates/base.html:51
 #: templates/base_mobile.html:54
@@ -308,7 +308,7 @@ msgstr "Linux"
 #: apps/dashboard/templates/dashboard/demographics.html:10
 #: apps/dashboard/templates/dashboard/locales.html:14
 msgid "Locale"
-msgstr "Γλώσσα"
+msgstr "Γλωσσα"
 
 #: apps/search/forms.py:60
 msgid "Locale:"
@@ -329,7 +329,7 @@ msgstr "Mac OS X"
 #. Title text for a complete message count.
 #: apps/dashboard/templates/dashboard/opinion_count.html:3
 msgid "Messages"
-msgstr ""
+msgstr "Μηνυματα"
 
 #: apps/feedback/__init__.py:16
 msgid "Mobile"
@@ -337,16 +337,16 @@ msgstr "Κινητό"
 
 #: apps/dashboard/templates/dashboard/message_list.html:26
 msgid "More Options"
-msgstr ""
+msgstr "Περισσότερες επιλογές"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:79
 msgid "More sites..."
-msgstr ""
+msgstr "Περισσότεροι ιστότοποι"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:65
 #: apps/search/templates/search/search.html:74
 msgid "Newer Messages &raquo;"
-msgstr ""
+msgstr "Νεότερα μηνύματα &raquo;"
 
 #: apps/feedback/templates/feedback/cluster.html:27
 #: apps/feedback/templates/feedback/clusters.html:24
@@ -385,7 +385,7 @@ msgstr "ΛΣ: {os_name}"
 #. Refers to terms often mentioned in feedback.
 #: apps/dashboard/templates/dashboard/themes.html:3
 msgid "Often Mentioned"
-msgstr ""
+msgstr "Συχνα αναφερομενα"
 
 #: apps/feedback/templates/feedback/need_beta.html:8
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
@@ -397,7 +397,7 @@ msgstr "Θέλετε λοιπόν να μας προσφέρετε τα σχόλ
 
 #: apps/feedback/templates/feedback/opinion.html:3
 msgid "Opinion"
-msgstr ""
+msgstr "Άποψη"
 
 #: apps/feedback/__init__.py:67
 msgid "Other"
@@ -418,7 +418,7 @@ msgstr "Επισκόπηση"
 
 #: apps/dashboard/templates/dashboard/platforms.html:11
 msgid "Platform"
-msgstr ""
+msgstr "Πλατφορμα"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:12
 msgid "Please enable JavaScript to view this page."
@@ -450,7 +450,7 @@ msgstr "Μόνο έπαινοι"
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:11
 msgid "Previous Page &raquo;"
-msgstr ""
+msgstr "Προηγούμενη σελίδα &raquo;"
 
 #: templates/base.html:50
 #: templates/base_mobile.html:53
@@ -493,11 +493,11 @@ msgstr "Αναζήτηση"
 #: apps/search/templates/search/mobile/search.html:5
 #: apps/search/templates/search/mobile/search.html:6
 msgid "Search Results"
-msgstr "Αποτελέσματα αναζήτησης"
+msgstr "Αποτελεσματα αναζητησης"
 
 #: apps/search/views.py:42
 msgid "Search Results in Firefox Beta Feedback."
-msgstr ""
+msgstr "Αποτελέσματα αναζήτησης στα σχόλια της δοκιμαστικής έκδοσης του Firefox"
 
 #: apps/search/templates/search/unavailable.html:5
 msgid "Search Unavailable"
@@ -520,7 +520,7 @@ msgstr "Άποψη:"
 #: apps/dashboard/templates/dashboard/when.html:25
 msgctxt "date_range_set"
 msgid "Set"
-msgstr ""
+msgstr "Ορισμός"
 
 #. Link on the dashboard to show more messages.
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:35
@@ -530,7 +530,7 @@ msgstr "Προβολή περισσότερων"
 #. Link text for showing/hiding options
 #: apps/dashboard/templates/includes/filter_box_toggle.html:1
 msgid "Show/Hide Options"
-msgstr ""
+msgstr "Προβολή/απόκρυψη επιλογών"
 
 #: apps/feedback/templates/feedback/cluster.html:17
 msgid "Showing the first {count}"
@@ -541,11 +541,11 @@ msgstr "Προβολή των πρώτων {count}"
 #: templates/base.html:34
 #: templates/includes/nav_buttons.html:4
 msgid "Sites"
-msgstr ""
+msgstr "Ιστότοποι"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:14
 msgid "Sites with only one message"
-msgstr ""
+msgstr "Ιστοτοποι με ενα μονο μηνυμα"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:15
 msgid "Sorry! Please tell us more!"
@@ -592,7 +592,7 @@ msgstr "Σας ευχαριστούμε!"
 #. Formerly: Clusters
 #: templates/base.html:33
 msgid "Themes"
-msgstr ""
+msgstr "Θέματα"
 
 #: apps/feedback/templates/feedback/need_beta.html:14
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
@@ -600,7 +600,7 @@ msgstr "Για να συμμετέχετε, απλά πηγαίνετε στη �
 
 #: apps/dashboard/templates/includes/filter_box_toggle.html:1
 msgid "Toggle"
-msgstr ""
+msgstr "Εναλλαγή"
 
 #. Link to Google Translator
 #: apps/dashboard/templates/dashboard/message_list.html:31
@@ -620,7 +620,7 @@ msgstr "Τάσεις"
 #: apps/dashboard/templates/dashboard/overview.html:2
 #: apps/website_issues/templates/website_issues/website_issues.html:29
 msgid "Type of Feedback"
-msgstr "Τύπος σχολίων"
+msgstr "Τυπος σχολιων"
 
 #. Link to user agent info.
 #: apps/dashboard/templates/dashboard/messages.html:21
@@ -634,7 +634,7 @@ msgstr "URL"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:73
 msgid "Uncommon Sites"
-msgstr ""
+msgstr "Ιστοτοποι μιας αναφορας"
 
 #: apps/feedback/validators.py:29
 msgid "User agent string was not recognizable."
@@ -646,7 +646,7 @@ msgstr "Θα πρέπει να έχει οριστεί η κεφαλίδα απ�
 
 #: apps/dashboard/templates/dashboard/versions.html:3
 msgid "Version"
-msgstr "Έκδοση"
+msgstr "Εκδοση"
 
 #: apps/search/forms.py:56
 msgid "Version:"
@@ -670,12 +670,12 @@ msgstr "Καλώς ορίσατε!"
 #: apps/dashboard/templates/dashboard/when.html:2
 #: apps/website_issues/templates/website_issues/website_issues.html:19
 msgid "When"
-msgstr ""
+msgstr "Χρονικη περιοδος"
 
 #. Refers to sites that were reported in feedback.
 #: apps/dashboard/templates/dashboard/sites.html:4
 msgid "While Visiting"
-msgstr ""
+msgstr "Κατα την επισκεψη"
 
 #: apps/feedback/__init__.py:47
 msgid "Windows 7"
@@ -721,7 +721,7 @@ msgstr "σελίδα %(pagenum)s από %(total)s"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:28
 msgid "reset my search"
-msgstr ""
+msgstr "Επαναφορά αναζήτησης"
 
 #. L10n: This indicates the second part of a date range.
 #: apps/search/forms.py:68
@@ -741,15 +741,15 @@ msgstr "επισκεφθείτε &rarr;"
 #. {0} is a time delta, e.g.: 2 weeks
 #: apps/dashboard/templates/dashboard/message_list.html:15
 msgid "{0} ago"
-msgstr ""
+msgstr "Πριν {0}"
 
 #: apps/feedback/templates/feedback/cluster.html:8
 msgid "{0} opinions for Firefox {1} {2}"
-msgstr ""
+msgstr "{0} απόψεις για τον Firefox {1} {2}"
 
 #: apps/feedback/templates/feedback/cluster.html:12
 msgid "{0} opinions similar to <q>{1}</q>"
-msgstr ""
+msgstr "{0} απόψεις συναφείς με <q>{1}</q>"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:37
 msgid "{count} messages"
