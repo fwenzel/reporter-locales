@@ -13,6 +13,31 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Virtaal 0.6.1\n"
 
+#: apps/website_issues/templates/website_issues/sites_list.html:38
+#, fuzzy
+msgid "%(count)s message"
+msgid_plural "%(count)s messages"
+msgstr[0] "Останні {count} повідомлень"
+msgstr[1] "Останні {count} повідомлень"
+msgstr[2] "Останні {count} повідомлень"
+
+#. "similar" refers to "similar messages".
+#: apps/website_issues/templates/website_issues/sites_list.html:62
+#, fuzzy
+msgid "%(count)s similar"
+msgid_plural "%(count)s similar"
+msgstr[0] "Останні {count} повідомлень"
+msgstr[1] "Останні {count} повідомлень"
+msgstr[2] "Останні {count} повідомлень"
+
+#: apps/website_issues/templates/website_issues/single_site.html:18
+#, fuzzy
+msgid "%(count)s similar message"
+msgid_plural "%(count)s similar messages"
+msgstr[0] "Останні {count} повідомлень"
+msgstr[1] "Останні {count} повідомлень"
+msgstr[2] "Останні {count} повідомлень"
+
 #: apps/website_issues/templates/website_issues/paginate_sites.html:3
 msgid "&laquo; Next Page"
 msgstr ""
@@ -20,6 +45,11 @@ msgstr ""
 #: apps/dashboard/templates/dashboard/dashboard.html:64 apps/search/templates/search/search.html:64
 msgid "&laquo; Older Messages"
 msgstr ""
+
+#: apps/website_issues/templates/website_issues/theme.html:30
+#, fuzzy
+msgid "&laquo; Previous Page"
+msgstr "&laquo; попередня"
 
 #: apps/search/templates/search/mobile/search.html:65
 msgid "&laquo; previous"
@@ -105,6 +135,10 @@ msgstr "В програмі сталася неочікувана помилка
 
 #: apps/website_issues/templates/website_issues/single_site.html:3
 msgid "Back to all sites &raquo;"
+msgstr ""
+
+#: apps/website_issues/templates/website_issues/theme.html:19
+msgid "Back to {domain} &raquo;"
 msgstr ""
 
 #: apps/website_issues/templates/website_issues/website_issues.html:23
@@ -275,10 +309,6 @@ msgstr ""
 msgid "Last day"
 msgstr "1 день"
 
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:37
-msgid "Last {count} Messages"
-msgstr "Останні {count} повідомлень"
-
 #: apps/website_issues/templates/website_issues/website_issues.html:23
 msgid "Latest Beta"
 msgstr ""
@@ -329,13 +359,26 @@ msgstr "Мобільний"
 msgid "More Options"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/website_issues.html:79
+#: apps/website_issues/templates/website_issues/website_issues.html:78
 msgid "More sites..."
 msgstr ""
+
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:38
+#, fuzzy
+msgid "Most Recent Message"
+msgid_plural "Last %(count)s Messages"
+msgstr[0] "Останні {count} повідомлень"
+msgstr[1] "Останні {count} повідомлень"
+msgstr[2] "Останні {count} повідомлень"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
 msgid "Newer Messages &raquo;"
 msgstr ""
+
+#: apps/website_issues/templates/website_issues/theme.html:38
+#, fuzzy
+msgid "Next Page &raquo;"
+msgstr "наступна &raquo;"
 
 #: apps/feedback/templates/feedback/cluster.html:27 apps/feedback/templates/feedback/clusters.html:24
 msgid "No clusters of opinions found."
@@ -346,7 +389,7 @@ msgstr "Жодних кластерів присудів не знайдено."
 msgid "No results found!"
 msgstr "Результатів пошуку не знайдено."
 
-#: apps/dashboard/templates/dashboard/message_list.html:39 apps/search/templates/search/mobile/search.html:55
+#: apps/dashboard/templates/dashboard/message_list.html:40 apps/search/templates/search/mobile/search.html:55
 msgid "No search results found."
 msgstr "Результатів пошуку не знайдено."
 
@@ -509,7 +552,8 @@ msgstr ""
 msgid "Showing the first {count}"
 msgstr "Показую перші {count}"
 
-#: apps/website_issues/templates/website_issues/sites_list.html:12 apps/website_issues/templates/website_issues/website_issues.html:10 templates/base.html:34 templates/includes/nav_buttons.html:4
+#: apps/website_issues/templates/website_issues/sites_list.html:12 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/website_issues.html:10
+#: templates/base.html:34 templates/includes/nav_buttons.html:4
 msgid "Sites"
 msgstr ""
 
@@ -554,6 +598,10 @@ msgstr "Дякуємо що надіслали нам ваш відгук!"
 #: apps/search/templates/search/unavailable.html:28
 msgid "Thanks!"
 msgstr "Дякуємо!"
+
+#: apps/website_issues/templates/website_issues/theme.html:16
+msgid "Theme"
+msgstr ""
 
 #. Formerly: Clusters
 #: templates/base.html:33
@@ -715,25 +763,10 @@ msgstr ""
 msgid "{0} opinions similar to <q>{1}</q>"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/sites_list.html:37
-#, fuzzy
-msgid "{count} messages"
-msgstr "Останні {count} повідомлень"
-
-#. "similar" refers to "similar messages".
-#: apps/website_issues/templates/website_issues/sites_list.html:54
-msgid "{count} similar"
-msgstr ""
-
-#: apps/website_issues/templates/website_issues/single_site.html:17
-#, fuzzy
-msgid "{count} similar messages"
-msgstr "Останні {count} повідомлень"
-
-#: apps/website_issues/templates/website_issues/sites_list.html:43
+#: apps/website_issues/templates/website_issues/sites_list.html:49
 msgid "{percentage}% issues"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/sites_list.html:41
+#: apps/website_issues/templates/website_issues/sites_list.html:47
 msgid "{percentage}% praise"
 msgstr ""

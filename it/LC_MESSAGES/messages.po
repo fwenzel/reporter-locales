@@ -13,6 +13,28 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.0.3\n"
 
+#: apps/website_issues/templates/website_issues/sites_list.html:38
+#, fuzzy
+msgid "%(count)s message"
+msgid_plural "%(count)s messages"
+msgstr[0] "{count} messaggi"
+msgstr[1] "{count} messaggi"
+
+#. "similar" refers to "similar messages".
+#: apps/website_issues/templates/website_issues/sites_list.html:62
+#, fuzzy
+msgid "%(count)s similar"
+msgid_plural "%(count)s similar"
+msgstr[0] "{count} simili"
+msgstr[1] "{count} simili"
+
+#: apps/website_issues/templates/website_issues/single_site.html:18
+#, fuzzy
+msgid "%(count)s similar message"
+msgid_plural "%(count)s similar messages"
+msgstr[0] "{count} messaggi simili"
+msgstr[1] "{count} messaggi simili"
+
 #: apps/website_issues/templates/website_issues/paginate_sites.html:3
 msgid "&laquo; Next Page"
 msgstr "&laquo; Pagina successiva"
@@ -20,6 +42,11 @@ msgstr "&laquo; Pagina successiva"
 #: apps/dashboard/templates/dashboard/dashboard.html:64 apps/search/templates/search/search.html:64
 msgid "&laquo; Older Messages"
 msgstr "&laquo; Messaggi più vecchi"
+
+#: apps/website_issues/templates/website_issues/theme.html:30
+#, fuzzy
+msgid "&laquo; Previous Page"
+msgstr "&laquo; precedente"
 
 #: apps/search/templates/search/mobile/search.html:65
 msgid "&laquo; previous"
@@ -104,6 +131,11 @@ msgstr "Si è verificato un errore non gestito nell'applicazione. L'errore è st
 
 #: apps/website_issues/templates/website_issues/single_site.html:3
 msgid "Back to all sites &raquo;"
+msgstr "Ritorna a tutti i siti &raquo;"
+
+#: apps/website_issues/templates/website_issues/theme.html:19
+#, fuzzy
+msgid "Back to {domain} &raquo;"
 msgstr "Ritorna a tutti i siti &raquo;"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:23
@@ -269,10 +301,6 @@ msgstr "Ultimi 7 giorni"
 msgid "Last day"
 msgstr "Ultimo giorno"
 
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:37
-msgid "Last {count} Messages"
-msgstr "Ultimi {count} messaggi"
-
 #: apps/website_issues/templates/website_issues/website_issues.html:23
 msgid "Latest Beta"
 msgstr "Ultima beta"
@@ -322,13 +350,25 @@ msgstr "Mobile"
 msgid "More Options"
 msgstr "Altre opzioni"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:79
+#: apps/website_issues/templates/website_issues/website_issues.html:78
 msgid "More sites..."
 msgstr "Altri siti…"
+
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:38
+#, fuzzy
+msgid "Most Recent Message"
+msgid_plural "Last %(count)s Messages"
+msgstr[0] "Ultimi {count} messaggi"
+msgstr[1] "Ultimi {count} messaggi"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
 msgid "Newer Messages &raquo;"
 msgstr "Messaggi più recenti &raquo;"
+
+#: apps/website_issues/templates/website_issues/theme.html:38
+#, fuzzy
+msgid "Next Page &raquo;"
+msgstr "successivo &raquo;"
 
 #: apps/feedback/templates/feedback/cluster.html:27 apps/feedback/templates/feedback/clusters.html:24
 msgid "No clusters of opinions found."
@@ -338,7 +378,7 @@ msgstr "Nessun gruppo di opinioni rilevato."
 msgid "No results found!"
 msgstr "Nessun risultato trovato."
 
-#: apps/dashboard/templates/dashboard/message_list.html:39 apps/search/templates/search/mobile/search.html:55
+#: apps/dashboard/templates/dashboard/message_list.html:40 apps/search/templates/search/mobile/search.html:55
 msgid "No search results found."
 msgstr "Nessun risultato trovato."
 
@@ -500,7 +540,8 @@ msgstr "Visualizza/nascondi opzioni"
 msgid "Showing the first {count}"
 msgstr "Stai visualizzando i primi {count}"
 
-#: apps/website_issues/templates/website_issues/sites_list.html:12 apps/website_issues/templates/website_issues/website_issues.html:10 templates/base.html:34 templates/includes/nav_buttons.html:4
+#: apps/website_issues/templates/website_issues/sites_list.html:12 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/website_issues.html:10
+#: templates/base.html:34 templates/includes/nav_buttons.html:4
 msgid "Sites"
 msgstr "Siti"
 
@@ -545,6 +586,11 @@ msgstr "Ti ringraziamo per averci inviato le tue impressioni"
 #: apps/search/templates/search/unavailable.html:28
 msgid "Thanks!"
 msgstr "Grazie!"
+
+#: apps/website_issues/templates/website_issues/theme.html:16
+#, fuzzy
+msgid "Theme"
+msgstr "Temi"
 
 #. Formerly: Clusters
 #: templates/base.html:33
@@ -703,24 +749,11 @@ msgstr "{0} opinioni per Firefox {1} {2}"
 msgid "{0} opinions similar to <q>{1}</q>"
 msgstr "{0} opinioni simili a <q>{1}</q>"
 
-#: apps/website_issues/templates/website_issues/sites_list.html:37
-msgid "{count} messages"
-msgstr "{count} messaggi"
-
-#. "similar" refers to "similar messages".
-#: apps/website_issues/templates/website_issues/sites_list.html:54
-msgid "{count} similar"
-msgstr "{count} simili"
-
-#: apps/website_issues/templates/website_issues/single_site.html:17
-msgid "{count} similar messages"
-msgstr "{count} messaggi simili"
-
-#: apps/website_issues/templates/website_issues/sites_list.html:43
+#: apps/website_issues/templates/website_issues/sites_list.html:49
 msgid "{percentage}% issues"
 msgstr "{percentage}% problemi"
 
-#: apps/website_issues/templates/website_issues/sites_list.html:41
+#: apps/website_issues/templates/website_issues/sites_list.html:47
 msgid "{percentage}% praise"
 msgstr "{percentage}% complimenti"
 

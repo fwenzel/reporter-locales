@@ -9,6 +9,25 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: apps/website_issues/templates/website_issues/sites_list.html:38
+msgid "%(count)s message"
+msgid_plural "%(count)s messages"
+msgstr[0] "%(count)s message"
+msgstr[1] "%(count)s messages"
+
+#. "similar" refers to "similar messages".
+#: apps/website_issues/templates/website_issues/sites_list.html:62
+msgid "%(count)s similar"
+msgid_plural "%(count)s similar"
+msgstr[0] "%(count)s similar"
+msgstr[1] "%(count)s similar"
+
+#: apps/website_issues/templates/website_issues/single_site.html:18
+msgid "%(count)s similar message"
+msgid_plural "%(count)s similar messages"
+msgstr[0] "%(count)s similar message"
+msgstr[1] "%(count)s similar messages"
+
 #: apps/website_issues/templates/website_issues/paginate_sites.html:3
 msgid "&laquo; Next Page"
 msgstr "&laquo; Next Page"
@@ -16,6 +35,10 @@ msgstr "&laquo; Next Page"
 #: apps/dashboard/templates/dashboard/dashboard.html:64 apps/search/templates/search/search.html:64
 msgid "&laquo; Older Messages"
 msgstr "&laquo; Older Messages"
+
+#: apps/website_issues/templates/website_issues/theme.html:30
+msgid "&laquo; Previous Page"
+msgstr "&laquo; Previous Page"
 
 #: apps/search/templates/search/mobile/search.html:65
 msgid "&laquo; previous"
@@ -101,6 +124,10 @@ msgstr "An unhandled error occurred in the application. The error has been logge
 #: apps/website_issues/templates/website_issues/single_site.html:3
 msgid "Back to all sites &raquo;"
 msgstr "Back to all sites &raquo;"
+
+#: apps/website_issues/templates/website_issues/theme.html:19
+msgid "Back to {domain} &raquo;"
+msgstr "Back to {domain} &raquo;"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:23
 msgid "Beta"
@@ -265,10 +292,6 @@ msgstr "Last 7 days"
 msgid "Last day"
 msgstr "Last day"
 
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:37
-msgid "Last {count} Messages"
-msgstr "Last {count} Messages"
-
 #: apps/website_issues/templates/website_issues/website_issues.html:23
 msgid "Latest Beta"
 msgstr "Latest Beta"
@@ -318,13 +341,23 @@ msgstr "Mobile"
 msgid "More Options"
 msgstr "More Options"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:79
+#: apps/website_issues/templates/website_issues/website_issues.html:78
 msgid "More sites..."
 msgstr "More sites..."
+
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:38
+msgid "Most Recent Message"
+msgid_plural "Last %(count)s Messages"
+msgstr[0] "Most Recent Message"
+msgstr[1] "Last %(count)s Messages"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
 msgid "Newer Messages &raquo;"
 msgstr "Newer Messages &raquo;"
+
+#: apps/website_issues/templates/website_issues/theme.html:38
+msgid "Next Page &raquo;"
+msgstr "Next Page &raquo;"
 
 #: apps/feedback/templates/feedback/cluster.html:27 apps/feedback/templates/feedback/clusters.html:24
 msgid "No clusters of opinions found."
@@ -334,7 +367,7 @@ msgstr "No clusters of opinions found."
 msgid "No results found!"
 msgstr "No results found!"
 
-#: apps/dashboard/templates/dashboard/message_list.html:39 apps/search/templates/search/mobile/search.html:55
+#: apps/dashboard/templates/dashboard/message_list.html:40 apps/search/templates/search/mobile/search.html:55
 msgid "No search results found."
 msgstr "No search results found."
 
@@ -494,7 +527,8 @@ msgstr "Show/Hide Options"
 msgid "Showing the first {count}"
 msgstr "Showing the first {count}"
 
-#: apps/website_issues/templates/website_issues/sites_list.html:12 apps/website_issues/templates/website_issues/website_issues.html:10 templates/base.html:34 templates/includes/nav_buttons.html:4
+#: apps/website_issues/templates/website_issues/sites_list.html:12 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/website_issues.html:10
+#: templates/base.html:34 templates/includes/nav_buttons.html:4
 msgid "Sites"
 msgstr "Sites"
 
@@ -539,6 +573,10 @@ msgstr "Thanks for sending us your feedback!"
 #: apps/search/templates/search/unavailable.html:28
 msgid "Thanks!"
 msgstr "Thanks!"
+
+#: apps/website_issues/templates/website_issues/theme.html:16
+msgid "Theme"
+msgstr "Theme"
 
 #. Formerly: Clusters
 #: templates/base.html:33
@@ -695,23 +733,10 @@ msgstr "{0} opinions for Firefox {1} {2}"
 msgid "{0} opinions similar to <q>{1}</q>"
 msgstr "{0} opinions similar to <q>{1}</q>"
 
-#: apps/website_issues/templates/website_issues/sites_list.html:37
-msgid "{count} messages"
-msgstr "{count} messages"
-
-#. "similar" refers to "similar messages".
-#: apps/website_issues/templates/website_issues/sites_list.html:54
-msgid "{count} similar"
-msgstr "{count} similar"
-
-#: apps/website_issues/templates/website_issues/single_site.html:17
-msgid "{count} similar messages"
-msgstr "{count} similar messages"
-
-#: apps/website_issues/templates/website_issues/sites_list.html:43
+#: apps/website_issues/templates/website_issues/sites_list.html:49
 msgid "{percentage}% issues"
 msgstr "{percentage}% issues"
 
-#: apps/website_issues/templates/website_issues/sites_list.html:41
+#: apps/website_issues/templates/website_issues/sites_list.html:47
 msgid "{percentage}% praise"
 msgstr "{percentage}% praise"

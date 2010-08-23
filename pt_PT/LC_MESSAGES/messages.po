@@ -12,6 +12,28 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.6.0\n"
 
+#: apps/website_issues/templates/website_issues/sites_list.html:38
+#, fuzzy
+msgid "%(count)s message"
+msgid_plural "%(count)s messages"
+msgstr[0] "Últimas {count} mensagens"
+msgstr[1] "Últimas {count} mensagens"
+
+#. "similar" refers to "similar messages".
+#: apps/website_issues/templates/website_issues/sites_list.html:62
+#, fuzzy
+msgid "%(count)s similar"
+msgid_plural "%(count)s similar"
+msgstr[0] "Últimas {count} mensagens"
+msgstr[1] "Últimas {count} mensagens"
+
+#: apps/website_issues/templates/website_issues/single_site.html:18
+#, fuzzy
+msgid "%(count)s similar message"
+msgid_plural "%(count)s similar messages"
+msgstr[0] "Últimas {count} mensagens"
+msgstr[1] "Últimas {count} mensagens"
+
 #: apps/website_issues/templates/website_issues/paginate_sites.html:3
 msgid "&laquo; Next Page"
 msgstr ""
@@ -19,6 +41,11 @@ msgstr ""
 #: apps/dashboard/templates/dashboard/dashboard.html:64 apps/search/templates/search/search.html:64
 msgid "&laquo; Older Messages"
 msgstr ""
+
+#: apps/website_issues/templates/website_issues/theme.html:30
+#, fuzzy
+msgid "&laquo; Previous Page"
+msgstr "&laquo; anterior"
 
 #: apps/search/templates/search/mobile/search.html:65
 msgid "&laquo; previous"
@@ -104,6 +131,10 @@ msgstr ""
 
 #: apps/website_issues/templates/website_issues/single_site.html:3
 msgid "Back to all sites &raquo;"
+msgstr ""
+
+#: apps/website_issues/templates/website_issues/theme.html:19
+msgid "Back to {domain} &raquo;"
 msgstr ""
 
 #: apps/website_issues/templates/website_issues/website_issues.html:23
@@ -273,10 +304,6 @@ msgstr ""
 msgid "Last day"
 msgstr "1 dia"
 
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:37
-msgid "Last {count} Messages"
-msgstr "Últimas {count} mensagens"
-
 #: apps/website_issues/templates/website_issues/website_issues.html:23
 msgid "Latest Beta"
 msgstr ""
@@ -327,13 +354,25 @@ msgstr "Mobile"
 msgid "More Options"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/website_issues.html:79
+#: apps/website_issues/templates/website_issues/website_issues.html:78
 msgid "More sites..."
 msgstr ""
+
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:38
+#, fuzzy
+msgid "Most Recent Message"
+msgid_plural "Last %(count)s Messages"
+msgstr[0] "Últimas {count} mensagens"
+msgstr[1] "Últimas {count} mensagens"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
 msgid "Newer Messages &raquo;"
 msgstr ""
+
+#: apps/website_issues/templates/website_issues/theme.html:38
+#, fuzzy
+msgid "Next Page &raquo;"
+msgstr "seguinte &raquo;"
 
 #: apps/feedback/templates/feedback/cluster.html:27 apps/feedback/templates/feedback/clusters.html:24
 msgid "No clusters of opinions found."
@@ -344,7 +383,7 @@ msgstr ""
 msgid "No results found!"
 msgstr "Nenhuns resultados de pesquisa encontrados."
 
-#: apps/dashboard/templates/dashboard/message_list.html:39 apps/search/templates/search/mobile/search.html:55
+#: apps/dashboard/templates/dashboard/message_list.html:40 apps/search/templates/search/mobile/search.html:55
 msgid "No search results found."
 msgstr "Nenhuns resultados de pesquisa encontrados."
 
@@ -507,7 +546,8 @@ msgstr ""
 msgid "Showing the first {count}"
 msgstr "A mostrar o primeiro {count}"
 
-#: apps/website_issues/templates/website_issues/sites_list.html:12 apps/website_issues/templates/website_issues/website_issues.html:10 templates/base.html:34 templates/includes/nav_buttons.html:4
+#: apps/website_issues/templates/website_issues/sites_list.html:12 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/website_issues.html:10
+#: templates/base.html:34 templates/includes/nav_buttons.html:4
 msgid "Sites"
 msgstr ""
 
@@ -552,6 +592,10 @@ msgstr "Obrigado por nos enviar a sua opinião!"
 #: apps/search/templates/search/unavailable.html:28
 msgid "Thanks!"
 msgstr "Obrigado!"
+
+#: apps/website_issues/templates/website_issues/theme.html:16
+msgid "Theme"
+msgstr ""
 
 #. Formerly: Clusters
 #: templates/base.html:33
@@ -711,26 +755,11 @@ msgstr ""
 msgid "{0} opinions similar to <q>{1}</q>"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/sites_list.html:37
-#, fuzzy
-msgid "{count} messages"
-msgstr "Últimas {count} mensagens"
-
-#. "similar" refers to "similar messages".
-#: apps/website_issues/templates/website_issues/sites_list.html:54
-msgid "{count} similar"
-msgstr ""
-
-#: apps/website_issues/templates/website_issues/single_site.html:17
-#, fuzzy
-msgid "{count} similar messages"
-msgstr "Últimas {count} mensagens"
-
-#: apps/website_issues/templates/website_issues/sites_list.html:43
+#: apps/website_issues/templates/website_issues/sites_list.html:49
 msgid "{percentage}% issues"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/sites_list.html:41
+#: apps/website_issues/templates/website_issues/sites_list.html:47
 msgid "{percentage}% praise"
 msgstr ""
 

@@ -12,12 +12,35 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.6.0\n"
 
+#: apps/website_issues/templates/website_issues/sites_list.html:38
+msgid "%(count)s message"
+msgid_plural "%(count)s messages"
+msgstr[0] ""
+msgstr[1] ""
+
+#. "similar" refers to "similar messages".
+#: apps/website_issues/templates/website_issues/sites_list.html:62
+msgid "%(count)s similar"
+msgid_plural "%(count)s similar"
+msgstr[0] ""
+msgstr[1] ""
+
+#: apps/website_issues/templates/website_issues/single_site.html:18
+msgid "%(count)s similar message"
+msgid_plural "%(count)s similar messages"
+msgstr[0] ""
+msgstr[1] ""
+
 #: apps/website_issues/templates/website_issues/paginate_sites.html:3
 msgid "&laquo; Next Page"
 msgstr ""
 
 #: apps/dashboard/templates/dashboard/dashboard.html:64 apps/search/templates/search/search.html:64
 msgid "&laquo; Older Messages"
+msgstr ""
+
+#: apps/website_issues/templates/website_issues/theme.html:30
+msgid "&laquo; Previous Page"
 msgstr ""
 
 #: apps/search/templates/search/mobile/search.html:65
@@ -103,6 +126,10 @@ msgstr ""
 
 #: apps/website_issues/templates/website_issues/single_site.html:3
 msgid "Back to all sites &raquo;"
+msgstr ""
+
+#: apps/website_issues/templates/website_issues/theme.html:19
+msgid "Back to {domain} &raquo;"
 msgstr ""
 
 #: apps/website_issues/templates/website_issues/website_issues.html:23
@@ -266,10 +293,6 @@ msgstr ""
 msgid "Last day"
 msgstr ""
 
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:37
-msgid "Last {count} Messages"
-msgstr ""
-
 #: apps/website_issues/templates/website_issues/website_issues.html:23
 msgid "Latest Beta"
 msgstr ""
@@ -319,12 +342,22 @@ msgstr ""
 msgid "More Options"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/website_issues.html:79
+#: apps/website_issues/templates/website_issues/website_issues.html:78
 msgid "More sites..."
 msgstr ""
 
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:38
+msgid "Most Recent Message"
+msgid_plural "Last %(count)s Messages"
+msgstr[0] ""
+msgstr[1] ""
+
 #: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
 msgid "Newer Messages &raquo;"
+msgstr ""
+
+#: apps/website_issues/templates/website_issues/theme.html:38
+msgid "Next Page &raquo;"
 msgstr ""
 
 #: apps/feedback/templates/feedback/cluster.html:27 apps/feedback/templates/feedback/clusters.html:24
@@ -335,7 +368,7 @@ msgstr ""
 msgid "No results found!"
 msgstr ""
 
-#: apps/dashboard/templates/dashboard/message_list.html:39 apps/search/templates/search/mobile/search.html:55
+#: apps/dashboard/templates/dashboard/message_list.html:40 apps/search/templates/search/mobile/search.html:55
 msgid "No search results found."
 msgstr ""
 
@@ -495,7 +528,8 @@ msgstr ""
 msgid "Showing the first {count}"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/sites_list.html:12 apps/website_issues/templates/website_issues/website_issues.html:10 templates/base.html:34 templates/includes/nav_buttons.html:4
+#: apps/website_issues/templates/website_issues/sites_list.html:12 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/website_issues.html:10
+#: templates/base.html:34 templates/includes/nav_buttons.html:4
 msgid "Sites"
 msgstr ""
 
@@ -539,6 +573,10 @@ msgstr ""
 
 #: apps/search/templates/search/unavailable.html:28
 msgid "Thanks!"
+msgstr ""
+
+#: apps/website_issues/templates/website_issues/theme.html:16
+msgid "Theme"
 msgstr ""
 
 #. Formerly: Clusters
@@ -696,23 +734,10 @@ msgstr ""
 msgid "{0} opinions similar to <q>{1}</q>"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/sites_list.html:37
-msgid "{count} messages"
-msgstr ""
-
-#. "similar" refers to "similar messages".
-#: apps/website_issues/templates/website_issues/sites_list.html:54
-msgid "{count} similar"
-msgstr ""
-
-#: apps/website_issues/templates/website_issues/single_site.html:17
-msgid "{count} similar messages"
-msgstr ""
-
-#: apps/website_issues/templates/website_issues/sites_list.html:43
+#: apps/website_issues/templates/website_issues/sites_list.html:49
 msgid "{percentage}% issues"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/sites_list.html:41
+#: apps/website_issues/templates/website_issues/sites_list.html:47
 msgid "{percentage}% praise"
 msgstr ""
