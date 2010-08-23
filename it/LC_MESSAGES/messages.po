@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 15:36+0200\n"
-"PO-Revision-Date: 2010-08-20 09:07+0200\n"
+"PO-Revision-Date: 2010-08-23 14:05+0200\n"
 "Last-Translator: Francesco <francesco.lodolo@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -14,26 +14,23 @@ msgstr ""
 "X-Generator: Pootle 2.0.3\n"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:38
-#, fuzzy
 msgid "%(count)s message"
 msgid_plural "%(count)s messages"
-msgstr[0] "{count} messaggi"
-msgstr[1] "{count} messaggi"
+msgstr[0] "%(count)s messaggio"
+msgstr[1] "%(count)s messaggi"
 
 #. "similar" refers to "similar messages".
 #: apps/website_issues/templates/website_issues/sites_list.html:62
-#, fuzzy
 msgid "%(count)s similar"
 msgid_plural "%(count)s similar"
-msgstr[0] "{count} simili"
-msgstr[1] "{count} simili"
+msgstr[0] "%(count)s simile"
+msgstr[1] "%(count)s simili"
 
 #: apps/website_issues/templates/website_issues/single_site.html:18
-#, fuzzy
 msgid "%(count)s similar message"
 msgid_plural "%(count)s similar messages"
-msgstr[0] "{count} messaggi simili"
-msgstr[1] "{count} messaggi simili"
+msgstr[0] "%(count)s messaggio simile"
+msgstr[1] "%(count)s messaggi simili"
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:3
 msgid "&laquo; Next Page"
@@ -44,9 +41,8 @@ msgid "&laquo; Older Messages"
 msgstr "&laquo; Messaggi più vecchi"
 
 #: apps/website_issues/templates/website_issues/theme.html:30
-#, fuzzy
 msgid "&laquo; Previous Page"
-msgstr "&laquo; precedente"
+msgstr "&laquo; Pagina precedente"
 
 #: apps/search/templates/search/mobile/search.html:65
 msgid "&laquo; previous"
@@ -134,9 +130,8 @@ msgid "Back to all sites &raquo;"
 msgstr "Ritorna a tutti i siti &raquo;"
 
 #: apps/website_issues/templates/website_issues/theme.html:19
-#, fuzzy
 msgid "Back to {domain} &raquo;"
-msgstr "Ritorna a tutti i siti &raquo;"
+msgstr "Ritorna a {domain} &raquo;"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:23
 msgid "Beta"
@@ -355,20 +350,18 @@ msgid "More sites..."
 msgstr "Altri siti…"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:38
-#, fuzzy
 msgid "Most Recent Message"
 msgid_plural "Last %(count)s Messages"
-msgstr[0] "Ultimi {count} messaggi"
-msgstr[1] "Ultimi {count} messaggi"
+msgstr[0] "Ultimo messaggio"
+msgstr[1] "Ultimi %(count)s messaggi"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
 msgid "Newer Messages &raquo;"
 msgstr "Messaggi più recenti &raquo;"
 
 #: apps/website_issues/templates/website_issues/theme.html:38
-#, fuzzy
 msgid "Next Page &raquo;"
-msgstr "successivo &raquo;"
+msgstr "Pagina successiva &raquo;"
 
 #: apps/feedback/templates/feedback/cluster.html:27 apps/feedback/templates/feedback/clusters.html:24
 msgid "No clusters of opinions found."
@@ -588,9 +581,8 @@ msgid "Thanks!"
 msgstr "Grazie!"
 
 #: apps/website_issues/templates/website_issues/theme.html:16
-#, fuzzy
 msgid "Theme"
-msgstr "Temi"
+msgstr "Tema"
 
 #. Formerly: Clusters
 #: templates/base.html:33
