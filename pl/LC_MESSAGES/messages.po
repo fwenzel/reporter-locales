@@ -3,40 +3,38 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 15:37+0200\n"
-"PO-Revision-Date: 2010-08-21 12:08+0200\n"
+"PO-Revision-Date: 2010-08-23 15:08+0200\n"
 "Last-Translator: Leszek <leszekz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.0.3\n"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:38
-#, fuzzy
 msgid "%(count)s message"
 msgid_plural "%(count)s messages"
-msgstr[0] "opinie: {count}"
-msgstr[1] "opinie: {count}"
-msgstr[2] "opinie: {count}"
+msgstr[0] "%(count)s opinia"
+msgstr[1] "%(count)s opinie"
+msgstr[2] "%(count)s opinii"
 
 #. "similar" refers to "similar messages".
 #: apps/website_issues/templates/website_issues/sites_list.html:62
-#, fuzzy
 msgid "%(count)s similar"
 msgid_plural "%(count)s similar"
-msgstr[0] "podobne: {count}"
-msgstr[1] "podobne: {count}"
-msgstr[2] "podobne: {count}"
+msgstr[0] "%(count)s podobna"
+msgstr[1] "%(count)s podobne"
+msgstr[2] "%(count)s podobnych"
 
 #: apps/website_issues/templates/website_issues/single_site.html:18
-#, fuzzy
 msgid "%(count)s similar message"
 msgid_plural "%(count)s similar messages"
-msgstr[0] "podobnych opinii: {count}"
-msgstr[1] "podobnych opinii: {count}"
-msgstr[2] "podobnych opinii: {count}"
+msgstr[0] "%(count)s podobna opinia"
+msgstr[1] "%(count)s podobne opinie"
+msgstr[2] "%(count)s podobnych opinii"
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:3
 msgid "&laquo; Next Page"
@@ -47,9 +45,8 @@ msgid "&laquo; Older Messages"
 msgstr "&laquo; Starsze"
 
 #: apps/website_issues/templates/website_issues/theme.html:30
-#, fuzzy
 msgid "&laquo; Previous Page"
-msgstr "&laquo; poprzednia"
+msgstr "&laquo; Poprzednia strona"
 
 #: apps/search/templates/search/mobile/search.html:65
 msgid "&laquo; previous"
@@ -137,9 +134,8 @@ msgid "Back to all sites &raquo;"
 msgstr "Wróć do wszystkich witryn &raquo;"
 
 #: apps/website_issues/templates/website_issues/theme.html:19
-#, fuzzy
 msgid "Back to {domain} &raquo;"
-msgstr "Wróć do wszystkich witryn &raquo;"
+msgstr "Wróć do {domain} &raquo;"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:23
 msgid "Beta"
@@ -358,21 +354,19 @@ msgid "More sites..."
 msgstr "Więcej witryn…"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:38
-#, fuzzy
 msgid "Most Recent Message"
 msgid_plural "Last %(count)s Messages"
-msgstr[0] "Ostatnie {count} opinii"
-msgstr[1] "Ostatnie {count} opinii"
-msgstr[2] "Ostatnie {count} opinii"
+msgstr[0] "Najnowsza opinia"
+msgstr[1] "Ostatnie %(count)s opinie"
+msgstr[2] "Ostatnich %(count)s opinii"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
 msgid "Newer Messages &raquo;"
 msgstr "Nowsze &raquo;"
 
 #: apps/website_issues/templates/website_issues/theme.html:38
-#, fuzzy
 msgid "Next Page &raquo;"
-msgstr "następna &raquo;"
+msgstr "Następna &raquo;"
 
 #: apps/feedback/templates/feedback/cluster.html:27 apps/feedback/templates/feedback/clusters.html:24
 msgid "No clusters of opinions found."
@@ -590,9 +584,8 @@ msgid "Thanks!"
 msgstr "Dziękujemy!"
 
 #: apps/website_issues/templates/website_issues/theme.html:16
-#, fuzzy
 msgid "Theme"
-msgstr "Grupy opinii"
+msgstr "Grupa opinii"
 
 #. Formerly: Clusters
 #: templates/base.html:33
