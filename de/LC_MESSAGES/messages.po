@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-08-22 09:54+0200\n"
+"PO-Revision-Date: 2010-08-23 12:49+0200\n"
 "Last-Translator: wenzel <wenzel@mozilla.com>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -13,25 +13,22 @@ msgstr ""
 "X-Generator: Pootle 2.0.3\n"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:38
-#, fuzzy
 msgid "%(count)s message"
 msgid_plural "%(count)s messages"
-msgstr[0] "{count} Nachrichten"
+msgstr[0] "{count} Nachricht"
 msgstr[1] "{count} Nachrichten"
 
 #. "similar" refers to "similar messages".
 #: apps/website_issues/templates/website_issues/sites_list.html:62
-#, fuzzy
 msgid "%(count)s similar"
 msgid_plural "%(count)s similar"
 msgstr[0] "{count} ähnliche"
 msgstr[1] "{count} ähnliche"
 
 #: apps/website_issues/templates/website_issues/single_site.html:18
-#, fuzzy
 msgid "%(count)s similar message"
 msgid_plural "%(count)s similar messages"
-msgstr[0] "{count} ähnliche Nachrichten"
+msgstr[0] "{count} ähnliche Nachricht"
 msgstr[1] "{count} ähnliche Nachrichten"
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:3
@@ -43,7 +40,6 @@ msgid "&laquo; Older Messages"
 msgstr "&laquo; Ältere Nachrichten"
 
 #: apps/website_issues/templates/website_issues/theme.html:30
-#, fuzzy
 msgid "&laquo; Previous Page"
 msgstr "&laquo; zurück"
 
@@ -133,9 +129,8 @@ msgid "Back to all sites &raquo;"
 msgstr "Zurück zu allen Webseiten &raquo;"
 
 #: apps/website_issues/templates/website_issues/theme.html:19
-#, fuzzy
 msgid "Back to {domain} &raquo;"
-msgstr "Zurück zu allen Webseiten &raquo;"
+msgstr "Zurück zu {domain} &raquo;"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:23
 msgid "Beta"
@@ -354,10 +349,9 @@ msgid "More sites..."
 msgstr "Mehr Webseiten..."
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:38
-#, fuzzy
 msgid "Most Recent Message"
 msgid_plural "Last %(count)s Messages"
-msgstr[0] "Die letzten {count} Kommentare"
+msgstr[0] "Der neueste Kommentar"
 msgstr[1] "Die letzten {count} Kommentare"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
@@ -365,7 +359,6 @@ msgid "Newer Messages &raquo;"
 msgstr "Neuere Nachrichten &raquo;"
 
 #: apps/website_issues/templates/website_issues/theme.html:38
-#, fuzzy
 msgid "Next Page &raquo;"
 msgstr "weiter &raquo;"
 
@@ -585,9 +578,8 @@ msgid "Thanks!"
 msgstr "Vielen Dank!"
 
 #: apps/website_issues/templates/website_issues/theme.html:16
-#, fuzzy
 msgid "Theme"
-msgstr "Themen"
+msgstr "Thema"
 
 #. Formerly: Clusters
 #: templates/base.html:33
