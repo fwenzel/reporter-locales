@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-20 20:41+0200\n"
-"PO-Revision-Date: 2010-08-23 19:46+0200\n"
+"PO-Revision-Date: 2010-08-23 21:51+0200\n"
 "Last-Translator: Tomer <tomer@gmx.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -34,19 +34,19 @@ msgstr[1] "%(count)s הודעות דומות"
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:3
 msgid "&laquo; Next Page"
-msgstr "&laquo; דף הבא"
+msgstr "דף הבא &raquo;"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:64 apps/search/templates/search/search.html:64
 msgid "&laquo; Older Messages"
-msgstr "&laquo; הודעות ישנות יותר"
+msgstr "הודעות ישנות יותר &raquo;"
 
 #: apps/website_issues/templates/website_issues/theme.html:30
 msgid "&laquo; Previous Page"
-msgstr "&laquo; דף קודם"
+msgstr "דף קודם &raquo;"
 
 #: apps/search/templates/search/mobile/search.html:65
 msgid "&laquo; previous"
-msgstr "&laquo; קודם"
+msgstr "קודם &raquo;"
 
 #: apps/search/forms.py:46
 msgctxt "locale_choice"
@@ -130,11 +130,11 @@ msgstr "אירעה שגיאה לא ידועה ביישום. השגיאה נרש�
 
 #: apps/website_issues/templates/website_issues/single_site.html:3
 msgid "Back to all sites &raquo;"
-msgstr "חזרה לכל האתרים &raquo;"
+msgstr "&laquo; חזרה לכל האתרים"
 
 #: apps/website_issues/templates/website_issues/theme.html:19
 msgid "Back to {domain} &raquo;"
-msgstr "חזרה אל {domain}‏ &raquo;"
+msgstr "&laquo; חזרה אל {domain}‏"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:23
 msgid "Beta"
@@ -362,11 +362,11 @@ msgstr[1] "%(count)s הודעות אחרונות"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
 msgid "Newer Messages &raquo;"
-msgstr "הודעות חדשות יותר &raquo;"
+msgstr "&laquo; הודעות חדשות יותר"
 
 #: apps/website_issues/templates/website_issues/theme.html:38
 msgid "Next Page &raquo;"
-msgstr "דף הבא &raquo;"
+msgstr "&laquo; דף הבא"
 
 #: apps/feedback/templates/feedback/cluster.html:27 apps/feedback/templates/feedback/clusters.html:24
 #: apps/feedback/templates/feedback/cluster.html:25
@@ -468,7 +468,7 @@ msgstr "תשבוחות בלבד"
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:11
 msgid "Previous Page &raquo;"
-msgstr "דף קודם &raquo;"
+msgstr "&laquo; דף קודם"
 
 #: templates/base.html:50 templates/base_mobile.html:53 templates/base_old.html:59
 msgid "Privacy Policy"
@@ -717,7 +717,7 @@ msgstr "הכל"
 
 #: apps/search/templates/search/mobile/search.html:71
 msgid "next &raquo;"
-msgstr "הבא &raquo;"
+msgstr "&laquo; הבא"
 
 #: apps/search/templates/search/mobile/search.html:75
 msgid "page %(pagenum)s of %(total)s"
