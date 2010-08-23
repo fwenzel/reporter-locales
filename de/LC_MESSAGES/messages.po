@@ -15,21 +15,21 @@ msgstr ""
 #: apps/website_issues/templates/website_issues/sites_list.html:38
 msgid "%(count)s message"
 msgid_plural "%(count)s messages"
-msgstr[0] "{count} Nachricht"
-msgstr[1] "{count} Nachrichten"
+msgstr[0] "%(count)s Nachricht"
+msgstr[1] "%(count)s Nachrichten"
 
 #. "similar" refers to "similar messages".
 #: apps/website_issues/templates/website_issues/sites_list.html:62
 msgid "%(count)s similar"
 msgid_plural "%(count)s similar"
-msgstr[0] "{count} ähnliche"
-msgstr[1] "{count} ähnliche"
+msgstr[0] "%(count)s ähnliche"
+msgstr[1] "%(count)s ähnliche"
 
 #: apps/website_issues/templates/website_issues/single_site.html:18
 msgid "%(count)s similar message"
 msgid_plural "%(count)s similar messages"
-msgstr[0] "{count} ähnliche Nachricht"
-msgstr[1] "{count} ähnliche Nachrichten"
+msgstr[0] "%(count)s ähnliche Nachricht"
+msgstr[1] "%(count)s ähnliche Nachrichten"
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:3
 msgid "&laquo; Next Page"
@@ -352,7 +352,7 @@ msgstr "Mehr Webseiten..."
 msgid "Most Recent Message"
 msgid_plural "Last %(count)s Messages"
 msgstr[0] "Der neueste Kommentar"
-msgstr[1] "Die letzten {count} Kommentare"
+msgstr[1] "Die letzten %(count)s Kommentare"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
 msgid "Newer Messages &raquo;"
