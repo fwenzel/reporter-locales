@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-20 10:48+0200\n"
-"PO-Revision-Date: 2010-07-29 16:29+0200\n"
+"PO-Revision-Date: 2010-08-24 21:41+0200\n"
 "Last-Translator: Enrique <eu@keko.me>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gl\n"
@@ -36,11 +36,11 @@ msgstr[1] "Últimas {count} mensaxes"
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:3
 msgid "&laquo; Next Page"
-msgstr ""
+msgstr "&laquo; Seguinte páxina"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:64 apps/search/templates/search/search.html:64
 msgid "&laquo; Older Messages"
-msgstr ""
+msgstr "&laquo; Mensaxes antigas"
 
 #: apps/website_issues/templates/website_issues/theme.html:30
 #, fuzzy
@@ -88,15 +88,15 @@ msgstr "1 semana"
 
 #: apps/dashboard/templates/dashboard/when.html:7
 msgid "1d"
-msgstr ""
+msgstr "1 día"
 
 #: apps/dashboard/templates/dashboard/when.html:13
 msgid "30d"
-msgstr ""
+msgstr "30 días"
 
 #: apps/dashboard/templates/dashboard/when.html:10 apps/website_issues/templates/website_issues/website_issues.html:22
 msgid "7d"
-msgstr ""
+msgstr "7 días"
 
 #. Total refers to a message count.
 #: apps/dashboard/templates/dashboard/sentiments.html:32
@@ -105,7 +105,7 @@ msgstr "<a href=\"%(url)s\">Total</a>: %(count)s"
 
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
-msgstr ""
+msgstr "Canal ATOM para esta busca"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:25
 msgid "Add URL of last visited page?"
@@ -123,7 +123,7 @@ msgstr "todo"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:32
 msgid "All feedback"
-msgstr ""
+msgstr "Todas as opinións"
 
 #: templates/500.html:7
 msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
@@ -131,15 +131,15 @@ msgstr "Produciuse un erro non controlado no aplicativo. Rexistrouse o erro e no
 
 #: apps/website_issues/templates/website_issues/single_site.html:3
 msgid "Back to all sites &raquo;"
-msgstr ""
+msgstr "Volver a todos os sitios &raquo;"
 
 #: apps/website_issues/templates/website_issues/theme.html:19
 msgid "Back to {domain} &raquo;"
-msgstr ""
+msgstr "Volver a {domain} &raquo;"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:23
 msgid "Beta"
-msgstr ""
+msgstr "Beta"
 
 #: templates/includes/nav_buttons.html:2
 msgid "Clusters"
@@ -151,12 +151,12 @@ msgstr "Grupos de opinión"
 
 #: apps/dashboard/templates/dashboard/message_list.html:29
 msgid "Copy User Agent"
-msgstr ""
+msgstr "Copiar axente de usuario"
 
 #. Tooltip for custom date range button
 #: apps/dashboard/templates/dashboard/when.html:17
 msgid "Custom"
-msgstr ""
+msgstr "Personalizado"
 
 #: templates/base.html:27
 #, fuzzy
@@ -224,7 +224,7 @@ msgstr "Firefox"
 #. L10n: This is the title to the Search ATOM feed.
 #: apps/search/views.py:58
 msgid "Firefox Input: '{query}'"
-msgstr ""
+msgstr "Firefox Input: '{query}'"
 
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
@@ -293,12 +293,12 @@ msgstr "Coñece algún sitio web que funcione mellor nesta beta que en versións
 #. short for 30 days
 #: apps/dashboard/templates/dashboard/when.html:13
 msgid "Last 30 days"
-msgstr ""
+msgstr "Últimos 30 días"
 
 #. short for 7 days
 #: apps/dashboard/templates/dashboard/when.html:10 apps/website_issues/templates/website_issues/website_issues.html:22
 msgid "Last 7 days"
-msgstr ""
+msgstr "Últimos 7 días"
 
 #. short for 1 day
 #: apps/dashboard/templates/dashboard/when.html:7
@@ -308,7 +308,7 @@ msgstr "1 día"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:23
 msgid "Latest Beta"
-msgstr ""
+msgstr "Última beta"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:54
 #, fuzzy
@@ -346,7 +346,7 @@ msgstr "Mac OS X"
 #. Title text for a complete message count.
 #: apps/dashboard/templates/dashboard/opinion_count.html:3
 msgid "Messages"
-msgstr ""
+msgstr "Mensaxes"
 
 #: apps/feedback/__init__.py:16
 msgid "Mobile"
@@ -354,11 +354,11 @@ msgstr "Móbil"
 
 #: apps/dashboard/templates/dashboard/message_list.html:26
 msgid "More Options"
-msgstr ""
+msgstr "Máis opcións"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:78
 msgid "More sites..."
-msgstr ""
+msgstr "Máis sitios..."
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:38
 #, fuzzy
@@ -369,7 +369,7 @@ msgstr[1] "Últimas {count} mensaxes"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
 msgid "Newer Messages &raquo;"
-msgstr ""
+msgstr "Novas mensaxes &raquo;"
 
 #: apps/website_issues/templates/website_issues/theme.html:38
 #, fuzzy
@@ -412,7 +412,7 @@ msgstr "SO: {os_name}"
 #. Refers to terms often mentioned in feedback.
 #: apps/dashboard/templates/dashboard/themes.html:3
 msgid "Often Mentioned"
-msgstr ""
+msgstr "Mencionado a miúdo"
 
 #: apps/feedback/templates/feedback/need_beta.html:8
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
@@ -424,7 +424,7 @@ msgstr "Vaia! Entón quere ofrecernos a súa opinión. Precisará a última Beta
 
 #: apps/feedback/templates/feedback/opinion.html:3
 msgid "Opinion"
-msgstr ""
+msgstr "Opinión"
 
 #: apps/feedback/__init__.py:67
 msgid "Other"
@@ -444,7 +444,7 @@ msgstr "Información xeral"
 
 #: apps/dashboard/templates/dashboard/platforms.html:11
 msgid "Platform"
-msgstr ""
+msgstr "Plataforma"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:12
 msgid "Please enable JavaScript to view this page."
@@ -471,7 +471,7 @@ msgstr "Loanza"
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:11
 msgid "Previous Page &raquo;"
-msgstr ""
+msgstr "Páxina anterior &raquo;"
 
 #: templates/base.html:50 templates/base_mobile.html:53 templates/base_old.html:59
 msgid "Privacy Policy"
@@ -507,7 +507,7 @@ msgstr "Resultados da busca"
 
 #: apps/search/views.py:42
 msgid "Search Results in Firefox Beta Feedback."
-msgstr ""
+msgstr "Resultados da busca sobre as opinións do Firefox beta."
 
 #: apps/search/templates/search/unavailable.html:5
 msgid "Search Unavailable"
@@ -532,7 +532,7 @@ msgstr "Opinión:"
 #: apps/dashboard/templates/dashboard/when.html:25
 msgctxt "date_range_set"
 msgid "Set"
-msgstr ""
+msgstr "Pór"
 
 #. Link on the dashboard to show more messages.
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:35
@@ -542,7 +542,7 @@ msgstr "Mostrar máis"
 #. Link text for showing/hiding options
 #: apps/dashboard/templates/includes/filter_box_toggle.html:1
 msgid "Show/Hide Options"
-msgstr ""
+msgstr "Mostrar/Ocultar opcións"
 
 #: apps/feedback/templates/feedback/cluster.html:17
 msgid "Showing the first {count}"
@@ -551,11 +551,11 @@ msgstr "Mostrando as {count} primeiras"
 #: apps/website_issues/templates/website_issues/sites_list.html:12 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/website_issues.html:10
 #: templates/base.html:34 templates/includes/nav_buttons.html:4
 msgid "Sites"
-msgstr ""
+msgstr "Sitios"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:14
 msgid "Sites with only one message"
-msgstr ""
+msgstr "Sitios cunha soa mensaxe"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:15
 msgid "Sorry! Please tell us more!"
@@ -597,12 +597,12 @@ msgstr "Grazas!"
 
 #: apps/website_issues/templates/website_issues/theme.html:16
 msgid "Theme"
-msgstr ""
+msgstr "Tema"
 
 #. Formerly: Clusters
 #: templates/base.html:33
 msgid "Themes"
-msgstr ""
+msgstr "Temas"
 
 #: apps/feedback/templates/feedback/need_beta.html:14
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
@@ -610,7 +610,7 @@ msgstr "Para unirse, simplemente vaia a nosa páxina de descargas e obteña <a h
 
 #: apps/dashboard/templates/includes/filter_box_toggle.html:1
 msgid "Toggle"
-msgstr ""
+msgstr "Cambiar"
 
 #. Link to Google Translator
 #: apps/dashboard/templates/dashboard/message_list.html:31
@@ -644,7 +644,7 @@ msgstr "URL"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:73
 msgid "Uncommon Sites"
-msgstr ""
+msgstr "Sitios pouco frecuentes"
 
 #: apps/feedback/validators.py:29
 msgid "User agent string was not recognizable."
@@ -678,12 +678,12 @@ msgstr "Benvida!"
 #. Title for a time-based search filter
 #: apps/dashboard/templates/dashboard/when.html:2 apps/website_issues/templates/website_issues/website_issues.html:19
 msgid "When"
-msgstr ""
+msgstr "Cando"
 
 #. Refers to sites that were reported in feedback.
 #: apps/dashboard/templates/dashboard/sites.html:4
 msgid "While Visiting"
-msgstr ""
+msgstr "Mentres visitaba"
 
 #: apps/feedback/__init__.py:47
 msgid "Windows 7"
@@ -728,7 +728,7 @@ msgstr "páxina %(pagenum)s de %(total)s"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:28
 msgid "reset my search"
-msgstr ""
+msgstr "restabelecer a miña busca"
 
 #. L10n: This indicates the second part of a date range.
 #: apps/search/forms.py:68
@@ -747,23 +747,23 @@ msgstr "visitar &rarr;"
 #. {0} is a time delta, e.g.: 2 weeks
 #: apps/dashboard/templates/dashboard/message_list.html:15
 msgid "{0} ago"
-msgstr ""
+msgstr "fai {0}"
 
 #: apps/feedback/templates/feedback/cluster.html:8
 msgid "{0} opinions for Firefox {1} {2}"
-msgstr ""
+msgstr "{0} opinións para Firefox {1} {2}"
 
 #: apps/feedback/templates/feedback/cluster.html:12
 msgid "{0} opinions similar to <q>{1}</q>"
-msgstr ""
+msgstr "{0} opinións similares a <q>{1}</q>"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:49
 msgid "{percentage}% issues"
-msgstr ""
+msgstr "{percentage}% problemas"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:47
 msgid "{percentage}% praise"
-msgstr ""
+msgstr "{percentage}% louvanza"
 
 #~ msgid "happy"
 #~ msgstr "contento"
