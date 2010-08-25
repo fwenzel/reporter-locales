@@ -34,17 +34,19 @@ msgid_plural "%(count)s similar messages"
 msgstr[0] "Seneste {count} beskeder"
 msgstr[1] "Seneste {count} beskeder"
 
-#: apps/website_issues/templates/website_issues/paginate_sites.html:3
-msgid "&laquo; Next Page"
-msgstr ""
-
 #: apps/dashboard/templates/dashboard/dashboard.html:64 apps/search/templates/search/search.html:64
-msgid "&laquo; Older Messages"
-msgstr ""
+#, fuzzy
+msgid "&laquo; Newer Messages"
+msgstr "&laquo; forrige"
+
+#: apps/website_issues/templates/website_issues/paginate_sites.html:3
+#, fuzzy
+msgid "&laquo; Previous Page"
+msgstr "&laquo; forrige"
 
 #: apps/website_issues/templates/website_issues/theme.html:30
 #, fuzzy
-msgid "&laquo; Previous Page"
+msgid "&laquo; Previous Page;"
 msgstr "&laquo; forrige"
 
 #: apps/search/templates/search/mobile/search.html:65
@@ -270,7 +272,7 @@ msgstr "Input-kontrolpanel"
 msgid "Internal Server Error"
 msgstr "Intern serverfejl"
 
-#: apps/dashboard/templates/dashboard/message_list.html:8 apps/feedback/helpers.py:39
+#: apps/dashboard/templates/dashboard/message_list.html:8 apps/feedback/helpers.py:39 apps/website_issues/templates/website_issues/single_site.html:11
 #, fuzzy
 msgid "Issue"
 msgstr "Problemer"
@@ -367,11 +369,7 @@ msgid_plural "Last %(count)s Messages"
 msgstr[0] "Seneste {count} beskeder"
 msgstr[1] "Seneste {count} beskeder"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
-msgid "Newer Messages &raquo;"
-msgstr ""
-
-#: apps/website_issues/templates/website_issues/theme.html:38
+#: apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:38
 #, fuzzy
 msgid "Next Page &raquo;"
 msgstr "næste &raquo;"
@@ -422,6 +420,11 @@ msgstr "Ups! Så du vil gerne give os feedback på næste version af Firefox. Ta
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
 msgstr "Ups! Sp du vil gerne give os feedback. Så skal du bruge den seneste beta! Gå til vores beta-side og <a href=\"%(url)s\">hent den!</a>"
 
+#: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
+#, fuzzy
+msgid "Older Messages &raquo;"
+msgstr "næste &raquo;"
+
 #: apps/feedback/templates/feedback/opinion.html:3
 msgid "Opinion"
 msgstr ""
@@ -460,7 +463,7 @@ msgstr "Start forfra i <a href=\"%(dashboard_url)s\">kontrolpanelet</a>."
 
 #. Formerly called "happy"
 #: apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:11 apps/dashboard/templates/dashboard/sentiments.html:25 apps/feedback/helpers.py:36
-#: apps/search/forms.py:36 apps/website_issues/templates/website_issues/website_issues.html:33
+#: apps/search/forms.py:36 apps/website_issues/templates/website_issues/single_site.html:9 apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Praise"
 msgstr "Ros"
 
@@ -468,10 +471,6 @@ msgstr "Ros"
 #, fuzzy
 msgid "Praise only"
 msgstr "Ros"
-
-#: apps/website_issues/templates/website_issues/paginate_sites.html:11
-msgid "Previous Page &raquo;"
-msgstr ""
 
 #: templates/base.html:50 templates/base_mobile.html:53 templates/base_old.html:59
 msgid "Privacy Policy"
@@ -539,8 +538,7 @@ msgstr ""
 msgid "Show more"
 msgstr "Vis mere"
 
-#. Link text for showing/hiding options
-#: apps/dashboard/templates/includes/filter_box_toggle.html:1
+#: apps/dashboard/templates/includes/filter_box_toggle.html:4
 msgid "Show/Hide Options"
 msgstr ""
 
@@ -608,7 +606,8 @@ msgstr ""
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
 msgstr "For at gøre dette, gå til vores download-side og installer eller opdater til den <a href=\"%(url)s\">seneste Firefox beta!</a>"
 
-#: apps/dashboard/templates/includes/filter_box_toggle.html:1
+#. Link text for showing/hiding options
+#: apps/dashboard/templates/includes/filter_box_toggle.html:6
 msgid "Toggle"
 msgstr ""
 

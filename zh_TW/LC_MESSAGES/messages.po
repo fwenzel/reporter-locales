@@ -29,16 +29,18 @@ msgid "%(count)s similar message"
 msgid_plural "%(count)s similar messages"
 msgstr[0] "{count} 個類似的訊息"
 
-#: apps/website_issues/templates/website_issues/paginate_sites.html:3
-msgid "&laquo; Next Page"
-msgstr "&laquo; 下一頁"
-
 #: apps/dashboard/templates/dashboard/dashboard.html:64 apps/search/templates/search/search.html:64
-msgid "&laquo; Older Messages"
+#, fuzzy
+msgid "&laquo; Newer Messages"
 msgstr "&laquo; 更舊的訊息"
 
-#: apps/website_issues/templates/website_issues/theme.html:30
+#: apps/website_issues/templates/website_issues/paginate_sites.html:3
 msgid "&laquo; Previous Page"
+msgstr "&laquo; 上一頁"
+
+#: apps/website_issues/templates/website_issues/theme.html:30
+#, fuzzy
+msgid "&laquo; Previous Page;"
 msgstr "&laquo; 上一頁"
 
 #: apps/search/templates/search/mobile/search.html:65
@@ -258,7 +260,7 @@ msgstr "Input Dashboard"
 msgid "Internal Server Error"
 msgstr "伺服器內部錯誤"
 
-#: apps/dashboard/templates/dashboard/message_list.html:8 apps/feedback/helpers.py:39
+#: apps/dashboard/templates/dashboard/message_list.html:8 apps/feedback/helpers.py:39 apps/website_issues/templates/website_issues/single_site.html:11
 msgid "Issue"
 msgstr "有問題"
 
@@ -349,11 +351,7 @@ msgid "Most Recent Message"
 msgid_plural "Last %(count)s Messages"
 msgstr[0] "最近的 {count} 條訊息"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
-msgid "Newer Messages &raquo;"
-msgstr "更新的訊息 &raquo;"
-
-#: apps/website_issues/templates/website_issues/theme.html:38
+#: apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:38
 msgid "Next Page &raquo;"
 msgstr "下一頁 &raquo;"
 
@@ -402,6 +400,11 @@ msgstr "喔，您似乎想要回報對下一版 Firefox 的意見。感謝您的
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
 msgstr "喔，您似乎想要給我們一些回應，但您需要最新的 Beta 測試版！請直接到我們的 Beta 頁面並且 <a href=\"%(url)s\">下載安裝！</a>"
 
+#: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
+#, fuzzy
+msgid "Older Messages &raquo;"
+msgstr "更新的訊息 &raquo;"
+
 #: apps/feedback/templates/feedback/opinion.html:3
 msgid "Opinion"
 msgstr "意見"
@@ -440,17 +443,13 @@ msgstr "請從 <a href=\"%(url)s\">dashboard</a> 重新開始。"
 
 #. Formerly called "happy"
 #: apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:11 apps/dashboard/templates/dashboard/sentiments.html:25 apps/feedback/helpers.py:36
-#: apps/search/forms.py:36 apps/website_issues/templates/website_issues/website_issues.html:33
+#: apps/search/forms.py:36 apps/website_issues/templates/website_issues/single_site.html:9 apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Praise"
 msgstr "讚"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Praise only"
 msgstr "只有讚"
-
-#: apps/website_issues/templates/website_issues/paginate_sites.html:11
-msgid "Previous Page &raquo;"
-msgstr "上一頁 &raquo;"
 
 #: templates/base.html:50 templates/base_mobile.html:53 templates/base_old.html:59
 msgid "Privacy Policy"
@@ -516,8 +515,7 @@ msgstr "設定"
 msgid "Show more"
 msgstr "顯示更多"
 
-#. Link text for showing/hiding options
-#: apps/dashboard/templates/includes/filter_box_toggle.html:1
+#: apps/dashboard/templates/includes/filter_box_toggle.html:4
 msgid "Show/Hide Options"
 msgstr "顯示/隱藏選項"
 
@@ -585,7 +583,8 @@ msgstr "佈景主題"
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
 msgstr "要加入 Beta 計畫，只要到我們的網站下載<a href=\"%(url)s\">Firefox 最新的 Beta 測試版本</a>即可！"
 
-#: apps/dashboard/templates/includes/filter_box_toggle.html:1
+#. Link text for showing/hiding options
+#: apps/dashboard/templates/includes/filter_box_toggle.html:6
 msgid "Toggle"
 msgstr "開關"
 
@@ -738,6 +737,12 @@ msgstr "{percentage}% 覺得有問題"
 #: apps/website_issues/templates/website_issues/sites_list.html:47
 msgid "{percentage}% praise"
 msgstr "{percentage}% 覺得很讚"
+
+#~ msgid "&laquo; Next Page"
+#~ msgstr "&laquo; 下一頁"
+
+#~ msgid "Previous Page &raquo;"
+#~ msgstr "上一頁 &raquo;"
 
 #~ msgid "happy"
 #~ msgstr "高興"

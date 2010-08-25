@@ -35,17 +35,19 @@ msgid_plural "%(count)s similar messages"
 msgstr[0] "Les {count} derniers messages"
 msgstr[1] "Les {count} derniers messages"
 
-#: apps/website_issues/templates/website_issues/paginate_sites.html:3
-msgid "&laquo; Next Page"
-msgstr ""
-
 #: apps/dashboard/templates/dashboard/dashboard.html:64 apps/search/templates/search/search.html:64
-msgid "&laquo; Older Messages"
-msgstr ""
+#, fuzzy
+msgid "&laquo; Newer Messages"
+msgstr "&laquo; précédent"
+
+#: apps/website_issues/templates/website_issues/paginate_sites.html:3
+#, fuzzy
+msgid "&laquo; Previous Page"
+msgstr "&laquo; précédent"
 
 #: apps/website_issues/templates/website_issues/theme.html:30
 #, fuzzy
-msgid "&laquo; Previous Page"
+msgid "&laquo; Previous Page;"
 msgstr "&laquo; précédent"
 
 #: apps/search/templates/search/mobile/search.html:65
@@ -271,7 +273,7 @@ msgstr "Tableau de bord"
 msgid "Internal Server Error"
 msgstr "Erreur interne du serveur"
 
-#: apps/dashboard/templates/dashboard/message_list.html:8 apps/feedback/helpers.py:39
+#: apps/dashboard/templates/dashboard/message_list.html:8 apps/feedback/helpers.py:39 apps/website_issues/templates/website_issues/single_site.html:11
 #, fuzzy
 msgid "Issue"
 msgstr "Problèmes"
@@ -370,11 +372,7 @@ msgid_plural "Last %(count)s Messages"
 msgstr[0] "Les {count} derniers messages"
 msgstr[1] "Les {count} derniers messages"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
-msgid "Newer Messages &raquo;"
-msgstr ""
-
-#: apps/website_issues/templates/website_issues/theme.html:38
+#: apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:38
 #, fuzzy
 msgid "Next Page &raquo;"
 msgstr "suivant &raquo;"
@@ -427,6 +425,11 @@ msgstr ""
 "Oh ! Vous voulez nous proposer vos retours d'utilisation&nbsp;?. Vous devez alors utiliser la dernière version bêta&nbsp;! Rendez-vous sur notre page bêta et <a href=\"%(url)s\">téléchargez-"
 "la&nbsp;!</a>"
 
+#: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
+#, fuzzy
+msgid "Older Messages &raquo;"
+msgstr "suivant &raquo;"
+
 #: apps/feedback/templates/feedback/opinion.html:3
 msgid "Opinion"
 msgstr ""
@@ -465,7 +468,7 @@ msgstr "Veuillez recommencer à partir du <a href=\"%(dashboard_url)s\">tableau 
 
 #. Formerly called "happy"
 #: apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:11 apps/dashboard/templates/dashboard/sentiments.html:25 apps/feedback/helpers.py:36
-#: apps/search/forms.py:36 apps/website_issues/templates/website_issues/website_issues.html:33
+#: apps/search/forms.py:36 apps/website_issues/templates/website_issues/single_site.html:9 apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Praise"
 msgstr "Éloges"
 
@@ -473,10 +476,6 @@ msgstr "Éloges"
 #, fuzzy
 msgid "Praise only"
 msgstr "Éloges"
-
-#: apps/website_issues/templates/website_issues/paginate_sites.html:11
-msgid "Previous Page &raquo;"
-msgstr ""
 
 #: templates/base.html:50 templates/base_mobile.html:53 templates/base_old.html:59
 msgid "Privacy Policy"
@@ -544,8 +543,7 @@ msgstr ""
 msgid "Show more"
 msgstr "En afficher plus"
 
-#. Link text for showing/hiding options
-#: apps/dashboard/templates/includes/filter_box_toggle.html:1
+#: apps/dashboard/templates/includes/filter_box_toggle.html:4
 msgid "Show/Hide Options"
 msgstr ""
 
@@ -613,7 +611,8 @@ msgstr ""
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
 msgstr "Pour participer, rendez-vous simplement sur la page de téléchargement et téléchargez <a href=\"%(url)s\">la dernière version bêta de Firefox </a>!"
 
-#: apps/dashboard/templates/includes/filter_box_toggle.html:1
+#. Link text for showing/hiding options
+#: apps/dashboard/templates/includes/filter_box_toggle.html:6
 msgid "Toggle"
 msgstr ""
 

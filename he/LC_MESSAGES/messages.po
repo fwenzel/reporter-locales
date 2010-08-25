@@ -32,16 +32,18 @@ msgid_plural "%(count)s similar messages"
 msgstr[0] "הודעה דומה אחת"
 msgstr[1] "%(count)s הודעות דומות"
 
-#: apps/website_issues/templates/website_issues/paginate_sites.html:3
-msgid "&laquo; Next Page"
-msgstr "דף הבא &raquo;"
-
 #: apps/dashboard/templates/dashboard/dashboard.html:64 apps/search/templates/search/search.html:64
-msgid "&laquo; Older Messages"
+#, fuzzy
+msgid "&laquo; Newer Messages"
 msgstr "הודעות ישנות יותר &raquo;"
 
-#: apps/website_issues/templates/website_issues/theme.html:30
+#: apps/website_issues/templates/website_issues/paginate_sites.html:3
 msgid "&laquo; Previous Page"
+msgstr "דף קודם &raquo;"
+
+#: apps/website_issues/templates/website_issues/theme.html:30
+#, fuzzy
+msgid "&laquo; Previous Page;"
 msgstr "דף קודם &raquo;"
 
 #: apps/search/templates/search/mobile/search.html:65
@@ -69,19 +71,16 @@ msgid "-- all --"
 msgstr "-- הכל --"
 
 #: apps/dashboard/forms.py:10
-#: apps/dashboard/forms.py:9
 msgctxt "dashboard_period"
 msgid "1 day"
 msgstr "יום אחד"
 
 #: apps/dashboard/forms.py:12
-#: apps/dashboard/forms.py:11
 msgctxt "dashboard_period"
 msgid "1 month"
 msgstr "חודש אחד"
 
 #: apps/dashboard/forms.py:11
-#: apps/dashboard/forms.py:10
 msgctxt "dashboard_period"
 msgid "1 week"
 msgstr "שבוע אחד"
@@ -264,14 +263,13 @@ msgstr "Input Dashboard"
 msgid "Internal Server Error"
 msgstr "שגיאת שרת פנימית"
 
-#: apps/dashboard/templates/dashboard/message_list.html:8 apps/feedback/helpers.py:39
+#: apps/dashboard/templates/dashboard/message_list.html:8 apps/feedback/helpers.py:39 apps/website_issues/templates/website_issues/single_site.html:11
 msgid "Issue"
 msgstr "תלונה"
 
 #. Formerly called "sad"
 #: apps/dashboard/templates/dashboard/overview.html:23 apps/dashboard/templates/dashboard/sentiments.html:27 apps/search/forms.py:37
 #: apps/website_issues/templates/website_issues/website_issues.html:34
-#: apps/dashboard/templates/dashboard/sentiments.html:35
 msgid "Issues"
 msgstr "תלונות"
 
@@ -281,9 +279,7 @@ msgstr "תלונות בלבד"
 
 #: apps/feedback/templates/feedback/feedback.html:34
 msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
-msgstr ""
-"מכיר אתרים שעובדים טוב יותר בגרסת בטא זו מאשר בגרסאות קודמות של Firefox? אנא "
-"הכנס כאן את כתובתם, כדי שנוכל לעקוב אחריהם!"
+msgstr "מכיר אתרים שעובדים טוב יותר בגרסת בטא זו מאשר בגרסאות קודמות של Firefox? אנא הכנס כאן את כתובתם, כדי שנוכל לעקוב אחריהם!"
 
 #. short for 30 days
 #: apps/dashboard/templates/dashboard/when.html:13
@@ -360,17 +356,11 @@ msgid_plural "Last %(count)s Messages"
 msgstr[0] "הודעה אחרונה"
 msgstr[1] "%(count)s הודעות אחרונות"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
-msgid "Newer Messages &raquo;"
-msgstr "&laquo; הודעות חדשות יותר"
-
-#: apps/website_issues/templates/website_issues/theme.html:38
+#: apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:38
 msgid "Next Page &raquo;"
 msgstr "&laquo; דף הבא"
 
 #: apps/feedback/templates/feedback/cluster.html:27 apps/feedback/templates/feedback/clusters.html:24
-#: apps/feedback/templates/feedback/cluster.html:25
-#: apps/feedback/templates/feedback/clusters.html:20
 msgid "No clusters of opinions found."
 msgstr "לא נמצאו אשכולות דעות."
 
@@ -409,15 +399,16 @@ msgstr "מוזכרים לעיתים קרובות"
 
 #: apps/feedback/templates/feedback/need_beta.html:8
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
-msgstr ""
-"נראה שאתה מציע לנו משוב על הגרסה הבאה של Firefox. תודה לך, אבל תצטרך להיות "
-"חלק מתכנית הבטא שלנו לשם כך."
+msgstr "נראה שאתה מציע לנו משוב על הגרסה הבאה של Firefox. תודה לך, אבל תצטרך להיות חלק מתכנית הבטא שלנו לשם כך."
 
 #: apps/feedback/templates/feedback/mobile/need_beta.html:9
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
-msgstr ""
-"נראה שאתה מציע לנו משוב. כדי לעשות זאת עליך לבשתמש בגרסת הבטא האחרונה! המשך "
-"לדף הבטא שלנו ו<a href=\"%(url)s\">הורד את גרסת הבטא</a>."
+msgstr "נראה שאתה מציע לנו משוב. כדי לעשות זאת עליך לבשתמש בגרסת הבטא האחרונה! המשך לדף הבטא שלנו ו<a href=\"%(url)s\">הורד את גרסת הבטא</a>."
+
+#: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
+#, fuzzy
+msgid "Older Messages &raquo;"
+msgstr "&laquo; הודעות חדשות יותר"
 
 #: apps/feedback/templates/feedback/opinion.html:3
 msgid "Opinion"
@@ -457,18 +448,13 @@ msgstr "בבקשה התחל מחדש ב־<a href=\"%(dashboard_url)s\">dashboard
 
 #. Formerly called "happy"
 #: apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:11 apps/dashboard/templates/dashboard/sentiments.html:25 apps/feedback/helpers.py:36
-#: apps/search/forms.py:36 apps/website_issues/templates/website_issues/website_issues.html:33
-#: apps/dashboard/templates/dashboard/sentiments.html:33
+#: apps/search/forms.py:36 apps/website_issues/templates/website_issues/single_site.html:9 apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Praise"
 msgstr "תשבוחות"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Praise only"
 msgstr "תשבוחות בלבד"
-
-#: apps/website_issues/templates/website_issues/paginate_sites.html:11
-msgid "Previous Page &raquo;"
-msgstr "&laquo; דף קודם"
 
 #: templates/base.html:50 templates/base_mobile.html:53 templates/base_old.html:59
 msgid "Privacy Policy"
@@ -534,12 +520,10 @@ msgstr "הגדר"
 msgid "Show more"
 msgstr "הצג עוד"
 
-#. Link text for showing/hiding options
-#: apps/dashboard/templates/includes/filter_box_toggle.html:1
+#: apps/dashboard/templates/includes/filter_box_toggle.html:4
 msgid "Show/Hide Options"
 msgstr "הצג/הסתר אפשרויות"
 
-#. This is referring to the first few clusters.
 #: apps/feedback/templates/feedback/cluster.html:17
 msgid "Showing the first {count}"
 msgstr "מציג {count} ראשונים"
@@ -602,11 +586,10 @@ msgstr "מגמות"
 
 #: apps/feedback/templates/feedback/need_beta.html:14
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
-msgstr ""
-"כדי להצטרף, עליך לעבור לדף ההורדה ולהוריד את <a href=\"%(url)s\">גרסת הבטא של "
-"Firefox!</a>"
+msgstr "כדי להצטרף, עליך לעבור לדף ההורדה ולהוריד את <a href=\"%(url)s\">גרסת הבטא של Firefox!</a>"
 
-#: apps/dashboard/templates/includes/filter_box_toggle.html:1
+#. Link text for showing/hiding options
+#: apps/dashboard/templates/includes/filter_box_toggle.html:6
 msgid "Toggle"
 msgstr "מתג"
 
@@ -710,7 +693,6 @@ msgid "all"
 msgstr "הכל"
 
 #: apps/dashboard/forms.py:13
-#: apps/dashboard/forms.py:12
 msgctxt "dashboard_period"
 msgid "all"
 msgstr "הכל"
@@ -761,6 +743,12 @@ msgstr "{percentage}% תלונות"
 #: apps/website_issues/templates/website_issues/sites_list.html:47
 msgid "{percentage}% praise"
 msgstr "{percentage}% תשבוחות"
+
+#~ msgid "&laquo; Next Page"
+#~ msgstr "דף הבא &raquo;"
+
+#~ msgid "Previous Page &raquo;"
+#~ msgstr "&laquo; דף קודם"
 
 #~ msgid "happy"
 #~ msgstr "שמח"

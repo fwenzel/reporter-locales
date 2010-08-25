@@ -24,12 +24,12 @@ msgstr ""
 
 #: apps/dashboard/templates/dashboard/dashboard.html:64
 #: apps/search/templates/search/search.html:64
-msgid "&laquo; Older Messages"
+msgid "&laquo; Newer Messages"
 msgstr ""
 
 #: apps/dashboard/templates/dashboard/dashboard.html:65
 #: apps/search/templates/search/search.html:74
-msgid "Newer Messages &raquo;"
+msgid "Older Messages &raquo;"
 msgstr ""
 
 #: apps/dashboard/templates/dashboard/demographics.html:3
@@ -47,12 +47,14 @@ msgstr ""
 #: apps/dashboard/templates/dashboard/sentiments.html:25
 #: apps/feedback/helpers.py:36
 #: apps/search/forms.py:36
+#: apps/website_issues/templates/website_issues/single_site.html:9
 #: apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Praise"
 msgstr ""
 
 #: apps/dashboard/templates/dashboard/message_list.html:8
 #: apps/feedback/helpers.py:39
+#: apps/website_issues/templates/website_issues/single_site.html:11
 msgid "Issue"
 msgstr ""
 
@@ -224,12 +226,12 @@ msgid_plural "Last %(count)s Messages"
 msgstr[0] ""
 msgstr[1] ""
 
-#. Link text for showing/hiding options
-#: apps/dashboard/templates/includes/filter_box_toggle.html:1
+#: apps/dashboard/templates/includes/filter_box_toggle.html:4
 msgid "Show/Hide Options"
 msgstr ""
 
-#: apps/dashboard/templates/includes/filter_box_toggle.html:1
+#. Link text for showing/hiding options
+#: apps/dashboard/templates/includes/filter_box_toggle.html:6
 msgid "Toggle"
 msgstr ""
 
@@ -602,11 +604,12 @@ msgid "Search for domain"
 msgstr ""
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:3
-msgid "&laquo; Next Page"
+msgid "&laquo; Previous Page"
 msgstr ""
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:11
-msgid "Previous Page &raquo;"
+#: apps/website_issues/templates/website_issues/theme.html:38
+msgid "Next Page &raquo;"
 msgstr ""
 
 #: apps/website_issues/templates/website_issues/single_site.html:3
@@ -669,11 +672,7 @@ msgid "Back to {domain} &raquo;"
 msgstr ""
 
 #: apps/website_issues/templates/website_issues/theme.html:30
-msgid "&laquo; Previous Page"
-msgstr ""
-
-#: apps/website_issues/templates/website_issues/theme.html:38
-msgid "Next Page &raquo;"
+msgid "&laquo; Previous Page;"
 msgstr ""
 
 #: apps/website_issues/templates/website_issues/website_issues.html:23

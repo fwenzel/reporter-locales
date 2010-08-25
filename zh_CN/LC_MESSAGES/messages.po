@@ -32,17 +32,19 @@ msgid "%(count)s similar message"
 msgid_plural "%(count)s similar messages"
 msgstr[0] "最近 {count} 条消息"
 
-#: apps/website_issues/templates/website_issues/paginate_sites.html:3
-msgid "&laquo; Next Page"
-msgstr ""
-
 #: apps/dashboard/templates/dashboard/dashboard.html:64 apps/search/templates/search/search.html:64
-msgid "&laquo; Older Messages"
-msgstr ""
+#, fuzzy
+msgid "&laquo; Newer Messages"
+msgstr "&laquo; 上一页"
+
+#: apps/website_issues/templates/website_issues/paginate_sites.html:3
+#, fuzzy
+msgid "&laquo; Previous Page"
+msgstr "&laquo; 上一页"
 
 #: apps/website_issues/templates/website_issues/theme.html:30
 #, fuzzy
-msgid "&laquo; Previous Page"
+msgid "&laquo; Previous Page;"
 msgstr "&laquo; 上一页"
 
 #: apps/search/templates/search/mobile/search.html:65
@@ -266,7 +268,7 @@ msgstr "Input 仪表盘"
 msgid "Internal Server Error"
 msgstr "内部服务器错误"
 
-#: apps/dashboard/templates/dashboard/message_list.html:8 apps/feedback/helpers.py:39
+#: apps/dashboard/templates/dashboard/message_list.html:8 apps/feedback/helpers.py:39 apps/website_issues/templates/website_issues/single_site.html:11
 #, fuzzy
 msgid "Issue"
 msgstr "问题"
@@ -362,11 +364,7 @@ msgid "Most Recent Message"
 msgid_plural "Last %(count)s Messages"
 msgstr[0] "最近 {count} 条消息"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
-msgid "Newer Messages &raquo;"
-msgstr ""
-
-#: apps/website_issues/templates/website_issues/theme.html:38
+#: apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:38
 #, fuzzy
 msgid "Next Page &raquo;"
 msgstr "下一页 &raquo;"
@@ -417,6 +415,11 @@ msgstr "噢！您想要对我们下一个版本的 Firefox 提供反馈。谢谢
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
 msgstr "噢！您想要提供反馈。您需要使用最新的测试版！请访问我们的测试版页面并<a href=\"%(url)s\">下载！</a>"
 
+#: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
+#, fuzzy
+msgid "Older Messages &raquo;"
+msgstr "下一页 &raquo;"
+
 #: apps/feedback/templates/feedback/opinion.html:3
 msgid "Opinion"
 msgstr ""
@@ -455,7 +458,7 @@ msgstr "请访问 <a href=\"%(dashboard_url)s\">仪表盘</a>。"
 
 #. Formerly called "happy"
 #: apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:11 apps/dashboard/templates/dashboard/sentiments.html:25 apps/feedback/helpers.py:36
-#: apps/search/forms.py:36 apps/website_issues/templates/website_issues/website_issues.html:33
+#: apps/search/forms.py:36 apps/website_issues/templates/website_issues/single_site.html:9 apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Praise"
 msgstr "赞"
 
@@ -463,10 +466,6 @@ msgstr "赞"
 #, fuzzy
 msgid "Praise only"
 msgstr "赞"
-
-#: apps/website_issues/templates/website_issues/paginate_sites.html:11
-msgid "Previous Page &raquo;"
-msgstr ""
 
 #: templates/base.html:50 templates/base_mobile.html:53 templates/base_old.html:59
 msgid "Privacy Policy"
@@ -534,8 +533,7 @@ msgstr ""
 msgid "Show more"
 msgstr "显示更多"
 
-#. Link text for showing/hiding options
-#: apps/dashboard/templates/includes/filter_box_toggle.html:1
+#: apps/dashboard/templates/includes/filter_box_toggle.html:4
 msgid "Show/Hide Options"
 msgstr ""
 
@@ -603,7 +601,8 @@ msgstr ""
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
 msgstr "您只需访问我们的下载页面，并安装或更新至<a href=\"%(url)s\">最新测试版 Firefox！</a>"
 
-#: apps/dashboard/templates/includes/filter_box_toggle.html:1
+#. Link text for showing/hiding options
+#: apps/dashboard/templates/includes/filter_box_toggle.html:6
 msgid "Toggle"
 msgstr ""
 

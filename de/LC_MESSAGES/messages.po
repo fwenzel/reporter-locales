@@ -31,16 +31,18 @@ msgid_plural "%(count)s similar messages"
 msgstr[0] "%(count)s ähnliche Nachricht"
 msgstr[1] "%(count)s ähnliche Nachrichten"
 
-#: apps/website_issues/templates/website_issues/paginate_sites.html:3
-msgid "&laquo; Next Page"
-msgstr "&laquo; Nächste Seite"
-
 #: apps/dashboard/templates/dashboard/dashboard.html:64 apps/search/templates/search/search.html:64
-msgid "&laquo; Older Messages"
+#, fuzzy
+msgid "&laquo; Newer Messages"
 msgstr "&laquo; Ältere Nachrichten"
 
-#: apps/website_issues/templates/website_issues/theme.html:30
+#: apps/website_issues/templates/website_issues/paginate_sites.html:3
 msgid "&laquo; Previous Page"
+msgstr "&laquo; zurück"
+
+#: apps/website_issues/templates/website_issues/theme.html:30
+#, fuzzy
+msgid "&laquo; Previous Page;"
 msgstr "&laquo; zurück"
 
 #: apps/search/templates/search/mobile/search.html:65
@@ -262,7 +264,7 @@ msgstr "Input-Übersicht"
 msgid "Internal Server Error"
 msgstr "Server-Fehler"
 
-#: apps/dashboard/templates/dashboard/message_list.html:8 apps/feedback/helpers.py:39
+#: apps/dashboard/templates/dashboard/message_list.html:8 apps/feedback/helpers.py:39 apps/website_issues/templates/website_issues/single_site.html:11
 msgid "Issue"
 msgstr "Problem"
 
@@ -354,11 +356,7 @@ msgid_plural "Last %(count)s Messages"
 msgstr[0] "Der neueste Kommentar"
 msgstr[1] "Die letzten %(count)s Kommentare"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
-msgid "Newer Messages &raquo;"
-msgstr "Neuere Nachrichten &raquo;"
-
-#: apps/website_issues/templates/website_issues/theme.html:38
+#: apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:38
 msgid "Next Page &raquo;"
 msgstr "weiter &raquo;"
 
@@ -407,6 +405,11 @@ msgstr "Oh! Sie möchten uns gerne Feedback für die nächste Version von Firefo
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
 msgstr "Oh! Sie möchten uns gerne Feedback geben? Dann benötigen Sie die neueste Beta-Version! Gehen Sie einfach auf unsere Beta-Seite und <a href=\"%(url)s\">laden Sie die herunter!</a>"
 
+#: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
+#, fuzzy
+msgid "Older Messages &raquo;"
+msgstr "Neuere Nachrichten &raquo;"
+
 #: apps/feedback/templates/feedback/opinion.html:3
 msgid "Opinion"
 msgstr "Meinung"
@@ -445,17 +448,13 @@ msgstr "Bitte gehen Sie zurück zur <a href=\"%(dashboard_url)s\">Hauptseite</a>
 
 #. Formerly called "happy"
 #: apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:11 apps/dashboard/templates/dashboard/sentiments.html:25 apps/feedback/helpers.py:36
-#: apps/search/forms.py:36 apps/website_issues/templates/website_issues/website_issues.html:33
+#: apps/search/forms.py:36 apps/website_issues/templates/website_issues/single_site.html:9 apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Praise"
 msgstr "Lob"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Praise only"
 msgstr "Nur Lob"
-
-#: apps/website_issues/templates/website_issues/paginate_sites.html:11
-msgid "Previous Page &raquo;"
-msgstr "Zurück &raquo;"
 
 #: templates/base.html:50 templates/base_mobile.html:53 templates/base_old.html:59
 msgid "Privacy Policy"
@@ -521,8 +520,7 @@ msgstr "Festlegen"
 msgid "Show more"
 msgstr "Mehr Kommentare"
 
-#. Link text for showing/hiding options
-#: apps/dashboard/templates/includes/filter_box_toggle.html:1
+#: apps/dashboard/templates/includes/filter_box_toggle.html:4
 msgid "Show/Hide Options"
 msgstr "Optionen anzeigen/verstecken"
 
@@ -590,7 +588,8 @@ msgstr "Themen"
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
 msgstr "Um daran teilzunehmen, gehen Sie einfach zu unserer Download-Seite und laden Sie die <a href=\"%(url)s\">neueste Firefox Beta-Version</a> herunter!"
 
-#: apps/dashboard/templates/includes/filter_box_toggle.html:1
+#. Link text for showing/hiding options
+#: apps/dashboard/templates/includes/filter_box_toggle.html:6
 msgid "Toggle"
 msgstr "An/Aus"
 
@@ -745,6 +744,12 @@ msgstr "{percentage}% Probleme"
 #: apps/website_issues/templates/website_issues/sites_list.html:47
 msgid "{percentage}% praise"
 msgstr "{percentage}% Lob"
+
+#~ msgid "&laquo; Next Page"
+#~ msgstr "&laquo; Nächste Seite"
+
+#~ msgid "Previous Page &raquo;"
+#~ msgstr "Zurück &raquo;"
 
 #~ msgid "Some ways to help out more:"
 #~ msgstr "Ein paar Möglichkeiten, noch mehr auszuhelfen:"
