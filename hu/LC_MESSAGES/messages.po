@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-21 10:36+0200\n"
-"PO-Revision-Date: 2010-08-20 11:23+0200\n"
+"PO-Revision-Date: 2010-08-26 15:23+0200\n"
 "Last-Translator: Kalman <kkemenczy@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -14,7 +14,6 @@ msgstr ""
 "X-Generator: Pootle 2.0.3\n"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:38
-#, fuzzy
 msgid "%(count)s message"
 msgid_plural "%(count)s messages"
 msgstr[0] "{count} üzenet"
@@ -22,31 +21,26 @@ msgstr[1] "{count} üzenet"
 
 #. "similar" refers to "similar messages".
 #: apps/website_issues/templates/website_issues/sites_list.html:62
-#, fuzzy
 msgid "%(count)s similar"
 msgid_plural "%(count)s similar"
 msgstr[0] "{count} hasonló"
 msgstr[1] "{count} hasonló"
 
 #: apps/website_issues/templates/website_issues/single_site.html:18
-#, fuzzy
 msgid "%(count)s similar message"
 msgid_plural "%(count)s similar messages"
 msgstr[0] "{count} hasonló üzenet"
 msgstr[1] "{count} hasonló üzenet"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:64 apps/search/templates/search/search.html:64
-#, fuzzy
 msgid "&laquo; Newer Messages"
 msgstr "&laquo; korábbi üzenetek"
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:3
-#, fuzzy
 msgid "&laquo; Previous Page"
 msgstr "&laquo; előző"
 
 #: apps/website_issues/templates/website_issues/theme.html:30
-#, fuzzy
 msgid "&laquo; Previous Page;"
 msgstr "&laquo; előző"
 
@@ -136,9 +130,8 @@ msgid "Back to all sites &raquo;"
 msgstr "Vissza az összes oldalra &raquo;"
 
 #: apps/website_issues/templates/website_issues/theme.html:19
-#, fuzzy
 msgid "Back to {domain} &raquo;"
-msgstr "Vissza az összes oldalra &raquo;"
+msgstr "Vissza ide: {domain} &raquo;"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:23
 msgid "Beta"
@@ -357,14 +350,12 @@ msgid "More sites..."
 msgstr "További oldalak..."
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:38
-#, fuzzy
 msgid "Most Recent Message"
 msgid_plural "Last %(count)s Messages"
-msgstr[0] "utolsó {count} üzenet"
-msgstr[1] "utolsó {count} üzenet"
+msgstr[0] "Utolsó üzenet"
+msgstr[1] "utolsó %(count)s üzenet"
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:38
-#, fuzzy
 msgid "Next Page &raquo;"
 msgstr "következő &raquo;"
 
@@ -414,9 +405,8 @@ msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head 
 msgstr "Úgy látszik, visszajelzést szeretne küldeni nekünk. Ehhez használja a legfrissebb beta verziót, amit a <a href=\"%(url)s\">innen tud letölteni</a>."
 
 #: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
-#, fuzzy
 msgid "Older Messages &raquo;"
-msgstr "Újabb üzenetek &raquo;"
+msgstr "régebbi üzenetek &raquo;"
 
 #: apps/feedback/templates/feedback/opinion.html:3
 msgid "Opinion"
@@ -584,9 +574,8 @@ msgid "Thanks!"
 msgstr "Köszönjük!"
 
 #: apps/website_issues/templates/website_issues/theme.html:16
-#, fuzzy
 msgid "Theme"
-msgstr "Témák"
+msgstr "Téma"
 
 #. Formerly: Clusters
 #: templates/base.html:33
