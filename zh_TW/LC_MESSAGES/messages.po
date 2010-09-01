@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-21 07:58+0200\n"
-"PO-Revision-Date: 2010-08-25 17:13+0200\n"
+"PO-Revision-Date: 2010-09-01 18:53+0200\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -16,18 +16,18 @@ msgstr ""
 #: apps/website_issues/templates/website_issues/sites_list.html:38
 msgid "%(count)s message"
 msgid_plural "%(count)s messages"
-msgstr[0] "{count} 條訊息"
+msgstr[0] "%(count)s 條訊息"
 
 #. "similar" refers to "similar messages".
 #: apps/website_issues/templates/website_issues/sites_list.html:62
 msgid "%(count)s similar"
 msgid_plural "%(count)s similar"
-msgstr[0] "{count} 個類似的訊息"
+msgstr[0] "%(count)s 個類似的訊息"
 
 #: apps/website_issues/templates/website_issues/single_site.html:18
 msgid "%(count)s similar message"
 msgid_plural "%(count)s similar messages"
-msgstr[0] "{count} 個類似的訊息"
+msgstr[0] "%(count)s 個類似的訊息"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:64 apps/search/templates/search/search.html:64
 msgid "&laquo; Newer Messages"
@@ -191,7 +191,7 @@ msgstr "除另有<a href=\"%(legal_url)s\">註明</a>，本站內容皆採<br/> 
 
 #: templates/base.html:32
 msgid "Feedback"
-msgstr "傳送意見回饋"
+msgstr "意見回饋"
 
 #: apps/feedback/validators.py:56
 msgid "Feedback must not contain HTML."
@@ -347,7 +347,7 @@ msgstr "更多網站..."
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:38
 msgid "Most Recent Message"
 msgid_plural "Last %(count)s Messages"
-msgstr[0] "最近的 {count} 條訊息"
+msgstr[0] "最近的 %(count)s 條訊息"
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:38
 msgid "Next Page &raquo;"
@@ -569,12 +569,12 @@ msgstr "感謝！"
 
 #: apps/website_issues/templates/website_issues/theme.html:16
 msgid "Theme"
-msgstr "佈景主題"
+msgstr "常見問題"
 
 #. Formerly: Clusters
 #: templates/base.html:33
 msgid "Themes"
-msgstr "佈景主題"
+msgstr "常見問題"
 
 #: apps/feedback/templates/feedback/need_beta.html:14
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
@@ -653,7 +653,7 @@ msgstr "在"
 #. Refers to sites that were reported in feedback.
 #: apps/dashboard/templates/dashboard/sites.html:4
 msgid "While Visiting"
-msgstr "在瀏覽"
+msgstr "瀏覽網站"
 
 #: apps/feedback/__init__.py:47
 msgid "Windows 7"
