@@ -32,7 +32,12 @@ msgid_plural "%(count)s similar messages"
 msgstr[0] "{count} hasonló üzenet"
 msgstr[1] "{count} hasonló üzenet"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:64 apps/search/templates/search/search.html:64
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:35 apps/search/templates/search/mobile/search.html:38
+#, fuzzy
+msgid "&laquo; Newer Feedback"
+msgstr "&laquo; korábbi üzenetek"
+
+#: apps/dashboard/templates/dashboard/dashboard.html:64 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:65
 msgid "&laquo; Newer Messages"
 msgstr "&laquo; korábbi üzenetek"
 
@@ -40,12 +45,8 @@ msgstr "&laquo; korábbi üzenetek"
 msgid "&laquo; Previous Page"
 msgstr "&laquo; előző"
 
-#: apps/website_issues/templates/website_issues/theme.html:30
+#: apps/website_issues/templates/website_issues/theme.html:29
 msgid "&laquo; Previous Page;"
-msgstr "&laquo; előző"
-
-#: apps/search/templates/search/mobile/search.html:65
-msgid "&laquo; previous"
 msgstr "&laquo; előző"
 
 #: apps/search/forms.py:46
@@ -68,37 +69,24 @@ msgctxt "version_choice"
 msgid "-- all --"
 msgstr "-- összes --"
 
-#: apps/dashboard/forms.py:10
-msgctxt "dashboard_period"
-msgid "1 day"
-msgstr "1 nap"
-
-#: apps/dashboard/forms.py:12
-msgctxt "dashboard_period"
-msgid "1 month"
-msgstr "1 hónap"
-
-#: apps/dashboard/forms.py:11
-msgctxt "dashboard_period"
-msgid "1 week"
-msgstr "1 hét"
-
-#: apps/dashboard/templates/dashboard/when.html:7
+#: apps/dashboard/templates/dashboard/includes/when_selectors.html:3
 msgid "1d"
 msgstr "1 nap"
 
-#: apps/dashboard/templates/dashboard/when.html:13
+#: apps/dashboard/templates/dashboard/includes/when_selectors.html:9
 msgid "30d"
 msgstr "30 nap"
 
-#: apps/dashboard/templates/dashboard/when.html:10 apps/website_issues/templates/website_issues/website_issues.html:22
+#: apps/dashboard/templates/dashboard/includes/when_selectors.html:6 apps/website_issues/templates/website_issues/website_issues.html:21
 msgid "7d"
 msgstr "7 nap"
 
-#. Total refers to a message count.
-#: apps/dashboard/templates/dashboard/sentiments.html:32
-msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
-msgstr "<a href=\"%(url)s\">Összesen</a>: %(count)s"
+#: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
+#, fuzzy
+msgid "<strong>%(cnt)s</strong> message"
+msgid_plural "<strong>%(cnt)s</strong> messages"
+msgstr[0] "{count} üzenet"
+msgstr[1] "{count} üzenet"
 
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
@@ -112,14 +100,35 @@ msgstr "Hozzáadja az utoljára meglátogatott oldal URL-jét?"
 msgid "Advanced"
 msgstr "Speciális"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:32
+#: apps/themes/views.py:22 apps/themes/views.py:43
+#, fuzzy
+msgid "All"
+msgstr "összes"
+
+#: apps/website_issues/templates/website_issues/website_issues.html:31
 msgctxt "sites_search_all_feedback"
 msgid "All"
 msgstr "összes"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:32
+#: apps/website_issues/templates/website_issues/website_issues.html:42
+#, fuzzy
+msgctxt "sites_search_all_platforms"
+msgid "All"
+msgstr "összes"
+
+#: apps/themes/views.py:43
+#, fuzzy
+msgid "All Platforms"
+msgstr "Platform"
+
+#: apps/themes/views.py:22 apps/website_issues/templates/website_issues/website_issues.html:31
 msgid "All feedback"
 msgstr "összes visszajelzés"
+
+#: apps/website_issues/templates/website_issues/website_issues.html:42
+#, fuzzy
+msgid "All platforms"
+msgstr "Platform"
 
 #: templates/500.html:7
 msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
@@ -129,11 +138,11 @@ msgstr "Nem kezelt hiba történt az alkalmazásban. A hiba naplózása és az a
 msgid "Back to all sites &raquo;"
 msgstr "Vissza az összes oldalra &raquo;"
 
-#: apps/website_issues/templates/website_issues/theme.html:19
+#: apps/website_issues/templates/website_issues/theme.html:18
 msgid "Back to {domain} &raquo;"
 msgstr "Vissza ide: {domain} &raquo;"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:23
+#: apps/website_issues/templates/website_issues/website_issues.html:22
 msgid "Beta"
 msgstr "Beta"
 
@@ -141,20 +150,21 @@ msgstr "Beta"
 msgid "Clusters"
 msgstr "Csoportosítások"
 
-#: apps/feedback/templates/feedback/cluster.html:3 apps/feedback/templates/feedback/clusters.html:3
-msgid "Clusters of Opinions"
-msgstr "Véleménycsoportok"
+#: apps/themes/templates/themes/index.html:25
+#, fuzzy
+msgid "Common Themes"
+msgstr "Témák"
 
-#: apps/dashboard/templates/dashboard/message_list.html:29
+#: apps/dashboard/templates/dashboard/message_list.html:31 apps/themes/templates/themes/theme_list.html:26
 msgid "Copy User Agent"
 msgstr "User Agent másolása"
 
 #. Tooltip for custom date range button
-#: apps/dashboard/templates/dashboard/when.html:17
+#: apps/dashboard/templates/dashboard/when.html:9
 msgid "Custom"
 msgstr "Egyéni"
 
-#: templates/base.html:27
+#: templates/base.html:27 templates/base_mobile.html:17
 msgid "Dashboard"
 msgstr "Firefox-visszajelzések"
 
@@ -162,23 +172,11 @@ msgstr "Firefox-visszajelzések"
 msgid "Date range:"
 msgstr "Időszak:"
 
-#: apps/search/templates/search/mobile/search.html:35
-msgid "Dates: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
-msgstr "Időszak: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
-
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:27 apps/search/templates/search/mobile/search.html:100
-msgid "Demographics"
-msgstr "Eloszlás"
-
-#: apps/search/templates/search/mobile/search.html:31
-msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
-msgstr "Leírás: <span class=\"opt\">\"%(query)s\"</span>;"
-
 #: apps/feedback/templates/feedback/need_beta.html:3 apps/feedback/templates/feedback/mobile/need_beta.html:3
 msgid "Download Beta"
 msgstr "Beta letöltése"
 
-#: apps/search/templates/search/search.html:53 apps/search/templates/search/mobile/search.html:18
+#: apps/search/templates/search/search.html:54
 msgid "Due to software constraints, we can only show the last 1000 messages for this search query."
 msgstr "A szoftver korlátai miatt, ehhez a kereséséhez csak az utolsó 1000 üzenet jelenik meg,"
 
@@ -186,7 +184,7 @@ msgstr "A szoftver korlátai miatt, ehhez a kereséséhez csak az utolsó 1000 �
 msgid "Enter your feedback here."
 msgstr "Ez a visszajelzés helye."
 
-#: templates/base.html:55 templates/base_mobile.html:58 templates/base_old.html:64
+#: templates/base_mobile_old.html:58 templates/base_old.html:64 templates/includes/footer.html:12
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
 "any later version."
@@ -194,7 +192,12 @@ msgstr ""
 "Ha másképp nem kerül <a href=\"%(legal_url)s\">jelzésre</a>, akkor az oldal <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> vagy ennek újabb verziója "
 "alatt jelenik meg.."
 
-#: templates/base.html:32
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:6 apps/search/templates/search/mobile/search.html:6
+#, fuzzy
+msgid "Feed"
+msgstr "Visszajelzés"
+
+#: templates/base.html:31
 msgid "Feedback"
 msgstr "Visszajelzés"
 
@@ -210,14 +213,19 @@ msgstr "A legfrissebb Mozilla-hírek:"
 msgid "Firefox"
 msgstr "Firefox"
 
-#: apps/search/views.py:41 apps/search/views.py:59
+#: apps/search/views.py:40 apps/search/views.py:58
 msgid "Firefox Input"
 msgstr "Firefox Input"
 
 #. L10n: This is the title to the Search ATOM feed.
-#: apps/search/views.py:58
+#: apps/search/views.py:57
 msgid "Firefox Input: '{query}'"
 msgstr "Firefox Input: '{query}'"
+
+#. refers to time-based search filters (e.g., "for last: 1d")
+#: apps/dashboard/templates/dashboard/mobile/when.html:3
+msgid "For last:"
+msgstr ""
 
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
@@ -255,7 +263,7 @@ msgstr "Ha egy hibás hivatkozás miatt került ide, akkor <a href=\"%(bug_url)s
 msgid "Include the following error message in your bug report:"
 msgstr "A hibabejelentéshez csatolja ezt a hibaüzenetet."
 
-#: templates/base_mobile.html:27 templates/base_old.html:31
+#: templates/base_mobile_old.html:27 templates/base_old.html:31
 msgid "Input Dashboard"
 msgstr "Firefox-visszajelzések"
 
@@ -263,17 +271,17 @@ msgstr "Firefox-visszajelzések"
 msgid "Internal Server Error"
 msgstr "Belső kiszolgálóhiba"
 
-#: apps/dashboard/templates/dashboard/message_list.html:8 apps/feedback/helpers.py:39 apps/website_issues/templates/website_issues/single_site.html:11
+#: apps/dashboard/templates/dashboard/message_list.html:8 apps/feedback/helpers.py:39 apps/themes/templates/themes/theme_list.html:9 apps/website_issues/templates/website_issues/single_site.html:11
 msgid "Issue"
 msgstr "Probléma"
 
 #. Formerly called "sad"
-#: apps/dashboard/templates/dashboard/overview.html:23 apps/dashboard/templates/dashboard/sentiments.html:27 apps/search/forms.py:37
-#: apps/website_issues/templates/website_issues/website_issues.html:34
+#: apps/dashboard/templates/dashboard/overview.html:23 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/themes/views.py:32
+#: apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Issues"
 msgstr "Problémák"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:34
+#: apps/themes/views.py:32 apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Issues only"
 msgstr "csak a problémák"
 
@@ -282,21 +290,21 @@ msgid "Know of a website that works better in this beta than it did in earlier v
 msgstr "Ismer olyan weboldalt, amely jobban működik ezzel a beta verzióval, mint a korábbiakkal? Ha igen, adja meg az URL-t, hogy nyomon követhessük."
 
 #. short for 30 days
-#: apps/dashboard/templates/dashboard/when.html:13
+#: apps/dashboard/templates/dashboard/includes/when_selectors.html:9
 msgid "Last 30 days"
 msgstr "Utolsó 30 nap"
 
 #. short for 7 days
-#: apps/dashboard/templates/dashboard/when.html:10 apps/website_issues/templates/website_issues/website_issues.html:22
+#: apps/dashboard/templates/dashboard/includes/when_selectors.html:6 apps/website_issues/templates/website_issues/website_issues.html:21
 msgid "Last 7 days"
 msgstr "Utolsó 7 nap"
 
 #. short for 1 day
-#: apps/dashboard/templates/dashboard/when.html:7
+#: apps/dashboard/templates/dashboard/includes/when_selectors.html:3
 msgid "Last day"
 msgstr "Tegnap"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:23
+#: apps/website_issues/templates/website_issues/website_issues.html:22
 msgid "Latest Beta"
 msgstr "Legfrissebb beta"
 
@@ -304,7 +312,7 @@ msgstr "Legfrissebb beta"
 msgid "Latest Feedback"
 msgstr "Legfrissebbek"
 
-#: templates/base.html:51 templates/base_mobile.html:54 templates/base_old.html:60
+#: templates/base_mobile_old.html:54 templates/base_old.html:60 templates/includes/footer.html:8
 msgid "Legal Notices"
 msgstr "Jogi közlemények"
 
@@ -312,21 +320,13 @@ msgstr "Jogi közlemények"
 msgid "Linux"
 msgstr "Linux"
 
-#: apps/dashboard/templates/dashboard/demographics.html:10 apps/dashboard/templates/dashboard/locales.html:14
+#: apps/dashboard/templates/dashboard/locales.html:14 apps/dashboard/templates/dashboard/mobile/locales.html:9
 msgid "Locale"
 msgstr "nyelv"
 
 #: apps/search/forms.py:60
 msgid "Locale:"
 msgstr "nyelv:"
-
-#: apps/search/templates/search/mobile/search.html:40
-msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
-msgstr "nyelv: <span class=\"opt\">%(locale)s</span>;"
-
-#: apps/dashboard/templates/dashboard/messages.html:39
-msgid "Locale: {locale}"
-msgstr "nyelv: {locale}"
 
 #: apps/feedback/__init__.py:57
 msgid "Mac OS X"
@@ -341,33 +341,23 @@ msgstr "Üzenetek"
 msgid "Mobile"
 msgstr "Mobile"
 
-#: apps/dashboard/templates/dashboard/message_list.html:26
+#: apps/dashboard/templates/dashboard/message_list.html:28 apps/themes/templates/themes/theme_list.html:23
 msgid "More Options"
 msgstr "Beállítások"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:78
+#: apps/website_issues/templates/website_issues/website_issues.html:89
 msgid "More sites..."
 msgstr "További oldalak..."
 
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:38
-msgid "Most Recent Message"
-msgid_plural "Last %(count)s Messages"
-msgstr[0] "Utolsó üzenet"
-msgstr[1] "utolsó %(count)s üzenet"
-
-#: apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:38
+#: apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:37
 msgid "Next Page &raquo;"
 msgstr "következő &raquo;"
-
-#: apps/feedback/templates/feedback/cluster.html:27 apps/feedback/templates/feedback/clusters.html:24
-msgid "No clusters of opinions found."
-msgstr "Ilyen véleménygyűjtő nem található."
 
 #: apps/website_issues/templates/website_issues/sites_list.html:27
 msgid "No results found!"
 msgstr "Nincs találat."
 
-#: apps/dashboard/templates/dashboard/message_list.html:40 apps/search/templates/search/mobile/search.html:55
+#: apps/dashboard/templates/dashboard/message_list.html:43 apps/themes/templates/themes/theme_list.html:38
 msgid "No search results found."
 msgstr "Nincs találat."
 
@@ -375,24 +365,12 @@ msgstr "Nincs találat."
 msgid "Not Found"
 msgstr "Nem található"
 
-#: apps/dashboard/templates/dashboard/demographics.html:3
-msgid "OS"
-msgstr "operációs rendszer"
-
 #: apps/search/forms.py:62
 msgid "OS:"
 msgstr "OS:"
 
-#: apps/search/templates/search/mobile/search.html:43
-msgid "OS: <span class=\"opt\">%(os)s</span>"
-msgstr "OS: <span class=\"opt\">%(os)s</span>"
-
-#: apps/dashboard/templates/dashboard/messages.html:37
-msgid "OS: {os_name}"
-msgstr "OS: {os_name}"
-
 #. Refers to terms often mentioned in feedback.
-#: apps/dashboard/templates/dashboard/themes.html:3
+#: apps/dashboard/templates/dashboard/themes.html:3 apps/dashboard/templates/dashboard/mobile/themes.html:2
 msgid "Often Mentioned"
 msgstr "Említett témák"
 
@@ -404,7 +382,12 @@ msgstr "Úgy látszik, hogy a legújabb Firefox-verzióval kapcsolatban szeretne
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
 msgstr "Úgy látszik, visszajelzést szeretne küldeni nekünk. Ehhez használja a legfrissebb beta verziót, amit a <a href=\"%(url)s\">innen tud letölteni</a>."
 
-#: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:36 apps/search/templates/search/mobile/search.html:48
+#, fuzzy
+msgid "Older Feedback &raquo;"
+msgstr "régebbi üzenetek &raquo;"
+
+#: apps/dashboard/templates/dashboard/dashboard.html:65 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:75
 msgid "Older Messages &raquo;"
 msgstr "régebbi üzenetek &raquo;"
 
@@ -424,17 +407,14 @@ msgstr "Más nyelvek:"
 msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
 msgstr "Lehetséges, hogy a kereső jelenleg nem érhető el. Visszatérhet a <a href=\"%(url)s\">Firefox-visszajelzések</a> oldalra és megpróbálhatja később."
 
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:19 apps/search/templates/search/mobile/search.html:86
-msgid "Overview"
-msgstr "Áttekintés"
-
-#: apps/dashboard/templates/dashboard/platforms.html:11
+#: apps/dashboard/templates/dashboard/platforms.html:11 apps/dashboard/templates/dashboard/mobile/platforms.html:7 apps/themes/templates/themes/index.html:15
 msgid "Platform"
 msgstr "Platform"
 
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:12
-msgid "Please enable JavaScript to view this page."
-msgstr "Az oldal megtekintéséhez engedélyezze a JavaScript használatát."
+#: apps/website_issues/templates/website_issues/website_issues.html:39
+#, fuzzy
+msgid "Platforms"
+msgstr "Platform"
 
 #: apps/feedback/templates/feedback/feedback.html:63 apps/feedback/templates/feedback/mobile/feedback.html:43
 msgid "Please ensure that there is no personally identifiable information here."
@@ -445,24 +425,25 @@ msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 msgstr "Térjen vissza a <a href=\"%(dashboard_url)s\">Firefox-visszajelzések</a> oldalra."
 
 #. Formerly called "happy"
-#: apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:11 apps/dashboard/templates/dashboard/sentiments.html:25 apps/feedback/helpers.py:36
-#: apps/search/forms.py:36 apps/website_issues/templates/website_issues/single_site.html:9 apps/website_issues/templates/website_issues/website_issues.html:33
+#: apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:11 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36
+#: apps/search/forms.py:36 apps/themes/views.py:27 apps/themes/templates/themes/theme_list.html:7 apps/website_issues/templates/website_issues/single_site.html:9
+#: apps/website_issues/templates/website_issues/website_issues.html:32
 msgid "Praise"
 msgstr "Dicséret"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:33
+#: apps/themes/views.py:27 apps/website_issues/templates/website_issues/website_issues.html:32
 msgid "Praise only"
 msgstr "csak a dícséretek"
 
-#: templates/base.html:50 templates/base_mobile.html:53 templates/base_old.html:59
+#: templates/base_mobile_old.html:53 templates/base_old.html:59 templates/includes/footer.html:7
 msgid "Privacy Policy"
 msgstr "Adatvédelmi irányelvek"
 
-#: templates/base.html:21 templates/base_mobile.html:17 templates/base_old.html:19
+#: templates/base.html:21 templates/base_mobile_old.html:17 templates/base_old.html:19
 msgid "Proceed to footer"
 msgstr "Tovább a lábléchez"
 
-#: templates/base.html:20 templates/base_mobile.html:16 templates/base_old.html:18
+#: templates/base.html:20 templates/base_mobile_old.html:16 templates/base_old.html:18
 msgid "Proceed to main content"
 msgstr "Tovább a fő tartalomhoz"
 
@@ -474,7 +455,7 @@ msgstr "Termék:"
 msgid "Query has timed out."
 msgstr "Időtúllépés történt."
 
-#: templates/base.html:52 templates/base_mobile.html:55 templates/base_old.html:61
+#: templates/base_mobile_old.html:55 templates/base_old.html:61 templates/includes/footer.html:9
 msgid "Report Trademark Abuse"
 msgstr "Védjeggyel kapcsolatos visszaélés jelentése"
 
@@ -482,11 +463,11 @@ msgstr "Védjeggyel kapcsolatos visszaélés jelentése"
 msgid "Search"
 msgstr "Keresés"
 
-#: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:41 apps/search/templates/search/mobile/search.html:5 apps/search/templates/search/mobile/search.html:6
+#: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:42
 msgid "Search Results"
 msgstr "Találatok"
 
-#: apps/search/views.py:42
+#: apps/search/views.py:41
 msgid "Search Results in Firefox Beta Feedback."
 msgstr "Találatok a Firefox Beta visszajelzések között"
 
@@ -498,7 +479,7 @@ msgstr "A keresés nem érhető el"
 msgid "Search by keyword"
 msgstr "Kulcsszavas keresés"
 
-#: apps/website_issues/forms.py:34
+#: apps/website_issues/forms.py:36
 msgctxt "website_issues_search"
 msgid "Search for domain"
 msgstr "Tartománykeresés"
@@ -508,26 +489,17 @@ msgid "Sentiment:"
 msgstr "Vélemény:"
 
 #. Button text for setting a custom date range.
-#: apps/dashboard/templates/dashboard/when.html:25
+#: apps/dashboard/templates/dashboard/when.html:17
 msgctxt "date_range_set"
 msgid "Set"
 msgstr "Beállítás"
-
-#. Link on the dashboard to show more messages.
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:35
-msgid "Show more"
-msgstr "Továbbiak megjelenítése"
 
 #: apps/dashboard/templates/includes/filter_box_toggle.html:4
 msgid "Show/Hide Options"
 msgstr "Beállítások megjelenítése/elrejtése"
 
-#: apps/feedback/templates/feedback/cluster.html:17
-msgid "Showing the first {count}"
-msgstr "Az első {count} megjelenítése"
-
 #: apps/website_issues/templates/website_issues/sites_list.html:12 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/website_issues.html:10
-#: templates/base.html:34 templates/includes/nav_buttons.html:4
+#: templates/base.html:38 templates/includes/nav_buttons.html:4
 msgid "Sites"
 msgstr "Oldalak"
 
@@ -543,6 +515,10 @@ msgstr "Elnézést! Mondjon el többet!"
 #: apps/search/client.py:80
 msgid "Sphinx threw an unknown exception: %s"
 msgstr "A Sphinx egy ismeretlen hibát adott vissza: %s"
+
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:7 apps/search/templates/search/mobile/search.html:7
+msgid "Statistics"
+msgstr ""
 
 #: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:65 apps/feedback/templates/feedback/mobile/feedback.html:3
 #: apps/feedback/templates/feedback/mobile/feedback.html:45
@@ -573,12 +549,12 @@ msgstr "Köszönjük a visszajelzést!"
 msgid "Thanks!"
 msgstr "Köszönjük!"
 
-#: apps/website_issues/templates/website_issues/theme.html:16
+#: apps/website_issues/templates/website_issues/theme.html:15
 msgid "Theme"
 msgstr "Téma"
 
 #. Formerly: Clusters
-#: templates/base.html:33
+#: apps/themes/templates/themes/index.html:2 templates/base.html:34
 msgid "Themes"
 msgstr "Témák"
 
@@ -592,34 +568,20 @@ msgid "Toggle"
 msgstr "Váltás"
 
 #. Link to Google Translator
-#: apps/dashboard/templates/dashboard/message_list.html:31
+#: apps/dashboard/templates/dashboard/message_list.html:33 apps/themes/templates/themes/theme_list.html:28
 msgid "Translate Message"
 msgstr "Üzenet fordítása"
 
-#. Link to Google Translator
-#: apps/dashboard/templates/dashboard/messages.html:18
-msgid "Translate!"
-msgstr "fordítás"
-
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:23 apps/search/templates/search/mobile/search.html:93
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:8 apps/search/templates/search/mobile/search.html:8
 msgid "Trends"
 msgstr "Trendek"
 
-#: apps/dashboard/templates/dashboard/overview.html:2 apps/website_issues/templates/website_issues/website_issues.html:29
+#: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:9
+#: apps/website_issues/templates/website_issues/website_issues.html:28
 msgid "Type of Feedback"
 msgstr "Visszajelzés típusa"
 
-#. Link to user agent info.
-#: apps/dashboard/templates/dashboard/messages.html:21
-msgid "UA"
-msgstr "adatok"
-
-#. Link to an opinion's URL.
-#: apps/dashboard/templates/dashboard/messages.html:25
-msgid "URL"
-msgstr "URL"
-
-#: apps/website_issues/templates/website_issues/website_issues.html:73
+#: apps/website_issues/templates/website_issues/website_issues.html:84
 msgid "Uncommon Sites"
 msgstr "Ritkán említett oldalak"
 
@@ -627,7 +589,7 @@ msgstr "Ritkán említett oldalak"
 msgid "User agent string was not recognizable."
 msgstr "A felhasználói ügynök (UA) adatai nem ismerhetők fel."
 
-#: apps/feedback/views.py:34
+#: apps/feedback/views.py:33
 msgid "User-Agent request header must be set."
 msgstr "A fejhasználói ügynök (UA) beállítása kötelező."
 
@@ -647,17 +609,22 @@ msgstr "Már megkaptuk a visszajelzését, köszönjük."
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can improve it!"
 msgstr "Nagyon sajnáljuk, hogy nincs jó tapasztalata a böngészőnkkel. Kérjük mondja el ennek okát, hogy tudjuk ezen javítani."
 
-#: templates/base.html:5 templates/base_mobile.html:5 templates/base_old.html:5
+#: templates/base.html:5 templates/base_mobile.html:6
+#, fuzzy
+msgid "Welcome"
+msgstr "Üdvözöljük!"
+
+#: templates/base_mobile_old.html:5 templates/base_old.html:5
 msgid "Welcome!"
 msgstr "Üdvözöljük!"
 
 #. Title for a time-based search filter
-#: apps/dashboard/templates/dashboard/when.html:2 apps/website_issues/templates/website_issues/website_issues.html:19
+#: apps/dashboard/templates/dashboard/when.html:2 apps/website_issues/templates/website_issues/website_issues.html:18
 msgid "When"
 msgstr "Időszak"
 
 #. Refers to sites that were reported in feedback.
-#: apps/dashboard/templates/dashboard/sites.html:4
+#: apps/dashboard/templates/dashboard/sites.html:3 apps/dashboard/templates/dashboard/mobile/sites.html:2
 msgid "While Visiting"
 msgstr "Említett weboldalak"
 
@@ -685,23 +652,6 @@ msgstr "A visszajelzés valószínűleg URL-t tartalmaz. Távolítsa el ezt és 
 msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr "A visszajelzés valószínűleg e-mail címet tartalmaz. Távolítsa el ezt és más személyes jellegű adatot, majd küldje el újra. Köszönjük!"
 
-#: apps/search/templates/search/mobile/search.html:40 apps/search/templates/search/mobile/search.html:43
-msgid "all"
-msgstr "összes"
-
-#: apps/dashboard/forms.py:13
-msgctxt "dashboard_period"
-msgid "all"
-msgstr "összes"
-
-#: apps/search/templates/search/mobile/search.html:71
-msgid "next &raquo;"
-msgstr "következő &raquo;"
-
-#: apps/search/templates/search/mobile/search.html:75
-msgid "page %(pagenum)s of %(total)s"
-msgstr "%(pagenum)s / %(total)s oldal"
-
 #: apps/website_issues/templates/website_issues/sites_list.html:28
 msgid "reset my search"
 msgstr "keresés visszaállítása"
@@ -715,23 +665,15 @@ msgstr "-"
 msgid "unknown"
 msgstr "ismeretlen"
 
-#. This is a link to the URL associated with an opinion.
-#: apps/dashboard/templates/dashboard/messages.html:32
-msgid "visit &rarr;"
-msgstr "megtekintés &rarr;"
-
 #. {0} is a time delta, e.g.: 2 weeks
 #: apps/dashboard/templates/dashboard/message_list.html:15
 msgid "{0} ago"
 msgstr "{0} óta"
 
-#: apps/feedback/templates/feedback/cluster.html:8
-msgid "{0} opinions for Firefox {1} {2}"
-msgstr "{0} beállítások ehhez: Firefox {1} {2}"
-
-#: apps/feedback/templates/feedback/cluster.html:12
-msgid "{0} opinions similar to <q>{1}</q>"
-msgstr "{0} beállítások hasonlóan ehhez: <q>{1}</q>"
+#: apps/themes/templates/themes/theme_list.html:14
+#, fuzzy
+msgid "{0} similar messages"
+msgstr "{count} hasonló üzenet"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:49
 msgid "{percentage}% issues"
@@ -744,8 +686,89 @@ msgstr "{percentage}% dicséret"
 #~ msgid "&laquo; Next Page"
 #~ msgstr "&laquo; következő olda"
 
+#~ msgid "&laquo; previous"
+#~ msgstr "&laquo; előző"
+
+#~ msgctxt "dashboard_period"
+#~ msgid "1 day"
+#~ msgstr "1 nap"
+
+#~ msgctxt "dashboard_period"
+#~ msgid "1 month"
+#~ msgstr "1 hónap"
+
+#~ msgctxt "dashboard_period"
+#~ msgid "1 week"
+#~ msgstr "1 hét"
+
+#~ msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
+#~ msgstr "<a href=\"%(url)s\">Összesen</a>: %(count)s"
+
+#~ msgid "Clusters of Opinions"
+#~ msgstr "Véleménycsoportok"
+
+#~ msgid "Dates: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
+#~ msgstr "Időszak: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
+
+#~ msgid "Demographics"
+#~ msgstr "Eloszlás"
+
+#~ msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
+#~ msgstr "Leírás: <span class=\"opt\">\"%(query)s\"</span>;"
+
+#~ msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
+#~ msgstr "nyelv: <span class=\"opt\">%(locale)s</span>;"
+
+#~ msgid "Locale: {locale}"
+#~ msgstr "nyelv: {locale}"
+
+#~ msgid "Most Recent Message"
+#~ msgid_plural "Last %(count)s Messages"
+#~ msgstr[0] "Utolsó üzenet"
+#~ msgstr[1] "utolsó %(count)s üzenet"
+
+#~ msgid "No clusters of opinions found."
+#~ msgstr "Ilyen véleménygyűjtő nem található."
+
+#~ msgid "OS"
+#~ msgstr "operációs rendszer"
+
+#~ msgid "OS: <span class=\"opt\">%(os)s</span>"
+#~ msgstr "OS: <span class=\"opt\">%(os)s</span>"
+
+#~ msgid "OS: {os_name}"
+#~ msgstr "OS: {os_name}"
+
+#~ msgid "Overview"
+#~ msgstr "Áttekintés"
+
+#~ msgid "Please enable JavaScript to view this page."
+#~ msgstr "Az oldal megtekintéséhez engedélyezze a JavaScript használatát."
+
 #~ msgid "Previous Page &raquo;"
 #~ msgstr "Előző oldal &raquo;"
+
+#~ msgid "Show more"
+#~ msgstr "Továbbiak megjelenítése"
+
+#~ msgid "Showing the first {count}"
+#~ msgstr "Az első {count} megjelenítése"
+
+#~ msgid "Translate!"
+#~ msgstr "fordítás"
+
+#~ msgid "UA"
+#~ msgstr "adatok"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "all"
+#~ msgstr "összes"
+
+#~ msgctxt "dashboard_period"
+#~ msgid "all"
+#~ msgstr "összes"
 
 #~ msgid "happy"
 #~ msgstr "boldog"
@@ -753,8 +776,23 @@ msgstr "{percentage}% dicséret"
 #~ msgid "happy face"
 #~ msgstr "boldog arc"
 
+#~ msgid "next &raquo;"
+#~ msgstr "következő &raquo;"
+
+#~ msgid "page %(pagenum)s of %(total)s"
+#~ msgstr "%(pagenum)s / %(total)s oldal"
+
 #~ msgid "sad"
 #~ msgstr "szomorú"
 
 #~ msgid "sad face"
 #~ msgstr "szomorú arc"
+
+#~ msgid "visit &rarr;"
+#~ msgstr "megtekintés &rarr;"
+
+#~ msgid "{0} opinions for Firefox {1} {2}"
+#~ msgstr "{0} beállítások ehhez: Firefox {1} {2}"
+
+#~ msgid "{0} opinions similar to <q>{1}</q>"
+#~ msgstr "{0} beállítások hasonlóan ehhez: <q>{1}</q>"

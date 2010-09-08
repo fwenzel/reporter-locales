@@ -35,7 +35,12 @@ msgid_plural "%(count)s similar messages"
 msgstr[0] "{count} lignende meldinger"
 msgstr[1] "{count} lignende meldinger"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:64 apps/search/templates/search/search.html:64
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:35 apps/search/templates/search/mobile/search.html:38
+#, fuzzy
+msgid "&laquo; Newer Feedback"
+msgstr "&laquo; Eldre meldinger"
+
+#: apps/dashboard/templates/dashboard/dashboard.html:64 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:65
 #, fuzzy
 msgid "&laquo; Newer Messages"
 msgstr "&laquo; Eldre meldinger"
@@ -45,13 +50,9 @@ msgstr "&laquo; Eldre meldinger"
 msgid "&laquo; Previous Page"
 msgstr "&laquo; forrige"
 
-#: apps/website_issues/templates/website_issues/theme.html:30
+#: apps/website_issues/templates/website_issues/theme.html:29
 #, fuzzy
 msgid "&laquo; Previous Page;"
-msgstr "&laquo; forrige"
-
-#: apps/search/templates/search/mobile/search.html:65
-msgid "&laquo; previous"
 msgstr "&laquo; forrige"
 
 #: apps/search/forms.py:46
@@ -74,37 +75,24 @@ msgctxt "version_choice"
 msgid "-- all --"
 msgstr "-- alle --"
 
-#: apps/dashboard/forms.py:10
-msgctxt "dashboard_period"
-msgid "1 day"
-msgstr "1 dag"
-
-#: apps/dashboard/forms.py:12
-msgctxt "dashboard_period"
-msgid "1 month"
-msgstr "1 måned"
-
-#: apps/dashboard/forms.py:11
-msgctxt "dashboard_period"
-msgid "1 week"
-msgstr "1 uke"
-
-#: apps/dashboard/templates/dashboard/when.html:7
+#: apps/dashboard/templates/dashboard/includes/when_selectors.html:3
 msgid "1d"
 msgstr "1d"
 
-#: apps/dashboard/templates/dashboard/when.html:13
+#: apps/dashboard/templates/dashboard/includes/when_selectors.html:9
 msgid "30d"
 msgstr "30d"
 
-#: apps/dashboard/templates/dashboard/when.html:10 apps/website_issues/templates/website_issues/website_issues.html:22
+#: apps/dashboard/templates/dashboard/includes/when_selectors.html:6 apps/website_issues/templates/website_issues/website_issues.html:21
 msgid "7d"
 msgstr "7d"
 
-#. Total refers to a message count.
-#: apps/dashboard/templates/dashboard/sentiments.html:32
-msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
-msgstr "<a href=\"%(url)s\">Totalt</a>: %(count)s"
+#: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
+#, fuzzy
+msgid "<strong>%(cnt)s</strong> message"
+msgid_plural "<strong>%(cnt)s</strong> messages"
+msgstr[0] "{count} meldinger"
+msgstr[1] "{count} meldinger"
 
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
@@ -118,14 +106,35 @@ msgstr "Legg til URL-en til nettsiden du besøkte sist?"
 msgid "Advanced"
 msgstr "Avansert"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:32
+#: apps/themes/views.py:22 apps/themes/views.py:43
+#, fuzzy
+msgid "All"
+msgstr "Alle"
+
+#: apps/website_issues/templates/website_issues/website_issues.html:31
 msgctxt "sites_search_all_feedback"
 msgid "All"
 msgstr "Alle"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:32
+#: apps/website_issues/templates/website_issues/website_issues.html:42
+#, fuzzy
+msgctxt "sites_search_all_platforms"
+msgid "All"
+msgstr "Alle"
+
+#: apps/themes/views.py:43
+#, fuzzy
+msgid "All Platforms"
+msgstr "Plattform"
+
+#: apps/themes/views.py:22 apps/website_issues/templates/website_issues/website_issues.html:31
 msgid "All feedback"
 msgstr "Alle tilbakemeldinger"
+
+#: apps/website_issues/templates/website_issues/website_issues.html:42
+#, fuzzy
+msgid "All platforms"
+msgstr "Plattform"
 
 #: templates/500.html:7
 msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
@@ -135,12 +144,12 @@ msgstr "En ukjent feil oppstod i applikasjonen. Feilen er logget og en systemans
 msgid "Back to all sites &raquo;"
 msgstr "Tilbake til alle nettsted &raquo;"
 
-#: apps/website_issues/templates/website_issues/theme.html:19
+#: apps/website_issues/templates/website_issues/theme.html:18
 #, fuzzy
 msgid "Back to {domain} &raquo;"
 msgstr "Tilbake til alle nettsted &raquo;"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:23
+#: apps/website_issues/templates/website_issues/website_issues.html:22
 msgid "Beta"
 msgstr "Beta"
 
@@ -148,20 +157,21 @@ msgstr "Beta"
 msgid "Clusters"
 msgstr "Klynger"
 
-#: apps/feedback/templates/feedback/cluster.html:3 apps/feedback/templates/feedback/clusters.html:3
-msgid "Clusters of Opinions"
-msgstr "Meningsklynger"
+#: apps/themes/templates/themes/index.html:25
+#, fuzzy
+msgid "Common Themes"
+msgstr "Temaer"
 
-#: apps/dashboard/templates/dashboard/message_list.html:29
+#: apps/dashboard/templates/dashboard/message_list.html:31 apps/themes/templates/themes/theme_list.html:26
 msgid "Copy User Agent"
 msgstr "Kopier brukeragent"
 
 #. Tooltip for custom date range button
-#: apps/dashboard/templates/dashboard/when.html:17
+#: apps/dashboard/templates/dashboard/when.html:9
 msgid "Custom"
 msgstr "Egendefinert"
 
-#: templates/base.html:27
+#: templates/base.html:27 templates/base_mobile.html:17
 msgid "Dashboard"
 msgstr "Instrumentbord"
 
@@ -169,23 +179,11 @@ msgstr "Instrumentbord"
 msgid "Date range:"
 msgstr "Datoområde:"
 
-#: apps/search/templates/search/mobile/search.html:35
-msgid "Dates: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
-msgstr "Datoområde: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
-
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:27 apps/search/templates/search/mobile/search.html:100
-msgid "Demographics"
-msgstr "Statistikk"
-
-#: apps/search/templates/search/mobile/search.html:31
-msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
-msgstr "Beskrivelse: <span class=\"opt\">\"%(query)s\"</span>;"
-
 #: apps/feedback/templates/feedback/need_beta.html:3 apps/feedback/templates/feedback/mobile/need_beta.html:3
 msgid "Download Beta"
 msgstr "Last ned betaen"
 
-#: apps/search/templates/search/search.html:53 apps/search/templates/search/mobile/search.html:18
+#: apps/search/templates/search/search.html:54
 msgid "Due to software constraints, we can only show the last 1000 messages for this search query."
 msgstr "På grunn av programvarebegrensinger kan vi bare vise de siste 1000 meldingene i denne søkeforespørselen."
 
@@ -193,7 +191,7 @@ msgstr "På grunn av programvarebegrensinger kan vi bare vise de siste 1000 meld
 msgid "Enter your feedback here."
 msgstr "Skriv inn tilbakemeldingen her."
 
-#: templates/base.html:55 templates/base_mobile.html:58 templates/base_old.html:64
+#: templates/base_mobile_old.html:58 templates/base_old.html:64 templates/includes/footer.html:12
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
 "any later version."
@@ -201,7 +199,12 @@ msgstr ""
 "Med unntak av hvor noe annet er <a href=\"%(legal_url)s\">oppgitt</a> er innhold på dette nettstedet lisensiert under <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike "
 "License v3.0</a> eller nyere versjoner."
 
-#: templates/base.html:32
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:6 apps/search/templates/search/mobile/search.html:6
+#, fuzzy
+msgid "Feed"
+msgstr "Tilbakemelding"
+
+#: templates/base.html:31
 msgid "Feedback"
 msgstr "Tilbakemelding"
 
@@ -217,14 +220,19 @@ msgstr "Få de siste nyhetene fra Mozilla:"
 msgid "Firefox"
 msgstr "Firefox"
 
-#: apps/search/views.py:41 apps/search/views.py:59
+#: apps/search/views.py:40 apps/search/views.py:58
 msgid "Firefox Input"
 msgstr "Firefox Input"
 
 #. L10n: This is the title to the Search ATOM feed.
-#: apps/search/views.py:58
+#: apps/search/views.py:57
 msgid "Firefox Input: '{query}'"
 msgstr "Firefox Input: '{query}'"
+
+#. refers to time-based search filters (e.g., "for last: 1d")
+#: apps/dashboard/templates/dashboard/mobile/when.html:3
+msgid "For last:"
+msgstr ""
 
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
@@ -262,7 +270,7 @@ msgstr "Dersom du fulgte en ødelagt lenke, <a href=\"%(bug_url)s\">rapporter en
 msgid "Include the following error message in your bug report:"
 msgstr "Ta med følgende feilmelding i bugrapporten:"
 
-#: templates/base_mobile.html:27 templates/base_old.html:31
+#: templates/base_mobile_old.html:27 templates/base_old.html:31
 msgid "Input Dashboard"
 msgstr "Input-instrumentbord"
 
@@ -270,17 +278,17 @@ msgstr "Input-instrumentbord"
 msgid "Internal Server Error"
 msgstr "Intern tjenerfeil"
 
-#: apps/dashboard/templates/dashboard/message_list.html:8 apps/feedback/helpers.py:39 apps/website_issues/templates/website_issues/single_site.html:11
+#: apps/dashboard/templates/dashboard/message_list.html:8 apps/feedback/helpers.py:39 apps/themes/templates/themes/theme_list.html:9 apps/website_issues/templates/website_issues/single_site.html:11
 msgid "Issue"
 msgstr "Problem"
 
 #. Formerly called "sad"
-#: apps/dashboard/templates/dashboard/overview.html:23 apps/dashboard/templates/dashboard/sentiments.html:27 apps/search/forms.py:37
-#: apps/website_issues/templates/website_issues/website_issues.html:34
+#: apps/dashboard/templates/dashboard/overview.html:23 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/themes/views.py:32
+#: apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Issues"
 msgstr "Problemer"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:34
+#: apps/themes/views.py:32 apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Issues only"
 msgstr "Bare problemer"
 
@@ -289,21 +297,21 @@ msgid "Know of a website that works better in this beta than it did in earlier v
 msgstr "Vet du om en nettside som virker bedre i denne betaen enn i tidligere versjoner av Firefox? Legg til URL-en så vi kan holde oversikt!"
 
 #. short for 30 days
-#: apps/dashboard/templates/dashboard/when.html:13
+#: apps/dashboard/templates/dashboard/includes/when_selectors.html:9
 msgid "Last 30 days"
 msgstr "Siste 30 dager"
 
 #. short for 7 days
-#: apps/dashboard/templates/dashboard/when.html:10 apps/website_issues/templates/website_issues/website_issues.html:22
+#: apps/dashboard/templates/dashboard/includes/when_selectors.html:6 apps/website_issues/templates/website_issues/website_issues.html:21
 msgid "Last 7 days"
 msgstr "Siste 7 dager"
 
 #. short for 1 day
-#: apps/dashboard/templates/dashboard/when.html:7
+#: apps/dashboard/templates/dashboard/includes/when_selectors.html:3
 msgid "Last day"
 msgstr "Siste dag"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:23
+#: apps/website_issues/templates/website_issues/website_issues.html:22
 msgid "Latest Beta"
 msgstr "Nyeste beta"
 
@@ -311,7 +319,7 @@ msgstr "Nyeste beta"
 msgid "Latest Feedback"
 msgstr "Nyeste tilbakemeldinger"
 
-#: templates/base.html:51 templates/base_mobile.html:54 templates/base_old.html:60
+#: templates/base_mobile_old.html:54 templates/base_old.html:60 templates/includes/footer.html:8
 msgid "Legal Notices"
 msgstr "Juridiske merknader"
 
@@ -319,21 +327,13 @@ msgstr "Juridiske merknader"
 msgid "Linux"
 msgstr "Linux"
 
-#: apps/dashboard/templates/dashboard/demographics.html:10 apps/dashboard/templates/dashboard/locales.html:14
+#: apps/dashboard/templates/dashboard/locales.html:14 apps/dashboard/templates/dashboard/mobile/locales.html:9
 msgid "Locale"
 msgstr "Språk"
 
 #: apps/search/forms.py:60
 msgid "Locale:"
 msgstr "Språk:"
-
-#: apps/search/templates/search/mobile/search.html:40
-msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
-msgstr "Språk: <span class=\"opt\">%(locale)s</span>;"
-
-#: apps/dashboard/templates/dashboard/messages.html:39
-msgid "Locale: {locale}"
-msgstr "Språk: {locale}"
 
 #: apps/feedback/__init__.py:57
 msgid "Mac OS X"
@@ -348,35 +348,24 @@ msgstr "Meldinger"
 msgid "Mobile"
 msgstr "Mobil"
 
-#: apps/dashboard/templates/dashboard/message_list.html:26
+#: apps/dashboard/templates/dashboard/message_list.html:28 apps/themes/templates/themes/theme_list.html:23
 msgid "More Options"
 msgstr "Flere innstillinger"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:78
+#: apps/website_issues/templates/website_issues/website_issues.html:89
 msgid "More sites..."
 msgstr "Flere nettsted ..."
 
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:38
-#, fuzzy
-msgid "Most Recent Message"
-msgid_plural "Last %(count)s Messages"
-msgstr[0] "Siste {count} meldinger"
-msgstr[1] "Siste {count} meldinger"
-
-#: apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:38
+#: apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:37
 #, fuzzy
 msgid "Next Page &raquo;"
 msgstr "neste &raquo;"
-
-#: apps/feedback/templates/feedback/cluster.html:27 apps/feedback/templates/feedback/clusters.html:24
-msgid "No clusters of opinions found."
-msgstr "Ingen meningsklynger funnet."
 
 #: apps/website_issues/templates/website_issues/sites_list.html:27
 msgid "No results found!"
 msgstr "Ingen resultater funnet."
 
-#: apps/dashboard/templates/dashboard/message_list.html:40 apps/search/templates/search/mobile/search.html:55
+#: apps/dashboard/templates/dashboard/message_list.html:43 apps/themes/templates/themes/theme_list.html:38
 msgid "No search results found."
 msgstr "Ingen søkeresultater ble funnet."
 
@@ -384,24 +373,12 @@ msgstr "Ingen søkeresultater ble funnet."
 msgid "Not Found"
 msgstr "Ikke funnet"
 
-#: apps/dashboard/templates/dashboard/demographics.html:3
-msgid "OS"
-msgstr "OS"
-
 #: apps/search/forms.py:62
 msgid "OS:"
 msgstr "OS:"
 
-#: apps/search/templates/search/mobile/search.html:43
-msgid "OS: <span class=\"opt\">%(os)s</span>"
-msgstr "OS: <span class=\"opt\">%(os)s</span>"
-
-#: apps/dashboard/templates/dashboard/messages.html:37
-msgid "OS: {os_name}"
-msgstr "OS: {os_name}"
-
 #. Refers to terms often mentioned in feedback.
-#: apps/dashboard/templates/dashboard/themes.html:3
+#: apps/dashboard/templates/dashboard/themes.html:3 apps/dashboard/templates/dashboard/mobile/themes.html:2
 msgid "Often Mentioned"
 msgstr "Ofte nevnt"
 
@@ -413,7 +390,12 @@ msgstr "Åh! Så du ønsker å gi oss tilbakemelding på den neste versjonen av 
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
 msgstr "Åh! Så du ønsker å gi oss tilbakemelding. Du trenger den siste betaen! Gå til beta-nettsiden og <a href=\"%(url)s\">last den ned!</a>"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:65 apps/search/templates/search/search.html:74
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:36 apps/search/templates/search/mobile/search.html:48
+#, fuzzy
+msgid "Older Feedback &raquo;"
+msgstr "Nyere meldinger &raquo;"
+
+#: apps/dashboard/templates/dashboard/dashboard.html:65 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:75
 #, fuzzy
 msgid "Older Messages &raquo;"
 msgstr "Nyere meldinger &raquo;"
@@ -434,17 +416,14 @@ msgstr "Andre språk:"
 msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
 msgstr "Søkemotoren vår er muligens utilgjengelig akkurat nå. Du kan prøve igjen fra <a href=\"%(url)s\">instrumentbordet</a>, og forsøke på nytt senere."
 
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:19 apps/search/templates/search/mobile/search.html:86
-msgid "Overview"
-msgstr "Oversikt"
-
-#: apps/dashboard/templates/dashboard/platforms.html:11
+#: apps/dashboard/templates/dashboard/platforms.html:11 apps/dashboard/templates/dashboard/mobile/platforms.html:7 apps/themes/templates/themes/index.html:15
 msgid "Platform"
 msgstr "Plattform"
 
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:12
-msgid "Please enable JavaScript to view this page."
-msgstr "Slå på JavaScript for å vise denne siden."
+#: apps/website_issues/templates/website_issues/website_issues.html:39
+#, fuzzy
+msgid "Platforms"
+msgstr "Plattform"
 
 #: apps/feedback/templates/feedback/feedback.html:63 apps/feedback/templates/feedback/mobile/feedback.html:43
 msgid "Please ensure that there is no personally identifiable information here."
@@ -455,24 +434,25 @@ msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 msgstr "Start på nytt på <a href=\"%(dashboard_url)s\">instrumentbordet</a>."
 
 #. Formerly called "happy"
-#: apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:11 apps/dashboard/templates/dashboard/sentiments.html:25 apps/feedback/helpers.py:36
-#: apps/search/forms.py:36 apps/website_issues/templates/website_issues/single_site.html:9 apps/website_issues/templates/website_issues/website_issues.html:33
+#: apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:11 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36
+#: apps/search/forms.py:36 apps/themes/views.py:27 apps/themes/templates/themes/theme_list.html:7 apps/website_issues/templates/website_issues/single_site.html:9
+#: apps/website_issues/templates/website_issues/website_issues.html:32
 msgid "Praise"
 msgstr "Ros"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:33
+#: apps/themes/views.py:27 apps/website_issues/templates/website_issues/website_issues.html:32
 msgid "Praise only"
 msgstr "Bare ros"
 
-#: templates/base.html:50 templates/base_mobile.html:53 templates/base_old.html:59
+#: templates/base_mobile_old.html:53 templates/base_old.html:59 templates/includes/footer.html:7
 msgid "Privacy Policy"
 msgstr "Personvern"
 
-#: templates/base.html:21 templates/base_mobile.html:17 templates/base_old.html:19
+#: templates/base.html:21 templates/base_mobile_old.html:17 templates/base_old.html:19
 msgid "Proceed to footer"
 msgstr "Fortsett til fotnoter"
 
-#: templates/base.html:20 templates/base_mobile.html:16 templates/base_old.html:18
+#: templates/base.html:20 templates/base_mobile_old.html:16 templates/base_old.html:18
 msgid "Proceed to main content"
 msgstr "Gå til hovedinnholdet"
 
@@ -484,7 +464,7 @@ msgstr "Produkt:"
 msgid "Query has timed out."
 msgstr "Forespørselen fikk tidsavbrudd."
 
-#: templates/base.html:52 templates/base_mobile.html:55 templates/base_old.html:61
+#: templates/base_mobile_old.html:55 templates/base_old.html:61 templates/includes/footer.html:9
 msgid "Report Trademark Abuse"
 msgstr "Rapporter misbruk av varemerker"
 
@@ -492,11 +472,11 @@ msgstr "Rapporter misbruk av varemerker"
 msgid "Search"
 msgstr "Søk"
 
-#: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:41 apps/search/templates/search/mobile/search.html:5 apps/search/templates/search/mobile/search.html:6
+#: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:42
 msgid "Search Results"
 msgstr "Søkeresultater"
 
-#: apps/search/views.py:42
+#: apps/search/views.py:41
 msgid "Search Results in Firefox Beta Feedback."
 msgstr "Søkeresultater i Firefox Beta-tilbakemeldinger."
 
@@ -508,7 +488,7 @@ msgstr "Søk er utilgjengelig"
 msgid "Search by keyword"
 msgstr "Søk etter nøkkelord"
 
-#: apps/website_issues/forms.py:34
+#: apps/website_issues/forms.py:36
 msgctxt "website_issues_search"
 msgid "Search for domain"
 msgstr "Søk etter domene"
@@ -518,26 +498,17 @@ msgid "Sentiment:"
 msgstr "Mening:"
 
 #. Button text for setting a custom date range.
-#: apps/dashboard/templates/dashboard/when.html:25
+#: apps/dashboard/templates/dashboard/when.html:17
 msgctxt "date_range_set"
 msgid "Set"
 msgstr "Sett"
-
-#. Link on the dashboard to show more messages.
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:35
-msgid "Show more"
-msgstr "Vis flere"
 
 #: apps/dashboard/templates/includes/filter_box_toggle.html:4
 msgid "Show/Hide Options"
 msgstr "Vis/skjul innstillinger"
 
-#: apps/feedback/templates/feedback/cluster.html:17
-msgid "Showing the first {count}"
-msgstr "Viser de første {count}"
-
 #: apps/website_issues/templates/website_issues/sites_list.html:12 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/website_issues.html:10
-#: templates/base.html:34 templates/includes/nav_buttons.html:4
+#: templates/base.html:38 templates/includes/nav_buttons.html:4
 msgid "Sites"
 msgstr "Nettsted"
 
@@ -553,6 +524,10 @@ msgstr "Beklager! Fortell oss mer!"
 #: apps/search/client.py:80
 msgid "Sphinx threw an unknown exception: %s"
 msgstr "Sphinx kastet et ukjent unntak: %s"
+
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:7 apps/search/templates/search/mobile/search.html:7
+msgid "Statistics"
+msgstr ""
 
 #: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:65 apps/feedback/templates/feedback/mobile/feedback.html:3
 #: apps/feedback/templates/feedback/mobile/feedback.html:45
@@ -583,13 +558,13 @@ msgstr "Takk for at du sender oss din tilbakemelding!"
 msgid "Thanks!"
 msgstr "Takk!"
 
-#: apps/website_issues/templates/website_issues/theme.html:16
+#: apps/website_issues/templates/website_issues/theme.html:15
 #, fuzzy
 msgid "Theme"
 msgstr "Temaer"
 
 #. Formerly: Clusters
-#: templates/base.html:33
+#: apps/themes/templates/themes/index.html:2 templates/base.html:34
 msgid "Themes"
 msgstr "Temaer"
 
@@ -603,34 +578,20 @@ msgid "Toggle"
 msgstr "Slå av/på"
 
 #. Link to Google Translator
-#: apps/dashboard/templates/dashboard/message_list.html:31
+#: apps/dashboard/templates/dashboard/message_list.html:33 apps/themes/templates/themes/theme_list.html:28
 msgid "Translate Message"
 msgstr "Oversett melding"
 
-#. Link to Google Translator
-#: apps/dashboard/templates/dashboard/messages.html:18
-msgid "Translate!"
-msgstr "Oversett!"
-
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:23 apps/search/templates/search/mobile/search.html:93
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:8 apps/search/templates/search/mobile/search.html:8
 msgid "Trends"
 msgstr "Trender"
 
-#: apps/dashboard/templates/dashboard/overview.html:2 apps/website_issues/templates/website_issues/website_issues.html:29
+#: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:9
+#: apps/website_issues/templates/website_issues/website_issues.html:28
 msgid "Type of Feedback"
 msgstr "Type tilbakemelding"
 
-#. Link to user agent info.
-#: apps/dashboard/templates/dashboard/messages.html:21
-msgid "UA"
-msgstr "UA"
-
-#. Link to an opinion's URL.
-#: apps/dashboard/templates/dashboard/messages.html:25
-msgid "URL"
-msgstr "URL"
-
-#: apps/website_issues/templates/website_issues/website_issues.html:73
+#: apps/website_issues/templates/website_issues/website_issues.html:84
 msgid "Uncommon Sites"
 msgstr "Uvanlige nettsted"
 
@@ -638,7 +599,7 @@ msgstr "Uvanlige nettsted"
 msgid "User agent string was not recognizable."
 msgstr "User agent-teksten var ikke gjenkjennbar."
 
-#: apps/feedback/views.py:34
+#: apps/feedback/views.py:33
 msgid "User-Agent request header must be set."
 msgstr "User Agent-headeren må være satt i forespørselen."
 
@@ -658,17 +619,22 @@ msgstr "Vi har allerede mottatt tilbakemeldingen din! Takk."
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can improve it!"
 msgstr "Vi er lei for å høre at du ikke hadde en god opplevelse med nettleseren vår. Fortell oss hvorfor, slik at vi kan forbedre den!"
 
-#: templates/base.html:5 templates/base_mobile.html:5 templates/base_old.html:5
+#: templates/base.html:5 templates/base_mobile.html:6
+#, fuzzy
+msgid "Welcome"
+msgstr "Velkommen!"
+
+#: templates/base_mobile_old.html:5 templates/base_old.html:5
 msgid "Welcome!"
 msgstr "Velkommen!"
 
 #. Title for a time-based search filter
-#: apps/dashboard/templates/dashboard/when.html:2 apps/website_issues/templates/website_issues/website_issues.html:19
+#: apps/dashboard/templates/dashboard/when.html:2 apps/website_issues/templates/website_issues/website_issues.html:18
 msgid "When"
 msgstr "Når"
 
 #. Refers to sites that were reported in feedback.
-#: apps/dashboard/templates/dashboard/sites.html:4
+#: apps/dashboard/templates/dashboard/sites.html:3 apps/dashboard/templates/dashboard/mobile/sites.html:2
 msgid "While Visiting"
 msgstr "Ved besøk til"
 
@@ -696,23 +662,6 @@ msgstr "Tilbakemeldingen din ser ut til å inneholde en URL. Fjern denne og evt.
 msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr "Tilbakemeldingen din ser ut til å inneholde en e-postadresse. Vennligst fjern denne og evt. annen personlig identifiserbar informasjon i teksten, og prøv igjen. Takk!"
 
-#: apps/search/templates/search/mobile/search.html:40 apps/search/templates/search/mobile/search.html:43
-msgid "all"
-msgstr "alle"
-
-#: apps/dashboard/forms.py:13
-msgctxt "dashboard_period"
-msgid "all"
-msgstr "alle"
-
-#: apps/search/templates/search/mobile/search.html:71
-msgid "next &raquo;"
-msgstr "neste &raquo;"
-
-#: apps/search/templates/search/mobile/search.html:75
-msgid "page %(pagenum)s of %(total)s"
-msgstr "side %(pagenum)s av %(total)s"
-
 #: apps/website_issues/templates/website_issues/sites_list.html:28
 msgid "reset my search"
 msgstr "tilbakestill søket"
@@ -726,23 +675,15 @@ msgstr "til"
 msgid "unknown"
 msgstr "ukjent"
 
-#. This is a link to the URL associated with an opinion.
-#: apps/dashboard/templates/dashboard/messages.html:32
-msgid "visit &rarr;"
-msgstr "besøk &rarr;"
-
 #. {0} is a time delta, e.g.: 2 weeks
 #: apps/dashboard/templates/dashboard/message_list.html:15
 msgid "{0} ago"
 msgstr "{0} siden"
 
-#: apps/feedback/templates/feedback/cluster.html:8
-msgid "{0} opinions for Firefox {1} {2}"
-msgstr "{0} meninger om Firefox {1} {2}"
-
-#: apps/feedback/templates/feedback/cluster.html:12
-msgid "{0} opinions similar to <q>{1}</q>"
-msgstr "{0} meninger som ligner på <q>{1}</q>"
+#: apps/themes/templates/themes/theme_list.html:14
+#, fuzzy
+msgid "{0} similar messages"
+msgstr "{count} lignende meldinger"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:49
 msgid "{percentage}% issues"
@@ -755,8 +696,90 @@ msgstr "{percentage} % ros"
 #~ msgid "&laquo; Next Page"
 #~ msgstr "&laquo; Neste side"
 
+#~ msgid "&laquo; previous"
+#~ msgstr "&laquo; forrige"
+
+#~ msgctxt "dashboard_period"
+#~ msgid "1 day"
+#~ msgstr "1 dag"
+
+#~ msgctxt "dashboard_period"
+#~ msgid "1 month"
+#~ msgstr "1 måned"
+
+#~ msgctxt "dashboard_period"
+#~ msgid "1 week"
+#~ msgstr "1 uke"
+
+#~ msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
+#~ msgstr "<a href=\"%(url)s\">Totalt</a>: %(count)s"
+
+#~ msgid "Clusters of Opinions"
+#~ msgstr "Meningsklynger"
+
+#~ msgid "Dates: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
+#~ msgstr "Datoområde: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
+
+#~ msgid "Demographics"
+#~ msgstr "Statistikk"
+
+#~ msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
+#~ msgstr "Beskrivelse: <span class=\"opt\">\"%(query)s\"</span>;"
+
+#~ msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
+#~ msgstr "Språk: <span class=\"opt\">%(locale)s</span>;"
+
+#~ msgid "Locale: {locale}"
+#~ msgstr "Språk: {locale}"
+
+#, fuzzy
+#~ msgid "Most Recent Message"
+#~ msgid_plural "Last %(count)s Messages"
+#~ msgstr[0] "Siste {count} meldinger"
+#~ msgstr[1] "Siste {count} meldinger"
+
+#~ msgid "No clusters of opinions found."
+#~ msgstr "Ingen meningsklynger funnet."
+
+#~ msgid "OS"
+#~ msgstr "OS"
+
+#~ msgid "OS: <span class=\"opt\">%(os)s</span>"
+#~ msgstr "OS: <span class=\"opt\">%(os)s</span>"
+
+#~ msgid "OS: {os_name}"
+#~ msgstr "OS: {os_name}"
+
+#~ msgid "Overview"
+#~ msgstr "Oversikt"
+
+#~ msgid "Please enable JavaScript to view this page."
+#~ msgstr "Slå på JavaScript for å vise denne siden."
+
 #~ msgid "Previous Page &raquo;"
 #~ msgstr "Forrige side &raquo;"
+
+#~ msgid "Show more"
+#~ msgstr "Vis flere"
+
+#~ msgid "Showing the first {count}"
+#~ msgstr "Viser de første {count}"
+
+#~ msgid "Translate!"
+#~ msgstr "Oversett!"
+
+#~ msgid "UA"
+#~ msgstr "UA"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "all"
+#~ msgstr "alle"
+
+#~ msgctxt "dashboard_period"
+#~ msgid "all"
+#~ msgstr "alle"
 
 #~ msgid "happy"
 #~ msgstr "glad"
@@ -764,8 +787,23 @@ msgstr "{percentage} % ros"
 #~ msgid "happy face"
 #~ msgstr "smileansikt"
 
+#~ msgid "next &raquo;"
+#~ msgstr "neste &raquo;"
+
+#~ msgid "page %(pagenum)s of %(total)s"
+#~ msgstr "side %(pagenum)s av %(total)s"
+
 #~ msgid "sad"
 #~ msgstr "trist"
 
 #~ msgid "sad face"
 #~ msgstr "trist ansikt"
+
+#~ msgid "visit &rarr;"
+#~ msgstr "besøk &rarr;"
+
+#~ msgid "{0} opinions for Firefox {1} {2}"
+#~ msgstr "{0} meninger om Firefox {1} {2}"
+
+#~ msgid "{0} opinions similar to <q>{1}</q>"
+#~ msgstr "{0} meninger som ligner på <q>{1}</q>"
