@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-08-31 11:25+0200\n"
+"PO-Revision-Date: 2010-09-08 22:57+0200\n"
 "Last-Translator: wenzel <wenzel@mozilla.com>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -32,9 +32,8 @@ msgstr[0] "%(count)s ähnliche Nachricht"
 msgstr[1] "%(count)s ähnliche Nachrichten"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:35 apps/search/templates/search/mobile/search.html:38
-#, fuzzy
 msgid "&laquo; Newer Feedback"
-msgstr "&laquo; Neuere Nachrichten"
+msgstr "&laquo; Neueres Feedback"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:64 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:65
 msgid "&laquo; Newer Messages"
@@ -81,11 +80,10 @@ msgid "7d"
 msgstr "7 Tg."
 
 #: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
-#, fuzzy
 msgid "<strong>%(cnt)s</strong> message"
 msgid_plural "<strong>%(cnt)s</strong> messages"
-msgstr[0] "%(count)s Nachricht"
-msgstr[1] "%(count)s Nachrichten"
+msgstr[0] "<strong>%(cnt)s</strong>Nachricht"
+msgstr[1] "<strong>%(cnt)s</strong> Nachrichten"
 
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
@@ -100,9 +98,8 @@ msgid "Advanced"
 msgstr "Suchoptionen"
 
 #: apps/themes/views.py:22 apps/themes/views.py:43
-#, fuzzy
 msgid "All"
-msgstr "alles"
+msgstr "Alles"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:31
 msgctxt "sites_search_all_feedback"
@@ -110,24 +107,21 @@ msgid "All"
 msgstr "alles"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:42
-#, fuzzy
 msgctxt "sites_search_all_platforms"
 msgid "All"
-msgstr "alles"
+msgstr "Alles"
 
 #: apps/themes/views.py:43
-#, fuzzy
 msgid "All Platforms"
-msgstr "Betriebssystem"
+msgstr "Alle Betriebssysteme"
 
 #: apps/themes/views.py:22 apps/website_issues/templates/website_issues/website_issues.html:31
 msgid "All feedback"
 msgstr "Alle Nachrichten"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:42
-#, fuzzy
 msgid "All platforms"
-msgstr "Betriebssystem"
+msgstr "Alle Betriebssysteme"
 
 #: templates/500.html:7
 msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
@@ -150,18 +144,17 @@ msgid "Clusters"
 msgstr "Cluster"
 
 #: apps/themes/templates/themes/index.html:25
-#, fuzzy
 msgid "Common Themes"
-msgstr "Themen"
+msgstr "Häufige Themen"
 
 #: apps/dashboard/templates/dashboard/message_list.html:31 apps/themes/templates/themes/theme_list.html:26
 msgid "Copy User Agent"
-msgstr "User Agent kopieren"
+msgstr "User-Agent kopieren"
 
 #. Tooltip for custom date range button
 #: apps/dashboard/templates/dashboard/when.html:9
 msgid "Custom"
-msgstr "Eigenes Datum"
+msgstr "Zeitraum anpassen"
 
 #: templates/base.html:27 templates/base_mobile.html:17
 msgid "Dashboard"
@@ -192,9 +185,8 @@ msgstr ""
 "3.0 oder später."
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:6 apps/search/templates/search/mobile/search.html:6
-#, fuzzy
 msgid "Feed"
-msgstr "Feedback"
+msgstr "Feed"
 
 #: templates/base.html:31
 msgid "Feedback"
@@ -224,7 +216,7 @@ msgstr "Firefox Input: '{query}'"
 #. refers to time-based search filters (e.g., "for last: 1d")
 #: apps/dashboard/templates/dashboard/mobile/when.html:3
 msgid "For last:"
-msgstr ""
+msgstr "Für letzte(n):"
 
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
@@ -286,7 +278,10 @@ msgstr "Nur Probleme"
 
 #: apps/feedback/templates/feedback/feedback.html:34
 msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
-msgstr "Kennen Sie eine Webseite, die mit dieser Beta-Version besser funktioniert als mit vorherigen Firefox-Versionen? Bitte teilen Sie uns die URL mit, damit wir bescheid wissen!"
+msgstr ""
+"Kennen Sie eine Webseite, die mit dieser Beta-Version besser funktioniert "
+"als mit vorherigen Firefox-Versionen? Bitte teilen Sie uns die URL mit, "
+"damit wir Bescheid wissen!"
 
 #. short for 30 days
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:9
@@ -301,7 +296,7 @@ msgstr "Letzte 7 Tage"
 #. short for 1 day
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:3
 msgid "Last day"
-msgstr "1 Tag"
+msgstr "Letzter Tag"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:22
 msgid "Latest Beta"
@@ -382,9 +377,8 @@ msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head 
 msgstr "Oh! Sie möchten uns gerne Feedback geben? Dann benötigen Sie die neueste Beta-Version! Gehen Sie einfach auf unsere Beta-Seite und <a href=\"%(url)s\">laden Sie die herunter!</a>"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:36 apps/search/templates/search/mobile/search.html:48
-#, fuzzy
 msgid "Older Feedback &raquo;"
-msgstr "Ältere Nachrichten &raquo;"
+msgstr "Älteres Feedback &raquo;"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:65 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:75
 msgid "Older Messages &raquo;"
@@ -411,13 +405,14 @@ msgid "Platform"
 msgstr "Betriebssystem"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:39
-#, fuzzy
 msgid "Platforms"
-msgstr "Betriebssystem"
+msgstr "Betriebssysteme"
 
 #: apps/feedback/templates/feedback/feedback.html:63 apps/feedback/templates/feedback/mobile/feedback.html:43
 msgid "Please ensure that there is no personally identifiable information here."
-msgstr "Bitte stellen Sie sicher, keine sensiblen Daten preiszugeben."
+msgstr ""
+"Bitte vergewissern Sie sich, dass Sie mit Ihren Angaben keine sensiblen "
+"Daten preisgeben."
 
 #: templates/404.html:9 templates/500.html:14
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
@@ -517,7 +512,7 @@ msgstr "Sphinx meldete einen unerwarteten Fehler: %s"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:7 apps/search/templates/search/mobile/search.html:7
 msgid "Statistics"
-msgstr ""
+msgstr "Statistiken"
 
 #: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:65 apps/feedback/templates/feedback/mobile/feedback.html:3
 #: apps/feedback/templates/feedback/mobile/feedback.html:45
@@ -542,7 +537,7 @@ msgstr "Danke für Ihren Kommentar"
 
 #: apps/feedback/templates/feedback/thanks.html:7 apps/feedback/templates/feedback/mobile/thanks.html:8
 msgid "Thanks for sending us your feedback!"
-msgstr "Danke, dass Sie uns Feedback gesendet haben!"
+msgstr "Danke, dass Sie uns Ihre Meinung mitgeteilt haben!"
 
 #: apps/search/templates/search/unavailable.html:28
 msgid "Thanks!"
@@ -609,9 +604,8 @@ msgid "We are sorry that you have not had a good experience with our browser. Pl
 msgstr "Es tut uns leid, dass Sie eine schlechte Erfahrung mit unserem Browser hatten. Bitte sagen Sie uns warum, sodass wir es verbessern können!"
 
 #: templates/base.html:5 templates/base_mobile.html:6
-#, fuzzy
 msgid "Welcome"
-msgstr "Willkommen!"
+msgstr "Willkommen"
 
 #: templates/base_mobile_old.html:5 templates/base_old.html:5
 msgid "Welcome!"
@@ -672,9 +666,8 @@ msgid "{0} ago"
 msgstr "vor {0}"
 
 #: apps/themes/templates/themes/theme_list.html:14
-#, fuzzy
 msgid "{0} similar messages"
-msgstr "%(count)s ähnliche Nachricht"
+msgstr "{0} ähnliche Nachrichten"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:49
 msgid "{percentage}% issues"
