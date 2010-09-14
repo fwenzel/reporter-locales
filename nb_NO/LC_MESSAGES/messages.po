@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-21 13:51+0200\n"
-"PO-Revision-Date: 2010-08-01 00:57+0200\n"
+"PO-Revision-Date: 2010-09-14 23:31+0200\n"
 "Last-Translator: Håvard <havard.mork@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -14,46 +14,39 @@ msgstr ""
 "X-Generator: Pootle 2.0.3\n"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:38
-#, fuzzy
 msgid "%(count)s message"
 msgid_plural "%(count)s messages"
-msgstr[0] "{count} meldinger"
-msgstr[1] "{count} meldinger"
+msgstr[0] "%(count)s melding"
+msgstr[1] "%(count)s meldinger"
 
 #. "similar" refers to "similar messages".
 #: apps/website_issues/templates/website_issues/sites_list.html:62
-#, fuzzy
 msgid "%(count)s similar"
 msgid_plural "%(count)s similar"
-msgstr[0] "{count} lignende"
-msgstr[1] "{count} lignende"
+msgstr[0] "%(count)s lignende"
+msgstr[1] "%(count)s lignende"
 
 #: apps/website_issues/templates/website_issues/single_site.html:18
-#, fuzzy
 msgid "%(count)s similar message"
 msgid_plural "%(count)s similar messages"
-msgstr[0] "{count} lignende meldinger"
-msgstr[1] "{count} lignende meldinger"
+msgstr[0] "%(count)s lignende melding"
+msgstr[1] "%(count)s lignende meldinger"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:35 apps/search/templates/search/mobile/search.html:38
-#, fuzzy
 msgid "&laquo; Newer Feedback"
-msgstr "&laquo; Eldre meldinger"
+msgstr "&laquo; Nyere tilbakemeldinger"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:64 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:65
-#, fuzzy
 msgid "&laquo; Newer Messages"
-msgstr "&laquo; Eldre meldinger"
+msgstr "&laquo; Nyere meldinger"
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:3
-#, fuzzy
 msgid "&laquo; Previous Page"
-msgstr "&laquo; forrige"
+msgstr "&laquo; Forrige side"
 
 #: apps/website_issues/templates/website_issues/theme.html:29
-#, fuzzy
 msgid "&laquo; Previous Page;"
-msgstr "&laquo; forrige"
+msgstr "&laquo; Forrige side;"
 
 #: apps/search/forms.py:46
 msgctxt "locale_choice"
@@ -88,11 +81,10 @@ msgid "7d"
 msgstr "7d"
 
 #: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
-#, fuzzy
 msgid "<strong>%(cnt)s</strong> message"
 msgid_plural "<strong>%(cnt)s</strong> messages"
-msgstr[0] "{count} meldinger"
-msgstr[1] "{count} meldinger"
+msgstr[0] "<strong>%(cnt)s</strong> melding"
+msgstr[1] "<strong>%(cnt)s</strong> meldinger"
 
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
@@ -107,7 +99,6 @@ msgid "Advanced"
 msgstr "Avansert"
 
 #: apps/themes/views.py:22 apps/themes/views.py:43
-#, fuzzy
 msgid "All"
 msgstr "Alle"
 
@@ -117,24 +108,21 @@ msgid "All"
 msgstr "Alle"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:42
-#, fuzzy
 msgctxt "sites_search_all_platforms"
 msgid "All"
 msgstr "Alle"
 
 #: apps/themes/views.py:43
-#, fuzzy
 msgid "All Platforms"
-msgstr "Plattform"
+msgstr "Alle plattformer"
 
 #: apps/themes/views.py:22 apps/website_issues/templates/website_issues/website_issues.html:31
 msgid "All feedback"
 msgstr "Alle tilbakemeldinger"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:42
-#, fuzzy
 msgid "All platforms"
-msgstr "Plattform"
+msgstr "Alle plattformer"
 
 #: templates/500.html:7
 msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
@@ -145,9 +133,8 @@ msgid "Back to all sites &raquo;"
 msgstr "Tilbake til alle nettsted &raquo;"
 
 #: apps/website_issues/templates/website_issues/theme.html:18
-#, fuzzy
 msgid "Back to {domain} &raquo;"
-msgstr "Tilbake til alle nettsted &raquo;"
+msgstr "Tilbake til {domain} &raquo;"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:22
 msgid "Beta"
@@ -158,9 +145,8 @@ msgid "Clusters"
 msgstr "Klynger"
 
 #: apps/themes/templates/themes/index.html:25
-#, fuzzy
 msgid "Common Themes"
-msgstr "Temaer"
+msgstr "Vanlige emner"
 
 #: apps/dashboard/templates/dashboard/message_list.html:31 apps/themes/templates/themes/theme_list.html:26
 msgid "Copy User Agent"
@@ -200,9 +186,8 @@ msgstr ""
 "License v3.0</a> eller nyere versjoner."
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:6 apps/search/templates/search/mobile/search.html:6
-#, fuzzy
 msgid "Feed"
-msgstr "Tilbakemelding"
+msgstr "Nyhetskilde"
 
 #: templates/base.html:31
 msgid "Feedback"
@@ -232,7 +217,7 @@ msgstr "Firefox Input: '{query}'"
 #. refers to time-based search filters (e.g., "for last: 1d")
 #: apps/dashboard/templates/dashboard/mobile/when.html:3
 msgid "For last:"
-msgstr ""
+msgstr "For siste:"
 
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
@@ -357,13 +342,12 @@ msgid "More sites..."
 msgstr "Flere nettsted ..."
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:37
-#, fuzzy
 msgid "Next Page &raquo;"
-msgstr "neste &raquo;"
+msgstr "Neste side &raquo;"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:27
 msgid "No results found!"
-msgstr "Ingen resultater funnet."
+msgstr "Ingen resultater funnet!"
 
 #: apps/dashboard/templates/dashboard/message_list.html:43 apps/themes/templates/themes/theme_list.html:38
 msgid "No search results found."
@@ -391,14 +375,12 @@ msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head 
 msgstr "Åh! Så du ønsker å gi oss tilbakemelding. Du trenger den siste betaen! Gå til beta-nettsiden og <a href=\"%(url)s\">last den ned!</a>"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:36 apps/search/templates/search/mobile/search.html:48
-#, fuzzy
 msgid "Older Feedback &raquo;"
-msgstr "Nyere meldinger &raquo;"
+msgstr "Eldre tilbakemeldinger &raquo;"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:65 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:75
-#, fuzzy
 msgid "Older Messages &raquo;"
-msgstr "Nyere meldinger &raquo;"
+msgstr "Eldre meldinger &raquo;"
 
 #: apps/feedback/templates/feedback/opinion.html:3
 msgid "Opinion"
@@ -421,9 +403,8 @@ msgid "Platform"
 msgstr "Plattform"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:39
-#, fuzzy
 msgid "Platforms"
-msgstr "Plattform"
+msgstr "Plattformer"
 
 #: apps/feedback/templates/feedback/feedback.html:63 apps/feedback/templates/feedback/mobile/feedback.html:43
 msgid "Please ensure that there is no personally identifiable information here."
@@ -527,7 +508,7 @@ msgstr "Sphinx kastet et ukjent unntak: %s"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:7 apps/search/templates/search/mobile/search.html:7
 msgid "Statistics"
-msgstr ""
+msgstr "Statistikk"
 
 #: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:65 apps/feedback/templates/feedback/mobile/feedback.html:3
 #: apps/feedback/templates/feedback/mobile/feedback.html:45
@@ -559,9 +540,8 @@ msgid "Thanks!"
 msgstr "Takk!"
 
 #: apps/website_issues/templates/website_issues/theme.html:15
-#, fuzzy
 msgid "Theme"
-msgstr "Temaer"
+msgstr "Emne"
 
 #. Formerly: Clusters
 #: apps/themes/templates/themes/index.html:2 templates/base.html:34
@@ -620,9 +600,8 @@ msgid "We are sorry that you have not had a good experience with our browser. Pl
 msgstr "Vi er lei for å høre at du ikke hadde en god opplevelse med nettleseren vår. Fortell oss hvorfor, slik at vi kan forbedre den!"
 
 #: templates/base.html:5 templates/base_mobile.html:6
-#, fuzzy
 msgid "Welcome"
-msgstr "Velkommen!"
+msgstr "Velkommen"
 
 #: templates/base_mobile_old.html:5 templates/base_old.html:5
 msgid "Welcome!"
@@ -681,9 +660,8 @@ msgid "{0} ago"
 msgstr "{0} siden"
 
 #: apps/themes/templates/themes/theme_list.html:14
-#, fuzzy
 msgid "{0} similar messages"
-msgstr "{count} lignende meldinger"
+msgstr "{0} lignende meldinger"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:49
 msgid "{percentage}% issues"
