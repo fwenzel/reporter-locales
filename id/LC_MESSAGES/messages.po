@@ -3,14 +3,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-21 09:00+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2010-09-14 18:54+0200\n"
+"Last-Translator: Romi <romihardiyanto@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.3\n"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:38
 msgid "%(count)s message"
@@ -29,7 +30,6 @@ msgid_plural "%(count)s similar messages"
 msgstr[0] "%(count)s pesan mirip"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:35 apps/search/templates/search/mobile/search.html:38
-#, fuzzy
 msgid "&laquo; Newer Feedback"
 msgstr "&laquo; Pesan Anyar"
 
@@ -78,10 +78,9 @@ msgid "7d"
 msgstr "7h"
 
 #: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
-#, fuzzy
 msgid "<strong>%(cnt)s</strong> message"
 msgid_plural "<strong>%(cnt)s</strong> messages"
-msgstr[0] "%(count)s pesan"
+msgstr[0] "<strong>%(cnt)s</strong> pesan"
 
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
@@ -96,7 +95,6 @@ msgid "Advanced"
 msgstr "Canggih"
 
 #: apps/themes/views.py:22 apps/themes/views.py:43
-#, fuzzy
 msgid "All"
 msgstr "Semua"
 
@@ -106,24 +104,21 @@ msgid "All"
 msgstr "Semua"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:42
-#, fuzzy
 msgctxt "sites_search_all_platforms"
 msgid "All"
 msgstr "Semua"
 
 #: apps/themes/views.py:43
-#, fuzzy
 msgid "All Platforms"
-msgstr "Platform"
+msgstr "Semua Platform"
 
 #: apps/themes/views.py:22 apps/website_issues/templates/website_issues/website_issues.html:31
 msgid "All feedback"
 msgstr "Semua saran"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:42
-#, fuzzy
 msgid "All platforms"
-msgstr "Platform"
+msgstr "Semua Platform"
 
 #: templates/500.html:7
 msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
@@ -146,9 +141,8 @@ msgid "Clusters"
 msgstr "Kelompok"
 
 #: apps/themes/templates/themes/index.html:25
-#, fuzzy
 msgid "Common Themes"
-msgstr "Tema"
+msgstr "Tema Umum"
 
 #: apps/dashboard/templates/dashboard/message_list.html:31 apps/themes/templates/themes/theme_list.html:26
 msgid "Copy User Agent"
@@ -173,7 +167,9 @@ msgstr "Unduh Versi Beta"
 
 #: apps/search/templates/search/search.html:54
 msgid "Due to software constraints, we can only show the last 1000 messages for this search query."
-msgstr "Oleh karena ada keterbatasan perangkat lunak, kami hanya menampilkan 1000 pesan terakhir untuk pencarian ini."
+msgstr ""
+"Oleh karena ada keterbatasan perangkat lunak, kami hanya dapat menampilkan "
+"1000 pesan terakhir untuk pencarian ini."
 
 #: apps/feedback/forms.py:21
 msgid "Enter your feedback here."
@@ -188,9 +184,8 @@ msgstr ""
 "atau versi yang lebih baru."
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:6 apps/search/templates/search/mobile/search.html:6
-#, fuzzy
 msgid "Feed"
-msgstr "Saran"
+msgstr "Feed"
 
 #: templates/base.html:31
 msgid "Feedback"
@@ -220,7 +215,7 @@ msgstr "Firefox Input: '{query}'"
 #. refers to time-based search filters (e.g., "for last: 1d")
 #: apps/dashboard/templates/dashboard/mobile/when.html:3
 msgid "For last:"
-msgstr ""
+msgstr "Dalam terakhir:"
 
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
@@ -228,7 +223,9 @@ msgstr "Buka"
 
 #: apps/feedback/templates/feedback/feedback.html:42
 msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
-msgstr "Punya masalah dengan situs web tertentu? Silakan tambahkan alamat URL situs web tersebut agar kami dapat lebih cepat menemukan masalahnya!"
+msgstr ""
+"Punya masalah dengan situs web tertentu? Silakan tambahkan alamat URL situs "
+"web tersebut agar kami dapat lebih cepat menemukan masalahnya!"
 
 #: templates/404.html:6
 msgid "I'm sorry, I could not find what you were looking for."
@@ -240,11 +237,16 @@ msgstr "Maaf, ada kesalahan pada pencarian Anda."
 
 #: apps/search/templates/search/unavailable.html:17
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
-msgstr "Jika masalahnya masih ada, mohon <a href=\"%(bug_url)s\">kirimkan laporan bug</a>, dengan menyebutkan URL yang Anda akses."
+msgstr ""
+"Jika masalahnya tetap ada, mohon <a href=\"%(bug_url)s\">kirimkan laporan "
+"bug</a>, dengan menyebutkan URL yang Anda akses."
 
 #: templates/500.html:20
 msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-msgstr "Jika Anda memiliki informasi lainnya tentang langkah-langkah untuk mereproduksi masalah, mohon <a href=\"%(bug_url)s\">kirimkan laporan bug.</a> Terima kasih!"
+msgstr ""
+"Jika Anda memiliki informasi lainnya tentang langkah-langkah untuk "
+"mereproduksi masalah ini, mohon <a href=\"%(bug_url)s\">kirimkan laporan "
+"bug</a>. Terima kasih!"
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
@@ -252,7 +254,9 @@ msgstr "Jika Anda ingin melihat kemana saran Anda dikirimkan, silakan lihat <a h
 
 #: templates/404.html:14
 msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-msgstr "Jika Anda mengikuti tautan rusak, mohon <a href=\"%(bug_url)s\">kirimkan laporan bug.</a> Terima kasih!"
+msgstr ""
+"Jika Anda mengikuti tautan rusak, mohon <a href=\"%(bug_url)s\">kirimkan "
+"laporan bug</a>. Terima kasih!"
 
 #: apps/search/templates/search/unavailable.html:24
 msgid "Include the following error message in your bug report:"
@@ -301,7 +305,7 @@ msgstr "1 hari terakhir"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:22
 msgid "Latest Beta"
-msgstr "Versi Beta Terakhir"
+msgstr "Versi Beta Terbaru"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:54
 msgid "Latest Feedback"
@@ -362,7 +366,7 @@ msgstr "Tak Ditemukan"
 
 #: apps/search/forms.py:62
 msgid "OS:"
-msgstr "SO:"
+msgstr "OS:"
 
 #. Refers to terms often mentioned in feedback.
 #: apps/dashboard/templates/dashboard/themes.html:3 apps/dashboard/templates/dashboard/mobile/themes.html:2
@@ -375,12 +379,14 @@ msgstr "Ow! Anda ingin mengirimkan saran untuk versi Firefox selanjutnya! Terima
 
 #: apps/feedback/templates/feedback/mobile/need_beta.html:9
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
-msgstr "Ow! Anda ingin mengirimkan saran? Anda harus menggunakan versi Firefox Beta terbaru! Buka saja laman versi beta kami dan <a href=\"%(url)s\">unduh ke komputer Anda!</a>"
+msgstr ""
+"Ow! Anda ingin mengirimkan saran? Anda harus menggunakan versi Firefox Beta "
+"terbaru! Buka saja laman versi beta kami dan <a href=\"%(url)s\">unduh ke "
+"komputer Anda!</a>!"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:36 apps/search/templates/search/mobile/search.html:48
-#, fuzzy
 msgid "Older Feedback &raquo;"
-msgstr "Pesan Lawas &raquo;"
+msgstr "Saran Lawas &raquo;"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:65 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:75
 msgid "Older Messages &raquo;"
@@ -400,14 +406,15 @@ msgstr "Bahasa Lainnya:"
 
 #: apps/search/templates/search/unavailable.html:10
 msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
-msgstr "Mesin pencari kami mungkin lagi ngadat. Anda dapat memulai lagi lewat <a href=\"%(url)s\">dasbor</a> dan mencobanya lagi nanti."
+msgstr ""
+"Mesin pencari kami mungkin lagi <em>ngadat</em>. Anda dapat memulai lagi "
+"lewat <a href=\"%(url)s\">dasbor</a> dan mencobanya lagi nanti."
 
 #: apps/dashboard/templates/dashboard/platforms.html:11 apps/dashboard/templates/dashboard/mobile/platforms.html:7 apps/themes/templates/themes/index.html:15
 msgid "Platform"
 msgstr "Platform"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:39
-#, fuzzy
 msgid "Platforms"
 msgstr "Platform"
 
@@ -513,7 +520,7 @@ msgstr "Sphinx telah melemparkan eksepsi yang tak dikenal: %s"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:7 apps/search/templates/search/mobile/search.html:7
 msgid "Statistics"
-msgstr ""
+msgstr "Statistik"
 
 #: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:65 apps/feedback/templates/feedback/mobile/feedback.html:3
 #: apps/feedback/templates/feedback/mobile/feedback.html:45
@@ -526,7 +533,9 @@ msgstr "User-Agent yang dikirim bukan versi beta terakhir."
 
 #: apps/feedback/templates/feedback/feedback.html:13
 msgid "Super! It's great to hear that you like our pre-released browser. Please explain what you specifically like!"
-msgstr "Keren! Kami gembira sekali Anda menyukai versi prarilis peramban kami. Silakan gambarkan hal-hal tertentu yang Anda sukai!"
+msgstr ""
+"Keren! Kami gembira sekali Anda menyukai versi prarilis peramban kami. "
+"Silakan ceritakan hal-hal tertentu yang Anda sukai!"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:13
 msgid "Super! Please tell us more!"
@@ -605,7 +614,6 @@ msgid "We are sorry that you have not had a good experience with our browser. Pl
 msgstr "Mohon maaf jika Anda masih belum mendapatkan pengalaman terbaik bersama peramban kami. Mohon beri kami saran agar kami dapat memperbaikinya!"
 
 #: templates/base.html:5 templates/base_mobile.html:6
-#, fuzzy
 msgid "Welcome"
 msgstr "Selamat Datang!"
 
@@ -668,7 +676,6 @@ msgid "{0} ago"
 msgstr "{0} yang lalu"
 
 #: apps/themes/templates/themes/theme_list.html:14
-#, fuzzy
 msgid "{0} similar messages"
 msgstr "%(count)s pesan mirip"
 
