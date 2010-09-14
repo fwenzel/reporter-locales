@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-21 07:58+0200\n"
-"PO-Revision-Date: 2010-09-01 18:53+0200\n"
+"PO-Revision-Date: 2010-09-14 17:43+0200\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -30,9 +30,8 @@ msgid_plural "%(count)s similar messages"
 msgstr[0] "%(count)s 個類似的訊息"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:35 apps/search/templates/search/mobile/search.html:38
-#, fuzzy
 msgid "&laquo; Newer Feedback"
-msgstr "&laquo; 更新的訊息"
+msgstr "&laquo; 更新的回饋"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:64 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:65
 msgid "&laquo; Newer Messages"
@@ -79,10 +78,9 @@ msgid "7d"
 msgstr "7 天"
 
 #: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
-#, fuzzy
 msgid "<strong>%(cnt)s</strong> message"
 msgid_plural "<strong>%(cnt)s</strong> messages"
-msgstr[0] "%(count)s 條訊息"
+msgstr[0] "%(cnt)s 條訊息"
 
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
@@ -97,7 +95,6 @@ msgid "Advanced"
 msgstr "進階"
 
 #: apps/themes/views.py:22 apps/themes/views.py:43
-#, fuzzy
 msgid "All"
 msgstr "全部"
 
@@ -107,24 +104,21 @@ msgid "All"
 msgstr "全部"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:42
-#, fuzzy
 msgctxt "sites_search_all_platforms"
 msgid "All"
 msgstr "全部"
 
 #: apps/themes/views.py:43
-#, fuzzy
 msgid "All Platforms"
-msgstr "平台"
+msgstr "所有平台"
 
 #: apps/themes/views.py:22 apps/website_issues/templates/website_issues/website_issues.html:31
 msgid "All feedback"
 msgstr "全部的使用者回饋"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:42
-#, fuzzy
 msgid "All platforms"
-msgstr "平台"
+msgstr "所有平台"
 
 #: templates/500.html:7
 msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
@@ -147,9 +141,8 @@ msgid "Clusters"
 msgstr "意見群"
 
 #: apps/themes/templates/themes/index.html:25
-#, fuzzy
 msgid "Common Themes"
-msgstr "常見問題"
+msgstr "常見類型"
 
 #: apps/dashboard/templates/dashboard/message_list.html:31 apps/themes/templates/themes/theme_list.html:26
 msgid "Copy User Agent"
@@ -184,12 +177,13 @@ msgstr "在此輸入您的回饋。"
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
 "any later version."
-msgstr "除另有<a href=\"%(legal_url)s\">註明</a>，本站內容皆採<br/> <a href=\"%(license_url)s\">創用 CC 姓名標示 - 相同方式分享條款 3.0</a> 或更新的版本授權使用。"
+msgstr ""
+"除另有<a href=\"%(legal_url)s\">註明</a>，本站內容皆採<br/> <a href=\"%(license_url)s\">創用 "
+"CC 姓名標示 - 相同方式分享條款 3.0</a> 或更新的版本授權使用。"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:6 apps/search/templates/search/mobile/search.html:6
-#, fuzzy
 msgid "Feed"
-msgstr "意見回饋"
+msgstr "Feed"
 
 #: templates/base.html:31
 msgid "Feedback"
@@ -219,7 +213,7 @@ msgstr "Firefox Input: '{query}'"
 #. refers to time-based search filters (e.g., "for last: 1d")
 #: apps/dashboard/templates/dashboard/mobile/when.html:3
 msgid "For last:"
-msgstr ""
+msgstr "在最近:"
 
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
@@ -377,9 +371,8 @@ msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head 
 msgstr "喔，您似乎想要給我們一些回應，但您需要最新的 Beta 測試版！請直接到我們的 Beta 頁面並且 <a href=\"%(url)s\">下載安裝！</a>"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:36 apps/search/templates/search/mobile/search.html:48
-#, fuzzy
 msgid "Older Feedback &raquo;"
-msgstr "更舊的訊息 &raquo;"
+msgstr "更舊的回饋 &raquo;"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:65 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:75
 msgid "Older Messages &raquo;"
@@ -406,7 +399,6 @@ msgid "Platform"
 msgstr "平台"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:39
-#, fuzzy
 msgid "Platforms"
 msgstr "平台"
 
@@ -416,7 +408,7 @@ msgstr "請確定內容中沒有可供識別的個人資訊。"
 
 #: templates/404.html:9 templates/500.html:14
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
-msgstr "請從 <a href=\"%(url)s\">dashboard</a> 重新開始。"
+msgstr "請從 <a href=\"%(dashboard_url)s\">dashboard</a> 重新開始。"
 
 #. Formerly called "happy"
 #: apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:11 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36
@@ -512,7 +504,7 @@ msgstr "Sphinx 傳出未知的意外： %s"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:7 apps/search/templates/search/mobile/search.html:7
 msgid "Statistics"
-msgstr ""
+msgstr "統計"
 
 #: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:65 apps/feedback/templates/feedback/mobile/feedback.html:3
 #: apps/feedback/templates/feedback/mobile/feedback.html:45
@@ -604,9 +596,8 @@ msgid "We are sorry that you have not had a good experience with our browser. Pl
 msgstr "很抱歉，我們的瀏覽器沒有帶給您良好的體驗。請告訴我們原因，以利未來的改進！"
 
 #: templates/base.html:5 templates/base_mobile.html:6
-#, fuzzy
 msgid "Welcome"
-msgstr "歡迎！"
+msgstr "歡迎"
 
 #: templates/base_mobile_old.html:5 templates/base_old.html:5
 msgid "Welcome!"
@@ -665,9 +656,8 @@ msgid "{0} ago"
 msgstr "{0} 之前"
 
 #: apps/themes/templates/themes/theme_list.html:14
-#, fuzzy
 msgid "{0} similar messages"
-msgstr "%(count)s 個類似的訊息"
+msgstr "{0} 個類似的訊息"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:49
 msgid "{percentage}% issues"
