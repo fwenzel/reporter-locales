@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 15:36+0200\n"
-"PO-Revision-Date: 2010-08-31 20:45+0200\n"
-"Last-Translator: Rubén <nukeador@gmail.com>\n"
+"PO-Revision-Date: 2010-09-15 18:55+0200\n"
+"Last-Translator: Ricardo <rpmdisguise-otros@yahoo.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -16,30 +16,29 @@ msgstr ""
 #: apps/website_issues/templates/website_issues/sites_list.html:38
 msgid "%(count)s message"
 msgid_plural "%(count)s messages"
-msgstr[0] "{count} mensaje"
-msgstr[1] "{count} mensajes"
+msgstr[0] "%(count)s mensaje"
+msgstr[1] "%(count)s mensajes"
 
 #. "similar" refers to "similar messages".
 #: apps/website_issues/templates/website_issues/sites_list.html:62
 msgid "%(count)s similar"
 msgid_plural "%(count)s similar"
-msgstr[0] "{count} similar"
-msgstr[1] "{count} similares"
+msgstr[0] "%(count)s similar"
+msgstr[1] "%(count)s similares"
 
 #: apps/website_issues/templates/website_issues/single_site.html:18
 msgid "%(count)s similar message"
 msgid_plural "%(count)s similar messages"
-msgstr[0] "{count} mensaje similar"
-msgstr[1] "{count} mensajes similares"
+msgstr[0] "%(count)s mensaje similar"
+msgstr[1] "%(count)s mensajes similares"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:35 apps/search/templates/search/mobile/search.html:38
-#, fuzzy
 msgid "&laquo; Newer Feedback"
-msgstr "&laquo; Mensajes más recientes"
+msgstr "&laquo; Opiniones recientes"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:64 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:65
 msgid "&laquo; Newer Messages"
-msgstr "&laquo; Mensajes más recientes"
+msgstr "&laquo; Mensajes recientes"
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:3
 msgid "&laquo; Previous Page"
@@ -82,11 +81,10 @@ msgid "7d"
 msgstr "7 días"
 
 #: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
-#, fuzzy
 msgid "<strong>%(cnt)s</strong> message"
 msgid_plural "<strong>%(cnt)s</strong> messages"
-msgstr[0] "{count} mensaje"
-msgstr[1] "{count} mensajes"
+msgstr[0] "<strong>%(cnt)s</strong> mensaje"
+msgstr[1] "<strong>%(cnt)s</strong> mensajes"
 
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
@@ -101,7 +99,6 @@ msgid "Advanced"
 msgstr "Avanzada"
 
 #: apps/themes/views.py:22 apps/themes/views.py:43
-#, fuzzy
 msgid "All"
 msgstr "Todo"
 
@@ -111,24 +108,21 @@ msgid "All"
 msgstr "Todo"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:42
-#, fuzzy
 msgctxt "sites_search_all_platforms"
 msgid "All"
 msgstr "Todo"
 
 #: apps/themes/views.py:43
-#, fuzzy
 msgid "All Platforms"
-msgstr "Plataforma"
+msgstr "Todas las plataformas"
 
 #: apps/themes/views.py:22 apps/website_issues/templates/website_issues/website_issues.html:31
 msgid "All feedback"
 msgstr "Todos los comentarios"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:42
-#, fuzzy
 msgid "All platforms"
-msgstr "Plataforma"
+msgstr "Todas las plataformas"
 
 #: templates/500.html:7
 msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
@@ -151,9 +145,8 @@ msgid "Clusters"
 msgstr "Grupos"
 
 #: apps/themes/templates/themes/index.html:25
-#, fuzzy
 msgid "Common Themes"
-msgstr "Temas"
+msgstr "Temas comunes"
 
 #: apps/dashboard/templates/dashboard/message_list.html:31 apps/themes/templates/themes/theme_list.html:26
 msgid "Copy User Agent"
@@ -194,9 +187,8 @@ msgstr ""
 
 # Enlace a todas las opiniones
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:6 apps/search/templates/search/mobile/search.html:6
-#, fuzzy
 msgid "Feed"
-msgstr "Opinión"
+msgstr "Canal"
 
 # Enlace a todas las opiniones
 #: templates/base.html:31
@@ -227,7 +219,7 @@ msgstr "Firefox Input: '{query}'"
 #. refers to time-based search filters (e.g., "for last: 1d")
 #: apps/dashboard/templates/dashboard/mobile/when.html:3
 msgid "For last:"
-msgstr ""
+msgstr "Últimos:"
 
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
@@ -385,7 +377,6 @@ msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head 
 msgstr "¡Oh! Entonces quieres ofrecernos tu opinión. ¡Necesitarás la última beta! Dirígete a nuestra página para la beta y <a href=\"%(url)s\">¡descárgala!</a>"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:36 apps/search/templates/search/mobile/search.html:48
-#, fuzzy
 msgid "Older Feedback &raquo;"
 msgstr "Mensajes más antiguos &raquo;"
 
@@ -414,9 +405,8 @@ msgid "Platform"
 msgstr "Plataforma"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:39
-#, fuzzy
 msgid "Platforms"
-msgstr "Plataforma"
+msgstr "Plataformas"
 
 #: apps/feedback/templates/feedback/feedback.html:63 apps/feedback/templates/feedback/mobile/feedback.html:43
 msgid "Please ensure that there is no personally identifiable information here."
@@ -520,7 +510,7 @@ msgstr "Sphinx lanzó una excepción desconocida: %s"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:7 apps/search/templates/search/mobile/search.html:7
 msgid "Statistics"
-msgstr ""
+msgstr "Estadísticas"
 
 #: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:65 apps/feedback/templates/feedback/mobile/feedback.html:3
 #: apps/feedback/templates/feedback/mobile/feedback.html:45
@@ -612,9 +602,8 @@ msgid "We are sorry that you have not had a good experience with our browser. Pl
 msgstr "Sentimos que no hayas tenido una buena experiencia con tu navegador. Por favor, ¡dinos por qué, para que podamos mejorarlo!"
 
 #: templates/base.html:5 templates/base_mobile.html:6
-#, fuzzy
 msgid "Welcome"
-msgstr "¡Bienvenido!"
+msgstr "Bienvenido"
 
 #: templates/base_mobile_old.html:5 templates/base_old.html:5
 msgid "Welcome!"
@@ -675,9 +664,8 @@ msgid "{0} ago"
 msgstr "hace {0}"
 
 #: apps/themes/templates/themes/theme_list.html:14
-#, fuzzy
 msgid "{0} similar messages"
-msgstr "{count} mensaje similar"
+msgstr "{0} mensajes similares"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:49
 msgid "{percentage}% issues"
