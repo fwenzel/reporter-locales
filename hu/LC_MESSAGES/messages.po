@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-21 10:36+0200\n"
-"PO-Revision-Date: 2010-09-08 08:26+0200\n"
+"PO-Revision-Date: 2010-09-15 19:59+0200\n"
 "Last-Translator: Kalman <kkemenczy@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -33,7 +33,6 @@ msgstr[0] "{count} hasonló üzenet"
 msgstr[1] "{count} hasonló üzenet"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:35 apps/search/templates/search/mobile/search.html:38
-#, fuzzy
 msgid "&laquo; Newer Feedback"
 msgstr "&laquo; korábbi üzenetek"
 
@@ -82,11 +81,10 @@ msgid "7d"
 msgstr "7 nap"
 
 #: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
-#, fuzzy
 msgid "<strong>%(cnt)s</strong> message"
 msgid_plural "<strong>%(cnt)s</strong> messages"
-msgstr[0] "{count} üzenet"
-msgstr[1] "{count} üzenet"
+msgstr[0] "<strong>%(cnt)s</strong> üzenet"
+msgstr[1] "<strong>%(cnt)s</strong> üzenet"
 
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
@@ -101,7 +99,6 @@ msgid "Advanced"
 msgstr "Speciális"
 
 #: apps/themes/views.py:22 apps/themes/views.py:43
-#, fuzzy
 msgid "All"
 msgstr "összes"
 
@@ -111,24 +108,21 @@ msgid "All"
 msgstr "összes"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:42
-#, fuzzy
 msgctxt "sites_search_all_platforms"
 msgid "All"
 msgstr "összes"
 
 #: apps/themes/views.py:43
-#, fuzzy
 msgid "All Platforms"
-msgstr "Platform"
+msgstr "Összes platform"
 
 #: apps/themes/views.py:22 apps/website_issues/templates/website_issues/website_issues.html:31
 msgid "All feedback"
 msgstr "összes visszajelzés"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:42
-#, fuzzy
 msgid "All platforms"
-msgstr "Platform"
+msgstr "Összes platform"
 
 #: templates/500.html:7
 msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
@@ -151,9 +145,8 @@ msgid "Clusters"
 msgstr "Csoportosítások"
 
 #: apps/themes/templates/themes/index.html:25
-#, fuzzy
 msgid "Common Themes"
-msgstr "Témák"
+msgstr "Gyakori témák"
 
 #: apps/dashboard/templates/dashboard/message_list.html:31 apps/themes/templates/themes/theme_list.html:26
 msgid "Copy User Agent"
@@ -193,9 +186,8 @@ msgstr ""
 "alatt jelenik meg.."
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:6 apps/search/templates/search/mobile/search.html:6
-#, fuzzy
 msgid "Feed"
-msgstr "Visszajelzés"
+msgstr "Hírfolyam"
 
 #: templates/base.html:31
 msgid "Feedback"
@@ -225,7 +217,7 @@ msgstr "Firefox Input: '{query}'"
 #. refers to time-based search filters (e.g., "for last: 1d")
 #: apps/dashboard/templates/dashboard/mobile/when.html:3
 msgid "For last:"
-msgstr ""
+msgstr "Az elmúlt"
 
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
@@ -383,7 +375,6 @@ msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head 
 msgstr "Úgy látszik, visszajelzést szeretne küldeni nekünk. Ehhez használja a legfrissebb beta verziót, amit a <a href=\"%(url)s\">innen tud letölteni</a>."
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:36 apps/search/templates/search/mobile/search.html:48
-#, fuzzy
 msgid "Older Feedback &raquo;"
 msgstr "régebbi üzenetek &raquo;"
 
@@ -412,7 +403,6 @@ msgid "Platform"
 msgstr "Platform"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:39
-#, fuzzy
 msgid "Platforms"
 msgstr "Platform"
 
@@ -518,7 +508,7 @@ msgstr "A Sphinx egy ismeretlen hibát adott vissza: %s"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:7 apps/search/templates/search/mobile/search.html:7
 msgid "Statistics"
-msgstr ""
+msgstr "Statisztika"
 
 #: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:65 apps/feedback/templates/feedback/mobile/feedback.html:3
 #: apps/feedback/templates/feedback/mobile/feedback.html:45
@@ -610,7 +600,6 @@ msgid "We are sorry that you have not had a good experience with our browser. Pl
 msgstr "Nagyon sajnáljuk, hogy nincs jó tapasztalata a böngészőnkkel. Kérjük mondja el ennek okát, hogy tudjuk ezen javítani."
 
 #: templates/base.html:5 templates/base_mobile.html:6
-#, fuzzy
 msgid "Welcome"
 msgstr "Üdvözöljük!"
 
@@ -671,9 +660,8 @@ msgid "{0} ago"
 msgstr "{0} óta"
 
 #: apps/themes/templates/themes/theme_list.html:14
-#, fuzzy
 msgid "{0} similar messages"
-msgstr "{count} hasonló üzenet"
+msgstr "{0} hasonló üzenet"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:49
 msgid "{percentage}% issues"
