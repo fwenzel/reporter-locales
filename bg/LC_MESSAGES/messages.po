@@ -3,14 +3,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-09-15 11:08+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2010-09-15 11:17+0200\n"
+"Last-Translator: Ognyan <ogi@triangle.bg>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.3\n"
 
 #: apps/dashboard/forms.py:9
 msgctxt "dashboard_period"
@@ -56,22 +57,22 @@ msgstr "Тенденции"
 #: apps/search/templates/search/search.html:101
 #: apps/search/templates/search/mobile/search.html:100
 msgid "Demographics"
-msgstr ""
+msgstr "Демография"
 
 #. Link on the dashboard to show more messages.
 #: apps/dashboard/templates/dashboard/dashboard.html:35
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:35
 msgid "Show more"
-msgstr ""
+msgstr "Показване на повече"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:37
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:37
 msgid "Last {count} Messages"
-msgstr ""
+msgstr "Последни {count} съобщения"
 
 #: apps/dashboard/templates/dashboard/demographics.html:3
 msgid "OS"
-msgstr ""
+msgstr "ОС"
 
 #: apps/dashboard/templates/dashboard/demographics.html:10
 msgid "Locale"
@@ -86,35 +87,35 @@ msgstr "непознато"
 #. Link to Google Translator
 #: apps/dashboard/templates/dashboard/messages.html:17
 msgid "Translate!"
-msgstr ""
+msgstr "Превеждане!"
 
 #. Link to user agent info.
 #: apps/dashboard/templates/dashboard/messages.html:20
 msgid "UA"
-msgstr ""
+msgstr "Потребителски агент"
 
 #. Link to an opinion's URL.
 #: apps/dashboard/templates/dashboard/messages.html:24
 msgid "URL"
-msgstr ""
+msgstr "Адрес"
 
 #. This is a link to the URL associated with an opinion.
 #: apps/dashboard/templates/dashboard/messages.html:31
 msgid "visit &rarr;"
-msgstr ""
+msgstr "посетете &rarr;"
 
 #: apps/dashboard/templates/dashboard/messages.html:36
 msgid "OS: {os_name}"
-msgstr ""
+msgstr "ОС: {os_name}"
 
 #: apps/dashboard/templates/dashboard/messages.html:38
 msgid "Locale: {locale}"
-msgstr ""
+msgstr "Локал: {locale}"
 
 #. Total refers to a message count.
 #: apps/dashboard/templates/dashboard/sentiments.html:27
 msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
-msgstr ""
+msgstr "<a href=\"%(url)s\">Общо</a>: %(count)s"
 
 #: apps/dashboard/templates/dashboard/sentiments.html:33
 #: apps/feedback/helpers.py:36
@@ -216,17 +217,17 @@ msgstr "Заглавката на заявката User-Agent трябва да 
 #: apps/feedback/templates/feedback/cluster.html:3
 #: apps/feedback/templates/feedback/clusters.html:3
 msgid "Clusters of Opinions"
-msgstr ""
+msgstr "Клъстери от мнения"
 
 #. This is referring to the first few clusters.
 #: apps/feedback/templates/feedback/cluster.html:17
 msgid "Showing the first {count}"
-msgstr ""
+msgstr "Показване на първите {count}"
 
 #: apps/feedback/templates/feedback/cluster.html:25
 #: apps/feedback/templates/feedback/clusters.html:20
 msgid "No clusters of opinions found."
-msgstr ""
+msgstr "Не са намерени клъстери от мнения."
 
 #: apps/feedback/templates/feedback/feedback.html:3
 #: apps/feedback/templates/feedback/feedback.html:65
@@ -370,7 +371,7 @@ msgstr "– всички –"
 
 #: apps/search/forms.py:53
 msgid "Search Terms"
-msgstr ""
+msgstr "Думи за търсене"
 
 #: apps/search/forms.py:54
 msgid "Product:"
@@ -420,29 +421,30 @@ msgstr ""
 #: apps/search/templates/search/search.html:30
 #: apps/search/templates/search/mobile/search.html:31
 msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
-msgstr ""
+msgstr "Описание: <span class=\"opt\">\"%(query)s\"</span>;"
 
 #: apps/search/templates/search/search.html:34
 #: apps/search/templates/search/mobile/search.html:35
 msgid "Dates: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
 msgstr ""
+"Времеви период: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
 
 #: apps/search/templates/search/search.html:39
 #: apps/search/templates/search/mobile/search.html:40
 msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
-msgstr ""
+msgstr "Локал: <span class=\"opt\">%(locale)s</span>;"
 
 #: apps/search/templates/search/search.html:39
 #: apps/search/templates/search/search.html:42
 #: apps/search/templates/search/mobile/search.html:40
 #: apps/search/templates/search/mobile/search.html:43
 msgid "all"
-msgstr ""
+msgstr "всичко"
 
 #: apps/search/templates/search/search.html:42
 #: apps/search/templates/search/mobile/search.html:43
 msgid "OS: <span class=\"opt\">%(os)s</span>"
-msgstr ""
+msgstr "ОС: <span class=\"opt\">%(os)s</span>"
 
 #: apps/search/templates/search/search.html:56
 #: apps/search/templates/search/mobile/search.html:55
@@ -452,17 +454,17 @@ msgstr "Няма резултати от търсенето."
 #: apps/search/templates/search/search.html:66
 #: apps/search/templates/search/mobile/search.html:65
 msgid "&laquo; previous"
-msgstr ""
+msgstr "&laquo; предишни"
 
 #: apps/search/templates/search/search.html:72
 #: apps/search/templates/search/mobile/search.html:71
 msgid "next &raquo;"
-msgstr ""
+msgstr "следващи &raquo;"
 
 #: apps/search/templates/search/search.html:76
 #: apps/search/templates/search/mobile/search.html:75
 msgid "page %(pagenum)s of %(total)s"
-msgstr ""
+msgstr "страница %(pagenum)s от %(total)s"
 
 #: apps/search/templates/search/search_form.html:19
 msgid "Search"
