@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2010-08-08 17:53+0300\n"
+"PO-Revision-Date: 2010-10-06\n"
 "Last-Translator: Tim Babych <tim.babych@gmail.com>\n"
 "Language-Team: mozilla.org.ua\n"
 "Language: uk\n"
@@ -11,47 +11,40 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Virtaal 0.6.1\n"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:43
-#, fuzzy
 msgid "%(count)s message"
 msgid_plural "%(count)s messages"
-msgstr[0] "Останні {count} повідомлень"
-msgstr[1] "Останні {count} повідомлень"
-msgstr[2] "Останні {count} повідомлень"
+msgstr[0] "%(count)s повідомлення"
+msgstr[1] "%(count)s повідомлення"
+msgstr[2] "%(count)s повідомлень"
 
 #. "similar" refers to "similar messages".
 #: apps/website_issues/templates/website_issues/sites_list.html:67
-#, fuzzy
 msgid "%(count)s similar"
 msgid_plural "%(count)s similar"
-msgstr[0] "Останні {count} повідомлень"
-msgstr[1] "Останні {count} повідомлень"
-msgstr[2] "Останні {count} повідомлень"
+msgstr[0] "%(count)s схоже"
+msgstr[1] "%(count)s схожих"
+msgstr[2] "%(count)s схожих"
 
 #: apps/website_issues/templates/website_issues/single_site.html:18
-#, fuzzy
 msgid "%(count)s similar message"
 msgid_plural "%(count)s similar messages"
-msgstr[0] "Останні {count} повідомлень"
-msgstr[1] "Останні {count} повідомлень"
-msgstr[2] "Останні {count} повідомлень"
+msgstr[0] "%(count)s схоже повідомлення"
+msgstr[1] "%(count)s схожих повідомлення"
+msgstr[2] "%(count)s схожих повідомлень"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:35 apps/search/templates/search/mobile/search.html:38
-#, fuzzy
 msgid "&laquo; Newer Feedback"
-msgstr "&laquo; попередня"
+msgstr "&laquo; новіші відгуки"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:67 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:65
-#, fuzzy
 msgid "&laquo; Newer Messages"
-msgstr "&laquo; попередня"
+msgstr "&laquo; новіші повідомлення"
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:3 apps/website_issues/templates/website_issues/theme.html:29
-#, fuzzy
 msgid "&laquo; Previous Page"
-msgstr "&laquo; попередня"
+msgstr "&laquo; попередня сторінка"
 
 #: apps/search/forms.py:46
 msgctxt "locale_choice"
@@ -75,27 +68,26 @@ msgstr "-- всі --"
 
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:3
 msgid "1d"
-msgstr ""
+msgstr "1 д."
 
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:9
 msgid "30d"
-msgstr ""
+msgstr "30 д."
 
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:6 apps/website_issues/templates/website_issues/website_issues.html:34
 msgid "7d"
-msgstr ""
+msgstr "7 д."
 
 #: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
-#, fuzzy
 msgid "<strong>%(cnt)s</strong> message"
 msgid_plural "<strong>%(cnt)s</strong> messages"
-msgstr[0] "Останні {count} повідомлень"
-msgstr[1] "Останні {count} повідомлень"
-msgstr[2] "Останні {count} повідомлень"
+msgstr[0] "<strong>%(cnt)s</strong> повідомлення"
+msgstr[1] "<strong>%(cnt)s</strong> повідомлення"
+msgstr[2] "<strong>%(cnt)s</strong> повідомлень"
 
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
-msgstr ""
+msgstr "ATOMМ-лента для цього пошуку"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:26
 msgid "Add URL of last visited page?"
@@ -106,33 +98,30 @@ msgid "Advanced"
 msgstr "Додатково"
 
 #: apps/themes/views.py:23 apps/themes/views.py:44
-#, fuzzy
 msgid "All"
 msgstr "всі"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:44
-#, fuzzy
 msgctxt "sites_search_all_feedback"
 msgid "All"
 msgstr "всі"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:55
-#, fuzzy
 msgctxt "sites_search_all_platforms"
 msgid "All"
 msgstr "всі"
 
 #: apps/themes/views.py:44
 msgid "All Platforms"
-msgstr ""
+msgstr "Всі платформи"
 
 #: apps/themes/views.py:23 apps/website_issues/templates/website_issues/website_issues.html:44
 msgid "All feedback"
-msgstr ""
+msgstr "Всі відгуки"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:55
 msgid "All platforms"
-msgstr ""
+msgstr "Всі платформи"
 
 #: templates/500.html:7
 msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
@@ -140,19 +129,19 @@ msgstr "В програмі сталася неочікувана помилка
 
 #: apps/feedback/__init__.py:72
 msgid "Android"
-msgstr ""
+msgstr "Android"
 
 #: apps/website_issues/templates/website_issues/single_site.html:3
 msgid "Back to all sites &raquo;"
-msgstr ""
+msgstr "Назад до всіх сайтів &raquo;"
 
 #: apps/website_issues/templates/website_issues/theme.html:18
 msgid "Back to {domain} &raquo;"
-msgstr ""
+msgstr "Назад до {domain} &raquo;"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:35
 msgid "Beta"
-msgstr ""
+msgstr "Бета"
 
 #: templates/includes/nav_buttons.html:2
 msgid "Clusters"
@@ -160,19 +149,18 @@ msgstr "Кластери"
 
 #: apps/themes/templates/themes/index.html:32
 msgid "Common Themes"
-msgstr ""
+msgstr "Часті теми"
 
 #: apps/dashboard/templates/dashboard/message_list.html:31 apps/themes/templates/themes/theme_list.html:26
 msgid "Copy User Agent"
-msgstr ""
+msgstr "Копіювати user-agent"
 
 #. Tooltip for custom date range button
 #: apps/dashboard/templates/dashboard/when.html:9
 msgid "Custom"
-msgstr ""
+msgstr "Вказати діапазон дат"
 
 #: templates/base.html:27 templates/base_mobile.html:17
-#, fuzzy
 msgid "Dashboard"
 msgstr "Панель відгуків"
 
@@ -201,14 +189,12 @@ msgstr ""
 "пізнішою версією."
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:6 apps/search/templates/search/mobile/search.html:6
-#, fuzzy
 msgid "Feed"
-msgstr "Надіслати відгук"
+msgstr "Лента"
 
 #: templates/base.html:31
-#, fuzzy
 msgid "Feedback"
-msgstr "Надіслати відгук"
+msgstr "Відгуки"
 
 #: apps/feedback/validators.py:56
 msgid "Feedback must not contain HTML."
@@ -223,35 +209,34 @@ msgid "Firefox"
 msgstr "Firefox"
 
 #: apps/search/views.py:46 apps/search/views.py:64
-#, fuzzy
 msgid "Firefox Input"
-msgstr "Firefox"
+msgstr "Firefox Input"
 
 #. L10n: This is the title to the Search ATOM feed.
 #: apps/search/views.py:63
 msgid "Firefox Input: '{query}'"
-msgstr ""
+msgstr "Firefox Input: '{query}'"
 
 #: apps/feedback/templates/feedback/mobile/index.html:13 apps/feedback/templates/feedback/mobile/index.html:15
 msgid "Firefox makes me happy ..."
-msgstr ""
+msgstr "Firefox мене порадував…"
 
 #: apps/feedback/templates/feedback/index.html:13 apps/feedback/templates/feedback/index.html:15
 msgid "Firefox makes me happy because ..."
-msgstr ""
+msgstr "Firefox мене порадував тим…"
 
 #: apps/feedback/templates/feedback/mobile/index.html:18 apps/feedback/templates/feedback/mobile/index.html:20
-msgid "Firefox makes me sad ..."
-msgstr ""
+msgid "Firefox мене makes me sad ..."
+msgstr "Firefox мене засмутив…"
 
 #: apps/feedback/templates/feedback/index.html:19 apps/feedback/templates/feedback/index.html:21
 msgid "Firefox makes me sad because ..."
-msgstr ""
+msgstr "Firefox мене засмутив тим що…"
 
 #. refers to time-based search filters (e.g., "for last: 1d")
 #: apps/dashboard/templates/dashboard/mobile/when.html:3
 msgid "For last:"
-msgstr ""
+msgstr "За останні:"
 
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
@@ -267,7 +252,7 @@ msgstr "Перепрошую, але я не можу знайти те що в�
 
 #: apps/search/templates/search/unavailable.html:7
 msgid "I'm sorry, there was an error with your search."
-msgstr "Перепрошую, але під час пошуку сталася помилка."
+msgstr "Перепрошуємо, але під час пошуку сталася помилка."
 
 #: apps/search/templates/search/unavailable.html:17
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
@@ -308,13 +293,12 @@ msgid "Issues"
 msgstr "Проблеми"
 
 #: apps/themes/views.py:33 apps/website_issues/templates/website_issues/website_issues.html:46
-#, fuzzy
 msgid "Issues only"
-msgstr "Проблеми"
+msgstr "Тільки Проблеми"
 
 #: apps/feedback/templates/feedback/index.html:7
 msgid "It's great to hear you want to help Mozilla make your experience better!"
-msgstr ""
+msgstr "Як чудово що ви вирішили допомогти Мозіллі зробити продукт кращим!"
 
 #: apps/feedback/templates/feedback/feedback.html:35
 msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
@@ -323,27 +307,25 @@ msgstr "Знаєте сайт, що працює краще в цій беті, 
 #. short for 30 days
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:9
 msgid "Last 30 days"
-msgstr ""
+msgstr "Останні 30 днів"
 
 #. short for 7 days
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:6 apps/website_issues/templates/website_issues/website_issues.html:34
 msgid "Last 7 days"
-msgstr ""
+msgstr "Останні 7 днів"
 
 #. short for 1 day
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:3
-#, fuzzy
 msgid "Last day"
-msgstr "1 день"
+msgstr "Останній день"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:35
 msgid "Latest Beta"
-msgstr ""
+msgstr "Остання бета"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:57
-#, fuzzy
 msgid "Latest Feedback"
-msgstr "Надіслати відгук"
+msgstr "Останні відгуки"
 
 #: templates/base_mobile_old.html:54 templates/base_old.html:60 templates/includes/footer.html:8
 msgid "Legal Notices"
@@ -367,12 +349,12 @@ msgstr "Mac OS X"
 
 #: apps/feedback/__init__.py:66
 msgid "Maemo"
-msgstr ""
+msgstr "Maemo"
 
 #. Title text for a complete message count.
 #: apps/dashboard/templates/dashboard/opinion_count.html:3
 msgid "Messages"
-msgstr ""
+msgstr "Повідомлення"
 
 #: apps/feedback/__init__.py:16
 msgid "Mobile"
@@ -380,19 +362,17 @@ msgstr "Мобільний"
 
 #: apps/dashboard/templates/dashboard/message_list.html:28 apps/themes/templates/themes/theme_list.html:23
 msgid "More Options"
-msgstr ""
+msgstr "Більше варіантів"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:102
 msgid "More sites..."
-msgstr ""
+msgstr "Більше сайтів…"
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:37
-#, fuzzy
 msgid "Next Page &raquo;"
-msgstr "наступна &raquo;"
+msgstr "наступна сторінка &raquo;"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:27
-#, fuzzy
 msgid "No results found!"
 msgstr "Результатів пошуку не знайдено."
 
@@ -411,7 +391,7 @@ msgstr "ОС:"
 #. Refers to terms often mentioned in feedback.
 #: apps/dashboard/templates/dashboard/themes.html:3 apps/dashboard/templates/dashboard/mobile/themes.html:2
 msgid "Often Mentioned"
-msgstr ""
+msgstr "Часто згадувані"
 
 #: apps/feedback/templates/feedback/need_beta.html:8
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
@@ -422,18 +402,16 @@ msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head 
 msgstr "О! Отже, ви хочете надати нам відгук. Вам потрібна найостанніша Бета! Завітайте на сторінку бети та <a href=\"%(url)s\">завантажте її!</a>"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:36 apps/search/templates/search/mobile/search.html:48
-#, fuzzy
 msgid "Older Feedback &raquo;"
-msgstr "наступна &raquo;"
+msgstr "Старіші відгуки &raquo;"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:68 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:75
-#, fuzzy
 msgid "Older Messages &raquo;"
-msgstr "наступна &raquo;"
+msgstr "Старіші повідомлення &raquo;"
 
 #: apps/feedback/templates/feedback/opinion.html:3
 msgid "Opinion"
-msgstr ""
+msgstr "Думка"
 
 #: apps/feedback/__init__.py:84
 msgid "Other"
@@ -449,19 +427,19 @@ msgstr "Наша пошукова система може бути наразі 
 
 #: apps/dashboard/templates/dashboard/platforms.html:11 apps/dashboard/templates/dashboard/mobile/platforms.html:7 apps/themes/templates/themes/index.html:22
 msgid "Platform"
-msgstr ""
+msgstr "Платформа"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:52
 msgid "Platforms"
-msgstr ""
+msgstr "Платформи"
 
 #: apps/feedback/templates/feedback/index.html:9
 msgid "Please choose one of the following types of feedback that you would like to submit to us:"
-msgstr ""
+msgstr "Будь ласка оберіть один з наступних типів відгуку, котрий ви б хотіли нам надіслати:"
 
 #: apps/feedback/templates/feedback/mobile/index.html:10
 msgid "Please choose the type of feedback that you would like to submit to us:"
-msgstr ""
+msgstr "Будь ласка оберіть тип відгуку який би ви хотіли нам надіслати:"
 
 #: apps/feedback/templates/feedback/feedback.html:64 apps/feedback/templates/feedback/mobile/feedback.html:44
 msgid "Please ensure that there is no personally identifiable information here."
@@ -479,9 +457,8 @@ msgid "Praise"
 msgstr "Хвала"
 
 #: apps/themes/views.py:28 apps/website_issues/templates/website_issues/website_issues.html:45
-#, fuzzy
 msgid "Praise only"
-msgstr "Хвала"
+msgstr "Лише хвала"
 
 #: templates/base_mobile_old.html:53 templates/base_old.html:59 templates/includes/footer.html:7
 msgid "Privacy Policy"
@@ -497,7 +474,6 @@ msgstr "Перейти до головного вмісту"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:12 apps/search/templates/search/search.html:20 apps/themes/templates/themes/index.html:10
 #: apps/website_issues/templates/website_issues/website_issues.html:19
-#, fuzzy
 msgid "Product"
 msgstr "Продукт:"
 
@@ -523,19 +499,17 @@ msgstr "Результати пошуку"
 
 #: apps/search/views.py:47
 msgid "Search Results in Firefox Beta Feedback."
-msgstr ""
+msgstr "Шукати результати у відгуках на Firefox Beta"
 
 #: apps/search/templates/search/unavailable.html:5
 msgid "Search Unavailable"
 msgstr "Пошук недоступний"
 
 #: apps/search/forms.py:53
-#, fuzzy
 msgid "Search by keyword"
 msgstr "Пошуковий запит"
 
 #: apps/website_issues/forms.py:37
-#, fuzzy
 msgctxt "website_issues_search"
 msgid "Search for domain"
 msgstr "Пошуковий запит"
@@ -548,20 +522,20 @@ msgstr "Думка:"
 #: apps/dashboard/templates/dashboard/when.html:17
 msgctxt "date_range_set"
 msgid "Set"
-msgstr ""
+msgstr "Встановити"
 
 #: apps/dashboard/templates/includes/filter_box_toggle.html:4
 msgid "Show/Hide Options"
-msgstr ""
+msgstr "Показати/приховати варіанти"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:12 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/website_issues.html:10
 #: templates/base.html:38 templates/includes/nav_buttons.html:4
 msgid "Sites"
-msgstr ""
+msgstr "Сайти"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:14
 msgid "Sites with only one message"
-msgstr ""
+msgstr "Сайти з лише одним повідомленням"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:15
 msgid "Sorry! Please tell us more!"
@@ -574,7 +548,7 @@ msgstr "Sphinx викинув невідомий виняток: %s"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:7 apps/search/templates/search/mobile/search.html:7
 msgid "Statistics"
-msgstr ""
+msgstr "Статистика"
 
 #: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:66 apps/feedback/templates/feedback/index.html:3
 #: apps/feedback/templates/feedback/mobile/feedback.html:3 apps/feedback/templates/feedback/mobile/feedback.html:46 apps/feedback/templates/feedback/mobile/index.html:3
@@ -599,7 +573,7 @@ msgstr "Дякуємо за ваш відгук"
 
 #: apps/feedback/templates/feedback/mobile/index.html:8
 msgid "Thanks for helping Mozilla make your experience better!"
-msgstr ""
+msgstr "дякуємо що допомогаєте зробити продукти Mozilla кращими!"
 
 #: apps/feedback/templates/feedback/thanks.html:7 apps/feedback/templates/feedback/mobile/thanks.html:8
 msgid "Thanks for sending us your feedback!"
@@ -611,12 +585,12 @@ msgstr "Дякуємо!"
 
 #: apps/website_issues/templates/website_issues/theme.html:15
 msgid "Theme"
-msgstr ""
+msgstr "Тема"
 
 #. Formerly: Clusters
 #: apps/themes/templates/themes/index.html:2 templates/base.html:34
 msgid "Themes"
-msgstr ""
+msgstr "Теми"
 
 #: apps/feedback/templates/feedback/need_beta.html:14
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
@@ -625,13 +599,12 @@ msgstr "Щоб зробити це, просто перейдіть на наш�
 #. Link text for showing/hiding options
 #: apps/dashboard/templates/includes/filter_box_toggle.html:6
 msgid "Toggle"
-msgstr ""
+msgstr "Перемкнути"
 
 #. Link to Google Translator
 #: apps/dashboard/templates/dashboard/message_list.html:35 apps/themes/templates/themes/theme_list.html:28
-#, fuzzy
 msgid "Translate Message"
-msgstr "Перекласти!"
+msgstr "Перекласти повідомлення"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:8 apps/search/templates/search/mobile/search.html:8
 msgid "Trends"
@@ -639,13 +612,12 @@ msgstr "Тренди"
 
 #: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
 #: apps/website_issues/templates/website_issues/website_issues.html:41
-#, fuzzy
 msgid "Type of Feedback"
-msgstr "Дякуємо за ваш відгук"
+msgstr "Тип відгуку"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:97
 msgid "Uncommon Sites"
-msgstr ""
+msgstr "Нетипові сайти"
 
 #: apps/feedback/validators.py:29
 msgid "User agent string was not recognizable."
@@ -668,9 +640,8 @@ msgid "We are sorry that you have not had a good experience with our browser. Pl
 msgstr "Нам шкода, що наш браузер не справив на вас добре враження. Будь ласка, розкажіть чому, щоб ми змогли його покращити!"
 
 #: templates/base.html:5 templates/base_mobile.html:6
-#, fuzzy
 msgid "Welcome"
-msgstr "Ласкаво просимо!"
+msgstr "Ласкаво просимо"
 
 #: templates/base_mobile_old.html:5 templates/base_old.html:5
 msgid "Welcome!"
@@ -679,12 +650,12 @@ msgstr "Ласкаво просимо!"
 #. Title for a time-based search filter
 #: apps/dashboard/templates/dashboard/when.html:2 apps/website_issues/templates/website_issues/website_issues.html:31
 msgid "When"
-msgstr ""
+msgstr "Коли"
 
 #. Refers to sites that were reported in feedback.
 #: apps/dashboard/templates/dashboard/sites.html:3 apps/dashboard/templates/dashboard/mobile/sites.html:2
 msgid "While Visiting"
-msgstr ""
+msgstr "Під час відвідування"
 
 #: apps/feedback/__init__.py:48
 msgid "Windows 7"
@@ -714,7 +685,7 @@ msgstr "Ваш відгук, схоже, містить адресу ел.пош
 
 #: apps/website_issues/templates/website_issues/sites_list.html:28
 msgid "reset my search"
-msgstr ""
+msgstr "скинути мій пошук"
 
 #. L10n: This indicates the second part of a date range.
 #: apps/search/forms.py:68
@@ -728,117 +699,16 @@ msgstr "невідомо"
 #. {0} is a time delta, e.g.: 2 weeks
 #: apps/dashboard/templates/dashboard/message_list.html:15
 msgid "{0} ago"
-msgstr ""
+msgstr "{0} тому"
 
 #: apps/themes/templates/themes/theme_list.html:14
-#, fuzzy
 msgid "{0} similar messages"
-msgstr "Останні {count} повідомлень"
+msgstr "{0} схожих повідомлень"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:54
 msgid "{percentage}% issues"
-msgstr ""
+msgstr "{percentage}% проблем"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:52
 msgid "{percentage}% praise"
-msgstr ""
-
-#, fuzzy
-#~ msgid "&laquo; Previous Page;"
-#~ msgstr "&laquo; попередня"
-
-#~ msgid "&laquo; previous"
-#~ msgstr "&laquo; попередня"
-
-#~ msgctxt "dashboard_period"
-#~ msgid "1 day"
-#~ msgstr "1 день"
-
-#~ msgctxt "dashboard_period"
-#~ msgid "1 month"
-#~ msgstr "1 місяць"
-
-#~ msgctxt "dashboard_period"
-#~ msgid "1 week"
-#~ msgstr "1 тиждень"
-
-#~ msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
-#~ msgstr "<a href=\"%(url)s\">Всього</a>: %(count)s"
-
-#~ msgid "Clusters of Opinions"
-#~ msgstr "Кластери присудів"
-
-#~ msgid "Dates: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
-#~ msgstr "Дати: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
-
-#~ msgid "Demographics"
-#~ msgstr "Статистика"
-
-#~ msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
-#~ msgstr "Опис: <span class=\"opt\">\"%(query)s\"</span>;"
-
-#~ msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
-#~ msgstr "Локаль: <span class=\"opt\">%(locale)s</span>;"
-
-#~ msgid "Locale: {locale}"
-#~ msgstr "Локаль: {locale}"
-
-#, fuzzy
-#~ msgid "Most Recent Message"
-#~ msgid_plural "Last %(count)s Messages"
-#~ msgstr[0] "Останні {count} повідомлень"
-#~ msgstr[1] "Останні {count} повідомлень"
-#~ msgstr[2] "Останні {count} повідомлень"
-
-#~ msgid "No clusters of opinions found."
-#~ msgstr "Жодних кластерів присудів не знайдено."
-
-#~ msgid "OS"
-#~ msgstr "ОС"
-
-#~ msgid "OS: <span class=\"opt\">%(os)s</span>"
-#~ msgstr "ОС: <span class=\"opt\">%(os)s</span>"
-
-#~ msgid "OS: {os_name}"
-#~ msgstr "ОС: {os_name}"
-
-#~ msgid "Overview"
-#~ msgstr "Підсумок"
-
-#~ msgid "Please enable JavaScript to view this page."
-#~ msgstr "Будь ласка увімкніть JavaScript щоб переглядати цю сторінку."
-
-#~ msgid "Show more"
-#~ msgstr "Показати ще"
-
-#~ msgid "Showing the first {count}"
-#~ msgstr "Показую перші {count}"
-
-#~ msgid "Translate!"
-#~ msgstr "Перекласти!"
-
-#~ msgid "UA"
-#~ msgstr "браузер"
-
-#~ msgid "URL"
-#~ msgstr "URL"
-
-#, fuzzy
-#~ msgid "Version"
-#~ msgstr "Версія:"
-
-#~ msgid "all"
-#~ msgstr "всі"
-
-#~ msgctxt "dashboard_period"
-#~ msgid "all"
-#~ msgstr "всі"
-
-#~ msgid "next &raquo;"
-#~ msgstr "наступна &raquo;"
-
-#~ msgid "page %(pagenum)s of %(total)s"
-#~ msgstr "сторінка %(pagenum)s з %(total)s"
-
-#~ msgid "visit &rarr;"
-#~ msgstr "перейти &rarr;"
+msgstr "{percentage}% хвали"
