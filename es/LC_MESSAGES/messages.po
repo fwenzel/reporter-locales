@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 15:36+0200\n"
-"PO-Revision-Date: 2010-10-15 13:07+0200\n"
+"PO-Revision-Date: 2010-11-08 20:58+0200\n"
 "Last-Translator: Rubén <nukeador@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.3\n"
+"X-Generator: Pootle 2.1.2\n"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:43
 msgid "%(count)s message"
@@ -85,10 +85,9 @@ msgid "7d"
 msgstr "7 días"
 
 #: apps/website_issues/forms.py:21
-#, fuzzy
 msgctxt "version_choice"
 msgid "7d"
-msgstr "7 días"
+msgstr "7d"
 
 #: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
 msgid "<strong>%(cnt)s</strong> message"
@@ -101,9 +100,8 @@ msgid "ATOM feed for this search"
 msgstr "Canal ATOM para esta búsqueda"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:15
-#, fuzzy
 msgid "Ack! Please tell us what to fix!"
-msgstr "¡Lo lamentamos! Por favor, ¡cuéntanos más!"
+msgstr "¡Arg! Por favor, ¡cuéntanos qué hay que arreglar!"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:26
 msgid "Add URL of last visited page?"
@@ -343,7 +341,7 @@ msgstr "Linux"
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:7
 msgid "Loading feedback history..."
-msgstr ""
+msgstr "Cargando historial de opiniones..."
 
 #: apps/dashboard/templates/dashboard/locales.html:15 apps/dashboard/templates/dashboard/mobile/locales.html:9
 msgid "Locale"
@@ -380,7 +378,7 @@ msgstr "Más sitios..."
 
 #: apps/dashboard/views.py:56 apps/search/views.py:180
 msgid "Negative"
-msgstr ""
+msgstr "Negativo"
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:37
 msgid "Next Page &raquo;"
@@ -465,7 +463,7 @@ msgstr "Por favor vuelve a empezar en el <a href=\"%(dashboard_url)s\">tablero</
 
 #: apps/dashboard/views.py:55 apps/search/views.py:179
 msgid "Positive"
-msgstr ""
+msgstr "Positivo"
 
 #. Formerly called "happy"
 #: apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36
@@ -650,9 +648,10 @@ msgid "We already got your feedback! Thanks."
 msgstr "¡Ya tenemos tu opinión! Gracias."
 
 #: apps/feedback/templates/feedback/feedback.html:20
-#, fuzzy
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
-msgstr "Sentimos que no hayas tenido una buena experiencia con tu navegador. Por favor, ¡dinos por qué, para que podamos mejorarlo!"
+msgstr ""
+"Sentimos que no hayas tenido una buena experiencia con nuestro navegador. "
+"Por favor, dinos por qué, ¡para que podamos arreglarlo!"
 
 #: templates/base.html:5 templates/base_mobile.html:6
 msgid "Welcome"
@@ -722,7 +721,7 @@ msgstr "{0} mensajes similares"
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:3
 msgid "{num} opinions on {day}"
-msgstr ""
+msgstr "{num} opiniones el {day}"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:54
 msgid "{percentage}% issues"
