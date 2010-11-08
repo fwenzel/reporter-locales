@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 15:36+0200\n"
-"PO-Revision-Date: 2010-10-14 08:04+0200\n"
+"PO-Revision-Date: 2010-11-08 20:33+0200\n"
 "Last-Translator: Francesco <francesco.lodolo@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.3\n"
+"X-Generator: Pootle 2.1.2\n"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:43
 msgid "%(count)s message"
@@ -34,11 +34,11 @@ msgstr[1] "%(count)s messaggi simili"
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:4
 msgid "%e %B %Y"
-msgstr ""
+msgstr "%e %B %Y"
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:5
 msgid "%e %b"
-msgstr ""
+msgstr "%e %b"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:35 apps/search/templates/search/mobile/search.html:38
 msgid "&laquo; Newer Feedback"
@@ -85,7 +85,6 @@ msgid "7d"
 msgstr "7g"
 
 #: apps/website_issues/forms.py:21
-#, fuzzy
 msgctxt "version_choice"
 msgid "7d"
 msgstr "7g"
@@ -101,9 +100,8 @@ msgid "ATOM feed for this search"
 msgstr "Feed ATOM per questa ricerca"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:15
-#, fuzzy
 msgid "Ack! Please tell us what to fix!"
-msgstr "Ci dispiace! Dicci qualcosa di più."
+msgstr "Ricevuto! Dicci cosa dobbiamo sistemare."
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:26
 msgid "Add URL of last visited page?"
@@ -341,7 +339,7 @@ msgstr "Linux"
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:7
 msgid "Loading feedback history..."
-msgstr ""
+msgstr "Caricamento cronologia…"
 
 #: apps/dashboard/templates/dashboard/locales.html:15 apps/dashboard/templates/dashboard/mobile/locales.html:9
 msgid "Locale"
@@ -378,7 +376,7 @@ msgstr "Altri siti…"
 
 #: apps/dashboard/views.py:56 apps/search/views.py:180
 msgid "Negative"
-msgstr ""
+msgstr "Negativo"
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:37
 msgid "Next Page &raquo;"
@@ -465,7 +463,7 @@ msgstr "Riparti dalla <a href=\"%(dashboard_url)s\">dashboard</a>."
 
 #: apps/dashboard/views.py:55 apps/search/views.py:179
 msgid "Positive"
-msgstr ""
+msgstr "Positivo"
 
 #. Formerly called "happy"
 #: apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36
@@ -650,9 +648,10 @@ msgid "We already got your feedback! Thanks."
 msgstr "Abbiamo già ricevuto il tuo feedback. Grazie!"
 
 #: apps/feedback/templates/feedback/feedback.html:20
-#, fuzzy
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
-msgstr "Siamo davvero dispiaciuti per la tua esperienza negativa con il nostro browser. Dicci che cosa non ti è piaciuto per consentirci di migliorarlo."
+msgstr ""
+"Siamo davvero dispiaciuti per la tua esperienza negativa con il nostro "
+"browser. Spiegaci che cosa è andato storto e cercheremo di migliorarlo."
 
 #: templates/base.html:5 templates/base_mobile.html:6
 msgid "Welcome"
@@ -722,7 +721,7 @@ msgstr "{0} messaggi simili"
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:3
 msgid "{num} opinions on {day}"
-msgstr ""
+msgstr "{num} opinioni il {day}"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:54
 msgid "{percentage}% issues"
