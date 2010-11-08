@@ -32,11 +32,19 @@ msgid_plural "%(count)s similar messages"
 msgstr[0] "%(count)s подобно съобщение"
 msgstr[1] "%(count)s подобни съобщения"
 
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:4
+msgid "%e %B %Y"
+msgstr ""
+
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:5
+msgid "%e %b"
+msgstr ""
+
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:35 apps/search/templates/search/mobile/search.html:38
 msgid "&laquo; Newer Feedback"
 msgstr "&laquo; Прясна обратна връзка"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:67 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:65
+#: apps/dashboard/templates/dashboard/dashboard.html:69 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:58
 msgid "&laquo; Newer Messages"
 msgstr "&laquo; По-нови съобщения"
 
@@ -72,7 +80,13 @@ msgstr "1 ден"
 msgid "30d"
 msgstr "30 дена"
 
-#: apps/dashboard/templates/dashboard/includes/when_selectors.html:6 apps/website_issues/templates/website_issues/website_issues.html:34
+#: apps/dashboard/templates/dashboard/includes/when_selectors.html:6
+msgid "7d"
+msgstr "7 дена"
+
+#: apps/website_issues/forms.py:21
+#, fuzzy
+msgctxt "version_choice"
 msgid "7d"
 msgstr "7 дена"
 
@@ -86,6 +100,11 @@ msgstr[1] "<strong>%(cnt)s</strong> съобщение"
 msgid "ATOM feed for this search"
 msgstr "Емисия Atom за това търсене"
 
+#: apps/feedback/templates/feedback/mobile/feedback.html:15
+#, fuzzy
+msgid "Ack! Please tell us what to fix!"
+msgstr "Съжаляваме! Моля кажете ни повече!"
+
 #: apps/feedback/templates/feedback/mobile/feedback.html:26
 msgid "Add URL of last visited page?"
 msgstr "Добавяне на адреса на последната посетена страница?"
@@ -98,12 +117,12 @@ msgstr "Разширени"
 msgid "All"
 msgstr "Всички"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:44
+#: apps/website_issues/templates/website_issues/website_issues.html:31
 msgctxt "sites_search_all_feedback"
 msgid "All"
 msgstr "Всички"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:55
+#: apps/website_issues/templates/website_issues/website_issues.html:42
 msgctxt "sites_search_all_platforms"
 msgid "All"
 msgstr "Всички"
@@ -112,11 +131,11 @@ msgstr "Всички"
 msgid "All Platforms"
 msgstr "Всички платформи"
 
-#: apps/themes/views.py:23 apps/website_issues/templates/website_issues/website_issues.html:44
+#: apps/themes/views.py:23 apps/website_issues/templates/website_issues/website_issues.html:31
 msgid "All feedback"
 msgstr "Всички обратни връзки"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:55
+#: apps/website_issues/templates/website_issues/website_issues.html:42
 msgid "All platforms"
 msgstr "Всички платформи"
 
@@ -136,10 +155,6 @@ msgstr "Обратно към всички сайтове &raquo;"
 msgid "Back to {domain} &raquo;"
 msgstr "Обратно към {domain} &raquo;"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:35
-msgid "Beta"
-msgstr "Бета"
-
 #: templates/includes/nav_buttons.html:2
 msgid "Clusters"
 msgstr "Клъстери"
@@ -157,7 +172,7 @@ msgstr "Копиране на потребителския агент"
 msgid "Custom"
 msgstr "Друго"
 
-#: templates/base.html:27 templates/base_mobile.html:17
+#: templates/base.html:29 templates/base_mobile.html:20
 msgid "Dashboard"
 msgstr "Дъска"
 
@@ -169,15 +184,11 @@ msgstr "Времеви период"
 msgid "Download Beta"
 msgstr "Изтегляне на бетата"
 
-#: apps/search/templates/search/search.html:54
-msgid "Due to software constraints, we can only show the last 1000 messages for this search query."
-msgstr "Поради софтуерни ограничения можем да покажем само последните 1000 съобщения от това търсене."
-
-#: apps/feedback/forms.py:21
+#: apps/feedback/forms.py:42
 msgid "Enter your feedback here."
 msgstr "Въведете вашата обратна връзка тук."
 
-#: templates/base_mobile_old.html:58 templates/base_old.html:64 templates/includes/footer.html:12
+#: templates/base_mobile_old.html:61 templates/base_old.html:68 templates/includes/footer.html:12
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
 "any later version."
@@ -189,11 +200,11 @@ msgstr ""
 msgid "Feed"
 msgstr "Емисия"
 
-#: templates/base.html:31
+#: templates/base.html:33
 msgid "Feedback"
 msgstr "Обратна връзка"
 
-#: apps/feedback/validators.py:56
+#: apps/feedback/validators.py:57
 msgid "Feedback must not contain HTML."
 msgstr "Обратната връзка не може да съдържа HTML."
 
@@ -205,12 +216,12 @@ msgstr "Научете последните новини от Mozilla:"
 msgid "Firefox"
 msgstr "Firefox"
 
-#: apps/search/views.py:46 apps/search/views.py:64
+#: apps/search/views.py:64 apps/search/views.py:82
 msgid "Firefox Input"
 msgstr "Firefox Input"
 
 #. L10n: This is the title to the Search ATOM feed.
-#: apps/search/views.py:63
+#: apps/search/views.py:81
 msgid "Firefox Input: '{query}'"
 msgstr "Firefox Input: „{query}“"
 
@@ -239,7 +250,7 @@ msgstr "За последните:"
 msgid "Go"
 msgstr "Превключване"
 
-#: apps/feedback/templates/feedback/feedback.html:43
+#: apps/feedback/templates/feedback/feedback.html:45
 msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
 msgstr "Имате проблем с определен сайт? Моля въведете адреса, така че да открием проблема по-бързо."
 
@@ -271,7 +282,7 @@ msgstr "Ако това е развалена връзка, моля <a href=\"%
 msgid "Include the following error message in your bug report:"
 msgstr "Включете следното съобщение за грешка към вашия доклад за бъг:"
 
-#: templates/base_mobile_old.html:27 templates/base_old.html:31
+#: templates/base_mobile_old.html:30 templates/base_old.html:35
 msgid "Input Dashboard"
 msgstr "Input Dashboard"
 
@@ -284,12 +295,12 @@ msgid "Issue"
 msgstr "Проблем"
 
 #. Formerly called "sad"
-#: apps/dashboard/templates/dashboard/overview.html:23 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/themes/views.py:33
-#: apps/website_issues/templates/website_issues/website_issues.html:46
+#: apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/themes/views.py:33
+#: apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Issues"
 msgstr "Проблеми"
 
-#: apps/themes/views.py:33 apps/website_issues/templates/website_issues/website_issues.html:46
+#: apps/themes/views.py:33 apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Issues only"
 msgstr "Само проблемите"
 
@@ -297,7 +308,7 @@ msgstr "Само проблемите"
 msgid "It's great to hear you want to help Mozilla make your experience better!"
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback.html:35
+#: apps/feedback/templates/feedback/feedback.html:37
 msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
 msgstr "Знаете за сайт, който работи по-добре в тази бета, отколкото в предишни версии на Firefox? Моля добавете адреса му, така че да следим тези сайтове!"
 
@@ -307,7 +318,7 @@ msgid "Last 30 days"
 msgstr "Последните 30 дни"
 
 #. short for 7 days
-#: apps/dashboard/templates/dashboard/includes/when_selectors.html:6 apps/website_issues/templates/website_issues/website_issues.html:34
+#: apps/dashboard/templates/dashboard/includes/when_selectors.html:6
 msgid "Last 7 days"
 msgstr "Последните 7 дни"
 
@@ -316,15 +327,11 @@ msgstr "Последните 7 дни"
 msgid "Last day"
 msgstr "Последния ден"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:35
-msgid "Latest Beta"
-msgstr "Последната бета"
-
-#: apps/dashboard/templates/dashboard/dashboard.html:57
+#: apps/dashboard/templates/dashboard/dashboard.html:59
 msgid "Latest Feedback"
 msgstr "Прясна обратна връзка"
 
-#: templates/base_mobile_old.html:54 templates/base_old.html:60 templates/includes/footer.html:8
+#: templates/base_mobile_old.html:57 templates/base_old.html:64 templates/includes/footer.html:8
 msgid "Legal Notices"
 msgstr "Правни бележки"
 
@@ -332,7 +339,11 @@ msgstr "Правни бележки"
 msgid "Linux"
 msgstr "Linux"
 
-#: apps/dashboard/templates/dashboard/locales.html:14 apps/dashboard/templates/dashboard/mobile/locales.html:9
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:7
+msgid "Loading feedback history..."
+msgstr ""
+
+#: apps/dashboard/templates/dashboard/locales.html:15 apps/dashboard/templates/dashboard/mobile/locales.html:9
 msgid "Locale"
 msgstr "Локал"
 
@@ -361,9 +372,13 @@ msgstr "Мобилно устройство"
 msgid "More Options"
 msgstr "Повече настройки"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:102
+#: apps/website_issues/templates/website_issues/website_issues.html:89
 msgid "More sites..."
 msgstr "Повече сайтове..."
+
+#: apps/dashboard/views.py:56 apps/search/views.py:180
+msgid "Negative"
+msgstr ""
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:37
 msgid "Next Page &raquo;"
@@ -402,7 +417,7 @@ msgstr "О! Искате да ни дадете обратна връзка. Щ�
 msgid "Older Feedback &raquo;"
 msgstr "По-стара обратна връзка &raquo;"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:68 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:75
+#: apps/dashboard/templates/dashboard/dashboard.html:70 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:68
 msgid "Older Messages &raquo;"
 msgstr "По-стари съобщения &raquo;"
 
@@ -422,11 +437,11 @@ msgstr "Други езици:"
 msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
 msgstr "Нашата търсеща машина в момента не е достъпна. Може да започнете отново от  <a href=\"%(url)s\">дъската</a> и да пробвате пак."
 
-#: apps/dashboard/templates/dashboard/platforms.html:11 apps/dashboard/templates/dashboard/mobile/platforms.html:7 apps/themes/templates/themes/index.html:22
+#: apps/dashboard/templates/dashboard/platforms.html:12 apps/dashboard/templates/dashboard/mobile/platforms.html:8 apps/themes/templates/themes/index.html:22
 msgid "Platform"
 msgstr "Платформа"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:52
+#: apps/website_issues/templates/website_issues/website_issues.html:39
 msgid "Platforms"
 msgstr "Платформи"
 
@@ -438,7 +453,7 @@ msgstr ""
 msgid "Please choose the type of feedback that you would like to submit to us:"
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback.html:64 apps/feedback/templates/feedback/mobile/feedback.html:44
+#: apps/feedback/templates/feedback/feedback.html:66 apps/feedback/templates/feedback/mobile/feedback.html:44
 msgid "Please ensure that there is no personally identifiable information here."
 msgstr "Моля уверете се, че тук няма лична информация."
 
@@ -446,26 +461,30 @@ msgstr "Моля уверете се, че тук няма лична инфор
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 msgstr "Моля започнете от <a href=\"%(dashboard_url)s\">дъската</a>."
 
+#: apps/dashboard/views.py:55 apps/search/views.py:179
+msgid "Positive"
+msgstr ""
+
 #. Formerly called "happy"
-#: apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:11 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36
+#: apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36
 #: apps/search/forms.py:36 apps/themes/views.py:28 apps/themes/templates/themes/theme_list.html:7 apps/website_issues/templates/website_issues/single_site.html:9
-#: apps/website_issues/templates/website_issues/website_issues.html:45
+#: apps/website_issues/templates/website_issues/website_issues.html:32
 msgid "Praise"
 msgstr "Похвала"
 
-#: apps/themes/views.py:28 apps/website_issues/templates/website_issues/website_issues.html:45
+#: apps/themes/views.py:28 apps/website_issues/templates/website_issues/website_issues.html:32
 msgid "Praise only"
 msgstr "Само похвалите"
 
-#: templates/base_mobile_old.html:53 templates/base_old.html:59 templates/includes/footer.html:7
+#: templates/base_mobile_old.html:56 templates/base_old.html:63 templates/includes/footer.html:7
 msgid "Privacy Policy"
 msgstr "Политика за поверителност"
 
-#: templates/base.html:21 templates/base_mobile_old.html:17 templates/base_old.html:19
+#: templates/base.html:23 templates/base_mobile_old.html:20 templates/base_old.html:23
 msgid "Proceed to footer"
 msgstr "Прескачане към края"
 
-#: templates/base.html:20 templates/base_mobile_old.html:16 templates/base_old.html:18
+#: templates/base.html:22 templates/base_mobile_old.html:19 templates/base_old.html:22
 msgid "Proceed to main content"
 msgstr "Прескачане към главното съдържание"
 
@@ -479,11 +498,11 @@ msgstr "Продукт:"
 msgid "Product:"
 msgstr "Продукт:"
 
-#: apps/search/client.py:82
+#: apps/search/client.py:173
 msgid "Query has timed out."
 msgstr "Времето за изпълнение на търсенето изтече."
 
-#: templates/base_mobile_old.html:55 templates/base_old.html:61 templates/includes/footer.html:9
+#: templates/base_mobile_old.html:58 templates/base_old.html:65 templates/includes/footer.html:9
 msgid "Report Trademark Abuse"
 msgstr "Докладване за злоупотреба с търговска марка"
 
@@ -491,11 +510,11 @@ msgstr "Докладване за злоупотреба с търговска �
 msgid "Search"
 msgstr "Търсене"
 
-#: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:42
+#: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:44
 msgid "Search Results"
 msgstr "Резултати от търсенето"
 
-#: apps/search/views.py:47
+#: apps/search/views.py:65
 msgid "Search Results in Firefox Beta Feedback."
 msgstr "Резултати от търсенето в обратната връзка за бетата на Firefox."
 
@@ -507,7 +526,7 @@ msgstr "Търсенето е недостъпно"
 msgid "Search by keyword"
 msgstr "Търсене по ключова дума"
 
-#: apps/website_issues/forms.py:37
+#: apps/website_issues/forms.py:39
 msgctxt "website_issues_search"
 msgid "Search for domain"
 msgstr "Търсене за домейн"
@@ -527,7 +546,7 @@ msgid "Show/Hide Options"
 msgstr "Показване/скриване на настройки"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:12 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/website_issues.html:10
-#: templates/base.html:38 templates/includes/nav_buttons.html:4
+#: templates/base.html:40 templates/includes/nav_buttons.html:4
 msgid "Sites"
 msgstr "Сайтове"
 
@@ -535,12 +554,8 @@ msgstr "Сайтове"
 msgid "Sites with only one message"
 msgstr "Сайтове със само едно съобщение"
 
-#: apps/feedback/templates/feedback/mobile/feedback.html:15
-msgid "Sorry! Please tell us more!"
-msgstr "Съжаляваме! Моля кажете ни повече!"
-
 #. L10n: Sphinx is the name of the search engine software.
-#: apps/search/client.py:85
+#: apps/search/client.py:176
 msgid "Sphinx threw an unknown exception: %s"
 msgstr "Sphinx хвърли неизвестно изключение: %s"
 
@@ -548,12 +563,12 @@ msgstr "Sphinx хвърли неизвестно изключение: %s"
 msgid "Statistics"
 msgstr "Статистики"
 
-#: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:66 apps/feedback/templates/feedback/index.html:3
+#: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:68 apps/feedback/templates/feedback/index.html:3
 #: apps/feedback/templates/feedback/mobile/feedback.html:3 apps/feedback/templates/feedback/mobile/feedback.html:46 apps/feedback/templates/feedback/mobile/index.html:3
 msgid "Submit Feedback"
 msgstr "Изпращане на обратна връзка"
 
-#: apps/feedback/validators.py:37
+#: apps/feedback/validators.py:38
 msgid "Submitted User Agent is not the latest beta version."
 msgstr "Изпратеният потребителски агент не е последната бета версия."
 
@@ -586,7 +601,7 @@ msgid "Theme"
 msgstr "Тема"
 
 #. Formerly: Clusters
-#: apps/themes/templates/themes/index.html:2 templates/base.html:34
+#: apps/themes/templates/themes/index.html:2 templates/base.html:36
 msgid "Themes"
 msgstr "Теми"
 
@@ -609,19 +624,19 @@ msgid "Trends"
 msgstr "Тенденции"
 
 #: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
-#: apps/website_issues/templates/website_issues/website_issues.html:41
+#: apps/website_issues/templates/website_issues/website_issues.html:28
 msgid "Type of Feedback"
 msgstr "Вид на обратната връзка"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:97
+#: apps/website_issues/templates/website_issues/website_issues.html:84
 msgid "Uncommon Sites"
 msgstr "Немасови сайтове"
 
-#: apps/feedback/validators.py:29
+#: apps/feedback/validators.py:30
 msgid "User agent string was not recognizable."
 msgstr "Низът за потребителския агент не може да се разпознае."
 
-#: apps/feedback/views.py:33
+#: apps/feedback/views.py:35
 msgid "User-Agent request header must be set."
 msgstr "Заглавката на заявката User-Agent трябва да я има."
 
@@ -629,12 +644,13 @@ msgstr "Заглавката на заявката User-Agent трябва да 
 msgid "Version:"
 msgstr "Версия:"
 
-#: apps/feedback/forms.py:42
+#: apps/feedback/forms.py:63
 msgid "We already got your feedback! Thanks."
 msgstr "Вече разполагаме с вашата обратна връзка! Благодарим."
 
 #: apps/feedback/templates/feedback/feedback.html:20
-msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can improve it!"
+#, fuzzy
+msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
 msgstr "Съжаляваме да разберем, че сте имали проблеми с нашия браузър. Моля кажете ни какви са, за да можем да ги поправим!"
 
 #: templates/base.html:5 templates/base_mobile.html:6
@@ -646,7 +662,7 @@ msgid "Welcome!"
 msgstr "Добре дошли!"
 
 #. Title for a time-based search filter
-#: apps/dashboard/templates/dashboard/when.html:2 apps/website_issues/templates/website_issues/website_issues.html:31
+#: apps/dashboard/templates/dashboard/when.html:2
 msgid "When"
 msgstr "Време"
 
@@ -667,15 +683,15 @@ msgstr "Windows Vista"
 msgid "Windows XP"
 msgstr "Windows XP"
 
-#: apps/feedback/validators.py:47
+#: apps/feedback/validators.py:48
 msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
 msgstr "Вашият коментар съдържа нецензурни думи (%s). За да подобрим нашия продукт, моля изразявайте се така, че да предприемем действие или отбележим задача от вашата обратна връзка. Благодарим!"
 
-#: apps/feedback/validators.py:72
+#: apps/feedback/validators.py:73
 msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr "Вашата обратна връзка съдържа адрес. Моля премахнете го, както и друга лична информация от текста, и опитайте отново. Благодарим!"
 
-#: apps/feedback/validators.py:63
+#: apps/feedback/validators.py:64
 msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr "Вашата обратна връзка съдържа мейл. Моля премахнете го, както и друга лична информация от текста, и опитайте отново. Благодарим!"
 
@@ -700,6 +716,10 @@ msgstr "преди {0}"
 #: apps/themes/templates/themes/theme_list.html:14
 msgid "{0} similar messages"
 msgstr "{0} подобни съобщения"
+
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:3
+msgid "{num} opinions on {day}"
+msgstr ""
 
 #: apps/website_issues/templates/website_issues/sites_list.html:54
 msgid "{percentage}% issues"
@@ -730,6 +750,9 @@ msgstr "{percentage}% похвали"
 #~ msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
 #~ msgstr "<a href=\"%(url)s\">Общо</a>: %(count)s"
 
+#~ msgid "Beta"
+#~ msgstr "Бета"
+
 #~ msgid "Clusters of Opinions"
 #~ msgstr "Клъстери от мнения"
 
@@ -742,8 +765,14 @@ msgstr "{percentage}% похвали"
 #~ msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
 #~ msgstr "Описание: <span class=\"opt\">\"%(query)s\"</span>;"
 
+#~ msgid "Due to software constraints, we can only show the last 1000 messages for this search query."
+#~ msgstr "Поради софтуерни ограничения можем да покажем само последните 1000 съобщения от това търсене."
+
 #~ msgid "Last {count} Messages"
 #~ msgstr "Последни {count} съобщения"
+
+#~ msgid "Latest Beta"
+#~ msgstr "Последната бета"
 
 #~ msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
 #~ msgstr "Локал: <span class=\"opt\">%(locale)s</span>;"

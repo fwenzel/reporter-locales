@@ -32,11 +32,19 @@ msgid_plural "%(count)s similar messages"
 msgstr[0] "%(count)s lignende melding"
 msgstr[1] "%(count)s lignende meldinger"
 
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:4
+msgid "%e %B %Y"
+msgstr ""
+
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:5
+msgid "%e %b"
+msgstr ""
+
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:35 apps/search/templates/search/mobile/search.html:38
 msgid "&laquo; Newer Feedback"
 msgstr "&laquo; Nyere tilbakemeldinger"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:67 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:65
+#: apps/dashboard/templates/dashboard/dashboard.html:69 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:58
 msgid "&laquo; Newer Messages"
 msgstr "&laquo; Nyere meldinger"
 
@@ -72,7 +80,13 @@ msgstr "1d"
 msgid "30d"
 msgstr "30d"
 
-#: apps/dashboard/templates/dashboard/includes/when_selectors.html:6 apps/website_issues/templates/website_issues/website_issues.html:34
+#: apps/dashboard/templates/dashboard/includes/when_selectors.html:6
+msgid "7d"
+msgstr "7d"
+
+#: apps/website_issues/forms.py:21
+#, fuzzy
+msgctxt "version_choice"
 msgid "7d"
 msgstr "7d"
 
@@ -86,6 +100,11 @@ msgstr[1] "<strong>%(cnt)s</strong> meldinger"
 msgid "ATOM feed for this search"
 msgstr "ATOM-kilde for dette søket"
 
+#: apps/feedback/templates/feedback/mobile/feedback.html:15
+#, fuzzy
+msgid "Ack! Please tell us what to fix!"
+msgstr "Beklager! Fortell oss mer!"
+
 #: apps/feedback/templates/feedback/mobile/feedback.html:26
 msgid "Add URL of last visited page?"
 msgstr "Legg til URL-en til nettsiden du besøkte sist?"
@@ -98,12 +117,12 @@ msgstr "Avansert"
 msgid "All"
 msgstr "Alle"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:44
+#: apps/website_issues/templates/website_issues/website_issues.html:31
 msgctxt "sites_search_all_feedback"
 msgid "All"
 msgstr "Alle"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:55
+#: apps/website_issues/templates/website_issues/website_issues.html:42
 msgctxt "sites_search_all_platforms"
 msgid "All"
 msgstr "Alle"
@@ -112,11 +131,11 @@ msgstr "Alle"
 msgid "All Platforms"
 msgstr "Alle plattformer"
 
-#: apps/themes/views.py:23 apps/website_issues/templates/website_issues/website_issues.html:44
+#: apps/themes/views.py:23 apps/website_issues/templates/website_issues/website_issues.html:31
 msgid "All feedback"
 msgstr "Alle tilbakemeldinger"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:55
+#: apps/website_issues/templates/website_issues/website_issues.html:42
 msgid "All platforms"
 msgstr "Alle plattformer"
 
@@ -136,10 +155,6 @@ msgstr "Tilbake til alle nettsted &raquo;"
 msgid "Back to {domain} &raquo;"
 msgstr "Tilbake til {domain} &raquo;"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:35
-msgid "Beta"
-msgstr "Beta"
-
 #: templates/includes/nav_buttons.html:2
 msgid "Clusters"
 msgstr "Klynger"
@@ -157,7 +172,7 @@ msgstr "Kopier brukeragent"
 msgid "Custom"
 msgstr "Egendefinert"
 
-#: templates/base.html:27 templates/base_mobile.html:17
+#: templates/base.html:29 templates/base_mobile.html:20
 msgid "Dashboard"
 msgstr "Instrumentbord"
 
@@ -169,15 +184,11 @@ msgstr "Datoområde:"
 msgid "Download Beta"
 msgstr "Last ned betaen"
 
-#: apps/search/templates/search/search.html:54
-msgid "Due to software constraints, we can only show the last 1000 messages for this search query."
-msgstr "På grunn av programvarebegrensinger kan vi bare vise de siste 1000 meldingene i denne søkeforespørselen."
-
-#: apps/feedback/forms.py:21
+#: apps/feedback/forms.py:42
 msgid "Enter your feedback here."
 msgstr "Skriv inn tilbakemeldingen her."
 
-#: templates/base_mobile_old.html:58 templates/base_old.html:64 templates/includes/footer.html:12
+#: templates/base_mobile_old.html:61 templates/base_old.html:68 templates/includes/footer.html:12
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
 "any later version."
@@ -189,11 +200,11 @@ msgstr ""
 msgid "Feed"
 msgstr "Nyhetskilde"
 
-#: templates/base.html:31
+#: templates/base.html:33
 msgid "Feedback"
 msgstr "Tilbakemelding"
 
-#: apps/feedback/validators.py:56
+#: apps/feedback/validators.py:57
 msgid "Feedback must not contain HTML."
 msgstr "Tilbakemeldingen må ikke inneholde HTML."
 
@@ -205,12 +216,12 @@ msgstr "Få de siste nyhetene fra Mozilla:"
 msgid "Firefox"
 msgstr "Firefox"
 
-#: apps/search/views.py:46 apps/search/views.py:64
+#: apps/search/views.py:64 apps/search/views.py:82
 msgid "Firefox Input"
 msgstr "Firefox Input"
 
 #. L10n: This is the title to the Search ATOM feed.
-#: apps/search/views.py:63
+#: apps/search/views.py:81
 msgid "Firefox Input: '{query}'"
 msgstr "Firefox Input: '{query}'"
 
@@ -239,7 +250,7 @@ msgstr "For siste:"
 msgid "Go"
 msgstr "Gå"
 
-#: apps/feedback/templates/feedback/feedback.html:43
+#: apps/feedback/templates/feedback/feedback.html:45
 msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
 msgstr "Hadde du et problem med et bestemt nettsted? Legg til URL-en, slik at vi kan finne problemet raskere!"
 
@@ -271,7 +282,7 @@ msgstr "Dersom du fulgte en ødelagt lenke, <a href=\"%(bug_url)s\">rapporter en
 msgid "Include the following error message in your bug report:"
 msgstr "Ta med følgende feilmelding i bugrapporten:"
 
-#: templates/base_mobile_old.html:27 templates/base_old.html:31
+#: templates/base_mobile_old.html:30 templates/base_old.html:35
 msgid "Input Dashboard"
 msgstr "Input-instrumentbord"
 
@@ -284,12 +295,12 @@ msgid "Issue"
 msgstr "Problem"
 
 #. Formerly called "sad"
-#: apps/dashboard/templates/dashboard/overview.html:23 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/themes/views.py:33
-#: apps/website_issues/templates/website_issues/website_issues.html:46
+#: apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/themes/views.py:33
+#: apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Issues"
 msgstr "Problemer"
 
-#: apps/themes/views.py:33 apps/website_issues/templates/website_issues/website_issues.html:46
+#: apps/themes/views.py:33 apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Issues only"
 msgstr "Bare problemer"
 
@@ -297,7 +308,7 @@ msgstr "Bare problemer"
 msgid "It's great to hear you want to help Mozilla make your experience better!"
 msgstr "Bra å høre at du ønsker å hjelpe Mozilla å forbedre opplevelsen!"
 
-#: apps/feedback/templates/feedback/feedback.html:35
+#: apps/feedback/templates/feedback/feedback.html:37
 msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
 msgstr "Vet du om en nettside som virker bedre i denne betaen enn i tidligere versjoner av Firefox? Legg til URL-en så vi kan holde oversikt!"
 
@@ -307,7 +318,7 @@ msgid "Last 30 days"
 msgstr "Siste 30 dager"
 
 #. short for 7 days
-#: apps/dashboard/templates/dashboard/includes/when_selectors.html:6 apps/website_issues/templates/website_issues/website_issues.html:34
+#: apps/dashboard/templates/dashboard/includes/when_selectors.html:6
 msgid "Last 7 days"
 msgstr "Siste 7 dager"
 
@@ -316,15 +327,11 @@ msgstr "Siste 7 dager"
 msgid "Last day"
 msgstr "Siste dag"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:35
-msgid "Latest Beta"
-msgstr "Nyeste beta"
-
-#: apps/dashboard/templates/dashboard/dashboard.html:57
+#: apps/dashboard/templates/dashboard/dashboard.html:59
 msgid "Latest Feedback"
 msgstr "Nyeste tilbakemeldinger"
 
-#: templates/base_mobile_old.html:54 templates/base_old.html:60 templates/includes/footer.html:8
+#: templates/base_mobile_old.html:57 templates/base_old.html:64 templates/includes/footer.html:8
 msgid "Legal Notices"
 msgstr "Juridiske merknader"
 
@@ -332,7 +339,11 @@ msgstr "Juridiske merknader"
 msgid "Linux"
 msgstr "Linux"
 
-#: apps/dashboard/templates/dashboard/locales.html:14 apps/dashboard/templates/dashboard/mobile/locales.html:9
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:7
+msgid "Loading feedback history..."
+msgstr ""
+
+#: apps/dashboard/templates/dashboard/locales.html:15 apps/dashboard/templates/dashboard/mobile/locales.html:9
 msgid "Locale"
 msgstr "Språk"
 
@@ -361,9 +372,13 @@ msgstr "Mobil"
 msgid "More Options"
 msgstr "Flere innstillinger"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:102
+#: apps/website_issues/templates/website_issues/website_issues.html:89
 msgid "More sites..."
 msgstr "Flere nettsted ..."
+
+#: apps/dashboard/views.py:56 apps/search/views.py:180
+msgid "Negative"
+msgstr ""
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:37
 msgid "Next Page &raquo;"
@@ -402,7 +417,7 @@ msgstr "Åh! Så du ønsker å gi oss tilbakemelding. Du trenger den siste betae
 msgid "Older Feedback &raquo;"
 msgstr "Eldre tilbakemeldinger &raquo;"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:68 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:75
+#: apps/dashboard/templates/dashboard/dashboard.html:70 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:68
 msgid "Older Messages &raquo;"
 msgstr "Eldre meldinger &raquo;"
 
@@ -422,11 +437,11 @@ msgstr "Andre språk:"
 msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
 msgstr "Søkemotoren vår er muligens utilgjengelig akkurat nå. Du kan prøve igjen fra <a href=\"%(url)s\">instrumentbordet</a>, og forsøke på nytt senere."
 
-#: apps/dashboard/templates/dashboard/platforms.html:11 apps/dashboard/templates/dashboard/mobile/platforms.html:7 apps/themes/templates/themes/index.html:22
+#: apps/dashboard/templates/dashboard/platforms.html:12 apps/dashboard/templates/dashboard/mobile/platforms.html:8 apps/themes/templates/themes/index.html:22
 msgid "Platform"
 msgstr "Plattform"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:52
+#: apps/website_issues/templates/website_issues/website_issues.html:39
 msgid "Platforms"
 msgstr "Plattformer"
 
@@ -438,7 +453,7 @@ msgstr "Velg en av følgende typer tilbakemelding du ønsker å sende til oss:"
 msgid "Please choose the type of feedback that you would like to submit to us:"
 msgstr "Velg hvilken type tilbakemelding du ønsker å sende til oss:"
 
-#: apps/feedback/templates/feedback/feedback.html:64 apps/feedback/templates/feedback/mobile/feedback.html:44
+#: apps/feedback/templates/feedback/feedback.html:66 apps/feedback/templates/feedback/mobile/feedback.html:44
 msgid "Please ensure that there is no personally identifiable information here."
 msgstr "Sjekk at du ikke oppgir noen personlig identifiserbar informasjon her."
 
@@ -446,26 +461,30 @@ msgstr "Sjekk at du ikke oppgir noen personlig identifiserbar informasjon her."
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 msgstr "Start på nytt på <a href=\"%(dashboard_url)s\">instrumentbordet</a>."
 
+#: apps/dashboard/views.py:55 apps/search/views.py:179
+msgid "Positive"
+msgstr ""
+
 #. Formerly called "happy"
-#: apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:11 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36
+#: apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36
 #: apps/search/forms.py:36 apps/themes/views.py:28 apps/themes/templates/themes/theme_list.html:7 apps/website_issues/templates/website_issues/single_site.html:9
-#: apps/website_issues/templates/website_issues/website_issues.html:45
+#: apps/website_issues/templates/website_issues/website_issues.html:32
 msgid "Praise"
 msgstr "Ros"
 
-#: apps/themes/views.py:28 apps/website_issues/templates/website_issues/website_issues.html:45
+#: apps/themes/views.py:28 apps/website_issues/templates/website_issues/website_issues.html:32
 msgid "Praise only"
 msgstr "Bare ros"
 
-#: templates/base_mobile_old.html:53 templates/base_old.html:59 templates/includes/footer.html:7
+#: templates/base_mobile_old.html:56 templates/base_old.html:63 templates/includes/footer.html:7
 msgid "Privacy Policy"
 msgstr "Personvern"
 
-#: templates/base.html:21 templates/base_mobile_old.html:17 templates/base_old.html:19
+#: templates/base.html:23 templates/base_mobile_old.html:20 templates/base_old.html:23
 msgid "Proceed to footer"
 msgstr "Fortsett til fotnoter"
 
-#: templates/base.html:20 templates/base_mobile_old.html:16 templates/base_old.html:18
+#: templates/base.html:22 templates/base_mobile_old.html:19 templates/base_old.html:22
 msgid "Proceed to main content"
 msgstr "Gå til hovedinnholdet"
 
@@ -478,11 +497,11 @@ msgstr "Produkt"
 msgid "Product:"
 msgstr "Produkt:"
 
-#: apps/search/client.py:82
+#: apps/search/client.py:173
 msgid "Query has timed out."
 msgstr "Forespørselen fikk tidsavbrudd."
 
-#: templates/base_mobile_old.html:55 templates/base_old.html:61 templates/includes/footer.html:9
+#: templates/base_mobile_old.html:58 templates/base_old.html:65 templates/includes/footer.html:9
 msgid "Report Trademark Abuse"
 msgstr "Rapporter misbruk av varemerker"
 
@@ -490,11 +509,11 @@ msgstr "Rapporter misbruk av varemerker"
 msgid "Search"
 msgstr "Søk"
 
-#: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:42
+#: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:44
 msgid "Search Results"
 msgstr "Søkeresultater"
 
-#: apps/search/views.py:47
+#: apps/search/views.py:65
 msgid "Search Results in Firefox Beta Feedback."
 msgstr "Søkeresultater i Firefox Beta-tilbakemeldinger."
 
@@ -506,7 +525,7 @@ msgstr "Søk er utilgjengelig"
 msgid "Search by keyword"
 msgstr "Søk etter nøkkelord"
 
-#: apps/website_issues/forms.py:37
+#: apps/website_issues/forms.py:39
 msgctxt "website_issues_search"
 msgid "Search for domain"
 msgstr "Søk etter domene"
@@ -526,7 +545,7 @@ msgid "Show/Hide Options"
 msgstr "Vis/skjul innstillinger"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:12 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/website_issues.html:10
-#: templates/base.html:38 templates/includes/nav_buttons.html:4
+#: templates/base.html:40 templates/includes/nav_buttons.html:4
 msgid "Sites"
 msgstr "Nettsted"
 
@@ -534,12 +553,8 @@ msgstr "Nettsted"
 msgid "Sites with only one message"
 msgstr "Nettsted med bare en melding"
 
-#: apps/feedback/templates/feedback/mobile/feedback.html:15
-msgid "Sorry! Please tell us more!"
-msgstr "Beklager! Fortell oss mer!"
-
 #. L10n: Sphinx is the name of the search engine software.
-#: apps/search/client.py:85
+#: apps/search/client.py:176
 msgid "Sphinx threw an unknown exception: %s"
 msgstr "Sphinx kastet et ukjent unntak: %s"
 
@@ -547,12 +562,12 @@ msgstr "Sphinx kastet et ukjent unntak: %s"
 msgid "Statistics"
 msgstr "Statistikk"
 
-#: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:66 apps/feedback/templates/feedback/index.html:3
+#: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:68 apps/feedback/templates/feedback/index.html:3
 #: apps/feedback/templates/feedback/mobile/feedback.html:3 apps/feedback/templates/feedback/mobile/feedback.html:46 apps/feedback/templates/feedback/mobile/index.html:3
 msgid "Submit Feedback"
 msgstr "Send tilbakemelding"
 
-#: apps/feedback/validators.py:37
+#: apps/feedback/validators.py:38
 msgid "Submitted User Agent is not the latest beta version."
 msgstr "User agent-teksten som ble sendt indikerer at den nyeste betaversjonen ikke brukes."
 
@@ -585,7 +600,7 @@ msgid "Theme"
 msgstr "Emne"
 
 #. Formerly: Clusters
-#: apps/themes/templates/themes/index.html:2 templates/base.html:34
+#: apps/themes/templates/themes/index.html:2 templates/base.html:36
 msgid "Themes"
 msgstr "Temaer"
 
@@ -608,19 +623,19 @@ msgid "Trends"
 msgstr "Trender"
 
 #: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
-#: apps/website_issues/templates/website_issues/website_issues.html:41
+#: apps/website_issues/templates/website_issues/website_issues.html:28
 msgid "Type of Feedback"
 msgstr "Type tilbakemelding"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:97
+#: apps/website_issues/templates/website_issues/website_issues.html:84
 msgid "Uncommon Sites"
 msgstr "Uvanlige nettsted"
 
-#: apps/feedback/validators.py:29
+#: apps/feedback/validators.py:30
 msgid "User agent string was not recognizable."
 msgstr "User agent-teksten var ikke gjenkjennbar."
 
-#: apps/feedback/views.py:33
+#: apps/feedback/views.py:35
 msgid "User-Agent request header must be set."
 msgstr "User Agent-headeren må være satt i forespørselen."
 
@@ -628,12 +643,13 @@ msgstr "User Agent-headeren må være satt i forespørselen."
 msgid "Version:"
 msgstr "Versjon:"
 
-#: apps/feedback/forms.py:42
+#: apps/feedback/forms.py:63
 msgid "We already got your feedback! Thanks."
 msgstr "Vi har allerede mottatt tilbakemeldingen din! Takk."
 
 #: apps/feedback/templates/feedback/feedback.html:20
-msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can improve it!"
+#, fuzzy
+msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
 msgstr "Vi er lei for å høre at du ikke hadde en god opplevelse med nettleseren vår. Fortell oss hvorfor, slik at vi kan forbedre den!"
 
 #: templates/base.html:5 templates/base_mobile.html:6
@@ -645,7 +661,7 @@ msgid "Welcome!"
 msgstr "Velkommen!"
 
 #. Title for a time-based search filter
-#: apps/dashboard/templates/dashboard/when.html:2 apps/website_issues/templates/website_issues/website_issues.html:31
+#: apps/dashboard/templates/dashboard/when.html:2
 msgid "When"
 msgstr "Når"
 
@@ -666,15 +682,15 @@ msgstr "Windows Vista"
 msgid "Windows XP"
 msgstr "Windows XP"
 
-#: apps/feedback/validators.py:47
+#: apps/feedback/validators.py:48
 msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
 msgstr "Kommentaren inneholder banneord (%s). Bruk heller ord som hjelper oss å lage en handlings- eller oppgaveliste for å forbedre produktene våre fra dine konstruktive tilbakemeldinger. Takk!"
 
-#: apps/feedback/validators.py:72
+#: apps/feedback/validators.py:73
 msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr "Tilbakemeldingen din ser ut til å inneholde en URL. Fjern denne og evt. annen personlig identifiserbar informasjon, og prøv igjen. Takk!"
 
-#: apps/feedback/validators.py:63
+#: apps/feedback/validators.py:64
 msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr "Tilbakemeldingen din ser ut til å inneholde en e-postadresse. Vennligst fjern denne og evt. annen personlig identifiserbar informasjon i teksten, og prøv igjen. Takk!"
 
@@ -699,6 +715,10 @@ msgstr "{0} siden"
 #: apps/themes/templates/themes/theme_list.html:14
 msgid "{0} similar messages"
 msgstr "{0} lignende meldinger"
+
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:3
+msgid "{num} opinions on {day}"
+msgstr ""
 
 #: apps/website_issues/templates/website_issues/sites_list.html:54
 msgid "{percentage}% issues"
@@ -732,6 +752,9 @@ msgstr "{percentage} % ros"
 #~ msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
 #~ msgstr "<a href=\"%(url)s\">Totalt</a>: %(count)s"
 
+#~ msgid "Beta"
+#~ msgstr "Beta"
+
 #~ msgid "Clusters of Opinions"
 #~ msgstr "Meningsklynger"
 
@@ -743,6 +766,12 @@ msgstr "{percentage} % ros"
 
 #~ msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
 #~ msgstr "Beskrivelse: <span class=\"opt\">\"%(query)s\"</span>;"
+
+#~ msgid "Due to software constraints, we can only show the last 1000 messages for this search query."
+#~ msgstr "På grunn av programvarebegrensinger kan vi bare vise de siste 1000 meldingene i denne søkeforespørselen."
+
+#~ msgid "Latest Beta"
+#~ msgstr "Nyeste beta"
 
 #~ msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
 #~ msgstr "Språk: <span class=\"opt\">%(locale)s</span>;"

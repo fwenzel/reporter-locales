@@ -29,11 +29,19 @@ msgid "%(count)s similar message"
 msgid_plural "%(count)s similar messages"
 msgstr[0] "%(count)s pesan mirip"
 
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:4
+msgid "%e %B %Y"
+msgstr ""
+
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:5
+msgid "%e %b"
+msgstr ""
+
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:35 apps/search/templates/search/mobile/search.html:38
 msgid "&laquo; Newer Feedback"
 msgstr "&laquo; Pesan Anyar"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:67 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:65
+#: apps/dashboard/templates/dashboard/dashboard.html:69 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:58
 msgid "&laquo; Newer Messages"
 msgstr "&laquo; Pesan Anyar"
 
@@ -69,7 +77,13 @@ msgstr "1h"
 msgid "30d"
 msgstr "30h"
 
-#: apps/dashboard/templates/dashboard/includes/when_selectors.html:6 apps/website_issues/templates/website_issues/website_issues.html:34
+#: apps/dashboard/templates/dashboard/includes/when_selectors.html:6
+msgid "7d"
+msgstr "7h"
+
+#: apps/website_issues/forms.py:21
+#, fuzzy
+msgctxt "version_choice"
 msgid "7d"
 msgstr "7h"
 
@@ -81,6 +95,11 @@ msgstr[0] "<strong>%(cnt)s</strong> pesan"
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
 msgstr "Feed ATOM untuk pencarian ini"
+
+#: apps/feedback/templates/feedback/mobile/feedback.html:15
+#, fuzzy
+msgid "Ack! Please tell us what to fix!"
+msgstr "Maaf! Silakan isi lebih banyak!"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:26
 msgid "Add URL of last visited page?"
@@ -94,12 +113,12 @@ msgstr "Canggih"
 msgid "All"
 msgstr "Semua"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:44
+#: apps/website_issues/templates/website_issues/website_issues.html:31
 msgctxt "sites_search_all_feedback"
 msgid "All"
 msgstr "Semua"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:55
+#: apps/website_issues/templates/website_issues/website_issues.html:42
 msgctxt "sites_search_all_platforms"
 msgid "All"
 msgstr "Semua"
@@ -108,11 +127,11 @@ msgstr "Semua"
 msgid "All Platforms"
 msgstr "Semua Platform"
 
-#: apps/themes/views.py:23 apps/website_issues/templates/website_issues/website_issues.html:44
+#: apps/themes/views.py:23 apps/website_issues/templates/website_issues/website_issues.html:31
 msgid "All feedback"
 msgstr "Semua saran"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:55
+#: apps/website_issues/templates/website_issues/website_issues.html:42
 msgid "All platforms"
 msgstr "Semua Platform"
 
@@ -132,10 +151,6 @@ msgstr "Kembali ke semua situs &raquo;"
 msgid "Back to {domain} &raquo;"
 msgstr "Kembali ke {domain} &raquo;"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:35
-msgid "Beta"
-msgstr "Beta"
-
 #: templates/includes/nav_buttons.html:2
 msgid "Clusters"
 msgstr "Kelompok"
@@ -153,7 +168,7 @@ msgstr "Salin User-Agent"
 msgid "Custom"
 msgstr "Ubahsuai"
 
-#: templates/base.html:27 templates/base_mobile.html:17
+#: templates/base.html:29 templates/base_mobile.html:20
 msgid "Dashboard"
 msgstr "Dasbor"
 
@@ -165,15 +180,11 @@ msgstr "Rentang waktu:"
 msgid "Download Beta"
 msgstr "Unduh Versi Beta"
 
-#: apps/search/templates/search/search.html:54
-msgid "Due to software constraints, we can only show the last 1000 messages for this search query."
-msgstr "Oleh karena ada keterbatasan perangkat lunak, kami hanya dapat menampilkan 1000 pesan terakhir untuk pencarian ini."
-
-#: apps/feedback/forms.py:21
+#: apps/feedback/forms.py:42
 msgid "Enter your feedback here."
 msgstr "Masukkan saran Anda di sini."
 
-#: templates/base_mobile_old.html:58 templates/base_old.html:64 templates/includes/footer.html:12
+#: templates/base_mobile_old.html:61 templates/base_old.html:68 templates/includes/footer.html:12
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
 "any later version."
@@ -185,11 +196,11 @@ msgstr ""
 msgid "Feed"
 msgstr "Feed"
 
-#: templates/base.html:31
+#: templates/base.html:33
 msgid "Feedback"
 msgstr "Saran"
 
-#: apps/feedback/validators.py:56
+#: apps/feedback/validators.py:57
 msgid "Feedback must not contain HTML."
 msgstr "Saran tidak diperkenankan berisi kode HTML."
 
@@ -201,12 +212,12 @@ msgstr "Dapatkan kabar terbaru dari Mozilla:"
 msgid "Firefox"
 msgstr "Firefox"
 
-#: apps/search/views.py:46 apps/search/views.py:64
+#: apps/search/views.py:64 apps/search/views.py:82
 msgid "Firefox Input"
 msgstr "Firefox Input"
 
 #. L10n: This is the title to the Search ATOM feed.
-#: apps/search/views.py:63
+#: apps/search/views.py:81
 msgid "Firefox Input: '{query}'"
 msgstr "Firefox Input: '{query}'"
 
@@ -235,7 +246,7 @@ msgstr "Dalam terakhir:"
 msgid "Go"
 msgstr "Buka"
 
-#: apps/feedback/templates/feedback/feedback.html:43
+#: apps/feedback/templates/feedback/feedback.html:45
 msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
 msgstr "Punya masalah dengan situs web tertentu? Silakan tambahkan alamat URL situs web tersebut agar kami dapat lebih cepat menemukan masalahnya!"
 
@@ -267,7 +278,7 @@ msgstr "Jika Anda mengikuti tautan rusak, mohon <a href=\"%(bug_url)s\">kirimkan
 msgid "Include the following error message in your bug report:"
 msgstr "Sertakan pesan galat berikut pada laporan bug Anda:"
 
-#: templates/base_mobile_old.html:27 templates/base_old.html:31
+#: templates/base_mobile_old.html:30 templates/base_old.html:35
 msgid "Input Dashboard"
 msgstr "Dasbor Input"
 
@@ -280,12 +291,12 @@ msgid "Issue"
 msgstr "Masalah"
 
 #. Formerly called "sad"
-#: apps/dashboard/templates/dashboard/overview.html:23 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/themes/views.py:33
-#: apps/website_issues/templates/website_issues/website_issues.html:46
+#: apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/themes/views.py:33
+#: apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Issues"
 msgstr "Masalah"
 
-#: apps/themes/views.py:33 apps/website_issues/templates/website_issues/website_issues.html:46
+#: apps/themes/views.py:33 apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Issues only"
 msgstr "Hanya masalah"
 
@@ -293,7 +304,7 @@ msgstr "Hanya masalah"
 msgid "It's great to hear you want to help Mozilla make your experience better!"
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback.html:35
+#: apps/feedback/templates/feedback/feedback.html:37
 msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
 msgstr "Tahu situs web yang bekerja lebih baik dengan Firefox versi beta dibandingkan versi sebelumnya? Silakan tambahkan alamat URL-nya agar kami dapat merekam jejaknya!"
 
@@ -303,7 +314,7 @@ msgid "Last 30 days"
 msgstr "30 hari terakhir"
 
 #. short for 7 days
-#: apps/dashboard/templates/dashboard/includes/when_selectors.html:6 apps/website_issues/templates/website_issues/website_issues.html:34
+#: apps/dashboard/templates/dashboard/includes/when_selectors.html:6
 msgid "Last 7 days"
 msgstr "7 hari terakhir"
 
@@ -312,15 +323,11 @@ msgstr "7 hari terakhir"
 msgid "Last day"
 msgstr "1 hari terakhir"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:35
-msgid "Latest Beta"
-msgstr "Versi Beta Terbaru"
-
-#: apps/dashboard/templates/dashboard/dashboard.html:57
+#: apps/dashboard/templates/dashboard/dashboard.html:59
 msgid "Latest Feedback"
 msgstr "Saran Terbaru"
 
-#: templates/base_mobile_old.html:54 templates/base_old.html:60 templates/includes/footer.html:8
+#: templates/base_mobile_old.html:57 templates/base_old.html:64 templates/includes/footer.html:8
 msgid "Legal Notices"
 msgstr "Pernyataan Hukum"
 
@@ -328,7 +335,11 @@ msgstr "Pernyataan Hukum"
 msgid "Linux"
 msgstr "Linux"
 
-#: apps/dashboard/templates/dashboard/locales.html:14 apps/dashboard/templates/dashboard/mobile/locales.html:9
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:7
+msgid "Loading feedback history..."
+msgstr ""
+
+#: apps/dashboard/templates/dashboard/locales.html:15 apps/dashboard/templates/dashboard/mobile/locales.html:9
 msgid "Locale"
 msgstr "Kode Pelokalan"
 
@@ -357,9 +368,13 @@ msgstr "Mobile"
 msgid "More Options"
 msgstr "Opsi Lainnya"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:102
+#: apps/website_issues/templates/website_issues/website_issues.html:89
 msgid "More sites..."
 msgstr "Situs lainnya..."
+
+#: apps/dashboard/views.py:56 apps/search/views.py:180
+msgid "Negative"
+msgstr ""
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:37
 msgid "Next Page &raquo;"
@@ -398,7 +413,7 @@ msgstr "Ow! Anda ingin mengirimkan saran? Anda harus menggunakan versi Firefox B
 msgid "Older Feedback &raquo;"
 msgstr "Saran Lawas &raquo;"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:68 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:75
+#: apps/dashboard/templates/dashboard/dashboard.html:70 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:68
 msgid "Older Messages &raquo;"
 msgstr "Pesan Lawas &raquo;"
 
@@ -418,11 +433,11 @@ msgstr "Bahasa Lainnya:"
 msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
 msgstr "Mesin pencari kami mungkin lagi <em>ngadat</em>. Anda dapat memulai lagi lewat <a href=\"%(url)s\">dasbor</a> dan mencobanya lagi nanti."
 
-#: apps/dashboard/templates/dashboard/platforms.html:11 apps/dashboard/templates/dashboard/mobile/platforms.html:7 apps/themes/templates/themes/index.html:22
+#: apps/dashboard/templates/dashboard/platforms.html:12 apps/dashboard/templates/dashboard/mobile/platforms.html:8 apps/themes/templates/themes/index.html:22
 msgid "Platform"
 msgstr "Platform"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:52
+#: apps/website_issues/templates/website_issues/website_issues.html:39
 msgid "Platforms"
 msgstr "Platform"
 
@@ -434,7 +449,7 @@ msgstr ""
 msgid "Please choose the type of feedback that you would like to submit to us:"
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback.html:64 apps/feedback/templates/feedback/mobile/feedback.html:44
+#: apps/feedback/templates/feedback/feedback.html:66 apps/feedback/templates/feedback/mobile/feedback.html:44
 msgid "Please ensure that there is no personally identifiable information here."
 msgstr "Pastikan tidak ada informasi yang merujuk ke data pribadi."
 
@@ -442,26 +457,30 @@ msgstr "Pastikan tidak ada informasi yang merujuk ke data pribadi."
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 msgstr "Silakan mulai dari awal lewat <a href=\"%(dashboard_url)s\">dasbor</a>."
 
+#: apps/dashboard/views.py:55 apps/search/views.py:179
+msgid "Positive"
+msgstr ""
+
 #. Formerly called "happy"
-#: apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:11 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36
+#: apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36
 #: apps/search/forms.py:36 apps/themes/views.py:28 apps/themes/templates/themes/theme_list.html:7 apps/website_issues/templates/website_issues/single_site.html:9
-#: apps/website_issues/templates/website_issues/website_issues.html:45
+#: apps/website_issues/templates/website_issues/website_issues.html:32
 msgid "Praise"
 msgstr "Suka"
 
-#: apps/themes/views.py:28 apps/website_issues/templates/website_issues/website_issues.html:45
+#: apps/themes/views.py:28 apps/website_issues/templates/website_issues/website_issues.html:32
 msgid "Praise only"
 msgstr "Hanya suka"
 
-#: templates/base_mobile_old.html:53 templates/base_old.html:59 templates/includes/footer.html:7
+#: templates/base_mobile_old.html:56 templates/base_old.html:63 templates/includes/footer.html:7
 msgid "Privacy Policy"
 msgstr "Kebijakan Privasi"
 
-#: templates/base.html:21 templates/base_mobile_old.html:17 templates/base_old.html:19
+#: templates/base.html:23 templates/base_mobile_old.html:20 templates/base_old.html:23
 msgid "Proceed to footer"
 msgstr "Loncat ke kaki laman"
 
-#: templates/base.html:20 templates/base_mobile_old.html:16 templates/base_old.html:18
+#: templates/base.html:22 templates/base_mobile_old.html:19 templates/base_old.html:22
 msgid "Proceed to main content"
 msgstr "Loncat ke isi utama"
 
@@ -475,11 +494,11 @@ msgstr "Produk:"
 msgid "Product:"
 msgstr "Produk:"
 
-#: apps/search/client.py:82
+#: apps/search/client.py:173
 msgid "Query has timed out."
 msgstr "Tenggang waktu kueri telah habis."
 
-#: templates/base_mobile_old.html:55 templates/base_old.html:61 templates/includes/footer.html:9
+#: templates/base_mobile_old.html:58 templates/base_old.html:65 templates/includes/footer.html:9
 msgid "Report Trademark Abuse"
 msgstr "Laporkan Penyalahgunaan Merek Dagang"
 
@@ -487,11 +506,11 @@ msgstr "Laporkan Penyalahgunaan Merek Dagang"
 msgid "Search"
 msgstr "Cari"
 
-#: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:42
+#: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:44
 msgid "Search Results"
 msgstr "Hasil Pencarian"
 
-#: apps/search/views.py:47
+#: apps/search/views.py:65
 msgid "Search Results in Firefox Beta Feedback."
 msgstr "Hasil Pencarian untuk Saran Firefox Versi Beta."
 
@@ -503,7 +522,7 @@ msgstr "Layanan Pencarian Tidak Tersedia"
 msgid "Search by keyword"
 msgstr "Cari berdasarkan kata kunci"
 
-#: apps/website_issues/forms.py:37
+#: apps/website_issues/forms.py:39
 msgctxt "website_issues_search"
 msgid "Search for domain"
 msgstr "Cari domain"
@@ -523,7 +542,7 @@ msgid "Show/Hide Options"
 msgstr "Bentangkan/Sembunyikan Opsi"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:12 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/website_issues.html:10
-#: templates/base.html:38 templates/includes/nav_buttons.html:4
+#: templates/base.html:40 templates/includes/nav_buttons.html:4
 msgid "Sites"
 msgstr "Situs"
 
@@ -531,12 +550,8 @@ msgstr "Situs"
 msgid "Sites with only one message"
 msgstr "Situs hanya dengan satu pesan"
 
-#: apps/feedback/templates/feedback/mobile/feedback.html:15
-msgid "Sorry! Please tell us more!"
-msgstr "Maaf! Silakan isi lebih banyak!"
-
 #. L10n: Sphinx is the name of the search engine software.
-#: apps/search/client.py:85
+#: apps/search/client.py:176
 msgid "Sphinx threw an unknown exception: %s"
 msgstr "Sphinx telah melemparkan eksepsi yang tak dikenal: %s"
 
@@ -544,12 +559,12 @@ msgstr "Sphinx telah melemparkan eksepsi yang tak dikenal: %s"
 msgid "Statistics"
 msgstr "Statistik"
 
-#: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:66 apps/feedback/templates/feedback/index.html:3
+#: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:68 apps/feedback/templates/feedback/index.html:3
 #: apps/feedback/templates/feedback/mobile/feedback.html:3 apps/feedback/templates/feedback/mobile/feedback.html:46 apps/feedback/templates/feedback/mobile/index.html:3
 msgid "Submit Feedback"
 msgstr "Kirim Saran"
 
-#: apps/feedback/validators.py:37
+#: apps/feedback/validators.py:38
 msgid "Submitted User Agent is not the latest beta version."
 msgstr "User-Agent yang dikirim bukan versi beta terakhir."
 
@@ -582,7 +597,7 @@ msgid "Theme"
 msgstr "Tema"
 
 #. Formerly: Clusters
-#: apps/themes/templates/themes/index.html:2 templates/base.html:34
+#: apps/themes/templates/themes/index.html:2 templates/base.html:36
 msgid "Themes"
 msgstr "Tema"
 
@@ -605,19 +620,19 @@ msgid "Trends"
 msgstr "Tren"
 
 #: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
-#: apps/website_issues/templates/website_issues/website_issues.html:41
+#: apps/website_issues/templates/website_issues/website_issues.html:28
 msgid "Type of Feedback"
 msgstr "Jenis Saran"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:97
+#: apps/website_issues/templates/website_issues/website_issues.html:84
 msgid "Uncommon Sites"
 msgstr "Situs yang Tidak Umum"
 
-#: apps/feedback/validators.py:29
+#: apps/feedback/validators.py:30
 msgid "User agent string was not recognizable."
 msgstr "String User-agent tidak dikenali."
 
-#: apps/feedback/views.py:33
+#: apps/feedback/views.py:35
 msgid "User-Agent request header must be set."
 msgstr "Header permintaan User-Agent harus disetel."
 
@@ -625,12 +640,13 @@ msgstr "Header permintaan User-Agent harus disetel."
 msgid "Version:"
 msgstr "Versi:"
 
-#: apps/feedback/forms.py:42
+#: apps/feedback/forms.py:63
 msgid "We already got your feedback! Thanks."
 msgstr "Kami sudah menyimpan saran Anda! Terima kasih ya."
 
 #: apps/feedback/templates/feedback/feedback.html:20
-msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can improve it!"
+#, fuzzy
+msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
 msgstr "Mohon maaf jika Anda masih belum mendapatkan pengalaman terbaik bersama peramban kami. Mohon beri kami saran agar kami dapat memperbaikinya!"
 
 #: templates/base.html:5 templates/base_mobile.html:6
@@ -642,7 +658,7 @@ msgid "Welcome!"
 msgstr "Selamat Datang!"
 
 #. Title for a time-based search filter
-#: apps/dashboard/templates/dashboard/when.html:2 apps/website_issues/templates/website_issues/website_issues.html:31
+#: apps/dashboard/templates/dashboard/when.html:2
 msgid "When"
 msgstr "Waktu"
 
@@ -663,17 +679,17 @@ msgstr "Windows Vista"
 msgid "Windows XP"
 msgstr "Windows XP"
 
-#: apps/feedback/validators.py:47
+#: apps/feedback/validators.py:48
 msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
 msgstr ""
 "Nampaknya saran Anda berisi kata-kata yang tidak sopan (%s). Untuk membantu memperbaiki produk kami, silakan gunakan kata-kata yang dapat menunjang aksi kami dan juga saran yang membangun. Terima "
 "kasih!"
 
-#: apps/feedback/validators.py:72
+#: apps/feedback/validators.py:73
 msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr "Nampaknya saran Anda berisi alamat URL. Mohon alamat tersebut dan data pribadi lainnya dihapus dari isi saran, kemudian coba lagi. Terima kasih!"
 
-#: apps/feedback/validators.py:63
+#: apps/feedback/validators.py:64
 msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr "Nampaknya saran Anda berisi alamat email. Mohon alamat email dan data pribadi lainnya dihapus dari isi saran, kemudian coba lagi. Terima kasih!"
 
@@ -698,6 +714,10 @@ msgstr "{0} yang lalu"
 #: apps/themes/templates/themes/theme_list.html:14
 msgid "{0} similar messages"
 msgstr "%(count)s pesan mirip"
+
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:3
+msgid "{num} opinions on {day}"
+msgstr ""
 
 #: apps/website_issues/templates/website_issues/sites_list.html:54
 msgid "{percentage}% issues"
@@ -728,6 +748,9 @@ msgstr "{percentage}% suka"
 #~ msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
 #~ msgstr "<a href=\"%(url)s\">Total</a>: %(count)s"
 
+#~ msgid "Beta"
+#~ msgstr "Beta"
+
 #~ msgid "Clusters of Opinions"
 #~ msgstr "Kelompok Pendapat"
 
@@ -739,6 +762,12 @@ msgstr "{percentage}% suka"
 
 #~ msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
 #~ msgstr "Deskripsi: <span class=\"opt\">\"%(query)s\"</span>;"
+
+#~ msgid "Due to software constraints, we can only show the last 1000 messages for this search query."
+#~ msgstr "Oleh karena ada keterbatasan perangkat lunak, kami hanya dapat menampilkan 1000 pesan terakhir untuk pencarian ini."
+
+#~ msgid "Latest Beta"
+#~ msgstr "Versi Beta Terbaru"
 
 #~ msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
 #~ msgstr "Kode Pelokalan: <span class=\"opt\">%(locale)s</span>;"

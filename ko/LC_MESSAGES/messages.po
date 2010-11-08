@@ -34,12 +34,20 @@ msgid_plural "%(count)s similar messages"
 msgstr[0] "최종 메시지: {count}개"
 msgstr[1] "최종 메시지: {count}개"
 
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:4
+msgid "%e %B %Y"
+msgstr ""
+
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:5
+msgid "%e %b"
+msgstr ""
+
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:35 apps/search/templates/search/mobile/search.html:38
 #, fuzzy
 msgid "&laquo; Newer Feedback"
 msgstr "&laquo; 이전 의견"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:67 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:65
+#: apps/dashboard/templates/dashboard/dashboard.html:69 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:58
 #, fuzzy
 msgid "&laquo; Newer Messages"
 msgstr "&laquo; 이전 의견"
@@ -77,7 +85,13 @@ msgstr "1일"
 msgid "30d"
 msgstr "30일"
 
-#: apps/dashboard/templates/dashboard/includes/when_selectors.html:6 apps/website_issues/templates/website_issues/website_issues.html:34
+#: apps/dashboard/templates/dashboard/includes/when_selectors.html:6
+msgid "7d"
+msgstr "7일"
+
+#: apps/website_issues/forms.py:21
+#, fuzzy
+msgctxt "version_choice"
 msgid "7d"
 msgstr "7일"
 
@@ -92,6 +106,11 @@ msgstr[1] "최종 메시지: {count}개"
 msgid "ATOM feed for this search"
 msgstr "검색 결과 ATOM 피드"
 
+#: apps/feedback/templates/feedback/mobile/feedback.html:15
+#, fuzzy
+msgid "Ack! Please tell us what to fix!"
+msgstr "죄송합니다! 더 알려 주시기 바랍니다!"
+
 #: apps/feedback/templates/feedback/mobile/feedback.html:26
 msgid "Add URL of last visited page?"
 msgstr "마지막 방문 페이지 URL을 추가하시겠습니까?"
@@ -105,13 +124,13 @@ msgstr "고급"
 msgid "All"
 msgstr "전체"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:44
+#: apps/website_issues/templates/website_issues/website_issues.html:31
 #, fuzzy
 msgctxt "sites_search_all_feedback"
 msgid "All"
 msgstr "전체"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:55
+#: apps/website_issues/templates/website_issues/website_issues.html:42
 #, fuzzy
 msgctxt "sites_search_all_platforms"
 msgid "All"
@@ -122,11 +141,11 @@ msgstr "전체"
 msgid "All Platforms"
 msgstr "플랫폼"
 
-#: apps/themes/views.py:23 apps/website_issues/templates/website_issues/website_issues.html:44
+#: apps/themes/views.py:23 apps/website_issues/templates/website_issues/website_issues.html:31
 msgid "All feedback"
 msgstr "전체 의견"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:55
+#: apps/website_issues/templates/website_issues/website_issues.html:42
 #, fuzzy
 msgid "All platforms"
 msgstr "플랫폼"
@@ -148,10 +167,6 @@ msgstr "전체 사이트 보기 &raquo;"
 msgid "Back to {domain} &raquo;"
 msgstr "전체 사이트 보기 &raquo;"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:35
-msgid "Beta"
-msgstr "베타"
-
 #: templates/includes/nav_buttons.html:2
 msgid "Clusters"
 msgstr "모아보기"
@@ -170,7 +185,7 @@ msgstr "프로그램명 복사"
 msgid "Custom"
 msgstr "사용자 정의"
 
-#: templates/base.html:27 templates/base_mobile.html:17
+#: templates/base.html:29 templates/base_mobile.html:20
 #, fuzzy
 msgid "Dashboard"
 msgstr "사용자 평가 서비스"
@@ -183,15 +198,11 @@ msgstr "데이터 범위:"
 msgid "Download Beta"
 msgstr "베타 무료 다운로드"
 
-#: apps/search/templates/search/search.html:54
-msgid "Due to software constraints, we can only show the last 1000 messages for this search query."
-msgstr "서비스 성능 제약으로 인해 1,000개의 결과만 제공합니다."
-
-#: apps/feedback/forms.py:21
+#: apps/feedback/forms.py:42
 msgid "Enter your feedback here."
 msgstr "여기에 의견을 작성해 주십시오."
 
-#: templates/base_mobile_old.html:58 templates/base_old.html:64 templates/includes/footer.html:12
+#: templates/base_mobile_old.html:61 templates/base_old.html:68 templates/includes/footer.html:12
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
 "any later version."
@@ -202,12 +213,12 @@ msgstr "특별한 <a href=\"%(legal_url)s\">법적 고지</a>가 없는 한 본 
 msgid "Feed"
 msgstr "사용자 평가 의견"
 
-#: templates/base.html:31
+#: templates/base.html:33
 #, fuzzy
 msgid "Feedback"
 msgstr "사용자 평가 의견"
 
-#: apps/feedback/validators.py:56
+#: apps/feedback/validators.py:57
 msgid "Feedback must not contain HTML."
 msgstr "의견란에는 HTML을 포함해서는 안됩니다."
 
@@ -219,12 +230,12 @@ msgstr "Mozilla 최근 소식 보기:"
 msgid "Firefox"
 msgstr ""
 
-#: apps/search/views.py:46 apps/search/views.py:64
+#: apps/search/views.py:64 apps/search/views.py:82
 msgid "Firefox Input"
 msgstr "Firefox Input 사용자 평가"
 
 #. L10n: This is the title to the Search ATOM feed.
-#: apps/search/views.py:63
+#: apps/search/views.py:81
 msgid "Firefox Input: '{query}'"
 msgstr "Firefox Input 사용자 평가: '{query}'"
 
@@ -253,7 +264,7 @@ msgstr ""
 msgid "Go"
 msgstr "이동"
 
-#: apps/feedback/templates/feedback/feedback.html:43
+#: apps/feedback/templates/feedback/feedback.html:45
 msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
 msgstr "특정 웹사이트에 문제가 있습니까? URL을 입력해 주시면 빠르게 해결해 드립니다."
 
@@ -285,7 +296,7 @@ msgstr "링크가 깨졌다면, <a href=\"%(bug_url)s\">Bugzilla</a>에 보고�
 msgid "Include the following error message in your bug report:"
 msgstr "버그 보고서에 아래 오류 메시지도 포함해 주십시오."
 
-#: templates/base_mobile_old.html:27 templates/base_old.html:31
+#: templates/base_mobile_old.html:30 templates/base_old.html:35
 msgid "Input Dashboard"
 msgstr "사용자 평가 서비스"
 
@@ -299,12 +310,12 @@ msgid "Issue"
 msgstr "부정적 의견"
 
 #. Formerly called "sad"
-#: apps/dashboard/templates/dashboard/overview.html:23 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/themes/views.py:33
-#: apps/website_issues/templates/website_issues/website_issues.html:46
+#: apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/themes/views.py:33
+#: apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Issues"
 msgstr "부정적 의견"
 
-#: apps/themes/views.py:33 apps/website_issues/templates/website_issues/website_issues.html:46
+#: apps/themes/views.py:33 apps/website_issues/templates/website_issues/website_issues.html:33
 #, fuzzy
 msgid "Issues only"
 msgstr "부정적 의견"
@@ -313,7 +324,7 @@ msgstr "부정적 의견"
 msgid "It's great to hear you want to help Mozilla make your experience better!"
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback.html:35
+#: apps/feedback/templates/feedback/feedback.html:37
 msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
 msgstr "Firefox 이전 버전에서 제공되는 것이 제공되지 않은 사이트가 있다면 URL을 보내 주십시오. 살펴보겠습니다!"
 
@@ -323,7 +334,7 @@ msgid "Last 30 days"
 msgstr "30일"
 
 #. short for 7 days
-#: apps/dashboard/templates/dashboard/includes/when_selectors.html:6 apps/website_issues/templates/website_issues/website_issues.html:34
+#: apps/dashboard/templates/dashboard/includes/when_selectors.html:6
 msgid "Last 7 days"
 msgstr "7일"
 
@@ -333,16 +344,12 @@ msgstr "7일"
 msgid "Last day"
 msgstr "하루"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:35
-msgid "Latest Beta"
-msgstr "최신 베타버전"
-
-#: apps/dashboard/templates/dashboard/dashboard.html:57
+#: apps/dashboard/templates/dashboard/dashboard.html:59
 #, fuzzy
 msgid "Latest Feedback"
 msgstr "의견 보내기"
 
-#: templates/base_mobile_old.html:54 templates/base_old.html:60 templates/includes/footer.html:8
+#: templates/base_mobile_old.html:57 templates/base_old.html:64 templates/includes/footer.html:8
 msgid "Legal Notices"
 msgstr "법적 고지"
 
@@ -350,7 +357,11 @@ msgstr "법적 고지"
 msgid "Linux"
 msgstr "리눅스"
 
-#: apps/dashboard/templates/dashboard/locales.html:14 apps/dashboard/templates/dashboard/mobile/locales.html:9
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:7
+msgid "Loading feedback history..."
+msgstr ""
+
+#: apps/dashboard/templates/dashboard/locales.html:15 apps/dashboard/templates/dashboard/mobile/locales.html:9
 msgid "Locale"
 msgstr "언어별"
 
@@ -379,9 +390,13 @@ msgstr "모바일"
 msgid "More Options"
 msgstr "고급 옵션"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:102
+#: apps/website_issues/templates/website_issues/website_issues.html:89
 msgid "More sites..."
 msgstr "목록 더보기... "
+
+#: apps/dashboard/views.py:56 apps/search/views.py:180
+msgid "Negative"
+msgstr ""
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:37
 #, fuzzy
@@ -423,7 +438,7 @@ msgstr "Firefox 차기 버전에 대한 의견을 제공해 주셔서 감사합�
 msgid "Older Feedback &raquo;"
 msgstr "다음 의견 &raquo;"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:68 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:75
+#: apps/dashboard/templates/dashboard/dashboard.html:70 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:68
 #, fuzzy
 msgid "Older Messages &raquo;"
 msgstr "다음 의견 &raquo;"
@@ -444,11 +459,11 @@ msgstr "기타 언어"
 msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
 msgstr "현재 검색 서비스가 원활하지 않습니다. <a href=\"%(url)s\">첫화면</a>에서 다시 검색해 주십시오."
 
-#: apps/dashboard/templates/dashboard/platforms.html:11 apps/dashboard/templates/dashboard/mobile/platforms.html:7 apps/themes/templates/themes/index.html:22
+#: apps/dashboard/templates/dashboard/platforms.html:12 apps/dashboard/templates/dashboard/mobile/platforms.html:8 apps/themes/templates/themes/index.html:22
 msgid "Platform"
 msgstr "플랫폼"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:52
+#: apps/website_issues/templates/website_issues/website_issues.html:39
 #, fuzzy
 msgid "Platforms"
 msgstr "플랫폼"
@@ -461,7 +476,7 @@ msgstr ""
 msgid "Please choose the type of feedback that you would like to submit to us:"
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback.html:64 apps/feedback/templates/feedback/mobile/feedback.html:44
+#: apps/feedback/templates/feedback/feedback.html:66 apps/feedback/templates/feedback/mobile/feedback.html:44
 msgid "Please ensure that there is no personally identifiable information here."
 msgstr "본 사이트는 개인 식별 정보를 요구하지 않습니다."
 
@@ -469,27 +484,31 @@ msgstr "본 사이트는 개인 식별 정보를 요구하지 않습니다."
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 msgstr "<a href=\"%(dashboard_url)s\">요약 페이지</a>에서 시작하세요."
 
+#: apps/dashboard/views.py:55 apps/search/views.py:179
+msgid "Positive"
+msgstr ""
+
 #. Formerly called "happy"
-#: apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:11 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36
+#: apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36
 #: apps/search/forms.py:36 apps/themes/views.py:28 apps/themes/templates/themes/theme_list.html:7 apps/website_issues/templates/website_issues/single_site.html:9
-#: apps/website_issues/templates/website_issues/website_issues.html:45
+#: apps/website_issues/templates/website_issues/website_issues.html:32
 msgid "Praise"
 msgstr "긍정적 의견"
 
-#: apps/themes/views.py:28 apps/website_issues/templates/website_issues/website_issues.html:45
+#: apps/themes/views.py:28 apps/website_issues/templates/website_issues/website_issues.html:32
 #, fuzzy
 msgid "Praise only"
 msgstr "긍정적 의견"
 
-#: templates/base_mobile_old.html:53 templates/base_old.html:59 templates/includes/footer.html:7
+#: templates/base_mobile_old.html:56 templates/base_old.html:63 templates/includes/footer.html:7
 msgid "Privacy Policy"
 msgstr "개인 정보 정책"
 
-#: templates/base.html:21 templates/base_mobile_old.html:17 templates/base_old.html:19
+#: templates/base.html:23 templates/base_mobile_old.html:20 templates/base_old.html:23
 msgid "Proceed to footer"
 msgstr "끝으로 가기"
 
-#: templates/base.html:20 templates/base_mobile_old.html:16 templates/base_old.html:18
+#: templates/base.html:22 templates/base_mobile_old.html:19 templates/base_old.html:22
 msgid "Proceed to main content"
 msgstr "콘텐츠로 가기"
 
@@ -503,11 +522,11 @@ msgstr "제품 이름:"
 msgid "Product:"
 msgstr "제품 이름:"
 
-#: apps/search/client.py:82
+#: apps/search/client.py:173
 msgid "Query has timed out."
 msgstr "검색 시간이 너무 길어졌습니다."
 
-#: templates/base_mobile_old.html:55 templates/base_old.html:61 templates/includes/footer.html:9
+#: templates/base_mobile_old.html:58 templates/base_old.html:65 templates/includes/footer.html:9
 msgid "Report Trademark Abuse"
 msgstr "상표권 침해 신고"
 
@@ -515,11 +534,11 @@ msgstr "상표권 침해 신고"
 msgid "Search"
 msgstr "검색"
 
-#: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:42
+#: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:44
 msgid "Search Results"
 msgstr "검색 결과"
 
-#: apps/search/views.py:47
+#: apps/search/views.py:65
 msgid "Search Results in Firefox Beta Feedback."
 msgstr "Firefox 베타 의견 검색 결과"
 
@@ -532,7 +551,7 @@ msgstr "검색 안됨"
 msgid "Search by keyword"
 msgstr "검색어를 입력하세요!"
 
-#: apps/website_issues/forms.py:37
+#: apps/website_issues/forms.py:39
 #, fuzzy
 msgctxt "website_issues_search"
 msgid "Search for domain"
@@ -553,7 +572,7 @@ msgid "Show/Hide Options"
 msgstr "보이기/숨기기 설정"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:12 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/website_issues.html:10
-#: templates/base.html:38 templates/includes/nav_buttons.html:4
+#: templates/base.html:40 templates/includes/nav_buttons.html:4
 msgid "Sites"
 msgstr "사이트별"
 
@@ -561,12 +580,8 @@ msgstr "사이트별"
 msgid "Sites with only one message"
 msgstr "한 메시지만 있는 사이트"
 
-#: apps/feedback/templates/feedback/mobile/feedback.html:15
-msgid "Sorry! Please tell us more!"
-msgstr "죄송합니다! 더 알려 주시기 바랍니다!"
-
 #. L10n: Sphinx is the name of the search engine software.
-#: apps/search/client.py:85
+#: apps/search/client.py:176
 msgid "Sphinx threw an unknown exception: %s"
 msgstr "알수 없는 예외 오류: %s"
 
@@ -574,12 +589,12 @@ msgstr "알수 없는 예외 오류: %s"
 msgid "Statistics"
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:66 apps/feedback/templates/feedback/index.html:3
+#: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:68 apps/feedback/templates/feedback/index.html:3
 #: apps/feedback/templates/feedback/mobile/feedback.html:3 apps/feedback/templates/feedback/mobile/feedback.html:46 apps/feedback/templates/feedback/mobile/index.html:3
 msgid "Submit Feedback"
 msgstr "의견 보내기"
 
-#: apps/feedback/validators.py:37
+#: apps/feedback/validators.py:38
 msgid "Submitted User Agent is not the latest beta version."
 msgstr "의견을 보내신 웹 브라우저가 최신 베타 버전이 아닙니다."
 
@@ -613,7 +628,7 @@ msgid "Theme"
 msgstr "분류별"
 
 #. Formerly: Clusters
-#: apps/themes/templates/themes/index.html:2 templates/base.html:34
+#: apps/themes/templates/themes/index.html:2 templates/base.html:36
 msgid "Themes"
 msgstr "분류별"
 
@@ -637,20 +652,20 @@ msgid "Trends"
 msgstr "경향"
 
 #: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
-#: apps/website_issues/templates/website_issues/website_issues.html:41
+#: apps/website_issues/templates/website_issues/website_issues.html:28
 #, fuzzy
 msgid "Type of Feedback"
 msgstr "사용자 의견 감사드립니다"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:97
+#: apps/website_issues/templates/website_issues/website_issues.html:84
 msgid "Uncommon Sites"
 msgstr "문제 있는 사이트"
 
-#: apps/feedback/validators.py:29
+#: apps/feedback/validators.py:30
 msgid "User agent string was not recognizable."
 msgstr "웹브라우저 종류를 인식할 수 없습니다."
 
-#: apps/feedback/views.py:33
+#: apps/feedback/views.py:35
 msgid "User-Agent request header must be set."
 msgstr "웹브라우저 종류가 설정되어 있지 않습니다."
 
@@ -658,12 +673,13 @@ msgstr "웹브라우저 종류가 설정되어 있지 않습니다."
 msgid "Version:"
 msgstr "버전:"
 
-#: apps/feedback/forms.py:42
+#: apps/feedback/forms.py:63
 msgid "We already got your feedback! Thanks."
 msgstr "평가 의견을 주셔서 감사합니다."
 
 #: apps/feedback/templates/feedback/feedback.html:20
-msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can improve it!"
+#, fuzzy
+msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
 msgstr "베타 버전에서 부정적인 결과를 드려서 매우 죄송합니다. 개선점을 알려 주시면 다음 버전에서 향상시키기 위해 노력하겠습니다!"
 
 #: templates/base.html:5 templates/base_mobile.html:6
@@ -676,7 +692,7 @@ msgid "Welcome!"
 msgstr "어서오세요!"
 
 #. Title for a time-based search filter
-#: apps/dashboard/templates/dashboard/when.html:2 apps/website_issues/templates/website_issues/website_issues.html:31
+#: apps/dashboard/templates/dashboard/when.html:2
 msgid "When"
 msgstr "일시"
 
@@ -697,15 +713,15 @@ msgstr "윈도 비스타"
 msgid "Windows XP"
 msgstr "윈도 XP"
 
-#: apps/feedback/validators.py:47
+#: apps/feedback/validators.py:48
 msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
 msgstr "의견 내용 중에 욕설(%s)이 담겨져 있습니다. 제품 개선을 위해 건설적인 의견을 보내 주시면 대단히 감사하겠습니다."
 
-#: apps/feedback/validators.py:72
+#: apps/feedback/validators.py:73
 msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr "의견란에 URL을 포함하고 있습니다. 만약 개인 데이터를 담고 있다면 다시 한번 확인해 주십시오."
 
-#: apps/feedback/validators.py:63
+#: apps/feedback/validators.py:64
 msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr "의견란에 메일 주소를 포함하고 있습니다. 만약 개인 데이터를 담고 있다면 다시 한번 확인해 주십시오."
 
@@ -731,6 +747,10 @@ msgstr "{0} 전"
 #, fuzzy
 msgid "{0} similar messages"
 msgstr "최종 메시지: {count}개"
+
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:3
+msgid "{num} opinions on {day}"
+msgstr ""
 
 #: apps/website_issues/templates/website_issues/sites_list.html:54
 msgid "{percentage}% issues"
@@ -765,6 +785,9 @@ msgstr "긍정적: {percentage}%"
 #~ msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
 #~ msgstr "<a href=\"%(url)s\">합계</a>: %(count)s"
 
+#~ msgid "Beta"
+#~ msgstr "베타"
+
 #~ msgid "Clusters of Opinions"
 #~ msgstr "의견 모아보기"
 
@@ -776,6 +799,12 @@ msgstr "긍정적: {percentage}%"
 
 #~ msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
 #~ msgstr "설명: <span class=\"opt\">\"%(query)s\"</span>"
+
+#~ msgid "Due to software constraints, we can only show the last 1000 messages for this search query."
+#~ msgstr "서비스 성능 제약으로 인해 1,000개의 결과만 제공합니다."
+
+#~ msgid "Latest Beta"
+#~ msgstr "최신 베타버전"
 
 #~ msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
 #~ msgstr "언어별: <span class=\"opt\">%(locale)s</span>"
