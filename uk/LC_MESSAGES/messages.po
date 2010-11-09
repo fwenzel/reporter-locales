@@ -86,12 +86,6 @@ msgstr "30 д."
 msgid "7d"
 msgstr "7 д."
 
-#: apps/website_issues/forms.py:21
-#, fuzzy
-msgctxt "version_choice"
-msgid "7d"
-msgstr "7 д."
-
 #: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
 msgid "<strong>%(cnt)s</strong> message"
 msgid_plural "<strong>%(cnt)s</strong> messages"
@@ -228,6 +222,11 @@ msgstr "Firefox Input"
 msgid "Firefox Input: '{query}'"
 msgstr "Firefox Input: '{query}'"
 
+#: apps/feedback/templates/feedback/index.html:24
+#, fuzzy
+msgid "Firefox Logo"
+msgstr "Firefox"
+
 #: apps/feedback/templates/feedback/mobile/index.html:13 apps/feedback/templates/feedback/mobile/index.html:15
 msgid "Firefox makes me happy ..."
 msgstr "Firefox мене порадував…"
@@ -273,6 +272,10 @@ msgstr "Якщо проблема не зникає, будь ласка <a href
 #: templates/500.html:20
 msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
 msgstr "Якщо ви маєте додаткову інформацію щодо того як відтворити цю проблему, будь ласка <a href=\"%(bug_url)s\">опишіть ваду.</a> Дякуємо!"
+
+#: apps/feedback/templates/feedback/index.html:25
+msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
+msgstr ""
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
@@ -425,10 +428,6 @@ msgstr "Старіші відгуки &raquo;"
 msgid "Older Messages &raquo;"
 msgstr "Старіші повідомлення &raquo;"
 
-#: apps/feedback/templates/feedback/opinion.html:3
-msgid "Opinion"
-msgstr "Думка"
-
 #: apps/feedback/__init__.py:84
 msgid "Other"
 msgstr "Інше"
@@ -529,7 +528,7 @@ msgstr "Пошук недоступний"
 msgid "Search by keyword"
 msgstr "Пошуковий запит"
 
-#: apps/website_issues/forms.py:39
+#: apps/website_issues/forms.py:38
 msgctxt "website_issues_search"
 msgid "Search for domain"
 msgstr "Пошуковий запит"
@@ -734,6 +733,11 @@ msgstr "{percentage}% проблем"
 msgid "{percentage}% praise"
 msgstr "{percentage}% хвали"
 
+#, fuzzy
+#~ msgctxt "version_choice"
+#~ msgid "7d"
+#~ msgstr "7 д."
+
 #~ msgid "Beta"
 #~ msgstr "Бета"
 
@@ -745,3 +749,6 @@ msgstr "{percentage}% хвали"
 
 #~ msgid "Latest Beta"
 #~ msgstr "Остання бета"
+
+#~ msgid "Opinion"
+#~ msgstr "Думка"

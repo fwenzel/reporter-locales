@@ -84,12 +84,6 @@ msgstr "30 дена"
 msgid "7d"
 msgstr "7 дена"
 
-#: apps/website_issues/forms.py:21
-#, fuzzy
-msgctxt "version_choice"
-msgid "7d"
-msgstr "7 дена"
-
 #: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
 msgid "<strong>%(cnt)s</strong> message"
 msgid_plural "<strong>%(cnt)s</strong> messages"
@@ -225,6 +219,11 @@ msgstr "Firefox Input"
 msgid "Firefox Input: '{query}'"
 msgstr "Firefox Input: „{query}“"
 
+#: apps/feedback/templates/feedback/index.html:24
+#, fuzzy
+msgid "Firefox Logo"
+msgstr "Firefox"
+
 #: apps/feedback/templates/feedback/mobile/index.html:13 apps/feedback/templates/feedback/mobile/index.html:15
 msgid "Firefox makes me happy ..."
 msgstr ""
@@ -269,6 +268,10 @@ msgstr "Ако проблемът продължава, моля <a href=\"%(bug
 #: templates/500.html:20
 msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
 msgstr "Ако имате допълнителна информация как да се възпроизведе проблема, моля <a href=\"%(bug_url)s\">докладвайте бъг.</a> Благодаря!"
+
+#: apps/feedback/templates/feedback/index.html:25
+msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
+msgstr ""
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
@@ -421,10 +424,6 @@ msgstr "По-стара обратна връзка &raquo;"
 msgid "Older Messages &raquo;"
 msgstr "По-стари съобщения &raquo;"
 
-#: apps/feedback/templates/feedback/opinion.html:3
-msgid "Opinion"
-msgstr "Мнение"
-
 #: apps/feedback/__init__.py:84
 msgid "Other"
 msgstr "Друг"
@@ -526,7 +525,7 @@ msgstr "Търсенето е недостъпно"
 msgid "Search by keyword"
 msgstr "Търсене по ключова дума"
 
-#: apps/website_issues/forms.py:39
+#: apps/website_issues/forms.py:38
 msgctxt "website_issues_search"
 msgid "Search for domain"
 msgstr "Търсене за домейн"
@@ -747,6 +746,11 @@ msgstr "{percentage}% похвали"
 #~ msgid "1 week"
 #~ msgstr "1 седмица"
 
+#, fuzzy
+#~ msgctxt "version_choice"
+#~ msgid "7d"
+#~ msgstr "7 дена"
+
 #~ msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
 #~ msgstr "<a href=\"%(url)s\">Общо</a>: %(count)s"
 
@@ -791,6 +795,9 @@ msgstr "{percentage}% похвали"
 
 #~ msgid "OS: {os_name}"
 #~ msgstr "ОС: {os_name}"
+
+#~ msgid "Opinion"
+#~ msgstr "Мнение"
 
 #~ msgid "Overview"
 #~ msgstr "Преглед"

@@ -84,12 +84,6 @@ msgstr "30d"
 msgid "7d"
 msgstr "7d"
 
-#: apps/website_issues/forms.py:21
-#, fuzzy
-msgctxt "version_choice"
-msgid "7d"
-msgstr "7d"
-
 #: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
 #, fuzzy
 msgid "<strong>%(cnt)s</strong> message"
@@ -232,6 +226,11 @@ msgstr "Firefox Input"
 msgid "Firefox Input: '{query}'"
 msgstr "Firefox Input: '{query}'"
 
+#: apps/feedback/templates/feedback/index.html:24
+#, fuzzy
+msgid "Firefox Logo"
+msgstr "Firefox"
+
 #: apps/feedback/templates/feedback/mobile/index.html:13 apps/feedback/templates/feedback/mobile/index.html:15
 msgid "Firefox makes me happy ..."
 msgstr ""
@@ -276,6 +275,10 @@ msgstr "Se o problema persistir, por favor <a href=\"%(bug_url)s\">preencha um b
 #: templates/500.html:20
 msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
 msgstr "Se tiver informação adicional sobre como reproduzir este problema, por favor<a href=\"%(bug_url)s\">preencha um bug.</a> Obrigado!"
+
+#: apps/feedback/templates/feedback/index.html:25
+msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
+msgstr ""
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
@@ -429,10 +432,6 @@ msgstr "Mensagens antigas &raquo;"
 msgid "Older Messages &raquo;"
 msgstr "Mensagens antigas &raquo;"
 
-#: apps/feedback/templates/feedback/opinion.html:3
-msgid "Opinion"
-msgstr "Opinião"
-
 #: apps/feedback/__init__.py:84
 msgid "Other"
 msgstr "Outro"
@@ -535,7 +534,7 @@ msgstr "Pesquisa indisponível"
 msgid "Search by keyword"
 msgstr "Pesquisar por palavra chave"
 
-#: apps/website_issues/forms.py:39
+#: apps/website_issues/forms.py:38
 msgctxt "website_issues_search"
 msgid "Search for domain"
 msgstr "Pesquisar domínio"
@@ -760,6 +759,11 @@ msgstr "{percentage}% de elogios"
 #~ msgid "1 week"
 #~ msgstr "1 semana"
 
+#, fuzzy
+#~ msgctxt "version_choice"
+#~ msgid "7d"
+#~ msgstr "7d"
+
 #~ msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
 #~ msgstr "<a href=\"%(url)s\">Total</a>: %(count)s"
 
@@ -806,6 +810,9 @@ msgstr "{percentage}% de elogios"
 
 #~ msgid "OS: {os_name}"
 #~ msgstr "SO: {os_name}"
+
+#~ msgid "Opinion"
+#~ msgstr "Opinião"
 
 #~ msgid "Overview"
 #~ msgstr "Visão global"

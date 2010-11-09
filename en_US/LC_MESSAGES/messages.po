@@ -80,12 +80,6 @@ msgstr "30d"
 msgid "7d"
 msgstr "7d"
 
-#: apps/website_issues/forms.py:21
-#, fuzzy
-msgctxt "version_choice"
-msgid "7d"
-msgstr "7d"
-
 #: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
 msgid "<strong>%(cnt)s</strong> message"
 msgid_plural "<strong>%(cnt)s</strong> messages"
@@ -221,6 +215,11 @@ msgstr "Firefox Input"
 msgid "Firefox Input: '{query}'"
 msgstr "Firefox Input: '{query}'"
 
+#: apps/feedback/templates/feedback/index.html:24
+#, fuzzy
+msgid "Firefox Logo"
+msgstr "Firefox"
+
 #: apps/feedback/templates/feedback/mobile/index.html:13 apps/feedback/templates/feedback/mobile/index.html:15
 msgid "Firefox makes me happy ..."
 msgstr "Firefox makes me happy ..."
@@ -265,6 +264,10 @@ msgstr "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, 
 #: templates/500.html:20
 msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
 msgstr "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+
+#: apps/feedback/templates/feedback/index.html:25
+msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
+msgstr "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
@@ -417,10 +420,6 @@ msgstr "Older Feedback &raquo;"
 msgid "Older Messages &raquo;"
 msgstr "Older Messages &raquo;"
 
-#: apps/feedback/templates/feedback/opinion.html:3
-msgid "Opinion"
-msgstr "Opinion"
-
 #: apps/feedback/__init__.py:84
 msgid "Other"
 msgstr "Other"
@@ -522,7 +521,7 @@ msgstr "Search Unavailable"
 msgid "Search by keyword"
 msgstr "Search by keyword"
 
-#: apps/website_issues/forms.py:39
+#: apps/website_issues/forms.py:38
 msgctxt "website_issues_search"
 msgid "Search for domain"
 msgstr "Search for domain"
@@ -728,6 +727,11 @@ msgstr "{percentage}% praise"
 #~ msgid "&laquo; Previous Page;"
 #~ msgstr "&laquo; Previous Page;"
 
+#, fuzzy
+#~ msgctxt "version_choice"
+#~ msgid "7d"
+#~ msgstr "7d"
+
 #~ msgid "Beta"
 #~ msgstr "Beta"
 
@@ -736,6 +740,9 @@ msgstr "{percentage}% praise"
 
 #~ msgid "Latest Beta"
 #~ msgstr "Latest Beta"
+
+#~ msgid "Opinion"
+#~ msgstr "Opinion"
 
 #~ msgid "Version"
 #~ msgstr "Version"

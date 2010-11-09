@@ -96,12 +96,6 @@ msgstr "30 يوم"
 msgid "7d"
 msgstr "7 أيام"
 
-#: apps/website_issues/forms.py:21
-#, fuzzy
-msgctxt "version_choice"
-msgid "7d"
-msgstr "7 أيام"
-
 #: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
 msgid "<strong>%(cnt)s</strong> message"
 msgid_plural "<strong>%(cnt)s</strong> messages"
@@ -239,6 +233,11 @@ msgstr "آراء في فَيَرفُكس"
 msgid "Firefox Input: '{query}'"
 msgstr "آراء في فَيَرفُكس: '{query}'"
 
+#: apps/feedback/templates/feedback/index.html:24
+#, fuzzy
+msgid "Firefox Logo"
+msgstr "فَيَرفُكس"
+
 #: apps/feedback/templates/feedback/mobile/index.html:13 apps/feedback/templates/feedback/mobile/index.html:15
 msgid "Firefox makes me happy ..."
 msgstr "فَيَرفُكس أسعدني..."
@@ -283,6 +282,10 @@ msgstr "إن استمرت المشكلة بالظهور، <a href=\"%(bug_url)s\
 #: templates/500.html:20
 msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
 msgstr "إن كان لديك معلومات إضافية عن كيفية حصول هذه المشكلة من جديد، يُرجى منك <a href=\"%(bug_url)s\">التبليغ عن هذه العلة</a>. شكرًا!"
+
+#: apps/feedback/templates/feedback/index.html:25
+msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
+msgstr ""
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
@@ -435,10 +438,6 @@ msgstr "تعليق أقدم &raquo;"
 msgid "Older Messages &raquo;"
 msgstr "رسائل أقدم &raquo;"
 
-#: apps/feedback/templates/feedback/opinion.html:3
-msgid "Opinion"
-msgstr "الرأي"
-
 #: apps/feedback/__init__.py:84
 msgid "Other"
 msgstr "غير ذلك"
@@ -539,7 +538,7 @@ msgstr "البحث غير متاح"
 msgid "Search by keyword"
 msgstr "ابحث بالكلمة المفتاحية"
 
-#: apps/website_issues/forms.py:39
+#: apps/website_issues/forms.py:38
 msgctxt "website_issues_search"
 msgid "Search for domain"
 msgstr "ابحث عن النطاق"
@@ -761,6 +760,11 @@ msgstr "{percentage}% مديح"
 #~ msgid "1 week"
 #~ msgstr "أسبوع واحد"
 
+#, fuzzy
+#~ msgctxt "version_choice"
+#~ msgid "7d"
+#~ msgstr "7 أيام"
+
 #~ msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
 #~ msgstr "<a href=\"%(url)s\">العدد الكلي</a>: %(count)s"
 
@@ -812,6 +816,9 @@ msgstr "{percentage}% مديح"
 
 #~ msgid "OS: {os_name}"
 #~ msgstr "نظام التشغيل: {os_name}"
+
+#~ msgid "Opinion"
+#~ msgstr "الرأي"
 
 #~ msgid "Overview"
 #~ msgstr "نظرة عامة"

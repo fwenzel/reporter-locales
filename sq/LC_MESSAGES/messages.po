@@ -81,12 +81,6 @@ msgstr "30d"
 msgid "7d"
 msgstr "7d"
 
-#: apps/website_issues/forms.py:21
-#, fuzzy
-msgctxt "version_choice"
-msgid "7d"
-msgstr "7d"
-
 #: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
 msgid "<strong>%(cnt)s</strong> message"
 msgid_plural "<strong>%(cnt)s</strong> messages"
@@ -222,6 +216,11 @@ msgstr "Firefox Input"
 msgid "Firefox Input: '{query}'"
 msgstr "Firefox Input: '{query}'"
 
+#: apps/feedback/templates/feedback/index.html:24
+#, fuzzy
+msgid "Firefox Logo"
+msgstr "Firefox"
+
 #: apps/feedback/templates/feedback/mobile/index.html:13 apps/feedback/templates/feedback/mobile/index.html:15
 msgid "Firefox makes me happy ..."
 msgstr "Firefox-i më kënaq ..."
@@ -266,6 +265,10 @@ msgstr "Po qe se keni prapë të njëjtin problem, ju lutem, <a href=\"%(bug_url)s\
 #: templates/500.html:20
 msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
 msgstr "Në paçi të dhëna shtesë rreth se si të riprodhohet problemi, ju lutem <a href=\"%(bug_url)s\">na i tregoni.</a> Faleminderit!"
+
+#: apps/feedback/templates/feedback/index.html:25
+msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
+msgstr ""
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
@@ -418,10 +421,6 @@ msgstr "Prurjet Më të Vjetra &raquo;"
 msgid "Older Messages &raquo;"
 msgstr "Mesazhet Më të Vjetër &raquo;"
 
-#: apps/feedback/templates/feedback/opinion.html:3
-msgid "Opinion"
-msgstr "Opinion"
-
 #: apps/feedback/__init__.py:84
 msgid "Other"
 msgstr "Tjetër"
@@ -522,7 +521,7 @@ msgstr "Kërkim i Pamundur Hëpërhë"
 msgid "Search by keyword"
 msgstr "Kërkim sipas fjalëkyçash"
 
-#: apps/website_issues/forms.py:39
+#: apps/website_issues/forms.py:38
 msgctxt "website_issues_search"
 msgid "Search for domain"
 msgstr "Kërkim për përkatësi"
@@ -747,6 +746,11 @@ msgstr "{percentage}% vlerësim"
 #~ msgid "1 week"
 #~ msgstr "1 javë"
 
+#, fuzzy
+#~ msgctxt "version_choice"
+#~ msgid "7d"
+#~ msgstr "7d"
+
 #~ msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
 #~ msgstr "<a href=\"%(url)s\">Gjithsej</a>: %(count)s"
 
@@ -793,6 +797,9 @@ msgstr "{percentage}% vlerësim"
 
 #~ msgid "OS: {os_name}"
 #~ msgstr "OS: {os_name}"
+
+#~ msgid "Opinion"
+#~ msgstr "Opinion"
 
 #~ msgid "Overview"
 #~ msgstr "Përmbledhje"

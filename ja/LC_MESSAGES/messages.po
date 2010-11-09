@@ -83,11 +83,6 @@ msgstr ""
 msgid "7d"
 msgstr ""
 
-#: apps/website_issues/forms.py:21
-msgctxt "version_choice"
-msgid "7d"
-msgstr ""
-
 #: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
 msgid "<strong>%(cnt)s</strong> message"
 msgid_plural "<strong>%(cnt)s</strong> messages"
@@ -220,6 +215,10 @@ msgstr ""
 msgid "Firefox Input: '{query}'"
 msgstr ""
 
+#: apps/feedback/templates/feedback/index.html:24
+msgid "Firefox Logo"
+msgstr ""
+
 #: apps/feedback/templates/feedback/mobile/index.html:13 apps/feedback/templates/feedback/mobile/index.html:15
 msgid "Firefox makes me happy ..."
 msgstr ""
@@ -263,6 +262,10 @@ msgstr ""
 
 #: templates/500.html:20
 msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+msgstr ""
+
+#: apps/feedback/templates/feedback/index.html:25
+msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
 msgstr ""
 
 #: apps/feedback/templates/feedback/thanks.html:10
@@ -416,10 +419,6 @@ msgstr ""
 msgid "Older Messages &raquo;"
 msgstr ""
 
-#: apps/feedback/templates/feedback/opinion.html:3
-msgid "Opinion"
-msgstr ""
-
 #: apps/feedback/__init__.py:84
 msgid "Other"
 msgstr ""
@@ -520,7 +519,7 @@ msgstr ""
 msgid "Search by keyword"
 msgstr ""
 
-#: apps/website_issues/forms.py:39
+#: apps/website_issues/forms.py:38
 msgctxt "website_issues_search"
 msgid "Search for domain"
 msgstr ""

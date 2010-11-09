@@ -89,12 +89,6 @@ msgstr "30일"
 msgid "7d"
 msgstr "7일"
 
-#: apps/website_issues/forms.py:21
-#, fuzzy
-msgctxt "version_choice"
-msgid "7d"
-msgstr "7일"
-
 #: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
 #, fuzzy
 msgid "<strong>%(cnt)s</strong> message"
@@ -239,6 +233,11 @@ msgstr "Firefox Input 사용자 평가"
 msgid "Firefox Input: '{query}'"
 msgstr "Firefox Input 사용자 평가: '{query}'"
 
+#: apps/feedback/templates/feedback/index.html:24
+#, fuzzy
+msgid "Firefox Logo"
+msgstr "Firefox Input 사용자 평가"
+
 #: apps/feedback/templates/feedback/mobile/index.html:13 apps/feedback/templates/feedback/mobile/index.html:15
 msgid "Firefox makes me happy ..."
 msgstr ""
@@ -283,6 +282,10 @@ msgstr "문제가 지속되면, <a href=\"%(bug_url)s\">Bugzilla</a>에 URL을 �
 #: templates/500.html:20
 msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
 msgstr "이 문제에 대해 계속 반복되고 있다면 이 정보를 <a href=\"%(bug_url)s\">Bugzilla</a>에 보고해 주십시오."
+
+#: apps/feedback/templates/feedback/index.html:25
+msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
+msgstr ""
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
@@ -443,10 +446,6 @@ msgstr "다음 의견 &raquo;"
 msgid "Older Messages &raquo;"
 msgstr "다음 의견 &raquo;"
 
-#: apps/feedback/templates/feedback/opinion.html:3
-msgid "Opinion"
-msgstr "의견"
-
 #: apps/feedback/__init__.py:84
 msgid "Other"
 msgstr "기타"
@@ -551,7 +550,7 @@ msgstr "검색 안됨"
 msgid "Search by keyword"
 msgstr "검색어를 입력하세요!"
 
-#: apps/website_issues/forms.py:39
+#: apps/website_issues/forms.py:38
 #, fuzzy
 msgctxt "website_issues_search"
 msgid "Search for domain"
@@ -782,6 +781,11 @@ msgstr "긍정적: {percentage}%"
 #~ msgid "1 week"
 #~ msgstr "한 주"
 
+#, fuzzy
+#~ msgctxt "version_choice"
+#~ msgid "7d"
+#~ msgstr "7일"
+
 #~ msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
 #~ msgstr "<a href=\"%(url)s\">합계</a>: %(count)s"
 
@@ -829,6 +833,9 @@ msgstr "긍정적: {percentage}%"
 
 #~ msgid "OS: {os_name}"
 #~ msgstr "운영체제: {os_name}"
+
+#~ msgid "Opinion"
+#~ msgstr "의견"
 
 #~ msgid "Overview"
 #~ msgstr "전체 보기"

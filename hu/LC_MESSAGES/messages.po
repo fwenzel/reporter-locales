@@ -84,11 +84,6 @@ msgstr "30 nap"
 msgid "7d"
 msgstr "7 nap"
 
-#: apps/website_issues/forms.py:21
-msgctxt "version_choice"
-msgid "7d"
-msgstr "7 nap"
-
 #: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
 msgid "<strong>%(cnt)s</strong> message"
 msgid_plural "<strong>%(cnt)s</strong> messages"
@@ -223,6 +218,11 @@ msgstr "Firefox Input"
 msgid "Firefox Input: '{query}'"
 msgstr "Firefox Input: '{query}'"
 
+#: apps/feedback/templates/feedback/index.html:24
+#, fuzzy
+msgid "Firefox Logo"
+msgstr "Firefox"
+
 #: apps/feedback/templates/feedback/mobile/index.html:13 apps/feedback/templates/feedback/mobile/index.html:15
 msgid "Firefox makes me happy ..."
 msgstr "A Firefox örömet okoz ..."
@@ -267,6 +267,10 @@ msgstr "Ha a hiba továbbra is fennáll, kérem <a href=\"%(bug_url)s\">jelentse
 #: templates/500.html:20
 msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
 msgstr "Ha rendelkezik további információval a hiba reprodukálásával kapcsolatban, akkor kérem <a href=\"%(bug_url)s\">jelentse be a hibát.</a> Köszönjük!"
+
+#: apps/feedback/templates/feedback/index.html:25
+msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
+msgstr ""
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
@@ -419,10 +423,6 @@ msgstr "régebbi üzenetek &raquo;"
 msgid "Older Messages &raquo;"
 msgstr "régebbi üzenetek &raquo;"
 
-#: apps/feedback/templates/feedback/opinion.html:3
-msgid "Opinion"
-msgstr "Vélemény"
-
 #: apps/feedback/__init__.py:84
 msgid "Other"
 msgstr "Egyéb"
@@ -523,7 +523,7 @@ msgstr "A keresés nem érhető el"
 msgid "Search by keyword"
 msgstr "Kulcsszavas keresés"
 
-#: apps/website_issues/forms.py:39
+#: apps/website_issues/forms.py:38
 msgctxt "website_issues_search"
 msgid "Search for domain"
 msgstr "Tartománykeresés"
@@ -746,6 +746,10 @@ msgstr "{percentage}% dicséret"
 #~ msgid "1 week"
 #~ msgstr "1 hét"
 
+#~ msgctxt "version_choice"
+#~ msgid "7d"
+#~ msgstr "7 nap"
+
 #~ msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
 #~ msgstr "<a href=\"%(url)s\">Összesen</a>: %(count)s"
 
@@ -792,6 +796,9 @@ msgstr "{percentage}% dicséret"
 
 #~ msgid "OS: {os_name}"
 #~ msgstr "OS: {os_name}"
+
+#~ msgid "Opinion"
+#~ msgstr "Vélemény"
 
 #~ msgid "Overview"
 #~ msgstr "Áttekintés"

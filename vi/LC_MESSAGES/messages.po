@@ -91,11 +91,6 @@ msgstr ""
 msgid "7d"
 msgstr ""
 
-#: apps/website_issues/forms.py:21
-msgctxt "version_choice"
-msgid "7d"
-msgstr ""
-
 #: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
 #, fuzzy
 msgid "<strong>%(cnt)s</strong> message"
@@ -237,6 +232,11 @@ msgstr "Firefox"
 msgid "Firefox Input: '{query}'"
 msgstr ""
 
+#: apps/feedback/templates/feedback/index.html:24
+#, fuzzy
+msgid "Firefox Logo"
+msgstr "Firefox"
+
 #: apps/feedback/templates/feedback/mobile/index.html:13 apps/feedback/templates/feedback/mobile/index.html:15
 msgid "Firefox makes me happy ..."
 msgstr ""
@@ -281,6 +281,10 @@ msgstr "Nếu vấn đề vẫn còn, vui lòng <a href=\"%(bug_url)s\">báo cá
 #: templates/500.html:20
 msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
 msgstr "Nếu bạn có thêm thông tin về cách tạo ra lỗi này, vui lòng <a href=\"%(bug_url)s\">báo cáo lỗi.</a> Cảm ơn!"
+
+#: apps/feedback/templates/feedback/index.html:25
+msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
+msgstr ""
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
@@ -440,10 +444,6 @@ msgstr "tiếp &raquo;"
 msgid "Older Messages &raquo;"
 msgstr "tiếp &raquo;"
 
-#: apps/feedback/templates/feedback/opinion.html:3
-msgid "Opinion"
-msgstr ""
-
 #: apps/feedback/__init__.py:84
 msgid "Other"
 msgstr "Khác"
@@ -546,7 +546,7 @@ msgstr "Tìm kiếm Không hiện hữu"
 msgid "Search by keyword"
 msgstr "Thuật ngữ Tìm kiếm"
 
-#: apps/website_issues/forms.py:39
+#: apps/website_issues/forms.py:38
 #, fuzzy
 msgctxt "website_issues_search"
 msgid "Search for domain"
