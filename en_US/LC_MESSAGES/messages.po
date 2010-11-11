@@ -28,11 +28,13 @@ msgid_plural "%(count)s similar messages"
 msgstr[0] "%(count)s similar message"
 msgstr[1] "%(count)s similar messages"
 
-#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:4
+#. A quasi strftime string for a full date.
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:5
 msgid "%e %B %Y"
 msgstr "%e %B %Y"
 
-#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:5
+#. A quasi strftime string for a short date (no year).
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:7
 msgid "%e %b"
 msgstr "%e %b"
 
@@ -338,7 +340,7 @@ msgstr "Legal Notices"
 msgid "Linux"
 msgstr "Linux"
 
-#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:7
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:9
 msgid "Loading feedback history..."
 msgstr "Loading feedback history..."
 

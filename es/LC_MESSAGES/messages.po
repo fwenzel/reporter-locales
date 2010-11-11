@@ -32,11 +32,13 @@ msgid_plural "%(count)s similar messages"
 msgstr[0] "%(count)s mensaje similar"
 msgstr[1] "%(count)s mensajes similares"
 
-#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:4
+#. A quasi strftime string for a full date.
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:5
 msgid "%e %B %Y"
 msgstr "%e %B %Y"
 
-#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:5
+#. A quasi strftime string for a short date (no year).
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:7
 msgid "%e %b"
 msgstr "%e %b"
 
@@ -271,9 +273,7 @@ msgstr "Si tienes información adicional sobre cómo reproducir este problema, p
 
 #: apps/feedback/templates/feedback/index.html:25
 msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
-msgstr ""
-"Si necesitas ayuda o tienes algún problema con Firefox, por favor visita "
-"nuestra <a href=\"%(support_url)s\">página de asistencia</a>."
+msgstr "Si necesitas ayuda o tienes algún problema con Firefox, por favor visita nuestra <a href=\"%(support_url)s\">página de asistencia</a>."
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
@@ -344,7 +344,7 @@ msgstr "Aviso legal"
 msgid "Linux"
 msgstr "Linux"
 
-#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:7
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:9
 msgid "Loading feedback history..."
 msgstr "Cargando historial de opiniones..."
 

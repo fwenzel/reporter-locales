@@ -32,11 +32,13 @@ msgid_plural "%(count)s similar messages"
 msgstr[0] "%(count)s hasonló üzenet"
 msgstr[1] "%(count)s hasonló üzenet"
 
-#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:4
+#. A quasi strftime string for a full date.
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:5
 msgid "%e %B %Y"
 msgstr "%Y %e %B"
 
-#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:5
+#. A quasi strftime string for a short date (no year).
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:7
 msgid "%e %b"
 msgstr "%e %b"
 
@@ -186,9 +188,8 @@ msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
 "any later version."
 msgstr ""
-"Ha másképp nem kerül <a href=\"%(legal_url)s\">jelzésre</a>, akkor az oldal "
-"<br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike "
-"License v3.0</a> vagy ennek újabb verziója alatt jelenik meg."
+"Ha másképp nem kerül <a href=\"%(legal_url)s\">jelzésre</a>, akkor az oldal <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> vagy ennek újabb verziója "
+"alatt jelenik meg."
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:6 apps/search/templates/search/mobile/search.html:6
 msgid "Feed"
@@ -262,9 +263,7 @@ msgstr "Sajnálom, de a keresése közben hiba történt."
 
 #: apps/search/templates/search/unavailable.html:17
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
-msgstr ""
-"Ha a hiba továbbra is fennáll, kérem <a href=\"%(bug_url)s\">jelentse be</a>, "
-"és adja meg az elérni kíván URL-t is."
+msgstr "Ha a hiba továbbra is fennáll, kérem <a href=\"%(bug_url)s\">jelentse be</a>, és adja meg az elérni kíván URL-t is."
 
 #: templates/500.html:20
 msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
@@ -272,9 +271,7 @@ msgstr "Ha rendelkezik további információval a hiba reprodukálásával kapcs
 
 #: apps/feedback/templates/feedback/index.html:25
 msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
-msgstr ""
-"Amennyiben segítségre van szüksége a Firefox használata közben, akkor "
-"látogassa meg a <a href=\"%(support_url)s\">támogatói oldalt</a>."
+msgstr "Amennyiben segítségre van szüksége a Firefox használata közben, akkor látogassa meg a <a href=\"%(support_url)s\">támogatói oldalt</a>."
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
@@ -345,7 +342,7 @@ msgstr "Jogi közlemények"
 msgid "Linux"
 msgstr "Linux"
 
-#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:7
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:9
 msgid "Loading feedback history..."
 msgstr "Visszajelzés előzményeinek betöltése…"
 
@@ -409,10 +406,7 @@ msgstr "Említett témák"
 
 #: apps/feedback/templates/feedback/need_beta.html:8
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
-msgstr ""
-"Úgy látszik, hogy a legújabb Firefox verzióval kapcsolatban szeretne "
-"visszajelzést küldeni. Köszönjük, de ehhez a legfrissebb beta verziót kell "
-"használnia."
+msgstr "Úgy látszik, hogy a legújabb Firefox verzióval kapcsolatban szeretne visszajelzést küldeni. Köszönjük, de ehhez a legfrissebb beta verziót kell használnia."
 
 #: apps/feedback/templates/feedback/mobile/need_beta.html:9
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"

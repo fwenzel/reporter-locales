@@ -31,11 +31,13 @@ msgid_plural "%(count)s similar messages"
 msgstr[0] "%(count)s ähnliche Nachricht"
 msgstr[1] "%(count)s ähnliche Nachrichten"
 
-#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:4
+#. A quasi strftime string for a full date.
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:5
 msgid "%e %B %Y"
 msgstr "%e. %B %Y"
 
-#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:5
+#. A quasi strftime string for a short date (no year).
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:7
 msgid "%e %b"
 msgstr "%e. %b"
 
@@ -268,9 +270,7 @@ msgstr "Falls Sie zur Reproduktion dieses Fehlers weitere Informationen haben, v
 
 #: apps/feedback/templates/feedback/index.html:25
 msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
-msgstr ""
-"Wenn Sie Hilfe brauchen, oder wenn Sie ein Problem mit Firefox haben, "
-"besuchen Sie bitte unsere <a href=\"%(support_url)s\">Support-Seite</a>."
+msgstr "Wenn Sie Hilfe brauchen, oder wenn Sie ein Problem mit Firefox haben, besuchen Sie bitte unsere <a href=\"%(support_url)s\">Support-Seite</a>."
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
@@ -341,7 +341,7 @@ msgstr "Rechtshinweise"
 msgid "Linux"
 msgstr "Linux"
 
-#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:7
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:9
 msgid "Loading feedback history..."
 msgstr "Feedback-Statistiken werden geladen..."
 
@@ -643,9 +643,7 @@ msgstr "Wir haben Ihren Kommentar bereits erhalten! Danke."
 
 #: apps/feedback/templates/feedback/feedback.html:20
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
-msgstr ""
-"Es tut uns leid, dass Sie keine gute Erfahrung mit unserem Browser hatten. "
-"Bitte sagen Sie uns warum, sodass wir es verbessern können!"
+msgstr "Es tut uns leid, dass Sie keine gute Erfahrung mit unserem Browser hatten. Bitte sagen Sie uns warum, sodass wir es verbessern können!"
 
 #: templates/base.html:5 templates/base_mobile.html:6
 msgid "Welcome"
