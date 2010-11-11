@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 15:36+0200\n"
-"PO-Revision-Date: 2010-11-08 20:33+0200\n"
+"PO-Revision-Date: 2010-11-11 08:21+0200\n"
 "Last-Translator: Francesco <francesco.lodolo@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -219,9 +219,8 @@ msgid "Firefox Input: '{query}'"
 msgstr "Firefox Input: '{query}'"
 
 #: apps/feedback/templates/feedback/index.html:24
-#, fuzzy
 msgid "Firefox Logo"
-msgstr "Firefox"
+msgstr "Logo di Firefox"
 
 #: apps/feedback/templates/feedback/mobile/index.html:13 apps/feedback/templates/feedback/mobile/index.html:15
 msgid "Firefox makes me happy ..."
@@ -271,6 +270,8 @@ msgstr "Se hai altre informazioni utili per riprodurre il problema, <a href=\"%(
 #: apps/feedback/templates/feedback/index.html:25
 msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
 msgstr ""
+"Se hai bisogno di aiuto o hai un problema con Firefox, visita la <a href=\"%"
+"(support_url)s\">pagina dedicata al supporto</a>."
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
@@ -616,7 +617,7 @@ msgstr "Tendenze"
 
 #: apps/dashboard/templates/dashboard/message_list.html:40
 msgid "Tweet This"
-msgstr ""
+msgstr "Dillo su Twitter"
 
 #: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
 #: apps/website_issues/templates/website_issues/website_issues.html:28
@@ -694,7 +695,7 @@ msgstr "Sembra che nel tuo messaggio sia presente un indirizzo e-mail. Prima di 
 #. L10n: This means an event that happened only a few seconds ago.
 #: apps/input/helpers.py:86
 msgid "just now"
-msgstr ""
+msgstr "adesso"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:28
 msgid "reset my search"
@@ -710,25 +711,22 @@ msgid "unknown"
 msgstr "sconosciuto"
 
 #: apps/input/helpers.py:73
-#, fuzzy
 msgid "{0} day ago"
 msgid_plural "{0} days ago"
-msgstr[0] "{0} fa"
-msgstr[1] "{0} fa"
+msgstr[0] "{0} giorno fa"
+msgstr[1] "{0} giorni fa"
 
 #: apps/input/helpers.py:79
-#, fuzzy
 msgid "{0} hour ago"
 msgid_plural "{0} hours ago"
-msgstr[0] "{0} fa"
-msgstr[1] "{0} fa"
+msgstr[0] "{0} ora fa"
+msgstr[1] "{0} ore fa"
 
 #: apps/input/helpers.py:82
-#, fuzzy
 msgid "{0} minute ago"
 msgid_plural "{0} minutes ago"
-msgstr[0] "{0} fa"
-msgstr[1] "{0} fa"
+msgstr[0] "{0} minuto fa"
+msgstr[1] "{0} minuti fa"
 
 #: apps/themes/templates/themes/theme_list.html:14
 msgid "{0} similar messages"
@@ -736,7 +734,7 @@ msgstr "{0} messaggi simili"
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:3
 msgid "{num} opinions on {day}"
-msgstr "{num} opinioni il {day}"
+msgstr "{day} - {num} opinioni"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:54
 msgid "{percentage}% issues"
