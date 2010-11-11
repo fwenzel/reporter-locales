@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-21 10:36+0200\n"
-"PO-Revision-Date: 2010-11-09 11:46+0200\n"
+"PO-Revision-Date: 2010-11-11 13:40+0200\n"
 "Last-Translator: Kalman <kkemenczy@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -16,21 +16,21 @@ msgstr ""
 #: apps/website_issues/templates/website_issues/sites_list.html:43
 msgid "%(count)s message"
 msgid_plural "%(count)s messages"
-msgstr[0] "{count} üzenet"
-msgstr[1] "{count} üzenet"
+msgstr[0] "%(count)s üzenet"
+msgstr[1] "%(count)s üzenet"
 
 #. "similar" refers to "similar messages".
 #: apps/website_issues/templates/website_issues/sites_list.html:67
 msgid "%(count)s similar"
 msgid_plural "%(count)s similar"
-msgstr[0] "{count} hasonló"
-msgstr[1] "{count} hasonló"
+msgstr[0] "%(count)s hasonló"
+msgstr[1] "%(count)s hasonló"
 
 #: apps/website_issues/templates/website_issues/single_site.html:18
 msgid "%(count)s similar message"
 msgid_plural "%(count)s similar messages"
-msgstr[0] "{count} hasonló üzenet"
-msgstr[1] "{count} hasonló üzenet"
+msgstr[0] "%(count)s hasonló üzenet"
+msgstr[1] "%(count)s hasonló üzenet"
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:4
 msgid "%e %B %Y"
@@ -186,8 +186,9 @@ msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
 "any later version."
 msgstr ""
-"Ha másképp nem kerül <a href=\"%(legal_url)s\">jelzésre</a>, akkor az oldal <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> vagy ennek újabb verziója "
-"alatt jelenik meg.."
+"Ha másképp nem kerül <a href=\"%(legal_url)s\">jelzésre</a>, akkor az oldal "
+"<br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike "
+"License v3.0</a> vagy ennek újabb verziója alatt jelenik meg."
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:6 apps/search/templates/search/mobile/search.html:6
 msgid "Feed"
@@ -219,9 +220,8 @@ msgid "Firefox Input: '{query}'"
 msgstr "Firefox Input: '{query}'"
 
 #: apps/feedback/templates/feedback/index.html:24
-#, fuzzy
 msgid "Firefox Logo"
-msgstr "Firefox"
+msgstr "Firefox Logo"
 
 #: apps/feedback/templates/feedback/mobile/index.html:13 apps/feedback/templates/feedback/mobile/index.html:15
 msgid "Firefox makes me happy ..."
@@ -262,7 +262,9 @@ msgstr "Sajnálom, de a keresése közben hiba történt."
 
 #: apps/search/templates/search/unavailable.html:17
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
-msgstr "Ha a hiba továbbra is fennáll, kérem <a href=\"%(bug_url)s\">jelentse be</a>, és adja meg az elérni kíván URL-t is.."
+msgstr ""
+"Ha a hiba továbbra is fennáll, kérem <a href=\"%(bug_url)s\">jelentse be</a>, "
+"és adja meg az elérni kíván URL-t is."
 
 #: templates/500.html:20
 msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
@@ -271,6 +273,8 @@ msgstr "Ha rendelkezik további információval a hiba reprodukálásával kapcs
 #: apps/feedback/templates/feedback/index.html:25
 msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
 msgstr ""
+"Amennyiben segítségre van szüksége a Firefox használata közben, akkor "
+"látogassa meg a <a href=\"%(support_url)s\">támogatói oldalt</a>."
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
@@ -282,7 +286,7 @@ msgstr "Ha egy hibás hivatkozás miatt került ide, akkor <a href=\"%(bug_url)s
 
 #: apps/search/templates/search/unavailable.html:24
 msgid "Include the following error message in your bug report:"
-msgstr "A hibabejelentéshez csatolja ezt a hibaüzenetet."
+msgstr "A hibabejelentéshez csatolja ezt a hibaüzenetet:"
 
 #: templates/base_mobile_old.html:30 templates/base_old.html:35
 msgid "Input Dashboard"
@@ -308,7 +312,7 @@ msgstr "csak a problémák"
 
 #: apps/feedback/templates/feedback/index.html:7
 msgid "It's great to hear you want to help Mozilla make your experience better!"
-msgstr "Nagyszerű, hogy segíteni szeretne a Mozilla jobbá tételében! "
+msgstr "Nagyszerű, hogy segíteni szeretne a Mozilla jobbá tételében!"
 
 #: apps/feedback/templates/feedback/feedback.html:37
 msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
@@ -405,7 +409,10 @@ msgstr "Említett témák"
 
 #: apps/feedback/templates/feedback/need_beta.html:8
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
-msgstr "Úgy látszik, hogy a legújabb Firefox-verzióval kapcsolatban szeretne visszajelzést küldeni. Köszönjük, de ehhez a legfrissebb beta verziót kell használnia."
+msgstr ""
+"Úgy látszik, hogy a legújabb Firefox verzióval kapcsolatban szeretne "
+"visszajelzést küldeni. Köszönjük, de ehhez a legfrissebb beta verziót kell "
+"használnia."
 
 #: apps/feedback/templates/feedback/mobile/need_beta.html:9
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
@@ -505,7 +512,7 @@ msgstr "Találatok"
 
 #: apps/search/views.py:65
 msgid "Search Results in Firefox Beta Feedback."
-msgstr "Találatok a Firefox Beta visszajelzések között"
+msgstr "Találatok a Firefox Beta visszajelzések között."
 
 #: apps/search/templates/search/unavailable.html:5
 msgid "Search Unavailable"
@@ -614,7 +621,7 @@ msgstr "Trendek"
 
 #: apps/dashboard/templates/dashboard/message_list.html:40
 msgid "Tweet This"
-msgstr ""
+msgstr "Twitterelés"
 
 #: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
 #: apps/website_issues/templates/website_issues/website_issues.html:28
@@ -690,7 +697,7 @@ msgstr "A visszajelzés valószínűleg e-mail címet tartalmaz. Távolítsa el 
 #. L10n: This means an event that happened only a few seconds ago.
 #: apps/input/helpers.py:86
 msgid "just now"
-msgstr ""
+msgstr "éppen most"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:28
 msgid "reset my search"
@@ -706,25 +713,22 @@ msgid "unknown"
 msgstr "ismeretlen"
 
 #: apps/input/helpers.py:73
-#, fuzzy
 msgid "{0} day ago"
 msgid_plural "{0} days ago"
-msgstr[0] "{0} óta"
-msgstr[1] "{0} óta"
+msgstr[0] "{0} napja"
+msgstr[1] "{0} napja"
 
 #: apps/input/helpers.py:79
-#, fuzzy
 msgid "{0} hour ago"
 msgid_plural "{0} hours ago"
-msgstr[0] "{0} óta"
-msgstr[1] "{0} óta"
+msgstr[0] "{0} órája"
+msgstr[1] "{0} órája"
 
 #: apps/input/helpers.py:82
-#, fuzzy
 msgid "{0} minute ago"
 msgid_plural "{0} minutes ago"
-msgstr[0] "{0} óta"
-msgstr[1] "{0} óta"
+msgstr[0] "{0} perce"
+msgstr[1] "{0} perce"
 
 #: apps/themes/templates/themes/theme_list.html:14
 msgid "{0} similar messages"
