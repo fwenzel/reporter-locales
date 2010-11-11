@@ -304,8 +304,8 @@ msgid "Issue"
 msgstr "Проблема"
 
 #. Formerly called "sad"
-#: apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/themes/views.py:33
-#: apps/website_issues/templates/website_issues/website_issues.html:33
+#: apps/dashboard/views.py:56 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/search/views.py:180
+#: apps/themes/views.py:33 apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Issues"
 msgstr "Проблемы"
 
@@ -385,10 +385,6 @@ msgstr "Больше настроек"
 msgid "More sites..."
 msgstr "Больше сайтов..."
 
-#: apps/dashboard/views.py:56 apps/search/views.py:180
-msgid "Negative"
-msgstr "Негативные"
-
 #: apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:37
 msgid "Next Page &raquo;"
 msgstr "Следующая страница &raquo;"
@@ -397,7 +393,7 @@ msgstr "Следующая страница &raquo;"
 msgid "No results found!"
 msgstr "Результатов не найдено!"
 
-#: apps/dashboard/templates/dashboard/message_list.html:45 apps/themes/templates/themes/theme_list.html:38
+#: apps/dashboard/templates/dashboard/message_list.html:50 apps/themes/templates/themes/theme_list.html:38
 msgid "No search results found."
 msgstr "Поиск не принёс результатов."
 
@@ -466,14 +462,10 @@ msgstr "Пожалуйста, убедитесь, что здесь не сод�
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 msgstr "Пожалуйста, начните заново на <a href=\"%(dashboard_url)s\">этой панели</a>."
 
-#: apps/dashboard/views.py:55 apps/search/views.py:179
-msgid "Positive"
-msgstr "Позитивные"
-
 #. Formerly called "happy"
-#: apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36
-#: apps/search/forms.py:36 apps/themes/views.py:28 apps/themes/templates/themes/theme_list.html:7 apps/website_issues/templates/website_issues/single_site.html:9
-#: apps/website_issues/templates/website_issues/website_issues.html:32
+#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8
+#: apps/feedback/helpers.py:36 apps/search/forms.py:36 apps/search/views.py:179 apps/themes/views.py:28 apps/themes/templates/themes/theme_list.html:7
+#: apps/website_issues/templates/website_issues/single_site.html:9 apps/website_issues/templates/website_issues/website_issues.html:32
 msgid "Praise"
 msgstr "Нравится"
 
@@ -627,6 +619,10 @@ msgstr "Перевести сообщение"
 msgid "Trends"
 msgstr "Тренды"
 
+#: apps/dashboard/templates/dashboard/message_list.html:40
+msgid "Tweet This"
+msgstr ""
+
 #: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
 #: apps/website_issues/templates/website_issues/website_issues.html:28
 msgid "Type of Feedback"
@@ -700,6 +696,11 @@ msgstr "Ваш отзыв, похоже, содержит веб-адрес (URL
 msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr "Ваш отзыв, похоже, содержит адрес электронной почты. Пожалуйста, удалите его и другие похожие персональные данные из текста и попробуйте снова. Спасибо!"
 
+#. L10n: This means an event that happened only a few seconds ago.
+#: apps/input/helpers.py:86
+msgid "just now"
+msgstr ""
+
 #: apps/website_issues/templates/website_issues/sites_list.html:28
 msgid "reset my search"
 msgstr "сброс моего поиска"
@@ -713,10 +714,29 @@ msgstr "по"
 msgid "unknown"
 msgstr "неизвестна"
 
-#. {0} is a time delta, e.g.: 2 weeks
-#: apps/dashboard/templates/dashboard/message_list.html:15
-msgid "{0} ago"
-msgstr "{0} назад"
+#: apps/input/helpers.py:73
+#, fuzzy
+msgid "{0} day ago"
+msgid_plural "{0} days ago"
+msgstr[0] "{0} назад"
+msgstr[1] "{0} назад"
+msgstr[2] "{0} назад"
+
+#: apps/input/helpers.py:79
+#, fuzzy
+msgid "{0} hour ago"
+msgid_plural "{0} hours ago"
+msgstr[0] "{0} назад"
+msgstr[1] "{0} назад"
+msgstr[2] "{0} назад"
+
+#: apps/input/helpers.py:82
+#, fuzzy
+msgid "{0} minute ago"
+msgid_plural "{0} minutes ago"
+msgstr[0] "{0} назад"
+msgstr[1] "{0} назад"
+msgstr[2] "{0} назад"
 
 #: apps/themes/templates/themes/theme_list.html:14
 msgid "{0} similar messages"
@@ -795,6 +815,9 @@ msgstr "{percentage}% похвал"
 #~ msgstr[1] "Последние %(count)s сообщения"
 #~ msgstr[2] "Последние %(count)s сообщений"
 
+#~ msgid "Negative"
+#~ msgstr "Негативные"
+
 #~ msgid "No clusters of opinions found."
 #~ msgstr "Группы мнений не найдены."
 
@@ -815,6 +838,9 @@ msgstr "{percentage}% похвал"
 
 #~ msgid "Please enable JavaScript to view this page."
 #~ msgstr "Для просмотра этой страницы пожалуйста включите JavaScript."
+
+#~ msgid "Positive"
+#~ msgstr "Позитивные"
 
 #~ msgid "Previous Page &raquo;"
 #~ msgstr "Предыдущая страница &raquo;"

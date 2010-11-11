@@ -300,8 +300,8 @@ msgid "Issue"
 msgstr "Πρόβλημα"
 
 #. Formerly called "sad"
-#: apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/themes/views.py:33
-#: apps/website_issues/templates/website_issues/website_issues.html:33
+#: apps/dashboard/views.py:56 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/search/views.py:180
+#: apps/themes/views.py:33 apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Issues"
 msgstr "Προβλήματα"
 
@@ -381,10 +381,6 @@ msgstr "Περισσότερες επιλογές"
 msgid "More sites..."
 msgstr "Περισσότεροι ιστότοποι"
 
-#: apps/dashboard/views.py:56 apps/search/views.py:180
-msgid "Negative"
-msgstr ""
-
 #: apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:37
 msgid "Next Page &raquo;"
 msgstr "Επόμενη σελίδα &raquo;"
@@ -393,7 +389,7 @@ msgstr "Επόμενη σελίδα &raquo;"
 msgid "No results found!"
 msgstr "Δεν βρέθηκαν αποτελέσματα!"
 
-#: apps/dashboard/templates/dashboard/message_list.html:45 apps/themes/templates/themes/theme_list.html:38
+#: apps/dashboard/templates/dashboard/message_list.html:50 apps/themes/templates/themes/theme_list.html:38
 msgid "No search results found."
 msgstr "Δεν βρέθηκαν αποτελέσματα."
 
@@ -464,14 +460,10 @@ msgstr "Σας παρακαλούμε να βεβαιωθείτε ότι δεν 
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 msgstr "Παρακαλούμε ξεκινήστε από την αρχή στο <a href=\"%(dashboard_url)s\">ταμπλό</a>."
 
-#: apps/dashboard/views.py:55 apps/search/views.py:179
-msgid "Positive"
-msgstr ""
-
 #. Formerly called "happy"
-#: apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36
-#: apps/search/forms.py:36 apps/themes/views.py:28 apps/themes/templates/themes/theme_list.html:7 apps/website_issues/templates/website_issues/single_site.html:9
-#: apps/website_issues/templates/website_issues/website_issues.html:32
+#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8
+#: apps/feedback/helpers.py:36 apps/search/forms.py:36 apps/search/views.py:179 apps/themes/views.py:28 apps/themes/templates/themes/theme_list.html:7
+#: apps/website_issues/templates/website_issues/single_site.html:9 apps/website_issues/templates/website_issues/website_issues.html:32
 msgid "Praise"
 msgstr "Έπαινοι"
 
@@ -625,6 +617,10 @@ msgstr "Μετάφραση μηνύματος"
 msgid "Trends"
 msgstr "Τάσεις"
 
+#: apps/dashboard/templates/dashboard/message_list.html:40
+msgid "Tweet This"
+msgstr ""
+
 #: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
 #: apps/website_issues/templates/website_issues/website_issues.html:28
 msgid "Type of Feedback"
@@ -701,6 +697,11 @@ msgstr ""
 "Το σχόλιο σας μάλλον περιέχει μια διεύθυνση ηλεκτρονικού ταχυδρομείου. Σας παρακαλούμε να την αφαιρέσετε καθώς και όσα άλλα προσωπικά δεδομένα έχετε εισάγει στο κείμενο και να προσπαθήσετε ξανά. "
 "Σας ευχαριστούμε!"
 
+#. L10n: This means an event that happened only a few seconds ago.
+#: apps/input/helpers.py:86
+msgid "just now"
+msgstr ""
+
 #: apps/website_issues/templates/website_issues/sites_list.html:28
 msgid "reset my search"
 msgstr "Επαναφορά αναζήτησης"
@@ -714,10 +715,26 @@ msgstr "ως"
 msgid "unknown"
 msgstr "Άγνωστη"
 
-#. {0} is a time delta, e.g.: 2 weeks
-#: apps/dashboard/templates/dashboard/message_list.html:15
-msgid "{0} ago"
-msgstr "Πριν {0}"
+#: apps/input/helpers.py:73
+#, fuzzy
+msgid "{0} day ago"
+msgid_plural "{0} days ago"
+msgstr[0] "Πριν {0}"
+msgstr[1] "Πριν {0}"
+
+#: apps/input/helpers.py:79
+#, fuzzy
+msgid "{0} hour ago"
+msgid_plural "{0} hours ago"
+msgstr[0] "Πριν {0}"
+msgstr[1] "Πριν {0}"
+
+#: apps/input/helpers.py:82
+#, fuzzy
+msgid "{0} minute ago"
+msgid_plural "{0} minutes ago"
+msgstr[0] "Πριν {0}"
+msgstr[1] "Πριν {0}"
 
 #: apps/themes/templates/themes/theme_list.html:14
 msgid "{0} similar messages"

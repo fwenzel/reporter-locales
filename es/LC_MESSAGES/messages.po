@@ -299,8 +299,8 @@ msgid "Issue"
 msgstr "Negativa"
 
 #. Formerly called "sad"
-#: apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/themes/views.py:33
-#: apps/website_issues/templates/website_issues/website_issues.html:33
+#: apps/dashboard/views.py:56 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/search/views.py:180
+#: apps/themes/views.py:33 apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Issues"
 msgstr "Negativas"
 
@@ -380,10 +380,6 @@ msgstr "Más opciones"
 msgid "More sites..."
 msgstr "Más sitios..."
 
-#: apps/dashboard/views.py:56 apps/search/views.py:180
-msgid "Negative"
-msgstr "Negativo"
-
 #: apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:37
 msgid "Next Page &raquo;"
 msgstr "Página siguiente &raquo;"
@@ -392,7 +388,7 @@ msgstr "Página siguiente &raquo;"
 msgid "No results found!"
 msgstr "¡No se encontraron resultados!"
 
-#: apps/dashboard/templates/dashboard/message_list.html:45 apps/themes/templates/themes/theme_list.html:38
+#: apps/dashboard/templates/dashboard/message_list.html:50 apps/themes/templates/themes/theme_list.html:38
 msgid "No search results found."
 msgstr "No se encontraron resultados."
 
@@ -461,14 +457,10 @@ msgstr "Por favor asegúrate que no haya información personal que te pueda iden
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 msgstr "Por favor vuelve a empezar en el <a href=\"%(dashboard_url)s\">tablero</a>."
 
-#: apps/dashboard/views.py:55 apps/search/views.py:179
-msgid "Positive"
-msgstr "Positivo"
-
 #. Formerly called "happy"
-#: apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36
-#: apps/search/forms.py:36 apps/themes/views.py:28 apps/themes/templates/themes/theme_list.html:7 apps/website_issues/templates/website_issues/single_site.html:9
-#: apps/website_issues/templates/website_issues/website_issues.html:32
+#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8
+#: apps/feedback/helpers.py:36 apps/search/forms.py:36 apps/search/views.py:179 apps/themes/views.py:28 apps/themes/templates/themes/theme_list.html:7
+#: apps/website_issues/templates/website_issues/single_site.html:9 apps/website_issues/templates/website_issues/website_issues.html:32
 msgid "Praise"
 msgstr "Positiva"
 
@@ -622,6 +614,10 @@ msgstr "Traducir mensaje"
 msgid "Trends"
 msgstr "Tendencias"
 
+#: apps/dashboard/templates/dashboard/message_list.html:40
+msgid "Tweet This"
+msgstr ""
+
 #: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
 #: apps/website_issues/templates/website_issues/website_issues.html:28
 msgid "Type of Feedback"
@@ -695,6 +691,11 @@ msgstr "Tu opinión parece contener una URL. Por favor elimínala del texto, as�
 msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr "Tu opinión parece contener una dirección de correo. Por favor elimínala del texto, así como otros datos personales y vuelve a intentarlo. ¡Gracias!"
 
+#. L10n: This means an event that happened only a few seconds ago.
+#: apps/input/helpers.py:86
+msgid "just now"
+msgstr ""
+
 #: apps/website_issues/templates/website_issues/sites_list.html:28
 msgid "reset my search"
 msgstr "restaurar la búsqueda"
@@ -708,10 +709,26 @@ msgstr "al"
 msgid "unknown"
 msgstr "desconocido"
 
-#. {0} is a time delta, e.g.: 2 weeks
-#: apps/dashboard/templates/dashboard/message_list.html:15
-msgid "{0} ago"
-msgstr "hace {0}"
+#: apps/input/helpers.py:73
+#, fuzzy
+msgid "{0} day ago"
+msgid_plural "{0} days ago"
+msgstr[0] "hace {0}"
+msgstr[1] "hace {0}"
+
+#: apps/input/helpers.py:79
+#, fuzzy
+msgid "{0} hour ago"
+msgid_plural "{0} hours ago"
+msgstr[0] "hace {0}"
+msgstr[1] "hace {0}"
+
+#: apps/input/helpers.py:82
+#, fuzzy
+msgid "{0} minute ago"
+msgid_plural "{0} minutes ago"
+msgstr[0] "hace {0}"
+msgstr[1] "hace {0}"
 
 #: apps/themes/templates/themes/theme_list.html:14
 msgid "{0} similar messages"
@@ -789,6 +806,9 @@ msgstr "{percentage}% positivas"
 #~ msgstr[0] "Mensaje más reciente"
 #~ msgstr[1] "Últimos %{count}s mensajes"
 
+#~ msgid "Negative"
+#~ msgstr "Negativo"
+
 #~ msgid "No clusters of opinions found."
 #~ msgstr "No se encontraron grupos de opinión."
 
@@ -809,6 +829,9 @@ msgstr "{percentage}% positivas"
 
 #~ msgid "Please enable JavaScript to view this page."
 #~ msgstr "Por favor habilita JavaScript para ver esta página."
+
+#~ msgid "Positive"
+#~ msgstr "Positivo"
 
 #~ msgid "Previous Page &raquo;"
 #~ msgstr "Página anterior &raquo;"

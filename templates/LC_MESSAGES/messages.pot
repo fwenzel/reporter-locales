@@ -1,11 +1,27 @@
+#. Formerly called "happy"
 #: apps/dashboard/views.py:55
+#: apps/dashboard/templates/dashboard/message_list.html:6
+#: apps/dashboard/templates/dashboard/overview.html:13
+#: apps/dashboard/templates/dashboard/mobile/overview.html:8
+#: apps/feedback/helpers.py:36
+#: apps/search/forms.py:36
 #: apps/search/views.py:179
-msgid "Positive"
+#: apps/themes/views.py:28
+#: apps/themes/templates/themes/theme_list.html:7
+#: apps/website_issues/templates/website_issues/single_site.html:9
+#: apps/website_issues/templates/website_issues/website_issues.html:32
+msgid "Praise"
 msgstr ""
 
+#. Formerly called "sad"
 #: apps/dashboard/views.py:56
+#: apps/dashboard/templates/dashboard/overview.html:27
+#: apps/dashboard/templates/dashboard/mobile/overview.html:15
+#: apps/search/forms.py:37
 #: apps/search/views.py:180
-msgid "Negative"
+#: apps/themes/views.py:33
+#: apps/website_issues/templates/website_issues/website_issues.html:33
+msgid "Issues"
 msgstr ""
 
 #: apps/dashboard/templates/dashboard/dashboard.html:12
@@ -36,29 +52,11 @@ msgstr ""
 msgid "Locale"
 msgstr ""
 
-#. Formerly called "happy"
-#: apps/dashboard/templates/dashboard/message_list.html:6
-#: apps/dashboard/templates/dashboard/overview.html:13
-#: apps/dashboard/templates/dashboard/mobile/overview.html:8
-#: apps/feedback/helpers.py:36
-#: apps/search/forms.py:36
-#: apps/themes/views.py:28
-#: apps/themes/templates/themes/theme_list.html:7
-#: apps/website_issues/templates/website_issues/single_site.html:9
-#: apps/website_issues/templates/website_issues/website_issues.html:32
-msgid "Praise"
-msgstr ""
-
 #: apps/dashboard/templates/dashboard/message_list.html:8
 #: apps/feedback/helpers.py:39
 #: apps/themes/templates/themes/theme_list.html:9
 #: apps/website_issues/templates/website_issues/single_site.html:11
 msgid "Issue"
-msgstr ""
-
-#. {0} is a time delta, e.g.: 2 weeks
-#: apps/dashboard/templates/dashboard/message_list.html:15
-msgid "{0} ago"
 msgstr ""
 
 #: apps/dashboard/templates/dashboard/message_list.html:28
@@ -77,7 +75,11 @@ msgstr ""
 msgid "Translate Message"
 msgstr ""
 
-#: apps/dashboard/templates/dashboard/message_list.html:45
+#: apps/dashboard/templates/dashboard/message_list.html:40
+msgid "Tweet This"
+msgstr ""
+
+#: apps/dashboard/templates/dashboard/message_list.html:50
 #: apps/themes/templates/themes/theme_list.html:38
 msgid "No search results found."
 msgstr ""
@@ -92,15 +94,6 @@ msgstr ""
 #: apps/themes/templates/themes/index.html:16
 #: apps/website_issues/templates/website_issues/website_issues.html:28
 msgid "Type of Feedback"
-msgstr ""
-
-#. Formerly called "sad"
-#: apps/dashboard/templates/dashboard/overview.html:27
-#: apps/dashboard/templates/dashboard/mobile/overview.html:15
-#: apps/search/forms.py:37
-#: apps/themes/views.py:33
-#: apps/website_issues/templates/website_issues/website_issues.html:33
-msgid "Issues"
 msgstr ""
 
 #: apps/dashboard/templates/dashboard/platforms.html:12
@@ -455,6 +448,29 @@ msgstr ""
 msgid ""
 "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head "
 "over to our beta page and <a href=\"%(url)s\">download it!</a>"
+msgstr ""
+
+#: apps/input/helpers.py:73
+msgid "{0} day ago"
+msgid_plural "{0} days ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: apps/input/helpers.py:79
+msgid "{0} hour ago"
+msgid_plural "{0} hours ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: apps/input/helpers.py:82
+msgid "{0} minute ago"
+msgid_plural "{0} minutes ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#. L10n: This means an event that happened only a few seconds ago.
+#: apps/input/helpers.py:86
+msgid "just now"
 msgstr ""
 
 #: apps/search/client.py:173
