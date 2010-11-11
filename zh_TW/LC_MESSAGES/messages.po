@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-21 07:58+0200\n"
-"PO-Revision-Date: 2010-10-14 10:04+0200\n"
+"PO-Revision-Date: 2010-11-11 03:51+0200\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.0.3\n"
+"X-Generator: Pootle 2.1.2\n"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:43
 msgid "%(count)s message"
@@ -31,11 +31,11 @@ msgstr[0] "%(count)s 個類似的訊息"
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:4
 msgid "%e %B %Y"
-msgstr ""
+msgstr "%e %B %Y"
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:5
 msgid "%e %b"
-msgstr ""
+msgstr "%e %b"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:35 apps/search/templates/search/mobile/search.html:38
 msgid "&laquo; Newer Feedback"
@@ -91,9 +91,8 @@ msgid "ATOM feed for this search"
 msgstr "此搜尋的 ATOM 消息來源"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:15
-#, fuzzy
 msgid "Ack! Please tell us what to fix!"
-msgstr "抱歉，請再多告訴我們一些東西！"
+msgstr "啊，請告訴我們要修正什麼！"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:26
 msgid "Add URL of last visited page?"
@@ -214,9 +213,8 @@ msgid "Firefox Input: '{query}'"
 msgstr "Firefox Input: '{query}'"
 
 #: apps/feedback/templates/feedback/index.html:24
-#, fuzzy
 msgid "Firefox Logo"
-msgstr "Firefox"
+msgstr "Firefox 圖示"
 
 #: apps/feedback/templates/feedback/mobile/index.html:13 apps/feedback/templates/feedback/mobile/index.html:15
 msgid "Firefox makes me happy ..."
@@ -265,7 +263,7 @@ msgstr "如果您擁有重現問題的相關資訊，請<a href=\"%(bug_url)s\">
 
 #: apps/feedback/templates/feedback/index.html:25
 msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
-msgstr ""
+msgstr "若您有跟 Firefox 有關的問題需要幫助，請看看我們的 <a href=\"%(support_url)s\">技術支援頁面</a>。"
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
@@ -307,7 +305,7 @@ msgstr "能聽到您想要幫助 Mozilla 讓您的體驗變得更好，這真棒
 
 #: apps/feedback/templates/feedback/feedback.html:37
 msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
-msgstr "您知道哪個網站在這個 Firefox Beta 版本中表現得比之前的版本更好嗎？請附上網址，這樣我們就能繼續追蹤！"
+msgstr "您知道哪個網站在這個版本中表現得比之前的版本更好嗎？請附上網址，這樣我們就能繼續追蹤！"
 
 #. short for 30 days
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:9
@@ -338,7 +336,7 @@ msgstr "Linux"
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:7
 msgid "Loading feedback history..."
-msgstr ""
+msgstr "正在載入意見回饋歷史資訊..."
 
 #: apps/dashboard/templates/dashboard/locales.html:15 apps/dashboard/templates/dashboard/mobile/locales.html:9
 msgid "Locale"
@@ -609,7 +607,7 @@ msgstr "趨勢"
 
 #: apps/dashboard/templates/dashboard/message_list.html:40
 msgid "Tweet This"
-msgstr ""
+msgstr "推一下"
 
 #: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
 #: apps/website_issues/templates/website_issues/website_issues.html:28
@@ -637,7 +635,6 @@ msgid "We already got your feedback! Thanks."
 msgstr "我們已經收到您的回饋！感謝您。"
 
 #: apps/feedback/templates/feedback/feedback.html:20
-#, fuzzy
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
 msgstr "很抱歉，我們的瀏覽器沒有帶給您良好的體驗。請告訴我們原因，以利未來的改進！"
 
@@ -686,7 +683,7 @@ msgstr "您的回饋內容似乎包含電子郵件地址。請將電子郵件地
 #. L10n: This means an event that happened only a few seconds ago.
 #: apps/input/helpers.py:86
 msgid "just now"
-msgstr ""
+msgstr "剛剛"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:28
 msgid "reset my search"
@@ -702,22 +699,19 @@ msgid "unknown"
 msgstr "未知"
 
 #: apps/input/helpers.py:73
-#, fuzzy
 msgid "{0} day ago"
 msgid_plural "{0} days ago"
-msgstr[0] "{0} 之前"
+msgstr[0] "{0} 天之前"
 
 #: apps/input/helpers.py:79
-#, fuzzy
 msgid "{0} hour ago"
 msgid_plural "{0} hours ago"
-msgstr[0] "{0} 之前"
+msgstr[0] "{0} 小時之前"
 
 #: apps/input/helpers.py:82
-#, fuzzy
 msgid "{0} minute ago"
 msgid_plural "{0} minutes ago"
-msgstr[0] "{0} 之前"
+msgstr[0] "{0} 分鐘之前"
 
 #: apps/themes/templates/themes/theme_list.html:14
 msgid "{0} similar messages"
@@ -725,7 +719,7 @@ msgstr "{0} 個類似的訊息"
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:3
 msgid "{num} opinions on {day}"
-msgstr ""
+msgstr " {day} 的 {num} 個意見"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:54
 msgid "{percentage}% issues"
