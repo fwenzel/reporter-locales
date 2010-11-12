@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-21 07:57+0200\n"
-"PO-Revision-Date: 2010-10-14 10:14+0200\n"
+"PO-Revision-Date: 2010-11-12 02:56+0200\n"
 "Last-Translator: Toni <toniher@softcatala.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.3\n"
+"X-Generator: Pootle 2.1.2\n"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:43
 msgid "%(count)s message"
@@ -35,12 +35,12 @@ msgstr[1] "%(count)s missatges similars"
 #. A quasi strftime string for a full date.
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:5
 msgid "%e %B %Y"
-msgstr ""
+msgstr "%e %B %Y"
 
 #. A quasi strftime string for a short date (no year).
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:7
 msgid "%e %b"
-msgstr ""
+msgstr "%e %b"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:35 apps/search/templates/search/mobile/search.html:38
 msgid "&laquo; Newer Feedback"
@@ -97,9 +97,8 @@ msgid "ATOM feed for this search"
 msgstr "Canal àtom d'aquesta cerca"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:15
-#, fuzzy
 msgid "Ack! Please tell us what to fix!"
-msgstr "Indiqueu-nos quelcom més!"
+msgstr "Ostres! Digueu-nos què cal arreglar!"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:26
 msgid "Add URL of last visited page?"
@@ -222,9 +221,8 @@ msgid "Firefox Input: '{query}'"
 msgstr "Firefox Input: '{query}'"
 
 #: apps/feedback/templates/feedback/index.html:24
-#, fuzzy
 msgid "Firefox Logo"
-msgstr "Firefox"
+msgstr "Logotip del Firefox"
 
 #: apps/feedback/templates/feedback/mobile/index.html:13 apps/feedback/templates/feedback/mobile/index.html:15
 msgid "Firefox makes me happy ..."
@@ -274,6 +272,8 @@ msgstr "Si disposeu d'informació addicional per reproduir el problema, <a href=
 #: apps/feedback/templates/feedback/index.html:25
 msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
 msgstr ""
+"Si necessiteu ajuda o teniu cap problema amb el Firefox, visiteu la nostra "
+"<a href=\"%(support_url)s\">pàgina d'assistència</a>."
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
@@ -346,7 +346,7 @@ msgstr "Linux"
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:9
 msgid "Loading feedback history..."
-msgstr ""
+msgstr "S'està carregant l'historial de comentaris..."
 
 #: apps/dashboard/templates/dashboard/locales.html:15 apps/dashboard/templates/dashboard/mobile/locales.html:9
 msgid "Locale"
@@ -617,7 +617,7 @@ msgstr "Tendències"
 
 #: apps/dashboard/templates/dashboard/message_list.html:40
 msgid "Tweet This"
-msgstr ""
+msgstr "Fes-ne un «tweet»"
 
 #: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
 #: apps/website_issues/templates/website_issues/website_issues.html:28
@@ -645,9 +645,10 @@ msgid "We already got your feedback! Thanks."
 msgstr "Hem rebut el vostre comentari. Gràcies!"
 
 #: apps/feedback/templates/feedback/feedback.html:20
-#, fuzzy
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
-msgstr "Lamentem que no hàgiu gaudit d'una bona experiència amb el nostre navegador. Si ens indiqueu el motiu, intentarem millorar-ho!"
+msgstr ""
+"Lamentem que no hàgiu gaudit d'una bona experiència amb el nostre navegador. "
+"Si ens n'indiqueu el motiu, intentarem millorar-ho!"
 
 #: templates/base.html:5 templates/base_mobile.html:6
 msgid "Welcome"
@@ -696,7 +697,7 @@ msgstr "Sembla que al vostre comentari hi ha una adreça de correu electrònic. 
 #. L10n: This means an event that happened only a few seconds ago.
 #: apps/input/helpers.py:86
 msgid "just now"
-msgstr ""
+msgstr "ara mateix"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:28
 msgid "reset my search"
@@ -712,25 +713,22 @@ msgid "unknown"
 msgstr "desconeguda"
 
 #: apps/input/helpers.py:73
-#, fuzzy
 msgid "{0} day ago"
 msgid_plural "{0} days ago"
-msgstr[0] "fa {0}"
-msgstr[1] "fa {0}"
+msgstr[0] "fa {0} dia"
+msgstr[1] "fa {0} dies"
 
 #: apps/input/helpers.py:79
-#, fuzzy
 msgid "{0} hour ago"
 msgid_plural "{0} hours ago"
-msgstr[0] "fa {0}"
-msgstr[1] "fa {0}"
+msgstr[0] "fa {0} hora"
+msgstr[1] "fa {0} hores"
 
 #: apps/input/helpers.py:82
-#, fuzzy
 msgid "{0} minute ago"
 msgid_plural "{0} minutes ago"
-msgstr[0] "fa {0}"
-msgstr[1] "fa {0}"
+msgstr[0] "fa {0} minut"
+msgstr[1] "fa {0} minuts"
 
 #: apps/themes/templates/themes/theme_list.html:14
 msgid "{0} similar messages"
@@ -738,7 +736,7 @@ msgstr "{0} missatges similars"
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:3
 msgid "{num} opinions on {day}"
-msgstr ""
+msgstr "{num} opinions el {day}"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:54
 msgid "{percentage}% issues"
