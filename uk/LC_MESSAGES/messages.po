@@ -46,15 +46,15 @@ msgstr ""
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:35 apps/search/templates/search/mobile/search.html:38
 msgid "&laquo; Newer Feedback"
-msgstr "&laquo; новіші відгуки"
+msgstr "&laquo; Новіші відгуки"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:69 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:58
 msgid "&laquo; Newer Messages"
-msgstr "&laquo; новіші повідомлення"
+msgstr "&laquo; Новіші повідомлення"
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:3 apps/website_issues/templates/website_issues/theme.html:29
 msgid "&laquo; Previous Page"
-msgstr "&laquo; попередня сторінка"
+msgstr "&laquo; Попередня сторінка"
 
 #: apps/search/forms.py:46
 msgctxt "locale_choice"
@@ -100,7 +100,6 @@ msgid "ATOM feed for this search"
 msgstr "ATOMМ-лента для цього пошуку"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:15
-#, fuzzy
 msgid "Ack! Please tell us what to fix!"
 msgstr "Шкода! Розкажіть детальніше!"
 
@@ -225,9 +224,8 @@ msgid "Firefox Input: '{query}'"
 msgstr "Firefox Input: '{query}'"
 
 #: apps/feedback/templates/feedback/index.html:24
-#, fuzzy
 msgid "Firefox Logo"
-msgstr "Firefox"
+msgstr "Лого Firefox"
 
 #: apps/feedback/templates/feedback/mobile/index.html:13 apps/feedback/templates/feedback/mobile/index.html:15
 msgid "Firefox makes me happy ..."
@@ -238,7 +236,6 @@ msgid "Firefox makes me happy because ..."
 msgstr "Firefox мене порадував тим…"
 
 #: apps/feedback/templates/feedback/mobile/index.html:18 apps/feedback/templates/feedback/mobile/index.html:20
-#, fuzzy
 msgid "Firefox makes me sad ..."
 msgstr "Firefox мене порадував…"
 
@@ -277,7 +274,7 @@ msgstr "Якщо ви маєте додаткову інформацію щод�
 
 #: apps/feedback/templates/feedback/index.html:25
 msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
-msgstr ""
+msgstr "Якщо ви потребуєте допомоги або маєте проблему з Firefox, відвідайте <a href=\"%(support_url)s\">сторінку підтримки</a> чи <a href=\"http://mozilla-forum.org.ua\">форум</a>"
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
@@ -311,7 +308,7 @@ msgstr "Проблеми"
 
 #: apps/themes/views.py:33 apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Issues only"
-msgstr "Тільки Проблеми"
+msgstr "Тільки проблеми"
 
 #: apps/feedback/templates/feedback/index.html:7
 msgid "It's great to hear you want to help Mozilla make your experience better!"
@@ -350,7 +347,7 @@ msgstr "Linux"
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:9
 msgid "Loading feedback history..."
-msgstr ""
+msgstr "Завантажується історія відгуків…"
 
 #: apps/dashboard/templates/dashboard/locales.html:15 apps/dashboard/templates/dashboard/mobile/locales.html:9
 msgid "Locale"
@@ -387,7 +384,7 @@ msgstr "Більше сайтів…"
 
 #: apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:37
 msgid "Next Page &raquo;"
-msgstr "наступна сторінка &raquo;"
+msgstr "Наступна сторінка &raquo;"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:27
 msgid "No results found!"
@@ -649,7 +646,6 @@ msgid "We already got your feedback! Thanks."
 msgstr "Ми вже отримали ваш відгук! Дякуємо."
 
 #: apps/feedback/templates/feedback/feedback.html:20
-#, fuzzy
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
 msgstr "Нам шкода, що наш браузер не справив на вас добре враження. Будь ласка, розкажіть чому, щоб ми змогли його покращити!"
 
@@ -700,7 +696,7 @@ msgstr "Ваш відгук, схоже, містить адресу ел.пош
 #. L10n: This means an event that happened only a few seconds ago.
 #: apps/input/helpers.py:86
 msgid "just now"
-msgstr ""
+msgstr "щойно"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:28
 msgid "reset my search"
@@ -716,28 +712,25 @@ msgid "unknown"
 msgstr "невідомо"
 
 #: apps/input/helpers.py:73
-#, fuzzy
 msgid "{0} day ago"
 msgid_plural "{0} days ago"
-msgstr[0] "{0} тому"
-msgstr[1] "{0} тому"
-msgstr[2] "{0} тому"
+msgstr[0] "{0} день тому"
+msgstr[1] "{0} дні тому"
+msgstr[2] "{0} днів тому"
 
 #: apps/input/helpers.py:79
-#, fuzzy
 msgid "{0} hour ago"
 msgid_plural "{0} hours ago"
-msgstr[0] "{0} тому"
-msgstr[1] "{0} тому"
-msgstr[2] "{0} тому"
+msgstr[0] "{0} годину тому"
+msgstr[1] "{0} години тому"
+msgstr[2] "{0} годин тому"
 
 #: apps/input/helpers.py:82
-#, fuzzy
 msgid "{0} minute ago"
 msgid_plural "{0} minutes ago"
-msgstr[0] "{0} тому"
-msgstr[1] "{0} тому"
-msgstr[2] "{0} тому"
+msgstr[0] "{0} хвилину тому"
+msgstr[1] "{0} хвилини тому"
+msgstr[2] "{0} хвилин тому"
 
 #: apps/themes/templates/themes/theme_list.html:14
 msgid "{0} similar messages"
@@ -755,22 +748,3 @@ msgstr "{percentage}% проблем"
 msgid "{percentage}% praise"
 msgstr "{percentage}% хвали"
 
-#, fuzzy
-#~ msgctxt "version_choice"
-#~ msgid "7d"
-#~ msgstr "7 д."
-
-#~ msgid "Beta"
-#~ msgstr "Бета"
-
-#~ msgid "Due to software constraints, we can only show the last 1000 messages for this search query."
-#~ msgstr "Через обмеження програми, ми можемо показати лише останні 1000 повідомлень для цього пошукового запиту."
-
-#~ msgid "Firefox мене makes me sad ..."
-#~ msgstr "Firefox мене засмутив…"
-
-#~ msgid "Latest Beta"
-#~ msgstr "Остання бета"
-
-#~ msgid "Opinion"
-#~ msgstr "Думка"
