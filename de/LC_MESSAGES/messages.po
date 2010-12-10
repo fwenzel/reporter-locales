@@ -286,9 +286,7 @@ msgstr "Falls Sie zur Reproduktion dieses Fehlers weitere Informationen haben, v
 
 #: apps/feedback/templates/feedback/feedback.html:86
 msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
-msgstr ""
-"Wenn Sie uns stattdessen einen Vorschlag mitteilen möchten, senden Sie ihn "
-"mittels unserer <a href=\"%(url_suggestion)s\">Vorschlags-Funktion</a>!"
+msgstr "Wenn Sie uns stattdessen einen Vorschlag mitteilen möchten, senden Sie ihn mittels unserer <a href=\"%(url_suggestion)s\">Vorschlags-Funktion</a>!"
 
 #: apps/feedback/templates/feedback/index.html:25
 msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
@@ -448,9 +446,7 @@ msgstr "Ältere Nachrichten &raquo;"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:68
 msgid "Or submit your ideas with our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
-msgstr ""
-"Oder senden Sie uns Ihre Ideen mit der <a href=\"%(url_suggestion)s"
-"\">Vorschlags-Funktion</a>!"
+msgstr "Oder senden Sie uns Ihre Ideen mit der <a href=\"%(url_suggestion)s\">Vorschlags-Funktion</a>!"
 
 #: apps/feedback/__init__.py:84
 msgid "Other"
@@ -582,9 +578,7 @@ msgstr "Websites mit nur einer Nachricht"
 
 #: apps/feedback/templates/feedback/feedback.html:29
 msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please make your suggestion below:"
-msgstr ""
-"Sie möchten einen Vorschlag machen, um Firefox zu verbessern? Super! Bitte "
-"geben Sie hier Ihren Vorschlag ein:"
+msgstr "Sie möchten einen Vorschlag machen, um Firefox zu verbessern? Super! Bitte geben Sie hier Ihren Vorschlag ein:"
 
 #. L10n: Sphinx is the name of the search engine software.
 #: apps/search/client.py:197
@@ -929,6 +923,9 @@ msgstr "{percentage}% Lob"
 #~ msgid "sad face"
 #~ msgstr "trauriges Gesicht"
 
+#~ msgid "unknown"
+#~ msgstr "unbekannt"
+
 #~ msgid "visit &rarr;"
 #~ msgstr "besuchen &rarr;"
 
@@ -940,12 +937,3 @@ msgstr "{percentage}% Lob"
 
 #~ msgid "{0} similar messages"
 #~ msgstr "{0} ähnliche Nachrichten"
-
-#: apps/feedback/helpers.py:16
-#: apps/search/forms.py:47
-msgid "unknown"
-msgstr "unbekannt"
-
-#: apps/themes/templates/themes/theme_list.html:14
-msgid "{0} similar messages"
-msgstr "{0} ähnliche Nachrichten"
