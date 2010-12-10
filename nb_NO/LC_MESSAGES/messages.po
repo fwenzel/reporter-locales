@@ -26,7 +26,7 @@ msgid_plural "%(count)s similar"
 msgstr[0] "%(count)s lignende"
 msgstr[1] "%(count)s lignende"
 
-#: apps/website_issues/templates/website_issues/single_site.html:18
+#: apps/themes/templates/themes/theme_list.html:13 apps/website_issues/templates/website_issues/single_site.html:18
 msgid "%(count)s similar message"
 msgid_plural "%(count)s similar messages"
 msgstr[0] "%(count)s lignende melding"
@@ -46,20 +46,20 @@ msgstr ""
 msgid "&laquo; Newer Feedback"
 msgstr "&laquo; Nyere tilbakemeldinger"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:69 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:58
+#: apps/dashboard/templates/dashboard/dashboard.html:69 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:63
 msgid "&laquo; Newer Messages"
 msgstr "&laquo; Nyere meldinger"
 
-#: apps/website_issues/templates/website_issues/paginate_sites.html:3 apps/website_issues/templates/website_issues/theme.html:29
+#: apps/themes/templates/themes/theme.html:28 apps/website_issues/templates/website_issues/paginate_sites.html:3 apps/website_issues/templates/website_issues/theme.html:29
 msgid "&laquo; Previous Page"
 msgstr "&laquo; Forrige side"
 
-#: apps/search/forms.py:46
+#: apps/search/forms.py:53
 msgctxt "locale_choice"
 msgid "-- all --"
 msgstr "-- alle --"
 
-#: apps/search/forms.py:42
+#: apps/search/forms.py:43
 msgctxt "os_choice"
 msgid "-- all --"
 msgstr "-- alle --"
@@ -69,7 +69,7 @@ msgctxt "sentiment_choice"
 msgid "-- all --"
 msgstr "-- alle --"
 
-#: apps/search/forms.py:22 apps/search/forms.py:28
+#: apps/search/forms.py:23 apps/search/forms.py:29
 msgctxt "version_choice"
 msgid "-- all --"
 msgstr "-- alle --"
@@ -96,12 +96,12 @@ msgstr[1] "<strong>%(cnt)s</strong> meldinger"
 msgid "ATOM feed for this search"
 msgstr "ATOM-kilde for dette søket"
 
-#: apps/feedback/templates/feedback/mobile/feedback.html:15
+#: apps/feedback/templates/feedback/mobile/feedback.html:26
 #, fuzzy
 msgid "Ack! Please tell us what to fix!"
 msgstr "Beklager! Fortell oss mer!"
 
-#: apps/feedback/templates/feedback/mobile/feedback.html:26
+#: apps/feedback/templates/feedback/mobile/feedback.html:40
 msgid "Add URL of last visited page?"
 msgstr "Legg til URL-en til nettsiden du besøkte sist?"
 
@@ -109,7 +109,7 @@ msgstr "Legg til URL-en til nettsiden du besøkte sist?"
 msgid "Advanced"
 msgstr "Avansert"
 
-#: apps/themes/views.py:23 apps/themes/views.py:44
+#: apps/themes/views.py:24 apps/themes/views.py:51
 msgid "All"
 msgstr "Alle"
 
@@ -123,11 +123,11 @@ msgctxt "sites_search_all_platforms"
 msgid "All"
 msgstr "Alle"
 
-#: apps/themes/views.py:44
+#: apps/themes/views.py:51
 msgid "All Platforms"
 msgstr "Alle plattformer"
 
-#: apps/themes/views.py:23 apps/website_issues/templates/website_issues/website_issues.html:31
+#: apps/themes/views.py:24 apps/website_issues/templates/website_issues/website_issues.html:31
 msgid "All feedback"
 msgstr "Alle tilbakemeldinger"
 
@@ -143,8 +143,17 @@ msgstr "En ukjent feil oppstod i applikasjonen. Feilen er logget og en systemans
 msgid "Android"
 msgstr "Android"
 
+#: apps/feedback/templates/feedback/mobile/feedback.html:28
+msgid "Awesome! Please make your suggestion below:"
+msgstr ""
+
 #: apps/website_issues/templates/website_issues/single_site.html:3
 msgid "Back to all sites &raquo;"
+msgstr "Tilbake til alle nettsted &raquo;"
+
+#: apps/themes/templates/themes/theme.html:17
+#, fuzzy
+msgid "Back to all themes &raquo;"
 msgstr "Tilbake til alle nettsted &raquo;"
 
 #: apps/website_issues/templates/website_issues/theme.html:18
@@ -159,7 +168,7 @@ msgstr "Klynger"
 msgid "Common Themes"
 msgstr "Vanlige emner"
 
-#: apps/dashboard/templates/dashboard/message_list.html:31 apps/themes/templates/themes/theme_list.html:26
+#: apps/dashboard/templates/dashboard/message_list.html:33 apps/themes/templates/themes/theme_list.html:28
 msgid "Copy User Agent"
 msgstr "Kopier brukeragent"
 
@@ -172,16 +181,25 @@ msgstr "Egendefinert"
 msgid "Dashboard"
 msgstr "Instrumentbord"
 
-#: apps/search/forms.py:65
+#: apps/search/forms.py:75
 msgid "Date range:"
 msgstr "Datoområde:"
+
+#: apps/dashboard/templates/dashboard/devices.html:15
+msgid "Devices"
+msgstr ""
 
 #: apps/feedback/templates/feedback/need_beta.html:3 apps/feedback/templates/feedback/mobile/need_beta.html:3
 msgid "Download Beta"
 msgstr "Last ned betaen"
 
-#: apps/feedback/forms.py:42
+#: apps/feedback/forms.py:94 apps/feedback/forms.py:107
 msgid "Enter your feedback here."
+msgstr "Skriv inn tilbakemeldingen her."
+
+#: apps/feedback/forms.py:121
+#, fuzzy
+msgid "Enter your suggestions here."
 msgstr "Skriv inn tilbakemeldingen her."
 
 #: templates/base_mobile_old.html:61 templates/base_old.html:68 templates/includes/footer.html:12
@@ -212,12 +230,12 @@ msgstr "Få de siste nyhetene fra Mozilla:"
 msgid "Firefox"
 msgstr "Firefox"
 
-#: apps/search/views.py:64 apps/search/views.py:82
+#: apps/search/views.py:85 apps/search/views.py:103
 msgid "Firefox Input"
 msgstr "Firefox Input"
 
 #. L10n: This is the title to the Search ATOM feed.
-#: apps/search/views.py:81
+#: apps/search/views.py:102
 msgid "Firefox Input: '{query}'"
 msgstr "Firefox Input: '{query}'"
 
@@ -251,7 +269,7 @@ msgstr "For siste:"
 msgid "Go"
 msgstr "Gå"
 
-#: apps/feedback/templates/feedback/feedback.html:45
+#: apps/feedback/templates/feedback/feedback.html:56
 msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
 msgstr "Hadde du et problem med et bestemt nettsted? Legg til URL-en, slik at vi kan finne problemet raskere!"
 
@@ -270,6 +288,10 @@ msgstr "Dersom problemet vedvarer, <a href=\"%(bug_url)s\">opprett en bug</a> de
 #: templates/500.html:20
 msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
 msgstr "Dersom du har mer informasjon om hvordan gjenskape denne feilen, <a href=\"%(bug_url)s\">meld inn en bug.</a> Takk!"
+
+#: apps/feedback/templates/feedback/feedback.html:86
+msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
+msgstr ""
 
 #: apps/feedback/templates/feedback/index.html:25
 msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
@@ -295,17 +317,18 @@ msgstr "Input-instrumentbord"
 msgid "Internal Server Error"
 msgstr "Intern tjenerfeil"
 
-#: apps/dashboard/templates/dashboard/message_list.html:8 apps/feedback/helpers.py:39 apps/themes/templates/themes/theme_list.html:9 apps/website_issues/templates/website_issues/single_site.html:11
+#: apps/dashboard/templates/dashboard/message_list.html:8 apps/feedback/__init__.py:96 apps/feedback/helpers.py:39 apps/themes/templates/themes/theme_list.html:9
+#: apps/website_issues/templates/website_issues/single_site.html:11
 msgid "Issue"
 msgstr "Problem"
 
 #. Formerly called "sad"
-#: apps/dashboard/views.py:56 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/search/views.py:180
-#: apps/themes/views.py:33 apps/website_issues/templates/website_issues/website_issues.html:33
+#: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/search/views.py:213
+#: apps/themes/views.py:34 apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Issues"
 msgstr "Problemer"
 
-#: apps/themes/views.py:33 apps/website_issues/templates/website_issues/website_issues.html:33
+#: apps/themes/views.py:34 apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Issues only"
 msgstr "Bare problemer"
 
@@ -313,7 +336,7 @@ msgstr "Bare problemer"
 msgid "It's great to hear you want to help Mozilla make your experience better!"
 msgstr "Bra å høre at du ønsker å hjelpe Mozilla å forbedre opplevelsen!"
 
-#: apps/feedback/templates/feedback/feedback.html:37
+#: apps/feedback/templates/feedback/feedback.html:48
 msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
 msgstr "Vet du om en nettside som virker bedre i denne betaen enn i tidligere versjoner av Firefox? Legg til URL-en så vi kan holde oversikt!"
 
@@ -352,7 +375,7 @@ msgstr ""
 msgid "Locale"
 msgstr "Språk"
 
-#: apps/search/forms.py:60
+#: apps/search/forms.py:67
 msgid "Locale:"
 msgstr "Språk:"
 
@@ -364,6 +387,10 @@ msgstr "Mac OS X"
 msgid "Maemo"
 msgstr "Maemo"
 
+#: apps/dashboard/templates/dashboard/manufacturers.html:16
+msgid "Manufacturer"
+msgstr ""
+
 #. Title text for a complete message count.
 #: apps/dashboard/templates/dashboard/opinion_count.html:3
 msgid "Messages"
@@ -373,7 +400,7 @@ msgstr "Meldinger"
 msgid "Mobile"
 msgstr "Mobil"
 
-#: apps/dashboard/templates/dashboard/message_list.html:28 apps/themes/templates/themes/theme_list.html:23
+#: apps/dashboard/templates/dashboard/message_list.html:30 apps/themes/templates/themes/theme_list.html:25
 msgid "More Options"
 msgstr "Flere innstillinger"
 
@@ -381,7 +408,7 @@ msgstr "Flere innstillinger"
 msgid "More sites..."
 msgstr "Flere nettsted ..."
 
-#: apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:37
+#: apps/themes/templates/themes/theme.html:36 apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:37
 msgid "Next Page &raquo;"
 msgstr "Neste side &raquo;"
 
@@ -389,7 +416,7 @@ msgstr "Neste side &raquo;"
 msgid "No results found!"
 msgstr "Ingen resultater funnet!"
 
-#: apps/dashboard/templates/dashboard/message_list.html:50 apps/themes/templates/themes/theme_list.html:38
+#: apps/dashboard/templates/dashboard/message_list.html:52 apps/themes/templates/themes/theme_list.html:40
 msgid "No search results found."
 msgstr "Ingen søkeresultater ble funnet."
 
@@ -397,7 +424,7 @@ msgstr "Ingen søkeresultater ble funnet."
 msgid "Not Found"
 msgstr "Ikke funnet"
 
-#: apps/search/forms.py:62
+#: apps/search/forms.py:69
 msgid "OS:"
 msgstr "OS:"
 
@@ -418,9 +445,13 @@ msgstr "Åh! Så du ønsker å gi oss tilbakemelding. Du trenger den siste betae
 msgid "Older Feedback &raquo;"
 msgstr "Eldre tilbakemeldinger &raquo;"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:70 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:68
+#: apps/dashboard/templates/dashboard/dashboard.html:70 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:73
 msgid "Older Messages &raquo;"
 msgstr "Eldre meldinger &raquo;"
+
+#: apps/feedback/templates/feedback/mobile/feedback.html:68
+msgid "Or submit your ideas with our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
+msgstr ""
 
 #: apps/feedback/__init__.py:84
 msgid "Other"
@@ -450,7 +481,7 @@ msgstr "Velg en av følgende typer tilbakemelding du ønsker å sende til oss:"
 msgid "Please choose the type of feedback that you would like to submit to us:"
 msgstr "Velg hvilken type tilbakemelding du ønsker å sende til oss:"
 
-#: apps/feedback/templates/feedback/feedback.html:66 apps/feedback/templates/feedback/mobile/feedback.html:44
+#: apps/feedback/templates/feedback/feedback.html:77 apps/feedback/templates/feedback/mobile/feedback.html:59
 msgid "Please ensure that there is no personally identifiable information here."
 msgstr "Sjekk at du ikke oppgir noen personlig identifiserbar informasjon her."
 
@@ -459,13 +490,13 @@ msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 msgstr "Start på nytt på <a href=\"%(dashboard_url)s\">instrumentbordet</a>."
 
 #. Formerly called "happy"
-#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8
-#: apps/feedback/helpers.py:36 apps/search/forms.py:36 apps/search/views.py:179 apps/themes/views.py:28 apps/themes/templates/themes/theme_list.html:7
+#: apps/dashboard/views.py:53 apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8
+#: apps/feedback/__init__.py:95 apps/feedback/helpers.py:36 apps/search/forms.py:36 apps/search/views.py:212 apps/themes/views.py:29 apps/themes/templates/themes/theme_list.html:7
 #: apps/website_issues/templates/website_issues/single_site.html:9 apps/website_issues/templates/website_issues/website_issues.html:32
 msgid "Praise"
 msgstr "Ros"
 
-#: apps/themes/views.py:28 apps/website_issues/templates/website_issues/website_issues.html:32
+#: apps/themes/views.py:29 apps/website_issues/templates/website_issues/website_issues.html:32
 msgid "Praise only"
 msgstr "Bare ros"
 
@@ -486,11 +517,11 @@ msgstr "Gå til hovedinnholdet"
 msgid "Product"
 msgstr "Produkt"
 
-#: apps/search/forms.py:54
+#: apps/search/forms.py:61
 msgid "Product:"
 msgstr "Produkt:"
 
-#: apps/search/client.py:173
+#: apps/search/client.py:194
 msgid "Query has timed out."
 msgstr "Forespørselen fikk tidsavbrudd."
 
@@ -502,11 +533,11 @@ msgstr "Rapporter misbruk av varemerker"
 msgid "Search"
 msgstr "Søk"
 
-#: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:44
+#: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:49
 msgid "Search Results"
 msgstr "Søkeresultater"
 
-#: apps/search/views.py:65
+#: apps/search/views.py:86
 msgid "Search Results in Firefox Beta Feedback."
 msgstr "Søkeresultater i Firefox Beta-tilbakemeldinger."
 
@@ -514,7 +545,7 @@ msgstr "Søkeresultater i Firefox Beta-tilbakemeldinger."
 msgid "Search Unavailable"
 msgstr "Søk er utilgjengelig"
 
-#: apps/search/forms.py:53
+#: apps/search/forms.py:60
 msgid "Search by keyword"
 msgstr "Søk etter nøkkelord"
 
@@ -523,7 +554,11 @@ msgctxt "website_issues_search"
 msgid "Search for domain"
 msgstr "Søk etter domene"
 
-#: apps/search/forms.py:58
+#: apps/themes/templates/themes/theme_list.html:11
+msgid "See all opinions"
+msgstr ""
+
+#: apps/search/forms.py:65
 msgid "Sentiment:"
 msgstr "Mening:"
 
@@ -546,8 +581,12 @@ msgstr "Nettsted"
 msgid "Sites with only one message"
 msgstr "Nettsted med bare en melding"
 
+#: apps/feedback/templates/feedback/feedback.html:29
+msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please make your suggestion below:"
+msgstr ""
+
 #. L10n: Sphinx is the name of the search engine software.
-#: apps/search/client.py:176
+#: apps/search/client.py:197
 msgid "Sphinx threw an unknown exception: %s"
 msgstr "Sphinx kastet et ukjent unntak: %s"
 
@@ -555,8 +594,8 @@ msgstr "Sphinx kastet et ukjent unntak: %s"
 msgid "Statistics"
 msgstr "Statistikk"
 
-#: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:68 apps/feedback/templates/feedback/index.html:3
-#: apps/feedback/templates/feedback/mobile/feedback.html:3 apps/feedback/templates/feedback/mobile/feedback.html:46 apps/feedback/templates/feedback/mobile/index.html:3
+#: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:79 apps/feedback/templates/feedback/index.html:3
+#: apps/feedback/templates/feedback/mobile/feedback.html:3 apps/feedback/templates/feedback/mobile/feedback.html:61 apps/feedback/templates/feedback/mobile/index.html:3
 msgid "Submit Feedback"
 msgstr "Send tilbakemelding"
 
@@ -564,11 +603,24 @@ msgstr "Send tilbakemelding"
 msgid "Submitted User Agent is not the latest beta version."
 msgstr "User agent-teksten som ble sendt indikerer at den nyeste betaversjonen ikke brukes."
 
-#: apps/feedback/templates/feedback/feedback.html:13
+#: apps/dashboard/templates/dashboard/message_list.html:10 apps/feedback/__init__.py:97 apps/feedback/templates/feedback/feedback.html:13 apps/feedback/templates/feedback/mobile/feedback.html:21
+#: apps/search/views.py:214
+msgid "Suggestion"
+msgstr ""
+
+#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:38 apps/themes/views.py:39
+msgid "Suggestions"
+msgstr ""
+
+#: apps/themes/views.py:40
+msgid "Suggestions only"
+msgstr ""
+
+#: apps/feedback/templates/feedback/feedback.html:19
 msgid "Super! It's great to hear that you like our pre-released browser. Please explain what you specifically like!"
 msgstr "Supert! Det er bra å høre at du liker testversjonen av nettleseren vår. Forklar hva du liker med den!"
 
-#: apps/feedback/templates/feedback/mobile/feedback.html:13
+#: apps/feedback/templates/feedback/mobile/feedback.html:24
 msgid "Super! Please tell us more!"
 msgstr "Supert! Fortell oss mer!"
 
@@ -588,9 +640,14 @@ msgstr "Takk for at du sender oss din tilbakemelding!"
 msgid "Thanks!"
 msgstr "Takk!"
 
-#: apps/website_issues/templates/website_issues/theme.html:15
+#: apps/themes/templates/themes/theme.html:4 apps/themes/templates/themes/theme.html:14 apps/website_issues/templates/website_issues/theme.html:15
 msgid "Theme"
 msgstr "Emne"
+
+#: apps/website_issues/templates/website_issues/theme.html:21
+#, fuzzy
+msgid "Theme for {domain}"
+msgstr "Søk etter domene"
 
 #. Formerly: Clusters
 #: apps/themes/templates/themes/index.html:2 templates/base.html:36
@@ -607,7 +664,7 @@ msgid "Toggle"
 msgstr "Slå av/på"
 
 #. Link to Google Translator
-#: apps/dashboard/templates/dashboard/message_list.html:35 apps/themes/templates/themes/theme_list.html:28
+#: apps/dashboard/templates/dashboard/message_list.html:37 apps/themes/templates/themes/theme_list.html:30
 msgid "Translate Message"
 msgstr "Oversett melding"
 
@@ -615,7 +672,7 @@ msgstr "Oversett melding"
 msgid "Trends"
 msgstr "Trender"
 
-#: apps/dashboard/templates/dashboard/message_list.html:40
+#: apps/dashboard/templates/dashboard/message_list.html:42
 msgid "Tweet This"
 msgstr ""
 
@@ -628,23 +685,29 @@ msgstr "Type tilbakemelding"
 msgid "Uncommon Sites"
 msgstr "Uvanlige nettsted"
 
+#: apps/dashboard/templates/dashboard/devices.html:8 apps/dashboard/templates/dashboard/manufacturers.html:9 apps/feedback/helpers.py:16 apps/search/forms.py:46 apps/search/forms.py:49
+#: apps/search/forms.py:54
+#, fuzzy
+msgid "Unknown"
+msgstr "ukjent"
+
 #: apps/feedback/validators.py:30
 msgid "User agent string was not recognizable."
 msgstr "User agent-teksten var ikke gjenkjennbar."
 
-#: apps/feedback/views.py:35
+#: apps/feedback/views.py:36
 msgid "User-Agent request header must be set."
 msgstr "User Agent-headeren må være satt i forespørselen."
 
-#: apps/search/forms.py:56
+#: apps/search/forms.py:63
 msgid "Version:"
 msgstr "Versjon:"
 
-#: apps/feedback/forms.py:63
+#: apps/feedback/forms.py:65
 msgid "We already got your feedback! Thanks."
 msgstr "Vi har allerede mottatt tilbakemeldingen din! Takk."
 
-#: apps/feedback/templates/feedback/feedback.html:20
+#: apps/feedback/templates/feedback/feedback.html:24
 #, fuzzy
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
 msgstr "Vi er lei for å høre at du ikke hadde en god opplevelse med nettleseren vår. Fortell oss hvorfor, slik at vi kan forbedre den!"
@@ -701,13 +764,9 @@ msgid "reset my search"
 msgstr "tilbakestill søket"
 
 #. L10n: This indicates the second part of a date range.
-#: apps/search/forms.py:68
+#: apps/search/forms.py:78
 msgid "to"
 msgstr "til"
-
-#: apps/feedback/helpers.py:16 apps/search/forms.py:47
-msgid "unknown"
-msgstr "ukjent"
 
 #: apps/input/helpers.py:73
 #, fuzzy
@@ -729,10 +788,6 @@ msgid "{0} minute ago"
 msgid_plural "{0} minutes ago"
 msgstr[0] "{0} siden"
 msgstr[1] "{0} siden"
-
-#: apps/themes/templates/themes/theme_list.html:14
-msgid "{0} similar messages"
-msgstr "{0} lignende meldinger"
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:3
 msgid "{num} opinions on {day}"
@@ -883,3 +938,6 @@ msgstr "{percentage} % ros"
 
 #~ msgid "{0} opinions similar to <q>{1}</q>"
 #~ msgstr "{0} meninger som ligner på <q>{1}</q>"
+
+#~ msgid "{0} similar messages"
+#~ msgstr "{0} lignende meldinger"

@@ -1,16 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: input.mozilla.com\n"
+"PO-Revision-Date: 2010-11-26 13:52-0800\n"
 "Last-Translator: alexxed <alexxed@gmail.com>\n"
 "Language-Team: Romanian <LL@li.org>\n"
 "Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2;\n"
+"Plural-Forms:  nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
 "X-Generator: Narro 1.0beta on http://tradu.softwareliber.ro\n"
-"PO-Revision-Date: 2010-11-26 13:52-0800\n"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:43
 msgid "%(count)s message"
@@ -27,7 +26,7 @@ msgstr[0] "%(count)s similar"
 msgstr[1] "%(count)s similare"
 msgstr[2] "%(count)s similare"
 
-#: apps/website_issues/templates/website_issues/single_site.html:18
+#: apps/themes/templates/themes/theme_list.html:13 apps/website_issues/templates/website_issues/single_site.html:18
 msgid "%(count)s similar message"
 msgid_plural "%(count)s similar messages"
 msgstr[0] "%(count)s mesaj asemănător"
@@ -44,28 +43,24 @@ msgstr "%e %B %Y"
 msgid "%e %b"
 msgstr "%e %b"
 
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:35
-#: apps/search/templates/search/mobile/search.html:38
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:35 apps/search/templates/search/mobile/search.html:38
 msgid "&laquo; Newer Feedback"
 msgstr "&laquo; Reacții mai noi"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:69
-#: apps/input/templates/input/pager.html:3
-#: apps/search/templates/search/search.html:58
+#: apps/dashboard/templates/dashboard/dashboard.html:69 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:63
 msgid "&laquo; Newer Messages"
 msgstr "&laquo; Mesaje mai noi"
 
-#: apps/website_issues/templates/website_issues/paginate_sites.html:3
-#: apps/website_issues/templates/website_issues/theme.html:29
+#: apps/themes/templates/themes/theme.html:28 apps/website_issues/templates/website_issues/paginate_sites.html:3 apps/website_issues/templates/website_issues/theme.html:29
 msgid "&laquo; Previous Page"
 msgstr "&laquo; Pagina precedentă"
 
-#: apps/search/forms.py:46
+#: apps/search/forms.py:53
 msgctxt "locale_choice"
 msgid "-- all --"
 msgstr "-- toate --"
 
-#: apps/search/forms.py:42
+#: apps/search/forms.py:43
 msgctxt "os_choice"
 msgid "-- all --"
 msgstr "-- toate --"
@@ -75,7 +70,7 @@ msgctxt "sentiment_choice"
 msgid "-- all --"
 msgstr "-- toate --"
 
-#: apps/search/forms.py:22 apps/search/forms.py:28
+#: apps/search/forms.py:23 apps/search/forms.py:29
 msgctxt "version_choice"
 msgid "-- all --"
 msgstr "-- toate --"
@@ -103,12 +98,12 @@ msgstr[2] "<strong>%(cnt)s</strong> mesaje"
 msgid "ATOM feed for this search"
 msgstr "Flux ATOM pentru această căutare"
 
-#: apps/feedback/templates/feedback/mobile/feedback.html:15
+#: apps/feedback/templates/feedback/mobile/feedback.html:26
 #, fuzzy
 msgid "Ack! Please tell us what to fix!"
 msgstr "O nu! Spuneți-ne ce să reparăm!"
 
-#: apps/feedback/templates/feedback/mobile/feedback.html:26
+#: apps/feedback/templates/feedback/mobile/feedback.html:40
 msgid "Add URL of last visited page?"
 msgstr "Adăugați adresa ultimului sait vizitat?"
 
@@ -116,7 +111,7 @@ msgstr "Adăugați adresa ultimului sait vizitat?"
 msgid "Advanced"
 msgstr "Avansat"
 
-#: apps/themes/views.py:23 apps/themes/views.py:44
+#: apps/themes/views.py:24 apps/themes/views.py:51
 msgid "All"
 msgstr "Toate"
 
@@ -130,12 +125,11 @@ msgctxt "sites_search_all_platforms"
 msgid "All"
 msgstr "Toate"
 
-#: apps/themes/views.py:44
+#: apps/themes/views.py:51
 msgid "All Platforms"
 msgstr "Toate platformele"
 
-#: apps/themes/views.py:23
-#: apps/website_issues/templates/website_issues/website_issues.html:31
+#: apps/themes/views.py:24 apps/website_issues/templates/website_issues/website_issues.html:31
 msgid "All feedback"
 msgstr "Toate reacțiile"
 
@@ -144,17 +138,24 @@ msgid "All platforms"
 msgstr "Toate platformele"
 
 #: templates/500.html:7
-msgid ""
-"An unhandled error occurred in the application. The error has been logged and "
-"an administrator was notified. We apologize for the inconvenience!"
+msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
 msgstr ""
 
 #: apps/feedback/__init__.py:72
 msgid "Android"
 msgstr "Android"
 
+#: apps/feedback/templates/feedback/mobile/feedback.html:28
+msgid "Awesome! Please make your suggestion below:"
+msgstr ""
+
 #: apps/website_issues/templates/website_issues/single_site.html:3
 msgid "Back to all sites &raquo;"
+msgstr "Înapoi la toate saiturile &raquo;"
+
+#: apps/themes/templates/themes/theme.html:17
+#, fuzzy
+msgid "Back to all themes &raquo;"
 msgstr "Înapoi la toate saiturile &raquo;"
 
 #: apps/website_issues/templates/website_issues/theme.html:18
@@ -169,8 +170,7 @@ msgstr ""
 msgid "Common Themes"
 msgstr "Teme comune"
 
-#: apps/dashboard/templates/dashboard/message_list.html:31
-#: apps/themes/templates/themes/theme_list.html:26
+#: apps/dashboard/templates/dashboard/message_list.html:33 apps/themes/templates/themes/theme_list.html:28
 msgid "Copy User Agent"
 msgstr ""
 
@@ -183,29 +183,34 @@ msgstr "Particularizat"
 msgid "Dashboard"
 msgstr "Tablou de bord"
 
-#: apps/search/forms.py:65
+#: apps/search/forms.py:75
 msgid "Date range:"
 msgstr "Perioada:"
 
-#: apps/feedback/templates/feedback/need_beta.html:3
-#: apps/feedback/templates/feedback/mobile/need_beta.html:3
+#: apps/dashboard/templates/dashboard/devices.html:15
+msgid "Devices"
+msgstr ""
+
+#: apps/feedback/templates/feedback/need_beta.html:3 apps/feedback/templates/feedback/mobile/need_beta.html:3
 msgid "Download Beta"
 msgstr "Descarcă versiunea Beta"
 
-#: apps/feedback/forms.py:42
+#: apps/feedback/forms.py:94 apps/feedback/forms.py:107
 msgid "Enter your feedback here."
 msgstr "Scrieți reacția dumneavoastră aici."
 
-#: templates/base_mobile_old.html:61 templates/base_old.html:68
-#: templates/includes/footer.html:12
+#: apps/feedback/forms.py:121
+#, fuzzy
+msgid "Enter your suggestions here."
+msgstr "Scrieți reacția dumneavoastră aici."
+
+#: templates/base_mobile_old.html:61 templates/base_old.html:68 templates/includes/footer.html:12
 msgid ""
-"Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this "
-"site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons "
-"Attribution Share-Alike License v3.0</a> or any later version."
+"Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
+"any later version."
 msgstr ""
 
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:6
-#: apps/search/templates/search/mobile/search.html:6
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:6 apps/search/templates/search/mobile/search.html:6
 msgid "Feed"
 msgstr "Flux"
 
@@ -217,8 +222,7 @@ msgstr "Reacţii"
 msgid "Feedback must not contain HTML."
 msgstr "Reacția nu trebuie să conțină HTML."
 
-#: apps/feedback/templates/feedback/thanks.html:17
-#: apps/feedback/templates/feedback/mobile/thanks.html:12
+#: apps/feedback/templates/feedback/thanks.html:17 apps/feedback/templates/feedback/mobile/thanks.html:12
 msgid "Find out the latest news from Mozilla:"
 msgstr "Află ultimele noutăți de la Mozilla:"
 
@@ -226,12 +230,12 @@ msgstr "Află ultimele noutăți de la Mozilla:"
 msgid "Firefox"
 msgstr "Firefox"
 
-#: apps/search/views.py:64 apps/search/views.py:82
+#: apps/search/views.py:85 apps/search/views.py:103
 msgid "Firefox Input"
 msgstr "Reacții despre Firefox"
 
 #. L10n: This is the title to the Search ATOM feed.
-#: apps/search/views.py:81
+#: apps/search/views.py:102
 msgid "Firefox Input: '{query}'"
 msgstr "Reacții despre Firefox: „{query}”"
 
@@ -240,23 +244,19 @@ msgstr "Reacții despre Firefox: „{query}”"
 msgid "Firefox Logo"
 msgstr "Sigla Firefox"
 
-#: apps/feedback/templates/feedback/mobile/index.html:13
-#: apps/feedback/templates/feedback/mobile/index.html:15
+#: apps/feedback/templates/feedback/mobile/index.html:13 apps/feedback/templates/feedback/mobile/index.html:15
 msgid "Firefox makes me happy ..."
 msgstr "Firefox mă face fericit ..."
 
-#: apps/feedback/templates/feedback/index.html:13
-#: apps/feedback/templates/feedback/index.html:15
+#: apps/feedback/templates/feedback/index.html:13 apps/feedback/templates/feedback/index.html:15
 msgid "Firefox makes me happy because ..."
 msgstr "Firefox mă face fericit pentru că..."
 
-#: apps/feedback/templates/feedback/mobile/index.html:18
-#: apps/feedback/templates/feedback/mobile/index.html:20
+#: apps/feedback/templates/feedback/mobile/index.html:18 apps/feedback/templates/feedback/mobile/index.html:20
 msgid "Firefox makes me sad ..."
 msgstr "Firefox mă întristează ..."
 
-#: apps/feedback/templates/feedback/index.html:19
-#: apps/feedback/templates/feedback/index.html:21
+#: apps/feedback/templates/feedback/index.html:19 apps/feedback/templates/feedback/index.html:21
 msgid "Firefox makes me sad because ..."
 msgstr "Firefox mă întristează pentru că ..."
 
@@ -269,13 +269,9 @@ msgstr "Din ultimele:"
 msgid "Go"
 msgstr "Mergi"
 
-#: apps/feedback/templates/feedback/feedback.html:45
-msgid ""
-"Had an issue with a specific website? Please add the URL, so we can find the "
-"issue faster!"
-msgstr ""
-"Ați avut o problemă cu un sait anume? Vă rugăm să adăugați aici adresa ca să "
-"rezolvăm problema mai rapid!"
+#: apps/feedback/templates/feedback/feedback.html:56
+msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
+msgstr "Ați avut o problemă cu un sait anume? Vă rugăm să adăugați aici adresa ca să rezolvăm problema mai rapid!"
 
 #: templates/404.html:6
 msgid "I'm sorry, I could not find what you were looking for."
@@ -286,44 +282,28 @@ msgid "I'm sorry, there was an error with your search."
 msgstr "Ne pare rău, a intervenit o eroare în timpul căutării."
 
 #: apps/search/templates/search/unavailable.html:17
-msgid ""
-"If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, "
-"mentioning the URL you were accessing."
-msgstr ""
-"Dacă problema persistă, vă rugăm să <a href=\"%(bug_url)s\">raportați "
-"defectul</a>, menționând adresa pe care ați accesat-o."
+msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
+msgstr "Dacă problema persistă, vă rugăm să <a href=\"%(bug_url)s\">raportați defectul</a>, menționând adresa pe care ați accesat-o."
 
 #: templates/500.html:20
-msgid ""
-"If you have additional information how to reproduce this problem, please <a "
-"href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+msgstr "Dacă aveți informații suplimentare despre cum să reproducem această problemă, vă rugăm să <a href=\"%(bug_url)s\">raportați defectul.</a> Mulțumim!"
+
+#: apps/feedback/templates/feedback/feedback.html:86
+msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
 msgstr ""
-"Dacă aveți informații suplimentare despre cum să reproducem această problemă, "
-"vă rugăm să <a href=\"%(bug_url)s\">raportați defectul.</a> Mulțumim!"
 
 #: apps/feedback/templates/feedback/index.html:25
-msgid ""
-"If you need help or have a problem with Firefox, please visit our <a href=\"%"
-"(support_url)s\">support page</a>."
-msgstr ""
-"Dacă aveți nevoie de ajutor sau aveți o problemă cu Firefox, vă rugăm "
-"vizitați <a href=\"%(support_url)s\">pagina noastră de suport</a>."
+msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
+msgstr "Dacă aveți nevoie de ajutor sau aveți o problemă cu Firefox, vă rugăm vizitați <a href=\"%(support_url)s\">pagina noastră de suport</a>."
 
 #: apps/feedback/templates/feedback/thanks.html:10
-msgid ""
-"If you want to see where your feedback was sent to, take a look at our <a "
-"href=\"%(url)s\">Firefox Input Dashboard</a>."
-msgstr ""
-"Dacă doriți să vedeți unde s-a salvat reacția dumneavoastră, aruncați o "
-"privire pe <a href=\"%(url)s\">tabloul de bord al reacțiilor la Firefox</a>."
+msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
+msgstr "Dacă doriți să vedeți unde s-a salvat reacția dumneavoastră, aruncați o privire pe <a href=\"%(url)s\">tabloul de bord al reacțiilor la Firefox</a>."
 
 #: templates/404.html:14
-msgid ""
-"If you were following a broken link, please <a href=\"%(bug_url)s\">file a "
-"bug.</a> Thanks!"
-msgstr ""
-"Dacă ați urmat o legătură greșită, vă rugăm să <a href=\"%(bug_url)s"
-"\">raportați un defect.</a> Mulțumim!"
+msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+msgstr "Dacă ați urmat o legătură greșită, vă rugăm să <a href=\"%(bug_url)s\">raportați un defect.</a> Mulțumim!"
 
 #: apps/search/templates/search/unavailable.html:24
 msgid "Include the following error message in your bug report:"
@@ -337,40 +317,28 @@ msgstr ""
 msgid "Internal Server Error"
 msgstr "Eroare internă a serverului"
 
-#: apps/dashboard/templates/dashboard/message_list.html:8
-#: apps/feedback/helpers.py:39 apps/themes/templates/themes/theme_list.html:9
+#: apps/dashboard/templates/dashboard/message_list.html:8 apps/feedback/__init__.py:96 apps/feedback/helpers.py:39 apps/themes/templates/themes/theme_list.html:9
 #: apps/website_issues/templates/website_issues/single_site.html:11
 msgid "Issue"
 msgstr "Problemă"
 
 #. Formerly called "sad"
-#: apps/dashboard/views.py:56
-#: apps/dashboard/templates/dashboard/overview.html:27
-#: apps/dashboard/templates/dashboard/mobile/overview.html:15
-#: apps/search/forms.py:37 apps/search/views.py:180 apps/themes/views.py:33
-#: apps/website_issues/templates/website_issues/website_issues.html:33
+#: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/search/views.py:213
+#: apps/themes/views.py:34 apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Issues"
 msgstr "Probleme"
 
-#: apps/themes/views.py:33
-#: apps/website_issues/templates/website_issues/website_issues.html:33
+#: apps/themes/views.py:34 apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Issues only"
 msgstr ""
 
 #: apps/feedback/templates/feedback/index.html:7
 msgid "It's great to hear you want to help Mozilla make your experience better!"
-msgstr ""
-"Este excelent să auzim că vreți să ajutați Mozilla să vă ofere o experiență "
-"mai bună!"
+msgstr "Este excelent să auzim că vreți să ajutați Mozilla să vă ofere o experiență mai bună!"
 
-#: apps/feedback/templates/feedback/feedback.html:37
-msgid ""
-"Know of a website that works better in this beta than it did in earlier "
-"versions of Firefox? Please add the URL, so we can keep track!"
-msgstr ""
-"Știți un sait care merge mai bine în această versiune de Firefox decât mergea "
-"în altele mai vechi? Vă rugăm să adăugați adresa pentru a ne ajuta să ținem "
-"cont de asta."
+#: apps/feedback/templates/feedback/feedback.html:48
+msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
+msgstr "Știți un sait care merge mai bine în această versiune de Firefox decât mergea în altele mai vechi? Vă rugăm să adăugați adresa pentru a ne ajuta să ținem cont de asta."
 
 #. short for 30 days
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:9
@@ -391,8 +359,7 @@ msgstr "Ultima zi"
 msgid "Latest Feedback"
 msgstr "Cele mai noi reacții"
 
-#: templates/base_mobile_old.html:57 templates/base_old.html:64
-#: templates/includes/footer.html:8
+#: templates/base_mobile_old.html:57 templates/base_old.html:64 templates/includes/footer.html:8
 msgid "Legal Notices"
 msgstr "Mențiuni legale"
 
@@ -404,12 +371,11 @@ msgstr "Linux"
 msgid "Loading feedback history..."
 msgstr "Se încarcă istoricul reacțiilor..."
 
-#: apps/dashboard/templates/dashboard/locales.html:15
-#: apps/dashboard/templates/dashboard/mobile/locales.html:9
+#: apps/dashboard/templates/dashboard/locales.html:15 apps/dashboard/templates/dashboard/mobile/locales.html:9
 msgid "Locale"
 msgstr "Limbă"
 
-#: apps/search/forms.py:60
+#: apps/search/forms.py:67
 msgid "Locale:"
 msgstr "Limbă:"
 
@@ -421,6 +387,10 @@ msgstr "Mac OS X"
 msgid "Maemo"
 msgstr "Maemo"
 
+#: apps/dashboard/templates/dashboard/manufacturers.html:16
+msgid "Manufacturer"
+msgstr ""
+
 #. Title text for a complete message count.
 #: apps/dashboard/templates/dashboard/opinion_count.html:3
 msgid "Messages"
@@ -430,8 +400,7 @@ msgstr "Mesaje"
 msgid "Mobile"
 msgstr "Mobil"
 
-#: apps/dashboard/templates/dashboard/message_list.html:28
-#: apps/themes/templates/themes/theme_list.html:23
+#: apps/dashboard/templates/dashboard/message_list.html:30 apps/themes/templates/themes/theme_list.html:25
 msgid "More Options"
 msgstr "Mai multe opțiuni"
 
@@ -439,8 +408,7 @@ msgstr "Mai multe opțiuni"
 msgid "More sites..."
 msgstr "Mai multe saituri..."
 
-#: apps/website_issues/templates/website_issues/paginate_sites.html:11
-#: apps/website_issues/templates/website_issues/theme.html:37
+#: apps/themes/templates/themes/theme.html:36 apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:37
 msgid "Next Page &raquo;"
 msgstr "Pagina următoare &raquo;"
 
@@ -448,8 +416,7 @@ msgstr "Pagina următoare &raquo;"
 msgid "No results found!"
 msgstr "Nu s-au găsit rezultate!"
 
-#: apps/dashboard/templates/dashboard/message_list.html:50
-#: apps/themes/templates/themes/theme_list.html:38
+#: apps/dashboard/templates/dashboard/message_list.html:52 apps/themes/templates/themes/theme_list.html:40
 msgid "No search results found."
 msgstr "Nu există rezultate pentru această căutare."
 
@@ -457,43 +424,34 @@ msgstr "Nu există rezultate pentru această căutare."
 msgid "Not Found"
 msgstr "Negăsit"
 
-#: apps/search/forms.py:62
+#: apps/search/forms.py:69
 msgid "OS:"
 msgstr "OS:"
 
 #. Refers to terms often mentioned in feedback.
-#: apps/dashboard/templates/dashboard/themes.html:3
-#: apps/dashboard/templates/dashboard/mobile/themes.html:2
+#: apps/dashboard/templates/dashboard/themes.html:3 apps/dashboard/templates/dashboard/mobile/themes.html:2
 msgid "Often Mentioned"
 msgstr "Menționat des"
 
 #: apps/feedback/templates/feedback/need_beta.html:8
-msgid ""
-"Oh! So, you want to offer us feedback on the next version of Firefox. Thank "
-"you, but you'll need to be on our latest beta."
-msgstr ""
-"Oh! Deci vreți să ne spuneți ceva despre versiunea următoare de Firefox. Vă "
-"mulțumim, însă înainte trebuie să aveți instalată ultima versiune beta."
+msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
+msgstr "Oh! Deci vreți să ne spuneți ceva despre versiunea următoare de Firefox. Vă mulțumim, însă înainte trebuie să aveți instalată ultima versiune beta."
 
 #: apps/feedback/templates/feedback/mobile/need_beta.html:9
-msgid ""
-"Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over "
-"to our beta page and <a href=\"%(url)s\">download it!</a>"
-msgstr ""
-"Oh! Deci vreți să ne spuneți ceva despre Firefox Beta. Vă trebuie întâi "
-"ultima versiune beta! Mergeți la pagina noastră beta și <a href=\"%(url)s"
-"\">descărcați-o!</a>"
+msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
+msgstr "Oh! Deci vreți să ne spuneți ceva despre Firefox Beta. Vă trebuie întâi ultima versiune beta! Mergeți la pagina noastră beta și <a href=\"%(url)s\">descărcați-o!</a>"
 
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:36
-#: apps/search/templates/search/mobile/search.html:48
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:36 apps/search/templates/search/mobile/search.html:48
 msgid "Older Feedback &raquo;"
 msgstr "Reacții mai vechi &raquo;"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:70
-#: apps/input/templates/input/pager.html:11
-#: apps/search/templates/search/search.html:68
+#: apps/dashboard/templates/dashboard/dashboard.html:70 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:73
 msgid "Older Messages &raquo;"
 msgstr "Mesaje mai vechi &raquo;"
+
+#: apps/feedback/templates/feedback/mobile/feedback.html:68
+msgid "Or submit your ideas with our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
+msgstr ""
 
 #: apps/feedback/__init__.py:84
 msgid "Other"
@@ -504,17 +462,10 @@ msgid "Other languages:"
 msgstr "Alte limbi:"
 
 #: apps/search/templates/search/unavailable.html:10
-msgid ""
-"Our search engine might be currently unavailable. You may start over on the "
-"<a href=\"%(url)s\">dashboard</a> and try again later."
-msgstr ""
-"E posibil ca motorul nostru de căutare să fie indisponibil momentan. Puteți "
-"reveni la <a href=\"%(url)s\">tabloul de bord</a> și să încercați din nou mai "
-"târziu."
+msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
+msgstr "E posibil ca motorul nostru de căutare să fie indisponibil momentan. Puteți reveni la <a href=\"%(url)s\">tabloul de bord</a> și să încercați din nou mai târziu."
 
-#: apps/dashboard/templates/dashboard/platforms.html:12
-#: apps/dashboard/templates/dashboard/mobile/platforms.html:8
-#: apps/themes/templates/themes/index.html:22
+#: apps/dashboard/templates/dashboard/platforms.html:12 apps/dashboard/templates/dashboard/mobile/platforms.html:8 apps/themes/templates/themes/index.html:22
 msgid "Platform"
 msgstr "Platformă"
 
@@ -523,75 +474,59 @@ msgid "Platforms"
 msgstr "Platforme"
 
 #: apps/feedback/templates/feedback/index.html:9
-msgid ""
-"Please choose one of the following types of feedback that you would like to "
-"submit to us:"
+msgid "Please choose one of the following types of feedback that you would like to submit to us:"
 msgstr "Vă rugăm să alegeți tipul de reacție pe care doriți să ne-o trimiteți:"
 
 #: apps/feedback/templates/feedback/mobile/index.html:10
 msgid "Please choose the type of feedback that you would like to submit to us:"
 msgstr "Vă rugăm alegeți tipul de reacție pe care doriți să ni-l trimiteți:"
 
-#: apps/feedback/templates/feedback/feedback.html:66
-#: apps/feedback/templates/feedback/mobile/feedback.html:44
+#: apps/feedback/templates/feedback/feedback.html:77 apps/feedback/templates/feedback/mobile/feedback.html:59
 msgid "Please ensure that there is no personally identifiable information here."
 msgstr ""
 
 #: templates/404.html:9 templates/500.html:14
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
-msgstr ""
-"Vă rugăm să reveniți la <a href=\"%(dashboard_url)s\">tabloul de bord</a>."
+msgstr "Vă rugăm să reveniți la <a href=\"%(dashboard_url)s\">tabloul de bord</a>."
 
 #. Formerly called "happy"
-#: apps/dashboard/views.py:55
-#: apps/dashboard/templates/dashboard/message_list.html:6
-#: apps/dashboard/templates/dashboard/overview.html:13
-#: apps/dashboard/templates/dashboard/mobile/overview.html:8
-#: apps/feedback/helpers.py:36 apps/search/forms.py:36 apps/search/views.py:179
-#: apps/themes/views.py:28 apps/themes/templates/themes/theme_list.html:7
-#: apps/website_issues/templates/website_issues/single_site.html:9
-#: apps/website_issues/templates/website_issues/website_issues.html:32
+#: apps/dashboard/views.py:53 apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8
+#: apps/feedback/__init__.py:95 apps/feedback/helpers.py:36 apps/search/forms.py:36 apps/search/views.py:212 apps/themes/views.py:29 apps/themes/templates/themes/theme_list.html:7
+#: apps/website_issues/templates/website_issues/single_site.html:9 apps/website_issues/templates/website_issues/website_issues.html:32
 msgid "Praise"
 msgstr "Laudă"
 
-#: apps/themes/views.py:28
-#: apps/website_issues/templates/website_issues/website_issues.html:32
+#: apps/themes/views.py:29 apps/website_issues/templates/website_issues/website_issues.html:32
 msgid "Praise only"
 msgstr "Doar laude"
 
-#: templates/base_mobile_old.html:56 templates/base_old.html:63
-#: templates/includes/footer.html:7
+#: templates/base_mobile_old.html:56 templates/base_old.html:63 templates/includes/footer.html:7
 msgid "Privacy Policy"
 msgstr "Politică de confidențialitate"
 
-#: templates/base.html:23 templates/base_mobile_old.html:20
-#: templates/base_old.html:23
+#: templates/base.html:23 templates/base_mobile_old.html:20 templates/base_old.html:23
 msgid "Proceed to footer"
 msgstr ""
 
-#: templates/base.html:22 templates/base_mobile_old.html:19
-#: templates/base_old.html:22
+#: templates/base.html:22 templates/base_mobile_old.html:19 templates/base_old.html:22
 msgid "Proceed to main content"
 msgstr "Continuați la pagina principală"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:12
-#: apps/search/templates/search/search.html:20
-#: apps/themes/templates/themes/index.html:10
+#: apps/dashboard/templates/dashboard/dashboard.html:12 apps/search/templates/search/search.html:20 apps/themes/templates/themes/index.html:10
 #: apps/website_issues/templates/website_issues/website_issues.html:19
 #, fuzzy
 msgid "Product"
 msgstr "Produs"
 
-#: apps/search/forms.py:54
+#: apps/search/forms.py:61
 msgid "Product:"
 msgstr "Produs:"
 
-#: apps/search/client.py:173
+#: apps/search/client.py:194
 msgid "Query has timed out."
 msgstr ""
 
-#: templates/base_mobile_old.html:58 templates/base_old.html:65
-#: templates/includes/footer.html:9
+#: templates/base_mobile_old.html:58 templates/base_old.html:65 templates/includes/footer.html:9
 msgid "Report Trademark Abuse"
 msgstr ""
 
@@ -599,12 +534,11 @@ msgstr ""
 msgid "Search"
 msgstr "Căutare"
 
-#: apps/search/templates/search/search.html:5
-#: apps/search/templates/search/search.html:44
+#: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:49
 msgid "Search Results"
 msgstr "Rezultatele căutării"
 
-#: apps/search/views.py:65
+#: apps/search/views.py:86
 msgid "Search Results in Firefox Beta Feedback."
 msgstr "Rezultatele căutării în reacții despre Firefox Beta."
 
@@ -612,7 +546,7 @@ msgstr "Rezultatele căutării în reacții despre Firefox Beta."
 msgid "Search Unavailable"
 msgstr "Căutare indisponibilă"
 
-#: apps/search/forms.py:53
+#: apps/search/forms.py:60
 msgid "Search by keyword"
 msgstr "Căutare după cuvinte cheie"
 
@@ -621,7 +555,11 @@ msgctxt "website_issues_search"
 msgid "Search for domain"
 msgstr ""
 
-#: apps/search/forms.py:58
+#: apps/themes/templates/themes/theme_list.html:11
+msgid "See all opinions"
+msgstr ""
+
+#: apps/search/forms.py:65
 msgid "Sentiment:"
 msgstr "Sentiment:"
 
@@ -635,9 +573,7 @@ msgstr "Setează"
 msgid "Show/Hide Options"
 msgstr "Arată sau ascunde opțiunile"
 
-#: apps/website_issues/templates/website_issues/sites_list.html:12
-#: apps/website_issues/templates/website_issues/theme.html:4
-#: apps/website_issues/templates/website_issues/website_issues.html:10
+#: apps/website_issues/templates/website_issues/sites_list.html:12 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/website_issues.html:10
 #: templates/base.html:40 templates/includes/nav_buttons.html:4
 msgid "Sites"
 msgstr "Saituri"
@@ -646,22 +582,21 @@ msgstr "Saituri"
 msgid "Sites with only one message"
 msgstr "Saituri cu un singur mesaj"
 
+#: apps/feedback/templates/feedback/feedback.html:29
+msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please make your suggestion below:"
+msgstr ""
+
 #. L10n: Sphinx is the name of the search engine software.
-#: apps/search/client.py:176
+#: apps/search/client.py:197
 msgid "Sphinx threw an unknown exception: %s"
 msgstr ""
 
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:7
-#: apps/search/templates/search/mobile/search.html:7
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:7 apps/search/templates/search/mobile/search.html:7
 msgid "Statistics"
 msgstr "Statistici"
 
-#: apps/feedback/templates/feedback/feedback.html:3
-#: apps/feedback/templates/feedback/feedback.html:68
-#: apps/feedback/templates/feedback/index.html:3
-#: apps/feedback/templates/feedback/mobile/feedback.html:3
-#: apps/feedback/templates/feedback/mobile/feedback.html:46
-#: apps/feedback/templates/feedback/mobile/index.html:3
+#: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:79 apps/feedback/templates/feedback/index.html:3
+#: apps/feedback/templates/feedback/mobile/feedback.html:3 apps/feedback/templates/feedback/mobile/feedback.html:61 apps/feedback/templates/feedback/mobile/index.html:3
 msgid "Submit Feedback"
 msgstr "Trimite părerea ta"
 
@@ -669,20 +604,28 @@ msgstr "Trimite părerea ta"
 msgid "Submitted User Agent is not the latest beta version."
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback.html:13
-msgid ""
-"Super! It's great to hear that you like our pre-released browser. Please "
-"explain what you specifically like!"
+#: apps/dashboard/templates/dashboard/message_list.html:10 apps/feedback/__init__.py:97 apps/feedback/templates/feedback/feedback.html:13 apps/feedback/templates/feedback/mobile/feedback.html:21
+#: apps/search/views.py:214
+msgid "Suggestion"
 msgstr ""
-"Super! E plăcut să auzim că vă place navigatorul ce urmează să-l lansăm. Vă "
-"rugăm să ne spuneți mai exact ce vă place!"
 
-#: apps/feedback/templates/feedback/mobile/feedback.html:13
+#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:38 apps/themes/views.py:39
+msgid "Suggestions"
+msgstr ""
+
+#: apps/themes/views.py:40
+msgid "Suggestions only"
+msgstr ""
+
+#: apps/feedback/templates/feedback/feedback.html:19
+msgid "Super! It's great to hear that you like our pre-released browser. Please explain what you specifically like!"
+msgstr "Super! E plăcut să auzim că vă place navigatorul ce urmează să-l lansăm. Vă rugăm să ne spuneți mai exact ce vă place!"
+
+#: apps/feedback/templates/feedback/mobile/feedback.html:24
 msgid "Super! Please tell us more!"
 msgstr "Super! Vă rugăm să ne spuneți mai mult!"
 
-#: apps/feedback/templates/feedback/thanks.html:3
-#: apps/feedback/templates/feedback/mobile/thanks.html:3
+#: apps/feedback/templates/feedback/thanks.html:3 apps/feedback/templates/feedback/mobile/thanks.html:3
 msgid "Thanks for Your Feedback"
 msgstr "Vă mulțumim pentru părerea dumneavoastră"
 
@@ -690,8 +633,7 @@ msgstr "Vă mulțumim pentru părerea dumneavoastră"
 msgid "Thanks for helping Mozilla make your experience better!"
 msgstr ""
 
-#: apps/feedback/templates/feedback/thanks.html:7
-#: apps/feedback/templates/feedback/mobile/thanks.html:8
+#: apps/feedback/templates/feedback/thanks.html:7 apps/feedback/templates/feedback/mobile/thanks.html:8
 msgid "Thanks for sending us your feedback!"
 msgstr "Vă mulțumim pentru că ne-ați împărtășit părerea dumneavoastră!"
 
@@ -699,9 +641,13 @@ msgstr "Vă mulțumim pentru că ne-ați împărtășit părerea dumneavoastră!
 msgid "Thanks!"
 msgstr "Mulțumim!"
 
-#: apps/website_issues/templates/website_issues/theme.html:15
+#: apps/themes/templates/themes/theme.html:4 apps/themes/templates/themes/theme.html:14 apps/website_issues/templates/website_issues/theme.html:15
 msgid "Theme"
 msgstr "Temă "
+
+#: apps/website_issues/templates/website_issues/theme.html:21
+msgid "Theme for {domain}"
+msgstr ""
 
 #. Formerly: Clusters
 #: apps/themes/templates/themes/index.html:2 templates/base.html:36
@@ -709,12 +655,8 @@ msgid "Themes"
 msgstr "Teme"
 
 #: apps/feedback/templates/feedback/need_beta.html:14
-msgid ""
-"To do that, simply go to our download page and install/update to the <a href="
-"\"%(url)s\">latest Firefox Beta!</a>"
-msgstr ""
-"Pentru a face asta, pur și simplu mergeți la pagina de descărcare și "
-"instalați sau treceți la <a href=\"%(url)s\">ultimul Firefox Beta!</a>"
+msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
+msgstr "Pentru a face asta, pur și simplu mergeți la pagina de descărcare și instalați sau treceți la <a href=\"%(url)s\">ultimul Firefox Beta!</a>"
 
 #. Link text for showing/hiding options
 #: apps/dashboard/templates/includes/filter_box_toggle.html:6
@@ -722,23 +664,19 @@ msgid "Toggle"
 msgstr "Alternare"
 
 #. Link to Google Translator
-#: apps/dashboard/templates/dashboard/message_list.html:35
-#: apps/themes/templates/themes/theme_list.html:28
+#: apps/dashboard/templates/dashboard/message_list.html:37 apps/themes/templates/themes/theme_list.html:30
 msgid "Translate Message"
 msgstr "Tradu mesajul"
 
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:8
-#: apps/search/templates/search/mobile/search.html:8
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:8 apps/search/templates/search/mobile/search.html:8
 msgid "Trends"
 msgstr "Tendințe"
 
-#: apps/dashboard/templates/dashboard/message_list.html:40
+#: apps/dashboard/templates/dashboard/message_list.html:42
 msgid "Tweet This"
 msgstr ""
 
-#: apps/dashboard/templates/dashboard/overview.html:2
-#: apps/dashboard/templates/dashboard/mobile/overview.html:2
-#: apps/themes/templates/themes/index.html:16
+#: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
 #: apps/website_issues/templates/website_issues/website_issues.html:28
 msgid "Type of Feedback"
 msgstr "Tipuri de reacții"
@@ -747,30 +685,32 @@ msgstr "Tipuri de reacții"
 msgid "Uncommon Sites"
 msgstr "Pagini neobișnuite"
 
+#: apps/dashboard/templates/dashboard/devices.html:8 apps/dashboard/templates/dashboard/manufacturers.html:9 apps/feedback/helpers.py:16 apps/search/forms.py:46 apps/search/forms.py:49
+#: apps/search/forms.py:54
+#, fuzzy
+msgid "Unknown"
+msgstr "necunoscut"
+
 #: apps/feedback/validators.py:30
 msgid "User agent string was not recognizable."
 msgstr ""
 
-#: apps/feedback/views.py:35
+#: apps/feedback/views.py:36
 msgid "User-Agent request header must be set."
 msgstr ""
 
-#: apps/search/forms.py:56
+#: apps/search/forms.py:63
 msgid "Version:"
 msgstr "Versiune:"
 
-#: apps/feedback/forms.py:63
+#: apps/feedback/forms.py:65
 msgid "We already got your feedback! Thanks."
 msgstr "Am primit deja părerea dumneavoastră! Vă mulțumim."
 
-#: apps/feedback/templates/feedback/feedback.html:20
+#: apps/feedback/templates/feedback/feedback.html:24
 #, fuzzy
-msgid ""
-"We are sorry that you have not had a good experience with our browser. Please "
-"tell us why, so we can fix it!"
-msgstr ""
-"Ne pare rău că nu ați avut o experiență plăcută cu programul nostru de "
-"navigare. Vă rugăm să ne spuneți de ce, ca să putem rezolva problema!"
+msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
+msgstr "Ne pare rău că nu ați avut o experiență plăcută cu programul nostru de navigare. Vă rugăm să ne spuneți de ce, ca să putem rezolva problema!"
 
 #: templates/base.html:5 templates/base_mobile.html:6
 msgid "Welcome"
@@ -786,8 +726,7 @@ msgid "When"
 msgstr "Când"
 
 #. Refers to sites that were reported in feedback.
-#: apps/dashboard/templates/dashboard/sites.html:3
-#: apps/dashboard/templates/dashboard/mobile/sites.html:2
+#: apps/dashboard/templates/dashboard/sites.html:3 apps/dashboard/templates/dashboard/mobile/sites.html:2
 msgid "While Visiting"
 msgstr "În timp ce ați vizitat"
 
@@ -804,32 +743,18 @@ msgid "Windows XP"
 msgstr "Windows XP"
 
 #: apps/feedback/validators.py:48
-msgid ""
-"Your comment contains swear words (%s). In order to help us improve our "
-"products, please use words that help us create an action or to-do from your "
-"constructive feedback. Thanks!"
+msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
 msgstr ""
-"Comentariul dumneavoastră conține înjurături (%s). Pentru a ne ajuta să "
-"îmbunătățim produsele noastre, vă rugăm să folosiți cuvinte care ne ajută să "
-"facem ceva conform reacției dumneavoastră. Vă mulțumim!"
-
-#: apps/feedback/validators.py:73
-msgid ""
-"Your feedback seems to contain a URL. Please remove this and similar personal "
-"data from the text, then try again. Thanks!"
-msgstr ""
-"Comentariul dumneavoastră pare să conțină o adresă. Vă rugăm să o înlăturați, "
-"împreună cu alte informații personale din text, apoi să încercați în noi. Vă "
+"Comentariul dumneavoastră conține înjurături (%s). Pentru a ne ajuta să îmbunătățim produsele noastre, vă rugăm să folosiți cuvinte care ne ajută să facem ceva conform reacției dumneavoastră. Vă "
 "mulțumim!"
 
+#: apps/feedback/validators.py:73
+msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
+msgstr "Comentariul dumneavoastră pare să conțină o adresă. Vă rugăm să o înlăturați, împreună cu alte informații personale din text, apoi să încercați în noi. Vă mulțumim!"
+
 #: apps/feedback/validators.py:64
-msgid ""
-"Your feedback seems to contain an email address. Please remove this and "
-"similar personal data from the text, then try again. Thanks!"
-msgstr ""
-"Comentariul dumneavoastră pare să conțină o adresă de email. Vă rugăm să o "
-"înlăturați, împreună cu alte informații personale din text, apoi să încercați "
-"din nou. Vă mulțumim!"
+msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
+msgstr "Comentariul dumneavoastră pare să conțină o adresă de email. Vă rugăm să o înlăturați, împreună cu alte informații personale din text, apoi să încercați din nou. Vă mulțumim!"
 
 #. L10n: This means an event that happened only a few seconds ago.
 #: apps/input/helpers.py:86
@@ -841,13 +766,9 @@ msgid "reset my search"
 msgstr "reîncepe căutarea"
 
 #. L10n: This indicates the second part of a date range.
-#: apps/search/forms.py:68
+#: apps/search/forms.py:78
 msgid "to"
 msgstr "la"
-
-#: apps/feedback/helpers.py:16 apps/search/forms.py:47
-msgid "unknown"
-msgstr "necunoscut"
 
 #: apps/input/helpers.py:73
 #, fuzzy
@@ -873,10 +794,6 @@ msgstr[0] "acum {0} minut"
 msgstr[1] "acum {0} minute"
 msgstr[2] "acum {0} de minute"
 
-#: apps/themes/templates/themes/theme_list.html:14
-msgid "{0} similar messages"
-msgstr "{0} mesaje asemănătoare"
-
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:3
 msgid "{num} opinions on {day}"
 msgstr "{num} opinii {day}"
@@ -888,3 +805,6 @@ msgstr "{percentage}% probleme"
 #: apps/website_issues/templates/website_issues/sites_list.html:52
 msgid "{percentage}% praise"
 msgstr "{percentage}% laude"
+
+#~ msgid "{0} similar messages"
+#~ msgstr "{0} mesaje asemănătoare"
