@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 15:37+0200\n"
-"PO-Revision-Date: 2010-12-10 17:39+0200\n"
+"PO-Revision-Date: 2010-12-10 18:40+0200\n"
 "Last-Translator: Leszek <leszekz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -249,19 +249,19 @@ msgstr "Logo Firefoksa"
 
 #: apps/feedback/templates/feedback/mobile/index.html:13 apps/feedback/templates/feedback/mobile/index.html:15
 msgid "Firefox makes me happy ..."
-msgstr "Firefox sprawia, że jestem szczęśliwy…"
+msgstr "Firefox wywołuje u mnie uczucie szczęścia…"
 
 #: apps/feedback/templates/feedback/index.html:13 apps/feedback/templates/feedback/index.html:15
 msgid "Firefox makes me happy because ..."
-msgstr "Firefox sprawia, że jestem szczęśliwy ponieważ…"
+msgstr "Firefox wywołuje u mnie uczucie szczęścia ponieważ…"
 
 #: apps/feedback/templates/feedback/mobile/index.html:18 apps/feedback/templates/feedback/mobile/index.html:20
 msgid "Firefox makes me sad ..."
-msgstr "Firefox sprawia, że jestem smutny…"
+msgstr "Firefox wywołuje u mnie smutek…"
 
 #: apps/feedback/templates/feedback/index.html:19 apps/feedback/templates/feedback/index.html:21
 msgid "Firefox makes me sad because ..."
-msgstr "Firefox sprawia, że jestem smutny ponieważ…"
+msgstr "Firefox wywołuje u mnie smutek ponieważ…"
 
 #. refers to time-based search filters (e.g., "for last: 1d")
 #: apps/dashboard/templates/dashboard/mobile/when.html:3
@@ -341,7 +341,9 @@ msgstr "Tylko negatywne"
 
 #: apps/feedback/templates/feedback/index.html:7
 msgid "It's great to hear you want to help Mozilla make your experience better!"
-msgstr "To wspaniale usłyszeć , że chcesz pomóc Mozilli w udoskonalaniu doznań użytkowników w Sieci!"
+msgstr ""
+"To wspaniale usłyszeć , że chcesz pomóc Mozilli w udoskonalaniu przeglądania "
+"Internetu!"
 
 #: apps/feedback/templates/feedback/feedback.html:48
 msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
@@ -864,3 +866,49 @@ msgstr "{percentage}% pozytywnych"
 
 #~ msgid "{0} similar messages"
 #~ msgstr "podobne opinie: {0}"
+
+#: apps/website_issues/templates/website_issues/website_issues.html:35
+msgid "Beta"
+msgstr "Beta"
+
+#: apps/search/templates/search/search.html:54
+msgid ""
+"Due to software constraints, we can only show the last 1000 messages for "
+"this search query."
+msgstr ""
+"Dla tego wyszukiwania z powodu ograniczeń programu możemy wyświetlić tylko "
+"ostatnie 1000 opinii."
+
+#: apps/website_issues/templates/website_issues/website_issues.html:35
+msgid "Latest Beta"
+msgstr "Ostatnia wersja beta"
+
+#: apps/feedback/templates/feedback/opinion.html:3
+msgid "Opinion"
+msgstr "Opinia"
+
+#: apps/feedback/templates/feedback/mobile/feedback.html:15
+msgid "Sorry! Please tell us more!"
+msgstr "Przepraszamy! Przekaż nam więcej informacji!"
+
+#: apps/feedback/templates/feedback/feedback.html:20
+msgid ""
+"We are sorry that you have not had a good experience with our browser. "
+"Please tell us why, so we can improve it!"
+msgstr ""
+"Przykro nam, że nasza przeglądarka nie spełniła Twoich oczekiwań. Przekaż "
+"nam dlaczego Ci się nie podoba – postaramy się ją udoskonalić!"
+
+#: apps/feedback/helpers.py:16
+#: apps/search/forms.py:47
+msgid "unknown"
+msgstr "Nieznany"
+
+#. {0} is a time delta, e.g.: 2 weeks
+#: apps/dashboard/templates/dashboard/message_list.html:15
+msgid "{0} ago"
+msgstr "{0} temu"
+
+#: apps/themes/templates/themes/theme_list.html:14
+msgid "{0} similar messages"
+msgstr "podobne opinie: {0}"
