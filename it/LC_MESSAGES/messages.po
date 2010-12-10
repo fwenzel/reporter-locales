@@ -287,9 +287,7 @@ msgstr "Se hai altre informazioni utili per riprodurre il problema, <a href=\"%(
 
 #: apps/feedback/templates/feedback/feedback.html:86
 msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
-msgstr ""
-"Se invece vuoi condividere con noi una tua idea, inviacela utilizzando il <a "
-"href=\"%(url_suggestion)s\">modulo per i suggerimenti</a>."
+msgstr "Se invece vuoi condividere con noi una tua idea, inviacela utilizzando il <a href=\"%(url_suggestion)s\">modulo per i suggerimenti</a>."
 
 #: apps/feedback/templates/feedback/index.html:25
 msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
@@ -451,9 +449,7 @@ msgstr "Messaggi più vecchi &raquo;"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:68
 msgid "Or submit your ideas with our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
-msgstr ""
-"Oppure inviaci la tua idea utilizzando il <a href=\"%"
-"(url_suggestion)s\">modulo per i suggerimenti</a>!"
+msgstr "Oppure inviaci la tua idea utilizzando il <a href=\"%(url_suggestion)s\">modulo per i suggerimenti</a>!"
 
 #: apps/feedback/__init__.py:84
 msgid "Other"
@@ -585,9 +581,7 @@ msgstr "Siti con un solo messaggio"
 
 #: apps/feedback/templates/feedback/feedback.html:29
 msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please make your suggestion below:"
-msgstr ""
-"Vuoi consigliarci un modo per migliorare Firefox? Splendido. Inserisci il "
-"tuo suggerimento:"
+msgstr "Vuoi consigliarci un modo per migliorare Firefox? Splendido. Inserisci il tuo suggerimento:"
 
 #. L10n: Sphinx is the name of the search engine software.
 #: apps/search/client.py:197
@@ -934,6 +928,9 @@ msgstr "{percentage}% complimenti"
 #~ msgid "sad face"
 #~ msgstr "volto triste"
 
+#~ msgid "unknown"
+#~ msgstr "sconosciuto"
+
 #~ msgid "visit &rarr;"
 #~ msgstr "visita &rarr;"
 
@@ -945,12 +942,3 @@ msgstr "{percentage}% complimenti"
 
 #~ msgid "{0} similar messages"
 #~ msgstr "{0} messaggi simili"
-
-#: apps/feedback/helpers.py:16
-#: apps/search/forms.py:47
-msgid "unknown"
-msgstr "sconosciuto"
-
-#: apps/themes/templates/themes/theme_list.html:14
-msgid "{0} similar messages"
-msgstr "{0} messaggi simili"

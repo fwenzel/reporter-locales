@@ -287,8 +287,7 @@ msgstr "Ha rendelkezik további információval a hiba reprodukálásával kapcs
 
 #: apps/feedback/templates/feedback/feedback.html:86
 msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
-msgstr ""
-"Ha van egy ötlete, akkor <a href=\"%(url_suggestion)s\">küldje el nekünk</ a>!"
+msgstr "Ha van egy ötlete, akkor <a href=\"%(url_suggestion)s\">küldje el nekünk</ a>!"
 
 #: apps/feedback/templates/feedback/index.html:25
 msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
@@ -580,9 +579,7 @@ msgstr "Csak egy üzenettel rendelkező oldalak"
 
 #: apps/feedback/templates/feedback/feedback.html:29
 msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please make your suggestion below:"
-msgstr ""
-"Szeretne javaslatokat tenni, hogy hogyan tudnánk jobbá tenni a Firefoxot? "
-"Nagyszerű! Írja le ötleteit:"
+msgstr "Szeretne javaslatokat tenni, hogy hogyan tudnánk jobbá tenni a Firefoxot? Nagyszerű! Írja le ötleteit:"
 
 #. L10n: Sphinx is the name of the search engine software.
 #: apps/search/client.py:197
@@ -927,6 +924,9 @@ msgstr "{percentage}% dicséret"
 #~ msgid "sad face"
 #~ msgstr "szomorú arc"
 
+#~ msgid "unknown"
+#~ msgstr "ismeretlen"
+
 #~ msgid "visit &rarr;"
 #~ msgstr "megtekintés &rarr;"
 
@@ -938,12 +938,3 @@ msgstr "{percentage}% dicséret"
 
 #~ msgid "{0} similar messages"
 #~ msgstr "{0} hasonló üzenet"
-
-#: apps/feedback/helpers.py:16
-#: apps/search/forms.py:47
-msgid "unknown"
-msgstr "ismeretlen"
-
-#: apps/themes/templates/themes/theme_list.html:14
-msgid "{0} similar messages"
-msgstr "{0} hasonló üzenet"

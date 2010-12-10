@@ -283,15 +283,11 @@ msgstr "Jika Anda memiliki informasi lainnya tentang langkah-langkah untuk merep
 
 #: apps/feedback/templates/feedback/feedback.html:86
 msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
-msgstr ""
-"Jika Anda memiliki ide, kirimkan saja lewat <a href=\"%"
-"(url_suggestion)s\">kotak saran</a>."
+msgstr "Jika Anda memiliki ide, kirimkan saja lewat <a href=\"%(url_suggestion)s\">kotak saran</a>."
 
 #: apps/feedback/templates/feedback/index.html:25
 msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
-msgstr ""
-"Jika Anda membutuhkan bantuan atau mengalami masalah dengan Firefox, "
-"kunjungi <a href=\"%(support_url)s\">laman bantuan</a> kami."
+msgstr "Jika Anda membutuhkan bantuan atau mengalami masalah dengan Firefox, kunjungi <a href=\"%(support_url)s\">laman bantuan</a> kami."
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
@@ -330,9 +326,7 @@ msgstr "Hanya masalah"
 
 #: apps/feedback/templates/feedback/index.html:7
 msgid "It's great to hear you want to help Mozilla make your experience better!"
-msgstr ""
-"Senang sekali Anda ingin membantu Mozilla agar pengalaman Anda lebih "
-"memuaskan!"
+msgstr "Senang sekali Anda ingin membantu Mozilla agar pengalaman Anda lebih memuaskan!"
 
 #: apps/feedback/templates/feedback/feedback.html:48
 msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
@@ -449,9 +443,7 @@ msgstr "Pesan Lawas &raquo;"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:68
 msgid "Or submit your ideas with our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
-msgstr ""
-"Atau kirimkan ide Anda lewat <a href=\"%(url_suggestion)s\">kotak saran</a> "
-"kami!"
+msgstr "Atau kirimkan ide Anda lewat <a href=\"%(url_suggestion)s\">kotak saran</a> kami!"
 
 #: apps/feedback/__init__.py:84
 msgid "Other"
@@ -583,9 +575,7 @@ msgstr "Situs hanya dengan satu pesan"
 
 #: apps/feedback/templates/feedback/feedback.html:29
 msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please make your suggestion below:"
-msgstr ""
-"Ah, Anda punya saran untuk memperbaiki Firefox? Keren banget! Masukkan saran "
-"Anda di bawah ini:"
+msgstr "Ah, Anda punya saran untuk memperbaiki Firefox? Keren banget! Masukkan saran Anda di bawah ini:"
 
 #. L10n: Sphinx is the name of the search engine software.
 #: apps/search/client.py:197
@@ -632,9 +622,7 @@ msgstr "Terima Kasih atas Saran Anda"
 
 #: apps/feedback/templates/feedback/mobile/index.html:8
 msgid "Thanks for helping Mozilla make your experience better!"
-msgstr ""
-"Terima kasih telah membantu Mozilla untuk membuat pengalaman kita semua "
-"lebih baik!"
+msgstr "Terima kasih telah membantu Mozilla untuk membuat pengalaman kita semua lebih baik!"
 
 #: apps/feedback/templates/feedback/thanks.html:7 apps/feedback/templates/feedback/mobile/thanks.html:8
 msgid "Thanks for sending us your feedback!"
@@ -711,9 +699,7 @@ msgstr "Kami sudah menyimpan saran Anda! Terima kasih ya."
 
 #: apps/feedback/templates/feedback/feedback.html:24
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
-msgstr ""
-"Mohon maaf jika Anda masih belum mendapatkan pengalaman memuaskan dengan "
-"peramban kami. Mohon beri kami saran agar kami dapat memperbaikinya!"
+msgstr "Mohon maaf jika Anda masih belum mendapatkan pengalaman memuaskan dengan peramban kami. Mohon beri kami saran agar kami dapat memperbaikinya!"
 
 #: templates/base.html:5 templates/base_mobile.html:6
 msgid "Welcome"
@@ -884,6 +870,9 @@ msgstr "{percentage}% suka"
 #~ msgid "Showing the first {count}"
 #~ msgstr "Menampilkan {count} teratas"
 
+#~ msgid "Sorry! Please tell us more!"
+#~ msgstr "Maaf! Silakan isi lebih banyak!"
+
 #~ msgid "Translate!"
 #~ msgstr "Terjemahkan!"
 
@@ -895,6 +884,9 @@ msgstr "{percentage}% suka"
 
 #~ msgid "Version"
 #~ msgstr "Versi"
+
+#~ msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can improve it!"
+#~ msgstr "Mohon maaf jika Anda masih belum mendapatkan pengalaman terbaik bersama peramban kami. Mohon beri kami saran agar kami dapat memperbaikinya!"
 
 #~ msgid "all"
 #~ msgstr "semua"
@@ -909,8 +901,14 @@ msgstr "{percentage}% suka"
 #~ msgid "page %(pagenum)s of %(total)s"
 #~ msgstr "laman ke %(pagenum)s dari %(total)s"
 
+#~ msgid "unknown"
+#~ msgstr "tak dikenal"
+
 #~ msgid "visit &rarr;"
 #~ msgstr "kunjungi &rarr;"
+
+#~ msgid "{0} ago"
+#~ msgstr "{0} yang lalu"
 
 #~ msgid "{0} opinions for Firefox {1} {2}"
 #~ msgstr "{0} pendapat untuk Firefox {1} {2}"
@@ -920,57 +918,3 @@ msgstr "{percentage}% suka"
 
 #~ msgid "{0} similar messages"
 #~ msgstr "%(count)s pesan mirip"
-
-#: apps/website_issues/templates/website_issues/theme.html:29
-msgid "&laquo; Previous Page;"
-msgstr "&laquo; Laman Sebelumnya;"
-
-#: apps/website_issues/templates/website_issues/website_issues.html:22
-msgid "Beta"
-msgstr "Beta"
-
-#: apps/search/templates/search/search.html:54
-msgid ""
-"Due to software constraints, we can only show the last 1000 messages for "
-"this search query."
-msgstr ""
-"Oleh karena ada keterbatasan perangkat lunak, kami hanya dapat menampilkan "
-"1000 pesan terakhir untuk pencarian ini."
-
-#: apps/website_issues/templates/website_issues/website_issues.html:22
-msgid "Latest Beta"
-msgstr "Versi Beta Terbaru"
-
-#: apps/feedback/templates/feedback/opinion.html:3
-msgid "Opinion"
-msgstr "Pendapat"
-
-#: apps/feedback/templates/feedback/mobile/feedback.html:15
-msgid "Sorry! Please tell us more!"
-msgstr "Maaf! Silakan isi lebih banyak!"
-
-#: apps/dashboard/templates/dashboard/versions.html:3
-msgid "Version"
-msgstr "Versi"
-
-#: apps/feedback/templates/feedback/feedback.html:20
-msgid ""
-"We are sorry that you have not had a good experience with our browser. "
-"Please tell us why, so we can improve it!"
-msgstr ""
-"Mohon maaf jika Anda masih belum mendapatkan pengalaman terbaik bersama "
-"peramban kami. Mohon beri kami saran agar kami dapat memperbaikinya!"
-
-#: apps/feedback/helpers.py:16
-#: apps/search/forms.py:47
-msgid "unknown"
-msgstr "tak dikenal"
-
-#. {0} is a time delta, e.g.: 2 weeks
-#: apps/dashboard/templates/dashboard/message_list.html:15
-msgid "{0} ago"
-msgstr "{0} yang lalu"
-
-#: apps/themes/templates/themes/theme_list.html:14
-msgid "{0} similar messages"
-msgstr "%(count)s pesan mirip"

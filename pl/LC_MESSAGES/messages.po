@@ -10,8 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.1.3\n"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:43
@@ -209,10 +208,8 @@ msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
 "any later version."
 msgstr ""
-"Wyłączając miejsca, gdzie wskazano <a href=\"%(legal_url)s\">inną</a>, "
-"zawartość tej witryny jest udostępniana na licencji <br/> <a href=\"%"
-"(license_url)s\">Creative Commons Attribution Share-Alike wer. 3.0</a> lub "
-"dowolnej nowszej wersji."
+"Wyłączając miejsca, gdzie wskazano <a href=\"%(legal_url)s\">inną</a>, zawartość tej witryny jest udostępniana na licencji <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike "
+"wer. 3.0</a> lub dowolnej nowszej wersji."
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:6 apps/search/templates/search/mobile/search.html:6
 msgid "Feed"
@@ -294,15 +291,11 @@ msgstr "Jeśli posiadasz dodatkowe informacje, jak ponownie wywołać problem �
 
 #: apps/feedback/templates/feedback/feedback.html:86
 msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
-msgstr ""
-"Jeśli masz jakiś pomysł do zaoferowania, prześlij go do nas za pośrednictwem "
-"<a href=\"%(url_suggestion)s\">pola propozycji</a>!"
+msgstr "Jeśli masz jakiś pomysł do zaoferowania, prześlij go do nas za pośrednictwem <a href=\"%(url_suggestion)s\">pola propozycji</a>!"
 
 #: apps/feedback/templates/feedback/index.html:25
 msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
-msgstr ""
-"Jeśli potrzebujesz pomocy lub masz problem z Firefoksem, odwiedź naszą <a "
-"href=\"%(support_url)s\">stronę pomocy</a>."
+msgstr "Jeśli potrzebujesz pomocy lub masz problem z Firefoksem, odwiedź naszą <a href=\"%(support_url)s\">stronę pomocy</a>."
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
@@ -341,9 +334,7 @@ msgstr "Tylko negatywne"
 
 #: apps/feedback/templates/feedback/index.html:7
 msgid "It's great to hear you want to help Mozilla make your experience better!"
-msgstr ""
-"To wspaniale usłyszeć , że chcesz pomóc Mozilli w udoskonalaniu przeglądania "
-"Internetu!"
+msgstr "To wspaniale usłyszeć , że chcesz pomóc Mozilli w udoskonalaniu przeglądania Internetu!"
 
 #: apps/feedback/templates/feedback/feedback.html:48
 msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
@@ -460,9 +451,7 @@ msgstr "Starsze &raquo;"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:68
 msgid "Or submit your ideas with our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
-msgstr ""
-"Lub wyślij swoje pomysły za pośrednictwem <a href=\"%(url_suggestion)s\">pola "
-"propozycji</a>!"
+msgstr "Lub wyślij swoje pomysły za pośrednictwem <a href=\"%(url_suggestion)s\">pola propozycji</a>!"
 
 #: apps/feedback/__init__.py:84
 msgid "Other"
@@ -594,9 +583,7 @@ msgstr "Witryny z jedną opinią"
 
 #: apps/feedback/templates/feedback/feedback.html:29
 msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please make your suggestion below:"
-msgstr ""
-"Masz propozycję, jak usprawnić działanie Firefoksa? Świetnie! Przekaż swoją "
-"propozycję poniżej:"
+msgstr "Masz propozycję, jak usprawnić działanie Firefoksa? Świetnie! Przekaż swoją propozycję poniżej:"
 
 #. L10n: Sphinx is the name of the search engine software.
 #: apps/search/client.py:197
@@ -829,34 +816,11 @@ msgstr "{percentage}% pozytywnych"
 #~ msgid "Opinion"
 #~ msgstr "Opinia"
 
-#~ msgid "{0} similar messages"
-#~ msgstr "podobne opinie: {0}"
-
-#~ msgid "Beta"
-#~ msgstr "Beta"
-
-#~ msgid ""
-#~ "Due to software constraints, we can only show the last 1000 messages for "
-#~ "this search query."
-#~ msgstr ""
-#~ "Dla tego wyszukiwania z powodu ograniczeń programu możemy wyświetlić tylko "
-#~ "ostatnie 1000 opinii."
-
-#~ msgid "Latest Beta"
-#~ msgstr "Ostatnia wersja beta"
-
-#~ msgid "Opinion"
-#~ msgstr "Opinia"
-
 #~ msgid "Sorry! Please tell us more!"
 #~ msgstr "Przepraszamy! Przekaż nam więcej informacji!"
 
-#~ msgid ""
-#~ "We are sorry that you have not had a good experience with our browser. "
-#~ "Please tell us why, so we can improve it!"
-#~ msgstr ""
-#~ "Przykro nam, że nasza przeglądarka nie spełniła Twoich oczekiwań. Przekaż "
-#~ "nam dlaczego Ci się nie podoba – postaramy się ją udoskonalić!"
+#~ msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can improve it!"
+#~ msgstr "Przykro nam, że nasza przeglądarka nie spełniła Twoich oczekiwań. Przekaż nam dlaczego Ci się nie podoba – postaramy się ją udoskonalić!"
 
 #~ msgid "unknown"
 #~ msgstr "Nieznany"
@@ -866,49 +830,3 @@ msgstr "{percentage}% pozytywnych"
 
 #~ msgid "{0} similar messages"
 #~ msgstr "podobne opinie: {0}"
-
-#: apps/website_issues/templates/website_issues/website_issues.html:35
-msgid "Beta"
-msgstr "Beta"
-
-#: apps/search/templates/search/search.html:54
-msgid ""
-"Due to software constraints, we can only show the last 1000 messages for "
-"this search query."
-msgstr ""
-"Dla tego wyszukiwania z powodu ograniczeń programu możemy wyświetlić tylko "
-"ostatnie 1000 opinii."
-
-#: apps/website_issues/templates/website_issues/website_issues.html:35
-msgid "Latest Beta"
-msgstr "Ostatnia wersja beta"
-
-#: apps/feedback/templates/feedback/opinion.html:3
-msgid "Opinion"
-msgstr "Opinia"
-
-#: apps/feedback/templates/feedback/mobile/feedback.html:15
-msgid "Sorry! Please tell us more!"
-msgstr "Przepraszamy! Przekaż nam więcej informacji!"
-
-#: apps/feedback/templates/feedback/feedback.html:20
-msgid ""
-"We are sorry that you have not had a good experience with our browser. "
-"Please tell us why, so we can improve it!"
-msgstr ""
-"Przykro nam, że nasza przeglądarka nie spełniła Twoich oczekiwań. Przekaż "
-"nam dlaczego Ci się nie podoba – postaramy się ją udoskonalić!"
-
-#: apps/feedback/helpers.py:16
-#: apps/search/forms.py:47
-msgid "unknown"
-msgstr "Nieznany"
-
-#. {0} is a time delta, e.g.: 2 weeks
-#: apps/dashboard/templates/dashboard/message_list.html:15
-msgid "{0} ago"
-msgstr "{0} temu"
-
-#: apps/themes/templates/themes/theme_list.html:14
-msgid "{0} similar messages"
-msgstr "podobne opinie: {0}"
