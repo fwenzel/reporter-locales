@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 15:37+0200\n"
-"PO-Revision-Date: 2010-12-10 11:46+0200\n"
+"PO-Revision-Date: 2010-12-10 17:39+0200\n"
 "Last-Translator: Leszek <leszekz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -80,7 +80,7 @@ msgstr "— wszystkie —"
 
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:3
 msgid "1d"
-msgstr "1 dnia"
+msgstr "1 dzień"
 
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:9
 msgid "30d"
@@ -153,11 +153,11 @@ msgstr "Świetnie! Poniżej przekaż nam swoją propozycję:"
 
 #: apps/website_issues/templates/website_issues/single_site.html:3
 msgid "Back to all sites &raquo;"
-msgstr "Wróć do wszystkich witryn &raquo;"
+msgstr "Wszystkie witryny &raquo;"
 
 #: apps/themes/templates/themes/theme.html:17
 msgid "Back to all themes &raquo;"
-msgstr "Wróć do wszystkich motywów &raquo;"
+msgstr "Wszystkie grupy &raquo;"
 
 #: apps/website_issues/templates/website_issues/theme.html:18
 msgid "Back to {domain} &raquo;"
@@ -536,7 +536,7 @@ msgstr "Przekroczono czas zapytania."
 
 #: templates/base_mobile_old.html:58 templates/base_old.html:65 templates/includes/footer.html:9
 msgid "Report Trademark Abuse"
-msgstr "Zgłoś naruszenie własności znaków towarowych"
+msgstr "Zgłoś nadużycie znaku towarowego"
 
 #: apps/search/templates/search/search_form.html:19
 msgid "Search"
@@ -684,7 +684,7 @@ msgstr "Popularne"
 
 #: apps/dashboard/templates/dashboard/message_list.html:42
 msgid "Tweet This"
-msgstr "Tweet to"
+msgstr "Umieść na Tweeterze"
 
 #: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
 #: apps/website_issues/templates/website_issues/website_issues.html:28
@@ -800,7 +800,7 @@ msgstr[2] "{0} minut temu"
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:3
 msgid "{num} opinions on {day}"
-msgstr "{num} opinii w {day}"
+msgstr "{num} opinii w dniu {day}"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:54
 msgid "{percentage}% issues"
@@ -830,48 +830,37 @@ msgstr "{percentage}% pozytywnych"
 #~ msgid "{0} similar messages"
 #~ msgstr "podobne opinie: {0}"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:35
-msgid "Beta"
-msgstr "Beta"
+#~ msgid "Beta"
+#~ msgstr "Beta"
 
-#: apps/search/templates/search/search.html:54
-msgid ""
-"Due to software constraints, we can only show the last 1000 messages for "
-"this search query."
-msgstr ""
-"Dla tego wyszukiwania z powodu ograniczeń programu możemy wyświetlić tylko "
-"ostatnie 1000 opinii."
+#~ msgid ""
+#~ "Due to software constraints, we can only show the last 1000 messages for "
+#~ "this search query."
+#~ msgstr ""
+#~ "Dla tego wyszukiwania z powodu ograniczeń programu możemy wyświetlić tylko "
+#~ "ostatnie 1000 opinii."
 
-#: apps/website_issues/templates/website_issues/website_issues.html:35
-msgid "Latest Beta"
-msgstr "Ostatnia wersja beta"
+#~ msgid "Latest Beta"
+#~ msgstr "Ostatnia wersja beta"
 
-#: apps/feedback/templates/feedback/opinion.html:3
-msgid "Opinion"
-msgstr "Opinia"
+#~ msgid "Opinion"
+#~ msgstr "Opinia"
 
-#: apps/feedback/templates/feedback/mobile/feedback.html:15
-msgid "Sorry! Please tell us more!"
-msgstr "Przepraszamy! Przekaż nam więcej informacji!"
+#~ msgid "Sorry! Please tell us more!"
+#~ msgstr "Przepraszamy! Przekaż nam więcej informacji!"
 
-#: apps/feedback/templates/feedback/feedback.html:20
-msgid ""
-"We are sorry that you have not had a good experience with our browser. "
-"Please tell us why, so we can improve it!"
-msgstr ""
-"Przykro nam, że nasza przeglądarka nie spełniła Twoich oczekiwań. Przekaż "
-"nam dlaczego Ci się nie podoba – postaramy się ją udoskonalić!"
+#~ msgid ""
+#~ "We are sorry that you have not had a good experience with our browser. "
+#~ "Please tell us why, so we can improve it!"
+#~ msgstr ""
+#~ "Przykro nam, że nasza przeglądarka nie spełniła Twoich oczekiwań. Przekaż "
+#~ "nam dlaczego Ci się nie podoba – postaramy się ją udoskonalić!"
 
-#: apps/feedback/helpers.py:16
-#: apps/search/forms.py:47
-msgid "unknown"
-msgstr "Nieznany"
+#~ msgid "unknown"
+#~ msgstr "Nieznany"
 
-#. {0} is a time delta, e.g.: 2 weeks
-#: apps/dashboard/templates/dashboard/message_list.html:15
-msgid "{0} ago"
-msgstr "{0} temu"
+#~ msgid "{0} ago"
+#~ msgstr "{0} temu"
 
-#: apps/themes/templates/themes/theme_list.html:14
-msgid "{0} similar messages"
-msgstr "podobne opinie: {0}"
+#~ msgid "{0} similar messages"
+#~ msgstr "podobne opinie: {0}"
