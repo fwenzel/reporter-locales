@@ -3,15 +3,15 @@ msgstr ""
 "Project-Id-Version: Firefox Input\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 18:31+0200\n"
-"PO-Revision-Date: 2010-11-13 14:40+0100\n"
-"Last-Translator: Pavel Cvrček <pcvrcek@mozilla.cz>\n"
+"PO-Revision-Date: 2010-12-25 18:44+0200\n"
+"Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
 "Language-Team: cs <info@mozilla.cz>\n"
-"Language: \n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n>=2 && n<=4 ? 1 : 2\n"
-"X-Generator: Translate Toolkit 1.6.0\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Pootle 2.1.4\n"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:43
 msgid "%(count)s message"
@@ -148,16 +148,15 @@ msgstr "Android"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:28
 msgid "Awesome! Please make your suggestion below:"
-msgstr ""
+msgstr "Skvělé! Napište prosím své návrhy níže:"
 
 #: apps/website_issues/templates/website_issues/single_site.html:3
 msgid "Back to all sites &raquo;"
 msgstr "Zpět na všechny weby &raquo;"
 
 #: apps/themes/templates/themes/theme.html:17
-#, fuzzy
 msgid "Back to all themes &raquo;"
-msgstr "Zpět na všechny weby &raquo;"
+msgstr "Zpět na všechna seskupení &raquo;"
 
 #: apps/website_issues/templates/website_issues/theme.html:18
 msgid "Back to {domain} &raquo;"
@@ -190,7 +189,7 @@ msgstr "Časové rozmezí:"
 
 #: apps/dashboard/templates/dashboard/devices.html:15
 msgid "Devices"
-msgstr ""
+msgstr "Zařízení"
 
 #: apps/feedback/templates/feedback/need_beta.html:3 apps/feedback/templates/feedback/mobile/need_beta.html:3
 msgid "Download Beta"
@@ -201,9 +200,8 @@ msgid "Enter your feedback here."
 msgstr "Zde vložte svou reakci."
 
 #: apps/feedback/forms.py:121
-#, fuzzy
 msgid "Enter your suggestions here."
-msgstr "Zde vložte svou reakci."
+msgstr "Zde napište svůj nápad."
 
 #: templates/base_mobile_old.html:61 templates/base_old.html:68 templates/includes/footer.html:12
 msgid ""
@@ -294,6 +292,8 @@ msgstr "Pokud máte další informace, jak zreprodukovat tento problém, <a href
 #: apps/feedback/templates/feedback/feedback.html:86
 msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
 msgstr ""
+"Pokud nám na místo toho chcete poslat nápad, pošlete jej skrze <a href=\"%"
+"(url_suggestion)s\">formulář pro zadání návrhu</a>!"
 
 #: apps/feedback/templates/feedback/index.html:25
 msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
@@ -391,7 +391,7 @@ msgstr "Maemo"
 
 #: apps/dashboard/templates/dashboard/manufacturers.html:16
 msgid "Manufacturer"
-msgstr ""
+msgstr "Výrobce"
 
 #. Title text for a complete message count.
 #: apps/dashboard/templates/dashboard/opinion_count.html:3
@@ -454,6 +454,8 @@ msgstr "Starší zprávy &raquo;"
 #: apps/feedback/templates/feedback/mobile/feedback.html:68
 msgid "Or submit your ideas with our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
 msgstr ""
+"Nebo nám zašlete své nápady pomocí <a href=\"%(url_suggestion)s\">formuláře "
+"pro zaslání návrhu</a>!"
 
 #: apps/feedback/__init__.py:84
 msgid "Other"
@@ -558,7 +560,7 @@ msgstr "Hledat dle domény"
 
 #: apps/themes/templates/themes/theme_list.html:11
 msgid "See all opinions"
-msgstr ""
+msgstr "Zobrazit všechny názory"
 
 #: apps/search/forms.py:65
 msgid "Sentiment:"
@@ -586,6 +588,8 @@ msgstr "Stránky pouze s jednou zprávou"
 #: apps/feedback/templates/feedback/feedback.html:29
 msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please make your suggestion below:"
 msgstr ""
+"Rádi byste nám zaslali návrh, jak vylepšit Firefoxu? Skvělé! Napište svůj "
+"nápad níže:"
 
 #. L10n: Sphinx is the name of the search engine software.
 #: apps/search/client.py:197
@@ -608,15 +612,15 @@ msgstr "Přijmutý user agent neodpovídá poslední betaverzi."
 #: apps/dashboard/templates/dashboard/message_list.html:10 apps/feedback/__init__.py:97 apps/feedback/templates/feedback/feedback.html:13 apps/feedback/templates/feedback/mobile/feedback.html:21
 #: apps/search/views.py:214
 msgid "Suggestion"
-msgstr ""
+msgstr "Návrh"
 
 #: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:38 apps/themes/views.py:39
 msgid "Suggestions"
-msgstr ""
+msgstr "Návrhy"
 
 #: apps/themes/views.py:40
 msgid "Suggestions only"
-msgstr ""
+msgstr "Pouze návrhy"
 
 #: apps/feedback/templates/feedback/feedback.html:19
 msgid "Super! It's great to hear that you like our pre-released browser. Please explain what you specifically like!"
@@ -647,9 +651,8 @@ msgid "Theme"
 msgstr "Seskupení"
 
 #: apps/website_issues/templates/website_issues/theme.html:21
-#, fuzzy
 msgid "Theme for {domain}"
-msgstr "Hledat dle domény"
+msgstr "Seskupení pro doménu {domain}"
 
 #. Formerly: Clusters
 #: apps/themes/templates/themes/index.html:2 templates/base.html:36
@@ -689,9 +692,8 @@ msgstr "Neobvyklé stránky"
 
 #: apps/dashboard/templates/dashboard/devices.html:8 apps/dashboard/templates/dashboard/manufacturers.html:9 apps/feedback/helpers.py:16 apps/search/forms.py:46 apps/search/forms.py:49
 #: apps/search/forms.py:54
-#, fuzzy
 msgid "Unknown"
-msgstr "neznámý"
+msgstr "Neznámý"
 
 #: apps/feedback/validators.py:30
 msgid "User agent string was not recognizable."
