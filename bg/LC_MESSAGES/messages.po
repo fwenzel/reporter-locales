@@ -3,15 +3,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-09-15 11:08+0200\n"
-"PO-Revision-Date: 2010-09-15 11:17+0200\n"
-"Last-Translator: Ognyan <ogi@triangle.bg>\n"
+"PO-Revision-Date: 2011-01-13 21:00+0200\n"
+"Last-Translator: Bogomil <bogomil@efb.bg>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.3\n"
+"X-Generator: Pootle 2.1.4\n"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:43
 msgid "%(count)s message"
@@ -35,12 +35,12 @@ msgstr[1] "%(count)s подобни съобщения"
 #. A quasi strftime string for a full date.
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:5
 msgid "%e %B %Y"
-msgstr ""
+msgstr "%e %B %Y"
 
 #. A quasi strftime string for a short date (no year).
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:7
 msgid "%e %b"
-msgstr ""
+msgstr "%e %b"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:35 apps/search/templates/search/mobile/search.html:38
 msgid "&laquo; Newer Feedback"
@@ -97,7 +97,6 @@ msgid "ATOM feed for this search"
 msgstr "Емисия Atom за това търсене"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:26
-#, fuzzy
 msgid "Ack! Please tell us what to fix!"
 msgstr "Съжаляваме! Моля кажете ни повече!"
 
@@ -141,18 +140,17 @@ msgstr "Необработена грешка в приложението. Гр�
 
 #: apps/feedback/__init__.py:72
 msgid "Android"
-msgstr ""
+msgstr "Android"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:28
 msgid "Awesome! Please make your suggestion below:"
-msgstr ""
+msgstr "Чудесно! Моля, предложете нещо по-долу"
 
 #: apps/website_issues/templates/website_issues/single_site.html:3
 msgid "Back to all sites &raquo;"
 msgstr "Обратно към всички сайтове &raquo;"
 
 #: apps/themes/templates/themes/theme.html:17
-#, fuzzy
 msgid "Back to all themes &raquo;"
 msgstr "Обратно към всички сайтове &raquo;"
 
@@ -187,7 +185,7 @@ msgstr "Времеви период"
 
 #: apps/dashboard/templates/dashboard/devices.html:15
 msgid "Devices"
-msgstr ""
+msgstr "Устройства"
 
 #: apps/feedback/templates/feedback/need_beta.html:3 apps/feedback/templates/feedback/mobile/need_beta.html:3
 msgid "Download Beta"
@@ -198,9 +196,8 @@ msgid "Enter your feedback here."
 msgstr "Въведете вашата обратна връзка тук."
 
 #: apps/feedback/forms.py:121
-#, fuzzy
 msgid "Enter your suggestions here."
-msgstr "Въведете вашата обратна връзка тук."
+msgstr "Въведете вашето предложение тук."
 
 #: templates/base_mobile_old.html:61 templates/base_old.html:68 templates/includes/footer.html:12
 msgid ""
@@ -240,17 +237,16 @@ msgid "Firefox Input: '{query}'"
 msgstr "Firefox Input: „{query}“"
 
 #: apps/feedback/templates/feedback/index.html:24
-#, fuzzy
 msgid "Firefox Logo"
-msgstr "Firefox"
+msgstr "Firefox Лого"
 
 #: apps/feedback/templates/feedback/mobile/index.html:13 apps/feedback/templates/feedback/mobile/index.html:15
 msgid "Firefox makes me happy ..."
-msgstr ""
+msgstr "Firefox ме прави щастлив ..."
 
 #: apps/feedback/templates/feedback/index.html:13 apps/feedback/templates/feedback/index.html:15
 msgid "Firefox makes me happy because ..."
-msgstr ""
+msgstr "Firefox ме прави щастлив, защото ..."
 
 #: apps/feedback/templates/feedback/mobile/index.html:18 apps/feedback/templates/feedback/mobile/index.html:20
 msgid "Firefox makes me sad ..."
@@ -918,3 +914,179 @@ msgstr "{percentage}% похвали"
 
 #~ msgid "{0} similar messages"
 #~ msgstr "{0} подобни съобщения"
+
+#: apps/dashboard/forms.py:9
+msgctxt "dashboard_period"
+msgid "1 day"
+msgstr "1 ден"
+
+#: apps/dashboard/forms.py:10
+msgctxt "dashboard_period"
+msgid "1 week"
+msgstr "1 седмица"
+
+#: apps/dashboard/forms.py:11
+msgctxt "dashboard_period"
+msgid "1 month"
+msgstr "1 месец"
+
+#: apps/dashboard/forms.py:12
+msgctxt "dashboard_period"
+msgid "all"
+msgstr "всичко"
+
+#: apps/dashboard/templates/dashboard/dashboard.html:12
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:12
+msgid "Please enable JavaScript to view this page."
+msgstr "Моля активирайте JavaScript, за да гледате тази страница."
+
+#: apps/dashboard/templates/dashboard/dashboard.html:19
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:19
+#: apps/search/templates/search/search.html:87
+#: apps/search/templates/search/mobile/search.html:86
+msgid "Overview"
+msgstr "Преглед"
+
+#: apps/dashboard/templates/dashboard/dashboard.html:27
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:27
+#: apps/search/templates/search/search.html:101
+#: apps/search/templates/search/mobile/search.html:100
+msgid "Demographics"
+msgstr "Демография"
+
+#. Link on the dashboard to show more messages.
+#: apps/dashboard/templates/dashboard/dashboard.html:35
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:35
+msgid "Show more"
+msgstr "Показване на повече"
+
+#: apps/dashboard/templates/dashboard/dashboard.html:37
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:37
+msgid "Last {count} Messages"
+msgstr "Последни {count} съобщения"
+
+#: apps/dashboard/templates/dashboard/demographics.html:3
+msgid "OS"
+msgstr "ОС"
+
+#: apps/dashboard/templates/dashboard/demographics.html:13
+#: apps/feedback/helpers.py:16
+#: apps/search/forms.py:47
+msgid "unknown"
+msgstr "непознато"
+
+#. Link to Google Translator
+#: apps/dashboard/templates/dashboard/messages.html:17
+msgid "Translate!"
+msgstr "Превеждане!"
+
+#. Link to user agent info.
+#: apps/dashboard/templates/dashboard/messages.html:20
+msgid "UA"
+msgstr "Потребителски агент"
+
+#. Link to an opinion's URL.
+#: apps/dashboard/templates/dashboard/messages.html:24
+msgid "URL"
+msgstr "Адрес"
+
+#. This is a link to the URL associated with an opinion.
+#: apps/dashboard/templates/dashboard/messages.html:31
+msgid "visit &rarr;"
+msgstr "посетете &rarr;"
+
+#: apps/dashboard/templates/dashboard/messages.html:36
+msgid "OS: {os_name}"
+msgstr "ОС: {os_name}"
+
+#: apps/dashboard/templates/dashboard/messages.html:38
+msgid "Locale: {locale}"
+msgstr "Локал: {locale}"
+
+#. Total refers to a message count.
+#: apps/dashboard/templates/dashboard/sentiments.html:27
+msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
+msgstr "<a href=\"%(url)s\">Общо</a>: %(count)s"
+
+#: apps/feedback/templates/feedback/cluster.html:3
+#: apps/feedback/templates/feedback/clusters.html:3
+msgid "Clusters of Opinions"
+msgstr "Клъстери от мнения"
+
+#. This is referring to the first few clusters.
+#: apps/feedback/templates/feedback/cluster.html:17
+msgid "Showing the first {count}"
+msgstr "Показване на първите {count}"
+
+#: apps/feedback/templates/feedback/cluster.html:25
+#: apps/feedback/templates/feedback/clusters.html:20
+msgid "No clusters of opinions found."
+msgstr "Не са намерени клъстери от мнения."
+
+#: apps/feedback/templates/feedback/feedback.html:20
+msgid ""
+"We are sorry that you have not had a good experience with our browser. "
+"Please tell us why, so we can improve it!"
+msgstr ""
+"Съжаляваме да разберем, че сте имали проблеми с нашия браузър. Моля кажете "
+"ни какви са, за да можем да ги поправим!"
+
+#: apps/feedback/templates/feedback/mobile/feedback.html:15
+msgid "Sorry! Please tell us more!"
+msgstr "Съжаляваме! Моля кажете ни повече!"
+
+#: apps/search/forms.py:53
+msgid "Search Terms"
+msgstr "Думи за търсене"
+
+#: apps/search/templates/search/search.html:19
+#: apps/search/templates/search/mobile/search.html:18
+msgid ""
+"Due to software constraints, we can only show the last 1000 messages for "
+"this search query."
+msgstr ""
+"Поради софтуерни ограничения можем да покажем само последните 1000 съобщения "
+"от това търсене."
+
+#: apps/search/templates/search/search.html:30
+#: apps/search/templates/search/mobile/search.html:31
+msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
+msgstr "Описание: <span class=\"opt\">\"%(query)s\"</span>;"
+
+#: apps/search/templates/search/search.html:34
+#: apps/search/templates/search/mobile/search.html:35
+msgid "Dates: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
+msgstr ""
+"Времеви период: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
+
+#: apps/search/templates/search/search.html:39
+#: apps/search/templates/search/mobile/search.html:40
+msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
+msgstr "Локал: <span class=\"opt\">%(locale)s</span>;"
+
+#: apps/search/templates/search/search.html:39
+#: apps/search/templates/search/search.html:42
+#: apps/search/templates/search/mobile/search.html:40
+#: apps/search/templates/search/mobile/search.html:43
+msgid "all"
+msgstr "всичко"
+
+#: apps/search/templates/search/search.html:42
+#: apps/search/templates/search/mobile/search.html:43
+msgid "OS: <span class=\"opt\">%(os)s</span>"
+msgstr "ОС: <span class=\"opt\">%(os)s</span>"
+
+#: apps/search/templates/search/search.html:66
+#: apps/search/templates/search/mobile/search.html:65
+msgid "&laquo; previous"
+msgstr "&laquo; предишни"
+
+#: apps/search/templates/search/search.html:72
+#: apps/search/templates/search/mobile/search.html:71
+msgid "next &raquo;"
+msgstr "следващи &raquo;"
+
+#: apps/search/templates/search/search.html:76
+#: apps/search/templates/search/mobile/search.html:75
+msgid "page %(pagenum)s of %(total)s"
+msgstr "страница %(pagenum)s от %(total)s"
