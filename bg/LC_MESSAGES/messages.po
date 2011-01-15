@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-09-15 11:08+0200\n"
-"PO-Revision-Date: 2011-01-13 21:00+0200\n"
+"PO-Revision-Date: 2011-01-15 14:33+0200\n"
 "Last-Translator: Bogomil <bogomil@efb.bg>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -44,7 +44,7 @@ msgstr "%e %b"
 
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:12
 msgid "&infin;"
-msgstr ""
+msgstr "&infin;"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:35 apps/search/templates/search/mobile/search.html:38
 msgid "&laquo; Newer Feedback"
@@ -323,11 +323,11 @@ msgstr "Firefox ме прави щастлив, защото ..."
 
 #: apps/feedback/templates/feedback/mobile/beta_index.html:18 apps/feedback/templates/feedback/mobile/beta_index.html:20
 msgid "Firefox makes me sad ..."
-msgstr ""
+msgstr "Firefox ме натъжава ..."
 
 #: apps/feedback/templates/feedback/beta_index.html:19 apps/feedback/templates/feedback/beta_index.html:21
 msgid "Firefox makes me sad because ..."
-msgstr ""
+msgstr "Firefox ме натъжава, защото ..."
 
 #. refers to time-based search filters (e.g., "for last: 1d")
 #: apps/dashboard/templates/dashboard/mobile/when.html:3
@@ -405,6 +405,8 @@ msgstr "Ако имате допълнителна информация как �
 #: apps/feedback/templates/feedback/feedback.html:86
 msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
 msgstr ""
+"Ако имате идея, която да ни предложите, моля изпратете ни я <a href=\"%"
+"(url_suggestion)s\">от тук</a>!"
 
 #: apps/feedback/templates/feedback/release_index.html:24
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
@@ -413,6 +415,8 @@ msgstr ""
 #: apps/feedback/templates/feedback/beta_index.html:25
 msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
 msgstr ""
+"Ако имате нужда от помощ или имате проблем с Firefox, моля посетете <a "
+"href=\"%(support_url)s\">страницата на поддръжката</a>."
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
@@ -457,6 +461,8 @@ msgstr "Само проблемите"
 #: apps/feedback/templates/feedback/beta_index.html:7
 msgid "It's great to hear you want to help Mozilla make your experience better!"
 msgstr ""
+"Чудесно е, че искате да ни помогнете на Mozilla да направи вашето уеб "
+"преживяване по-добро!"
 
 #: apps/feedback/templates/feedback/feedback.html:48
 msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
@@ -491,7 +497,7 @@ msgstr "Linux"
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:9
 msgid "Loading feedback history..."
-msgstr ""
+msgstr "Зареждане на историята на обратната връзка..."
 
 #: apps/dashboard/templates/dashboard/locales.html:15 apps/dashboard/templates/dashboard/mobile/locales.html:9
 msgid "Locale"
@@ -507,11 +513,11 @@ msgstr "Mac OS X"
 
 #: apps/feedback/__init__.py:72
 msgid "Maemo"
-msgstr ""
+msgstr "Maemo"
 
 #: apps/dashboard/templates/dashboard/manufacturers.html:16
 msgid "Manufacturer"
-msgstr ""
+msgstr "Производител"
 
 #. Title text for a complete message count.
 #: apps/dashboard/templates/dashboard/opinion_count.html:3
@@ -593,6 +599,7 @@ msgstr ""
 #: apps/feedback/templates/feedback/mobile/feedback.html:68
 msgid "Or submit your ideas with our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
 msgstr ""
+"Можете също да изпратите идеите си <a href=\"%(url_suggestion)s\">от тук</a>!"
 
 #: apps/feedback/__init__.py:90
 msgid "Other"
@@ -625,10 +632,12 @@ msgstr "Платформи"
 #: apps/feedback/templates/feedback/beta_index.html:9
 msgid "Please choose one of the following types of feedback that you would like to submit to us:"
 msgstr ""
+"Моля изберете един от следните видове коментари, които бихте искали да ни "
+"изпратите:"
 
 #: apps/feedback/templates/feedback/mobile/beta_index.html:10
 msgid "Please choose the type of feedback that you would like to submit to us:"
-msgstr ""
+msgstr "Моля, изберете типа на коментара, който искате да ни изпратите:"
 
 #: apps/feedback/templates/feedback/feedback.html:77 apps/feedback/templates/feedback/mobile/feedback.html:59
 msgid "Please ensure that there is no personally identifiable information here."
@@ -731,7 +740,7 @@ msgstr "Търсене за домейн"
 
 #: apps/themes/templates/themes/theme_list.html:14
 msgid "See all opinions"
-msgstr ""
+msgstr "Виж всички мнения"
 
 #: apps/search/forms.py:66
 msgid "Sentiment:"
@@ -763,6 +772,8 @@ msgstr "Сайтове със само едно съобщение"
 #: apps/feedback/templates/feedback/feedback.html:29
 msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please make your suggestion below:"
 msgstr ""
+"И така, вие искате да направите предложение за това как да се подобри "
+"Firefox? Страхотно! Моля, направете предложението си по-долу:"
 
 #: templates/about.html:34
 msgid "Source Code"
@@ -806,15 +817,15 @@ msgstr "Изпращане на обратна връзка"
 #: apps/dashboard/templates/dashboard/message_list.html:10 apps/feedback/__init__.py:110 apps/feedback/templates/feedback/feedback.html:13 apps/feedback/templates/feedback/mobile/feedback.html:21
 #: apps/search/views.py:212 apps/themes/templates/themes/theme_list.html:10
 msgid "Suggestion"
-msgstr ""
+msgstr "Предложение"
 
 #: apps/dashboard/views.py:56 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:39 apps/themes/views.py:39
 msgid "Suggestions"
-msgstr ""
+msgstr "Предложения"
 
 #: apps/themes/views.py:40
 msgid "Suggestions only"
-msgstr ""
+msgstr "Само предложения"
 
 #: apps/feedback/templates/feedback/feedback.html:19
 msgid "Super! It's great to hear that you like our pre-released browser. Please explain what you specifically like!"
@@ -831,6 +842,8 @@ msgstr "Благодарим за вашата обратна връзка"
 #: apps/feedback/templates/feedback/mobile/beta_index.html:8
 msgid "Thanks for helping Mozilla make your experience better!"
 msgstr ""
+"Благодаря, че помагате на Mozilla да направи вашето уеб преживяване "
+"по-добро!"
 
 #: apps/feedback/templates/feedback/thanks.html:7 apps/feedback/templates/feedback/mobile/thanks.html:8
 msgid "Thanks for sending us your feedback!"
@@ -892,7 +905,7 @@ msgstr "Тенденции"
 
 #: apps/dashboard/templates/dashboard/message_list.html:42
 msgid "Tweet This"
-msgstr ""
+msgstr "Публикувай в Twitter"
 
 #: apps/feedback/templates/feedback/release_index.html:243
 msgid "Twitter"
@@ -1012,7 +1025,7 @@ msgstr ""
 #. L10n: This means an event that happened only a few seconds ago.
 #: apps/input/helpers.py:86
 msgid "just now"
-msgstr ""
+msgstr "преди малко"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:28
 msgid "reset my search"
@@ -1164,3 +1177,11 @@ msgstr "{percentage}% похвали"
 
 #~ msgid "visit &rarr;"
 #~ msgstr "посетете &rarr;"
+
+#: apps/feedback/validators.py:38
+msgid "Submitted User Agent is not the latest beta version."
+msgstr "Изпратеният потребителски агент не е последната бета версия."
+
+#: apps/feedback/validators.py:30
+msgid "User agent string was not recognizable."
+msgstr "Низът за потребителския агент не може да се разпознае."
