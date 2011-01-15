@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Firefox Input\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 18:31+0200\n"
-"PO-Revision-Date: 2010-12-25 18:45+0200\n"
-"Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
+"PO-Revision-Date: 2011-01-15 21:14+0100\n"
+"Last-Translator: Pavel Cvrček <pcvrcek@mozilla.cz>\n"
 "Language-Team: cs <info@mozilla.cz>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,8 @@ msgstr[0] "%(count)s podobný"
 msgstr[1] "%(count)s podobné"
 msgstr[2] "%(count)s podobných"
 
-#: apps/themes/templates/themes/theme_list.html:16 apps/website_issues/templates/website_issues/single_site.html:18
+#: apps/themes/templates/themes/theme_list.html:16
+#: apps/website_issues/templates/website_issues/single_site.html:18
 msgid "%(count)s similar message"
 msgid_plural "%(count)s similar messages"
 msgstr[0] "%(count)s podobná zpráva"
@@ -47,17 +48,22 @@ msgstr "%e %b"
 
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:12
 msgid "&infin;"
-msgstr ""
+msgstr "&infin;"
 
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:35 apps/search/templates/search/mobile/search.html:38
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:35
+#: apps/search/templates/search/mobile/search.html:38
 msgid "&laquo; Newer Feedback"
 msgstr "&laquo; Novější ohlasy"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:76 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:63
+#: apps/dashboard/templates/dashboard/dashboard.html:76
+#: apps/input/templates/input/pager.html:3
+#: apps/search/templates/search/search.html:63
 msgid "&laquo; Newer Messages"
 msgstr "&laquo; Novější zprávy"
 
-#: apps/themes/templates/themes/theme.html:28 apps/website_issues/templates/website_issues/paginate_sites.html:3 apps/website_issues/templates/website_issues/theme.html:29
+#: apps/themes/templates/themes/theme.html:28
+#: apps/website_issues/templates/website_issues/paginate_sites.html:3
+#: apps/website_issues/templates/website_issues/theme.html:29
 msgid "&laquo; Previous Page"
 msgstr "&laquo; Předchozí stránka"
 
@@ -76,7 +82,8 @@ msgctxt "sentiment_choice"
 msgid "-- all --"
 msgstr "-- vše --"
 
-#: apps/search/forms.py:30 apps/search/forms.py:32
+#: apps/search/forms.py:30
+#: apps/search/forms.py:32
 msgctxt "version_choice"
 msgid "-- all --"
 msgstr "-- vše --"
@@ -101,23 +108,21 @@ msgstr[1] "%(cnt)s zprávy"
 msgstr[2] "%(cnt)s zpráv"
 
 #: templates/about.html:9
-msgid ""
-"<strong>Firefox Input</strong> is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it "
-"through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
-msgstr ""
+msgid "<strong>Firefox Input</strong> is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
+msgstr "<strong>Firefox Input</strong> je aplikace na sběr reakcí. Byla vytvořena pro jednosměrnou komunikaci o zkušenosti s používáním Firefoxu, prohlížením Internetu a o tom, co Mozilla může v této oblasti zlepšit. Systém je dostupný pro řadu forem odeslání na třech hlavních kanálech sestavení aplikace."
 
 #: apps/dashboard/templates/dashboard/dashboard.html:57
 msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
-msgstr ""
+msgstr "<strong>Vítá vás Firefox Input!</strong> Jedná se o aplikaci pro sběr reakcí uživatelů. <a href=\"%(about_url)s\">Dozvědět se více...</a>"
 
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
 msgstr "ATOM pro toto vyhledávání"
 
-#: templates/about.html:3 templates/includes/footer.html:11
-#, fuzzy
+#: templates/about.html:3
+#: templates/includes/footer.html:11
 msgid "About Firefox Input"
-msgstr "Firefox Input"
+msgstr "O Firefox Input"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:26
 msgid "Ack! Please tell us what to fix!"
@@ -131,7 +136,8 @@ msgstr "Přidat URL poslední navštívené stránky?"
 msgid "Advanced"
 msgstr "Rozšířené"
 
-#: apps/themes/views.py:24 apps/themes/views.py:51
+#: apps/themes/views.py:24
+#: apps/themes/views.py:51
 msgid "All"
 msgstr "vše"
 
@@ -149,7 +155,8 @@ msgstr "vše"
 msgid "All Platforms"
 msgstr "Všechny platformy"
 
-#: apps/themes/views.py:24 apps/website_issues/templates/website_issues/website_issues.html:31
+#: apps/themes/views.py:24
+#: apps/website_issues/templates/website_issues/website_issues.html:31
 msgid "All feedback"
 msgstr "Všechny reakce"
 
@@ -183,11 +190,11 @@ msgstr "Zpět na {domain} &raquo;"
 
 #: apps/feedback/__init__.py:112
 msgid "Broken Website"
-msgstr ""
+msgstr "Rozbitá stránka"
 
 #: templates/includes/ua_overlay.html:10
 msgid "Close"
-msgstr ""
+msgstr "Zavřít"
 
 #: templates/includes/nav_buttons.html:2
 msgid "Clusters"
@@ -197,7 +204,8 @@ msgstr "Seskupení"
 msgid "Common Themes"
 msgstr "Seskupení"
 
-#: apps/dashboard/templates/dashboard/message_list.html:33 apps/themes/templates/themes/theme_list.html:31
+#: apps/dashboard/templates/dashboard/message_list.html:33
+#: apps/themes/templates/themes/theme_list.html:31
 msgid "Copy User Agent"
 msgstr "Kopírovat user agent"
 
@@ -206,7 +214,8 @@ msgstr "Kopírovat user agent"
 msgid "Custom"
 msgstr "Vlastní"
 
-#: templates/base.html:30 templates/base_mobile.html:20
+#: templates/base.html:30
+#: templates/base_mobile.html:20
 msgid "Dashboard"
 msgstr "Nástěnka"
 
@@ -216,11 +225,11 @@ msgstr "Časové rozmezí:"
 
 #: apps/feedback/templates/feedback/release_index.html:130
 msgid "Describe the problem with the website."
-msgstr ""
+msgstr "Popište svůj problém s webovou stránkou."
 
 #: apps/feedback/templates/feedback/release_index.html:181
 msgid "Describe your idea below."
-msgstr ""
+msgstr "Níže popište svůj nápad."
 
 #: apps/dashboard/templates/dashboard/devices.html:15
 msgid "Devices"
@@ -228,58 +237,59 @@ msgstr "Zařízení"
 
 #: apps/feedback/templates/feedback/release_index.html:110
 msgid "Does a website look or behave incorrectly in Firefox?"
-msgstr ""
+msgstr "Vypadá nebo se stránka chová ve Firefoxu nekorektně?"
 
 #: apps/input/__init__.py:60
 msgid "Don't Care"
-msgstr ""
+msgstr "Neutrální"
 
-#: apps/feedback/templates/feedback/need_beta.html:3 apps/feedback/templates/feedback/mobile/need_beta.html:3
+#: apps/feedback/templates/feedback/need_beta.html:3
+#: apps/feedback/templates/feedback/mobile/need_beta.html:3
 msgid "Download Beta"
 msgstr "Stáhnout betaverzi"
 
 #: apps/feedback/templates/feedback/need_release.html:3
-#, fuzzy
 msgid "Download Firefox"
-msgstr "Stáhnout betaverzi"
+msgstr "Stáhnout Firefox"
 
-#: apps/feedback/forms.py:109 apps/feedback/forms.py:122
+#: apps/feedback/forms.py:109
+#: apps/feedback/forms.py:122
 msgid "Enter your feedback here."
 msgstr "Zde vložte svou reakci."
 
-#: apps/feedback/forms.py:136 apps/feedback/forms.py:189
+#: apps/feedback/forms.py:136
+#: apps/feedback/forms.py:189
 msgid "Enter your suggestions here."
 msgstr "Zde napište svůj nápad."
 
 #: apps/feedback/forms.py:172
 msgid "Example: Images were not loading, but the rest of the page was."
-msgstr ""
+msgstr "Například: Obrázky se nenačetly, na rozdíl od zbytku stránky."
 
 #: apps/input/__init__.py:62
 msgid "Excellent"
-msgstr ""
+msgstr "Ekcelentní"
 
-#: templates/base_mobile_old.html:61 templates/base_old.html:68 templates/includes/footer.html:14
-msgid ""
-"Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
-"any later version."
-msgstr ""
-"Pokud není <a href=\"%(legal_url)s\">uvedeno</a> jinak, je obsah tohoto webu pod <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> či jakoukoliv novější "
-"verzí."
+#: templates/base_mobile_old.html:61
+#: templates/base_old.html:68
+#: templates/includes/footer.html:14
+msgid "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any later version."
+msgstr "Pokud není <a href=\"%(legal_url)s\">uvedeno</a> jinak, je obsah tohoto webu pod <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> či jakoukoliv novější verzí."
 
 #: apps/feedback/templates/feedback/release_index.html:244
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: apps/input/__init__.py:59
 msgid "Fair"
-msgstr ""
+msgstr "Nic moc"
 
 #: apps/input/__init__.py:49
 msgid "Features"
-msgstr ""
+msgstr "Funkce"
 
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:6 apps/search/templates/search/mobile/search.html:6
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:6
+#: apps/search/templates/search/mobile/search.html:6
 msgid "Feed"
 msgstr "Reakce"
 
@@ -291,20 +301,21 @@ msgstr "Reakce"
 msgid "Feedback must not contain HTML."
 msgstr "Reakce nesmí obsahovat HTML."
 
-#: apps/feedback/templates/feedback/thanks.html:17 apps/feedback/templates/feedback/mobile/thanks.html:12
+#: apps/feedback/templates/feedback/thanks.html:17
+#: apps/feedback/templates/feedback/mobile/thanks.html:12
 msgid "Find out the latest news from Mozilla:"
 msgstr "Podívejte se na poslední novinky od Mozilly:"
 
 #: apps/feedback/templates/feedback/release_index.html:241
-#, fuzzy
 msgid "Find the latest news about Firefox."
-msgstr "Podívejte se na poslední novinky od Mozilly:"
+msgstr "Přečíst si poslední novinky o Firefoxu."
 
 #: apps/feedback/__init__.py:9
 msgid "Firefox"
 msgstr "Firefox"
 
-#: apps/search/views.py:86 apps/search/views.py:104
+#: apps/search/views.py:86
+#: apps/search/views.py:104
 msgid "Firefox Input"
 msgstr "Firefox Input"
 
@@ -317,19 +328,23 @@ msgstr "Firefox Input: '{query}'"
 msgid "Firefox Logo"
 msgstr "Logo Firefoxu"
 
-#: apps/feedback/templates/feedback/mobile/beta_index.html:13 apps/feedback/templates/feedback/mobile/beta_index.html:15
+#: apps/feedback/templates/feedback/mobile/beta_index.html:13
+#: apps/feedback/templates/feedback/mobile/beta_index.html:15
 msgid "Firefox makes me happy ..."
 msgstr "Firefox mě činí šťastným ..."
 
-#: apps/feedback/templates/feedback/beta_index.html:13 apps/feedback/templates/feedback/beta_index.html:15
+#: apps/feedback/templates/feedback/beta_index.html:13
+#: apps/feedback/templates/feedback/beta_index.html:15
 msgid "Firefox makes me happy because ..."
 msgstr "Firefox mě činí šťastným, protože ..."
 
-#: apps/feedback/templates/feedback/mobile/beta_index.html:18 apps/feedback/templates/feedback/mobile/beta_index.html:20
+#: apps/feedback/templates/feedback/mobile/beta_index.html:18
+#: apps/feedback/templates/feedback/mobile/beta_index.html:20
 msgid "Firefox makes me sad ..."
 msgstr "Firefox mě zklamal ..."
 
-#: apps/feedback/templates/feedback/beta_index.html:19 apps/feedback/templates/feedback/beta_index.html:21
+#: apps/feedback/templates/feedback/beta_index.html:19
+#: apps/feedback/templates/feedback/beta_index.html:21
 msgid "Firefox makes me sad because ..."
 msgstr "Firefox mě zklamal, protože ..."
 
@@ -338,17 +353,20 @@ msgstr "Firefox mě zklamal, protože ..."
 msgid "For last:"
 msgstr "Za dobu:"
 
-#: templates/includes/footer_release.html:16 templates/includes/lang_switcher.html:10
+#: templates/includes/footer_release.html:16
+#: templates/includes/lang_switcher.html:10
 msgid "Go"
 msgstr "Přejít"
 
-#: apps/feedback/templates/feedback/release_index.html:40 apps/feedback/templates/feedback/release_index.html:114 apps/feedback/templates/feedback/release_index.html:171
+#: apps/feedback/templates/feedback/release_index.html:40
+#: apps/feedback/templates/feedback/release_index.html:114
+#: apps/feedback/templates/feedback/release_index.html:171
 msgid "Go Back"
-msgstr ""
+msgstr "Přejít zpět"
 
 #: apps/input/__init__.py:61
 msgid "Good"
-msgstr ""
+msgstr "Dobrá "
 
 #: apps/feedback/templates/feedback/feedback.html:56
 msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
@@ -356,39 +374,39 @@ msgstr "Máte problém s konkrétního webovou stránkou? Vyplňte URL a my tak 
 
 #: apps/feedback/templates/feedback/release_index.html:169
 msgid "Have an idea how Firefox could be better? Let us know!"
-msgstr ""
+msgstr "Máte nápad, jak učinit Firefox lepším? Dejte nám vědět!"
 
 #: templates/about.html:7
 msgid "Hello!"
-msgstr ""
+msgstr "Zdravíčko!"
 
 #: templates/includes/ua_overlay.html:7
 msgid "Hit Ctrl+C (Cmd+C on Mac) to copy and close."
-msgstr ""
+msgstr "Pro kopírování a zavření použijte klávesovou zkratku Ctrl+C (Cmd+C na Macu)."
 
 #: apps/input/__init__.py:44
 msgid "How frequently Firefox crashes or loses data"
-msgstr ""
+msgstr "Jak často Firefox padá nebo se ztrácí data"
 
 #: apps/input/__init__.py:26
 msgid "How long Firefox takes to start running"
-msgstr ""
+msgstr "Jak dlouho trvá Firefoxu než naběhne"
 
 #: apps/input/__init__.py:32
 msgid "How long it takes for web pages to load"
-msgstr ""
+msgstr "Jak dlouho trvá načítání webových stránek"
 
 #: apps/input/__init__.py:38
 msgid "How quickly web pages respond once they have loaded"
-msgstr ""
+msgstr "Jak rychle webové stránky reagují po načtení"
 
 #: apps/input/__init__.py:50
 msgid "How well Firefox's built-in features serve your needs"
-msgstr ""
+msgstr "Zda má Firefoxu zabudované funkce, které potřebujete"
 
 #: apps/feedback/templates/feedback/release_index.html:38
 msgid "How would you rate these aspects of Firefox?"
-msgstr ""
+msgstr "Jak byste ohodnotil(a) tyto vlastnosti Firefoxu?"
 
 #: templates/404.html:6
 msgid "I'm sorry, I could not find what you were looking for."
@@ -411,7 +429,6 @@ msgid "If you have an idea to offer us instead, please send it to us through our
 msgstr "Pokud nám na místo toho chcete poslat nápad, pošlete jej skrze <a href=\"%(url_suggestion)s\">formulář pro zadání návrhu</a>!"
 
 #: apps/feedback/templates/feedback/release_index.html:24
-#, fuzzy
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
 msgstr "Pokud potřebujete pomoc nebo máte problém s Firefoxem, navštivte naše <a href=\"%(support_url)s\">stránky podpory</a>."
 
@@ -431,7 +448,8 @@ msgstr "Pokud jste někde klepli na chybný odkaz, <a href=\"%(bug_url)s\">nahla
 msgid "Include the following error message in your bug report:"
 msgstr "Do vašeho hlášení o chybě zahrňte následující chybové hlášení:"
 
-#: templates/base_mobile_old.html:30 templates/base_old.html:35
+#: templates/base_mobile_old.html:30
+#: templates/base_old.html:35
 msgid "Input Dashboard"
 msgstr "Nástěnka názorů"
 
@@ -439,23 +457,32 @@ msgstr "Nástěnka názorů"
 msgid "Internal Server Error"
 msgstr "Interní chyba serveru"
 
-#: apps/feedback/views.py:103 apps/feedback/views.py:173
-#, fuzzy
+#: apps/feedback/views.py:103
+#: apps/feedback/views.py:173
 msgid "Invalid feedback type"
-msgstr "Všechny reakce"
+msgstr "Neplatný typ reakce"
 
-#: apps/dashboard/templates/dashboard/message_list.html:8 apps/feedback/__init__.py:109 apps/feedback/helpers.py:39 apps/themes/templates/themes/theme_list.html:12
+#: apps/dashboard/templates/dashboard/message_list.html:8
+#: apps/feedback/__init__.py:109
+#: apps/feedback/helpers.py:39
+#: apps/themes/templates/themes/theme_list.html:12
 #: apps/website_issues/templates/website_issues/single_site.html:11
 msgid "Issue"
 msgstr "Problém"
 
 #. Formerly called "sad"
-#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:38 apps/search/views.py:211
-#: apps/themes/views.py:34 apps/website_issues/templates/website_issues/website_issues.html:33
+#: apps/dashboard/views.py:55
+#: apps/dashboard/templates/dashboard/overview.html:27
+#: apps/dashboard/templates/dashboard/mobile/overview.html:15
+#: apps/search/forms.py:38
+#: apps/search/views.py:211
+#: apps/themes/views.py:34
+#: apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Issues"
 msgstr "Problémy"
 
-#: apps/themes/views.py:34 apps/website_issues/templates/website_issues/website_issues.html:33
+#: apps/themes/views.py:34
+#: apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Issues only"
 msgstr "Pouze problémy"
 
@@ -486,7 +513,9 @@ msgstr "Poslední den"
 msgid "Latest Feedback"
 msgstr "Poslední reakce"
 
-#: templates/base_mobile_old.html:57 templates/base_old.html:64 templates/includes/footer.html:9
+#: templates/base_mobile_old.html:57
+#: templates/base_old.html:64
+#: templates/includes/footer.html:9
 msgid "Legal Notices"
 msgstr "Právní informace"
 
@@ -498,7 +527,8 @@ msgstr "Linux"
 msgid "Loading feedback history..."
 msgstr "Probíhá načítání historie reakcí..."
 
-#: apps/dashboard/templates/dashboard/locales.html:15 apps/dashboard/templates/dashboard/mobile/locales.html:9
+#: apps/dashboard/templates/dashboard/locales.html:15
+#: apps/dashboard/templates/dashboard/mobile/locales.html:9
 msgid "Locale"
 msgstr "Jazyk"
 
@@ -528,11 +558,11 @@ msgid "Mobile"
 msgstr "Mobilní"
 
 #: apps/dashboard/templates/dashboard/locales.html:27
-#, fuzzy
 msgid "More Locales"
-msgstr "Jazyk"
+msgstr "Více jazyků"
 
-#: apps/dashboard/templates/dashboard/message_list.html:30 apps/themes/templates/themes/theme_list.html:28
+#: apps/dashboard/templates/dashboard/message_list.html:30
+#: apps/themes/templates/themes/theme_list.html:28
 msgid "More Options"
 msgstr "Více možností"
 
@@ -540,20 +570,23 @@ msgstr "Více možností"
 msgid "More sites..."
 msgstr "Více stránek..."
 
-#: apps/themes/templates/themes/theme.html:36 apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:37
+#: apps/themes/templates/themes/theme.html:36
+#: apps/website_issues/templates/website_issues/paginate_sites.html:11
+#: apps/website_issues/templates/website_issues/theme.html:37
 msgid "Next Page &raquo;"
 msgstr "Další stránka &raquo;"
 
 #. short for an indefinite date range
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:12
 msgid "No date limit"
-msgstr ""
+msgstr "Bez limitu"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:27
 msgid "No results found!"
 msgstr "Nebyly nalezeny žádné výsledky vyhledávání."
 
-#: apps/dashboard/templates/dashboard/message_list.html:52 apps/themes/templates/themes/theme_list.html:43
+#: apps/dashboard/templates/dashboard/message_list.html:52
+#: apps/themes/templates/themes/theme_list.html:43
 msgid "No search results found."
 msgstr "Nebyly nalezeny žádné výsledky vyhledávání."
 
@@ -566,14 +599,14 @@ msgid "OS:"
 msgstr "OS:"
 
 #. Refers to terms often mentioned in feedback.
-#: apps/dashboard/templates/dashboard/themes.html:3 apps/dashboard/templates/dashboard/mobile/themes.html:2
+#: apps/dashboard/templates/dashboard/themes.html:3
+#: apps/dashboard/templates/dashboard/mobile/themes.html:2
 msgid "Often Mentioned"
 msgstr "Často zmíněno"
 
 #: apps/feedback/templates/feedback/need_release.html:8
-#, fuzzy
 msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-msgstr "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
+msgstr "Zdá se, že chcete poslat reakci k Firefoxu. Děkujeme, ale musíte mít jeho poslední verzi."
 
 #: apps/feedback/templates/feedback/need_beta.html:8
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
@@ -583,17 +616,20 @@ msgstr "Oh! So, you want to offer us feedback on the next version of Firefox. Th
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
 msgstr "Zdá se, že chcete přidat reakci, ale k tomu potřebujete poslední betaverzi! Navštivte naši stránku o betě  a <a href=\"%(url)s\">stáhněte si ji</a>!"
 
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:36 apps/search/templates/search/mobile/search.html:48
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:36
+#: apps/search/templates/search/mobile/search.html:48
 msgid "Older Feedback &raquo;"
 msgstr "Starší zprávy &raquo;"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:77 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:73
+#: apps/dashboard/templates/dashboard/dashboard.html:77
+#: apps/input/templates/input/pager.html:11
+#: apps/search/templates/search/search.html:73
 msgid "Older Messages &raquo;"
 msgstr "Starší zprávy &raquo;"
 
 #: templates/about.html:24
 msgid "Open Data"
-msgstr ""
+msgstr "Otevřená data"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:68
 msgid "Or submit your ideas with our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
@@ -603,7 +639,8 @@ msgstr "Nebo nám zašlete své nápady pomocí <a href=\"%(url_suggestion)s\">f
 msgid "Other"
 msgstr "Ostatní"
 
-#: templates/includes/footer_release.html:5 templates/includes/lang_switcher.html:2
+#: templates/includes/footer_release.html:5
+#: templates/includes/lang_switcher.html:2
 msgid "Other languages:"
 msgstr "Další jazyky:"
 
@@ -613,13 +650,15 @@ msgstr "Náš vyhledávač může být aktuálně nedostupný. Můžete pokračo
 
 #: apps/input/__init__.py:31
 msgid "Page Load Time"
-msgstr ""
+msgstr "Rychlost načítání stránek"
 
 #: apps/feedback/templates/feedback/release_index.html:245
 msgid "Planet Mozilla"
-msgstr ""
+msgstr "Planet Mozilla"
 
-#: apps/dashboard/templates/dashboard/platforms.html:12 apps/dashboard/templates/dashboard/mobile/platforms.html:8 apps/themes/templates/themes/index.html:24
+#: apps/dashboard/templates/dashboard/platforms.html:12
+#: apps/dashboard/templates/dashboard/mobile/platforms.html:8
+#: apps/themes/templates/themes/index.html:24
 msgid "Platform"
 msgstr "Platforma"
 
@@ -635,42 +674,62 @@ msgstr "Zadejte prosím jeden z následujících typů reakcí, kterou byste ná
 msgid "Please choose the type of feedback that you would like to submit to us:"
 msgstr "Zvolte prosím typ reakce, kterou nám chcete zaslat:"
 
-#: apps/feedback/templates/feedback/feedback.html:77 apps/feedback/templates/feedback/mobile/feedback.html:59
+#: apps/feedback/templates/feedback/feedback.html:77
+#: apps/feedback/templates/feedback/mobile/feedback.html:59
 msgid "Please ensure that there is no personally identifiable information here."
 msgstr "Ujistěte se prosím, že nezadáváte žádné osobní údaje."
 
-#: templates/404.html:9 templates/500.html:14
+#: templates/404.html:9
+#: templates/500.html:14
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 msgstr "Začněte na <a href=\"%(dashboard_url)s\">hlavní stránce</a>."
 
 #: apps/input/__init__.py:58
 msgid "Poor"
-msgstr ""
+msgstr "Mizerná"
 
 #. Formerly called "happy"
-#: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8
-#: apps/feedback/__init__.py:108 apps/feedback/helpers.py:36 apps/search/forms.py:37 apps/search/views.py:210 apps/themes/views.py:29 apps/themes/templates/themes/theme_list.html:8
-#: apps/website_issues/templates/website_issues/single_site.html:9 apps/website_issues/templates/website_issues/website_issues.html:32
+#: apps/dashboard/views.py:54
+#: apps/dashboard/templates/dashboard/message_list.html:6
+#: apps/dashboard/templates/dashboard/overview.html:13
+#: apps/dashboard/templates/dashboard/mobile/overview.html:8
+#: apps/feedback/__init__.py:108
+#: apps/feedback/helpers.py:36
+#: apps/search/forms.py:37
+#: apps/search/views.py:210
+#: apps/themes/views.py:29
+#: apps/themes/templates/themes/theme_list.html:8
+#: apps/website_issues/templates/website_issues/single_site.html:9
+#: apps/website_issues/templates/website_issues/website_issues.html:32
 msgid "Praise"
 msgstr "Pochvala"
 
-#: apps/themes/views.py:29 apps/website_issues/templates/website_issues/website_issues.html:32
+#: apps/themes/views.py:29
+#: apps/website_issues/templates/website_issues/website_issues.html:32
 msgid "Praise only"
 msgstr "Pouze pochvalné"
 
-#: templates/base_mobile_old.html:56 templates/base_old.html:63 templates/includes/footer.html:8
+#: templates/base_mobile_old.html:56
+#: templates/base_old.html:63
+#: templates/includes/footer.html:8
 msgid "Privacy Policy"
 msgstr "Zásady ochrany soukromí"
 
-#: templates/base.html:23 templates/base_mobile_old.html:20 templates/base_old.html:23
+#: templates/base.html:23
+#: templates/base_mobile_old.html:20
+#: templates/base_old.html:23
 msgid "Proceed to footer"
 msgstr "Přechod na patičku"
 
-#: templates/base.html:22 templates/base_mobile_old.html:19 templates/base_old.html:22
+#: templates/base.html:22
+#: templates/base_mobile_old.html:19
+#: templates/base_old.html:22
 msgid "Proceed to main content"
 msgstr "Přechod na hlavní obsah"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:12 apps/search/templates/search/search.html:20 apps/themes/templates/themes/index.html:10
+#: apps/dashboard/templates/dashboard/dashboard.html:12
+#: apps/search/templates/search/search.html:20
+#: apps/themes/templates/themes/index.html:10
 #: apps/website_issues/templates/website_issues/website_issues.html:19
 msgid "Product"
 msgstr "Produkt"
@@ -681,38 +740,42 @@ msgstr "Produkt:"
 
 #: apps/feedback/templates/feedback/release_index.html:111
 msgid "Provide us some details about the problem and we'll try to fix it."
-msgstr ""
+msgstr "Poskytněte nám některé detaily o vašem problému a my to zkusíme opravit."
 
 #: apps/search/client.py:194
 msgid "Query has timed out."
 msgstr "Platnost dotazu vypršela."
 
-#: apps/feedback/templates/feedback/release_index.html:16 apps/feedback/templates/feedback/release_index.html:37
+#: apps/feedback/templates/feedback/release_index.html:16
+#: apps/feedback/templates/feedback/release_index.html:37
 msgid "Rate Your Experience"
-msgstr ""
+msgstr "Ohodnoťte svou zkušenost"
 
 #: apps/feedback/__init__.py:111
 msgid "Rating"
-msgstr ""
+msgstr "Hodnocení"
 
-#: templates/base_mobile_old.html:58 templates/base_old.html:65 templates/includes/footer.html:10
+#: templates/base_mobile_old.html:58
+#: templates/base_old.html:65
+#: templates/includes/footer.html:10
 msgid "Report Trademark Abuse"
 msgstr "Nahlásit zneužití ochranných známek"
 
-#: apps/feedback/templates/feedback/release_index.html:17 apps/feedback/templates/feedback/release_index.html:108
-#, fuzzy
+#: apps/feedback/templates/feedback/release_index.html:17
+#: apps/feedback/templates/feedback/release_index.html:108
 msgid "Report a Broken Website"
-msgstr "Nahlásit zneužití ochranných známek"
+msgstr "Nahlašte nefunkční stránku"
 
 #: apps/input/__init__.py:37
 msgid "Responsiveness"
-msgstr ""
+msgstr "Odezva"
 
 #: apps/search/templates/search/search_form.html:19
 msgid "Search"
 msgstr "Vyhledat"
 
-#: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:49
+#: apps/search/templates/search/search.html:5
+#: apps/search/templates/search/search.html:49
 msgid "Search Results"
 msgstr "Výsledky vyhledávání"
 
@@ -747,16 +810,20 @@ msgctxt "date_range_set"
 msgid "Set"
 msgstr "Nastavit"
 
-#: apps/feedback/templates/feedback/release_index.html:18 apps/feedback/templates/feedback/release_index.html:168
+#: apps/feedback/templates/feedback/release_index.html:18
+#: apps/feedback/templates/feedback/release_index.html:168
 msgid "Share an Idea"
-msgstr ""
+msgstr "Přidejte nápad"
 
 #: apps/dashboard/templates/includes/filter_box_toggle.html:4
 msgid "Show/Hide Options"
 msgstr "Zobrazit/skrýt možnosti"
 
-#: apps/website_issues/templates/website_issues/sites_list.html:12 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/website_issues.html:10
-#: templates/base.html:41 templates/includes/nav_buttons.html:4
+#: apps/website_issues/templates/website_issues/sites_list.html:12
+#: apps/website_issues/templates/website_issues/theme.html:4
+#: apps/website_issues/templates/website_issues/website_issues.html:10
+#: templates/base.html:41
+#: templates/includes/nav_buttons.html:4
 msgid "Sites"
 msgstr "Stránky"
 
@@ -770,7 +837,7 @@ msgstr "Rádi byste nám zaslali návrh, jak vylepšit Firefoxu? Skvělé! Napi�
 
 #: templates/about.html:34
 msgid "Source Code"
-msgstr ""
+msgstr "Zdrojový kód"
 
 #. L10n: Sphinx is the name of the search engine software.
 #: apps/search/client.py:197
@@ -779,40 +846,56 @@ msgstr "Sphinx vyhodil neznámou výjimku: %s"
 
 #: apps/input/__init__.py:43
 msgid "Stability"
-msgstr ""
+msgstr "Stabilita"
 
 #: apps/input/__init__.py:25
 msgid "Start-Up Time"
-msgstr ""
+msgstr "Délka spouštění"
 
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:7 apps/search/templates/search/mobile/search.html:7
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:7
+#: apps/search/templates/search/mobile/search.html:7
 msgid "Statistics"
 msgstr "Statistiky"
 
-#: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:79
-#: apps/feedback/templates/feedback/release_index.html:3 apps/feedback/templates/feedback/release_index.html:96 apps/feedback/templates/feedback/release_index.html:97
-#: apps/feedback/templates/feedback/release_index.html:156 apps/feedback/templates/feedback/release_index.html:157 apps/feedback/templates/feedback/release_index.html:207
-#: apps/feedback/templates/feedback/release_index.html:208 apps/feedback/templates/feedback/mobile/beta_index.html:3 apps/feedback/templates/feedback/mobile/feedback.html:3
+#: apps/feedback/templates/feedback/beta_index.html:3
+#: apps/feedback/templates/feedback/feedback.html:3
+#: apps/feedback/templates/feedback/feedback.html:79
+#: apps/feedback/templates/feedback/release_index.html:3
+#: apps/feedback/templates/feedback/release_index.html:96
+#: apps/feedback/templates/feedback/release_index.html:97
+#: apps/feedback/templates/feedback/release_index.html:156
+#: apps/feedback/templates/feedback/release_index.html:157
+#: apps/feedback/templates/feedback/release_index.html:207
+#: apps/feedback/templates/feedback/release_index.html:208
+#: apps/feedback/templates/feedback/mobile/beta_index.html:3
+#: apps/feedback/templates/feedback/mobile/feedback.html:3
 #: apps/feedback/templates/feedback/mobile/feedback.html:61
 msgid "Submit Feedback"
 msgstr "Odeslat reakci"
 
 #: apps/feedback/templates/feedback/release_index.html:10
-#, fuzzy
 msgid "Submit Your Feedback"
-msgstr "Odeslat reakci"
+msgstr "Odešlete svou reakci"
 
-#: apps/feedback/templates/feedback/release_index.html:96 apps/feedback/templates/feedback/release_index.html:156 apps/feedback/templates/feedback/release_index.html:207
-#, fuzzy
+#: apps/feedback/templates/feedback/release_index.html:96
+#: apps/feedback/templates/feedback/release_index.html:156
+#: apps/feedback/templates/feedback/release_index.html:207
 msgid "Submitting Feedback"
-msgstr "Odeslat reakci"
+msgstr "Probíhá odesílání reakce"
 
-#: apps/dashboard/templates/dashboard/message_list.html:10 apps/feedback/__init__.py:110 apps/feedback/templates/feedback/feedback.html:13 apps/feedback/templates/feedback/mobile/feedback.html:21
-#: apps/search/views.py:212 apps/themes/templates/themes/theme_list.html:10
+#: apps/dashboard/templates/dashboard/message_list.html:10
+#: apps/feedback/__init__.py:110
+#: apps/feedback/templates/feedback/feedback.html:13
+#: apps/feedback/templates/feedback/mobile/feedback.html:21
+#: apps/search/views.py:212
+#: apps/themes/templates/themes/theme_list.html:10
 msgid "Suggestion"
 msgstr "Návrh"
 
-#: apps/dashboard/views.py:56 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:39 apps/themes/views.py:39
+#: apps/dashboard/views.py:56
+#: apps/dashboard/templates/dashboard/overview.html:40
+#: apps/search/forms.py:39
+#: apps/themes/views.py:39
 msgid "Suggestions"
 msgstr "Návrhy"
 
@@ -828,7 +911,9 @@ msgstr "Skvělé! Je hezké slyšet, že se vám vývojová verze prohlížeče 
 msgid "Super! Please tell us more!"
 msgstr "Skvělé! Řekněte nám o tom více!"
 
-#: apps/feedback/templates/feedback/release_index.html:219 apps/feedback/templates/feedback/thanks.html:3 apps/feedback/templates/feedback/mobile/thanks.html:3
+#: apps/feedback/templates/feedback/release_index.html:219
+#: apps/feedback/templates/feedback/thanks.html:3
+#: apps/feedback/templates/feedback/mobile/thanks.html:3
 msgid "Thanks for Your Feedback"
 msgstr "Děkujeme za vaši reakci."
 
@@ -836,7 +921,8 @@ msgstr "Děkujeme za vaši reakci."
 msgid "Thanks for helping Mozilla make your experience better!"
 msgstr "Děkujeme, že pomáháte Mozille vytvářet lepší produkty pro vás!"
 
-#: apps/feedback/templates/feedback/thanks.html:7 apps/feedback/templates/feedback/mobile/thanks.html:8
+#: apps/feedback/templates/feedback/thanks.html:7
+#: apps/feedback/templates/feedback/mobile/thanks.html:8
 msgid "Thanks for sending us your feedback!"
 msgstr "Děkujeme za odeslání reakce!"
 
@@ -846,9 +932,11 @@ msgstr "Děkujeme!"
 
 #: templates/about.html:37
 msgid "The code for the Firefox Input web application can be found <a href=\"%(source_url)s\">on GitHub</a>!"
-msgstr ""
+msgstr "Kód webové aplikace Firefox Input můžete nalézet <a href=\"%(source_url)s\">na serveru GitHub</a>!"
 
-#: apps/themes/templates/themes/theme.html:4 apps/themes/templates/themes/theme.html:14 apps/website_issues/templates/website_issues/theme.html:15
+#: apps/themes/templates/themes/theme.html:4
+#: apps/themes/templates/themes/theme.html:14
+#: apps/website_issues/templates/website_issues/theme.html:15
 msgid "Theme"
 msgstr "Seskupení"
 
@@ -857,7 +945,8 @@ msgid "Theme for {domain}"
 msgstr "Seskupení pro doménu {domain}"
 
 #. Formerly: Clusters
-#: apps/themes/templates/themes/index.html:2 templates/base.html:37
+#: apps/themes/templates/themes/index.html:2
+#: templates/base.html:37
 msgid "Themes"
 msgstr "Seskupení"
 
@@ -866,18 +955,17 @@ msgid "To do that, simply go to our download page and install/update to the <a h
 msgstr "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
 
 #: apps/feedback/templates/feedback/need_release.html:14
-#, fuzzy
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-msgstr "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
+msgstr "Pro jeho získání jednoduše přejděte na naši stránku ke stažení a nainstalujte si <a href=\"%(url)s\">poslední verzi</a>!"
 
-#: apps/feedback/templates/feedback/release_index.html:137 apps/feedback/templates/feedback/release_index.html:188
-#, fuzzy
+#: apps/feedback/templates/feedback/release_index.html:137
+#: apps/feedback/templates/feedback/release_index.html:188
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
-msgstr "Ujistěte se prosím, že nezadáváte žádné osobní údaje."
+msgstr "Pro ochranu vašeho soukromí se ujistěte, že ve vaší reakci nejsou zahrnuty žádné osobní identifikační údaje."
 
 #: templates/about.html:18
 msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(feedback_url)s\">the feedback submission page</a>!"
-msgstr ""
+msgstr "Pro zaslání reakce k vaší verzi Firefoxu přejděte na <a href=\"%(feedback_url)s\">stránku odeslání reakce</a>!"
 
 #. Link text for showing/hiding options
 #: apps/dashboard/templates/includes/filter_box_toggle.html:6
@@ -885,11 +973,13 @@ msgid "Toggle"
 msgstr "Přepnout"
 
 #. Link to Google Translator
-#: apps/dashboard/templates/dashboard/message_list.html:37 apps/themes/templates/themes/theme_list.html:33
+#: apps/dashboard/templates/dashboard/message_list.html:37
+#: apps/themes/templates/themes/theme_list.html:33
 msgid "Translate Message"
 msgstr "Přeložit zprávu"
 
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:8 apps/search/templates/search/mobile/search.html:8
+#: apps/dashboard/templates/dashboard/mobile/dashboard.html:8
+#: apps/search/templates/search/mobile/search.html:8
 msgid "Trends"
 msgstr "Trendy"
 
@@ -899,9 +989,11 @@ msgstr "Poslat na Twitter"
 
 #: apps/feedback/templates/feedback/release_index.html:243
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
-#: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
+#: apps/dashboard/templates/dashboard/overview.html:2
+#: apps/dashboard/templates/dashboard/mobile/overview.html:2
+#: apps/themes/templates/themes/index.html:16
 #: apps/website_issues/templates/website_issues/website_issues.html:28
 msgid "Type of Feedback"
 msgstr "Typ reakce"
@@ -910,19 +1002,22 @@ msgstr "Typ reakce"
 msgid "Uncommon Sites"
 msgstr "Neobvyklé stránky"
 
-#: apps/dashboard/templates/dashboard/devices.html:8 apps/dashboard/templates/dashboard/manufacturers.html:9 apps/feedback/helpers.py:16 apps/search/forms.py:47 apps/search/forms.py:50
+#: apps/dashboard/templates/dashboard/devices.html:8
+#: apps/dashboard/templates/dashboard/manufacturers.html:9
+#: apps/feedback/helpers.py:16
+#: apps/search/forms.py:47
+#: apps/search/forms.py:50
 #: apps/search/forms.py:55
 msgid "Unknown"
 msgstr "Neznámý"
 
 #: templates/includes/ua_overlay.html:3
-#, fuzzy
 msgid "User Agent"
-msgstr "Kopírovat user agent"
+msgstr "Identifikace prohlížeče"
 
 #: templates/includes/ua_overlay.html:9
 msgid "User agent copied"
-msgstr ""
+msgstr "Identifikace prohlížeče byla zkopírována"
 
 #: apps/feedback/views.py:47
 msgid "User-Agent request header must be set."
@@ -933,14 +1028,12 @@ msgid "Version:"
 msgstr "Verze:"
 
 #: apps/feedback/templates/feedback/release_index.html:234
-#, fuzzy
 msgid "Visit the <a href=\"%(dashboard_url)s\">Firefox Feedback Dashboard</a>"
-msgstr "Začněte na <a href=\"%(dashboard_url)s\">hlavní stránce</a>."
+msgstr "Navštívit <a href=\"%(dashboard_url)s\">nástěnku Firefox Feedback</a>"
 
 #: apps/feedback/templates/feedback/release_index.html:232
-#, fuzzy
 msgid "Want to see where your feedback goes?"
-msgstr "Zde vložte svou reakci."
+msgstr "Chcete vidět, kde se octla vaše reakce?"
 
 #: apps/feedback/forms.py:99
 msgid "We already got your feedback! Thanks."
@@ -951,22 +1044,22 @@ msgid "We are sorry that you have not had a good experience with our browser. Pl
 msgstr "Je nám líto, že máte špatnou zkušenost s našim prohlížečem. Řekněte nám prosím proč, abychom to mohli změnit! "
 
 #: templates/about.html:27
-msgid ""
-"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
-"please <a href=\"%(data_url)s\">contact us</a>!"
-msgstr ""
+msgid "We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, please <a href=\"%(data_url)s\">contact us</a>!"
+msgstr "Rádi bychom s těmito daty experimentovali více, ale je nás pouze pár. Pokud byste s nimi rádi experimentovali vy, <a href=\"%(data_url)s\">kontaktujte nás</a>!"
 
-#: templates/base.html:5 templates/base_mobile.html:6
+#: templates/base.html:5
+#: templates/base_mobile.html:6
 msgid "Welcome"
 msgstr "Vítejte!"
 
-#: templates/base_mobile_old.html:5 templates/base_old.html:5
+#: templates/base_mobile_old.html:5
+#: templates/base_old.html:5
 msgid "Welcome!"
 msgstr "Vítejte!"
 
 #: apps/feedback/templates/feedback/release_index.html:124
 msgid "What is the URL of the broken site?"
-msgstr ""
+msgstr "Jaké je URL rozbité stránky?"
 
 #. Title for a time-based search filter
 #: apps/dashboard/templates/dashboard/when.html:2
@@ -974,7 +1067,8 @@ msgid "When"
 msgstr "Kdy"
 
 #. Refers to sites that were reported in feedback.
-#: apps/dashboard/templates/dashboard/sites.html:3 apps/dashboard/templates/dashboard/mobile/sites.html:2
+#: apps/dashboard/templates/dashboard/sites.html:3
+#: apps/dashboard/templates/dashboard/mobile/sites.html:2
 msgid "While Visiting"
 msgstr "Při návštěvě"
 
@@ -996,7 +1090,7 @@ msgstr "Váš komentář obsahuje některá nevhodná slova (%s). Pokud chcete p
 
 #: apps/feedback/templates/feedback/release_index.html:11
 msgid "Your feedback helps us improve Firefox."
-msgstr ""
+msgstr "Vaše reakce nám pomůže vylepšit Firefox."
 
 #: apps/feedback/validators.py:52
 msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
@@ -1008,7 +1102,7 @@ msgstr "Zdá se, že vaše reakce obsahuje e-mailovou adresu. Odstraňte ji pros
 
 #: apps/feedback/templates/feedback/release_index.html:222
 msgid "Your feedback will be used to create a better experience in future releases of Firefox."
-msgstr ""
+msgstr "Vaše reakce bude použita pro vylepšení budoucích verzí Firefoxu."
 
 #. L10n: This means an event that happened only a few seconds ago.
 #: apps/input/helpers.py:86
@@ -1059,21 +1153,16 @@ msgstr "{percentage}% chvála"
 
 #~ msgid "&laquo; Next Page"
 #~ msgstr "&laquo; Další stránka"
-
 #~ msgid "&laquo; Previous Page;"
 #~ msgstr "&laquo; Předchozí stránka;"
-
 #~ msgid "&laquo; previous"
 #~ msgstr "&laquo; předchozí"
-
 #~ msgctxt "dashboard_period"
 #~ msgid "1 day"
 #~ msgstr "1 den"
-
 #~ msgctxt "dashboard_period"
 #~ msgid "1 month"
 #~ msgstr "1 měsíc"
-
 #~ msgctxt "dashboard_period"
 #~ msgid "1 week"
 #~ msgstr "1 týden"
@@ -1082,124 +1171,86 @@ msgstr "{percentage}% chvála"
 #~ msgctxt "version_choice"
 #~ msgid "7d"
 #~ msgstr "7d"
-
 #~ msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
 #~ msgstr "<a href=\"%(url)s\">Celkem</a>: %(count)s"
-
 #~ msgid "Beta"
 #~ msgstr "Beta"
-
 #~ msgid "Clusters of Opinions"
 #~ msgstr "Seskupené reakce"
-
 #~ msgid "Dates: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
 #~ msgstr "Data: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
-
 #~ msgid "Demographics"
 #~ msgstr "Demografie"
-
 #~ msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
 #~ msgstr "Popis: <span class=\"opt\">\"%(query)s\"</span>;"
-
 #~ msgid "Due to software constraints, we can only show the last 1000 messages for this search query."
 #~ msgstr "Vzhledem k omezení software lze u vašeho vyhledávání zobrazit nejvýše 1000 zpráv."
-
 #~ msgid "Latest Beta"
 #~ msgstr "Poslední betaverze"
-
 #~ msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
 #~ msgstr "Jazyk: <span class=\"opt\">%(locale)s</span>;"
-
 #~ msgid "Locale: {locale}"
 #~ msgstr "Jazyk: {locale}"
-
 #~ msgid "Most Recent Message"
 #~ msgid_plural "Last %(count)s Messages"
 #~ msgstr[0] "Poslední zpráva"
 #~ msgstr[1] "Poslední %(count)s zprávy"
 #~ msgstr[2] "Posledních %(count)s zpráv"
-
 #~ msgid "No clusters of opinions found."
 #~ msgstr "Nebyly nalezeny žádné seskupené názory."
-
 #~ msgid "OS"
 #~ msgstr "OS"
-
 #~ msgid "OS: <span class=\"opt\">%(os)s</span>"
 #~ msgstr "OS: <span class=\"opt\">%(os)s</span>"
-
 #~ msgid "OS: {os_name}"
 #~ msgstr "OS: {os_name}"
-
 #~ msgid "Opinion"
 #~ msgstr "Názor"
-
 #~ msgid "Overview"
 #~ msgstr "Přehled"
-
 #~ msgid "Please enable JavaScript to view this page."
 #~ msgstr "Pro zobrazení této stránky prosím povolte JavaScript"
-
 #~ msgid "Previous Page &raquo;"
 #~ msgstr "Předchozí stránka &raquo;"
-
 #~ msgid "Show more"
 #~ msgstr "Zobrazit více zpráv"
-
 #~ msgid "Showing the first {count}"
 #~ msgstr "Zobrazit prvních {count}"
-
 #~ msgid "Submitted User Agent is not the latest beta version."
 #~ msgstr "Přijmutý user agent neodpovídá poslední betaverzi."
-
 #~ msgid "Translate!"
 #~ msgstr "Přeložit!"
-
 #~ msgid "UA"
 #~ msgstr "UA"
-
 #~ msgid "URL"
 #~ msgstr "URL"
-
 #~ msgid "User agent string was not recognizable."
 #~ msgstr "User agent řetězec nebyl rozpoznán."
-
 #~ msgid "Version"
 #~ msgstr "Verze"
-
 #~ msgid "all"
 #~ msgstr "vše"
-
 #~ msgctxt "dashboard_period"
 #~ msgid "all"
 #~ msgstr "vše"
-
 #~ msgid "happy"
 #~ msgstr "šťastný"
-
 #~ msgid "happy face"
 #~ msgstr "veselá tvář"
-
 #~ msgid "next &raquo;"
 #~ msgstr "další &raquo;"
-
 #~ msgid "page %(pagenum)s of %(total)s"
 #~ msgstr "stránka %(pagenum)s z %(total)s"
-
 #~ msgid "sad"
 #~ msgstr "smutný"
-
 #~ msgid "sad face"
 #~ msgstr "smutná tvář"
-
 #~ msgid "visit &rarr;"
 #~ msgstr "navštívit &rarr;"
-
 #~ msgid "{0} opinions for Firefox {1} {2}"
 #~ msgstr "{0} názory pro Firefox {1} {2}"
-
 #~ msgid "{0} opinions similar to <q>{1}</q>"
 #~ msgstr "{0} názory podobných <q>{1}</q>"
-
 #~ msgid "{0} similar messages"
 #~ msgstr "%(count)s podobných zpráv"
+
