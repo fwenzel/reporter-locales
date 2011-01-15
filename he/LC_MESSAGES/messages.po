@@ -26,7 +26,7 @@ msgid_plural "%(count)s similar"
 msgstr[0] "הודעה דומה אחת"
 msgstr[1] "%(count)s הודעות דומות"
 
-#: apps/themes/templates/themes/theme_list.html:13 apps/website_issues/templates/website_issues/single_site.html:18
+#: apps/themes/templates/themes/theme_list.html:16 apps/website_issues/templates/website_issues/single_site.html:18
 msgid "%(count)s similar message"
 msgid_plural "%(count)s similar messages"
 msgstr[0] "הודעה דומה אחת"
@@ -42,12 +42,16 @@ msgstr ""
 msgid "%e %b"
 msgstr ""
 
+#: apps/dashboard/templates/dashboard/includes/when_selectors.html:12
+msgid "&infin;"
+msgstr ""
+
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:35 apps/search/templates/search/mobile/search.html:38
 #, fuzzy
 msgid "&laquo; Newer Feedback"
 msgstr "הודעות ישנות יותר &raquo;"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:69 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:63
+#: apps/dashboard/templates/dashboard/dashboard.html:76 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:63
 #, fuzzy
 msgid "&laquo; Newer Messages"
 msgstr "הודעות ישנות יותר &raquo;"
@@ -56,22 +60,22 @@ msgstr "הודעות ישנות יותר &raquo;"
 msgid "&laquo; Previous Page"
 msgstr "דף קודם &raquo;"
 
-#: apps/search/forms.py:53
+#: apps/search/forms.py:54
 msgctxt "locale_choice"
 msgid "-- all --"
 msgstr "-- הכל --"
 
-#: apps/search/forms.py:43
+#: apps/search/forms.py:44
 msgctxt "os_choice"
 msgid "-- all --"
 msgstr "-- הכל --"
 
-#: apps/search/forms.py:35
+#: apps/search/forms.py:36
 msgctxt "sentiment_choice"
 msgid "-- all --"
 msgstr "-- הכל --"
 
-#: apps/search/forms.py:23 apps/search/forms.py:29
+#: apps/search/forms.py:30 apps/search/forms.py:32
 msgctxt "version_choice"
 msgid "-- all --"
 msgstr "-- הכל --"
@@ -95,9 +99,24 @@ msgid_plural "<strong>%(cnt)s</strong> messages"
 msgstr[0] "הודעה אחת"
 msgstr[1] "%(count)s הודעות"
 
+#: templates/about.html:9
+msgid ""
+"<strong>Firefox Input</strong> is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it "
+"through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
+msgstr ""
+
+#: apps/dashboard/templates/dashboard/dashboard.html:57
+msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
+msgstr ""
+
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
 msgstr "הזנת ATOM לחיפוש זה"
+
+#: templates/about.html:3 templates/includes/footer.html:11
+#, fuzzy
+msgid "About Firefox Input"
+msgstr "Firefox Input"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:26
 #, fuzzy
@@ -146,7 +165,7 @@ msgstr "פלטפורמה"
 msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
 msgstr "אירעה שגיאה לא ידועה ביישום. השגיאה נרשמה ומנהל המערכת עודכן על כך. אנו מצטערים על אי הנוחות!"
 
-#: apps/feedback/__init__.py:72
+#: apps/feedback/__init__.py:78
 msgid "Android"
 msgstr ""
 
@@ -167,16 +186,24 @@ msgstr "&laquo; חזרה לכל האתרים"
 msgid "Back to {domain} &raquo;"
 msgstr "&laquo; חזרה אל {domain}‏"
 
+#: apps/feedback/__init__.py:112
+msgid "Broken Website"
+msgstr ""
+
+#: templates/includes/ua_overlay.html:10
+msgid "Close"
+msgstr ""
+
 #: templates/includes/nav_buttons.html:2
 msgid "Clusters"
 msgstr "אשכולות"
 
-#: apps/themes/templates/themes/index.html:32
+#: apps/themes/templates/themes/index.html:35
 #, fuzzy
 msgid "Common Themes"
 msgstr "מגמות"
 
-#: apps/dashboard/templates/dashboard/message_list.html:33 apps/themes/templates/themes/theme_list.html:28
+#: apps/dashboard/templates/dashboard/message_list.html:33 apps/themes/templates/themes/theme_list.html:31
 msgid "Copy User Agent"
 msgstr "העתק מחרוזת סוכן משתמש"
 
@@ -185,47 +212,88 @@ msgstr "העתק מחרוזת סוכן משתמש"
 msgid "Custom"
 msgstr "מותאם אישית"
 
-#: templates/base.html:29 templates/base_mobile.html:20
+#: templates/base.html:30 templates/base_mobile.html:20
 msgid "Dashboard"
 msgstr "Dashboard"
 
-#: apps/search/forms.py:75
+#: apps/search/forms.py:76
 msgid "Date range:"
 msgstr "טווח תאריכים:"
 
+#: apps/feedback/templates/feedback/release_index.html:130
+msgid "Describe the problem with the website."
+msgstr ""
+
+#: apps/feedback/templates/feedback/release_index.html:181
+msgid "Describe your idea below."
+msgstr ""
+
 #: apps/dashboard/templates/dashboard/devices.html:15
 msgid "Devices"
+msgstr ""
+
+#: apps/feedback/templates/feedback/release_index.html:110
+msgid "Does a website look or behave incorrectly in Firefox?"
+msgstr ""
+
+#: apps/input/__init__.py:60
+msgid "Don't Care"
 msgstr ""
 
 #: apps/feedback/templates/feedback/need_beta.html:3 apps/feedback/templates/feedback/mobile/need_beta.html:3
 msgid "Download Beta"
 msgstr "הורדת גרסת הבטא"
 
-#: apps/feedback/forms.py:94 apps/feedback/forms.py:107
+#: apps/feedback/templates/feedback/need_release.html:3
+#, fuzzy
+msgid "Download Firefox"
+msgstr "הורדת גרסת הבטא"
+
+#: apps/feedback/forms.py:109 apps/feedback/forms.py:122
 msgid "Enter your feedback here."
 msgstr "הכנס את המשוב שלך כאן."
 
-#: apps/feedback/forms.py:121
+#: apps/feedback/forms.py:136 apps/feedback/forms.py:189
 #, fuzzy
 msgid "Enter your suggestions here."
 msgstr "הכנס את המשוב שלך כאן."
 
-#: templates/base_mobile_old.html:61 templates/base_old.html:68 templates/includes/footer.html:12
+#: apps/feedback/forms.py:172
+msgid "Example: Images were not loading, but the rest of the page was."
+msgstr ""
+
+#: apps/input/__init__.py:62
+msgid "Excellent"
+msgstr ""
+
+#: templates/base_mobile_old.html:61 templates/base_old.html:68 templates/includes/footer.html:14
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
 "any later version."
 msgstr "התוכן באתר זה תחת <a href=\"%(license_url)s\">רישיון Creative Commons ייחוס-שיתוף זהה 3.0 </a><br/> או כל גרסה מאוחרת יותר, אלא אם <a href=\"%(legal_url)s\">צויין</a> אחרת."
+
+#: apps/feedback/templates/feedback/release_index.html:244
+msgid "Facebook"
+msgstr ""
+
+#: apps/input/__init__.py:59
+msgid "Fair"
+msgstr ""
+
+#: apps/input/__init__.py:49
+msgid "Features"
+msgstr ""
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:6 apps/search/templates/search/mobile/search.html:6
 #, fuzzy
 msgid "Feed"
 msgstr "משוב"
 
-#: templates/base.html:33
+#: templates/base.html:34
 msgid "Feedback"
 msgstr "משוב"
 
-#: apps/feedback/validators.py:57
+#: apps/feedback/validators.py:36
 msgid "Feedback must not contain HTML."
 msgstr "המשוב אינו יכול להכיל HTML."
 
@@ -233,37 +301,42 @@ msgstr "המשוב אינו יכול להכיל HTML."
 msgid "Find out the latest news from Mozilla:"
 msgstr "עוד חדשות מ־Mozilla:"
 
+#: apps/feedback/templates/feedback/release_index.html:241
+#, fuzzy
+msgid "Find the latest news about Firefox."
+msgstr "עוד חדשות מ־Mozilla:"
+
 #: apps/feedback/__init__.py:9
 msgid "Firefox"
 msgstr "Firefox"
 
-#: apps/search/views.py:85 apps/search/views.py:103
+#: apps/search/views.py:86 apps/search/views.py:104
 msgid "Firefox Input"
 msgstr "Firefox Input"
 
 #. L10n: This is the title to the Search ATOM feed.
-#: apps/search/views.py:102
+#: apps/search/views.py:103
 msgid "Firefox Input: '{query}'"
 msgstr "Firefox Input: '{query}'"
 
-#: apps/feedback/templates/feedback/index.html:24
+#: apps/feedback/templates/feedback/beta_index.html:24
 #, fuzzy
 msgid "Firefox Logo"
 msgstr "Firefox"
 
-#: apps/feedback/templates/feedback/mobile/index.html:13 apps/feedback/templates/feedback/mobile/index.html:15
+#: apps/feedback/templates/feedback/mobile/beta_index.html:13 apps/feedback/templates/feedback/mobile/beta_index.html:15
 msgid "Firefox makes me happy ..."
 msgstr ""
 
-#: apps/feedback/templates/feedback/index.html:13 apps/feedback/templates/feedback/index.html:15
+#: apps/feedback/templates/feedback/beta_index.html:13 apps/feedback/templates/feedback/beta_index.html:15
 msgid "Firefox makes me happy because ..."
 msgstr ""
 
-#: apps/feedback/templates/feedback/mobile/index.html:18 apps/feedback/templates/feedback/mobile/index.html:20
+#: apps/feedback/templates/feedback/mobile/beta_index.html:18 apps/feedback/templates/feedback/mobile/beta_index.html:20
 msgid "Firefox makes me sad ..."
 msgstr ""
 
-#: apps/feedback/templates/feedback/index.html:19 apps/feedback/templates/feedback/index.html:21
+#: apps/feedback/templates/feedback/beta_index.html:19 apps/feedback/templates/feedback/beta_index.html:21
 msgid "Firefox makes me sad because ..."
 msgstr ""
 
@@ -272,13 +345,57 @@ msgstr ""
 msgid "For last:"
 msgstr ""
 
-#: templates/includes/lang_switcher.html:10
+#: templates/includes/footer_release.html:16 templates/includes/lang_switcher.html:10
 msgid "Go"
 msgstr "עבור"
+
+#: apps/feedback/templates/feedback/release_index.html:40 apps/feedback/templates/feedback/release_index.html:114 apps/feedback/templates/feedback/release_index.html:171
+msgid "Go Back"
+msgstr ""
+
+#: apps/input/__init__.py:61
+msgid "Good"
+msgstr ""
 
 #: apps/feedback/templates/feedback/feedback.html:56
 msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
 msgstr "הייתה לך בעיה עם אתר מסויים? בבקשה הכנס את כתובתו, כדי שנוכל למצוא את המידע מהר יותר."
+
+#: apps/feedback/templates/feedback/release_index.html:169
+msgid "Have an idea how Firefox could be better? Let us know!"
+msgstr ""
+
+#: templates/about.html:7
+msgid "Hello!"
+msgstr ""
+
+#: templates/includes/ua_overlay.html:7
+msgid "Hit Ctrl+C (Cmd+C on Mac) to copy and close."
+msgstr ""
+
+#: apps/input/__init__.py:44
+msgid "How frequently Firefox crashes or loses data"
+msgstr ""
+
+#: apps/input/__init__.py:26
+msgid "How long Firefox takes to start running"
+msgstr ""
+
+#: apps/input/__init__.py:32
+msgid "How long it takes for web pages to load"
+msgstr ""
+
+#: apps/input/__init__.py:38
+msgid "How quickly web pages respond once they have loaded"
+msgstr ""
+
+#: apps/input/__init__.py:50
+msgid "How well Firefox's built-in features serve your needs"
+msgstr ""
+
+#: apps/feedback/templates/feedback/release_index.html:38
+msgid "How would you rate these aspects of Firefox?"
+msgstr ""
 
 #: templates/404.html:6
 msgid "I'm sorry, I could not find what you were looking for."
@@ -300,7 +417,11 @@ msgstr "במידה וברשותך מידע נוסף כיצד ניתן לשחזר
 msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
 msgstr ""
 
-#: apps/feedback/templates/feedback/index.html:25
+#: apps/feedback/templates/feedback/release_index.html:24
+msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
+msgstr ""
+
+#: apps/feedback/templates/feedback/beta_index.html:25
 msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
 msgstr ""
 
@@ -324,13 +445,18 @@ msgstr "Input Dashboard"
 msgid "Internal Server Error"
 msgstr "שגיאת שרת פנימית"
 
-#: apps/dashboard/templates/dashboard/message_list.html:8 apps/feedback/__init__.py:96 apps/feedback/helpers.py:39 apps/themes/templates/themes/theme_list.html:9
+#: apps/feedback/views.py:103 apps/feedback/views.py:173
+#, fuzzy
+msgid "Invalid feedback type"
+msgstr "כל המשובים"
+
+#: apps/dashboard/templates/dashboard/message_list.html:8 apps/feedback/__init__.py:109 apps/feedback/helpers.py:39 apps/themes/templates/themes/theme_list.html:12
 #: apps/website_issues/templates/website_issues/single_site.html:11
 msgid "Issue"
 msgstr "תלונה"
 
 #. Formerly called "sad"
-#: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/search/views.py:213
+#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:38 apps/search/views.py:211
 #: apps/themes/views.py:34 apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Issues"
 msgstr "תלונות"
@@ -339,7 +465,7 @@ msgstr "תלונות"
 msgid "Issues only"
 msgstr "תלונות בלבד"
 
-#: apps/feedback/templates/feedback/index.html:7
+#: apps/feedback/templates/feedback/beta_index.html:7
 msgid "It's great to hear you want to help Mozilla make your experience better!"
 msgstr ""
 
@@ -362,15 +488,15 @@ msgstr "שבוע אחרון"
 msgid "Last day"
 msgstr "יום אחרון"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:59
+#: apps/dashboard/templates/dashboard/dashboard.html:66
 msgid "Latest Feedback"
 msgstr "משוב אחרון"
 
-#: templates/base_mobile_old.html:57 templates/base_old.html:64 templates/includes/footer.html:8
+#: templates/base_mobile_old.html:57 templates/base_old.html:64 templates/includes/footer.html:9
 msgid "Legal Notices"
 msgstr "הערות משפטיות"
 
-#: apps/feedback/__init__.py:78
+#: apps/feedback/__init__.py:84
 msgid "Linux"
 msgstr "Linux"
 
@@ -383,15 +509,15 @@ msgid "Locale"
 msgstr "שפה"
 
 # locale -> language, because of lack of better translation.
-#: apps/search/forms.py:67
+#: apps/search/forms.py:68
 msgid "Locale:"
 msgstr "שפה:"
 
-#: apps/feedback/__init__.py:60
+#: apps/feedback/__init__.py:66
 msgid "Mac OS X"
 msgstr "Mac OS X"
 
-#: apps/feedback/__init__.py:66
+#: apps/feedback/__init__.py:72
 msgid "Maemo"
 msgstr ""
 
@@ -408,7 +534,12 @@ msgstr "הודעות"
 msgid "Mobile"
 msgstr "Mobile"
 
-#: apps/dashboard/templates/dashboard/message_list.html:30 apps/themes/templates/themes/theme_list.html:25
+#: apps/dashboard/templates/dashboard/locales.html:27
+#, fuzzy
+msgid "More Locales"
+msgstr "שפה"
+
+#: apps/dashboard/templates/dashboard/message_list.html:30 apps/themes/templates/themes/theme_list.html:28
 msgid "More Options"
 msgstr "אפשרויות נוספות"
 
@@ -420,11 +551,16 @@ msgstr "אתרים נוספים..."
 msgid "Next Page &raquo;"
 msgstr "&laquo; דף הבא"
 
+#. short for an indefinite date range
+#: apps/dashboard/templates/dashboard/includes/when_selectors.html:12
+msgid "No date limit"
+msgstr ""
+
 #: apps/website_issues/templates/website_issues/sites_list.html:27
 msgid "No results found!"
 msgstr "לא נמצאו תוצאות!"
 
-#: apps/dashboard/templates/dashboard/message_list.html:52 apps/themes/templates/themes/theme_list.html:40
+#: apps/dashboard/templates/dashboard/message_list.html:52 apps/themes/templates/themes/theme_list.html:43
 msgid "No search results found."
 msgstr "לא נמצאו תוצאות חיפוש."
 
@@ -432,7 +568,7 @@ msgstr "לא נמצאו תוצאות חיפוש."
 msgid "Not Found"
 msgstr "לא נמצא"
 
-#: apps/search/forms.py:69
+#: apps/search/forms.py:70
 msgid "OS:"
 msgstr "מערכת הפעלה:"
 
@@ -440,6 +576,11 @@ msgstr "מערכת הפעלה:"
 #: apps/dashboard/templates/dashboard/themes.html:3 apps/dashboard/templates/dashboard/mobile/themes.html:2
 msgid "Often Mentioned"
 msgstr "מוזכרים לעיתים קרובות"
+
+#: apps/feedback/templates/feedback/need_release.html:8
+#, fuzzy
+msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
+msgstr "נראה שאתה מציע לנו משוב על הגרסה הבאה של Firefox. תודה לך, אבל תצטרך להיות חלק מתכנית הבטא שלנו לשם כך."
 
 #: apps/feedback/templates/feedback/need_beta.html:8
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
@@ -454,20 +595,24 @@ msgstr "נראה שאתה מציע לנו משוב. כדי לעשות זאת ע�
 msgid "Older Feedback &raquo;"
 msgstr "&laquo; הודעות חדשות יותר"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:70 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:73
+#: apps/dashboard/templates/dashboard/dashboard.html:77 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:73
 #, fuzzy
 msgid "Older Messages &raquo;"
 msgstr "&laquo; הודעות חדשות יותר"
+
+#: templates/about.html:24
+msgid "Open Data"
+msgstr ""
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:68
 msgid "Or submit your ideas with our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
 msgstr ""
 
-#: apps/feedback/__init__.py:84
+#: apps/feedback/__init__.py:90
 msgid "Other"
 msgstr "אחר"
 
-#: templates/includes/lang_switcher.html:2
+#: templates/includes/footer_release.html:5 templates/includes/lang_switcher.html:2
 msgid "Other languages:"
 msgstr "שפות אחרות:"
 
@@ -475,7 +620,15 @@ msgstr "שפות אחרות:"
 msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
 msgstr "מנוע החיפוש שלנו אינו זמין כעת. באפשרותך להתחיל מחדש ב־<a href=\"%(url)s\">dashboard</a> ולנסות שוב מאוחר יותר."
 
-#: apps/dashboard/templates/dashboard/platforms.html:12 apps/dashboard/templates/dashboard/mobile/platforms.html:8 apps/themes/templates/themes/index.html:22
+#: apps/input/__init__.py:31
+msgid "Page Load Time"
+msgstr ""
+
+#: apps/feedback/templates/feedback/release_index.html:245
+msgid "Planet Mozilla"
+msgstr ""
+
+#: apps/dashboard/templates/dashboard/platforms.html:12 apps/dashboard/templates/dashboard/mobile/platforms.html:8 apps/themes/templates/themes/index.html:24
 msgid "Platform"
 msgstr "פלטפורמה"
 
@@ -484,11 +637,11 @@ msgstr "פלטפורמה"
 msgid "Platforms"
 msgstr "פלטפורמה"
 
-#: apps/feedback/templates/feedback/index.html:9
+#: apps/feedback/templates/feedback/beta_index.html:9
 msgid "Please choose one of the following types of feedback that you would like to submit to us:"
 msgstr ""
 
-#: apps/feedback/templates/feedback/mobile/index.html:10
+#: apps/feedback/templates/feedback/mobile/beta_index.html:10
 msgid "Please choose the type of feedback that you would like to submit to us:"
 msgstr ""
 
@@ -500,9 +653,13 @@ msgstr "אנא וודא כי אין בטופס מידע אישי שניתן לז
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 msgstr "בבקשה התחל מחדש ב־<a href=\"%(dashboard_url)s\">dashboard</a>."
 
+#: apps/input/__init__.py:58
+msgid "Poor"
+msgstr ""
+
 #. Formerly called "happy"
-#: apps/dashboard/views.py:53 apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8
-#: apps/feedback/__init__.py:95 apps/feedback/helpers.py:36 apps/search/forms.py:36 apps/search/views.py:212 apps/themes/views.py:29 apps/themes/templates/themes/theme_list.html:7
+#: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8
+#: apps/feedback/__init__.py:108 apps/feedback/helpers.py:36 apps/search/forms.py:37 apps/search/views.py:210 apps/themes/views.py:29 apps/themes/templates/themes/theme_list.html:8
 #: apps/website_issues/templates/website_issues/single_site.html:9 apps/website_issues/templates/website_issues/website_issues.html:32
 msgid "Praise"
 msgstr "תשבוחות"
@@ -511,7 +668,7 @@ msgstr "תשבוחות"
 msgid "Praise only"
 msgstr "תשבוחות בלבד"
 
-#: templates/base_mobile_old.html:56 templates/base_old.html:63 templates/includes/footer.html:7
+#: templates/base_mobile_old.html:56 templates/base_old.html:63 templates/includes/footer.html:8
 msgid "Privacy Policy"
 msgstr "מדיניות פרטיות"
 
@@ -529,17 +686,38 @@ msgstr "עבור לתוכן"
 msgid "Product"
 msgstr "מוצר:"
 
-#: apps/search/forms.py:61
+#: apps/search/forms.py:62
 msgid "Product:"
 msgstr "מוצר:"
+
+#: apps/feedback/templates/feedback/release_index.html:111
+msgid "Provide us some details about the problem and we'll try to fix it."
+msgstr ""
 
 #: apps/search/client.py:194
 msgid "Query has timed out."
 msgstr "פג הזמן לשאילתה."
 
-#: templates/base_mobile_old.html:58 templates/base_old.html:65 templates/includes/footer.html:9
+#: apps/feedback/templates/feedback/release_index.html:16 apps/feedback/templates/feedback/release_index.html:37
+msgid "Rate Your Experience"
+msgstr ""
+
+#: apps/feedback/__init__.py:111
+msgid "Rating"
+msgstr ""
+
+#: templates/base_mobile_old.html:58 templates/base_old.html:65 templates/includes/footer.html:10
 msgid "Report Trademark Abuse"
 msgstr "דווח על שימוש לרעה בסימן רשום"
+
+#: apps/feedback/templates/feedback/release_index.html:17 apps/feedback/templates/feedback/release_index.html:108
+#, fuzzy
+msgid "Report a Broken Website"
+msgstr "דווח על שימוש לרעה בסימן רשום"
+
+#: apps/input/__init__.py:37
+msgid "Responsiveness"
+msgstr ""
 
 #: apps/search/templates/search/search_form.html:19
 msgid "Search"
@@ -549,7 +727,7 @@ msgstr "חיפוש"
 msgid "Search Results"
 msgstr "תוצאות חיפוש"
 
-#: apps/search/views.py:86
+#: apps/search/views.py:87
 msgid "Search Results in Firefox Beta Feedback."
 msgstr "תוצאות חיפוש במשובים עבור Firefox Beta."
 
@@ -557,7 +735,7 @@ msgstr "תוצאות חיפוש במשובים עבור Firefox Beta."
 msgid "Search Unavailable"
 msgstr "חיפוש אינו זמין"
 
-#: apps/search/forms.py:60
+#: apps/search/forms.py:61
 msgid "Search by keyword"
 msgstr "חיפוש לפי מילות מפתח"
 
@@ -566,11 +744,11 @@ msgctxt "website_issues_search"
 msgid "Search for domain"
 msgstr "חיפוש כתובת מתחם"
 
-#: apps/themes/templates/themes/theme_list.html:11
+#: apps/themes/templates/themes/theme_list.html:14
 msgid "See all opinions"
 msgstr ""
 
-#: apps/search/forms.py:65
+#: apps/search/forms.py:66
 msgid "Sentiment:"
 msgstr "הרגשה:"
 
@@ -580,12 +758,16 @@ msgctxt "date_range_set"
 msgid "Set"
 msgstr "הגדר"
 
+#: apps/feedback/templates/feedback/release_index.html:18 apps/feedback/templates/feedback/release_index.html:168
+msgid "Share an Idea"
+msgstr ""
+
 #: apps/dashboard/templates/includes/filter_box_toggle.html:4
 msgid "Show/Hide Options"
 msgstr "הצג/הסתר אפשרויות"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:12 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/website_issues.html:10
-#: templates/base.html:40 templates/includes/nav_buttons.html:4
+#: templates/base.html:41 templates/includes/nav_buttons.html:4
 msgid "Sites"
 msgstr "אתרים"
 
@@ -597,30 +779,51 @@ msgstr "אתרים עם הודעה אחת בלבד"
 msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please make your suggestion below:"
 msgstr ""
 
+#: templates/about.html:34
+msgid "Source Code"
+msgstr ""
+
 #. L10n: Sphinx is the name of the search engine software.
 #: apps/search/client.py:197
 msgid "Sphinx threw an unknown exception: %s"
 msgstr "Sphinx threw an unknown exception: %s"
 
+#: apps/input/__init__.py:43
+msgid "Stability"
+msgstr ""
+
+#: apps/input/__init__.py:25
+msgid "Start-Up Time"
+msgstr ""
+
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:7 apps/search/templates/search/mobile/search.html:7
 msgid "Statistics"
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:79 apps/feedback/templates/feedback/index.html:3
-#: apps/feedback/templates/feedback/mobile/feedback.html:3 apps/feedback/templates/feedback/mobile/feedback.html:61 apps/feedback/templates/feedback/mobile/index.html:3
+#: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:79
+#: apps/feedback/templates/feedback/release_index.html:3 apps/feedback/templates/feedback/release_index.html:96 apps/feedback/templates/feedback/release_index.html:97
+#: apps/feedback/templates/feedback/release_index.html:156 apps/feedback/templates/feedback/release_index.html:157 apps/feedback/templates/feedback/release_index.html:207
+#: apps/feedback/templates/feedback/release_index.html:208 apps/feedback/templates/feedback/mobile/beta_index.html:3 apps/feedback/templates/feedback/mobile/feedback.html:3
+#: apps/feedback/templates/feedback/mobile/feedback.html:61
 msgid "Submit Feedback"
 msgstr "שליחת משוב"
 
-#: apps/feedback/validators.py:38
-msgid "Submitted User Agent is not the latest beta version."
-msgstr "סוכן המשתמש שנשלח אינו גרסת הבטא האחרונה."
+#: apps/feedback/templates/feedback/release_index.html:10
+#, fuzzy
+msgid "Submit Your Feedback"
+msgstr "שליחת משוב"
 
-#: apps/dashboard/templates/dashboard/message_list.html:10 apps/feedback/__init__.py:97 apps/feedback/templates/feedback/feedback.html:13 apps/feedback/templates/feedback/mobile/feedback.html:21
-#: apps/search/views.py:214
+#: apps/feedback/templates/feedback/release_index.html:96 apps/feedback/templates/feedback/release_index.html:156 apps/feedback/templates/feedback/release_index.html:207
+#, fuzzy
+msgid "Submitting Feedback"
+msgstr "שליחת משוב"
+
+#: apps/dashboard/templates/dashboard/message_list.html:10 apps/feedback/__init__.py:110 apps/feedback/templates/feedback/feedback.html:13 apps/feedback/templates/feedback/mobile/feedback.html:21
+#: apps/search/views.py:212 apps/themes/templates/themes/theme_list.html:10
 msgid "Suggestion"
 msgstr ""
 
-#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:38 apps/themes/views.py:39
+#: apps/dashboard/views.py:56 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:39 apps/themes/views.py:39
 msgid "Suggestions"
 msgstr ""
 
@@ -636,11 +839,11 @@ msgstr "מעולה! אנו שמחים לשמוע שאתה נהנה מגרסת ה
 msgid "Super! Please tell us more!"
 msgstr "מעולה! בבקשה ספר לנו עוד!"
 
-#: apps/feedback/templates/feedback/thanks.html:3 apps/feedback/templates/feedback/mobile/thanks.html:3
+#: apps/feedback/templates/feedback/release_index.html:219 apps/feedback/templates/feedback/thanks.html:3 apps/feedback/templates/feedback/mobile/thanks.html:3
 msgid "Thanks for Your Feedback"
 msgstr "תודה על המשוב"
 
-#: apps/feedback/templates/feedback/mobile/index.html:8
+#: apps/feedback/templates/feedback/mobile/beta_index.html:8
 msgid "Thanks for helping Mozilla make your experience better!"
 msgstr ""
 
@@ -652,6 +855,10 @@ msgstr "תודה רבה על ששלחת אלינו את המשוב שלך!"
 msgid "Thanks!"
 msgstr "תודה!"
 
+#: templates/about.html:37
+msgid "The code for the Firefox Input web application can be found <a href=\"%(source_url)s\">on GitHub</a>!"
+msgstr ""
+
 #: apps/themes/templates/themes/theme.html:4 apps/themes/templates/themes/theme.html:14 apps/website_issues/templates/website_issues/theme.html:15
 msgid "Theme"
 msgstr "ערכת נושא"
@@ -662,7 +869,7 @@ msgid "Theme for {domain}"
 msgstr "חיפוש כתובת מתחם"
 
 #. Formerly: Clusters
-#: apps/themes/templates/themes/index.html:2 templates/base.html:36
+#: apps/themes/templates/themes/index.html:2 templates/base.html:37
 msgid "Themes"
 msgstr "מגמות"
 
@@ -670,13 +877,27 @@ msgstr "מגמות"
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
 msgstr "כדי להצטרף, עליך לעבור לדף ההורדה ולהוריד את <a href=\"%(url)s\">גרסת הבטא של Firefox!</a>"
 
+#: apps/feedback/templates/feedback/need_release.html:14
+#, fuzzy
+msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
+msgstr "כדי להצטרף, עליך לעבור לדף ההורדה ולהוריד את <a href=\"%(url)s\">גרסת הבטא של Firefox!</a>"
+
+#: apps/feedback/templates/feedback/release_index.html:137 apps/feedback/templates/feedback/release_index.html:188
+#, fuzzy
+msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
+msgstr "אנא וודא כי אין בטופס מידע אישי שניתן לזיהוי."
+
+#: templates/about.html:18
+msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(feedback_url)s\">the feedback submission page</a>!"
+msgstr ""
+
 #. Link text for showing/hiding options
 #: apps/dashboard/templates/includes/filter_box_toggle.html:6
 msgid "Toggle"
 msgstr "מתג"
 
 #. Link to Google Translator
-#: apps/dashboard/templates/dashboard/message_list.html:37 apps/themes/templates/themes/theme_list.html:30
+#: apps/dashboard/templates/dashboard/message_list.html:37 apps/themes/templates/themes/theme_list.html:33
 msgid "Translate Message"
 msgstr "תרגם הודעה"
 
@@ -688,6 +909,10 @@ msgstr "מגמות"
 msgid "Tweet This"
 msgstr ""
 
+#: apps/feedback/templates/feedback/release_index.html:243
+msgid "Twitter"
+msgstr ""
+
 #: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
 #: apps/website_issues/templates/website_issues/website_issues.html:28
 msgid "Type of Feedback"
@@ -697,25 +922,40 @@ msgstr "סוג משוב"
 msgid "Uncommon Sites"
 msgstr "אתרים נדירים"
 
-#: apps/dashboard/templates/dashboard/devices.html:8 apps/dashboard/templates/dashboard/manufacturers.html:9 apps/feedback/helpers.py:16 apps/search/forms.py:46 apps/search/forms.py:49
-#: apps/search/forms.py:54
+#: apps/dashboard/templates/dashboard/devices.html:8 apps/dashboard/templates/dashboard/manufacturers.html:9 apps/feedback/helpers.py:16 apps/search/forms.py:47 apps/search/forms.py:50
+#: apps/search/forms.py:55
 #, fuzzy
 msgid "Unknown"
 msgstr "לא ידוע"
 
-#: apps/feedback/validators.py:30
-msgid "User agent string was not recognizable."
-msgstr "מחרוזת סוכן המשתמש לא זוהתה."
+#: templates/includes/ua_overlay.html:3
+#, fuzzy
+msgid "User Agent"
+msgstr "העתק מחרוזת סוכן משתמש"
 
-#: apps/feedback/views.py:36
+#: templates/includes/ua_overlay.html:9
+msgid "User agent copied"
+msgstr ""
+
+#: apps/feedback/views.py:47
 msgid "User-Agent request header must be set."
 msgstr "חובה להגדיר בבקשה כותר סוכן משתמש."
 
-#: apps/search/forms.py:63
+#: apps/search/forms.py:64
 msgid "Version:"
 msgstr "גרסה:"
 
-#: apps/feedback/forms.py:65
+#: apps/feedback/templates/feedback/release_index.html:234
+#, fuzzy
+msgid "Visit the <a href=\"%(dashboard_url)s\">Firefox Feedback Dashboard</a>"
+msgstr "בבקשה התחל מחדש ב־<a href=\"%(dashboard_url)s\">dashboard</a>."
+
+#: apps/feedback/templates/feedback/release_index.html:232
+#, fuzzy
+msgid "Want to see where your feedback goes?"
+msgstr "הכנס את המשוב שלך כאן."
+
+#: apps/feedback/forms.py:99
 msgid "We already got your feedback! Thanks."
 msgstr "קיבלנו את המשוב שלך! תודה."
 
@@ -723,6 +963,12 @@ msgstr "קיבלנו את המשוב שלך! תודה."
 #, fuzzy
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
 msgstr "אנו מצטערים לשמוע שלא הייתה לך חווית שימוש טובה עם הדפדפן שלנו. בבקשה ספר לנו מדוע, כדי שנוכל לשפר אותו."
+
+#: templates/about.html:27
+msgid ""
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+"please <a href=\"%(data_url)s\">contact us</a>!"
+msgstr ""
 
 #: templates/base.html:5 templates/base_mobile.html:6
 #, fuzzy
@@ -732,6 +978,10 @@ msgstr "‫ברוכים הבאים!"
 #: templates/base_mobile_old.html:5 templates/base_old.html:5
 msgid "Welcome!"
 msgstr "‫ברוכים הבאים!"
+
+#: apps/feedback/templates/feedback/release_index.html:124
+msgid "What is the URL of the broken site?"
+msgstr ""
 
 #. Title for a time-based search filter
 #: apps/dashboard/templates/dashboard/when.html:2
@@ -743,30 +993,38 @@ msgstr "מתי"
 msgid "While Visiting"
 msgstr "כאשר מבקרים באתר"
 
-#: apps/feedback/__init__.py:48
+#: apps/feedback/__init__.py:54
 msgid "Windows 7"
 msgstr "Windows 7‎"
 
-#: apps/feedback/__init__.py:54
+#: apps/feedback/__init__.py:60
 msgid "Windows Vista"
 msgstr "Windows Vista"
 
-#: apps/feedback/__init__.py:42
+#: apps/feedback/__init__.py:48
 msgid "Windows XP"
 msgstr "Windows XP"
 
 # 'swear' is a promise or a curse? I just want to make sure I'm not doing mistakes here. 
-#: apps/feedback/validators.py:48
+#: apps/feedback/validators.py:27
 msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
 msgstr "התגובה שלך כוללת קללות (%s). כדי לסייע לנו להפיק את המיטב מהמוצרים שלנו, אנא השתמש במילים שיכולות לעזור לנו לבצע פעולה או רשימת משימות מהמשוב הבונה שלך. תודה!"
 
-#: apps/feedback/validators.py:73
+#: apps/feedback/templates/feedback/release_index.html:11
+msgid "Your feedback helps us improve Firefox."
+msgstr ""
+
+#: apps/feedback/validators.py:52
 msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr "המשוב שלך כולל כתובת של אתר. בבקשה הסר אותה ונתונים אישיים דומים מהמלל ונסה שוב. תודה!"
 
-#: apps/feedback/validators.py:64
+#: apps/feedback/validators.py:43
 msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr "נראה שהמשוב שלך כולל כתובת דואר אלקטרוני. אנא הסר כתובת זו ונתונים אישיים דומים מהמלל ונסה שוב. תודה!"
+
+#: apps/feedback/templates/feedback/release_index.html:222
+msgid "Your feedback will be used to create a better experience in future releases of Firefox."
+msgstr ""
 
 #. L10n: This means an event that happened only a few seconds ago.
 #: apps/input/helpers.py:86
@@ -778,7 +1036,7 @@ msgid "reset my search"
 msgstr "אפס חיפוש"
 
 #. L10n: This indicates the second part of a date range.
-#: apps/search/forms.py:78
+#: apps/search/forms.py:79
 msgid "to"
 msgstr "עד"
 
@@ -907,6 +1165,9 @@ msgstr "{percentage}% תשבוחות"
 #~ msgid "Showing the first {count}"
 #~ msgstr "מציג {count} ראשונים"
 
+#~ msgid "Submitted User Agent is not the latest beta version."
+#~ msgstr "סוכן המשתמש שנשלח אינו גרסת הבטא האחרונה."
+
 #~ msgid "Translate!"
 #~ msgstr "תרגם!"
 
@@ -915,6 +1176,9 @@ msgstr "{percentage}% תשבוחות"
 
 #~ msgid "URL"
 #~ msgstr "כתובת"
+
+#~ msgid "User agent string was not recognizable."
+#~ msgstr "מחרוזת סוכן המשתמש לא זוהתה."
 
 #~ msgid "Version"
 #~ msgstr "גרסה"
