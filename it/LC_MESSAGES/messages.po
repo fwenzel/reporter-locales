@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 15:36+0200\n"
-"PO-Revision-Date: 2011-01-15 07:20+0200\n"
+"PO-Revision-Date: 2011-01-16 09:14+0200\n"
 "Last-Translator: Francesco <francesco.lodolo@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -48,7 +48,7 @@ msgstr "&infin;"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:35 apps/search/templates/search/mobile/search.html:38
 msgid "&laquo; Newer Feedback"
-msgstr "&laquo; Feedback più recente"
+msgstr "&laquo; Commenti più recenti"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:76 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:63
 msgid "&laquo; Newer Messages"
@@ -102,19 +102,20 @@ msgid ""
 "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
 msgstr ""
 "<strong>Firefox Input</strong> è lo strumento principale utilizzato da "
-"Mozilla per raccogliere le opinioni e i commenti degli utenti. È impostato "
-"come un canale di comunicazione unidirezionale sulla tua esperienza "
-"nell'utilizzo di Firefox, sulla rete a cui accedi attraverso di esso e su "
-"come Mozilla possa migliorare la tua navigazione. Il sistema prevede "
-"un'ampia gamma di meccanismi per inviare la tua opinione con tutte le tre "
-"versioni principali del programma."
+"Mozilla per raccogliere le opinioni e i suggerimenti degli utenti. È "
+"impostato come un canale di comunicazione unidirezionale sulla tua "
+"esperienza nell'utilizzo di Firefox, sulla rete a cui accedi attraverso di "
+"esso e su come Mozilla possa migliorare la tua navigazione. Il sistema "
+"prevede un'ampia gamma di meccanismi per inviare la tua opinione con i tre "
+"canali principali di distribuzione del programma."
 
 #: apps/dashboard/templates/dashboard/dashboard.html:57
 msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
 msgstr ""
 "<strong>Benvenuto in Firefox Input.</strong> Questo è lo strumento "
-"principale utilizzato da Mozilla per raccogliere le opinioni e i commenti "
-"degli utenti. <a href=\"%(about_url)s\">Ulteriori informazioni...</a>"
+"principale utilizzato da Mozilla per raccogliere le opinioni e i "
+"suggerimenti degli utenti. <a href=\"%(about_url)s\">Ulteriori "
+"informazioni...</a>"
 
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
@@ -156,7 +157,7 @@ msgstr "Qualunque piattaforma"
 
 #: apps/themes/views.py:24 apps/website_issues/templates/website_issues/website_issues.html:31
 msgid "All feedback"
-msgstr "Qualunque feedback"
+msgstr "Qualunque commento"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:42
 msgid "All platforms"
@@ -221,7 +222,7 @@ msgstr "Da data"
 
 #: apps/feedback/templates/feedback/release_index.html:130
 msgid "Describe the problem with the website."
-msgstr "Descrivi il problema con il sito web."
+msgstr "Descrivi il problema del sito web."
 
 #: apps/feedback/templates/feedback/release_index.html:181
 msgid "Describe your idea below."
@@ -249,7 +250,7 @@ msgstr "Scarica Firefox"
 
 #: apps/feedback/forms.py:109 apps/feedback/forms.py:122
 msgid "Enter your feedback here."
-msgstr "Inserisci qui il tuo feedback."
+msgstr "Inserisci qui i tuoi commenti e suggerimenti."
 
 #: apps/feedback/forms.py:136 apps/feedback/forms.py:189
 msgid "Enter your suggestions here."
@@ -291,11 +292,11 @@ msgstr "Feed"
 
 #: templates/base.html:34
 msgid "Feedback"
-msgstr "Feedback"
+msgstr "Commenti"
 
 #: apps/feedback/validators.py:36
 msgid "Feedback must not contain HTML."
-msgstr "Il tuo feedback non può contenere HTML"
+msgstr "Il tuo commento non può contenere HTML"
 
 #: apps/feedback/templates/feedback/thanks.html:17 apps/feedback/templates/feedback/mobile/thanks.html:12
 msgid "Find out the latest news from Mozilla:"
@@ -377,7 +378,7 @@ msgstr "La frequenza con cui Firefox si blocca o perde dati"
 
 #: apps/input/__init__.py:26
 msgid "How long Firefox takes to start running"
-msgstr "Il tempo di avvio di Firefox"
+msgstr "Il tempo necessario per avviare di Firefox"
 
 #: apps/input/__init__.py:32
 msgid "How long it takes for web pages to load"
@@ -426,7 +427,9 @@ msgstr "Se hai bisogno di aiuto o hai un problema con Firefox, visita la <a href
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
-msgstr "Se vuoi scoprire dove viene trasmesso il tuo feedback, dai un'occhiata alla nostra <a href=\"%(url)s\">dashboard per Firefox Input</a>."
+msgstr ""
+"Se vuoi scoprire dove vengono trasmessi i tuoi commenti e suggerimenti, dai "
+"un'occhiata alla nostra <a href=\"%(url)s\">dashboard per Firefox Input</a>."
 
 #: templates/404.html:14
 msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
@@ -448,7 +451,7 @@ msgstr "Errore interno del server"
 
 #: apps/feedback/views.py:103 apps/feedback/views.py:173
 msgid "Invalid feedback type"
-msgstr "Tipo di feedback non valido"
+msgstr "Tipo di commento non valido"
 
 #: apps/dashboard/templates/dashboard/message_list.html:8 apps/feedback/__init__.py:109 apps/feedback/helpers.py:39 apps/themes/templates/themes/theme_list.html:12
 #: apps/website_issues/templates/website_issues/single_site.html:11
@@ -490,7 +493,7 @@ msgstr "Ultimo giorno"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:66
 msgid "Latest Feedback"
-msgstr "Ultimo feedback"
+msgstr "Ultimi commenti"
 
 #: templates/base_mobile_old.html:57 templates/base_old.html:64 templates/includes/footer.html:9
 msgid "Legal Notices"
@@ -593,7 +596,7 @@ msgstr ""
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:36 apps/search/templates/search/mobile/search.html:48
 msgid "Older Feedback &raquo;"
-msgstr "Feedback più vecchio &raquo;"
+msgstr "Commenti più vecchi &raquo;"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:77 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:73
 msgid "Older Messages &raquo;"
@@ -623,7 +626,7 @@ msgstr "Il nostro motore di ricerca potrebbe non essere momentaneamente disponib
 
 #: apps/input/__init__.py:31
 msgid "Page Load Time"
-msgstr "Tempo di caricamento pagina"
+msgstr "Velocità di caricamento pagina"
 
 #: apps/feedback/templates/feedback/release_index.html:245
 msgid "Planet Mozilla"
@@ -647,7 +650,7 @@ msgstr "Scegli il tipo di commento che vuoi inviare:"
 
 #: apps/feedback/templates/feedback/feedback.html:77 apps/feedback/templates/feedback/mobile/feedback.html:59
 msgid "Please ensure that there is no personally identifiable information here."
-msgstr "Assicurati che non sia presente alcuna informazione personale in questa sezione."
+msgstr "Assicurati che non sia presente alcuna informazione personale."
 
 #: templates/404.html:9 templates/500.html:14
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
@@ -792,7 +795,7 @@ msgstr "Stabilità"
 
 #: apps/input/__init__.py:25
 msgid "Start-Up Time"
-msgstr "Tempi di avvio"
+msgstr "Velocità di avvio"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:7 apps/search/templates/search/mobile/search.html:7
 msgid "Statistics"
@@ -804,15 +807,15 @@ msgstr "Statistiche"
 #: apps/feedback/templates/feedback/release_index.html:208 apps/feedback/templates/feedback/mobile/beta_index.html:3 apps/feedback/templates/feedback/mobile/feedback.html:3
 #: apps/feedback/templates/feedback/mobile/feedback.html:61
 msgid "Submit Feedback"
-msgstr "Invia feedback"
+msgstr "Invia"
 
 #: apps/feedback/templates/feedback/release_index.html:10
 msgid "Submit Your Feedback"
-msgstr "Invia il tuo feedback"
+msgstr "Invia commenti e suggerimenti"
 
 #: apps/feedback/templates/feedback/release_index.html:96 apps/feedback/templates/feedback/release_index.html:156 apps/feedback/templates/feedback/release_index.html:207
 msgid "Submitting Feedback"
-msgstr "Invio del feedback in corso"
+msgstr "Invio in corso"
 
 #: apps/dashboard/templates/dashboard/message_list.html:10 apps/feedback/__init__.py:110 apps/feedback/templates/feedback/feedback.html:13 apps/feedback/templates/feedback/mobile/feedback.html:21
 #: apps/search/views.py:212 apps/themes/templates/themes/theme_list.html:10
@@ -837,7 +840,7 @@ msgstr "Grandioso! Dicci qualcosa di più."
 
 #: apps/feedback/templates/feedback/release_index.html:219 apps/feedback/templates/feedback/thanks.html:3 apps/feedback/templates/feedback/mobile/thanks.html:3
 msgid "Thanks for Your Feedback"
-msgstr "Grazie per il tuo feedback"
+msgstr "Grazie per la tua partecipazione"
 
 #: apps/feedback/templates/feedback/mobile/beta_index.html:8
 msgid "Thanks for helping Mozilla make your experience better!"
@@ -886,13 +889,13 @@ msgstr ""
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
 msgstr ""
 "Per proteggere la tua privacy, assicurati che non sia presente alcuna "
-"informazione personale nel tuo feedback."
+"informazione personale nel testo."
 
 #: templates/about.html:18
 msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(feedback_url)s\">the feedback submission page</a>!"
 msgstr ""
 "Per inviare i tuoi commenti sulla tua versione di Firefox, vai alla <a "
-"href=\"%(feedback_url)s\">pagina per inviare i feedback</a>."
+"href=\"%(feedback_url)s\">pagina per inviare commenti e suggerimenti</a>."
 
 #. Link text for showing/hiding options
 #: apps/dashboard/templates/includes/filter_box_toggle.html:6
@@ -919,7 +922,7 @@ msgstr "Twitter"
 #: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
 #: apps/website_issues/templates/website_issues/website_issues.html:28
 msgid "Type of Feedback"
-msgstr "Tipo di feedback"
+msgstr "Tipo di commento"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:84
 msgid "Uncommon Sites"
@@ -957,7 +960,7 @@ msgstr "Vuoi vedere dove finiscono le tue opinioni e i tuoi commenti?"
 
 #: apps/feedback/forms.py:99
 msgid "We already got your feedback! Thanks."
-msgstr "Abbiamo già ricevuto il tuo feedback. Grazie."
+msgstr "Abbiamo già ricevuto il tuo commento. Grazie."
 
 #: apps/feedback/templates/feedback/feedback.html:24
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
@@ -1010,12 +1013,15 @@ msgstr "Windows XP"
 #: apps/feedback/validators.py:27
 msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
 msgstr ""
-"Il tuo commento contiene termini volgari (%s). Per aiutarci a migliorare il prodotto ti preghiamo di utilizzare un linguaggio che, a partire da un feedback costruttivo, ci consenta di prendere "
-"decisioni pratiche per migliorare il prodotto. Grazie."
+"Il tuo commento contiene termini volgari (%s). Per aiutarci a migliorare il "
+"prodotto ti preghiamo di utilizzare un linguaggio che, a partire da un "
+"commento costruttivo, ci consenta di prendere decisioni pratiche per "
+"migliorare il prodotto. Grazie."
 
 #: apps/feedback/templates/feedback/release_index.html:11
 msgid "Your feedback helps us improve Firefox."
-msgstr "Il tuo feedback ci permette di migliorare Firefox."
+msgstr ""
+"Il tuo commento e i tuoi suggerimenti ci permettono di migliorare Firefox."
 
 #: apps/feedback/validators.py:52
 msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
@@ -1028,7 +1034,7 @@ msgstr "Sembra che nel tuo messaggio sia presente un indirizzo e-mail. Prima di 
 #: apps/feedback/templates/feedback/release_index.html:222
 msgid "Your feedback will be used to create a better experience in future releases of Firefox."
 msgstr ""
-"Il tuo feedback verrà utilizzato per migliorare l'esperienza di tutti gli "
+"Il tuo commento verrà utilizzato per migliorare l'esperienza di tutti gli "
 "utenti nelle prossime versioni di Firefox."
 
 #. L10n: This means an event that happened only a few seconds ago.
