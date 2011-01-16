@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-12-30 23:04+0200\n"
-"Last-Translator: Tobias <tobbi@mozilla-uk.org>\n"
+"PO-Revision-Date: 2011-01-16 23:28+0200\n"
+"Last-Translator: Thomas <thomas.lendo@gmail.com>\n"
 "Language-Team: none\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +43,7 @@ msgstr "%e. %b"
 
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:12
 msgid "&infin;"
-msgstr ""
+msgstr "&infin;"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:35 apps/search/templates/search/mobile/search.html:38
 msgid "&laquo; Newer Feedback"
@@ -100,19 +100,28 @@ msgid ""
 "<strong>Firefox Input</strong> is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it "
 "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
 msgstr ""
+"<strong>Firefox Input</strong> ist Mozillas eigenes Feedback-System und "
+"wurde als Einweg-Kommunikationsmöglichkeit geschaffen, damit Sie Ihre "
+"Erfahrungen mit der Nutzung von Firefox und mit dem Internet, so wie Sie es "
+"durch Firefox erleben, mitteilen und auch vorschlagen können, was Mozilla "
+"machen kann, um Ihr Nutzererlebnis zu verbessern. Das System ist über eine "
+"breite Vielfalt an Einreichungsmechanismen über alle drei Build-Hauptkanäle "
+"verfügbar."
 
 #: apps/dashboard/templates/dashboard/dashboard.html:57
 msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
 msgstr ""
+"<strong>Willkommen bei Firefox Input!</strong> Dies ist Mozillas primäres "
+"System, durch das Nutzer ihre Meinung mitteilen können. <a href=\"%"
+"(about_url)s\">Erfahren Sie mehr...</a>"
 
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
 msgstr "ATOM-Feed für diese Suche"
 
 #: templates/about.html:3 templates/includes/footer.html:11
-#, fuzzy
 msgid "About Firefox Input"
-msgstr "Firefox Input"
+msgstr "Über Firefox Input"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:26
 msgid "Ack! Please tell us what to fix!"
@@ -178,11 +187,11 @@ msgstr "Zurück zu {domain} &raquo;"
 
 #: apps/feedback/__init__.py:112
 msgid "Broken Website"
-msgstr ""
+msgstr "Fehlerhafte Website"
 
 #: templates/includes/ua_overlay.html:10
 msgid "Close"
-msgstr ""
+msgstr "Schließen"
 
 #: templates/includes/nav_buttons.html:2
 msgid "Clusters"
@@ -1202,3 +1211,11 @@ msgstr "{percentage}% Lob"
 
 #~ msgid "{0} similar messages"
 #~ msgstr "{0} ähnliche Nachrichten"
+
+#: apps/feedback/validators.py:38
+msgid "Submitted User Agent is not the latest beta version."
+msgstr "Der übermittelte User-Agent entspricht nicht der neuesten Beta-Version."
+
+#: apps/feedback/validators.py:30
+msgid "User agent string was not recognizable."
+msgstr "User-Agent war nicht erkennbar."
