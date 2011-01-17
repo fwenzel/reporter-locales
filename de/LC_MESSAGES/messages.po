@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-01-16 23:28+0200\n"
+"PO-Revision-Date: 2011-01-18 00:22+0200\n"
 "Last-Translator: Thomas <thomas.lendo@gmail.com>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -220,11 +220,11 @@ msgstr "Datum von:"
 
 #: apps/feedback/templates/feedback/release_index.html:130
 msgid "Describe the problem with the website."
-msgstr ""
+msgstr "Beschreiben Sie das Problem mit der Website."
 
 #: apps/feedback/templates/feedback/release_index.html:181
 msgid "Describe your idea below."
-msgstr ""
+msgstr "Beschreiben Sie Ihren Vorschlag."
 
 #: apps/dashboard/templates/dashboard/devices.html:15
 msgid "Devices"
@@ -233,6 +233,7 @@ msgstr "Endgeräte"
 #: apps/feedback/templates/feedback/release_index.html:110
 msgid "Does a website look or behave incorrectly in Firefox?"
 msgstr ""
+"Sieht eine Website in Firefox falsch aus oder verhält sie sich fehlerhaft?"
 
 #: apps/input/__init__.py:60
 msgid "Don't Care"
@@ -243,9 +244,8 @@ msgid "Download Beta"
 msgstr "Beta-Version herunterladen"
 
 #: apps/feedback/templates/feedback/need_release.html:3
-#, fuzzy
 msgid "Download Firefox"
-msgstr "Beta-Version herunterladen"
+msgstr "Firefox herunterladen"
 
 #: apps/feedback/forms.py:109 apps/feedback/forms.py:122
 msgid "Enter your feedback here."
@@ -257,11 +257,11 @@ msgstr "Geben Sie hier Ihren Vorschlag ein."
 
 #: apps/feedback/forms.py:172
 msgid "Example: Images were not loading, but the rest of the page was."
-msgstr ""
+msgstr "Beispiel: Grafiken wurden nicht geladen, der Rest der Seite aber schon."
 
 #: apps/input/__init__.py:62
 msgid "Excellent"
-msgstr ""
+msgstr "Hervorragend"
 
 #: templates/base_mobile_old.html:61 templates/base_old.html:68 templates/includes/footer.html:14
 msgid ""
@@ -273,7 +273,7 @@ msgstr ""
 
 #: apps/feedback/templates/feedback/release_index.html:244
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: apps/input/__init__.py:59
 msgid "Fair"
@@ -281,7 +281,7 @@ msgstr ""
 
 #: apps/input/__init__.py:49
 msgid "Features"
-msgstr ""
+msgstr "Funktionen"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:6 apps/search/templates/search/mobile/search.html:6
 msgid "Feed"
@@ -297,12 +297,11 @@ msgstr "Kommentare dürfen kein HTML enthalten."
 
 #: apps/feedback/templates/feedback/thanks.html:17 apps/feedback/templates/feedback/mobile/thanks.html:12
 msgid "Find out the latest news from Mozilla:"
-msgstr "Die jüngsten Neuigkeiten über Mozilla finden Sie hier:"
+msgstr "Die neuesten Nachrichten von Mozilla finden Sie hier:"
 
 #: apps/feedback/templates/feedback/release_index.html:241
-#, fuzzy
 msgid "Find the latest news about Firefox."
-msgstr "Die jüngsten Neuigkeiten über Mozilla finden Sie hier:"
+msgstr "Hier finden Sie die neuesten Nachrichten über Firefox."
 
 #: apps/feedback/__init__.py:9
 msgid "Firefox"
@@ -348,11 +347,11 @@ msgstr "Weiter"
 
 #: apps/feedback/templates/feedback/release_index.html:40 apps/feedback/templates/feedback/release_index.html:114 apps/feedback/templates/feedback/release_index.html:171
 msgid "Go Back"
-msgstr ""
+msgstr "Zurück"
 
 #: apps/input/__init__.py:61
 msgid "Good"
-msgstr ""
+msgstr "Gut"
 
 #: apps/feedback/templates/feedback/feedback.html:56
 msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
@@ -361,38 +360,43 @@ msgstr "Haben Sie ein Problem mit einer bestimmten Webseite? Bitte fügen Sie de
 #: apps/feedback/templates/feedback/release_index.html:169
 msgid "Have an idea how Firefox could be better? Let us know!"
 msgstr ""
+"Haben Sie eine Idee, durch die Firefox verbessert werden könnte? Lassen Sie "
+"es uns wissen!"
 
 #: templates/about.html:7
 msgid "Hello!"
-msgstr ""
+msgstr "Hallo!"
 
 #: templates/includes/ua_overlay.html:7
 msgid "Hit Ctrl+C (Cmd+C on Mac) to copy and close."
 msgstr ""
+"Drücken Sie Strg+C (Befehlstaste+C bei Mac), um zu kopieren und zu "
+"schließen."
 
 #: apps/input/__init__.py:44
 msgid "How frequently Firefox crashes or loses data"
-msgstr ""
+msgstr "Wie häufig Firefox abstürzt oder Daten verliert"
 
 #: apps/input/__init__.py:26
 msgid "How long Firefox takes to start running"
-msgstr ""
+msgstr "Wie lange Firefox zum Starten benötigt"
 
 #: apps/input/__init__.py:32
 msgid "How long it takes for web pages to load"
-msgstr ""
+msgstr "Wie lange Webseiten zum Laden benötigen"
 
 #: apps/input/__init__.py:38
 msgid "How quickly web pages respond once they have loaded"
-msgstr ""
+msgstr "Wie schnell Webseiten reagieren, sobald sie fertig geladen wurden"
 
 #: apps/input/__init__.py:50
 msgid "How well Firefox's built-in features serve your needs"
 msgstr ""
+"Wie gut decken die in Firefox integrierten Funktionen Ihre Anforderungen ab"
 
 #: apps/feedback/templates/feedback/release_index.html:38
 msgid "How would you rate these aspects of Firefox?"
-msgstr ""
+msgstr "Wie bewerten Sie diese Aspekte von Firefox?"
 
 #: templates/404.html:6
 msgid "I'm sorry, I could not find what you were looking for."
@@ -550,8 +554,9 @@ msgstr "weiter &raquo;"
 
 #. short for an indefinite date range
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:12
+#, fuzzy
 msgid "No date limit"
-msgstr ""
+msgstr "Keine Zeitbeschränkung"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:27
 msgid "No results found!"
@@ -617,11 +622,11 @@ msgstr "Unsere Suchmaschine ist möglicherweise gerade nicht erreichbar. Sie kö
 
 #: apps/input/__init__.py:31
 msgid "Page Load Time"
-msgstr ""
+msgstr "Seitenladezeit"
 
 #: apps/feedback/templates/feedback/release_index.html:245
 msgid "Planet Mozilla"
-msgstr ""
+msgstr "Mozilla-Planet"
 
 #: apps/dashboard/templates/dashboard/platforms.html:12 apps/dashboard/templates/dashboard/mobile/platforms.html:8 apps/themes/templates/themes/index.html:24
 msgid "Platform"
@@ -686,6 +691,8 @@ msgstr "Produkt:"
 #: apps/feedback/templates/feedback/release_index.html:111
 msgid "Provide us some details about the problem and we'll try to fix it."
 msgstr ""
+"Liefern Sie uns einige Details zu dem Problem und wir werden versuchen, es "
+"zu beheben."
 
 #: apps/search/client.py:194
 msgid "Query has timed out."
@@ -693,11 +700,11 @@ msgstr "Zeitüberschreitung beim Suchen."
 
 #: apps/feedback/templates/feedback/release_index.html:16 apps/feedback/templates/feedback/release_index.html:37
 msgid "Rate Your Experience"
-msgstr ""
+msgstr "Bewerten Sie Ihre Erfahrung"
 
 #: apps/feedback/__init__.py:111
 msgid "Rating"
-msgstr ""
+msgstr "Bewertung"
 
 #: templates/base_mobile_old.html:58 templates/base_old.html:65 templates/includes/footer.html:10
 msgid "Report Trademark Abuse"
@@ -709,8 +716,9 @@ msgid "Report a Broken Website"
 msgstr "Missbrauch unserer Warenzeichen melden"
 
 #: apps/input/__init__.py:37
+#, fuzzy
 msgid "Responsiveness"
-msgstr ""
+msgstr "Reaktionsbereitschaft"
 
 #: apps/search/templates/search/search_form.html:19
 msgid "Search"
@@ -753,7 +761,7 @@ msgstr "Festlegen"
 
 #: apps/feedback/templates/feedback/release_index.html:18 apps/feedback/templates/feedback/release_index.html:168
 msgid "Share an Idea"
-msgstr ""
+msgstr "Idee teilen"
 
 #: apps/dashboard/templates/includes/filter_box_toggle.html:4
 msgid "Show/Hide Options"
@@ -774,7 +782,7 @@ msgstr "Sie möchten einen Vorschlag machen, um Firefox zu verbessern? Super! Bi
 
 #: templates/about.html:34
 msgid "Source Code"
-msgstr ""
+msgstr "Quelltext"
 
 #. L10n: Sphinx is the name of the search engine software.
 #: apps/search/client.py:197
