@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-01-18 00:22+0200\n"
+"PO-Revision-Date: 2011-01-18 00:27+0200\n"
 "Last-Translator: Thomas <thomas.lendo@gmail.com>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -419,9 +419,10 @@ msgid "If you have an idea to offer us instead, please send it to us through our
 msgstr "Wenn Sie uns stattdessen einen Vorschlag mitteilen möchten, senden Sie ihn mittels unserer <a href=\"%(url_suggestion)s\">Vorschlags-Funktion</a>!"
 
 #: apps/feedback/templates/feedback/release_index.html:24
-#, fuzzy
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
-msgstr "Wenn Sie Hilfe brauchen, oder wenn Sie ein Problem mit Firefox haben, besuchen Sie bitte unsere <a href=\"%(support_url)s\">Support-Seite</a>."
+msgstr ""
+"Wenn Sie Hilfe brauchen oder ein Problem mit Firefox haben, besuchen Sie "
+"bitte unsere <a href=\"%(support_url)s\">Firefox-Hilfe</a>."
 
 #: apps/feedback/templates/feedback/beta_index.html:25
 msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
@@ -448,9 +449,8 @@ msgid "Internal Server Error"
 msgstr "Server-Fehler"
 
 #: apps/feedback/views.py:103 apps/feedback/views.py:173
-#, fuzzy
 msgid "Invalid feedback type"
-msgstr "Alle Nachrichten"
+msgstr "Ungültiger Rückmeldungstyp"
 
 #: apps/dashboard/templates/dashboard/message_list.html:8 apps/feedback/__init__.py:109 apps/feedback/helpers.py:39 apps/themes/templates/themes/theme_list.html:12
 #: apps/website_issues/templates/website_issues/single_site.html:11
@@ -536,9 +536,8 @@ msgid "Mobile"
 msgstr "Mobile"
 
 #: apps/dashboard/templates/dashboard/locales.html:27
-#, fuzzy
 msgid "More Locales"
-msgstr "Sprache"
+msgstr "Weitere Sprachen"
 
 #: apps/dashboard/templates/dashboard/message_list.html:30 apps/themes/templates/themes/theme_list.html:28
 msgid "More Options"
@@ -580,9 +579,10 @@ msgid "Often Mentioned"
 msgstr "Oft erwähnt"
 
 #: apps/feedback/templates/feedback/need_release.html:8
-#, fuzzy
 msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-msgstr "Oh! Sie möchten uns gerne Feedback für die nächste Version von Firefox geben? Vielen Dank, aber dazu müssen Sie unsere neueste Beta-Version verwenden."
+msgstr ""
+"Oh! Sie möchten uns Rückmeldungen zu Firefox geben? Vielen Dank, aber dazu "
+"müssen Sie die neueste Version verwenden."
 
 #: apps/feedback/templates/feedback/need_beta.html:8
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
