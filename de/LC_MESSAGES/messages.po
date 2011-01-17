@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-01-18 00:27+0200\n"
+"PO-Revision-Date: 2011-01-18 01:27+0200\n"
 "Last-Translator: Thomas <thomas.lendo@gmail.com>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -236,8 +236,9 @@ msgstr ""
 "Sieht eine Website in Firefox falsch aus oder verhält sie sich fehlerhaft?"
 
 #: apps/input/__init__.py:60
+#, fuzzy
 msgid "Don't Care"
-msgstr ""
+msgstr "Egal"
 
 #: apps/feedback/templates/feedback/need_beta.html:3 apps/feedback/templates/feedback/mobile/need_beta.html:3
 msgid "Download Beta"
@@ -601,8 +602,9 @@ msgid "Older Messages &raquo;"
 msgstr "Ältere Nachrichten &raquo;"
 
 #: templates/about.html:24
+#, fuzzy
 msgid "Open Data"
-msgstr ""
+msgstr "Offene Daten"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:68
 msgid "Or submit your ideas with our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
@@ -653,8 +655,9 @@ msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 msgstr "Bitte gehen Sie zurück zur <a href=\"%(dashboard_url)s\">Hauptseite</a>."
 
 #: apps/input/__init__.py:58
+#, fuzzy
 msgid "Poor"
-msgstr ""
+msgstr "Schlecht"
 
 #. Formerly called "happy"
 #: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8
@@ -711,9 +714,8 @@ msgid "Report Trademark Abuse"
 msgstr "Missbrauch unserer Warenzeichen melden"
 
 #: apps/feedback/templates/feedback/release_index.html:17 apps/feedback/templates/feedback/release_index.html:108
-#, fuzzy
 msgid "Report a Broken Website"
-msgstr "Missbrauch unserer Warenzeichen melden"
+msgstr "Fehlerhafte Website melden"
 
 #: apps/input/__init__.py:37
 #, fuzzy
@@ -730,7 +732,7 @@ msgstr "Suchergebnisse"
 
 #: apps/search/views.py:87
 msgid "Search Results in Firefox Beta Feedback."
-msgstr "Suchergebnisse in Firefox Beta Feedback"
+msgstr "Suchergebnisse im Firefox Beta-Feedback."
 
 #: apps/search/templates/search/unavailable.html:5
 msgid "Search Unavailable"
@@ -791,11 +793,11 @@ msgstr "Sphinx meldete einen unerwarteten Fehler: %s"
 
 #: apps/input/__init__.py:43
 msgid "Stability"
-msgstr ""
+msgstr "Stabilität"
 
 #: apps/input/__init__.py:25
 msgid "Start-Up Time"
-msgstr ""
+msgstr "Startzeit"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:7 apps/search/templates/search/mobile/search.html:7
 msgid "Statistics"
@@ -810,14 +812,13 @@ msgid "Submit Feedback"
 msgstr "Kommentar abschicken"
 
 #: apps/feedback/templates/feedback/release_index.html:10
-#, fuzzy
 msgid "Submit Your Feedback"
-msgstr "Kommentar abschicken"
+msgstr "Ihren Kommentar abschicken"
 
 #: apps/feedback/templates/feedback/release_index.html:96 apps/feedback/templates/feedback/release_index.html:156 apps/feedback/templates/feedback/release_index.html:207
 #, fuzzy
 msgid "Submitting Feedback"
-msgstr "Kommentar abschicken"
+msgstr "Kommentar wird abgeschickt"
 
 #: apps/dashboard/templates/dashboard/message_list.html:10 apps/feedback/__init__.py:110 apps/feedback/templates/feedback/feedback.html:13 apps/feedback/templates/feedback/mobile/feedback.html:21
 #: apps/search/views.py:212 apps/themes/templates/themes/theme_list.html:10
@@ -857,8 +858,11 @@ msgid "Thanks!"
 msgstr "Vielen Dank!"
 
 #: templates/about.html:37
+#, fuzzy
 msgid "The code for the Firefox Input web application can be found <a href=\"%(source_url)s\">on GitHub</a>!"
 msgstr ""
+"Der Quelltext für die Webanwendung zu Firefox Input kann <a href=\"%"
+"(source_url)s\">bei GitHub</a> abgerufen werden!"
 
 #: apps/themes/templates/themes/theme.html:4 apps/themes/templates/themes/theme.html:14 apps/website_issues/templates/website_issues/theme.html:15
 msgid "Theme"
@@ -878,14 +882,16 @@ msgid "To do that, simply go to our download page and install/update to the <a h
 msgstr "Um daran teilzunehmen, gehen Sie einfach zu unserer Download-Seite und laden Sie die <a href=\"%(url)s\">neueste Firefox Beta-Version</a> herunter!"
 
 #: apps/feedback/templates/feedback/need_release.html:14
-#, fuzzy
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-msgstr "Um daran teilzunehmen, gehen Sie einfach zu unserer Download-Seite und laden Sie die <a href=\"%(url)s\">neueste Firefox Beta-Version</a> herunter!"
+msgstr ""
+"Um daran teilzunehmen, gehen Sie einfach zu unserer Download-Seite und laden "
+"Sie die <a href=\"%(url)s\">neueste Firefox-Version</a> herunter!"
 
 #: apps/feedback/templates/feedback/release_index.html:137 apps/feedback/templates/feedback/release_index.html:188
-#, fuzzy
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
-msgstr "Bitte vergewissern Sie sich, dass Sie mit Ihren Angaben keine sensiblen Daten preisgeben."
+msgstr ""
+"Zum Schutz Ihrer Privatsphäre vergewissern Sie sich bitte, dass Sie mit "
+"Ihren Angaben keine sensiblen Daten preisgeben."
 
 #: templates/about.html:18
 msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(feedback_url)s\">the feedback submission page</a>!"
@@ -911,7 +917,7 @@ msgstr "Diese Nachricht twittern"
 
 #: apps/feedback/templates/feedback/release_index.html:243
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 #: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
 #: apps/website_issues/templates/website_issues/website_issues.html:28
@@ -934,7 +940,7 @@ msgstr "User-Agent kopieren"
 
 #: templates/includes/ua_overlay.html:9
 msgid "User agent copied"
-msgstr ""
+msgstr "User-Agent kopiert"
 
 #: apps/feedback/views.py:47
 msgid "User-Agent request header must be set."
@@ -945,9 +951,9 @@ msgid "Version:"
 msgstr "Version:"
 
 #: apps/feedback/templates/feedback/release_index.html:234
-#, fuzzy
 msgid "Visit the <a href=\"%(dashboard_url)s\">Firefox Feedback Dashboard</a>"
-msgstr "Bitte gehen Sie zurück zur <a href=\"%(dashboard_url)s\">Hauptseite</a>."
+msgstr ""
+"Gehen Sie zur <a href=\"%(dashboard_url)s\">Firefox-Feedback-Hauptseite</a>"
 
 #: apps/feedback/templates/feedback/release_index.html:232
 #, fuzzy
@@ -978,7 +984,7 @@ msgstr "Willkommen!"
 
 #: apps/feedback/templates/feedback/release_index.html:124
 msgid "What is the URL of the broken site?"
-msgstr ""
+msgstr "Wie lautet die URL der fehlerhaften Website?"
 
 #. Title for a time-based search filter
 #: apps/dashboard/templates/dashboard/when.html:2
@@ -1010,7 +1016,7 @@ msgstr ""
 
 #: apps/feedback/templates/feedback/release_index.html:11
 msgid "Your feedback helps us improve Firefox."
-msgstr ""
+msgstr "Ihre Meinung hilft uns, Firefox zu verbessern."
 
 #: apps/feedback/validators.py:52
 msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
