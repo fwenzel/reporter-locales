@@ -1,17 +1,18 @@
+# Kalman Kemenczy <kkemenczy@gmail.com>, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-21 10:36+0200\n"
-"PO-Revision-Date: 2010-12-10 15:42+0200\n"
-"Last-Translator: Kalman <kkemenczy@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2011-01-17 18:20+0100\n"
+"Last-Translator: Kalman Kemenczy <kkemenczy@gmail.com>\n"
+"Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n !=1);\n"
-"X-Generator: Pootle 2.1.3\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:43
 msgid "%(count)s message"
@@ -44,7 +45,7 @@ msgstr "%e %b"
 
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:12
 msgid "&infin;"
-msgstr ""
+msgstr "&infin;"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:35 apps/search/templates/search/mobile/search.html:38
 msgid "&laquo; Newer Feedback"
@@ -101,19 +102,20 @@ msgid ""
 "<strong>Firefox Input</strong> is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it "
 "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
 msgstr ""
+"A <strong>Firefox Input</strong> a Mozilla elsődleges rendszere a felhasználói visszajelzések fogadására. Ez egy egyirányú kommunikáció, amelynek segítségével a Firefox használata során tapasztalt "
+"felhasználói élményeikkel kapcsolatban mondhatják el véleményüket és azt, hogy mit tehet a Mozilla a jobb felhasználói élmény érdekében."
 
 #: apps/dashboard/templates/dashboard/dashboard.html:57
 msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
-msgstr ""
+msgstr "<strong>Üdvözli a Firefox Input!</strong> Az a Mozilla elsődleges rendszere a felhasználói visszajelzések fogadására. <a href=\"%(about_url)s\">Tudjon meg többet!</a>"
 
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
 msgstr "ATOM hírforrás ehhez a kereséshez"
 
 #: templates/about.html:3 templates/includes/footer.html:11
-#, fuzzy
 msgid "About Firefox Input"
-msgstr "Firefox Input"
+msgstr "Firefox Input névjegye"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:26
 msgid "Ack! Please tell us what to fix!"
@@ -179,11 +181,11 @@ msgstr "Vissza ide: {domain} &raquo;"
 
 #: apps/feedback/__init__.py:112
 msgid "Broken Website"
-msgstr ""
+msgstr "Nem működő weboldal"
 
 #: templates/includes/ua_overlay.html:10
 msgid "Close"
-msgstr ""
+msgstr "Bezárás"
 
 #: templates/includes/nav_buttons.html:2
 msgid "Clusters"
@@ -204,7 +206,7 @@ msgstr "Egyéni"
 
 #: templates/base.html:30 templates/base_mobile.html:20
 msgid "Dashboard"
-msgstr "Firefox-visszajelzések"
+msgstr "Dashboard"
 
 #: apps/search/forms.py:76
 msgid "Date range:"
@@ -212,11 +214,11 @@ msgstr "Időszak:"
 
 #: apps/feedback/templates/feedback/release_index.html:130
 msgid "Describe the problem with the website."
-msgstr ""
+msgstr "Írja le a weboldallal kapcsolatos problémát."
 
 #: apps/feedback/templates/feedback/release_index.html:181
 msgid "Describe your idea below."
-msgstr ""
+msgstr "Írja le az ötletét."
 
 #: apps/dashboard/templates/dashboard/devices.html:15
 msgid "Devices"
@@ -224,20 +226,19 @@ msgstr "Eszközök"
 
 #: apps/feedback/templates/feedback/release_index.html:110
 msgid "Does a website look or behave incorrectly in Firefox?"
-msgstr ""
+msgstr "A weboldal megjelenése vagy viselkedése nem megfelelő a Firefox használatával?"
 
 #: apps/input/__init__.py:60
 msgid "Don't Care"
-msgstr ""
+msgstr "Nem lényeges"
 
 #: apps/feedback/templates/feedback/need_beta.html:3 apps/feedback/templates/feedback/mobile/need_beta.html:3
 msgid "Download Beta"
 msgstr "Beta letöltése"
 
 #: apps/feedback/templates/feedback/need_release.html:3
-#, fuzzy
 msgid "Download Firefox"
-msgstr "Beta letöltése"
+msgstr "Firefox letöltése"
 
 #: apps/feedback/forms.py:109 apps/feedback/forms.py:122
 msgid "Enter your feedback here."
@@ -249,11 +250,11 @@ msgstr "Írja ide véleményét."
 
 #: apps/feedback/forms.py:172
 msgid "Example: Images were not loading, but the rest of the page was."
-msgstr ""
+msgstr "Például: a képek nem töltődnek le, az oldal többi része azonban igen."
 
 #: apps/input/__init__.py:62
 msgid "Excellent"
-msgstr ""
+msgstr "Kitűnő"
 
 #: templates/base_mobile_old.html:61 templates/base_old.html:68 templates/includes/footer.html:14
 msgid ""
@@ -265,15 +266,15 @@ msgstr ""
 
 #: apps/feedback/templates/feedback/release_index.html:244
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: apps/input/__init__.py:59
 msgid "Fair"
-msgstr ""
+msgstr "Elfogadható"
 
 #: apps/input/__init__.py:49
 msgid "Features"
-msgstr ""
+msgstr "Funkciók"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:6 apps/search/templates/search/mobile/search.html:6
 msgid "Feed"
@@ -292,9 +293,8 @@ msgid "Find out the latest news from Mozilla:"
 msgstr "A legfrissebb Mozilla-hírek:"
 
 #: apps/feedback/templates/feedback/release_index.html:241
-#, fuzzy
 msgid "Find the latest news about Firefox."
-msgstr "A legfrissebb Mozilla-hírek:"
+msgstr "A legfrissebb Firefox-hírek."
 
 #: apps/feedback/__init__.py:9
 msgid "Firefox"
@@ -340,11 +340,11 @@ msgstr "Ugrás"
 
 #: apps/feedback/templates/feedback/release_index.html:40 apps/feedback/templates/feedback/release_index.html:114 apps/feedback/templates/feedback/release_index.html:171
 msgid "Go Back"
-msgstr ""
+msgstr "Vissza"
 
 #: apps/input/__init__.py:61
 msgid "Good"
-msgstr ""
+msgstr "Jó"
 
 #: apps/feedback/templates/feedback/feedback.html:56
 msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
@@ -352,39 +352,39 @@ msgstr "Egy adott weboldallal van problémája? Adja meg az oldal URL-jét, hogy
 
 #: apps/feedback/templates/feedback/release_index.html:169
 msgid "Have an idea how Firefox could be better? Let us know!"
-msgstr ""
+msgstr "Van ötlete, hogy a Firefox hogyan lehetne jobb? Mondja el!"
 
 #: templates/about.html:7
 msgid "Hello!"
-msgstr ""
+msgstr "Hello!"
 
 #: templates/includes/ua_overlay.html:7
 msgid "Hit Ctrl+C (Cmd+C on Mac) to copy and close."
-msgstr ""
+msgstr "Nyomja meg a Ctrl+C (Mac-en a Cmd+C) billentyűket a másoláshoz és bezáráshoz."
 
 #: apps/input/__init__.py:44
 msgid "How frequently Firefox crashes or loses data"
-msgstr ""
+msgstr "Milyen gyakran omlik össze a Firefox és veszti el az adatokat"
 
 #: apps/input/__init__.py:26
 msgid "How long Firefox takes to start running"
-msgstr ""
+msgstr "Mennyi ideig tart a Firefox indítása"
 
 #: apps/input/__init__.py:32
 msgid "How long it takes for web pages to load"
-msgstr ""
+msgstr "Mennyi ideig tart a weboldal betöltése"
 
 #: apps/input/__init__.py:38
 msgid "How quickly web pages respond once they have loaded"
-msgstr ""
+msgstr "Betöltést követően milyen gyorsan reagál a weboldal"
 
 #: apps/input/__init__.py:50
 msgid "How well Firefox's built-in features serve your needs"
-msgstr ""
+msgstr "A Firefox beépített funkciói mennyire illeszkednek az igényeihez"
 
 #: apps/feedback/templates/feedback/release_index.html:38
 msgid "How would you rate these aspects of Firefox?"
-msgstr ""
+msgstr "Hogyan értékelné a Firefox ezen aspektusait?"
 
 #: templates/404.html:6
 msgid "I'm sorry, I could not find what you were looking for."
@@ -407,7 +407,6 @@ msgid "If you have an idea to offer us instead, please send it to us through our
 msgstr "Ha van egy ötlete, akkor <a href=\"%(url_suggestion)s\">küldje el nekünk</ a>!"
 
 #: apps/feedback/templates/feedback/release_index.html:24
-#, fuzzy
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
 msgstr "Amennyiben segítségre van szüksége a Firefox használata közben, akkor látogassa meg a <a href=\"%(support_url)s\">támogatói oldalt</a>."
 
@@ -417,7 +416,7 @@ msgstr "Amennyiben segítségre van szüksége a Firefox használata közben, ak
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
-msgstr "Ha látni szeretné, hogy hova is került a visszajelzése, akkor látogassa meg a <a href=\"%(url)s\">Firefox-visszajelzések</a> oldalon."
+msgstr "Ha látni szeretné, hogy hova is került a visszajelzése, akkor látogassa meg a <a href=\"%(url)s\">Firefox Input Dashboard</a> oldalon."
 
 #: templates/404.html:14
 msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
@@ -429,16 +428,15 @@ msgstr "A hibabejelentéshez csatolja ezt a hibaüzenetet:"
 
 #: templates/base_mobile_old.html:30 templates/base_old.html:35
 msgid "Input Dashboard"
-msgstr "Firefox-visszajelzések"
+msgstr "Input Dashboard"
 
 #: templates/500.html:4
 msgid "Internal Server Error"
 msgstr "Belső kiszolgálóhiba"
 
 #: apps/feedback/views.py:103 apps/feedback/views.py:173
-#, fuzzy
 msgid "Invalid feedback type"
-msgstr "összes visszajelzés"
+msgstr "Érvénytelen visszajelzés-típus"
 
 #: apps/dashboard/templates/dashboard/message_list.html:8 apps/feedback/__init__.py:109 apps/feedback/helpers.py:39 apps/themes/templates/themes/theme_list.html:12
 #: apps/website_issues/templates/website_issues/single_site.html:11
@@ -524,9 +522,8 @@ msgid "Mobile"
 msgstr "Mobile"
 
 #: apps/dashboard/templates/dashboard/locales.html:27
-#, fuzzy
 msgid "More Locales"
-msgstr "nyelv"
+msgstr "További nyelvek"
 
 #: apps/dashboard/templates/dashboard/message_list.html:30 apps/themes/templates/themes/theme_list.html:28
 msgid "More Options"
@@ -543,7 +540,7 @@ msgstr "következő &raquo;"
 #. short for an indefinite date range
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:12
 msgid "No date limit"
-msgstr ""
+msgstr "Nincs időkorlátozás"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:27
 msgid "No results found!"
@@ -567,9 +564,8 @@ msgid "Often Mentioned"
 msgstr "Említett témák"
 
 #: apps/feedback/templates/feedback/need_release.html:8
-#, fuzzy
 msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-msgstr "Úgy látszik, hogy a legújabb Firefox verzióval kapcsolatban szeretne visszajelzést küldeni. Köszönjük, de ehhez a legfrissebb beta verziót kell használnia."
+msgstr "Úgy látszik, hogy a Firefox böngészővel kapcsolatban szeretne visszajelzést küldeni. Köszönjük, de ehhez a legfrissebb verziót kell használnia."
 
 #: apps/feedback/templates/feedback/need_beta.html:8
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
@@ -589,7 +585,7 @@ msgstr "régebbi üzenetek &raquo;"
 
 #: templates/about.html:24
 msgid "Open Data"
-msgstr ""
+msgstr "Nyílt adat"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:68
 msgid "Or submit your ideas with our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
@@ -605,15 +601,15 @@ msgstr "Más nyelvek:"
 
 #: apps/search/templates/search/unavailable.html:10
 msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
-msgstr "Lehetséges, hogy a kereső jelenleg nem érhető el. Visszatérhet a <a href=\"%(url)s\">Firefox-visszajelzések</a> oldalra és megpróbálhatja később."
+msgstr "Lehetséges, hogy a kereső jelenleg nem érhető el. Visszatérhet a <a href=\"%(url)s\">Input Dashboard</a> oldalra és megpróbálhatja később."
 
 #: apps/input/__init__.py:31
 msgid "Page Load Time"
-msgstr ""
+msgstr "Oldal betöltési ideje"
 
 #: apps/feedback/templates/feedback/release_index.html:245
 msgid "Planet Mozilla"
-msgstr ""
+msgstr "Planet Mozilla"
 
 #: apps/dashboard/templates/dashboard/platforms.html:12 apps/dashboard/templates/dashboard/mobile/platforms.html:8 apps/themes/templates/themes/index.html:24
 msgid "Platform"
@@ -637,11 +633,11 @@ msgstr "Győződjön meg arról, hogy nem adott itt meg semmilyen személyes ada
 
 #: templates/404.html:9 templates/500.html:14
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
-msgstr "Térjen vissza a <a href=\"%(dashboard_url)s\">Firefox-visszajelzések</a> oldalra."
+msgstr "Térjen vissza a <a href=\"%(dashboard_url)s\">Input Dashboard</a> oldalra."
 
 #: apps/input/__init__.py:58
 msgid "Poor"
-msgstr ""
+msgstr "Gyenge"
 
 #. Formerly called "happy"
 #: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8
@@ -652,7 +648,7 @@ msgstr "Dicséret"
 
 #: apps/themes/views.py:29 apps/website_issues/templates/website_issues/website_issues.html:32
 msgid "Praise only"
-msgstr "csak a dícséretek"
+msgstr "csak a dicséretek"
 
 #: templates/base_mobile_old.html:56 templates/base_old.html:63 templates/includes/footer.html:8
 msgid "Privacy Policy"
@@ -677,7 +673,7 @@ msgstr "Termék:"
 
 #: apps/feedback/templates/feedback/release_index.html:111
 msgid "Provide us some details about the problem and we'll try to fix it."
-msgstr ""
+msgstr "Adjon további részleteket a problémával kapcsolatban és megpróbáljuk kijavítani."
 
 #: apps/search/client.py:194
 msgid "Query has timed out."
@@ -685,24 +681,23 @@ msgstr "Időtúllépés történt."
 
 #: apps/feedback/templates/feedback/release_index.html:16 apps/feedback/templates/feedback/release_index.html:37
 msgid "Rate Your Experience"
-msgstr ""
+msgstr "Értékelje a felhasználói élményt"
 
 #: apps/feedback/__init__.py:111
 msgid "Rating"
-msgstr ""
+msgstr "Osztályzat"
 
 #: templates/base_mobile_old.html:58 templates/base_old.html:65 templates/includes/footer.html:10
 msgid "Report Trademark Abuse"
 msgstr "Védjeggyel kapcsolatos visszaélés jelentése"
 
 #: apps/feedback/templates/feedback/release_index.html:17 apps/feedback/templates/feedback/release_index.html:108
-#, fuzzy
 msgid "Report a Broken Website"
-msgstr "Védjeggyel kapcsolatos visszaélés jelentése"
+msgstr "Nem működő weboldal bejelentése"
 
 #: apps/input/__init__.py:37
 msgid "Responsiveness"
-msgstr ""
+msgstr "Válaszképesség"
 
 #: apps/search/templates/search/search_form.html:19
 msgid "Search"
@@ -745,7 +740,7 @@ msgstr "Beállítás"
 
 #: apps/feedback/templates/feedback/release_index.html:18 apps/feedback/templates/feedback/release_index.html:168
 msgid "Share an Idea"
-msgstr ""
+msgstr "Ossza meg ötletét"
 
 #: apps/dashboard/templates/includes/filter_box_toggle.html:4
 msgid "Show/Hide Options"
@@ -766,7 +761,7 @@ msgstr "Szeretne javaslatokat tenni, hogy hogyan tudnánk jobbá tenni a Firefox
 
 #: templates/about.html:34
 msgid "Source Code"
-msgstr ""
+msgstr "Forráskód"
 
 #. L10n: Sphinx is the name of the search engine software.
 #: apps/search/client.py:197
@@ -775,11 +770,11 @@ msgstr "A Sphinx egy ismeretlen hibát adott vissza: %s"
 
 #: apps/input/__init__.py:43
 msgid "Stability"
-msgstr ""
+msgstr "Stabilitás"
 
 #: apps/input/__init__.py:25
 msgid "Start-Up Time"
-msgstr ""
+msgstr "Indítási idő"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:7 apps/search/templates/search/mobile/search.html:7
 msgid "Statistics"
@@ -794,12 +789,10 @@ msgid "Submit Feedback"
 msgstr "Visszajelzés elküldése"
 
 #: apps/feedback/templates/feedback/release_index.html:10
-#, fuzzy
 msgid "Submit Your Feedback"
 msgstr "Visszajelzés elküldése"
 
 #: apps/feedback/templates/feedback/release_index.html:96 apps/feedback/templates/feedback/release_index.html:156 apps/feedback/templates/feedback/release_index.html:207
-#, fuzzy
 msgid "Submitting Feedback"
 msgstr "Visszajelzés elküldése"
 
@@ -842,7 +835,7 @@ msgstr "Köszönjük!"
 
 #: templates/about.html:37
 msgid "The code for the Firefox Input web application can be found <a href=\"%(source_url)s\">on GitHub</a>!"
-msgstr ""
+msgstr "A Firefox Input webalkalmazás forráskódja a <a href=\"%(source_url)s\">GitHub</a>on található!"
 
 #: apps/themes/templates/themes/theme.html:4 apps/themes/templates/themes/theme.html:14 apps/website_issues/templates/website_issues/theme.html:15
 msgid "Theme"
@@ -862,18 +855,16 @@ msgid "To do that, simply go to our download page and install/update to the <a h
 msgstr "Ehhez látogasson el a letöltő oldalhoz és telepítse fel vagy frissítsen a <a href=\"%(url)s\">legújabb Firefox Beta verzióra!</a>"
 
 #: apps/feedback/templates/feedback/need_release.html:14
-#, fuzzy
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-msgstr "Ehhez látogasson el a letöltő oldalhoz és telepítse fel vagy frissítsen a <a href=\"%(url)s\">legújabb Firefox Beta verzióra!</a>"
+msgstr "Ehhez látogasson el a letöltő oldalhoz és telepítse fel vagy frissítsen a <a href=\"%(url)s\">legújabb Firefox verzióra!</a>"
 
 #: apps/feedback/templates/feedback/release_index.html:137 apps/feedback/templates/feedback/release_index.html:188
-#, fuzzy
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
-msgstr "Győződjön meg arról, hogy nem adott itt meg semmilyen személyes adatot."
+msgstr "Személyes adatainak védelme érdekében, győződjön meg arról, hogy semmilyen személyes azonosításra alkalmas információt ne tartalmazzon a visszajelzése."
 
 #: templates/about.html:18
 msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(feedback_url)s\">the feedback submission page</a>!"
-msgstr ""
+msgstr "A Firefox verziójával kapcsolatos visszajelzés elküldéséhez menjen a <a href=\"%(feedback_url)s\">visszajelzés-küldő oldalra</a>!"
 
 #. Link text for showing/hiding options
 #: apps/dashboard/templates/includes/filter_box_toggle.html:6
@@ -895,7 +886,7 @@ msgstr "Twitterelés"
 
 #: apps/feedback/templates/feedback/release_index.html:243
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 #: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
 #: apps/website_issues/templates/website_issues/website_issues.html:28
@@ -912,13 +903,12 @@ msgid "Unknown"
 msgstr "Ismeretlen"
 
 #: templates/includes/ua_overlay.html:3
-#, fuzzy
 msgid "User Agent"
-msgstr "User Agent másolása"
+msgstr "User Agent"
 
 #: templates/includes/ua_overlay.html:9
 msgid "User agent copied"
-msgstr ""
+msgstr "User agent átmásolva"
 
 #: apps/feedback/views.py:47
 msgid "User-Agent request header must be set."
@@ -929,14 +919,12 @@ msgid "Version:"
 msgstr "Verzió:"
 
 #: apps/feedback/templates/feedback/release_index.html:234
-#, fuzzy
 msgid "Visit the <a href=\"%(dashboard_url)s\">Firefox Feedback Dashboard</a>"
-msgstr "Térjen vissza a <a href=\"%(dashboard_url)s\">Firefox-visszajelzések</a> oldalra."
+msgstr "Térjen vissza a <a href=\"%(dashboard_url)s\">Input Dashboard</a> oldalra."
 
 #: apps/feedback/templates/feedback/release_index.html:232
-#, fuzzy
 msgid "Want to see where your feedback goes?"
-msgstr "Ez a visszajelzés helye."
+msgstr "Tudni akarja, hogy hova került a visszajelzése?"
 
 #: apps/feedback/forms.py:99
 msgid "We already got your feedback! Thanks."
@@ -951,6 +939,8 @@ msgid ""
 "We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
 "please <a href=\"%(data_url)s\">contact us</a>!"
 msgstr ""
+"Szeretünk az adatokkal tovább kísérletezni, de csak néhányan vagyunk. Ezért olyan kérdéseket szeretnénk kapni, amelyekre ezekből az adatokból válaszra várnak. Amennyiben kísérletezni szeretne az "
+"adatainkkal, <a href=\"%(data_url)s\">vegye fel velünk a kapcsolatot</a>!"
 
 #: templates/base.html:5 templates/base_mobile.html:6
 msgid "Welcome"
@@ -962,7 +952,7 @@ msgstr "Üdvözöljük!"
 
 #: apps/feedback/templates/feedback/release_index.html:124
 msgid "What is the URL of the broken site?"
-msgstr ""
+msgstr "Mi a nem működő weboldal URL-je?"
 
 #. Title for a time-based search filter
 #: apps/dashboard/templates/dashboard/when.html:2
@@ -992,7 +982,7 @@ msgstr "Az Ön hozzászólása szitokszavakat (%s) tartalmaz. Ha segíteni kív�
 
 #: apps/feedback/templates/feedback/release_index.html:11
 msgid "Your feedback helps us improve Firefox."
-msgstr ""
+msgstr "A visszajelzése segítségünkre van a Firefox fejlesztésében."
 
 #: apps/feedback/validators.py:52
 msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
@@ -1004,7 +994,7 @@ msgstr "A visszajelzés valószínűleg e-mail címet tartalmaz. Távolítsa el 
 
 #: apps/feedback/templates/feedback/release_index.html:222
 msgid "Your feedback will be used to create a better experience in future releases of Firefox."
-msgstr ""
+msgstr "Visszajelzése segítségével a jövőben megjelenő Firefox verziók jobb felhasználói élményt nyújthatnak."
 
 #. L10n: This means an event that happened only a few seconds ago.
 #: apps/input/helpers.py:86
