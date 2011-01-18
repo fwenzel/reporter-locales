@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-01-18 01:27+0200\n"
+"PO-Revision-Date: 2011-01-19 00:53+0200\n"
 "Last-Translator: Thomas <thomas.lendo@gmail.com>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -361,8 +361,8 @@ msgstr "Haben Sie ein Problem mit einer bestimmten Webseite? Bitte fügen Sie de
 #: apps/feedback/templates/feedback/release_index.html:169
 msgid "Have an idea how Firefox could be better? Let us know!"
 msgstr ""
-"Haben Sie eine Idee, durch die Firefox verbessert werden könnte? Lassen Sie "
-"es uns wissen!"
+"Haben Sie einen Vorschlag, durch den Firefox verbessert werden könnte? "
+"Lassen Sie es uns wissen!"
 
 #: templates/about.html:7
 msgid "Hello!"
@@ -422,12 +422,14 @@ msgstr "Wenn Sie uns stattdessen einen Vorschlag mitteilen möchten, senden Sie 
 #: apps/feedback/templates/feedback/release_index.html:24
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
 msgstr ""
-"Wenn Sie Hilfe brauchen oder ein Problem mit Firefox haben, besuchen Sie "
-"bitte unsere <a href=\"%(support_url)s\">Firefox-Hilfe</a>."
+"Wenn Sie Hilfe brauchen oder ein Problem mit Firefox haben, besuchen Sie die "
+"<a href=\"%(support_url)s\">Firefox-Hilfe</a>."
 
 #: apps/feedback/templates/feedback/beta_index.html:25
 msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
-msgstr "Wenn Sie Hilfe brauchen, oder wenn Sie ein Problem mit Firefox haben, besuchen Sie bitte unsere <a href=\"%(support_url)s\">Support-Seite</a>."
+msgstr ""
+"Wenn Sie Hilfe brauchen oder ein Problem mit Firefox haben, besuchen Sie die "
+"<a href=\"%(support_url)s\">Hilfe-Seite</a>."
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
@@ -608,7 +610,9 @@ msgstr "Offene Daten"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:68
 msgid "Or submit your ideas with our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
-msgstr "Oder senden Sie uns Ihre Ideen mit der <a href=\"%(url_suggestion)s\">Vorschlags-Funktion</a>!"
+msgstr ""
+"Oder senden Sie uns Ihren Vorschlag über unseren <a href=\"%"
+"(url_suggestion)s\">Vorschlagsbriefkasten</a>!"
 
 #: apps/feedback/__init__.py:90
 msgid "Other"
@@ -763,7 +767,7 @@ msgstr "Festlegen"
 
 #: apps/feedback/templates/feedback/release_index.html:18 apps/feedback/templates/feedback/release_index.html:168
 msgid "Share an Idea"
-msgstr "Idee teilen"
+msgstr "Vorschlag teilen"
 
 #: apps/dashboard/templates/includes/filter_box_toggle.html:4
 msgid "Show/Hide Options"
