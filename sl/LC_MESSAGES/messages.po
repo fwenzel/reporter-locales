@@ -3,181 +3,183 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-01-16 23:33+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2011-01-19 07:29+0200\n"
+"Last-Translator: Vito <smolejv@gmx.net>\n"
+"Language-Team: sl\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.8.1\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
+"X-Generator: Pootle 2.1.4\n"
 
 #: apps/dashboard/forms.py:9
 msgctxt "dashboard_period"
 msgid "1 day"
-msgstr ""
+msgstr "1 dan"
 
 #: apps/dashboard/forms.py:10
 msgctxt "dashboard_period"
 msgid "1 week"
-msgstr ""
+msgstr "1 teden"
 
 #: apps/dashboard/forms.py:11
 msgctxt "dashboard_period"
 msgid "1 month"
-msgstr ""
+msgstr "1 mesec"
 
 #: apps/dashboard/forms.py:12
 msgctxt "dashboard_period"
 msgid "all"
-msgstr ""
+msgstr "vse"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:12
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:12
 msgid "Please enable JavaScript to view this page."
-msgstr ""
+msgstr "Omogočite prosim JavaScript, da si lahko ogledate to stran."
 
 #: apps/dashboard/templates/dashboard/dashboard.html:19
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:19
 #: apps/search/templates/search/search.html:87
 #: apps/search/templates/search/mobile/search.html:86
 msgid "Overview"
-msgstr ""
+msgstr "Pregled"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:23
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:23
 #: apps/search/templates/search/search.html:94
 #: apps/search/templates/search/mobile/search.html:93
 msgid "Trends"
-msgstr ""
+msgstr "Trendi"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:27
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:27
 #: apps/search/templates/search/search.html:101
 #: apps/search/templates/search/mobile/search.html:100
 msgid "Demographics"
-msgstr ""
+msgstr "Demografija"
 
 #. Link on the dashboard to show more messages.
 #: apps/dashboard/templates/dashboard/dashboard.html:35
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:35
 msgid "Show more"
-msgstr ""
+msgstr "Prikaži več"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:37
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:37
 msgid "Last {count} Messages"
-msgstr ""
+msgstr "Najnovejša sporočila {count}"
 
 #: apps/dashboard/templates/dashboard/demographics.html:3
 msgid "OS"
-msgstr ""
+msgstr "OS"
 
 #: apps/dashboard/templates/dashboard/demographics.html:10
 msgid "Locale"
-msgstr ""
+msgstr "Lokalna nastavitev"
 
 #: apps/dashboard/templates/dashboard/demographics.html:13
 #: apps/feedback/helpers.py:16
 #: apps/search/forms.py:47
 msgid "unknown"
-msgstr ""
+msgstr "neznana"
 
 #. Link to Google Translator
 #: apps/dashboard/templates/dashboard/messages.html:17
 msgid "Translate!"
-msgstr ""
+msgstr "Prevedi!"
 
 #. Link to user agent info.
 #: apps/dashboard/templates/dashboard/messages.html:20
 msgid "UA"
-msgstr ""
+msgstr "UA"
 
 #. Link to an opinion's URL.
 #: apps/dashboard/templates/dashboard/messages.html:24
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #. This is a link to the URL associated with an opinion.
 #: apps/dashboard/templates/dashboard/messages.html:31
 msgid "visit &rarr;"
-msgstr ""
+msgstr "obiščite →"
 
 #: apps/dashboard/templates/dashboard/messages.html:36
 msgid "OS: {os_name}"
-msgstr ""
+msgstr "OS: {os_name}"
 
 #: apps/dashboard/templates/dashboard/messages.html:38
 msgid "Locale: {locale}"
-msgstr ""
+msgstr "Lokalna nastavitev: {locale}"
 
 #. Total refers to a message count.
 #: apps/dashboard/templates/dashboard/sentiments.html:27
 msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
-msgstr ""
+msgstr "<a href=\"%(url)s\">Skupaj</a>: %(count)s"
 
 #: apps/dashboard/templates/dashboard/sentiments.html:33
 #: apps/feedback/helpers.py:36
 #: apps/search/forms.py:36
 msgid "Praise"
-msgstr ""
+msgstr "Slava"
 
 #: apps/dashboard/templates/dashboard/sentiments.html:35
 #: apps/search/forms.py:37
 msgid "Issues"
-msgstr ""
+msgstr "Vprašanja"
 
 #: apps/feedback/__init__.py:9
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: apps/feedback/__init__.py:16
 msgid "Mobile"
-msgstr ""
+msgstr "Mobilna naprava"
 
 #: apps/feedback/__init__.py:42
 msgid "Windows XP"
-msgstr ""
+msgstr "Windows XP"
 
 #: apps/feedback/__init__.py:47
 msgid "Windows 7"
-msgstr ""
+msgstr "Windows 7"
 
 #: apps/feedback/__init__.py:52
 msgid "Windows Vista"
-msgstr ""
+msgstr "Windows Vista"
 
 #: apps/feedback/__init__.py:57
 msgid "Mac OS X"
-msgstr ""
+msgstr "Mac OS X"
 
 #: apps/feedback/__init__.py:62
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: apps/feedback/__init__.py:67
 msgid "Other"
-msgstr ""
+msgstr "Drugo"
 
 #: apps/feedback/forms.py:22
 msgid "Enter your feedback here."
-msgstr ""
+msgstr "Vnesite tu svoje komentarje."
 
 #: apps/feedback/forms.py:43
 msgid "We already got your feedback! Thanks."
-msgstr ""
+msgstr "Vaše mnenje smo že dobili! Hvala."
 
 #: apps/feedback/helpers.py:39
 msgid "Issue"
-msgstr ""
+msgstr "Vprašanje"
 
 #: apps/feedback/validators.py:29
 msgid "User agent string was not recognizable."
-msgstr ""
+msgstr "Niz za uporabniškega agenta ni bil prepoznaven."
 
 #: apps/feedback/validators.py:37
 msgid "Submitted User Agent is not the latest beta version."
-msgstr ""
+msgstr "Objavljeni uporabniški agent ni za najnovejšo beta različico."
 
 #: apps/feedback/validators.py:47
 msgid ""
@@ -185,364 +187,379 @@ msgid ""
 "products, please use words that help us create an action or to-do from your "
 "constructive feedback. Thanks!"
 msgstr ""
+"Vaš komentar vsebuje psovke (%s). Da bi nam pomagali izboljšati naše "
+"izdelke, vas prosimo, da uporabljajte besede, ki nam na osnovi vaše "
+"konstruktivne povratne informacije pomagajo odločiti se za dejanja ali "
+"naloge. Hvala!"
 
 #: apps/feedback/validators.py:56
 msgid "Feedback must not contain HTML."
-msgstr ""
+msgstr "Povratne informacije ne smejo vsebovati HTML."
 
 #: apps/feedback/validators.py:63
 msgid ""
 "Your feedback seems to contain an email address. Please remove this and "
 "similar personal data from the text, then try again. Thanks!"
-msgstr ""
+msgstr "Vaše povratne informacije zgleda vsebuje e-poštni naslov. Odstranite ga prosim iz besedila, ravno tako druge podobne osebne podatke, nato poskusite znova. Hvala!"
 
 #: apps/feedback/validators.py:72
 msgid ""
 "Your feedback seems to contain a URL. Please remove this and similar "
 "personal data from the text, then try again. Thanks!"
-msgstr ""
+msgstr "Vaše povratne informacije zgleda vsebujejo URL. Odstranite ga prosim iz besedila, ravno tako druge podobne osebne podatke, nato poskusite znova. Hvala!"
 
 #: apps/feedback/views.py:34
 msgid "User-Agent request header must be set."
-msgstr ""
+msgstr "Glava uporabniškega agenta za zahtevo mora biti nastavljena."
 
 #: apps/feedback/templates/feedback/cluster.html:3
 #: apps/feedback/templates/feedback/clusters.html:3
 msgid "Clusters of Opinions"
-msgstr ""
+msgstr "Grozdi mnenj"
 
 #. This is referring to the first few clusters.
 #: apps/feedback/templates/feedback/cluster.html:17
 msgid "Showing the first {count}"
-msgstr ""
+msgstr "Prikaz prvih {count}"
 
 #: apps/feedback/templates/feedback/cluster.html:25
 #: apps/feedback/templates/feedback/clusters.html:20
 msgid "No clusters of opinions found."
-msgstr ""
+msgstr "Grozdov mnenj ni najti."
 
 #: apps/feedback/templates/feedback/feedback.html:3
 #: apps/feedback/templates/feedback/feedback.html:65
 #: apps/feedback/templates/feedback/mobile/feedback.html:3
 #: apps/feedback/templates/feedback/mobile/feedback.html:45
 msgid "Submit Feedback"
-msgstr ""
+msgstr "Pošlji povratne informacije"
 
 #: apps/feedback/templates/feedback/feedback.html:13
 msgid ""
 "Super! It's great to hear that you like our pre-released browser. Please "
 "explain what you specifically like!"
-msgstr ""
+msgstr "Super! Lepo je slišati, da vam je všeč naša predhodna inačica brskalnika. Pojasnite nam prosim, kaj vam je posebno všeč!"
 
 #: apps/feedback/templates/feedback/feedback.html:20
 msgid ""
 "We are sorry that you have not had a good experience with our browser. "
 "Please tell us why, so we can improve it!"
-msgstr ""
+msgstr "Žal nam je, da niste imeli dobrih izkušnj z našim brskalnika. Povejte nam, zakaj, da ga bomo lahko izboljšali!"
 
 #: apps/feedback/templates/feedback/feedback.html:34
 msgid ""
 "Know of a website that works better in this beta than it did in earlier "
 "versions of Firefox? Please add the URL, so we can keep track!"
-msgstr ""
+msgstr "Ali veste za kako spletno stran, ki v tej beta inačici deluje bolje kot v prejšnjih različicah Firefoxa? Dodajte prosim URL, tako da ga bomo spremljali!"
 
 #: apps/feedback/templates/feedback/feedback.html:42
 msgid ""
 "Had an issue with a specific website? Please add the URL, so we can find the "
 "issue faster!"
-msgstr ""
+msgstr "Ste imeli s kako spletno stranjo probleme? Dodajte prosim URL, da bomo problemu laže prišli do dna!"
 
 #: apps/feedback/templates/feedback/feedback.html:63
 #: apps/feedback/templates/feedback/mobile/feedback.html:43
 msgid ""
 "Please ensure that there is no personally identifiable information here."
-msgstr ""
+msgstr "Prepričajte se, da v sporočilu ni kakih osebnih podatkovj."
 
 #: apps/feedback/templates/feedback/need_beta.html:3
 #: apps/feedback/templates/feedback/mobile/need_beta.html:3
 msgid "Download Beta"
-msgstr ""
+msgstr "Prenesi Beta"
 
 #: apps/feedback/templates/feedback/need_beta.html:8
 msgid ""
 "Oh! So, you want to offer us feedback on the next version of Firefox. Thank "
 "you, but you'll need to be on our latest beta."
-msgstr ""
+msgstr "Oh! Želite nam torej nuditi povratne informacije o naslednji različici Firefox. Hvala vam, vendar boste morali biti na naši najnovejši beta."
 
 #: apps/feedback/templates/feedback/need_beta.html:14
 msgid ""
 "To do that, simply go to our download page and install/update to the <a "
 "href=\"%(url)s\">latest Firefox Beta!</a>"
 msgstr ""
+"V ta namen obiščite preprosto našo stran za prenos in namestitev/posodobitev "
+"na <a href=\"%(url)s\">najnovejšo Beta Firefox!</a>"
 
 #: apps/feedback/templates/feedback/thanks.html:3
 #: apps/feedback/templates/feedback/mobile/thanks.html:3
 msgid "Thanks for Your Feedback"
-msgstr ""
+msgstr "Hvala vam za vaše mnenje"
 
 #: apps/feedback/templates/feedback/thanks.html:7
 #: apps/feedback/templates/feedback/mobile/thanks.html:8
 msgid "Thanks for sending us your feedback!"
-msgstr ""
+msgstr "Hvala, ker ste nam poslali svoje mnenje!"
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid ""
 "If you want to see where your feedback was sent to, take a look at our <a "
 "href=\"%(url)s\">Firefox Input Dashboard</a>."
 msgstr ""
+"Če ga želite videti, kam se je vaše mnenje poslalo, si oglejte našo <a "
+"href=\"%(url)s\">Kontrolno tablo za Firefox Input</a>."
 
 #: apps/feedback/templates/feedback/thanks.html:17
 #: apps/feedback/templates/feedback/mobile/thanks.html:12
 msgid "Find out the latest news from Mozilla:"
-msgstr ""
+msgstr "Oglejte si najnovejše novice o Mozilli:"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:13
 msgid "Super! Please tell us more!"
-msgstr ""
+msgstr "Super! Povejte nam prosim še kaj!"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:15
 msgid "Sorry! Please tell us more!"
-msgstr ""
+msgstr "Žal! Povejte nam prosim še kaj!"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:25
 msgid "Add URL of last visited page?"
-msgstr ""
+msgstr "Naj dodam URL nazadnje obiskane strani?"
 
 #: apps/feedback/templates/feedback/mobile/need_beta.html:9
 msgid ""
 "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head "
 "over to our beta page and <a href=\"%(url)s\">download it!</a>"
-msgstr ""
+msgstr "Oh! Želite nam torej nuditi povratne informacije. Potrebovali boste najnovejšo Beta! Skočite na našo beta stran in si <a href=\"%(url)s\">jo prenesite!</a>"
 
 #: apps/search/client.py:63
 msgid "Query has timed out."
-msgstr ""
+msgstr "Čaz za poizvedbo je potekel."
 
 #. L10n: Sphinx is the name of the search engine software.
 #: apps/search/client.py:66
 msgid "Sphinx threw an unknown exception: %s"
-msgstr ""
+msgstr "Sfinga se je javila z neznano izjemo: %s"
 
 #: apps/search/forms.py:22
 #: apps/search/forms.py:29
 msgctxt "version_choice"
 msgid "-- all --"
-msgstr ""
+msgstr "-- vse --"
 
 #: apps/search/forms.py:35
 msgctxt "sentiment_choice"
 msgid "-- all --"
-msgstr ""
+msgstr "-- vse --"
 
 #: apps/search/forms.py:42
 msgctxt "os_choice"
 msgid "-- all --"
-msgstr ""
+msgstr "-- vse --"
 
 #: apps/search/forms.py:46
 msgctxt "locale_choice"
 msgid "-- all --"
-msgstr ""
+msgstr "-- vse --"
 
 #: apps/search/forms.py:53
 msgid "Search Terms"
-msgstr ""
+msgstr "Pojmi za iskanje"
 
 #: apps/search/forms.py:54
 msgid "Product:"
-msgstr ""
+msgstr "Izdelek:"
 
 #: apps/search/forms.py:56
 msgid "Version:"
-msgstr ""
+msgstr "Različica:"
 
 #: apps/search/forms.py:58
 msgid "Sentiment:"
-msgstr ""
+msgstr "Kazalec klime:"
 
 #: apps/search/forms.py:60
 msgid "Locale:"
-msgstr ""
+msgstr "Lokalna nastavitev"
 
 #: apps/search/forms.py:62
 msgid "OS:"
-msgstr ""
+msgstr "OS:"
 
 #: apps/search/forms.py:65
 msgid "Date range:"
-msgstr ""
+msgstr "Časovno obdobje:"
 
 #. L10n: This indicates the second part of a date range.
 #: apps/search/forms.py:68
 msgid "to"
-msgstr ""
+msgstr "za"
 
 #: apps/search/templates/search/search.html:5
 #: apps/search/templates/search/search.html:7
 #: apps/search/templates/search/mobile/search.html:5
 #: apps/search/templates/search/mobile/search.html:6
 msgid "Search Results"
-msgstr ""
+msgstr "Rezultati iskanja"
 
 #: apps/search/templates/search/search.html:19
 #: apps/search/templates/search/mobile/search.html:18
 msgid ""
 "Due to software constraints, we can only show the last 1000 messages for "
 "this search query."
-msgstr ""
+msgstr "Zaradi omejitev programske opreme lahko za to poizvedbo prikažemo le zadnjih 1000 sporočil."
 
 #: apps/search/templates/search/search.html:30
 #: apps/search/templates/search/mobile/search.html:31
 msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
-msgstr ""
+msgstr "Opis: <span class=\"opt\">\"%(query)s\"</span>;"
 
 #: apps/search/templates/search/search.html:34
 #: apps/search/templates/search/mobile/search.html:35
 msgid "Dates: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
-msgstr ""
+msgstr "Datumi: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
 
 #: apps/search/templates/search/search.html:39
 #: apps/search/templates/search/mobile/search.html:40
 msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
-msgstr ""
+msgstr "Lokalna nastavitev: <span class=\"opt\">%(locale)s</span>;"
 
 #: apps/search/templates/search/search.html:39
 #: apps/search/templates/search/search.html:42
 #: apps/search/templates/search/mobile/search.html:40
 #: apps/search/templates/search/mobile/search.html:43
 msgid "all"
-msgstr ""
+msgstr "vse"
 
 #: apps/search/templates/search/search.html:42
 #: apps/search/templates/search/mobile/search.html:43
 msgid "OS: <span class=\"opt\">%(os)s</span>"
-msgstr ""
+msgstr "OS: <span class=\"opt\">%(os)s</span>"
 
 #: apps/search/templates/search/search.html:56
 #: apps/search/templates/search/mobile/search.html:55
 msgid "No search results found."
-msgstr ""
+msgstr "Ni najti rezultatov iskanja. "
 
 #: apps/search/templates/search/search.html:66
 #: apps/search/templates/search/mobile/search.html:65
 msgid "&laquo; previous"
-msgstr ""
+msgstr "&laquo; nazaj"
 
 #: apps/search/templates/search/search.html:72
 #: apps/search/templates/search/mobile/search.html:71
 msgid "next &raquo;"
-msgstr ""
+msgstr "dalje &raquo;"
 
 #: apps/search/templates/search/search.html:76
 #: apps/search/templates/search/mobile/search.html:75
 msgid "page %(pagenum)s of %(total)s"
-msgstr ""
+msgstr "stran %(pagenum)s od %(total)s"
 
 #: apps/search/templates/search/search_form.html:19
 msgid "Search"
-msgstr ""
+msgstr "Iskanje"
 
 #: apps/search/templates/search/search_form.html:28
 msgid "Advanced"
-msgstr ""
+msgstr "Napredno"
 
 #: apps/search/templates/search/unavailable.html:4
 msgid "Search Unavailable"
-msgstr ""
+msgstr "Iskanje ni na voljo"
 
 #: apps/search/templates/search/unavailable.html:6
 msgid "I'm sorry, there was an error with your search."
-msgstr ""
+msgstr "Žal mi je, prišlo je do napake z vašo poizvedbo."
 
 #: apps/search/templates/search/unavailable.html:9
 msgid ""
 "Our search engine might be currently unavailable. You may start over on the "
 "<a href=\"%(url)s\">dashboard</a> and try again later."
 msgstr ""
+"Naš iskalnik lahko da trenutno ni na voljo. Lahko začnete znova na <a href=\""
+"%(url)s\">kontrolni tabli</a> in poskusite znova pozneje."
 
 #: apps/search/templates/search/unavailable.html:16
 msgid ""
 "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, "
 "mentioning the URL you were accessing."
 msgstr ""
+"Če se problem ponovi, vas prosimo, da <a href=\"%(bug_url)s\">zavedete "
+"napako</a> in navedete pri tem URL, ki ste ga hoteli doseči."
 
 #: apps/search/templates/search/unavailable.html:22
 msgid "Include the following error message in your bug report:"
-msgstr ""
+msgstr "V poročilo o hrošču dodajte naslednje sporočilo o napaki:"
 
 #: apps/search/templates/search/unavailable.html:25
 msgid "Thanks!"
-msgstr ""
+msgstr "Hvala!"
 
 #: templates/404.html:4
 msgid "Not Found"
-msgstr ""
+msgstr "Ni bilo mogoče najti"
 
 #: templates/404.html:6
 msgid "I'm sorry, I could not find what you were looking for."
-msgstr ""
+msgstr "Žal tistega, kar ste iskali, ni bilo mogoče najti."
 
 #: templates/404.html:9
 #: templates/500.html:14
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 msgstr ""
+"Začnite prosim znova na <a href=\"%(dashboard_url)s\">Kontrolni tabli</a>."
 
 #: templates/404.html:14
 msgid ""
 "If you were following a broken link, please <a href=\"%(bug_url)s\">file a "
 "bug.</a> Thanks!"
 msgstr ""
+"Če ste sledili polomljeni povezavi, vas prosimo, da <a href=\"%"
+"(bug_url)s\">prijavite napako.</a> Hvala!"
 
 #: templates/500.html:4
 msgid "Internal Server Error"
-msgstr ""
+msgstr "Notranja napaka strežnika"
 
 #: templates/500.html:7
 msgid ""
 "An unhandled error occurred in the application. The error has been logged "
 "and an administrator was notified. We apologize for the inconvenience!"
-msgstr ""
+msgstr "V aplikaciji je prišlo do neobravnavane napake. Napaka je zavedena in administrator je o njej obveščen. Opravičujemo se za nevšečnosti!"
 
 #: templates/500.html:20
 msgid ""
 "If you have additional information how to reproduce this problem, please <a "
 "href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-msgstr ""
+msgstr "Če imate dodatne informacije, kako je mogoče problem ponoviti, vas prosimo, da <a href=\"%(bug_url)s\">javite napako.</a> Hvala!"
 
 #: templates/base.html:5
 #: templates/base_mobile.html:5
 msgid "Welcome!"
-msgstr ""
+msgstr "Dobrodošli!"
 
 #: templates/base.html:18
 #: templates/base_mobile.html:16
 msgid "Proceed to main content"
-msgstr ""
+msgstr "Dalje na glavno vsebino"
 
 #: templates/base.html:19
 #: templates/base_mobile.html:17
 msgid "Proceed to footer"
-msgstr ""
+msgstr "Dalje na nogo"
 
 #: templates/base.html:31
 #: templates/base_mobile.html:27
 msgid "Input Dashboard"
-msgstr ""
+msgstr "Kontrolna tabla za Input"
 
 #: templates/base.html:59
 #: templates/base_mobile.html:53
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Izjava o zasebnosti"
 
 #: templates/base.html:60
 #: templates/base_mobile.html:54
 msgid "Legal Notices"
-msgstr ""
+msgstr "Pravna obvestila"
 
 #: templates/base.html:61
 #: templates/base_mobile.html:55
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "Poročilo o zlorabi trgovske znamke"
 
 #: templates/base.html:64
 #: templates/base_mobile.html:58
@@ -551,15 +568,18 @@ msgid ""
 "site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons "
 "Attribution Share-Alike License v3.0</a> or any later version."
 msgstr ""
+"Razen če ni drugače <a href=\"%(legal_url)s\">navedeno</a><br/>, so vsebine na "
+"tej strani pod licenco </br> <a href=\"%(license_url)s\">Creative Commons "
+"Attribution Share-Alike License v3.0</a> ali pod eno kasnejših različic."
 
 #: templates/includes/lang_switcher.html:2
 msgid "Other languages:"
-msgstr ""
+msgstr "Drugi jeziki:"
 
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
-msgstr ""
+msgstr "Pojdi"
 
 #: templates/includes/nav_buttons.html:2
 msgid "Clusters"
-msgstr ""
+msgstr "Grozdi"
