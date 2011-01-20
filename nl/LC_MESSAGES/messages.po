@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 15:37+0200\n"
-"PO-Revision-Date: 2011-01-18 02:06+0200\n"
+"PO-Revision-Date: 2011-01-20 23:50+0200\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -80,15 +80,15 @@ msgstr "-- alles --"
 
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:3
 msgid "1d"
-msgstr "1e"
+msgstr "1 d"
 
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:9
 msgid "30d"
-msgstr "30e"
+msgstr "30 d"
 
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:6
 msgid "7d"
-msgstr "7e"
+msgstr "7 d"
 
 #: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
 msgid "<strong>%(cnt)s</strong> message"
@@ -105,7 +105,7 @@ msgstr ""
 "opgezet als een methode van communicatie in één richting over uw ervaring "
 "met het gebruik van Firefox, het internet dat u ermee bekijkt, en wat "
 "Mozilla kan doen om die ervaring te verbeteren. Het systeem is in een breed "
-"scala van inzendingsmiddelen over alle drie belangrijke buildkanalen "
+"scala van inzendingsmiddelen voor alle drie de belangrijke buildkanalen "
 "beschikbaar."
 
 #: apps/dashboard/templates/dashboard/dashboard.html:57
@@ -198,7 +198,7 @@ msgstr "Clusters"
 
 #: apps/themes/templates/themes/index.html:35
 msgid "Common Themes"
-msgstr "Veelgebruikte thema’s"
+msgstr "Alledaagse thema’s"
 
 #: apps/dashboard/templates/dashboard/message_list.html:33 apps/themes/templates/themes/theme_list.html:31
 msgid "Copy User Agent"
@@ -275,9 +275,8 @@ msgid "Facebook"
 msgstr "Facebook"
 
 #: apps/input/__init__.py:59
-#, fuzzy
 msgid "Fair"
-msgstr "Redelijk"
+msgstr "Matig"
 
 #: apps/input/__init__.py:49
 msgid "Features"
@@ -326,7 +325,7 @@ msgstr "Firefox maakt me blij…"
 
 #: apps/feedback/templates/feedback/beta_index.html:13 apps/feedback/templates/feedback/beta_index.html:15
 msgid "Firefox makes me happy because ..."
-msgstr "Firefox maakt me blij omdat…"
+msgstr "Firefox maakt me blij, omdat…"
 
 #: apps/feedback/templates/feedback/mobile/beta_index.html:18 apps/feedback/templates/feedback/mobile/beta_index.html:20
 msgid "Firefox makes me sad ..."
@@ -334,7 +333,7 @@ msgstr "Firefox stelt me teleur…"
 
 #: apps/feedback/templates/feedback/beta_index.html:19 apps/feedback/templates/feedback/beta_index.html:21
 msgid "Firefox makes me sad because ..."
-msgstr "Firefox stelt me teleur omdat…"
+msgstr "Firefox stelt me teleur, omdat…"
 
 #. refers to time-based search filters (e.g., "for last: 1d")
 #: apps/dashboard/templates/dashboard/mobile/when.html:3
@@ -416,26 +415,26 @@ msgstr "Als u aanvullende informatie hebt over hoe we dit probleem kunnen laten 
 #: apps/feedback/templates/feedback/feedback.html:86
 msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
 msgstr ""
-"Als u ons in plaats daarvan een idee wilt melden, stuur het ons dan toe via "
-"ons <a href=\"%(url_suggestion)s\">suggestieveld</a>!"
+"Als u liever een idee wilt melden, stuur het ons dan toe via ons <a href=\"%"
+"(url_suggestion)s\">suggestieveld</a>!"
 
 #: apps/feedback/templates/feedback/release_index.html:24
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
 msgstr ""
-"Als u hulp nodig of een probleem met Firefox hebt, bezoek dan <a href=\"%"
+"Als u hulp zoekt of een probleem met Firefox hebt, bezoek dan <a href=\"%"
 "(support_url)s\">Firefox-ondersteuning</a>."
 
 #: apps/feedback/templates/feedback/beta_index.html:25
 msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
 msgstr ""
-"Als u hulp nodig of een probleem met Firefox hebt, bezoek dan onze <a href=\""
+"Als u hulp zoekt of een probleem met Firefox hebt, bezoek dan onze <a href=\""
 "%(support_url)s\">ondersteuningspagina</a>."
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
 msgstr ""
-"Als u wilt zien waarheen uw feedback is gestuurd, kijk dan op ons <a href=\"%"
-"(url)s\">Firefox Input-dashboard</a>."
+"Als u wilt zien waar uw feedback naartoe is gestuurd, kijk dan op ons <a "
+"href=\"%(url)s\">Firefox Input-dashboard</a>."
 
 #: templates/404.html:14
 msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
@@ -447,7 +446,7 @@ msgstr "Neem de volgende foutmelding op in uw bugrapport:"
 
 #: templates/base_mobile_old.html:30 templates/base_old.html:35
 msgid "Input Dashboard"
-msgstr "Invoerdashboard"
+msgstr "Input-dashboard"
 
 #: templates/500.html:4
 msgid "Internal Server Error"
@@ -499,7 +498,7 @@ msgstr "Afgelopen dag"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:66
 msgid "Latest Feedback"
-msgstr "Meest recente feedback"
+msgstr "Nieuwste feedback"
 
 #: templates/base_mobile_old.html:57 templates/base_old.html:64 templates/includes/footer.html:9
 msgid "Legal Notices"
@@ -531,7 +530,7 @@ msgstr "Maemo"
 
 #: apps/dashboard/templates/dashboard/manufacturers.html:16
 msgid "Manufacturer"
-msgstr "Maker"
+msgstr "Fabrikant"
 
 #. Title text for a complete message count.
 #: apps/dashboard/templates/dashboard/opinion_count.html:3
@@ -588,13 +587,13 @@ msgstr "Vaak genoemd"
 msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
 msgstr ""
 "Oh! Dus u wilt ons feedback geven over Firefox. Dank u, maar u dient de "
-"meest recente bètaversie te gebruiken."
+"meest recente versie te gebruiken."
 
 #: apps/feedback/templates/feedback/need_beta.html:8
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
 msgstr ""
 "Oh! Dus u wilt ons feedback geven over de volgende versie van Firefox. Dank "
-"u, maar u dient de meest recente bètaversie te gebruiken."
+"u, maar u dient onze meest recente bètaversie te gebruiken."
 
 #: apps/feedback/templates/feedback/mobile/need_beta.html:9
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
@@ -611,7 +610,6 @@ msgid "Older Messages &raquo;"
 msgstr "Oudere berichten &raquo;"
 
 #: templates/about.html:24
-#, fuzzy
 msgid "Open Data"
 msgstr "Open gegevens"
 
@@ -650,7 +648,7 @@ msgstr "Platformen"
 
 #: apps/feedback/templates/feedback/beta_index.html:9
 msgid "Please choose one of the following types of feedback that you would like to submit to us:"
-msgstr "Kies een van de volgende typen feedback die u ons zou willen toesturen:"
+msgstr "Kies het type feedback dat u ons zou willen toesturen:"
 
 #: apps/feedback/templates/feedback/mobile/beta_index.html:10
 msgid "Please choose the type of feedback that you would like to submit to us:"
@@ -666,7 +664,7 @@ msgstr "Begin opnieuw op het <a href=\"%(dashboard_url)s\">dashboard</a>."
 
 #: apps/input/__init__.py:58
 msgid "Poor"
-msgstr "Zwak"
+msgstr "Slecht"
 
 #. Formerly called "happy"
 #: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8
@@ -789,7 +787,7 @@ msgstr "Websites met slechts één bericht"
 msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please make your suggestion below:"
 msgstr ""
 "Dus u wilt een suggestie doen over het verbeteren van Firefox? Geweldig! "
-"Plaats uw suggestie hieronder:"
+"Plaats hieronder uw suggestie:"
 
 #: templates/about.html:34
 msgid "Source Code"
@@ -821,7 +819,6 @@ msgid "Submit Feedback"
 msgstr "Feedback indienen"
 
 #: apps/feedback/templates/feedback/release_index.html:10
-#, fuzzy
 msgid "Submit Your Feedback"
 msgstr "Uw feedback indienen"
 
@@ -888,8 +885,8 @@ msgstr "Thema’s"
 #: apps/feedback/templates/feedback/need_beta.html:14
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
 msgstr ""
-"Ga naar onze downloadpagina gaan en installeer <a href=\"%(url)s\">de meest "
-"recente Firefox-bèta</a> of werk bij naar deze versie om mee te doen!"
+"Ga naar onze downloadpagina en installeer <a href=\"%(url)s\">de meest recente "
+"Firefox-bèta</a> of werk bij naar deze versie om mee te doen!"
 
 #: apps/feedback/templates/feedback/need_release.html:14
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
@@ -1004,12 +1001,12 @@ msgstr "Wat is de URL van de defecte website?"
 #. Title for a time-based search filter
 #: apps/dashboard/templates/dashboard/when.html:2
 msgid "When"
-msgstr "Wanneer"
+msgstr "Periode"
 
 #. Refers to sites that were reported in feedback.
 #: apps/dashboard/templates/dashboard/sites.html:3 apps/dashboard/templates/dashboard/mobile/sites.html:2
 msgid "While Visiting"
-msgstr "Tijdens bezoeken van"
+msgstr "Bij bezoeken van"
 
 #: apps/feedback/__init__.py:54
 msgid "Windows 7"
