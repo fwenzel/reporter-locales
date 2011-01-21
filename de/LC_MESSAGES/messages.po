@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-01-19 00:53+0200\n"
-"Last-Translator: Thomas <thomas.lendo@gmail.com>\n"
+"PO-Revision-Date: 2011-01-21 20:11+0200\n"
+"Last-Translator: Frederic <fwenzel@mozilla.com>\n"
 "Language-Team: none\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -236,7 +236,6 @@ msgstr ""
 "Sieht eine Website in Firefox falsch aus oder verhält sie sich fehlerhaft?"
 
 #: apps/input/__init__.py:60
-#, fuzzy
 msgid "Don't Care"
 msgstr "Egal"
 
@@ -278,7 +277,7 @@ msgstr "Facebook"
 
 #: apps/input/__init__.py:59
 msgid "Fair"
-msgstr ""
+msgstr "Einigermaßen"
 
 #: apps/input/__init__.py:49
 msgid "Features"
@@ -556,7 +555,6 @@ msgstr "weiter &raquo;"
 
 #. short for an indefinite date range
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:12
-#, fuzzy
 msgid "No date limit"
 msgstr "Keine Zeitbeschränkung"
 
@@ -604,7 +602,6 @@ msgid "Older Messages &raquo;"
 msgstr "Ältere Nachrichten &raquo;"
 
 #: templates/about.html:24
-#, fuzzy
 msgid "Open Data"
 msgstr "Offene Daten"
 
@@ -659,7 +656,6 @@ msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 msgstr "Bitte gehen Sie zurück zur <a href=\"%(dashboard_url)s\">Hauptseite</a>."
 
 #: apps/input/__init__.py:58
-#, fuzzy
 msgid "Poor"
 msgstr "Schlecht"
 
@@ -722,9 +718,8 @@ msgid "Report a Broken Website"
 msgstr "Fehlerhafte Website melden"
 
 #: apps/input/__init__.py:37
-#, fuzzy
 msgid "Responsiveness"
-msgstr "Reaktionsbereitschaft"
+msgstr "Reaktionsgeschwindigkeit"
 
 #: apps/search/templates/search/search_form.html:19
 msgid "Search"
@@ -820,7 +815,6 @@ msgid "Submit Your Feedback"
 msgstr "Ihren Kommentar abschicken"
 
 #: apps/feedback/templates/feedback/release_index.html:96 apps/feedback/templates/feedback/release_index.html:156 apps/feedback/templates/feedback/release_index.html:207
-#, fuzzy
 msgid "Submitting Feedback"
 msgstr "Kommentar wird abgeschickt"
 
@@ -862,11 +856,10 @@ msgid "Thanks!"
 msgstr "Vielen Dank!"
 
 #: templates/about.html:37
-#, fuzzy
 msgid "The code for the Firefox Input web application can be found <a href=\"%(source_url)s\">on GitHub</a>!"
 msgstr ""
 "Der Quelltext für die Webanwendung zu Firefox Input kann <a href=\"%"
-"(source_url)s\">bei GitHub</a> abgerufen werden!"
+"(source_url)s\">auf GitHub</a> abgerufen werden!"
 
 #: apps/themes/templates/themes/theme.html:4 apps/themes/templates/themes/theme.html:14 apps/website_issues/templates/website_issues/theme.html:15
 msgid "Theme"
@@ -900,6 +893,8 @@ msgstr ""
 #: templates/about.html:18
 msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(feedback_url)s\">the feedback submission page</a>!"
 msgstr ""
+"Um Feedback für Ihre Version von Firefox abzugeben, gehen Sie bitte auf "
+"unsere <a href=\"%(feedback_url)s\">Feedback-Seite</a>!"
 
 #. Link text for showing/hiding options
 #: apps/dashboard/templates/includes/filter_box_toggle.html:6
@@ -938,9 +933,8 @@ msgid "Unknown"
 msgstr "Unbekannt"
 
 #: templates/includes/ua_overlay.html:3
-#, fuzzy
 msgid "User Agent"
-msgstr "User-Agent kopieren"
+msgstr "User-Agent"
 
 #: templates/includes/ua_overlay.html:9
 msgid "User agent copied"
@@ -960,9 +954,8 @@ msgstr ""
 "Gehen Sie zur <a href=\"%(dashboard_url)s\">Firefox-Feedback-Hauptseite</a>"
 
 #: apps/feedback/templates/feedback/release_index.html:232
-#, fuzzy
 msgid "Want to see where your feedback goes?"
-msgstr "Geben Sie hier Ihren Kommentar ein."
+msgstr "Möchten Sie sehen, wohin Ihr Kommentar gesendet wird?"
 
 #: apps/feedback/forms.py:99
 msgid "We already got your feedback! Thanks."
@@ -977,6 +970,10 @@ msgid ""
 "We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
 "please <a href=\"%(data_url)s\">contact us</a>!"
 msgstr ""
+"Wir würden gerne mehr mit diesen Daten experimentieren, aber wir sind nur "
+"wenige Leute. Daher brauchen wir Anfragen von Ihnen, um zu sehen welche "
+"Fragen Sie beantwortet haben möchten! Wenn Sie mit unseren Daten "
+"experimentieren möchten, <a href=\"%(data_url)s\">kontaktieren Sie uns</a>!"
 
 #: templates/base.html:5 templates/base_mobile.html:6
 msgid "Welcome"
@@ -1033,6 +1030,8 @@ msgstr "Ihr Kommentar scheint eine E-Mail-Adresse zu beinhalten. Bitte entfernen
 #: apps/feedback/templates/feedback/release_index.html:222
 msgid "Your feedback will be used to create a better experience in future releases of Firefox."
 msgstr ""
+"Ihr Kommentar wird verwendet, um zukünftige Versionen von Firefox für die "
+"Benutzer zu verbessern."
 
 #. L10n: This means an event that happened only a few seconds ago.
 #: apps/input/helpers.py:86
