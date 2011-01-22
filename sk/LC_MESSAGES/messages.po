@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: REPORTER 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-20 23:17+0200\n"
-"PO-Revision-Date: 2011-01-16 22:08+0100\n"
+"PO-Revision-Date: 2011-01-22 09:14+0100\n"
 "Last-Translator: wladow <info@wladow.sk>\n"
 "Language-Team: SLOVAK <l10n@mozilla.sk>\n"
 "Language: \n"
@@ -110,11 +110,11 @@ msgstr[2] "<strong>%(cnt)s</strong> správ"
 
 #: templates/about.html:9
 msgid "<strong>Firefox Input</strong> is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
-msgstr ""
+msgstr "<strong>Firefox Input</strong> je pre Mozillu hlavným zdrojom spätnej väzby. Je to jednosmerná komunikácia o vašich zážitkoch pri používaní prehliadača Firefox, webových stránkach, ktoré cez tento prehliadač navštevujete a o tom, čo môže Mozilla spraviť pre to, aby boli tieto zážitky ešte lepšie. Systém je dostupný pre všetky tri hlavné kanály zostavení prehliadača."
 
 #: apps/dashboard/templates/dashboard/dashboard.html:57
 msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
-msgstr ""
+msgstr "<strong>Vítá vás Firefox Input!</strong> Toto je pre Mozillu hlavný zdroj spätnej väzby. <a href=\"%(about_url)s\">Ďalšie informácie...</a>"
 
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
@@ -191,7 +191,7 @@ msgstr "Späť na {domain} &raquo;"
 
 #: apps/feedback/__init__.py:112
 msgid "Broken Website"
-msgstr ""
+msgstr "Nefunkčná webová stránka"
 
 #: templates/includes/ua_overlay.html:10
 msgid "Close"
@@ -226,11 +226,11 @@ msgstr "Dátum od:"
 
 #: apps/feedback/templates/feedback/release_index.html:130
 msgid "Describe the problem with the website."
-msgstr ""
+msgstr "Popíšte problém s webovou stránkou."
 
 #: apps/feedback/templates/feedback/release_index.html:181
 msgid "Describe your idea below."
-msgstr ""
+msgstr "Popíšte svoj nápad."
 
 #: apps/dashboard/templates/dashboard/devices.html:15
 msgid "Devices"
@@ -238,11 +238,11 @@ msgstr "Zariadenia"
 
 #: apps/feedback/templates/feedback/release_index.html:110
 msgid "Does a website look or behave incorrectly in Firefox?"
-msgstr ""
+msgstr "V"
 
 #: apps/input/__init__.py:60
 msgid "Don't Care"
-msgstr ""
+msgstr "Nezaujíma ma"
 
 #: apps/feedback/templates/feedback/need_beta.html:3
 #: apps/feedback/templates/feedback/mobile/need_beta.html:3
@@ -265,11 +265,11 @@ msgstr "sem zadajte svoj názor"
 
 #: apps/feedback/forms.py:172
 msgid "Example: Images were not loading, but the rest of the page was."
-msgstr ""
+msgstr "Príklad: obrázky sa nenačítali, zvyšok stránky áno."
 
 #: apps/input/__init__.py:62
 msgid "Excellent"
-msgstr ""
+msgstr "Výbroné"
 
 #: templates/base_mobile_old.html:61
 #: templates/base_old.html:68
@@ -283,7 +283,7 @@ msgstr "Facebook"
 
 #: apps/input/__init__.py:59
 msgid "Fair"
-msgstr ""
+msgstr "Priemerné"
 
 #: apps/input/__init__.py:49
 msgid "Features"
@@ -363,11 +363,11 @@ msgstr "Prejsť"
 #: apps/feedback/templates/feedback/release_index.html:114
 #: apps/feedback/templates/feedback/release_index.html:171
 msgid "Go Back"
-msgstr ""
+msgstr "Prejsť naspäť"
 
 #: apps/input/__init__.py:61
 msgid "Good"
-msgstr ""
+msgstr "Dobré"
 
 #: apps/feedback/templates/feedback/feedback.html:56
 msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
@@ -375,39 +375,39 @@ msgstr "Máte problém na konkrétnej stránke? Zadajte jej adresu, aby sme mohl
 
 #: apps/feedback/templates/feedback/release_index.html:169
 msgid "Have an idea how Firefox could be better? Let us know!"
-msgstr ""
+msgstr "Máte nápad na vylepšenie Firefoxu? Dajte nám o ňom vedieť!"
 
 #: templates/about.html:7
 msgid "Hello!"
-msgstr ""
+msgstr "Vitajte!"
 
 #: templates/includes/ua_overlay.html:7
 msgid "Hit Ctrl+C (Cmd+C on Mac) to copy and close."
-msgstr ""
+msgstr "Stlačte CTRL+C (Cmd+C v systéme Mac) na skopírovanie a môžete zavrieť."
 
 #: apps/input/__init__.py:44
 msgid "How frequently Firefox crashes or loses data"
-msgstr ""
+msgstr "Ako často Firefox zlyháva alebo stráca údaje?"
 
 #: apps/input/__init__.py:26
 msgid "How long Firefox takes to start running"
-msgstr ""
+msgstr "Ako dlho trvá Firefoxu spustenie?"
 
 #: apps/input/__init__.py:32
 msgid "How long it takes for web pages to load"
-msgstr ""
+msgstr "Ako dlho trvá načítanie stránky?"
 
 #: apps/input/__init__.py:38
 msgid "How quickly web pages respond once they have loaded"
-msgstr ""
+msgstr "Ako rýchlo reagujú stránku po svojom načítaní?"
 
 #: apps/input/__init__.py:50
 msgid "How well Firefox's built-in features serve your needs"
-msgstr ""
+msgstr "Ako spĺňajú zabudované funkcie Firefoxu vaše potreby?"
 
 #: apps/feedback/templates/feedback/release_index.html:38
 msgid "How would you rate these aspects of Firefox?"
-msgstr ""
+msgstr "Ako by ste ohodnotili tieto aspekty Firefoxu?"
 
 #: templates/404.html:6
 msgid "I'm sorry, I could not find what you were looking for."
@@ -580,7 +580,7 @@ msgstr "Nasledujúca strana &raquo;"
 #. short for an indefinite date range
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:12
 msgid "No date limit"
-msgstr ""
+msgstr "Bez časového obmedzenia"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:27
 msgid "No results found!"
@@ -630,7 +630,7 @@ msgstr "Staršie správy &raquo;"
 
 #: templates/about.html:24
 msgid "Open Data"
-msgstr ""
+msgstr "Otvorené údaje"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:68
 msgid "Or submit your ideas with our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
@@ -651,7 +651,7 @@ msgstr "Naše vyhľadávanie nie je momentálne dostupné. Zatiaľ si pozrite <a
 
 #: apps/input/__init__.py:31
 msgid "Page Load Time"
-msgstr ""
+msgstr "Čas načítania stránky"
 
 #: apps/feedback/templates/feedback/release_index.html:245
 msgid "Planet Mozilla"
@@ -687,7 +687,7 @@ msgstr "Začnite návštevou stránky <a href=\"%(dashboard_url)s\">Nástenka n�
 
 #: apps/input/__init__.py:58
 msgid "Poor"
-msgstr ""
+msgstr "Slabé"
 
 #. Formerly called "happy"
 #: apps/dashboard/views.py:54
@@ -741,7 +741,7 @@ msgstr "Produkt:"
 
 #: apps/feedback/templates/feedback/release_index.html:111
 msgid "Provide us some details about the problem and we'll try to fix it."
-msgstr ""
+msgstr "Popíšte viac tento problém a my sa ho pokúsime vyriešiť."
 
 #: apps/search/client.py:194
 msgid "Query has timed out."
@@ -750,7 +750,7 @@ msgstr "Časový limit požiadavky vypršal."
 #: apps/feedback/templates/feedback/release_index.html:16
 #: apps/feedback/templates/feedback/release_index.html:37
 msgid "Rate Your Experience"
-msgstr ""
+msgstr "Ohodnoťte vašu skúsenosť"
 
 #: apps/feedback/__init__.py:111
 msgid "Rating"
@@ -814,7 +814,7 @@ msgstr "Nastaviť"
 #: apps/feedback/templates/feedback/release_index.html:18
 #: apps/feedback/templates/feedback/release_index.html:168
 msgid "Share an Idea"
-msgstr ""
+msgstr "Podeliť sa o nápad"
 
 #: apps/dashboard/templates/includes/filter_box_toggle.html:4
 msgid "Show/Hide Options"
@@ -851,7 +851,7 @@ msgstr "Stabilita"
 
 #: apps/input/__init__.py:25
 msgid "Start-Up Time"
-msgstr ""
+msgstr "Čas spustenia"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:7
 #: apps/search/templates/search/mobile/search.html:7
@@ -966,7 +966,7 @@ msgstr "Kvôli ochrane vášho súkromia sa uistite, že do spätnej väzby neza
 
 #: templates/about.html:18
 msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(feedback_url)s\">the feedback submission page</a>!"
-msgstr ""
+msgstr "Ak chcete odoslať názor na vašu verziu Firefoxu, prejdite na <a href=\"%(feedback_url)s\">stránku odosielania názorov</a>."
 
 #. Link text for showing/hiding options
 #: apps/dashboard/templates/includes/filter_box_toggle.html:6
@@ -1046,7 +1046,7 @@ msgstr "Je nám ľúto, že sa Vám táto verzia prehliadača nepáči. Prosím,
 
 #: templates/about.html:27
 msgid "We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, please <a href=\"%(data_url)s\">contact us</a>!"
-msgstr ""
+msgstr "Chceli by sme, aby sme sa týmito údajmi mohli zaoberať viac, ale je nás len pár. Takže potrebujeme od vás požiadavky na odpovede, ktoré chcete poznať. Ak aj vy chcete pracovať s týmito údajmi, <a href=\"%(data_url)s\">kontaktujte nás</a>."
 
 #: templates/base.html:5
 #: templates/base_mobile.html:6
@@ -1103,7 +1103,7 @@ msgstr "Zdá sa, že Váš text obsahuje e-mailovú adresu. Prosím, odstráňte
 
 #: apps/feedback/templates/feedback/release_index.html:222
 msgid "Your feedback will be used to create a better experience in future releases of Firefox."
-msgstr ""
+msgstr "Vaša spätná vázba bude použitá pri vylepšovaní budúcich verzií prehliadača Firefox."
 
 #. L10n: This means an event that happened only a few seconds ago.
 #: apps/input/helpers.py:86
