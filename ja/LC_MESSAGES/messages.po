@@ -3,776 +3,798 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 15:37+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2011-01-19 02:40+0200\n"
+"Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.1.4\n"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:43
 msgid "%(count)s message"
 msgid_plural "%(count)s messages"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(count)s 件のメッセージ"
 
 #. "similar" refers to "similar messages".
 #: apps/website_issues/templates/website_issues/sites_list.html:67
 msgid "%(count)s similar"
 msgid_plural "%(count)s similar"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(count)s 件の類似"
 
 #: apps/themes/templates/themes/theme_list.html:16 apps/website_issues/templates/website_issues/single_site.html:18
 msgid "%(count)s similar message"
 msgid_plural "%(count)s similar messages"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(count)s 件の類似のメッセージ"
 
+# PHP の strftime 参照。
 #. A quasi strftime string for a full date.
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:5
 msgid "%e %B %Y"
-msgstr ""
+msgstr "%Y年%m月%e日"
 
 #. A quasi strftime string for a short date (no year).
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:7
 msgid "%e %b"
-msgstr ""
+msgstr "%m月%e日"
 
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:12
 msgid "&infin;"
-msgstr ""
+msgstr "&infin;"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:35 apps/search/templates/search/mobile/search.html:38
 msgid "&laquo; Newer Feedback"
-msgstr ""
+msgstr "&laquo; 新しいフィードバック"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:76 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:63
 msgid "&laquo; Newer Messages"
-msgstr ""
+msgstr "&laquo; 新しいメッセージ"
 
 #: apps/themes/templates/themes/theme.html:28 apps/website_issues/templates/website_issues/paginate_sites.html:3 apps/website_issues/templates/website_issues/theme.html:29
 msgid "&laquo; Previous Page"
-msgstr ""
+msgstr "&laquo; 前のページ"
 
 #: apps/search/forms.py:54
 msgctxt "locale_choice"
 msgid "-- all --"
-msgstr ""
+msgstr "-- すべて --"
 
 #: apps/search/forms.py:44
 msgctxt "os_choice"
 msgid "-- all --"
-msgstr ""
+msgstr "-- すべて --"
 
 #: apps/search/forms.py:36
 msgctxt "sentiment_choice"
 msgid "-- all --"
-msgstr ""
+msgstr "-- すべて --"
 
 #: apps/search/forms.py:30 apps/search/forms.py:32
 msgctxt "version_choice"
 msgid "-- all --"
-msgstr ""
+msgstr "-- すべて --"
 
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:3
 msgid "1d"
-msgstr ""
+msgstr "1日"
 
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:9
 msgid "30d"
-msgstr ""
+msgstr "30日"
 
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:6
 msgid "7d"
-msgstr ""
+msgstr "7日"
 
 #: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
 msgid "<strong>%(cnt)s</strong> message"
 msgid_plural "<strong>%(cnt)s</strong> messages"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<strong>%(cnt)s</strong> 件のメッセージ"
 
 #: templates/about.html:9
 msgid ""
 "<strong>Firefox Input</strong> is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it "
 "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
 msgstr ""
+"<strong>Firefox Input</strong> は、Mozilla の重要なフィードバックを受けるためのサイトです。Firefox "
+"を利用してあなたが感じたことや閲覧したサイトについて、そして Mozilla はどうすればより良いウェブ体験を提供できるか、についての情報収集のためのサ"
+"イトです。このシステムは、三つの主要なビルドのすべてにおいて、さまざまな投稿方法で利用可能になっています。"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:57
 msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
 msgstr ""
+"<strong>Firefox Input へようこそ！</strong> これは Mozilla の重要な意見収集サイトです。<a href=\"%"
+"(about_url)s\">詳しくはこちら...</a>"
 
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
-msgstr ""
+msgstr "この検索の ATOM フィード"
 
 #: templates/about.html:3 templates/includes/footer.html:11
 msgid "About Firefox Input"
-msgstr ""
+msgstr "Firefox Input について"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:26
 msgid "Ack! Please tell us what to fix!"
-msgstr ""
+msgstr "ご協力いただきありがとうございます。修正すべき点について教えてください。"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:40
 msgid "Add URL of last visited page?"
-msgstr ""
+msgstr "最後に訪れたページの URL を追加しますか？"
 
 #: apps/search/templates/search/search_form.html:28
 msgid "Advanced"
-msgstr ""
+msgstr "詳細"
 
 #: apps/themes/views.py:24 apps/themes/views.py:51
 msgid "All"
-msgstr ""
+msgstr "すべて"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:31
 msgctxt "sites_search_all_feedback"
 msgid "All"
-msgstr ""
+msgstr "すべて"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:42
 msgctxt "sites_search_all_platforms"
 msgid "All"
-msgstr ""
+msgstr "すべて"
 
 #: apps/themes/views.py:51
 msgid "All Platforms"
-msgstr ""
+msgstr "すべてのプラットフォーム"
 
 #: apps/themes/views.py:24 apps/website_issues/templates/website_issues/website_issues.html:31
 msgid "All feedback"
-msgstr ""
+msgstr "すべてのフィードバック"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:42
 msgid "All platforms"
-msgstr ""
+msgstr "すべてのプラットフォーム"
 
 #: templates/500.html:7
 msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
-msgstr ""
+msgstr "未処理のエラーがアプリケーションで発生しました。エラーはログに記録され、管理者に通知されました。ご不便をおかけして申し訳ございません。"
 
 #: apps/feedback/__init__.py:78
 msgid "Android"
-msgstr ""
+msgstr "Android"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:28
 msgid "Awesome! Please make your suggestion below:"
-msgstr ""
+msgstr "ありがとうございます！あなたのご指摘を記入してください:"
 
 #: apps/website_issues/templates/website_issues/single_site.html:3
 msgid "Back to all sites &raquo;"
-msgstr ""
+msgstr "Web サイトの一覧に戻る &raquo;"
 
 #: apps/themes/templates/themes/theme.html:17
 msgid "Back to all themes &raquo;"
-msgstr ""
+msgstr "テーマの一覧に戻る &raquo;"
 
 #: apps/website_issues/templates/website_issues/theme.html:18
 msgid "Back to {domain} &raquo;"
-msgstr ""
+msgstr "{domain} へのフィードバックの一覧に戻る &raquo;"
 
 #: apps/feedback/__init__.py:112
 msgid "Broken Website"
-msgstr ""
+msgstr "うまく表示されない Web サイト"
 
 #: templates/includes/ua_overlay.html:10
 msgid "Close"
-msgstr ""
+msgstr "閉じる"
 
 #: templates/includes/nav_buttons.html:2
 msgid "Clusters"
-msgstr ""
+msgstr "クラスタ"
 
 #: apps/themes/templates/themes/index.html:35
 msgid "Common Themes"
-msgstr ""
+msgstr "よく報告されるテーマ"
 
 #: apps/dashboard/templates/dashboard/message_list.html:33 apps/themes/templates/themes/theme_list.html:31
 msgid "Copy User Agent"
-msgstr ""
+msgstr "ユーザエージェント文字列をコピー"
 
 #. Tooltip for custom date range button
 #: apps/dashboard/templates/dashboard/when.html:9
 msgid "Custom"
-msgstr ""
+msgstr "期間指定"
 
 #: templates/base.html:30 templates/base_mobile.html:20
 msgid "Dashboard"
-msgstr ""
+msgstr "ダッシュボード"
 
 #: apps/search/forms.py:76
 msgid "Date range:"
-msgstr ""
+msgstr "期間:"
 
 #: apps/feedback/templates/feedback/release_index.html:130
 msgid "Describe the problem with the website."
-msgstr ""
+msgstr "Web サイトでどのような問題が起こったかを記述してください。"
 
 #: apps/feedback/templates/feedback/release_index.html:181
 msgid "Describe your idea below."
-msgstr ""
+msgstr "改善案を記入してください。"
 
 #: apps/dashboard/templates/dashboard/devices.html:15
 msgid "Devices"
-msgstr ""
+msgstr "デバイス"
 
 #: apps/feedback/templates/feedback/release_index.html:110
 msgid "Does a website look or behave incorrectly in Firefox?"
-msgstr ""
+msgstr "Web サイトが Firefox で正しく表示されない、または動作しませんでしたか？"
 
 #: apps/input/__init__.py:60
 msgid "Don't Care"
-msgstr ""
+msgstr "気にしない"
 
 #: apps/feedback/templates/feedback/need_beta.html:3 apps/feedback/templates/feedback/mobile/need_beta.html:3
 msgid "Download Beta"
-msgstr ""
+msgstr "ベータ版のダウンロード"
 
 #: apps/feedback/templates/feedback/need_release.html:3
 msgid "Download Firefox"
-msgstr ""
+msgstr "Firefox のダウンロード"
 
 #: apps/feedback/forms.py:109 apps/feedback/forms.py:122
 msgid "Enter your feedback here."
-msgstr ""
+msgstr "フィードバックをこちらに入力してください。"
 
 #: apps/feedback/forms.py:136 apps/feedback/forms.py:189
 msgid "Enter your suggestions here."
-msgstr ""
+msgstr "提案をこちらに記入してください。"
 
 #: apps/feedback/forms.py:172
 msgid "Example: Images were not loading, but the rest of the page was."
-msgstr ""
+msgstr "例: 画像が読み込まれず、ページのそれ以外の部分は読み込まれました。"
 
 #: apps/input/__init__.py:62
 msgid "Excellent"
-msgstr ""
+msgstr "非常によい"
 
 #: templates/base_mobile_old.html:61 templates/base_old.html:68 templates/includes/footer.html:14
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
 "any later version."
 msgstr ""
+"<a href=\"%(legal_url)s\">他のライセンス</a>が明記されている場合を除き、このサイト上のコンテンツは、<br/> <a "
+"href=\"%(license_url)s\">クリエイティブコモンズ　表示-継承 3.0</a>、またはそれ以降のバージョンの下でライセンスされます。"
 
 #: apps/feedback/templates/feedback/release_index.html:244
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: apps/input/__init__.py:59
 msgid "Fair"
-msgstr ""
+msgstr "普通"
 
 #: apps/input/__init__.py:49
 msgid "Features"
-msgstr ""
+msgstr "機能"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:6 apps/search/templates/search/mobile/search.html:6
 msgid "Feed"
-msgstr ""
+msgstr "フィード"
 
 #: templates/base.html:34
 msgid "Feedback"
-msgstr ""
+msgstr "フィードバック"
 
 #: apps/feedback/validators.py:36
 msgid "Feedback must not contain HTML."
-msgstr ""
+msgstr "フィードバックのコメントには HTML を含めないでください。"
 
 #: apps/feedback/templates/feedback/thanks.html:17 apps/feedback/templates/feedback/mobile/thanks.html:12
 msgid "Find out the latest news from Mozilla:"
-msgstr ""
+msgstr "Mozilla からの最新ニュースを得る:"
 
 #: apps/feedback/templates/feedback/release_index.html:241
 msgid "Find the latest news about Firefox."
-msgstr ""
+msgstr "Firefox についての最新情報をみる。"
 
 #: apps/feedback/__init__.py:9
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: apps/search/views.py:86 apps/search/views.py:104
 msgid "Firefox Input"
-msgstr ""
+msgstr "Firefox Input"
 
 #. L10n: This is the title to the Search ATOM feed.
 #: apps/search/views.py:103
 msgid "Firefox Input: '{query}'"
-msgstr ""
+msgstr "Firefox Input: '{query}'"
 
 #: apps/feedback/templates/feedback/beta_index.html:24
 msgid "Firefox Logo"
-msgstr ""
+msgstr "Firefox ロゴ"
 
 #: apps/feedback/templates/feedback/mobile/beta_index.html:13 apps/feedback/templates/feedback/mobile/beta_index.html:15
 msgid "Firefox makes me happy ..."
-msgstr ""
+msgstr "Firefox の良い点は..."
 
 #: apps/feedback/templates/feedback/beta_index.html:13 apps/feedback/templates/feedback/beta_index.html:15
 msgid "Firefox makes me happy because ..."
-msgstr ""
+msgstr "Firefox の良い点は..."
 
 #: apps/feedback/templates/feedback/mobile/beta_index.html:18 apps/feedback/templates/feedback/mobile/beta_index.html:20
 msgid "Firefox makes me sad ..."
-msgstr ""
+msgstr "Firefox の悪い点は..."
 
 #: apps/feedback/templates/feedback/beta_index.html:19 apps/feedback/templates/feedback/beta_index.html:21
 msgid "Firefox makes me sad because ..."
-msgstr ""
+msgstr "Firefox の悪い点は..."
 
 #. refers to time-based search filters (e.g., "for last: 1d")
 #: apps/dashboard/templates/dashboard/mobile/when.html:3
 msgid "For last:"
-msgstr ""
+msgstr "最新のフィードバック:"
 
 #: templates/includes/footer_release.html:16 templates/includes/lang_switcher.html:10
 msgid "Go"
-msgstr ""
+msgstr "移動"
 
 #: apps/feedback/templates/feedback/release_index.html:40 apps/feedback/templates/feedback/release_index.html:114 apps/feedback/templates/feedback/release_index.html:171
 msgid "Go Back"
-msgstr ""
+msgstr "戻る"
 
 #: apps/input/__init__.py:61
 msgid "Good"
-msgstr ""
+msgstr "よい"
 
 #: apps/feedback/templates/feedback/feedback.html:56
 msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
-msgstr ""
+msgstr "特定の Web サイトで問題が起こる場合は、URL を追加してください。問題を知る手がかりになります！"
 
 #: apps/feedback/templates/feedback/release_index.html:169
 msgid "Have an idea how Firefox could be better? Let us know!"
-msgstr ""
+msgstr "Firefox をより良いものにするためのアイデアをお持ちですか？ ぜひ、お知らせください！"
 
 #: templates/about.html:7
 msgid "Hello!"
-msgstr ""
+msgstr "ようこそ！"
 
 #: templates/includes/ua_overlay.html:7
 msgid "Hit Ctrl+C (Cmd+C on Mac) to copy and close."
-msgstr ""
+msgstr "コピーして閉じるには Ctrl+C (Mac では Cmd+C) キーを押してください。"
 
 #: apps/input/__init__.py:44
 msgid "How frequently Firefox crashes or loses data"
-msgstr ""
+msgstr "どれくらいの頻度で Firefox がクラッシュもしくはデータを失いますか"
 
 #: apps/input/__init__.py:26
 msgid "How long Firefox takes to start running"
-msgstr ""
+msgstr "Firefox の起動にどれくらいの時間がかかりますか"
 
 #: apps/input/__init__.py:32
 msgid "How long it takes for web pages to load"
-msgstr ""
+msgstr "Web ページの読み込みにどれくらいの時間がかかりますか"
 
 #: apps/input/__init__.py:38
 msgid "How quickly web pages respond once they have loaded"
-msgstr ""
+msgstr "Web サイトの読み込み後、どのくらいすばやく応答しますか"
 
 #: apps/input/__init__.py:50
 msgid "How well Firefox's built-in features serve your needs"
-msgstr ""
+msgstr "Firefox に組み込まれた機能はどのくらい有用でしたか"
 
 #: apps/feedback/templates/feedback/release_index.html:38
 msgid "How would you rate these aspects of Firefox?"
-msgstr ""
+msgstr "これらの Firefox の特徴をどの程度評価しますか？"
 
 #: templates/404.html:6
 msgid "I'm sorry, I could not find what you were looking for."
-msgstr ""
+msgstr "申し訳ありませんが、お探しのページが見つかりません。"
 
 #: apps/search/templates/search/unavailable.html:7
 msgid "I'm sorry, there was an error with your search."
-msgstr ""
+msgstr "申し訳ありません。検索時にエラーが発生しました。"
 
 #: apps/search/templates/search/unavailable.html:17
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
 msgstr ""
+"問題が繰り返し起こるときは、<a href=\"%(bug_url)s\">バグとして報告</a>し、あなたがアクセスした URL を教えてください。"
 
 #: templates/500.html:20
 msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
 msgstr ""
+"この問題を再現する方法についての追加の情報がある場合は、<a href=\"%(bug_url)s\">バグ報告</a> "
+"をしてください。ご協力ありがとうございます！"
 
 #: apps/feedback/templates/feedback/feedback.html:86
 msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
-msgstr ""
+msgstr "他に何か提案がある場合は、<a href=\"%(url_suggestion)s\">提案ボックス</a> からお知らせください！"
 
 #: apps/feedback/templates/feedback/release_index.html:24
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
 msgstr ""
+"Firefox で起こる問題に助けが必要な場合は、<a href=\"%(support_url)s\">Firefox サポート</a> "
+"サイトをご利用ください。"
 
 #: apps/feedback/templates/feedback/beta_index.html:25
 msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
 msgstr ""
+"Firefox について問題を抱えていたり助けが必要な場合は、<a href=\"%"
+"(support_url)s\">サポートページ</a>をご利用ください。"
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
 msgstr ""
+"フィードバックが送信された先を知りたいときは、<a href=\"%(url)s\">Firefox Input Dashboard</a> "
+"で調べてください。"
 
 #: templates/404.html:14
 msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-msgstr ""
+msgstr "リンク切れを見つけたときは、<a href=\"%(bug_url)s\">バグ報告</a> をお願いします。"
 
 #: apps/search/templates/search/unavailable.html:24
 msgid "Include the following error message in your bug report:"
-msgstr ""
+msgstr "あなたのバグ報告には、次のエラーメッセージが含まれています:"
 
 #: templates/base_mobile_old.html:30 templates/base_old.html:35
 msgid "Input Dashboard"
-msgstr ""
+msgstr "Input Dashboard"
 
 #: templates/500.html:4
 msgid "Internal Server Error"
-msgstr ""
+msgstr "サーバ内部エラー"
 
 #: apps/feedback/views.py:103 apps/feedback/views.py:173
 msgid "Invalid feedback type"
-msgstr ""
+msgstr "報告の種類が無効です"
 
 #: apps/dashboard/templates/dashboard/message_list.html:8 apps/feedback/__init__.py:109 apps/feedback/helpers.py:39 apps/themes/templates/themes/theme_list.html:12
 #: apps/website_issues/templates/website_issues/single_site.html:11
 msgid "Issue"
-msgstr ""
+msgstr "悪い点"
 
 #. Formerly called "sad"
 #: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:38 apps/search/views.py:211
 #: apps/themes/views.py:34 apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Issues"
-msgstr ""
+msgstr "悪い点"
 
 #: apps/themes/views.py:34 apps/website_issues/templates/website_issues/website_issues.html:33
 msgid "Issues only"
-msgstr ""
+msgstr "悪い点のみ"
 
 #: apps/feedback/templates/feedback/beta_index.html:7
 msgid "It's great to hear you want to help Mozilla make your experience better!"
-msgstr ""
+msgstr "Mozilla 製品の品質向上にご協力いただきありがとうございます。"
 
 #: apps/feedback/templates/feedback/feedback.html:48
 msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
 msgstr ""
+"Firefox の最近のバージョンよりも、このベータ版のほうがうまく表示できるサイトをご存じの方は、ぜひ、そのサイトの URL を記入してください。"
 
 #. short for 30 days
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:9
 msgid "Last 30 days"
-msgstr ""
+msgstr "最近 30 日以内"
 
 #. short for 7 days
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:6
 msgid "Last 7 days"
-msgstr ""
+msgstr "最近 7 日以内"
 
 #. short for 1 day
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:3
 msgid "Last day"
-msgstr ""
+msgstr "最近 1 日以内"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:66
 msgid "Latest Feedback"
-msgstr ""
+msgstr "最新のフィードバック"
 
 #: templates/base_mobile_old.html:57 templates/base_old.html:64 templates/includes/footer.html:9
 msgid "Legal Notices"
-msgstr ""
+msgstr "法的事項"
 
 #: apps/feedback/__init__.py:84
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:9
 msgid "Loading feedback history..."
-msgstr ""
+msgstr "フィードバック履歴を読み込んでいます..."
 
 #: apps/dashboard/templates/dashboard/locales.html:15 apps/dashboard/templates/dashboard/mobile/locales.html:9
 msgid "Locale"
-msgstr ""
+msgstr "言語"
 
 #: apps/search/forms.py:68
 msgid "Locale:"
-msgstr ""
+msgstr "言語:"
 
 #: apps/feedback/__init__.py:66
 msgid "Mac OS X"
-msgstr ""
+msgstr "Mac OS X"
 
 #: apps/feedback/__init__.py:72
 msgid "Maemo"
-msgstr ""
+msgstr "Maemo"
 
 #: apps/dashboard/templates/dashboard/manufacturers.html:16
 msgid "Manufacturer"
-msgstr ""
+msgstr "製造業者"
 
 #. Title text for a complete message count.
 #: apps/dashboard/templates/dashboard/opinion_count.html:3
 msgid "Messages"
-msgstr ""
+msgstr "メッセージ数"
 
 #: apps/feedback/__init__.py:16
 msgid "Mobile"
-msgstr ""
+msgstr "モバイル"
 
 #: apps/dashboard/templates/dashboard/locales.html:27
 msgid "More Locales"
-msgstr ""
+msgstr "その他の言語"
 
 #: apps/dashboard/templates/dashboard/message_list.html:30 apps/themes/templates/themes/theme_list.html:28
 msgid "More Options"
-msgstr ""
+msgstr "追加のオプション"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:89
 msgid "More sites..."
-msgstr ""
+msgstr "他の Web サイトを見る..."
 
 #: apps/themes/templates/themes/theme.html:36 apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:37
 msgid "Next Page &raquo;"
-msgstr ""
+msgstr "次のページ &raquo;"
 
 #. short for an indefinite date range
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:12
 msgid "No date limit"
-msgstr ""
+msgstr "期限なし"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:27
 msgid "No results found!"
-msgstr ""
+msgstr "検索条件に一致するものは見つかりませんでした。"
 
 #: apps/dashboard/templates/dashboard/message_list.html:52 apps/themes/templates/themes/theme_list.html:43
 msgid "No search results found."
-msgstr ""
+msgstr "検索条件に一致するものは見つかりませんでした。"
 
 #: templates/404.html:4
 msgid "Not Found"
-msgstr ""
+msgstr "リクエストされたページは存在しません"
 
 #: apps/search/forms.py:70
 msgid "OS:"
-msgstr ""
+msgstr "OS:"
 
 #. Refers to terms often mentioned in feedback.
 #: apps/dashboard/templates/dashboard/themes.html:3 apps/dashboard/templates/dashboard/mobile/themes.html:2
 msgid "Often Mentioned"
-msgstr ""
+msgstr "よく含まれる単語"
 
 #: apps/feedback/templates/feedback/need_release.html:8
 msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-msgstr ""
+msgstr "ありがとうございます。Firefox についての提案をお持ちの場合、最新版の Firefox から行っていただくようにお願いいたします。"
 
 #: apps/feedback/templates/feedback/need_beta.html:8
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
 msgstr ""
+"Firefox の次期バージョンへのフィードバックを試みていただきありがとうございます。ですが、フィードバックを送るには Firefox "
+"の最新のベータ版を使用する必要があります。"
 
+# モバイル向けのため、なるべく簡潔にする必要あり。
 #: apps/feedback/templates/feedback/mobile/need_beta.html:9
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
 msgstr ""
+"申し訳ありませんが、フィードバックを送信していただくには Firefox の最新のベータ版が必要です。ベータ版のページへと進み、<a href=\"%"
+"(url)s\">ダウンロード</a>してください。"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:36 apps/search/templates/search/mobile/search.html:48
 msgid "Older Feedback &raquo;"
-msgstr ""
+msgstr "過去のフィードバック &raquo;"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:77 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:73
 msgid "Older Messages &raquo;"
-msgstr ""
+msgstr "過去のメッセージ &raquo;"
 
 #: templates/about.html:24
 msgid "Open Data"
-msgstr ""
+msgstr "Open Data"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:68
 msgid "Or submit your ideas with our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
-msgstr ""
+msgstr "もしくは、あなたの提案を <a href=\"%(url_suggestion)s\">提案ボックス</a> から投稿してください！"
 
 #: apps/feedback/__init__.py:90
 msgid "Other"
-msgstr ""
+msgstr "その他"
 
 #: templates/includes/footer_release.html:5 templates/includes/lang_switcher.html:2
 msgid "Other languages:"
-msgstr ""
+msgstr "他の言語:"
 
 #: apps/search/templates/search/unavailable.html:10
 msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
 msgstr ""
+"現在、検索エンジンを使用することができない可能性があります。<a href=\"%"
+"(url)s\">ダッシュボード</a>へ戻ってやり直すか、時間をおいてから再度検索してください。"
 
 #: apps/input/__init__.py:31
 msgid "Page Load Time"
-msgstr ""
+msgstr "ページ読み込み時間"
 
 #: apps/feedback/templates/feedback/release_index.html:245
 msgid "Planet Mozilla"
-msgstr ""
+msgstr "Planet Mozilla"
 
 #: apps/dashboard/templates/dashboard/platforms.html:12 apps/dashboard/templates/dashboard/mobile/platforms.html:8 apps/themes/templates/themes/index.html:24
 msgid "Platform"
-msgstr ""
+msgstr "プラットフォーム"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:39
 msgid "Platforms"
-msgstr ""
+msgstr "プラットフォーム"
 
 #: apps/feedback/templates/feedback/beta_index.html:9
 msgid "Please choose one of the following types of feedback that you would like to submit to us:"
-msgstr ""
+msgstr "送信するフィードバックの種類を、次のいずれかから選択してください:"
 
 #: apps/feedback/templates/feedback/mobile/beta_index.html:10
 msgid "Please choose the type of feedback that you would like to submit to us:"
-msgstr ""
+msgstr "送信するフィードバックの種類を選んでください:"
 
 #: apps/feedback/templates/feedback/feedback.html:77 apps/feedback/templates/feedback/mobile/feedback.html:59
 msgid "Please ensure that there is no personally identifiable information here."
-msgstr ""
+msgstr "個人を特定できる情報が入力されていないことを確認してください。"
 
 #: templates/404.html:9 templates/500.html:14
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
-msgstr ""
+msgstr "<a href=\"%(dashboard_url)s\">ダッシュボード</a>から、もう一度やり直してください。"
 
 #: apps/input/__init__.py:58
 msgid "Poor"
-msgstr ""
+msgstr "よくない"
 
 #. Formerly called "happy"
 #: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8
 #: apps/feedback/__init__.py:108 apps/feedback/helpers.py:36 apps/search/forms.py:37 apps/search/views.py:210 apps/themes/views.py:29 apps/themes/templates/themes/theme_list.html:8
 #: apps/website_issues/templates/website_issues/single_site.html:9 apps/website_issues/templates/website_issues/website_issues.html:32
 msgid "Praise"
-msgstr ""
+msgstr "良い点"
 
 #: apps/themes/views.py:29 apps/website_issues/templates/website_issues/website_issues.html:32
 msgid "Praise only"
-msgstr ""
+msgstr "良い点のみ"
 
 #: templates/base_mobile_old.html:56 templates/base_old.html:63 templates/includes/footer.html:8
 msgid "Privacy Policy"
-msgstr ""
+msgstr "プライバシーポリシー"
 
 #: templates/base.html:23 templates/base_mobile_old.html:20 templates/base_old.html:23
 msgid "Proceed to footer"
-msgstr ""
+msgstr "フッタ部分へジャンプする"
 
 #: templates/base.html:22 templates/base_mobile_old.html:19 templates/base_old.html:22
 msgid "Proceed to main content"
-msgstr ""
+msgstr "コンテンツ部分へジャンプする"
 
 #: apps/dashboard/templates/dashboard/dashboard.html:12 apps/search/templates/search/search.html:20 apps/themes/templates/themes/index.html:10
 #: apps/website_issues/templates/website_issues/website_issues.html:19
 msgid "Product"
-msgstr ""
+msgstr "製品"
 
 #: apps/search/forms.py:62
 msgid "Product:"
-msgstr ""
+msgstr "製品:"
 
 #: apps/feedback/templates/feedback/release_index.html:111
 msgid "Provide us some details about the problem and we'll try to fix it."
-msgstr ""
+msgstr "問題についてのより詳細をお教えください。修正できるよう努力します。"
 
 #: apps/search/client.py:194
 msgid "Query has timed out."
-msgstr ""
+msgstr "検索はタイムアウトしました。"
 
 #: apps/feedback/templates/feedback/release_index.html:16 apps/feedback/templates/feedback/release_index.html:37
 msgid "Rate Your Experience"
-msgstr ""
+msgstr "あなたの Web 体験を評価してください"
 
 #: apps/feedback/__init__.py:111
 msgid "Rating"
-msgstr ""
+msgstr "評価"
 
 #: templates/base_mobile_old.html:58 templates/base_old.html:65 templates/includes/footer.html:10
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "商標の不正利用を報告"
 
 #: apps/feedback/templates/feedback/release_index.html:17 apps/feedback/templates/feedback/release_index.html:108
 msgid "Report a Broken Website"
-msgstr ""
+msgstr "うまく表示されない Web サイトを報告"
 
 #: apps/input/__init__.py:37
 msgid "Responsiveness"
-msgstr ""
+msgstr "反応"
 
 #: apps/search/templates/search/search_form.html:19
 msgid "Search"
-msgstr ""
+msgstr "検索"
 
 #: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:49
 msgid "Search Results"
-msgstr ""
+msgstr "検索結果"
 
 #: apps/search/views.py:87
 msgid "Search Results in Firefox Beta Feedback."
-msgstr ""
+msgstr "Firefox ベータ版へのフィードバックからの検索結果。"
 
 #: apps/search/templates/search/unavailable.html:5
 msgid "Search Unavailable"
-msgstr ""
+msgstr "検索機能は利用できません"
 
 #: apps/search/forms.py:61
 msgid "Search by keyword"
-msgstr ""
+msgstr "キーワードによる検索"
 
 #: apps/website_issues/forms.py:38
 msgctxt "website_issues_search"
 msgid "Search for domain"
-msgstr ""
+msgstr "ドメイン名による検索"
 
 #: apps/themes/templates/themes/theme_list.html:14
 msgid "See all opinions"
-msgstr ""
+msgstr "すべての意見を見る"
 
 #: apps/search/forms.py:66
 msgid "Sentiment:"
-msgstr ""
+msgstr "評価:"
 
 #. Button text for setting a custom date range.
 #: apps/dashboard/templates/dashboard/when.html:17
 msgctxt "date_range_set"
 msgid "Set"
-msgstr ""
+msgstr "期間を設定"
 
 #: apps/feedback/templates/feedback/release_index.html:18 apps/feedback/templates/feedback/release_index.html:168
 msgid "Share an Idea"
-msgstr ""
+msgstr "提案を共有"
 
 #: apps/dashboard/templates/includes/filter_box_toggle.html:4
 msgid "Show/Hide Options"
-msgstr ""
+msgstr "オプションの表示/非表示"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:12 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/website_issues.html:10
 #: templates/base.html:41 templates/includes/nav_buttons.html:4
 msgid "Sites"
-msgstr ""
+msgstr "Web サイト"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:14
 msgid "Sites with only one message"
-msgstr ""
+msgstr "メッセージが 1 つしか寄せられていない Web サイト"
 
 #: apps/feedback/templates/feedback/feedback.html:29
 msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please make your suggestion below:"
-msgstr ""
+msgstr "Firefox をより良くするための提案ですね？ ありがとうございます！ 提案を以下に記入してください:"
 
 #: templates/about.html:34
 msgid "Source Code"
-msgstr ""
+msgstr "ソースコード"
 
 #. L10n: Sphinx is the name of the search engine software.
 #: apps/search/client.py:197
 msgid "Sphinx threw an unknown exception: %s"
-msgstr ""
+msgstr "Sphinx で未知のエラーが発生しました： %s"
 
 #: apps/input/__init__.py:43
 msgid "Stability"
-msgstr ""
+msgstr "安定性"
 
 #: apps/input/__init__.py:25
 msgid "Start-Up Time"
-msgstr ""
+msgstr "起動時間"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:7 apps/search/templates/search/mobile/search.html:7
 msgid "Statistics"
-msgstr ""
+msgstr "統計情報"
 
 #: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:79
 #: apps/feedback/templates/feedback/release_index.html:3 apps/feedback/templates/feedback/release_index.html:96 apps/feedback/templates/feedback/release_index.html:97
@@ -780,254 +802,265 @@ msgstr ""
 #: apps/feedback/templates/feedback/release_index.html:208 apps/feedback/templates/feedback/mobile/beta_index.html:3 apps/feedback/templates/feedback/mobile/feedback.html:3
 #: apps/feedback/templates/feedback/mobile/feedback.html:61
 msgid "Submit Feedback"
-msgstr ""
+msgstr "フィードバックを送る"
 
 #: apps/feedback/templates/feedback/release_index.html:10
 msgid "Submit Your Feedback"
-msgstr ""
+msgstr "あなたのフィードバックを送信"
 
 #: apps/feedback/templates/feedback/release_index.html:96 apps/feedback/templates/feedback/release_index.html:156 apps/feedback/templates/feedback/release_index.html:207
 msgid "Submitting Feedback"
-msgstr ""
+msgstr "フィードバックを送信"
 
 #: apps/dashboard/templates/dashboard/message_list.html:10 apps/feedback/__init__.py:110 apps/feedback/templates/feedback/feedback.html:13 apps/feedback/templates/feedback/mobile/feedback.html:21
 #: apps/search/views.py:212 apps/themes/templates/themes/theme_list.html:10
 msgid "Suggestion"
-msgstr ""
+msgstr "提案"
 
 #: apps/dashboard/views.py:56 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:39 apps/themes/views.py:39
 msgid "Suggestions"
-msgstr ""
+msgstr "提案"
 
 #: apps/themes/views.py:40
 msgid "Suggestions only"
-msgstr ""
+msgstr "提案のみ"
 
 #: apps/feedback/templates/feedback/feedback.html:19
 msgid "Super! It's great to hear that you like our pre-released browser. Please explain what you specifically like!"
-msgstr ""
+msgstr "プレリリース版のブラウザを気に入っていただきありがとうございます！ あなたが特に気に入った点について教えてください。"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:24
 msgid "Super! Please tell us more!"
-msgstr ""
+msgstr "すばらしい！ そう感じたところを詳しく教えてください！"
 
 #: apps/feedback/templates/feedback/release_index.html:219 apps/feedback/templates/feedback/thanks.html:3 apps/feedback/templates/feedback/mobile/thanks.html:3
 msgid "Thanks for Your Feedback"
-msgstr ""
+msgstr "フィードバックありがとうございます"
 
 #: apps/feedback/templates/feedback/mobile/beta_index.html:8
 msgid "Thanks for helping Mozilla make your experience better!"
-msgstr ""
+msgstr "Mozilla 製品の品質向上にご協力いただきありがとうございます。"
 
 #: apps/feedback/templates/feedback/thanks.html:7 apps/feedback/templates/feedback/mobile/thanks.html:8
 msgid "Thanks for sending us your feedback!"
-msgstr ""
+msgstr "フィードバックを提供していただき、ありがとうございます！"
 
 #: apps/search/templates/search/unavailable.html:28
 msgid "Thanks!"
-msgstr ""
+msgstr "ありがとうございます！"
 
 #: templates/about.html:37
 msgid "The code for the Firefox Input web application can be found <a href=\"%(source_url)s\">on GitHub</a>!"
-msgstr ""
+msgstr "Firefox Input サービスのソースコードは <a href=\"%(source_url)s\">GitHub</a> にあります！"
 
 #: apps/themes/templates/themes/theme.html:4 apps/themes/templates/themes/theme.html:14 apps/website_issues/templates/website_issues/theme.html:15
 msgid "Theme"
-msgstr ""
+msgstr "テーマ"
 
 #: apps/website_issues/templates/website_issues/theme.html:21
 msgid "Theme for {domain}"
-msgstr ""
+msgstr "{domain} のテーマ"
 
 #. Formerly: Clusters
 #: apps/themes/templates/themes/index.html:2 templates/base.html:37
 msgid "Themes"
-msgstr ""
+msgstr "テーマ"
 
 #: apps/feedback/templates/feedback/need_beta.html:14
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
 msgstr ""
+"フィードバックを送るには、ダウンロードページに進み、<a href=\"%(url)s\">Firefox の最新ベータ版</a> "
+"をインストールまたはアップデートしてください。"
 
 #: apps/feedback/templates/feedback/need_release.html:14
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
 msgstr ""
+"そのためには、ダウンロードページから <a href=\"%(url)s\">最新バージョンの Firefox をダウンロード</a> "
+"してインストールしてください！"
 
 #: apps/feedback/templates/feedback/release_index.html:137 apps/feedback/templates/feedback/release_index.html:188
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
-msgstr ""
+msgstr "あなたの個人情報を保護するため、個人を特定可能な情報をフィードバックに含めないようにしてください。"
 
 #: templates/about.html:18
 msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(feedback_url)s\">the feedback submission page</a>!"
 msgstr ""
+"あなたの利用しているバージョンの Firefox へのフィードバック提案は、こちらの <a href=\"%"
+"(feedback_url)s\">フィードバック投稿ページ</a> にお願いします！"
 
 #. Link text for showing/hiding options
 #: apps/dashboard/templates/includes/filter_box_toggle.html:6
 msgid "Toggle"
-msgstr ""
+msgstr "切り替え"
 
 #. Link to Google Translator
 #: apps/dashboard/templates/dashboard/message_list.html:37 apps/themes/templates/themes/theme_list.html:33
 msgid "Translate Message"
-msgstr ""
+msgstr "メッセージを翻訳する"
 
 #: apps/dashboard/templates/dashboard/mobile/dashboard.html:8 apps/search/templates/search/mobile/search.html:8
 msgid "Trends"
-msgstr ""
+msgstr "動向"
 
 #: apps/dashboard/templates/dashboard/message_list.html:42
 msgid "Tweet This"
-msgstr ""
+msgstr "Tweet する"
 
 #: apps/feedback/templates/feedback/release_index.html:243
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 #: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
 #: apps/website_issues/templates/website_issues/website_issues.html:28
 msgid "Type of Feedback"
-msgstr ""
+msgstr "フィードバックの種類"
 
 #: apps/website_issues/templates/website_issues/website_issues.html:84
 msgid "Uncommon Sites"
-msgstr ""
+msgstr "あまり報告されない Web サイト"
 
 #: apps/dashboard/templates/dashboard/devices.html:8 apps/dashboard/templates/dashboard/manufacturers.html:9 apps/feedback/helpers.py:16 apps/search/forms.py:47 apps/search/forms.py:50
 #: apps/search/forms.py:55
 msgid "Unknown"
-msgstr ""
+msgstr "不明"
 
 #: templates/includes/ua_overlay.html:3
 msgid "User Agent"
-msgstr ""
+msgstr "ユーザエージェント"
 
 #: templates/includes/ua_overlay.html:9
 msgid "User agent copied"
-msgstr ""
+msgstr "ユーザエージェント文字列がコピーされました"
 
 #: apps/feedback/views.py:47
 msgid "User-Agent request header must be set."
-msgstr ""
+msgstr "ユーザエージェントのリクエストヘッダが設定されていません。"
 
 #: apps/search/forms.py:64
 msgid "Version:"
-msgstr ""
+msgstr "バージョン:"
 
 #: apps/feedback/templates/feedback/release_index.html:234
 msgid "Visit the <a href=\"%(dashboard_url)s\">Firefox Feedback Dashboard</a>"
-msgstr ""
+msgstr "<a href=\"%(dashboard_url)s\">Firefox フィードバックダッシュボード</a> を開く"
 
 #: apps/feedback/templates/feedback/release_index.html:232
 msgid "Want to see where your feedback goes?"
-msgstr ""
+msgstr "あなたのフィードバックの送信先を確認しますか？"
 
 #: apps/feedback/forms.py:99
 msgid "We already got your feedback! Thanks."
-msgstr ""
+msgstr "フィードバックは既に受信しています。ご協力ありがとうございます！"
 
 #: apps/feedback/templates/feedback/feedback.html:24
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
-msgstr ""
+msgstr "私たちのブラウザで充分な使い心地が得られなかったことをお詫び申し上げます。改善のために修正すべき点とその理由を教えてください。"
 
 #: templates/about.html:27
 msgid ""
 "We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
 "please <a href=\"%(data_url)s\">contact us</a>!"
 msgstr ""
+"この情報からより多くを理解しようとしたいところですが、われわれは少人数です。あなたが回答を見てみたい項目について意見があればお寄せください！ "
+"もし興味があれば、<a href=\"%(data_url)s\">ご連絡ください</a>！"
 
 #: templates/base.html:5 templates/base_mobile.html:6
 msgid "Welcome"
-msgstr ""
+msgstr "ようこそ"
 
 #: templates/base_mobile_old.html:5 templates/base_old.html:5
 msgid "Welcome!"
-msgstr ""
+msgstr "ようこそ！"
 
 #: apps/feedback/templates/feedback/release_index.html:124
 msgid "What is the URL of the broken site?"
-msgstr ""
+msgstr "うまく表示されないサイトの URL は？"
 
 #. Title for a time-based search filter
 #: apps/dashboard/templates/dashboard/when.html:2
 msgid "When"
-msgstr ""
+msgstr "期間"
 
+# ダッシュボードのページの右ペイン・フィードバックが送られたドメインを示す個所の見出し。
 #. Refers to sites that were reported in feedback.
 #: apps/dashboard/templates/dashboard/sites.html:3 apps/dashboard/templates/dashboard/mobile/sites.html:2
 msgid "While Visiting"
-msgstr ""
+msgstr "報告されたサイト"
 
 #: apps/feedback/__init__.py:54
 msgid "Windows 7"
-msgstr ""
+msgstr "Windows 7"
 
 #: apps/feedback/__init__.py:60
 msgid "Windows Vista"
-msgstr ""
+msgstr "Windows Vista"
 
 #: apps/feedback/__init__.py:48
 msgid "Windows XP"
-msgstr ""
+msgstr "Windows XP"
 
 #: apps/feedback/validators.py:27
 msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
 msgstr ""
+"あなたのコメントには暴力的な単語 （%s） "
+"が含まれています。フィードバックには、私たちの製品を改善する助けになる建設的な言葉を用いるよう、お願いいたします。"
 
 #: apps/feedback/templates/feedback/release_index.html:11
 msgid "Your feedback helps us improve Firefox."
-msgstr ""
+msgstr "あなたのフィードバックを Firefox の改善のために役立てます。"
 
 #: apps/feedback/validators.py:52
 msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
-msgstr ""
+msgstr "フィードバック文中に URL が含まれていませんか？ 文中から URL および 個人情報に類するものを削除してから再度送信をお願いします。"
 
 #: apps/feedback/validators.py:43
 msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr ""
+"フィードバック文中にメールアドレス が含まれていませんか？ 文中からメールアドレスおよび個人情報に類するものを削除してから再度送信をお願いします。"
 
 #: apps/feedback/templates/feedback/release_index.html:222
 msgid "Your feedback will be used to create a better experience in future releases of Firefox."
-msgstr ""
+msgstr "あなたのフィードバックは将来の Firefox リリースでより良い Web 体験を実現するために利用されます。"
 
 #. L10n: This means an event that happened only a few seconds ago.
 #: apps/input/helpers.py:86
 msgid "just now"
-msgstr ""
+msgstr "現在"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:28
 msgid "reset my search"
-msgstr ""
+msgstr "検索をリセット"
 
+# 具体的にどのように表示されるか不明。そのため原文ママとする。
 #. L10n: This indicates the second part of a date range.
 #: apps/search/forms.py:79
 msgid "to"
-msgstr ""
+msgstr "to"
 
 #: apps/input/helpers.py:73
 msgid "{0} day ago"
 msgid_plural "{0} days ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{0} 日前"
 
 #: apps/input/helpers.py:79
 msgid "{0} hour ago"
 msgid_plural "{0} hours ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{0} 時間前"
 
 #: apps/input/helpers.py:82
 msgid "{0} minute ago"
 msgid_plural "{0} minutes ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{0} 分前"
 
+# 統計グラフ中の、特定の日付と、その日のフィードバック数。
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:3
 msgid "{num} opinions on {day}"
-msgstr ""
+msgstr "{day} によせられた意見の数： {num} 件"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:54
 msgid "{percentage}% issues"
-msgstr ""
+msgstr "{percentage}% の悪い点"
 
 #: apps/website_issues/templates/website_issues/sites_list.html:52
 msgid "{percentage}% praise"
-msgstr ""
+msgstr "{percentage}% の良い点"
