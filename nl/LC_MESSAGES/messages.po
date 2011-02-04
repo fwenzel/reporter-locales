@@ -13,32 +13,32 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.1.4\n"
 
-#: apps/website_issues/templates/website_issues/sites_list.html:43
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:43
 msgid "%(count)s message"
 msgid_plural "%(count)s messages"
 msgstr[0] "%(count)s bericht"
 msgstr[1] "%(count)s berichten"
 
 #. "similar" refers to "similar messages".
-#: apps/website_issues/templates/website_issues/sites_list.html:67
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:67
 msgid "%(count)s similar"
 msgid_plural "%(count)s similar"
 msgstr[0] "%(count)s gelijksoortig"
 msgstr[1] "%(count)s gelijksoortig"
 
-#: apps/themes/templates/themes/theme_list.html:16 apps/website_issues/templates/website_issues/single_site.html:18
+#: apps/themes/templates/themes/theme_list.html:16 apps/website_issues/templates/website_issues/includes/single_site.html:21
 msgid "%(count)s similar message"
 msgid_plural "%(count)s similar messages"
 msgstr[0] "%(count)s gelijksoortig bericht"
 msgstr[1] "%(count)s gelijksoortige berichten"
 
 #. A quasi strftime string for a full date.
-#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:5
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:5 apps/search/templates/search/release.html:25 apps/search/templates/search/includes/ratings_chart.html:6
 msgid "%e %B %Y"
 msgstr "%e %B %Y"
 
 #. A quasi strftime string for a short date (no year).
-#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:7
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:7 apps/search/templates/search/release.html:27 apps/search/templates/search/includes/ratings_chart.html:8
 msgid "%e %b"
 msgstr "%e %b"
 
@@ -46,34 +46,34 @@ msgstr "%e %b"
 msgid "&infin;"
 msgstr "&infin;"
 
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:35 apps/search/templates/search/mobile/search.html:38
+#: apps/dashboard/templates/dashboard/mobile/beta.html:35 apps/search/templates/search/mobile/search.html:38
 msgid "&laquo; Newer Feedback"
 msgstr "&laquo; Nieuwere feedback"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:76 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:63
+#: apps/dashboard/templates/dashboard/beta.html:24 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:63
 msgid "&laquo; Newer Messages"
 msgstr "&laquo; Nieuwere berichten"
 
-#: apps/themes/templates/themes/theme.html:28 apps/website_issues/templates/website_issues/paginate_sites.html:3 apps/website_issues/templates/website_issues/theme.html:29
+#: apps/themes/templates/themes/theme.html:28 apps/website_issues/templates/website_issues/theme.html:30 apps/website_issues/templates/website_issues/includes/paginate_sites.html:3
 msgid "&laquo; Previous Page"
 msgstr "&laquo; Vorige pagina"
 
-#: apps/search/forms.py:54
+#: apps/search/forms.py:52
 msgctxt "locale_choice"
 msgid "-- all --"
 msgstr "-- alle --"
 
-#: apps/search/forms.py:44
+#: apps/search/forms.py:42
 msgctxt "os_choice"
 msgid "-- all --"
 msgstr "-- alles --"
 
-#: apps/search/forms.py:36
+#: apps/search/forms.py:35
 msgctxt "sentiment_choice"
 msgid "-- all --"
 msgstr "-- alles --"
 
-#: apps/search/forms.py:30 apps/search/forms.py:32
+#: apps/search/forms.py:22 apps/search/forms.py:24 apps/search/forms.py:28 apps/search/forms.py:30
 msgctxt "version_choice"
 msgid "-- all --"
 msgstr "-- alles --"
@@ -96,23 +96,30 @@ msgid_plural "<strong>%(cnt)s</strong> messages"
 msgstr[0] "<strong>%(cnt)s</strong> bericht"
 msgstr[1] "<strong>%(cnt)s</strong> berichten"
 
+#: templates/base.html:31
+msgid "<strong>Firefox Beta</strong> Input Dashboard"
+msgstr ""
+
 #: templates/about.html:9
 msgid ""
 "<strong>Firefox Input</strong> is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it "
 "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
 msgstr ""
-"<strong>Firefox Input</strong> is Mozilla’s primaire feedbackmiddel. Het is "
-"opgezet als een methode van communicatie in één richting over uw ervaring "
-"met het gebruik van Firefox, het internet dat u ermee bekijkt, en wat "
-"Mozilla kan doen om die ervaring te verbeteren. Het systeem is in een breed "
-"scala van inzendingsmiddelen voor alle drie de belangrijke buildkanalen "
-"beschikbaar."
+"<strong>Firefox Input</strong> is Mozilla’s primaire feedbackmiddel. Het is opgezet als een methode van communicatie in één richting over uw ervaring met het gebruik van Firefox, het internet dat u "
+"ermee bekijkt, en wat Mozilla kan doen om die ervaring te verbeteren. Het systeem is in een breed scala van inzendingsmiddelen voor alle drie de belangrijke buildkanalen beschikbaar."
 
-#: apps/dashboard/templates/dashboard/dashboard.html:57
-msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
+#: templates/base.html:47
+msgid "<strong>Firefox Release</strong> Input Dashboard"
 msgstr ""
-"<strong>Welkom bij Firefox Input!</strong> Dit is Mozilla’s primaire "
-"toepassing voor gebruikersfeedback. <a href=\"%(about_url)s\">Meer lezen…</a>"
+
+#: templates/includes/welcome.html:2
+msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
+msgstr "<strong>Welkom bij Firefox Input!</strong> Dit is Mozilla’s primaire toepassing voor gebruikersfeedback. <a href=\"%(about_url)s\">Meer lezen…</a>"
+
+#: apps/feedback/templates/feedback/mobile/release_index.html:194
+#, fuzzy
+msgid "@MozMobile"
+msgstr "Mobiel"
 
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
@@ -138,12 +145,12 @@ msgstr "Geavanceerd"
 msgid "All"
 msgstr "Alle"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:31
+#: apps/website_issues/templates/website_issues/sites.html:33
 msgctxt "sites_search_all_feedback"
 msgid "All"
 msgstr "Alle"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:42
+#: apps/website_issues/templates/website_issues/sites.html:45
 msgctxt "sites_search_all_platforms"
 msgid "All"
 msgstr "Alle"
@@ -152,11 +159,11 @@ msgstr "Alle"
 msgid "All Platforms"
 msgstr "Alle platformen"
 
-#: apps/themes/views.py:24 apps/website_issues/templates/website_issues/website_issues.html:31
+#: apps/themes/views.py:24 apps/website_issues/templates/website_issues/sites.html:33
 msgid "All feedback"
 msgstr "Alle feedback"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:42
+#: apps/website_issues/templates/website_issues/sites.html:45
 msgid "All platforms"
 msgstr "Alle platformen"
 
@@ -164,29 +171,46 @@ msgstr "Alle platformen"
 msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
 msgstr "Er is een onverwerkte fout opgetreden in de toepassing. De fout is in het logboek vermeld en er is een beheerder ingelicht. Onze excuses voor het ongemak!"
 
-#: apps/feedback/__init__.py:78
+#: apps/feedback/__init__.py:104
 msgid "Android"
 msgstr "Android"
+
+#: apps/search/templates/search/release.html:19
+msgid "Average Ratings Over Time"
+msgstr ""
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:28
 msgid "Awesome! Please make your suggestion below:"
 msgstr "Geweldig! Plaats hieronder uw suggestie:"
 
-#: apps/website_issues/templates/website_issues/single_site.html:3
+#: apps/website_issues/templates/website_issues/includes/single_site.html:1
 msgid "Back to all sites &raquo;"
 msgstr "Terug naar alle websites &raquo;"
 
-#: apps/themes/templates/themes/theme.html:17
+#: apps/themes/templates/themes/theme.html:15
 msgid "Back to all themes &raquo;"
 msgstr "Terug naar alle thema’s &raquo;"
 
-#: apps/website_issues/templates/website_issues/theme.html:18
+#: apps/website_issues/templates/website_issues/theme.html:17
 msgid "Back to {domain} &raquo;"
 msgstr "Terug naar {domain} &raquo;"
 
-#: apps/feedback/__init__.py:112
+#: apps/input/__init__.py:23
+msgid "Beta Channel"
+msgstr ""
+
+#: templates/base.html:54
+#, fuzzy
+msgid "Broken Sites"
+msgstr "Defecte website"
+
+#: apps/input/__init__.py:84
 msgid "Broken Website"
 msgstr "Defecte website"
+
+#: templates/csrf_error.html:5
+msgid "CSRF Protection Error"
+msgstr ""
 
 #: templates/includes/ua_overlay.html:10
 msgid "Close"
@@ -209,19 +233,24 @@ msgstr "Useragent kopiëren"
 msgid "Custom"
 msgstr "Aangepast"
 
-#: templates/base.html:30 templates/base_mobile.html:20
+#: templates/base_mobile.html:20
 msgid "Dashboard"
 msgstr "Dashboard"
 
-#: apps/search/forms.py:76
+#: apps/search/forms.py:74
 msgid "Date range:"
 msgstr "Datumbereik:"
 
 #: apps/feedback/templates/feedback/release_index.html:130
+#, fuzzy
+msgid "Describe the problem with the site."
+msgstr "Beschrijf het probleem met de website."
+
+#: apps/feedback/templates/feedback/mobile/release_index.html:96
 msgid "Describe the problem with the website."
 msgstr "Beschrijf het probleem met de website."
 
-#: apps/feedback/templates/feedback/release_index.html:181
+#: apps/feedback/templates/feedback/release_index.html:181 apps/feedback/templates/feedback/mobile/release_index.html:140
 msgid "Describe your idea below."
 msgstr "Beschrijf hieronder uw idee."
 
@@ -229,11 +258,16 @@ msgstr "Beschrijf hieronder uw idee."
 msgid "Devices"
 msgstr "Apparaten"
 
+#: apps/feedback/templates/feedback/mobile/release_index.html:83
+#, fuzzy
+msgid "Does a website look or behave incorrectly in Firefox for Mobile? Provide us some details about the problem and we'll try to fix it."
+msgstr "Geef ons enkele details over het probleem en we proberen het op te lossen."
+
 #: apps/feedback/templates/feedback/release_index.html:110
 msgid "Does a website look or behave incorrectly in Firefox?"
 msgstr "Gedraagt of ziet een website er niet goed uit in Firefox?"
 
-#: apps/input/__init__.py:60
+#: apps/input/__init__.py:143
 msgid "Don't Care"
 msgstr "Maakt niet uit"
 
@@ -245,20 +279,19 @@ msgstr "Bèta downloaden"
 msgid "Download Firefox"
 msgstr "Firefox downloaden"
 
-#: apps/feedback/forms.py:109 apps/feedback/forms.py:122
+#: apps/feedback/forms.py:108 apps/feedback/forms.py:120
 msgid "Enter your feedback here."
 msgstr "Voer hier uw feedback in."
 
-#: apps/feedback/forms.py:136 apps/feedback/forms.py:189
+#: apps/feedback/forms.py:133 apps/feedback/forms.py:184
 msgid "Enter your suggestions here."
 msgstr "Voer hier uw suggesties in."
 
-#: apps/feedback/forms.py:172
+#: apps/feedback/forms.py:168
 msgid "Example: Images were not loading, but the rest of the page was."
-msgstr ""
-"Voorbeeld: afbeeldingen werden niet geladen, maar de rest van de pagina wel."
+msgstr "Voorbeeld: afbeeldingen werden niet geladen, maar de rest van de pagina wel."
 
-#: apps/input/__init__.py:62
+#: apps/input/__init__.py:145
 msgid "Excellent"
 msgstr "Uitstekend"
 
@@ -270,25 +303,39 @@ msgstr ""
 "Behalve waar anderszins <a href=\"%(legal_url)s\">aangegeven</a> valt de inhoud van deze website onder de <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> "
 "of een latere versie."
 
+#: templates/base.html:53
+#, fuzzy
+msgid "Experience"
+msgstr "Beoordeel uw ervaring"
+
+#: apps/search/templates/search/release.html:15
+msgid "Experience Ratings"
+msgstr ""
+
 #: apps/feedback/templates/feedback/release_index.html:244
 msgid "Facebook"
 msgstr "Facebook"
 
-#: apps/input/__init__.py:59
+#: apps/input/__init__.py:142
 msgid "Fair"
 msgstr "Matig"
 
-#: apps/input/__init__.py:49
+#: apps/input/__init__.py:132
 msgid "Features"
 msgstr "Functies"
 
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:6 apps/search/templates/search/mobile/search.html:6
+#: apps/dashboard/templates/dashboard/mobile/beta.html:6 apps/search/templates/search/mobile/search.html:6
 msgid "Feed"
 msgstr "Feed"
 
-#: templates/base.html:34
+#: templates/base.html:37
 msgid "Feedback"
 msgstr "Feedback"
+
+#: apps/feedback/templates/feedback/mobile/release_index.html:186
+#, fuzzy
+msgid "Feedback Dashboard"
+msgstr "Dashboard"
 
 #: apps/feedback/validators.py:36
 msgid "Feedback must not contain HTML."
@@ -302,16 +349,16 @@ msgstr "Lees het laatste nieuws van Mozilla:"
 msgid "Find the latest news about Firefox."
 msgstr "Lees het laatste nieuws over Firefox."
 
-#: apps/feedback/__init__.py:9
+#: apps/feedback/__init__.py:14
 msgid "Firefox"
 msgstr "Firefox"
 
-#: apps/search/views.py:86 apps/search/views.py:104
+#: apps/search/views.py:92 apps/search/views.py:111
 msgid "Firefox Input"
 msgstr "Firefox Input"
 
 #. L10n: This is the title to the Search ATOM feed.
-#: apps/search/views.py:103
+#: apps/search/views.py:110
 msgid "Firefox Input: '{query}'"
 msgstr "Firefox Input: '{query}'"
 
@@ -335,31 +382,54 @@ msgstr "Firefox stelt me teleur…"
 msgid "Firefox makes me sad because ..."
 msgstr "Firefox stelt me teleur, omdat…"
 
+#: apps/feedback/templates/feedback/mobile/release_index.html:202
+#, fuzzy
+msgid "Firefox on Facebook"
+msgstr "Firefox-logo"
+
+#: apps/feedback/templates/feedback/mobile/release_index.html:193
+msgid "Follow us on Twitter."
+msgstr ""
+
 #. refers to time-based search filters (e.g., "for last: 1d")
 #: apps/dashboard/templates/dashboard/mobile/when.html:3
 msgid "For last:"
 msgstr "Voor de laatste:"
 
-#: templates/includes/footer_release.html:16 templates/includes/lang_switcher.html:10
+#: apps/feedback/templates/feedback/mobile/release_index.html:101 apps/feedback/templates/feedback/mobile/release_index.html:145
+#, fuzzy
+msgid "For your privacy, please ensure that no personally identifiable information is included in your feedback."
+msgstr "Zorg er om uw privacy te beschermen voor dat er geen persoonlijke gegevens in uw feedback zijn opgenomen."
+
+#: apps/feedback/templates/feedback/mobile/release_index.html:209
+#, fuzzy
+msgid "Get the latest news on Firefox."
+msgstr "Lees het laatste nieuws over Firefox."
+
+#: templates/includes/channel_switcher.html:13 templates/includes/footer_release.html:16 templates/includes/lang_switcher.html:10
 msgid "Go"
 msgstr "OK"
 
 #: apps/feedback/templates/feedback/release_index.html:40 apps/feedback/templates/feedback/release_index.html:114 apps/feedback/templates/feedback/release_index.html:171
+#: apps/feedback/templates/feedback/mobile/release_index.html:28 apps/feedback/templates/feedback/mobile/release_index.html:78 apps/feedback/templates/feedback/mobile/release_index.html:130
 msgid "Go Back"
 msgstr "Teruggaan"
 
-#: apps/input/__init__.py:61
+#: apps/input/__init__.py:144
 msgid "Good"
 msgstr "Goed"
 
 #: apps/feedback/templates/feedback/feedback.html:56
 msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
-msgstr ""
-"Had u een probleem met een specifieke website? Voeg dan de URL toe, zodat we "
-"het probleem sneller kunnen vinden!"
+msgstr "Had u een probleem met een specifieke website? Voeg dan de URL toe, zodat we het probleem sneller kunnen vinden!"
 
 #: apps/feedback/templates/feedback/release_index.html:169
 msgid "Have an idea how Firefox could be better? Let us know!"
+msgstr "Hebt u een idee over het verbeteren van Firefox? Laat het ons weten!"
+
+#: apps/feedback/templates/feedback/mobile/release_index.html:135
+#, fuzzy
+msgid "Have an idea how Firefox for Mobile could be better? Let us know!"
 msgstr "Hebt u een idee over het verbeteren van Firefox? Laat het ons weten!"
 
 #: templates/about.html:7
@@ -370,25 +440,30 @@ msgstr "Hallo!"
 msgid "Hit Ctrl+C (Cmd+C on Mac) to copy and close."
 msgstr "Gebruik Ctrl+C (Cmd+C op Mac) voor kopiëren en sluiten."
 
-#: apps/input/__init__.py:44
+#: apps/input/__init__.py:126
 msgid "How frequently Firefox crashes or loses data"
 msgstr "Hoe vaak Firefox crasht of gegevens verliest"
 
-#: apps/input/__init__.py:26
+#: apps/input/__init__.py:105
 msgid "How long Firefox takes to start running"
 msgstr "Hoe lang Firefox doet over het opstarten"
 
-#: apps/input/__init__.py:32
+#: apps/input/__init__.py:112
 msgid "How long it takes for web pages to load"
 msgstr "Hoe lang het duurt om webpagina’s te laden"
 
-#: apps/input/__init__.py:38
+#: apps/input/__init__.py:119
 msgid "How quickly web pages respond once they have loaded"
 msgstr "Hoe snel webpagina’s reageren als ze eenmaal zijn geladen"
 
-#: apps/input/__init__.py:50
+#: apps/input/__init__.py:133
 msgid "How well Firefox's built-in features serve your needs"
 msgstr "Hoe goed Firefox’ ingebouwde functies aan uw eisen voldoen"
+
+#: apps/feedback/templates/feedback/mobile/release_index.html:33
+#, fuzzy
+msgid "How would you rate these aspects of Firefox for Mobile?"
+msgstr "Hoe zou u deze aspecten van Firefox beoordelen?"
 
 #: apps/feedback/templates/feedback/release_index.html:38
 msgid "How would you rate these aspects of Firefox?"
@@ -402,11 +477,14 @@ msgstr "Sorry, ik kan niet vinden wat u zoekt."
 msgid "I'm sorry, there was an error with your search."
 msgstr "Sorry, er is een fout opgetreden tijdens het zoeken."
 
+#: templates/csrf_error.html:24
+#, fuzzy
+msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+msgstr "Als het probleem aanhoudt, kunt u <a href=\"%(bug_url)s\">een bug indienen</a>, onder vermelding van de URL die u wilde bezoeken."
+
 #: apps/search/templates/search/unavailable.html:17
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
-msgstr ""
-"Als het probleem aanhoudt, kunt u <a href=\"%(bug_url)s\">een bug "
-"indienen</a>, onder vermelding van de URL die u wilde bezoeken."
+msgstr "Als het probleem aanhoudt, kunt u <a href=\"%(bug_url)s\">een bug indienen</a>, onder vermelding van de URL die u wilde bezoeken."
 
 #: templates/500.html:20
 msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
@@ -414,27 +492,19 @@ msgstr "Als u aanvullende informatie hebt over hoe we dit probleem kunnen laten 
 
 #: apps/feedback/templates/feedback/feedback.html:86
 msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
-msgstr ""
-"Als u liever een idee wilt melden, stuur het ons dan toe via ons <a href=\"%"
-"(url_suggestion)s\">suggestieveld</a>!"
+msgstr "Als u liever een idee wilt melden, stuur het ons dan toe via ons <a href=\"%(url_suggestion)s\">suggestieveld</a>!"
 
 #: apps/feedback/templates/feedback/release_index.html:24
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
-msgstr ""
-"Als u hulp zoekt of een probleem met Firefox hebt, bezoek dan <a href=\"%"
-"(support_url)s\">Firefox-ondersteuning</a>."
+msgstr "Als u hulp zoekt of een probleem met Firefox hebt, bezoek dan <a href=\"%(support_url)s\">Firefox-ondersteuning</a>."
 
 #: apps/feedback/templates/feedback/beta_index.html:25
 msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
-msgstr ""
-"Als u hulp zoekt of een probleem met Firefox hebt, bezoek dan onze <a href=\""
-"%(support_url)s\">ondersteuningspagina</a>."
+msgstr "Als u hulp zoekt of een probleem met Firefox hebt, bezoek dan onze <a href=\"%(support_url)s\">ondersteuningspagina</a>."
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
-msgstr ""
-"Als u wilt zien waar uw feedback naartoe is gestuurd, kijk dan op ons <a "
-"href=\"%(url)s\">Firefox Input-dashboard</a>."
+msgstr "Als u wilt zien waar uw feedback naartoe is gestuurd, kijk dan op ons <a href=\"%(url)s\">Firefox Input-dashboard</a>."
 
 #: templates/404.html:14
 msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
@@ -452,22 +522,21 @@ msgstr "Input-dashboard"
 msgid "Internal Server Error"
 msgstr "Interne serverfout"
 
-#: apps/feedback/views.py:103 apps/feedback/views.py:173
+#: apps/feedback/views.py:104 apps/feedback/views.py:171
 msgid "Invalid feedback type"
 msgstr "Ongeldig type feedback"
 
-#: apps/dashboard/templates/dashboard/message_list.html:8 apps/feedback/__init__.py:109 apps/feedback/helpers.py:39 apps/themes/templates/themes/theme_list.html:12
-#: apps/website_issues/templates/website_issues/single_site.html:11
+#: apps/feedback/helpers.py:39 apps/input/__init__.py:63 apps/themes/templates/themes/theme_list.html:12 apps/website_issues/templates/website_issues/includes/single_site.html:14
 msgid "Issue"
 msgstr "Probleem"
 
 #. Formerly called "sad"
-#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:38 apps/search/views.py:211
-#: apps/themes/views.py:34 apps/website_issues/templates/website_issues/website_issues.html:33
+#: apps/dashboard/views.py:53 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/search/views.py:223
+#: apps/themes/views.py:34 apps/website_issues/templates/website_issues/sites.html:35
 msgid "Issues"
 msgstr "Problemen"
 
-#: apps/themes/views.py:34 apps/website_issues/templates/website_issues/website_issues.html:33
+#: apps/themes/views.py:34 apps/website_issues/templates/website_issues/sites.html:35
 msgid "Issues only"
 msgstr "Alleen problemen"
 
@@ -477,9 +546,7 @@ msgstr "Goed om te horen dat u Mozilla wilt helpen uw beleving te verbeteren!"
 
 #: apps/feedback/templates/feedback/feedback.html:48
 msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
-msgstr ""
-"Kent u een website die in deze bèta beter werkt dan in eerdere versies van "
-"Firefox? Voeg dan de URL toe, zodat we deze kunnen volgen!"
+msgstr "Kent u een website die in deze bèta beter werkt dan in eerdere versies van Firefox? Voeg dan de URL toe, zodat we deze kunnen volgen!"
 
 #. short for 30 days
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:9
@@ -496,7 +563,7 @@ msgstr "Afgelopen 7 dagen"
 msgid "Last day"
 msgstr "Afgelopen dag"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:66
+#: apps/dashboard/templates/dashboard/beta.html:14
 msgid "Latest Feedback"
 msgstr "Nieuwste feedback"
 
@@ -504,27 +571,40 @@ msgstr "Nieuwste feedback"
 msgid "Legal Notices"
 msgstr "Juridische opmerkingen"
 
-#: apps/feedback/__init__.py:84
+#: apps/feedback/templates/feedback/mobile/release_index.html:201
+msgid "Let's be friends!"
+msgstr ""
+
+#: apps/feedback/__init__.py:110
 msgid "Linux"
 msgstr "Linux"
+
+#: apps/search/templates/search/release.html:30
+msgid "Loading chart data."
+msgstr ""
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:9
 msgid "Loading feedback history..."
 msgstr "Feedbackgeschiedenis laden…"
 
-#: apps/dashboard/templates/dashboard/locales.html:15 apps/dashboard/templates/dashboard/mobile/locales.html:9
+#: apps/search/templates/search/includes/ratings_chart.html:12
+#, fuzzy
+msgid "Loading ratings history..."
+msgstr "Feedbackgeschiedenis laden…"
+
+#: apps/dashboard/templates/dashboard/locales.html:17 apps/dashboard/templates/dashboard/mobile/locales.html:9
 msgid "Locale"
 msgstr "Taal"
 
-#: apps/search/forms.py:68
+#: apps/search/forms.py:66
 msgid "Locale:"
 msgstr "Locale:"
 
-#: apps/feedback/__init__.py:66
+#: apps/feedback/__init__.py:92
 msgid "Mac OS X"
 msgstr "Mac OS X"
 
-#: apps/feedback/__init__.py:72
+#: apps/feedback/__init__.py:98
 msgid "Maemo"
 msgstr "Maemo"
 
@@ -537,11 +617,11 @@ msgstr "Fabrikant"
 msgid "Messages"
 msgstr "Berichten"
 
-#: apps/feedback/__init__.py:16
+#: apps/feedback/__init__.py:29
 msgid "Mobile"
 msgstr "Mobiel"
 
-#: apps/dashboard/templates/dashboard/locales.html:27
+#: apps/dashboard/templates/dashboard/locales.html:29
 msgid "More Locales"
 msgstr "Meer talen"
 
@@ -549,20 +629,29 @@ msgstr "Meer talen"
 msgid "More Options"
 msgstr "Meer opties"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:89
+#: apps/website_issues/templates/website_issues/sites.html:91
 msgid "More sites..."
 msgstr "Meer websites…"
 
-#: apps/themes/templates/themes/theme.html:36 apps/website_issues/templates/website_issues/paginate_sites.html:11 apps/website_issues/templates/website_issues/theme.html:37
+#: apps/themes/templates/themes/theme.html:36 apps/website_issues/templates/website_issues/theme.html:38 apps/website_issues/templates/website_issues/includes/paginate_sites.html:11
 msgid "Next Page &raquo;"
 msgstr "Volgende pagina &raquo;"
+
+#: apps/input/__init__.py:28
+msgid "Nightly Channel"
+msgstr ""
 
 #. short for an indefinite date range
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:12
 msgid "No date limit"
 msgstr "Geen datumbereik"
 
-#: apps/website_issues/templates/website_issues/sites_list.html:27
+#: apps/search/templates/search/release.html:37
+#, fuzzy
+msgid "No results found"
+msgstr "Geen resultaten gevonden!"
+
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:27
 msgid "No results found!"
 msgstr "Geen resultaten gevonden!"
 
@@ -574,7 +663,7 @@ msgstr "Geen zoekresultaten."
 msgid "Not Found"
 msgstr "Niet gevonden"
 
-#: apps/search/forms.py:70
+#: apps/search/forms.py:68
 msgid "OS:"
 msgstr "OS:"
 
@@ -585,27 +674,21 @@ msgstr "Vaak genoemd"
 
 #: apps/feedback/templates/feedback/need_release.html:8
 msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-msgstr ""
-"Oh! Dus u wilt ons feedback geven over Firefox. Dank u, maar u dient de "
-"meest recente versie te gebruiken."
+msgstr "Oh! Dus u wilt ons feedback geven over Firefox. Dank u, maar u dient de meest recente versie te gebruiken."
 
 #: apps/feedback/templates/feedback/need_beta.html:8
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
-msgstr ""
-"Oh! Dus u wilt ons feedback geven over de volgende versie van Firefox. Dank "
-"u, maar u dient onze meest recente bètaversie te gebruiken."
+msgstr "Oh! Dus u wilt ons feedback geven over de volgende versie van Firefox. Dank u, maar u dient onze meest recente bètaversie te gebruiken."
 
 #: apps/feedback/templates/feedback/mobile/need_beta.html:9
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
-msgstr ""
-"Oh! Dus u wilt ons feedback geven. Dan hebt u de meest recente bètaversie "
-"nodig! Ga naar onze bètapagina en <a href=\"%(url)s\">download deze!</a>"
+msgstr "Oh! Dus u wilt ons feedback geven. Dan hebt u de meest recente bètaversie nodig! Ga naar onze bètapagina en <a href=\"%(url)s\">download deze!</a>"
 
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:36 apps/search/templates/search/mobile/search.html:48
+#: apps/dashboard/templates/dashboard/mobile/beta.html:36 apps/search/templates/search/mobile/search.html:48
 msgid "Older Feedback &raquo;"
 msgstr "Oudere feedback &raquo;"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:77 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:73
+#: apps/dashboard/templates/dashboard/beta.html:25 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:73
 msgid "Older Messages &raquo;"
 msgstr "Oudere berichten &raquo;"
 
@@ -615,10 +698,9 @@ msgstr "Open gegevens"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:68
 msgid "Or submit your ideas with our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
-msgstr ""
-"Of dien uw ideeën in via ons <a href=\"%(url_suggestion)s\">suggestieveld</a>!"
+msgstr "Of dien uw ideeën in via ons <a href=\"%(url_suggestion)s\">suggestieveld</a>!"
 
-#: apps/feedback/__init__.py:90
+#: apps/feedback/__init__.py:116
 msgid "Other"
 msgstr "Overig"
 
@@ -630,11 +712,11 @@ msgstr "Overige talen:"
 msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
 msgstr "Mogelijk is onze zoekmachine momenteel niet beschikbaar. U kunt opnieuw beginnen op het <a href=\"%(url)s\">dashboard</a> en het later nog eens proberen."
 
-#: apps/input/__init__.py:31
+#: apps/input/__init__.py:111
 msgid "Page Load Time"
 msgstr "Paginalaadtijd"
 
-#: apps/feedback/templates/feedback/release_index.html:245
+#: apps/feedback/templates/feedback/release_index.html:245 apps/feedback/templates/feedback/mobile/release_index.html:210
 msgid "Planet Mozilla"
 msgstr "Planet Mozilla"
 
@@ -642,7 +724,7 @@ msgstr "Planet Mozilla"
 msgid "Platform"
 msgstr "Platform"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:39
+#: apps/website_issues/templates/website_issues/sites.html:42
 msgid "Platforms"
 msgstr "Platformen"
 
@@ -662,18 +744,18 @@ msgstr "Zorg ervoor dat zich hier geen persoonlijke gegevens bevinden."
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 msgstr "Begin opnieuw op het <a href=\"%(dashboard_url)s\">dashboard</a>."
 
-#: apps/input/__init__.py:58
+#: apps/input/__init__.py:141
 msgid "Poor"
 msgstr "Slecht"
 
 #. Formerly called "happy"
-#: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/message_list.html:6 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8
-#: apps/feedback/__init__.py:108 apps/feedback/helpers.py:36 apps/search/forms.py:37 apps/search/views.py:210 apps/themes/views.py:29 apps/themes/templates/themes/theme_list.html:8
-#: apps/website_issues/templates/website_issues/single_site.html:9 apps/website_issues/templates/website_issues/website_issues.html:32
+#: apps/dashboard/views.py:52 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:56
+#: apps/search/forms.py:36 apps/search/views.py:222 apps/themes/views.py:29 apps/themes/templates/themes/theme_list.html:8 apps/website_issues/templates/website_issues/sites.html:34
+#: apps/website_issues/templates/website_issues/includes/single_site.html:12
 msgid "Praise"
 msgstr "Lof"
 
-#: apps/themes/views.py:29 apps/website_issues/templates/website_issues/website_issues.html:32
+#: apps/themes/views.py:29 apps/website_issues/templates/website_issues/sites.html:34
 msgid "Praise only"
 msgstr "Alleen lof"
 
@@ -689,41 +771,46 @@ msgstr "Door naar voettekst"
 msgid "Proceed to main content"
 msgstr "Door naar hoofdvenster"
 
-#: apps/dashboard/templates/dashboard/dashboard.html:12 apps/search/templates/search/search.html:20 apps/themes/templates/themes/index.html:10
-#: apps/website_issues/templates/website_issues/website_issues.html:19
+#: apps/search/templates/search/search.html:20 apps/themes/templates/themes/index.html:10 apps/website_issues/templates/website_issues/sites.html:20 templates/includes/filters.html:6
 msgid "Product"
 msgstr "Product"
 
-#: apps/search/forms.py:62
+#: apps/search/forms.py:60
 msgid "Product:"
 msgstr "Product:"
 
 #: apps/feedback/templates/feedback/release_index.html:111
 msgid "Provide us some details about the problem and we'll try to fix it."
-msgstr ""
-"Geef ons enkele details over het probleem en we proberen het op te lossen."
+msgstr "Geef ons enkele details over het probleem en we proberen het op te lossen."
 
-#: apps/search/client.py:194
+#: apps/search/client.py:198
 msgid "Query has timed out."
 msgstr "Uw zoekopdracht is verlopen."
 
-#: apps/feedback/templates/feedback/release_index.html:16 apps/feedback/templates/feedback/release_index.html:37
+#: apps/feedback/templates/feedback/release_index.html:16 apps/feedback/templates/feedback/release_index.html:37 apps/feedback/templates/feedback/mobile/release_index.html:16
+#: apps/feedback/templates/feedback/mobile/release_index.html:32
 msgid "Rate Your Experience"
 msgstr "Beoordeel uw ervaring"
 
-#: apps/feedback/__init__.py:111
+#: apps/input/__init__.py:77
 msgid "Rating"
 msgstr "Beoordeling"
+
+#: apps/input/__init__.py:18
+msgid "Release Channel"
+msgstr ""
 
 #: templates/base_mobile_old.html:58 templates/base_old.html:65 templates/includes/footer.html:10
 msgid "Report Trademark Abuse"
 msgstr "Misbruik van handelsmerk melden"
 
-#: apps/feedback/templates/feedback/release_index.html:17 apps/feedback/templates/feedback/release_index.html:108
-msgid "Report a Broken Website"
+#: apps/feedback/templates/feedback/release_index.html:17 apps/feedback/templates/feedback/release_index.html:108 apps/feedback/templates/feedback/mobile/release_index.html:17
+#: apps/feedback/templates/feedback/mobile/release_index.html:82
+#, fuzzy
+msgid "Report a Site Issue"
 msgstr "Een defecte website rapporteren"
 
-#: apps/input/__init__.py:37
+#: apps/input/__init__.py:118
 msgid "Responsiveness"
 msgstr "Responsiviteit"
 
@@ -735,7 +822,7 @@ msgstr "Zoeken"
 msgid "Search Results"
 msgstr "Zoekresultaten"
 
-#: apps/search/views.py:87
+#: apps/search/views.py:93
 msgid "Search Results in Firefox Beta Feedback."
 msgstr "Zoekresultaten in Firefox bèta-feedback"
 
@@ -743,11 +830,11 @@ msgstr "Zoekresultaten in Firefox bèta-feedback"
 msgid "Search Unavailable"
 msgstr "Zoekfunctie niet beschikbaar"
 
-#: apps/search/forms.py:61
+#: apps/search/forms.py:59
 msgid "Search by keyword"
 msgstr "Zoeken op trefwoord"
 
-#: apps/website_issues/forms.py:38
+#: apps/website_issues/forms.py:44
 msgctxt "website_issues_search"
 msgid "Search for domain"
 msgstr "Zoeken op domein"
@@ -756,7 +843,12 @@ msgstr "Zoeken op domein"
 msgid "See all opinions"
 msgstr "Alle meningen bekijken"
 
-#: apps/search/forms.py:66
+#: apps/feedback/templates/feedback/mobile/release_index.html:185
+#, fuzzy
+msgid "See where your feedback goes."
+msgstr "Wilt u zien waar uw feedback naartoe gaat?"
+
+#: apps/search/forms.py:64
 msgid "Sentiment:"
 msgstr "Gevoel:"
 
@@ -766,7 +858,8 @@ msgctxt "date_range_set"
 msgid "Set"
 msgstr "Instellen"
 
-#: apps/feedback/templates/feedback/release_index.html:18 apps/feedback/templates/feedback/release_index.html:168
+#: apps/feedback/templates/feedback/release_index.html:18 apps/feedback/templates/feedback/release_index.html:168 apps/feedback/templates/feedback/mobile/release_index.html:18
+#: apps/feedback/templates/feedback/mobile/release_index.html:134
 msgid "Share an Idea"
 msgstr "Een idee delen"
 
@@ -774,39 +867,37 @@ msgstr "Een idee delen"
 msgid "Show/Hide Options"
 msgstr "Opties tonen/verbergen"
 
-#: apps/website_issues/templates/website_issues/sites_list.html:12 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/website_issues.html:10
-#: templates/base.html:41 templates/includes/nav_buttons.html:4
+#: apps/website_issues/templates/website_issues/sites.html:4 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/includes/sites_list.html:12
+#: templates/base.html:39 templates/includes/nav_buttons.html:4
 msgid "Sites"
 msgstr "Websites"
 
-#: apps/website_issues/templates/website_issues/sites_list.html:14
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:14
 msgid "Sites with only one message"
 msgstr "Websites met slechts één bericht"
 
 #: apps/feedback/templates/feedback/feedback.html:29
 msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please make your suggestion below:"
-msgstr ""
-"Dus u wilt een suggestie doen over het verbeteren van Firefox? Geweldig! "
-"Plaats hieronder uw suggestie:"
+msgstr "Dus u wilt een suggestie doen over het verbeteren van Firefox? Geweldig! Plaats hieronder uw suggestie:"
 
 #: templates/about.html:34
 msgid "Source Code"
 msgstr "Broncode"
 
 #. L10n: Sphinx is the name of the search engine software.
-#: apps/search/client.py:197
+#: apps/search/client.py:201
 msgid "Sphinx threw an unknown exception: %s"
 msgstr "Sphinx heeft een onbekende uitzondering opgeleverd: %s"
 
-#: apps/input/__init__.py:43
+#: apps/input/__init__.py:125
 msgid "Stability"
 msgstr "Stabiliteit"
 
-#: apps/input/__init__.py:25
+#: apps/input/__init__.py:104
 msgid "Start-Up Time"
 msgstr "Opstarttijd"
 
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:7 apps/search/templates/search/mobile/search.html:7
+#: apps/dashboard/templates/dashboard/mobile/beta.html:7 apps/search/templates/search/mobile/search.html:7
 msgid "Statistics"
 msgstr "Statistieken"
 
@@ -814,24 +905,26 @@ msgstr "Statistieken"
 #: apps/feedback/templates/feedback/release_index.html:3 apps/feedback/templates/feedback/release_index.html:96 apps/feedback/templates/feedback/release_index.html:97
 #: apps/feedback/templates/feedback/release_index.html:156 apps/feedback/templates/feedback/release_index.html:157 apps/feedback/templates/feedback/release_index.html:207
 #: apps/feedback/templates/feedback/release_index.html:208 apps/feedback/templates/feedback/mobile/beta_index.html:3 apps/feedback/templates/feedback/mobile/feedback.html:3
-#: apps/feedback/templates/feedback/mobile/feedback.html:61
+#: apps/feedback/templates/feedback/mobile/feedback.html:61 apps/feedback/templates/feedback/mobile/release_index.html:3 apps/feedback/templates/feedback/mobile/release_index.html:65
+#: apps/feedback/templates/feedback/mobile/release_index.html:66 apps/feedback/templates/feedback/mobile/release_index.html:116 apps/feedback/templates/feedback/mobile/release_index.html:117
+#: apps/feedback/templates/feedback/mobile/release_index.html:158 apps/feedback/templates/feedback/mobile/release_index.html:159 templates/base_feedback_release_mobile.html:15
 msgid "Submit Feedback"
 msgstr "Feedback indienen"
 
-#: apps/feedback/templates/feedback/release_index.html:10
+#: apps/feedback/templates/feedback/release_index.html:10 apps/feedback/templates/feedback/mobile/release_index.html:10
 msgid "Submit Your Feedback"
 msgstr "Uw feedback indienen"
 
 #: apps/feedback/templates/feedback/release_index.html:96 apps/feedback/templates/feedback/release_index.html:156 apps/feedback/templates/feedback/release_index.html:207
+#: apps/feedback/templates/feedback/mobile/release_index.html:65 apps/feedback/templates/feedback/mobile/release_index.html:116 apps/feedback/templates/feedback/mobile/release_index.html:158
 msgid "Submitting Feedback"
 msgstr "Feedback wordt ingediend"
 
-#: apps/dashboard/templates/dashboard/message_list.html:10 apps/feedback/__init__.py:110 apps/feedback/templates/feedback/feedback.html:13 apps/feedback/templates/feedback/mobile/feedback.html:21
-#: apps/search/views.py:212 apps/themes/templates/themes/theme_list.html:10
+#: apps/input/__init__.py:70 apps/search/views.py:224 apps/themes/templates/themes/theme_list.html:10
 msgid "Suggestion"
 msgstr "Suggestie"
 
-#: apps/dashboard/views.py:56 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:39 apps/themes/views.py:39
+#: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:38 apps/themes/views.py:39
 msgid "Suggestions"
 msgstr "Suggesties"
 
@@ -847,7 +940,8 @@ msgstr "Geweldig! We vinden het fijn te horen dat u plezier beleeft aan onze pre
 msgid "Super! Please tell us more!"
 msgstr "Geweldig! Vertel ons meer!"
 
-#: apps/feedback/templates/feedback/release_index.html:219 apps/feedback/templates/feedback/thanks.html:3 apps/feedback/templates/feedback/mobile/thanks.html:3
+#: apps/feedback/templates/feedback/release_index.html:219 apps/feedback/templates/feedback/thanks.html:3 apps/feedback/templates/feedback/mobile/release_index.html:171
+#: apps/feedback/templates/feedback/mobile/thanks.html:3
 msgid "Thanks for Your Feedback"
 msgstr "Bedankt voor uw feedback"
 
@@ -865,46 +959,45 @@ msgstr "Bedankt!"
 
 #: templates/about.html:37
 msgid "The code for the Firefox Input web application can be found <a href=\"%(source_url)s\">on GitHub</a>!"
-msgstr ""
-"De code voor de Firefox Input-webtoepassing is te vinden <a href=\"%"
-"(source_url)s\">op GitHub</a>!"
+msgstr "De code voor de Firefox Input-webtoepassing is te vinden <a href=\"%(source_url)s\">op GitHub</a>!"
 
-#: apps/themes/templates/themes/theme.html:4 apps/themes/templates/themes/theme.html:14 apps/website_issues/templates/website_issues/theme.html:15
+#: templates/csrf_error.html:15
+msgid ""
+"The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable cookies "
+"in Firefox, then try again."
+msgstr ""
+
+#: apps/themes/templates/themes/theme.html:4 apps/themes/templates/themes/theme.html:17 apps/website_issues/templates/website_issues/theme.html:19
 msgid "Theme"
 msgstr "Thema"
 
-#: apps/website_issues/templates/website_issues/theme.html:21
+#: apps/website_issues/templates/website_issues/theme.html:22
 msgid "Theme for {domain}"
 msgstr "Thema voor {domain}"
 
-#. Formerly: Clusters
-#: apps/themes/templates/themes/index.html:2 templates/base.html:37
+#: apps/themes/templates/themes/index.html:2 templates/base.html:38
 msgid "Themes"
 msgstr "Thema’s"
 
+#: templates/csrf_error.html:8
+msgid "There was an error verifying your CSRF token. Your request could not be processed. We apologize for the inconvenience!"
+msgstr ""
+
 #: apps/feedback/templates/feedback/need_beta.html:14
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
-msgstr ""
-"Ga naar onze downloadpagina en installeer <a href=\"%(url)s\">de meest recente "
-"Firefox-bèta</a> of werk bij naar deze versie om mee te doen!"
+msgstr "Ga naar onze downloadpagina en installeer <a href=\"%(url)s\">de meest recente Firefox-bèta</a> of werk bij naar deze versie om mee te doen!"
 
 #: apps/feedback/templates/feedback/need_release.html:14
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-msgstr ""
-"Ga naar onze downloadpagina en installeer <a href=\"%(url)s\">de meest recente "
-"Firefox-versie</a> of werk bij naar deze versie om mee te doen!"
+msgstr "Ga naar onze downloadpagina en installeer <a href=\"%(url)s\">de meest recente Firefox-versie</a> of werk bij naar deze versie om mee te doen!"
 
 #: apps/feedback/templates/feedback/release_index.html:137 apps/feedback/templates/feedback/release_index.html:188
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
-msgstr ""
-"Zorg er om uw privacy te beschermen voor dat er geen persoonlijke gegevens "
-"in uw feedback zijn opgenomen."
+msgstr "Zorg er om uw privacy te beschermen voor dat er geen persoonlijke gegevens in uw feedback zijn opgenomen."
 
 #: templates/about.html:18
 msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(feedback_url)s\">the feedback submission page</a>!"
-msgstr ""
-"Ga naar <a href=\"%(feedback_url)s\">de invoerpagina voor feedback</a> om "
-"feedback voor uw versie van Firefox in te dienen!"
+msgstr "Ga naar <a href=\"%(feedback_url)s\">de invoerpagina voor feedback</a> om feedback voor uw versie van Firefox in te dienen!"
 
 #. Link text for showing/hiding options
 #: apps/dashboard/templates/includes/filter_box_toggle.html:6
@@ -916,7 +1009,7 @@ msgstr "Wisselen"
 msgid "Translate Message"
 msgstr "Bericht vertalen"
 
-#: apps/dashboard/templates/dashboard/mobile/dashboard.html:8 apps/search/templates/search/mobile/search.html:8
+#: apps/dashboard/templates/dashboard/mobile/beta.html:8 apps/search/templates/search/mobile/search.html:8
 msgid "Trends"
 msgstr "Trends"
 
@@ -929,16 +1022,16 @@ msgid "Twitter"
 msgstr "Twitter"
 
 #: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
-#: apps/website_issues/templates/website_issues/website_issues.html:28
+#: apps/website_issues/templates/website_issues/sites.html:30
 msgid "Type of Feedback"
 msgstr "Type feedback"
 
-#: apps/website_issues/templates/website_issues/website_issues.html:84
+#: apps/website_issues/templates/website_issues/sites.html:86
 msgid "Uncommon Sites"
 msgstr "Ongewone websites"
 
-#: apps/dashboard/templates/dashboard/devices.html:8 apps/dashboard/templates/dashboard/manufacturers.html:9 apps/feedback/helpers.py:16 apps/search/forms.py:47 apps/search/forms.py:50
-#: apps/search/forms.py:55
+#: apps/dashboard/templates/dashboard/devices.html:8 apps/dashboard/templates/dashboard/manufacturers.html:9 apps/feedback/helpers.py:16 apps/search/forms.py:45 apps/search/forms.py:48
+#: apps/search/forms.py:53
 msgid "Unknown"
 msgstr "Onbekend"
 
@@ -950,11 +1043,11 @@ msgstr "Useragent"
 msgid "User agent copied"
 msgstr "Useragent gekopieerd"
 
-#: apps/feedback/views.py:47
+#: apps/feedback/views.py:48
 msgid "User-Agent request header must be set."
 msgstr "De useragent-verzoekheader moet zijn ingesteld."
 
-#: apps/search/forms.py:64
+#: apps/search/forms.py:62
 msgid "Version:"
 msgstr "Versie:"
 
@@ -972,19 +1065,15 @@ msgstr "We hebben uw feedback al! Bedankt."
 
 #: apps/feedback/templates/feedback/feedback.html:24
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
-msgstr ""
-"Het spijt ons dat u geen goede ervaring met onze browser hebt gehad. Vertel "
-"ons waarom, zodat we dit kunnen verhelpen!"
+msgstr "Het spijt ons dat u geen goede ervaring met onze browser hebt gehad. Vertel ons waarom, zodat we dit kunnen verhelpen!"
 
 #: templates/about.html:27
 msgid ""
 "We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
 "please <a href=\"%(data_url)s\">contact us</a>!"
 msgstr ""
-"We zouden graag meer met deze gegevens willen experimenteren, maar we zijn "
-"slechts met een paar mensen. We horen daarom graag welke vragen u beantwoord "
-"zou willen zien! Als u met onze gegevens wilt experimenteren, <a href=\"%"
-"(data_url)s\">neem dan contact met ons op</a>!"
+"We zouden graag meer met deze gegevens willen experimenteren, maar we zijn slechts met een paar mensen. We horen daarom graag welke vragen u beantwoord zou willen zien! Als u met onze gegevens wilt "
+"experimenteren, <a href=\"%(data_url)s\">neem dan contact met ons op</a>!"
 
 #: templates/base.html:5 templates/base_mobile.html:6
 msgid "Welcome"
@@ -994,8 +1083,13 @@ msgstr "Welkom"
 msgid "Welcome!"
 msgstr "Welkom!"
 
-#: apps/feedback/templates/feedback/release_index.html:124
+#: apps/feedback/templates/feedback/mobile/release_index.html:90
 msgid "What is the URL of the broken site?"
+msgstr "Wat is de URL van de defecte website?"
+
+#: apps/feedback/templates/feedback/release_index.html:124
+#, fuzzy
+msgid "What is the URL of the site?"
 msgstr "Wat is de URL van de defecte website?"
 
 #. Title for a time-based search filter
@@ -1008,59 +1102,50 @@ msgstr "Periode"
 msgid "While Visiting"
 msgstr "Bij bezoeken van"
 
-#: apps/feedback/__init__.py:54
+#: apps/feedback/__init__.py:80
 msgid "Windows 7"
 msgstr "Windows 7"
 
-#: apps/feedback/__init__.py:60
+#: apps/feedback/__init__.py:86
 msgid "Windows Vista"
 msgstr "Windows Vista"
 
-#: apps/feedback/__init__.py:48
+#: apps/feedback/__init__.py:74
 msgid "Windows XP"
 msgstr "Windows XP"
 
 #: apps/feedback/validators.py:27
 msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
 msgstr ""
-"Uw reactie bevat scheldwoorden (%s). Als u ons wilt helpen onze producten te "
-"verbeteren, gebruik dan woorden die ons helpen een actie of to-do uit uw "
-"constructieve feedback te genereren. Bedankt!"
+"Uw reactie bevat scheldwoorden (%s). Als u ons wilt helpen onze producten te verbeteren, gebruik dan woorden die ons helpen een actie of to-do uit uw constructieve feedback te genereren. Bedankt!"
 
-#: apps/feedback/templates/feedback/release_index.html:11
+#: apps/feedback/templates/feedback/release_index.html:11 apps/feedback/templates/feedback/mobile/release_index.html:11
 msgid "Your feedback helps us improve Firefox."
 msgstr "Uw feedback helpt ons Firefox te verbeteren."
 
 #: apps/feedback/validators.py:52
 msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
-msgstr ""
-"Uw feedback lijkt een URL te bevatten. Verwijder deze en vergelijkbare "
-"persoonlijke gegevens uit de tekst en probeer het daarna opnieuw. Bedankt!"
+msgstr "Uw feedback lijkt een URL te bevatten. Verwijder deze en vergelijkbare persoonlijke gegevens uit de tekst en probeer het daarna opnieuw. Bedankt!"
 
 #: apps/feedback/validators.py:43
 msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
-msgstr ""
-"Uw feedback lijkt een e-mailadres te bevatten. Verwijder dit en "
-"vergelijkbare persoonlijke gegevens uit de tekst en probeer het daarna "
-"opnieuw. Bedankt!"
+msgstr "Uw feedback lijkt een e-mailadres te bevatten. Verwijder dit en vergelijkbare persoonlijke gegevens uit de tekst en probeer het daarna opnieuw. Bedankt!"
 
-#: apps/feedback/templates/feedback/release_index.html:222
+#: apps/feedback/templates/feedback/release_index.html:222 apps/feedback/templates/feedback/mobile/release_index.html:173
 msgid "Your feedback will be used to create a better experience in future releases of Firefox."
-msgstr ""
-"Uw feedback zal worden gebruikt voor het creëren van een betere beleving in "
-"toekomstige versies van Firefox."
+msgstr "Uw feedback zal worden gebruikt voor het creëren van een betere beleving in toekomstige versies van Firefox."
 
 #. L10n: This means an event that happened only a few seconds ago.
 #: apps/input/helpers.py:86
 msgid "just now"
 msgstr "alleen nu"
 
-#: apps/website_issues/templates/website_issues/sites_list.html:28
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:28
 msgid "reset my search"
 msgstr "mijn zoekopdracht opnieuw instellen"
 
 #. L10n: This indicates the second part of a date range.
-#: apps/search/forms.py:79
+#: apps/search/forms.py:77
 msgid "to"
 msgstr "tot"
 
@@ -1082,22 +1167,24 @@ msgid_plural "{0} minutes ago"
 msgstr[0] "{0} minuut geleden"
 msgstr[1] "{0} minuten geleden"
 
-#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:3
+#: apps/search/templates/search/release.html:28
+msgid "{day}<br/>Average of {num}"
+msgstr ""
+
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:3 apps/search/templates/search/includes/ratings_chart.html:4
 msgid "{num} opinions on {day}"
 msgstr "{num} meningen op {day}"
 
-#: apps/website_issues/templates/website_issues/sites_list.html:54
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:54
 msgid "{percentage}% issues"
 msgstr "{percentage}% problemen"
 
-#: apps/website_issues/templates/website_issues/sites_list.html:52
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:52
 msgid "{percentage}% praise"
 msgstr "{percentage}% lof"
 
-#: apps/feedback/validators.py:38
-msgid "Submitted User Agent is not the latest beta version."
-msgstr "De ingediende useragent is niet de meest recente bètaversie."
+#~ msgid "Submitted User Agent is not the latest beta version."
+#~ msgstr "De ingediende useragent is niet de meest recente bètaversie."
 
-#: apps/feedback/validators.py:30
-msgid "User agent string was not recognizable."
-msgstr "De useragent-string werd niet herkend."
+#~ msgid "User agent string was not recognizable."
+#~ msgstr "De useragent-string werd niet herkend."
