@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 15:36+0200\n"
-"PO-Revision-Date: 2011-01-16 09:14+0200\n"
+"PO-Revision-Date: 2011-02-05 08:59+0200\n"
 "Last-Translator: Francesco <francesco.lodolo@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.1.4\n"
+"X-Generator: Pootle 2.1.5\n"
 
 #: apps/website_issues/templates/website_issues/includes/sites_list.html:43
 msgid "%(count)s message"
@@ -98,7 +98,7 @@ msgstr[1] "<strong>%(cnt)s</strong> messaggi"
 
 #: templates/base.html:31
 msgid "<strong>Firefox Beta</strong> Input Dashboard"
-msgstr ""
+msgstr "<strong>Firefox Beta</strong> Input Dashboard"
 
 #: templates/about.html:9
 msgid ""
@@ -111,7 +111,7 @@ msgstr ""
 
 #: templates/base.html:47
 msgid "<strong>Firefox Release</strong> Input Dashboard"
-msgstr ""
+msgstr "<strong>Firefox</strong> Input Dashboard"
 
 #: templates/includes/welcome.html:2
 msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
@@ -120,9 +120,8 @@ msgstr ""
 "informazioni...</a>"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:194
-#, fuzzy
 msgid "@MozMobile"
-msgstr "Mobile"
+msgstr "@MozMobile"
 
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
@@ -180,7 +179,7 @@ msgstr "Android"
 
 #: apps/search/templates/search/release.html:19
 msgid "Average Ratings Over Time"
-msgstr ""
+msgstr "Voto medio nel tempo"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:28
 msgid "Awesome! Please make your suggestion below:"
@@ -200,12 +199,11 @@ msgstr "Ritorna a {domain} &raquo;"
 
 #: apps/input/__init__.py:23
 msgid "Beta Channel"
-msgstr ""
+msgstr "Canale beta"
 
 #: templates/base.html:54
-#, fuzzy
 msgid "Broken Sites"
-msgstr "Sito web non funzionante"
+msgstr "Siti web non funzionanti"
 
 #: apps/input/__init__.py:84
 msgid "Broken Website"
@@ -213,7 +211,7 @@ msgstr "Sito web non funzionante"
 
 #: templates/csrf_error.html:5
 msgid "CSRF Protection Error"
-msgstr ""
+msgstr "Errore di protezione CSRF"
 
 #: templates/includes/ua_overlay.html:10
 msgid "Close"
@@ -245,9 +243,8 @@ msgid "Date range:"
 msgstr "Da data"
 
 #: apps/feedback/templates/feedback/release_index.html:130
-#, fuzzy
 msgid "Describe the problem with the site."
-msgstr "Descrivi il problema del sito web."
+msgstr "Descrivi il problema con il sito web."
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:96
 msgid "Describe the problem with the website."
@@ -262,13 +259,16 @@ msgid "Devices"
 msgstr "Dispositivi"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:83
-#, fuzzy
 msgid "Does a website look or behave incorrectly in Firefox for Mobile? Provide us some details about the problem and we'll try to fix it."
-msgstr "Dacci alcuni dettagli sul problema e cercheremo di risolverlo."
+msgstr ""
+"Un sito web viene visualizzato male o non funziona in modo corretto con "
+"Firefox su un dispositivo portatile? Dacci alcuni dettagli sul problema e "
+"cercheremo di risolverlo."
 
 #: apps/feedback/templates/feedback/release_index.html:110
 msgid "Does a website look or behave incorrectly in Firefox?"
-msgstr "Un sito viene visualizzato o funziona in modo non corretto con Firefox?"
+msgstr ""
+"Un sito viene visualizzato male o non funziona in modo corretto con Firefox?"
 
 #: apps/input/__init__.py:143
 msgid "Don't Care"
@@ -307,13 +307,12 @@ msgstr ""
 "allo stesso modo v3.0</a> o qualsiasi versione successiva."
 
 #: templates/base.html:53
-#, fuzzy
 msgid "Experience"
-msgstr "Valuta la tua esperienza"
+msgstr "Esperienza"
 
 #: apps/search/templates/search/release.html:15
 msgid "Experience Ratings"
-msgstr ""
+msgstr "Valutazioni esperienza"
 
 #: apps/feedback/templates/feedback/release_index.html:244
 msgid "Facebook"
@@ -336,9 +335,8 @@ msgid "Feedback"
 msgstr "Commenti"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:186
-#, fuzzy
 msgid "Feedback Dashboard"
-msgstr "Dashboard"
+msgstr "Feedback Dashboard"
 
 #: apps/feedback/validators.py:36
 msgid "Feedback must not contain HTML."
@@ -386,13 +384,12 @@ msgid "Firefox makes me sad because ..."
 msgstr "Firefox mi ha reso triste perché…"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:202
-#, fuzzy
 msgid "Firefox on Facebook"
-msgstr "Logo di Firefox"
+msgstr "Firefox su Facebook"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:193
 msgid "Follow us on Twitter."
-msgstr ""
+msgstr "Seguici su Twitter."
 
 #. refers to time-based search filters (e.g., "for last: 1d")
 #: apps/dashboard/templates/dashboard/mobile/when.html:3
@@ -400,12 +397,10 @@ msgid "For last:"
 msgstr "Negli ultimi:"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:101 apps/feedback/templates/feedback/mobile/release_index.html:145
-#, fuzzy
 msgid "For your privacy, please ensure that no personally identifiable information is included in your feedback."
 msgstr "Per proteggere la tua privacy, assicurati che non sia presente alcuna informazione personale nel testo."
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:209
-#, fuzzy
 msgid "Get the latest news on Firefox."
 msgstr "Scopri le ultime notizie su Firefox."
 
@@ -431,9 +426,10 @@ msgid "Have an idea how Firefox could be better? Let us know!"
 msgstr "Hai un'idea per migliorare Firefox? Faccela conoscere!"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:135
-#, fuzzy
 msgid "Have an idea how Firefox for Mobile could be better? Let us know!"
-msgstr "Hai un'idea per migliorare Firefox? Faccela conoscere!"
+msgstr ""
+"Hai un'idea per migliorare Firefox per dispositivi portatili? Faccela "
+"conoscere!"
 
 #: templates/about.html:7
 msgid "Hello!"
@@ -464,9 +460,8 @@ msgid "How well Firefox's built-in features serve your needs"
 msgstr "L'utilità delle funzioni integrate in Firefox rispetto alle tue esigenze"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:33
-#, fuzzy
 msgid "How would you rate these aspects of Firefox for Mobile?"
-msgstr "Come valuti i seguenti aspetti di Firefox?"
+msgstr "Come valuti i seguenti aspetti di Firefox per dispositivi portatili?"
 
 #: apps/feedback/templates/feedback/release_index.html:38
 msgid "How would you rate these aspects of Firefox?"
@@ -481,9 +476,10 @@ msgid "I'm sorry, there was an error with your search."
 msgstr "Siamo spiacenti, si è verificato un errore durante la ricerca."
 
 #: templates/csrf_error.html:24
-#, fuzzy
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-msgstr "Se il problema persiste, <a href=\"%(bug_url)s\">invia una segnalazione</a> indicando l'URL che stavi visitando."
+msgstr ""
+"Se il problema persiste, <a href=\"%(bug_url)s\">invia una segnalazione</a>. "
+"Grazie!"
 
 #: apps/search/templates/search/unavailable.html:17
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
@@ -576,7 +572,7 @@ msgstr "Note legali"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:201
 msgid "Let's be friends!"
-msgstr ""
+msgstr "Diventiamo amici!"
 
 #: apps/feedback/__init__.py:110
 msgid "Linux"
@@ -584,14 +580,13 @@ msgstr "Linux"
 
 #: apps/search/templates/search/release.html:30
 msgid "Loading chart data."
-msgstr ""
+msgstr "Caricamento dati."
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:9
 msgid "Loading feedback history..."
 msgstr "Caricamento cronologia…"
 
 #: apps/search/templates/search/includes/ratings_chart.html:12
-#, fuzzy
 msgid "Loading ratings history..."
 msgstr "Caricamento cronologia…"
 
@@ -642,7 +637,7 @@ msgstr "Pagina successiva &raquo;"
 
 #: apps/input/__init__.py:28
 msgid "Nightly Channel"
-msgstr ""
+msgstr "Canale nightly"
 
 #. short for an indefinite date range
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:12
@@ -650,9 +645,8 @@ msgid "No date limit"
 msgstr "Nessun limite di data"
 
 #: apps/search/templates/search/release.html:37
-#, fuzzy
 msgid "No results found"
-msgstr "Nessun risultato trovato."
+msgstr "Nessun risultato trovato"
 
 #: apps/website_issues/templates/website_issues/includes/sites_list.html:27
 msgid "No results found!"
@@ -803,7 +797,7 @@ msgstr "Voto"
 
 #: apps/input/__init__.py:18
 msgid "Release Channel"
-msgstr ""
+msgstr "Canale versioni ufficiali"
 
 #: templates/base_mobile_old.html:58 templates/base_old.html:65 templates/includes/footer.html:10
 msgid "Report Trademark Abuse"
@@ -811,9 +805,8 @@ msgstr "Segnala un abuso dei marchi registrati"
 
 #: apps/feedback/templates/feedback/release_index.html:17 apps/feedback/templates/feedback/release_index.html:108 apps/feedback/templates/feedback/mobile/release_index.html:17
 #: apps/feedback/templates/feedback/mobile/release_index.html:82
-#, fuzzy
 msgid "Report a Site Issue"
-msgstr "Segnala un sito web non funzionante"
+msgstr "Segnala un problema con un sito"
 
 #: apps/input/__init__.py:118
 msgid "Responsiveness"
@@ -849,9 +842,8 @@ msgid "See all opinions"
 msgstr "Visualizza tutte le opinioni"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:185
-#, fuzzy
 msgid "See where your feedback goes."
-msgstr "Vuoi vedere dove finiscono le tue opinioni e i tuoi commenti?"
+msgstr "Scopri dove finiscono le tue opinioni e i tuoi commenti."
 
 #: apps/search/forms.py:64
 msgid "Sentiment:"
@@ -971,6 +963,10 @@ msgid ""
 "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable cookies "
 "in Firefox, then try again."
 msgstr ""
+"La ragione più probabile per questo errore è che il browser è impostato per "
+"<strong>non accettare cookie</strong> dal nostro sito. Segui <a href=\"%"
+"(cookies_url)s\">queste istruzioni</a> per attivare i cookie in Firefox e "
+"riprova."
 
 #: apps/themes/templates/themes/theme.html:4 apps/themes/templates/themes/theme.html:17 apps/website_issues/templates/website_issues/theme.html:19
 msgid "Theme"
@@ -987,6 +983,8 @@ msgstr "Temi"
 #: templates/csrf_error.html:8
 msgid "There was an error verifying your CSRF token. Your request could not be processed. We apologize for the inconvenience!"
 msgstr ""
+"Si è verificato un errore durante il controllo del token CSRF. La richiesta "
+"non può essere elaborata. Ci scusiamo per l'inconveniente."
 
 #: apps/feedback/templates/feedback/need_beta.html:14
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
@@ -1093,9 +1091,8 @@ msgid "What is the URL of the broken site?"
 msgstr "Qual è l'indirizzo (URL) del sito non funzionante?"
 
 #: apps/feedback/templates/feedback/release_index.html:124
-#, fuzzy
 msgid "What is the URL of the site?"
-msgstr "Qual è l'indirizzo (URL) del sito non funzionante?"
+msgstr "Qual è l'indirizzo (URL) del sito?"
 
 #. Title for a time-based search filter
 #: apps/dashboard/templates/dashboard/when.html:2
@@ -1175,7 +1172,7 @@ msgstr[1] "{0} minuti fa"
 
 #: apps/search/templates/search/release.html:28
 msgid "{day}<br/>Average of {num}"
-msgstr ""
+msgstr "{day}<br/>Media di {num}"
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:3 apps/search/templates/search/includes/ratings_chart.html:4
 msgid "{num} opinions on {day}"
