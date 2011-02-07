@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-21 10:36+0200\n"
-"PO-Revision-Date: 2011-01-17 18:20+0100\n"
+"PO-Revision-Date: 2011-02-07 17:55+0100\n"
 "Last-Translator: Kalman Kemenczy <kkemenczy@gmail.com>\n"
 "Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
 "Language: hu\n"
@@ -99,7 +99,7 @@ msgstr[1] "<strong>%(cnt)s</strong> üzenet"
 
 #: templates/base.html:31
 msgid "<strong>Firefox Beta</strong> Input Dashboard"
-msgstr ""
+msgstr "<strong>Firefox Beta</strong> Input Dashboard"
 
 #: templates/about.html:9
 msgid ""
@@ -111,16 +111,15 @@ msgstr ""
 
 #: templates/base.html:47
 msgid "<strong>Firefox Release</strong> Input Dashboard"
-msgstr ""
+msgstr "<strong>Firefox Release</strong> Input Dashboard"
 
 #: templates/includes/welcome.html:2
 msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
 msgstr "<strong>Üdvözli a Firefox Input!</strong> Az a Mozilla elsődleges rendszere a felhasználói visszajelzések fogadására. <a href=\"%(about_url)s\">Tudjon meg többet!</a>"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:194
-#, fuzzy
 msgid "@MozMobile"
-msgstr "Mobile"
+msgstr "@MozMobile"
 
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
@@ -178,7 +177,7 @@ msgstr "Android"
 
 #: apps/search/templates/search/release.html:19
 msgid "Average Ratings Over Time"
-msgstr ""
+msgstr "Időalapú átlagos értékelés"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:28
 msgid "Awesome! Please make your suggestion below:"
@@ -198,12 +197,11 @@ msgstr "Vissza ide: {domain} &raquo;"
 
 #: apps/input/__init__.py:23
 msgid "Beta Channel"
-msgstr ""
+msgstr "Betacsatorna"
 
 #: templates/base.html:54
-#, fuzzy
 msgid "Broken Sites"
-msgstr "Nem működő weboldal"
+msgstr "Nem működő weboldalak"
 
 #: apps/input/__init__.py:84
 msgid "Broken Website"
@@ -211,7 +209,7 @@ msgstr "Nem működő weboldal"
 
 #: templates/csrf_error.html:5
 msgid "CSRF Protection Error"
-msgstr ""
+msgstr "CSRF védelmi hiba"
 
 #: templates/includes/ua_overlay.html:10
 msgid "Close"
@@ -243,7 +241,6 @@ msgid "Date range:"
 msgstr "Időszak:"
 
 #: apps/feedback/templates/feedback/release_index.html:130
-#, fuzzy
 msgid "Describe the problem with the site."
 msgstr "Írja le a weboldallal kapcsolatos problémát."
 
@@ -260,9 +257,8 @@ msgid "Devices"
 msgstr "Eszközök"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:83
-#, fuzzy
 msgid "Does a website look or behave incorrectly in Firefox for Mobile? Provide us some details about the problem and we'll try to fix it."
-msgstr "Adjon további részleteket a problémával kapcsolatban és megpróbáljuk kijavítani."
+msgstr "A weboldal nem megfelelően jelenik meg vagy nem megfelelően viselkedik a Firefox for Mobile-on? Adjon meg további részleteket a problémával kapcsolatban és megpróbáljuk kijavítani."
 
 #: apps/feedback/templates/feedback/release_index.html:110
 msgid "Does a website look or behave incorrectly in Firefox?"
@@ -305,13 +301,12 @@ msgstr ""
 "alatt jelenik meg."
 
 #: templates/base.html:53
-#, fuzzy
 msgid "Experience"
-msgstr "Értékelje a felhasználói élményt"
+msgstr "Élmény"
 
 #: apps/search/templates/search/release.html:15
 msgid "Experience Ratings"
-msgstr ""
+msgstr "Élményindex"
 
 #: apps/feedback/templates/feedback/release_index.html:244
 msgid "Facebook"
@@ -334,9 +329,8 @@ msgid "Feedback"
 msgstr "Visszajelzés"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:186
-#, fuzzy
 msgid "Feedback Dashboard"
-msgstr "Dashboard"
+msgstr "Visszajelzések"
 
 #: apps/feedback/validators.py:36
 msgid "Feedback must not contain HTML."
@@ -384,13 +378,12 @@ msgid "Firefox makes me sad because ..."
 msgstr "A Firefox elszomorít, mert ..."
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:202
-#, fuzzy
 msgid "Firefox on Facebook"
-msgstr "Firefox Logo"
+msgstr "Firefox a Facebookon "
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:193
 msgid "Follow us on Twitter."
-msgstr ""
+msgstr "Kövessen minket Twitteren."
 
 #. refers to time-based search filters (e.g., "for last: 1d")
 #: apps/dashboard/templates/dashboard/mobile/when.html:3
@@ -398,12 +391,10 @@ msgid "For last:"
 msgstr "Az elmúlt"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:101 apps/feedback/templates/feedback/mobile/release_index.html:145
-#, fuzzy
 msgid "For your privacy, please ensure that no personally identifiable information is included in your feedback."
 msgstr "Személyes adatainak védelme érdekében, győződjön meg arról, hogy semmilyen személyes azonosításra alkalmas információt ne tartalmazzon a visszajelzése."
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:209
-#, fuzzy
 msgid "Get the latest news on Firefox."
 msgstr "A legfrissebb Firefox-hírek."
 
@@ -429,7 +420,6 @@ msgid "Have an idea how Firefox could be better? Let us know!"
 msgstr "Van ötlete, hogy a Firefox hogyan lehetne jobb? Mondja el!"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:135
-#, fuzzy
 msgid "Have an idea how Firefox for Mobile could be better? Let us know!"
 msgstr "Van ötlete, hogy a Firefox hogyan lehetne jobb? Mondja el!"
 
@@ -462,9 +452,8 @@ msgid "How well Firefox's built-in features serve your needs"
 msgstr "A Firefox beépített funkciói mennyire illeszkednek az igényeihez"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:33
-#, fuzzy
 msgid "How would you rate these aspects of Firefox for Mobile?"
-msgstr "Hogyan értékelné a Firefox ezen aspektusait?"
+msgstr "Hogyan értékelné a Firefox for Mobile ezen aspektusait?"
 
 #: apps/feedback/templates/feedback/release_index.html:38
 msgid "How would you rate these aspects of Firefox?"
@@ -479,9 +468,8 @@ msgid "I'm sorry, there was an error with your search."
 msgstr "Sajnálom, de a keresése közben hiba történt."
 
 #: templates/csrf_error.html:24
-#, fuzzy
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-msgstr "Ha a hiba továbbra is fennáll, kérem <a href=\"%(bug_url)s\">jelentse be</a>, és adja meg az elérni kíván URL-t is."
+msgstr "Ha a hiba továbbra is fennáll, kérem <a href=\"%(bug_url)s\">jelentse be</a>. Köszönjük!"
 
 #: apps/search/templates/search/unavailable.html:17
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
@@ -574,7 +562,7 @@ msgstr "Jogi közlemények"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:201
 msgid "Let's be friends!"
-msgstr ""
+msgstr "Legyünk barátok!"
 
 #: apps/feedback/__init__.py:110
 msgid "Linux"
@@ -582,16 +570,15 @@ msgstr "Linux"
 
 #: apps/search/templates/search/release.html:30
 msgid "Loading chart data."
-msgstr ""
+msgstr "Grafikon adatainak betöltése."
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:9
 msgid "Loading feedback history..."
 msgstr "Visszajelzés előzményeinek betöltése…"
 
 #: apps/search/templates/search/includes/ratings_chart.html:12
-#, fuzzy
 msgid "Loading ratings history..."
-msgstr "Visszajelzés előzményeinek betöltése…"
+msgstr "Értékelések előzményeinek betöltése…"
 
 #: apps/dashboard/templates/dashboard/locales.html:17 apps/dashboard/templates/dashboard/mobile/locales.html:9
 msgid "Locale"
@@ -640,7 +627,7 @@ msgstr "következő &raquo;"
 
 #: apps/input/__init__.py:28
 msgid "Nightly Channel"
-msgstr ""
+msgstr "Éjszakai csatorna"
 
 #. short for an indefinite date range
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:12
@@ -648,7 +635,6 @@ msgid "No date limit"
 msgstr "Nincs időkorlátozás"
 
 #: apps/search/templates/search/release.html:37
-#, fuzzy
 msgid "No results found"
 msgstr "Nincs találat."
 
@@ -799,7 +785,7 @@ msgstr "Osztályzat"
 
 #: apps/input/__init__.py:18
 msgid "Release Channel"
-msgstr ""
+msgstr "Kiadási csatorna"
 
 #: templates/base_mobile_old.html:58 templates/base_old.html:65 templates/includes/footer.html:10
 msgid "Report Trademark Abuse"
@@ -807,9 +793,8 @@ msgstr "Védjeggyel kapcsolatos visszaélés jelentése"
 
 #: apps/feedback/templates/feedback/release_index.html:17 apps/feedback/templates/feedback/release_index.html:108 apps/feedback/templates/feedback/mobile/release_index.html:17
 #: apps/feedback/templates/feedback/mobile/release_index.html:82
-#, fuzzy
 msgid "Report a Site Issue"
-msgstr "Nem működő weboldal bejelentése"
+msgstr "Weboldallal kapcsolatos problémák jelentése"
 
 #: apps/input/__init__.py:118
 msgid "Responsiveness"
@@ -845,9 +830,8 @@ msgid "See all opinions"
 msgstr "Összes lehetőség megtekintése"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:185
-#, fuzzy
 msgid "See where your feedback goes."
-msgstr "Tudni akarja, hogy hova került a visszajelzése?"
+msgstr "Nézze meg hova kerülnek a visszajelzései."
 
 #: apps/search/forms.py:64
 msgid "Sentiment:"
@@ -967,6 +951,8 @@ msgid ""
 "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable cookies "
 "in Firefox, then try again."
 msgstr ""
+"A legvalószínűbb hiba oka az, hogy a böngésző úgy van beállítva, hogy <strong>ne fogadjon el sütiket</strong> tőlünk. Kövesse <a href=\"%(cookies_url)s\">utasításainkat</a> a sütik engedélyezéséhez "
+"és próbálja meg újra."
 
 #: apps/themes/templates/themes/theme.html:4 apps/themes/templates/themes/theme.html:17 apps/website_issues/templates/website_issues/theme.html:19
 msgid "Theme"
@@ -982,7 +968,7 @@ msgstr "Témák"
 
 #: templates/csrf_error.html:8
 msgid "There was an error verifying your CSRF token. Your request could not be processed. We apologize for the inconvenience!"
-msgstr ""
+msgstr "Hiba történt a CSRF token ellenőrzésekor. A kérése nem került feldolgozásra. Elnézést kérünk a kellemetlenségért!"
 
 #: apps/feedback/templates/feedback/need_beta.html:14
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
@@ -1089,9 +1075,8 @@ msgid "What is the URL of the broken site?"
 msgstr "Mi a nem működő weboldal URL-je?"
 
 #: apps/feedback/templates/feedback/release_index.html:124
-#, fuzzy
 msgid "What is the URL of the site?"
-msgstr "Mi a nem működő weboldal URL-je?"
+msgstr "Mi a weboldal URL-je?"
 
 #. Title for a time-based search filter
 #: apps/dashboard/templates/dashboard/when.html:2
@@ -1169,7 +1154,7 @@ msgstr[1] "{0} perce"
 
 #: apps/search/templates/search/release.html:28
 msgid "{day}<br/>Average of {num}"
-msgstr ""
+msgstr "{day}<br/>{num} átlaga"
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:3 apps/search/templates/search/includes/ratings_chart.html:4
 msgid "{num} opinions on {day}"
