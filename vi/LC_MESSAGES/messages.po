@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-20 16:58+0200\n"
-"PO-Revision-Date: 2011-02-08 16:47+0200\n"
+"PO-Revision-Date: 2011-02-08 16:54+0200\n"
 "Last-Translator: Hùng. <loveleeyoungae@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -40,7 +40,6 @@ msgid "%e %b"
 msgstr ""
 
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:12
-#, fuzzy
 msgid "&infin;"
 msgstr "&infin;"
 
@@ -57,41 +56,34 @@ msgid "&laquo; Previous Page"
 msgstr "&laquo; Trang Trước"
 
 #: apps/search/forms.py:52
-#, fuzzy
 msgctxt "locale_choice"
 msgid "-- all --"
 msgstr "-- tất cả --"
 
 #: apps/search/forms.py:42
-#, fuzzy
 msgctxt "os_choice"
 msgid "-- all --"
 msgstr "-- tất cả --"
 
 #: apps/search/forms.py:35
-#, fuzzy
 msgctxt "sentiment_choice"
 msgid "-- all --"
 msgstr "-- tất cả --"
 
 #: apps/search/forms.py:22 apps/search/forms.py:24 apps/search/forms.py:28 apps/search/forms.py:30
-#, fuzzy
 msgctxt "version_choice"
 msgid "-- all --"
 msgstr "-- tất cả --"
 
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:3
-#, fuzzy
 msgid "1d"
 msgstr "1d"
 
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:9
-#, fuzzy
 msgid "30d"
 msgstr "30d"
 
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:6
-#, fuzzy
 msgid "7d"
 msgstr "7d"
 
@@ -101,12 +93,10 @@ msgid_plural "<strong>%(cnt)s</strong> messages"
 msgstr[0] "<strong>%(cnt)s</strong> thông điệp"
 
 #: templates/base.html:31
-#, fuzzy
 msgid "<strong>Firefox Beta</strong> Input Dashboard"
 msgstr "<strong>Firefox Beta</strong> Bảng thống kê Đầu vào"
 
 #: templates/about.html:9
-#, fuzzy
 msgid ""
 "<strong>Firefox Input</strong> is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it "
 "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
@@ -118,12 +108,10 @@ msgstr ""
 "khoảng lớn cơ chế gửi của tất cả ba kênh chính."
 
 #: templates/base.html:47
-#, fuzzy
 msgid "<strong>Firefox Release</strong> Input Dashboard"
 msgstr "<strong>Firefox Release</strong> Bảng thống kê Đầu vào"
 
 #: templates/includes/welcome.html:2
-#, fuzzy
 msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
 msgstr ""
 "<strong>Chào mừng đến Firefox Input!</strong> Đây là chương trình phản hồi "
@@ -154,21 +142,18 @@ msgid "Advanced"
 msgstr "Nâng cao"
 
 #: apps/themes/views.py:24 apps/themes/views.py:51
-#, fuzzy
 msgid "All"
-msgstr "tất cả"
+msgstr "Tất cả"
 
 #: apps/website_issues/templates/website_issues/sites.html:33
-#, fuzzy
 msgctxt "sites_search_all_feedback"
 msgid "All"
-msgstr "tất cả"
+msgstr "Tất cả"
 
 #: apps/website_issues/templates/website_issues/sites.html:45
-#, fuzzy
 msgctxt "sites_search_all_platforms"
 msgid "All"
-msgstr "tất cả"
+msgstr "Tất cả"
 
 #: apps/themes/views.py:51
 msgid "All Platforms"
@@ -187,7 +172,6 @@ msgid "An unhandled error occurred in the application. The error has been logged
 msgstr "Một lỗi xảy ra trong chương trình. Lỗi này đã được lưu kí lại và thông báo tới một quản trị viên. Chúng tôi xin lỗi về sự bất tiện này!"
 
 #: apps/feedback/__init__.py:104
-#, fuzzy
 msgid "Android"
 msgstr "Android"
 
@@ -200,7 +184,6 @@ msgid "Awesome! Please make your suggestion below:"
 msgstr "Tuyệt! Vui lòng đưa ra đề nghị của bạn bên dưới:"
 
 #: apps/website_issues/templates/website_issues/includes/single_site.html:1
-#, fuzzy
 msgid "Back to all sites &raquo;"
 msgstr "Trở lại tất cả các trang &raquo;"
 
@@ -209,7 +192,6 @@ msgid "Back to all themes &raquo;"
 msgstr "Trở lại tất cả các giao diện &raquo;"
 
 #: apps/website_issues/templates/website_issues/theme.html:17
-#, fuzzy
 msgid "Back to {domain} &raquo;"
 msgstr "Trở lại {domain} &raquo;"
 
@@ -234,7 +216,6 @@ msgid "Close"
 msgstr "Đóng"
 
 #: templates/includes/nav_buttons.html:2
-#, fuzzy
 msgid "Clusters"
 msgstr "Clusters"
 
@@ -377,7 +358,6 @@ msgstr "Firefox Input"
 
 #. L10n: This is the title to the Search ATOM feed.
 #: apps/search/views.py:110
-#, fuzzy
 msgid "Firefox Input: '{query}'"
 msgstr "Firefox Input: '{query}'"
 
@@ -386,7 +366,6 @@ msgid "Firefox Logo"
 msgstr "Biểu trưng Firefox"
 
 #: apps/feedback/templates/feedback/mobile/beta_index.html:13 apps/feedback/templates/feedback/mobile/beta_index.html:15
-#, fuzzy
 msgid "Firefox makes me happy ..."
 msgstr "Firefox làm tôi vui ..."
 
@@ -755,7 +734,6 @@ msgid "Page Load Time"
 msgstr "Thời gian Tải Trang"
 
 #: apps/feedback/templates/feedback/release_index.html:245 apps/feedback/templates/feedback/mobile/release_index.html:210
-#, fuzzy
 msgid "Planet Mozilla"
 msgstr "Planet Mozilla"
 
@@ -895,7 +873,7 @@ msgstr "Cảm nghĩ:"
 #: apps/dashboard/templates/dashboard/when.html:17
 msgctxt "date_range_set"
 msgid "Set"
-msgstr ""
+msgstr "Thiết lập"
 
 #: apps/feedback/templates/feedback/release_index.html:18 apps/feedback/templates/feedback/release_index.html:168 apps/feedback/templates/feedback/mobile/release_index.html:18
 #: apps/feedback/templates/feedback/mobile/release_index.html:134
@@ -1075,7 +1053,6 @@ msgid "Tweet This"
 msgstr "Tweet cái này"
 
 #: apps/feedback/templates/feedback/release_index.html:243
-#, fuzzy
 msgid "Twitter"
 msgstr "Twitter"
 
@@ -1234,22 +1211,18 @@ msgid_plural "{0} minutes ago"
 msgstr[0] "{0} phút trước"
 
 #: apps/search/templates/search/release.html:28
-#, fuzzy
 msgid "{day}<br/>Average of {num}"
 msgstr "{day}<br/>Trung bình {num}"
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:3 apps/search/templates/search/includes/ratings_chart.html:4
-#, fuzzy
 msgid "{num} opinions on {day}"
 msgstr "{num} ý kiến trong {day}"
 
 #: apps/website_issues/templates/website_issues/includes/sites_list.html:54
-#, fuzzy
 msgid "{percentage}% issues"
 msgstr "{percentage}% vấn đề"
 
 #: apps/website_issues/templates/website_issues/includes/sites_list.html:52
-#, fuzzy
 msgid "{percentage}% praise"
 msgstr "{percentage}% khen ngợi"
 
