@@ -1,34 +1,34 @@
 #. Formerly called "happy"
-#: apps/dashboard/views.py:52
+#: apps/dashboard/views.py:53
 #: apps/dashboard/templates/dashboard/overview.html:13
 #: apps/dashboard/templates/dashboard/mobile/overview.html:8
 #: apps/feedback/helpers.py:36
-#: apps/input/__init__.py:56
+#: apps/input/__init__.py:63
 #: apps/search/forms.py:36
-#: apps/search/views.py:222
+#: apps/search/views.py:221
 #: apps/themes/views.py:29
 #: apps/themes/templates/themes/theme_list.html:8
-#: apps/website_issues/templates/website_issues/sites.html:34
+#: apps/website_issues/templates/website_issues/sites.html:36
 #: apps/website_issues/templates/website_issues/includes/single_site.html:12
 msgid "Praise"
 msgstr ""
 
 #. Formerly called "sad"
-#: apps/dashboard/views.py:53
+#: apps/dashboard/views.py:54
 #: apps/dashboard/templates/dashboard/overview.html:27
 #: apps/dashboard/templates/dashboard/mobile/overview.html:15
 #: apps/search/forms.py:37
-#: apps/search/views.py:223
+#: apps/search/views.py:222
 #: apps/themes/views.py:34
-#: apps/website_issues/templates/website_issues/sites.html:35
+#: apps/website_issues/templates/website_issues/sites.html:37
 msgid "Issues"
 msgstr ""
 
-#: apps/dashboard/views.py:54
+#: apps/dashboard/views.py:55
 #: apps/dashboard/templates/dashboard/overview.html:40
 #: apps/search/forms.py:38
 #: apps/themes/views.py:39
-msgid "Suggestions"
+msgid "Ideas"
 msgstr ""
 
 #: apps/dashboard/templates/dashboard/beta.html:14
@@ -73,28 +73,27 @@ msgstr ""
 msgid "Manufacturer"
 msgstr ""
 
-#: apps/dashboard/templates/dashboard/message_list.html:30
+#: apps/dashboard/templates/dashboard/message_list.html:29
 #: apps/themes/templates/themes/theme_list.html:28
 msgid "More Options"
 msgstr ""
 
-#: apps/dashboard/templates/dashboard/message_list.html:33
-#: apps/themes/templates/themes/theme_list.html:31
+#: apps/dashboard/templates/dashboard/message_list.html:32
 msgid "Copy User Agent"
 msgstr ""
 
 #. Link to Google Translator
-#: apps/dashboard/templates/dashboard/message_list.html:37
-#: apps/themes/templates/themes/theme_list.html:33
+#: apps/dashboard/templates/dashboard/message_list.html:36
+#: apps/themes/templates/themes/theme_list.html:31
 msgid "Translate Message"
 msgstr ""
 
-#: apps/dashboard/templates/dashboard/message_list.html:42
+#: apps/dashboard/templates/dashboard/message_list.html:41
 msgid "Tweet This"
 msgstr ""
 
-#: apps/dashboard/templates/dashboard/message_list.html:52
-#: apps/themes/templates/themes/theme_list.html:43
+#: apps/dashboard/templates/dashboard/message_list.html:51
+#: apps/themes/templates/themes/theme_list.html:41
 msgid "No search results found."
 msgstr ""
 
@@ -106,7 +105,7 @@ msgstr ""
 #: apps/dashboard/templates/dashboard/overview.html:2
 #: apps/dashboard/templates/dashboard/mobile/overview.html:2
 #: apps/themes/templates/themes/index.html:16
-#: apps/website_issues/templates/website_issues/sites.html:30
+#: apps/website_issues/templates/website_issues/sites.html:32
 msgid "Type of Feedback"
 msgstr ""
 
@@ -248,66 +247,30 @@ msgstr ""
 msgid "Toggle"
 msgstr ""
 
-#: apps/feedback/__init__.py:14
-msgid "Firefox"
-msgstr ""
-
-#: apps/feedback/__init__.py:29
-msgid "Mobile"
-msgstr ""
-
-#: apps/feedback/__init__.py:74
-msgid "Windows XP"
-msgstr ""
-
-#: apps/feedback/__init__.py:80
-msgid "Windows 7"
-msgstr ""
-
-#: apps/feedback/__init__.py:86
-msgid "Windows Vista"
-msgstr ""
-
-#: apps/feedback/__init__.py:92
-msgid "Mac OS X"
-msgstr ""
-
-#: apps/feedback/__init__.py:98
-msgid "Maemo"
-msgstr ""
-
-#: apps/feedback/__init__.py:104
-msgid "Android"
-msgstr ""
-
-#: apps/feedback/__init__.py:110
-msgid "Linux"
-msgstr ""
-
-#: apps/feedback/__init__.py:116
-msgid "Other"
-msgstr ""
-
-#: apps/feedback/forms.py:99
+#: apps/feedback/forms.py:97
 msgid "We already got your feedback! Thanks."
 msgstr ""
 
-#: apps/feedback/forms.py:108
-#: apps/feedback/forms.py:120
+#: apps/feedback/forms.py:106
+#: apps/feedback/forms.py:119
 msgid "Enter your feedback here."
 msgstr ""
 
-#: apps/feedback/forms.py:133
-#: apps/feedback/forms.py:184
-msgid "Enter your suggestions here."
+#: apps/feedback/forms.py:132
+#: apps/feedback/forms.py:189
+msgid "Enter your ideas here."
 msgstr ""
 
-#: apps/feedback/forms.py:168
+#: apps/feedback/forms.py:159
+msgid "Please rate at least one item."
+msgstr ""
+
+#: apps/feedback/forms.py:173
 msgid "Example: Images were not loading, but the rest of the page was."
 msgstr ""
 
 #: apps/feedback/helpers.py:39
-#: apps/input/__init__.py:63
+#: apps/input/__init__.py:70
 #: apps/themes/templates/themes/theme_list.html:12
 #: apps/website_issues/templates/website_issues/includes/single_site.html:14
 msgid "Issue"
@@ -336,12 +299,12 @@ msgid ""
 "personal data from the text, then try again. Thanks!"
 msgstr ""
 
-#: apps/feedback/views.py:48
+#: apps/feedback/views.py:44
 msgid "User-Agent request header must be set."
 msgstr ""
 
-#: apps/feedback/views.py:104
-#: apps/feedback/views.py:171
+#: apps/feedback/views.py:109
+#: apps/feedback/views.py:176
 msgid "Invalid feedback type"
 msgstr ""
 
@@ -415,7 +378,7 @@ msgstr ""
 #: apps/feedback/templates/feedback/feedback.html:29
 msgid ""
 "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! "
-"Please make your suggestion below:"
+"Please enter your idea below:"
 msgstr ""
 
 #: apps/feedback/templates/feedback/feedback.html:48
@@ -439,7 +402,7 @@ msgstr ""
 #: apps/feedback/templates/feedback/feedback.html:86
 msgid ""
 "If you have an idea to offer us instead, please send it to us through our <a "
-"href=\"%(url_suggestion)s\">suggestion box</a>!"
+"href=\"%(url_idea)s\">idea box</a>!"
 msgstr ""
 
 #: apps/feedback/templates/feedback/need_beta.html:3
@@ -648,7 +611,7 @@ msgid "Ack! Please tell us what to fix!"
 msgstr ""
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:28
-msgid "Awesome! Please make your suggestion below:"
+msgid "Awesome! Please enter your idea below:"
 msgstr ""
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:40
@@ -656,9 +619,7 @@ msgid "Add URL of last visited page?"
 msgstr ""
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:68
-msgid ""
-"Or submit your ideas with our <a href=\"%(url_suggestion)s\">suggestion "
-"box</a>!"
+msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
 msgstr ""
 
 #: apps/feedback/templates/feedback/mobile/need_beta.html:9
@@ -724,90 +685,130 @@ msgstr ""
 msgid "Get the latest news on Firefox."
 msgstr ""
 
-#: apps/input/__init__.py:18
+#: apps/input/__init__.py:20
 msgid "Release Channel"
 msgstr ""
 
-#: apps/input/__init__.py:23
+#: apps/input/__init__.py:25
 msgid "Beta Channel"
 msgstr ""
 
-#: apps/input/__init__.py:28
+#: apps/input/__init__.py:30
 msgid "Nightly Channel"
 msgstr ""
 
-#: apps/input/__init__.py:70
-#: apps/search/views.py:224
-#: apps/themes/templates/themes/theme_list.html:10
-msgid "Suggestion"
-msgstr ""
-
 #: apps/input/__init__.py:77
-msgid "Rating"
+#: apps/search/views.py:223
+#: apps/themes/templates/themes/theme_list.html:10
+msgid "Idea"
 msgstr ""
 
 #: apps/input/__init__.py:84
+msgid "Rating"
+msgstr ""
+
+#: apps/input/__init__.py:91
 msgid "Broken Website"
 msgstr ""
 
-#: apps/input/__init__.py:104
+#: apps/input/__init__.py:111
 msgid "Start-Up Time"
 msgstr ""
 
-#: apps/input/__init__.py:105
+#: apps/input/__init__.py:112
 msgid "How long Firefox takes to start running"
 msgstr ""
 
-#: apps/input/__init__.py:111
+#: apps/input/__init__.py:118
 msgid "Page Load Time"
 msgstr ""
 
-#: apps/input/__init__.py:112
+#: apps/input/__init__.py:119
 msgid "How long it takes for web pages to load"
 msgstr ""
 
-#: apps/input/__init__.py:118
+#: apps/input/__init__.py:125
 msgid "Responsiveness"
 msgstr ""
 
-#: apps/input/__init__.py:119
+#: apps/input/__init__.py:126
 msgid "How quickly web pages respond once they have loaded"
 msgstr ""
 
-#: apps/input/__init__.py:125
+#: apps/input/__init__.py:132
 msgid "Stability"
 msgstr ""
 
-#: apps/input/__init__.py:126
+#: apps/input/__init__.py:133
 msgid "How frequently Firefox crashes or loses data"
 msgstr ""
 
-#: apps/input/__init__.py:132
+#: apps/input/__init__.py:139
 msgid "Features"
 msgstr ""
 
-#: apps/input/__init__.py:133
+#: apps/input/__init__.py:140
 msgid "How well Firefox's built-in features serve your needs"
 msgstr ""
 
-#: apps/input/__init__.py:141
+#: apps/input/__init__.py:148
 msgid "Poor"
 msgstr ""
 
-#: apps/input/__init__.py:142
+#: apps/input/__init__.py:149
 msgid "Fair"
 msgstr ""
 
-#: apps/input/__init__.py:143
+#: apps/input/__init__.py:150
 msgid "Don't Care"
 msgstr ""
 
-#: apps/input/__init__.py:144
+#: apps/input/__init__.py:151
 msgid "Good"
 msgstr ""
 
-#: apps/input/__init__.py:145
+#: apps/input/__init__.py:152
 msgid "Excellent"
+msgstr ""
+
+#: apps/input/__init__.py:160
+msgid "Firefox"
+msgstr ""
+
+#: apps/input/__init__.py:176
+msgid "Mobile"
+msgstr ""
+
+#: apps/input/__init__.py:222
+msgid "Windows XP"
+msgstr ""
+
+#: apps/input/__init__.py:229
+msgid "Windows 7"
+msgstr ""
+
+#: apps/input/__init__.py:236
+msgid "Windows Vista"
+msgstr ""
+
+#: apps/input/__init__.py:243
+msgid "Mac OS X"
+msgstr ""
+
+#: apps/input/__init__.py:250
+msgid "Maemo"
+msgstr ""
+
+#: apps/input/__init__.py:257
+msgid "Android"
+msgstr ""
+
+#: apps/input/__init__.py:264
+msgid "Linux"
+msgstr ""
+
+#: apps/input/__init__.py:271
+msgid "Other"
 msgstr ""
 
 #: apps/input/helpers.py:73
@@ -833,12 +834,12 @@ msgstr[1] ""
 msgid "just now"
 msgstr ""
 
-#: apps/search/client.py:198
+#: apps/search/client.py:207
 msgid "Query has timed out."
 msgstr ""
 
 #. L10n: Sphinx is the name of the search engine software.
-#: apps/search/client.py:201
+#: apps/search/client.py:210
 msgid "Sphinx threw an unknown exception: %s"
 msgstr ""
 
@@ -856,7 +857,7 @@ msgid "-- all --"
 msgstr ""
 
 #: apps/search/forms.py:42
-msgctxt "os_choice"
+msgctxt "platform_choice"
 msgid "-- all --"
 msgstr ""
 
@@ -886,7 +887,7 @@ msgid "Locale:"
 msgstr ""
 
 #: apps/search/forms.py:68
-msgid "OS:"
+msgid "PLATFORM:"
 msgstr ""
 
 #: apps/search/forms.py:74
@@ -898,17 +899,17 @@ msgstr ""
 msgid "to"
 msgstr ""
 
-#: apps/search/views.py:92
-#: apps/search/views.py:111
+#: apps/search/views.py:91
+#: apps/search/views.py:110
 msgid "Firefox Input"
 msgstr ""
 
-#: apps/search/views.py:93
+#: apps/search/views.py:92
 msgid "Search Results in Firefox Beta Feedback."
 msgstr ""
 
 #. L10n: This is the title to the Search ATOM feed.
-#: apps/search/views.py:110
+#: apps/search/views.py:109
 msgid "Firefox Input: '{query}'"
 msgstr ""
 
@@ -943,7 +944,7 @@ msgstr ""
 
 #: apps/search/templates/search/search.html:20
 #: apps/themes/templates/themes/index.html:10
-#: apps/website_issues/templates/website_issues/sites.html:20
+#: apps/website_issues/templates/website_issues/sites.html:22
 #: templates/includes/filters.html:6
 msgid "Product"
 msgstr ""
@@ -994,22 +995,22 @@ msgid "All"
 msgstr ""
 
 #: apps/themes/views.py:24
-#: apps/website_issues/templates/website_issues/sites.html:33
+#: apps/website_issues/templates/website_issues/sites.html:35
 msgid "All feedback"
 msgstr ""
 
 #: apps/themes/views.py:29
-#: apps/website_issues/templates/website_issues/sites.html:34
+#: apps/website_issues/templates/website_issues/sites.html:36
 msgid "Praise only"
 msgstr ""
 
 #: apps/themes/views.py:34
-#: apps/website_issues/templates/website_issues/sites.html:35
+#: apps/website_issues/templates/website_issues/sites.html:37
 msgid "Issues only"
 msgstr ""
 
 #: apps/themes/views.py:40
-msgid "Suggestions only"
+msgid "Ideas only"
 msgstr ""
 
 #: apps/themes/views.py:51
@@ -1058,42 +1059,48 @@ msgid_plural "%(count)s similar messages"
 msgstr[0] ""
 msgstr[1] ""
 
-#: apps/website_issues/forms.py:44
+#: apps/website_issues/forms.py:42
 msgctxt "website_issues_search"
 msgid "Search for domain"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/sites.html:4
+#: apps/website_issues/templates/website_issues/sites.html:5
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:14
+#: templates/base.html:54
+msgid "Broken Sites"
+msgstr ""
+
+#: apps/website_issues/templates/website_issues/sites.html:6
 #: apps/website_issues/templates/website_issues/theme.html:4
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:12
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:16
 #: templates/base.html:39
 #: templates/includes/nav_buttons.html:4
 msgid "Sites"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/sites.html:33
+#: apps/website_issues/templates/website_issues/sites.html:35
 msgctxt "sites_search_all_feedback"
 msgid "All"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/sites.html:42
+#: apps/website_issues/templates/website_issues/sites.html:44
 msgid "Platforms"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/sites.html:45
+#: apps/website_issues/templates/website_issues/sites.html:47
 msgctxt "sites_search_all_platforms"
 msgid "All"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/sites.html:45
+#: apps/website_issues/templates/website_issues/sites.html:47
 msgid "All platforms"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/sites.html:86
+#: apps/website_issues/templates/website_issues/sites.html:72
 msgid "Uncommon Sites"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/sites.html:91
+#: apps/website_issues/templates/website_issues/sites.html:77
 msgid "More sites..."
 msgstr ""
 
@@ -1109,34 +1116,34 @@ msgstr ""
 msgid "Back to all sites &raquo;"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:14
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:12
 msgid "Sites with only one message"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:27
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:29
 msgid "No results found!"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:28
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:30
 msgid "reset my search"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:43
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:45
 msgid "%(count)s message"
 msgid_plural "%(count)s messages"
 msgstr[0] ""
 msgstr[1] ""
 
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:52
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:54
 msgid "{percentage}% praise"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:54
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:56
 msgid "{percentage}% issues"
 msgstr ""
 
 #. "similar" refers to "similar messages".
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:67
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:69
 msgid "%(count)s similar"
 msgid_plural "%(count)s similar"
 msgstr[0] ""
@@ -1254,10 +1261,6 @@ msgstr ""
 
 #: templates/base.html:53
 msgid "Experience"
-msgstr ""
-
-#: templates/base.html:54
-msgid "Broken Sites"
 msgstr ""
 
 #: templates/base_mobile.html:20

@@ -13,14 +13,14 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.0.3\n"
 
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:43
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:45
 #, fuzzy
 msgid "%(count)s message"
 msgid_plural "%(count)s messages"
 msgstr[0] "最近 {count} 条消息"
 
 #. "similar" refers to "similar messages".
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:67
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:69
 #, fuzzy
 msgid "%(count)s similar"
 msgid_plural "%(count)s similar"
@@ -67,7 +67,8 @@ msgid "-- all --"
 msgstr "-- 全部 --"
 
 #: apps/search/forms.py:42
-msgctxt "os_choice"
+#, fuzzy
+msgctxt "platform_choice"
 msgid "-- all --"
 msgstr "-- 全部 --"
 
@@ -149,13 +150,13 @@ msgstr "高级"
 msgid "All"
 msgstr "全部"
 
-#: apps/website_issues/templates/website_issues/sites.html:33
+#: apps/website_issues/templates/website_issues/sites.html:35
 #, fuzzy
 msgctxt "sites_search_all_feedback"
 msgid "All"
 msgstr "全部"
 
-#: apps/website_issues/templates/website_issues/sites.html:45
+#: apps/website_issues/templates/website_issues/sites.html:47
 #, fuzzy
 msgctxt "sites_search_all_platforms"
 msgid "All"
@@ -165,11 +166,11 @@ msgstr "全部"
 msgid "All Platforms"
 msgstr ""
 
-#: apps/themes/views.py:24 apps/website_issues/templates/website_issues/sites.html:33
+#: apps/themes/views.py:24 apps/website_issues/templates/website_issues/sites.html:35
 msgid "All feedback"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/sites.html:45
+#: apps/website_issues/templates/website_issues/sites.html:47
 msgid "All platforms"
 msgstr ""
 
@@ -177,7 +178,7 @@ msgstr ""
 msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
 msgstr "应用程序发生了一个未处理的错误。该错误已被记录并通知管理员。我们对给您造成的不便表示深深的歉意！"
 
-#: apps/feedback/__init__.py:104
+#: apps/input/__init__.py:257
 msgid "Android"
 msgstr ""
 
@@ -186,7 +187,7 @@ msgid "Average Ratings Over Time"
 msgstr ""
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:28
-msgid "Awesome! Please make your suggestion below:"
+msgid "Awesome! Please enter your idea below:"
 msgstr ""
 
 #: apps/website_issues/templates/website_issues/includes/single_site.html:1
@@ -201,15 +202,15 @@ msgstr ""
 msgid "Back to {domain} &raquo;"
 msgstr ""
 
-#: apps/input/__init__.py:23
+#: apps/input/__init__.py:25
 msgid "Beta Channel"
 msgstr ""
 
-#: templates/base.html:54
+#: apps/website_issues/templates/website_issues/sites.html:5 apps/website_issues/templates/website_issues/includes/sites_list.html:14 templates/base.html:54
 msgid "Broken Sites"
 msgstr ""
 
-#: apps/input/__init__.py:84
+#: apps/input/__init__.py:91
 msgid "Broken Website"
 msgstr ""
 
@@ -229,7 +230,7 @@ msgstr "集群"
 msgid "Common Themes"
 msgstr ""
 
-#: apps/dashboard/templates/dashboard/message_list.html:33 apps/themes/templates/themes/theme_list.html:31
+#: apps/dashboard/templates/dashboard/message_list.html:32
 msgid "Copy User Agent"
 msgstr ""
 
@@ -271,7 +272,7 @@ msgstr ""
 msgid "Does a website look or behave incorrectly in Firefox?"
 msgstr ""
 
-#: apps/input/__init__.py:143
+#: apps/input/__init__.py:150
 msgid "Don't Care"
 msgstr ""
 
@@ -284,20 +285,20 @@ msgstr "下载测试版"
 msgid "Download Firefox"
 msgstr "下载测试版"
 
-#: apps/feedback/forms.py:108 apps/feedback/forms.py:120
+#: apps/feedback/forms.py:106 apps/feedback/forms.py:119
 msgid "Enter your feedback here."
 msgstr "请再次输入您的回馈。"
 
-#: apps/feedback/forms.py:133 apps/feedback/forms.py:184
+#: apps/feedback/forms.py:132 apps/feedback/forms.py:189
 #, fuzzy
-msgid "Enter your suggestions here."
+msgid "Enter your ideas here."
 msgstr "请再次输入您的回馈。"
 
-#: apps/feedback/forms.py:168
+#: apps/feedback/forms.py:173
 msgid "Example: Images were not loading, but the rest of the page was."
 msgstr ""
 
-#: apps/input/__init__.py:145
+#: apps/input/__init__.py:152
 msgid "Excellent"
 msgstr ""
 
@@ -319,11 +320,11 @@ msgstr ""
 msgid "Facebook"
 msgstr ""
 
-#: apps/input/__init__.py:142
+#: apps/input/__init__.py:149
 msgid "Fair"
 msgstr ""
 
-#: apps/input/__init__.py:132
+#: apps/input/__init__.py:139
 msgid "Features"
 msgstr ""
 
@@ -355,17 +356,17 @@ msgstr "查看来自 Mozilla 的最新消息："
 msgid "Find the latest news about Firefox."
 msgstr "查看来自 Mozilla 的最新消息："
 
-#: apps/feedback/__init__.py:14
+#: apps/input/__init__.py:160
 msgid "Firefox"
 msgstr "Firefox"
 
-#: apps/search/views.py:92 apps/search/views.py:111
+#: apps/search/views.py:91 apps/search/views.py:110
 #, fuzzy
 msgid "Firefox Input"
 msgstr "Firefox"
 
 #. L10n: This is the title to the Search ATOM feed.
-#: apps/search/views.py:110
+#: apps/search/views.py:109
 msgid "Firefox Input: '{query}'"
 msgstr ""
 
@@ -423,7 +424,7 @@ msgstr "OK"
 msgid "Go Back"
 msgstr ""
 
-#: apps/input/__init__.py:144
+#: apps/input/__init__.py:151
 msgid "Good"
 msgstr ""
 
@@ -447,23 +448,23 @@ msgstr ""
 msgid "Hit Ctrl+C (Cmd+C on Mac) to copy and close."
 msgstr ""
 
-#: apps/input/__init__.py:126
+#: apps/input/__init__.py:133
 msgid "How frequently Firefox crashes or loses data"
 msgstr ""
 
-#: apps/input/__init__.py:105
+#: apps/input/__init__.py:112
 msgid "How long Firefox takes to start running"
 msgstr ""
 
-#: apps/input/__init__.py:112
+#: apps/input/__init__.py:119
 msgid "How long it takes for web pages to load"
 msgstr ""
 
-#: apps/input/__init__.py:119
+#: apps/input/__init__.py:126
 msgid "How quickly web pages respond once they have loaded"
 msgstr ""
 
-#: apps/input/__init__.py:133
+#: apps/input/__init__.py:140
 msgid "How well Firefox's built-in features serve your needs"
 msgstr ""
 
@@ -483,6 +484,19 @@ msgstr "抱歉，我们无法找到您查询的记录。"
 msgid "I'm sorry, there was an error with your search."
 msgstr "抱歉，搜索时出错。"
 
+#: apps/input/__init__.py:77 apps/search/views.py:223 apps/themes/templates/themes/theme_list.html:10
+msgid "Idea"
+msgstr ""
+
+#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:38 apps/themes/views.py:39
+msgid "Ideas"
+msgstr ""
+
+#: apps/themes/views.py:40
+#, fuzzy
+msgid "Ideas only"
+msgstr "问题"
+
 #: templates/csrf_error.html:24
 #, fuzzy
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
@@ -497,7 +511,7 @@ msgid "If you have additional information how to reproduce this problem, please 
 msgstr "如果您有更多的关于如何重现改问题的信息，请<a href=\"%(bug_url)s\">提交一个缺陷报告。</a> 谢谢！"
 
 #: apps/feedback/templates/feedback/feedback.html:86
-msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
+msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_idea)s\">idea box</a>!"
 msgstr ""
 
 #: apps/feedback/templates/feedback/release_index.html:24
@@ -528,22 +542,22 @@ msgstr "Input 仪表盘"
 msgid "Internal Server Error"
 msgstr "内部服务器错误"
 
-#: apps/feedback/views.py:104 apps/feedback/views.py:171
+#: apps/feedback/views.py:109 apps/feedback/views.py:176
 msgid "Invalid feedback type"
 msgstr ""
 
-#: apps/feedback/helpers.py:39 apps/input/__init__.py:63 apps/themes/templates/themes/theme_list.html:12 apps/website_issues/templates/website_issues/includes/single_site.html:14
+#: apps/feedback/helpers.py:39 apps/input/__init__.py:70 apps/themes/templates/themes/theme_list.html:12 apps/website_issues/templates/website_issues/includes/single_site.html:14
 #, fuzzy
 msgid "Issue"
 msgstr "问题"
 
 #. Formerly called "sad"
-#: apps/dashboard/views.py:53 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/search/views.py:223
-#: apps/themes/views.py:34 apps/website_issues/templates/website_issues/sites.html:35
+#: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/search/views.py:222
+#: apps/themes/views.py:34 apps/website_issues/templates/website_issues/sites.html:37
 msgid "Issues"
 msgstr "问题"
 
-#: apps/themes/views.py:34 apps/website_issues/templates/website_issues/sites.html:35
+#: apps/themes/views.py:34 apps/website_issues/templates/website_issues/sites.html:37
 #, fuzzy
 msgid "Issues only"
 msgstr "问题"
@@ -585,7 +599,7 @@ msgstr "法律声明"
 msgid "Let's be friends!"
 msgstr ""
 
-#: apps/feedback/__init__.py:110
+#: apps/input/__init__.py:264
 msgid "Linux"
 msgstr "Linux"
 
@@ -609,11 +623,11 @@ msgstr "区域设置"
 msgid "Locale:"
 msgstr "区域设置："
 
-#: apps/feedback/__init__.py:92
+#: apps/input/__init__.py:243
 msgid "Mac OS X"
 msgstr "Mac OS X"
 
-#: apps/feedback/__init__.py:98
+#: apps/input/__init__.py:250
 msgid "Maemo"
 msgstr ""
 
@@ -626,7 +640,7 @@ msgstr ""
 msgid "Messages"
 msgstr ""
 
-#: apps/feedback/__init__.py:29
+#: apps/input/__init__.py:176
 msgid "Mobile"
 msgstr "移动设备"
 
@@ -635,11 +649,11 @@ msgstr "移动设备"
 msgid "More Locales"
 msgstr "区域设置"
 
-#: apps/dashboard/templates/dashboard/message_list.html:30 apps/themes/templates/themes/theme_list.html:28
+#: apps/dashboard/templates/dashboard/message_list.html:29 apps/themes/templates/themes/theme_list.html:28
 msgid "More Options"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/sites.html:91
+#: apps/website_issues/templates/website_issues/sites.html:77
 msgid "More sites..."
 msgstr ""
 
@@ -648,7 +662,7 @@ msgstr ""
 msgid "Next Page &raquo;"
 msgstr "下一页 &raquo;"
 
-#: apps/input/__init__.py:28
+#: apps/input/__init__.py:30
 msgid "Nightly Channel"
 msgstr ""
 
@@ -662,22 +676,18 @@ msgstr ""
 msgid "No results found"
 msgstr "无符合条件的结果。"
 
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:27
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:29
 #, fuzzy
 msgid "No results found!"
 msgstr "无符合条件的结果。"
 
-#: apps/dashboard/templates/dashboard/message_list.html:52 apps/themes/templates/themes/theme_list.html:43
+#: apps/dashboard/templates/dashboard/message_list.html:51 apps/themes/templates/themes/theme_list.html:41
 msgid "No search results found."
 msgstr "无符合条件的结果。"
 
 #: templates/404.html:4
 msgid "Not Found"
 msgstr "未找到"
-
-#: apps/search/forms.py:68
-msgid "OS:"
-msgstr "操作系统："
 
 #. Refers to terms often mentioned in feedback.
 #: apps/dashboard/templates/dashboard/themes.html:3 apps/dashboard/templates/dashboard/mobile/themes.html:2
@@ -712,10 +722,10 @@ msgid "Open Data"
 msgstr ""
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:68
-msgid "Or submit your ideas with our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
+msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
 msgstr ""
 
-#: apps/feedback/__init__.py:116
+#: apps/input/__init__.py:271
 msgid "Other"
 msgstr "其它"
 
@@ -727,7 +737,11 @@ msgstr "其它语言："
 msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
 msgstr "我们的搜索引擎暂时不可用，您可以访问<a href=\"%(url)s\">仪表盘</a> 并稍后重试。"
 
-#: apps/input/__init__.py:111
+#: apps/search/forms.py:68
+msgid "PLATFORM:"
+msgstr ""
+
+#: apps/input/__init__.py:118
 msgid "Page Load Time"
 msgstr ""
 
@@ -739,7 +753,7 @@ msgstr ""
 msgid "Platform"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/sites.html:42
+#: apps/website_issues/templates/website_issues/sites.html:44
 msgid "Platforms"
 msgstr ""
 
@@ -755,22 +769,26 @@ msgstr ""
 msgid "Please ensure that there is no personally identifiable information here."
 msgstr "请确认您没有输入一些个人的标识信息。"
 
+#: apps/feedback/forms.py:159
+msgid "Please rate at least one item."
+msgstr ""
+
 #: templates/404.html:9 templates/500.html:14
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 msgstr "请访问 <a href=\"%(dashboard_url)s\">仪表盘</a>。"
 
-#: apps/input/__init__.py:141
+#: apps/input/__init__.py:148
 msgid "Poor"
 msgstr ""
 
 #. Formerly called "happy"
-#: apps/dashboard/views.py:52 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:56
-#: apps/search/forms.py:36 apps/search/views.py:222 apps/themes/views.py:29 apps/themes/templates/themes/theme_list.html:8 apps/website_issues/templates/website_issues/sites.html:34
+#: apps/dashboard/views.py:53 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:63
+#: apps/search/forms.py:36 apps/search/views.py:221 apps/themes/views.py:29 apps/themes/templates/themes/theme_list.html:8 apps/website_issues/templates/website_issues/sites.html:36
 #: apps/website_issues/templates/website_issues/includes/single_site.html:12
 msgid "Praise"
 msgstr "赞"
 
-#: apps/themes/views.py:29 apps/website_issues/templates/website_issues/sites.html:34
+#: apps/themes/views.py:29 apps/website_issues/templates/website_issues/sites.html:36
 #, fuzzy
 msgid "Praise only"
 msgstr "赞"
@@ -787,7 +805,7 @@ msgstr "继续至页脚"
 msgid "Proceed to main content"
 msgstr "继续至主要内容"
 
-#: apps/search/templates/search/search.html:20 apps/themes/templates/themes/index.html:10 apps/website_issues/templates/website_issues/sites.html:20 templates/includes/filters.html:6
+#: apps/search/templates/search/search.html:20 apps/themes/templates/themes/index.html:10 apps/website_issues/templates/website_issues/sites.html:22 templates/includes/filters.html:6
 #, fuzzy
 msgid "Product"
 msgstr "产品："
@@ -800,7 +818,7 @@ msgstr "产品："
 msgid "Provide us some details about the problem and we'll try to fix it."
 msgstr ""
 
-#: apps/search/client.py:198
+#: apps/search/client.py:207
 msgid "Query has timed out."
 msgstr "查询超时。"
 
@@ -809,11 +827,11 @@ msgstr "查询超时。"
 msgid "Rate Your Experience"
 msgstr ""
 
-#: apps/input/__init__.py:77
+#: apps/input/__init__.py:84
 msgid "Rating"
 msgstr ""
 
-#: apps/input/__init__.py:18
+#: apps/input/__init__.py:20
 msgid "Release Channel"
 msgstr ""
 
@@ -827,7 +845,7 @@ msgstr "滥用商标举报"
 msgid "Report a Site Issue"
 msgstr "滥用商标举报"
 
-#: apps/input/__init__.py:118
+#: apps/input/__init__.py:125
 msgid "Responsiveness"
 msgstr ""
 
@@ -839,7 +857,7 @@ msgstr "搜索"
 msgid "Search Results"
 msgstr "搜索结果"
 
-#: apps/search/views.py:93
+#: apps/search/views.py:92
 msgid "Search Results in Firefox Beta Feedback."
 msgstr ""
 
@@ -852,7 +870,7 @@ msgstr "搜索暂不可用"
 msgid "Search by keyword"
 msgstr "搜索条件"
 
-#: apps/website_issues/forms.py:44
+#: apps/website_issues/forms.py:42
 #, fuzzy
 msgctxt "website_issues_search"
 msgid "Search for domain"
@@ -886,17 +904,17 @@ msgstr ""
 msgid "Show/Hide Options"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/sites.html:4 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/includes/sites_list.html:12
+#: apps/website_issues/templates/website_issues/sites.html:6 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/includes/sites_list.html:16
 #: templates/base.html:39 templates/includes/nav_buttons.html:4
 msgid "Sites"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:14
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:12
 msgid "Sites with only one message"
 msgstr ""
 
 #: apps/feedback/templates/feedback/feedback.html:29
-msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please make your suggestion below:"
+msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please enter your idea below:"
 msgstr ""
 
 #: templates/about.html:34
@@ -904,15 +922,15 @@ msgid "Source Code"
 msgstr ""
 
 #. L10n: Sphinx is the name of the search engine software.
-#: apps/search/client.py:201
+#: apps/search/client.py:210
 msgid "Sphinx threw an unknown exception: %s"
 msgstr "Sphinx 抛出了一个未知的异常： %s"
 
-#: apps/input/__init__.py:125
+#: apps/input/__init__.py:132
 msgid "Stability"
 msgstr ""
 
-#: apps/input/__init__.py:104
+#: apps/input/__init__.py:111
 msgid "Start-Up Time"
 msgstr ""
 
@@ -940,18 +958,6 @@ msgstr "提交反馈"
 #, fuzzy
 msgid "Submitting Feedback"
 msgstr "提交反馈"
-
-#: apps/input/__init__.py:70 apps/search/views.py:224 apps/themes/templates/themes/theme_list.html:10
-msgid "Suggestion"
-msgstr ""
-
-#: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:38 apps/themes/views.py:39
-msgid "Suggestions"
-msgstr ""
-
-#: apps/themes/views.py:40
-msgid "Suggestions only"
-msgstr ""
 
 #: apps/feedback/templates/feedback/feedback.html:19
 msgid "Super! It's great to hear that you like our pre-released browser. Please explain what you specifically like!"
@@ -1029,7 +1035,7 @@ msgid "Toggle"
 msgstr ""
 
 #. Link to Google Translator
-#: apps/dashboard/templates/dashboard/message_list.html:37 apps/themes/templates/themes/theme_list.html:33
+#: apps/dashboard/templates/dashboard/message_list.html:36 apps/themes/templates/themes/theme_list.html:31
 #, fuzzy
 msgid "Translate Message"
 msgstr "翻译！"
@@ -1038,7 +1044,7 @@ msgstr "翻译！"
 msgid "Trends"
 msgstr "趋势"
 
-#: apps/dashboard/templates/dashboard/message_list.html:42
+#: apps/dashboard/templates/dashboard/message_list.html:41
 msgid "Tweet This"
 msgstr ""
 
@@ -1047,12 +1053,12 @@ msgid "Twitter"
 msgstr ""
 
 #: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
-#: apps/website_issues/templates/website_issues/sites.html:30
+#: apps/website_issues/templates/website_issues/sites.html:32
 #, fuzzy
 msgid "Type of Feedback"
 msgstr "感谢您的反馈"
 
-#: apps/website_issues/templates/website_issues/sites.html:86
+#: apps/website_issues/templates/website_issues/sites.html:72
 msgid "Uncommon Sites"
 msgstr ""
 
@@ -1070,7 +1076,7 @@ msgstr ""
 msgid "User agent copied"
 msgstr ""
 
-#: apps/feedback/views.py:48
+#: apps/feedback/views.py:44
 msgid "User-Agent request header must be set."
 msgstr "必须设置用户代理请求的头部信息。"
 
@@ -1088,7 +1094,7 @@ msgstr "请访问 <a href=\"%(dashboard_url)s\">仪表盘</a>。"
 msgid "Want to see where your feedback goes?"
 msgstr "请再次输入您的回馈。"
 
-#: apps/feedback/forms.py:99
+#: apps/feedback/forms.py:97
 msgid "We already got your feedback! Thanks."
 msgstr "我们收到了您的反馈！谢谢。"
 
@@ -1130,15 +1136,15 @@ msgstr ""
 msgid "While Visiting"
 msgstr ""
 
-#: apps/feedback/__init__.py:80
+#: apps/input/__init__.py:229
 msgid "Windows 7"
 msgstr "Windows 7"
 
-#: apps/feedback/__init__.py:86
+#: apps/input/__init__.py:236
 msgid "Windows Vista"
 msgstr "Windows Vista"
 
-#: apps/feedback/__init__.py:74
+#: apps/input/__init__.py:222
 msgid "Windows XP"
 msgstr "Windows XP"
 
@@ -1167,7 +1173,7 @@ msgstr ""
 msgid "just now"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:28
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:30
 msgid "reset my search"
 msgstr ""
 
@@ -1199,11 +1205,11 @@ msgstr ""
 msgid "{num} opinions on {day}"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:54
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:56
 msgid "{percentage}% issues"
 msgstr ""
 
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:52
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:54
 msgid "{percentage}% praise"
 msgstr ""
 
@@ -1213,6 +1219,10 @@ msgstr ""
 
 #~ msgid "&laquo; previous"
 #~ msgstr "&laquo; 上一页"
+
+#~ msgctxt "os_choice"
+#~ msgid "-- all --"
+#~ msgstr "-- 全部 --"
 
 #~ msgctxt "dashboard_period"
 #~ msgid "1 day"
@@ -1244,6 +1254,10 @@ msgstr ""
 #~ msgid "Due to software constraints, we can only show the last 1000 messages for this search query."
 #~ msgstr "由于软件限制，我们仅能显示符合条件最新的 1000 条消息。"
 
+#, fuzzy
+#~ msgid "Enter your suggestions here."
+#~ msgstr "请再次输入您的回馈。"
+
 #~ msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
 #~ msgstr "区域设置：<span class=\"opt\">%(locale)s</span>;"
 
@@ -1260,6 +1274,9 @@ msgstr ""
 
 #~ msgid "OS"
 #~ msgstr "OS"
+
+#~ msgid "OS:"
+#~ msgstr "操作系统："
 
 #~ msgid "OS: <span class=\"opt\">%(os)s</span>"
 #~ msgstr "操作系统：<span class=\"opt\">%(os)s</span>"

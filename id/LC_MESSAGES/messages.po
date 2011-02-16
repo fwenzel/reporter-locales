@@ -13,13 +13,13 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.1.5\n"
 
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:43
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:45
 msgid "%(count)s message"
 msgid_plural "%(count)s messages"
 msgstr[0] "%(count)s pesan"
 
 #. "similar" refers to "similar messages".
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:67
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:69
 msgid "%(count)s similar"
 msgid_plural "%(count)s similar"
 msgstr[0] "%(count)s yang mirip"
@@ -61,7 +61,8 @@ msgid "-- all --"
 msgstr "-- semua --"
 
 #: apps/search/forms.py:42
-msgctxt "os_choice"
+#, fuzzy
+msgctxt "platform_choice"
 msgid "-- all --"
 msgstr "-- semua --"
 
@@ -140,12 +141,12 @@ msgstr "Canggih"
 msgid "All"
 msgstr "Semua"
 
-#: apps/website_issues/templates/website_issues/sites.html:33
+#: apps/website_issues/templates/website_issues/sites.html:35
 msgctxt "sites_search_all_feedback"
 msgid "All"
 msgstr "Semua"
 
-#: apps/website_issues/templates/website_issues/sites.html:45
+#: apps/website_issues/templates/website_issues/sites.html:47
 msgctxt "sites_search_all_platforms"
 msgid "All"
 msgstr "Semua"
@@ -154,11 +155,11 @@ msgstr "Semua"
 msgid "All Platforms"
 msgstr "Semua Platform"
 
-#: apps/themes/views.py:24 apps/website_issues/templates/website_issues/sites.html:33
+#: apps/themes/views.py:24 apps/website_issues/templates/website_issues/sites.html:35
 msgid "All feedback"
 msgstr "Semua saran"
 
-#: apps/website_issues/templates/website_issues/sites.html:45
+#: apps/website_issues/templates/website_issues/sites.html:47
 msgid "All platforms"
 msgstr "Semua platform"
 
@@ -166,7 +167,7 @@ msgstr "Semua platform"
 msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
 msgstr "Galat tak tertangani terjadi pada aplikasi. Galat tersebut telah direkam dan administrator telah diberitahu. Kami mohon maaf atas ketidaknyamanan Anda ya!"
 
-#: apps/feedback/__init__.py:104
+#: apps/input/__init__.py:257
 msgid "Android"
 msgstr "Android"
 
@@ -175,7 +176,8 @@ msgid "Average Ratings Over Time"
 msgstr "Peringkat Rata-Rata Selama Ini"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:28
-msgid "Awesome! Please make your suggestion below:"
+#, fuzzy
+msgid "Awesome! Please enter your idea below:"
 msgstr "Keren! Masukkan saran Anda di bawah ini:"
 
 #: apps/website_issues/templates/website_issues/includes/single_site.html:1
@@ -190,15 +192,15 @@ msgstr "Kembali ke semua tema &raquo;"
 msgid "Back to {domain} &raquo;"
 msgstr "Kembali ke {domain} &raquo;"
 
-#: apps/input/__init__.py:23
+#: apps/input/__init__.py:25
 msgid "Beta Channel"
 msgstr "Kanal Beta"
 
-#: templates/base.html:54
+#: apps/website_issues/templates/website_issues/sites.html:5 apps/website_issues/templates/website_issues/includes/sites_list.html:14 templates/base.html:54
 msgid "Broken Sites"
 msgstr "Situs Rusak"
 
-#: apps/input/__init__.py:84
+#: apps/input/__init__.py:91
 msgid "Broken Website"
 msgstr "Situs Web Rusak"
 
@@ -218,7 +220,7 @@ msgstr "Kelompok"
 msgid "Common Themes"
 msgstr "Tema Umum"
 
-#: apps/dashboard/templates/dashboard/message_list.html:33 apps/themes/templates/themes/theme_list.html:31
+#: apps/dashboard/templates/dashboard/message_list.html:32
 msgid "Copy User Agent"
 msgstr "Salin User-Agent"
 
@@ -253,15 +255,13 @@ msgstr "Perangkat"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:83
 msgid "Does a website look or behave incorrectly in Firefox for Mobile? Provide us some details about the problem and we'll try to fix it."
-msgstr ""
-"Apakah fungsi dan tampilan situs web rusak pada Firefox untuk Seluler? "
-"Tuliskan detail masalahnya dan kami akan mencoba memperbaikinya."
+msgstr "Apakah fungsi dan tampilan situs web rusak pada Firefox untuk Seluler? Tuliskan detail masalahnya dan kami akan mencoba memperbaikinya."
 
 #: apps/feedback/templates/feedback/release_index.html:110
 msgid "Does a website look or behave incorrectly in Firefox?"
 msgstr "Apakah situs web tidak berfungsi atau tampil dengan baik di Firefox?"
 
-#: apps/input/__init__.py:143
+#: apps/input/__init__.py:150
 msgid "Don't Care"
 msgstr "Nggak Penting"
 
@@ -273,19 +273,20 @@ msgstr "Unduh Versi Beta"
 msgid "Download Firefox"
 msgstr "Unduh Firefox"
 
-#: apps/feedback/forms.py:108 apps/feedback/forms.py:120
+#: apps/feedback/forms.py:106 apps/feedback/forms.py:119
 msgid "Enter your feedback here."
 msgstr "Masukkan saran Anda di sini."
 
-#: apps/feedback/forms.py:133 apps/feedback/forms.py:184
-msgid "Enter your suggestions here."
+#: apps/feedback/forms.py:132 apps/feedback/forms.py:189
+#, fuzzy
+msgid "Enter your ideas here."
 msgstr "Masukkan saran Anda di sini."
 
-#: apps/feedback/forms.py:168
+#: apps/feedback/forms.py:173
 msgid "Example: Images were not loading, but the rest of the page was."
 msgstr "Misalnya: Gambar tidak termuat, tetapi bagian laman lainnya tampil."
 
-#: apps/input/__init__.py:145
+#: apps/input/__init__.py:152
 msgid "Excellent"
 msgstr "Bagus Sekali"
 
@@ -309,11 +310,11 @@ msgstr "Peringkat Pengalaman"
 msgid "Facebook"
 msgstr "Facebook"
 
-#: apps/input/__init__.py:142
+#: apps/input/__init__.py:149
 msgid "Fair"
 msgstr "Lumayan"
 
-#: apps/input/__init__.py:132
+#: apps/input/__init__.py:139
 msgid "Features"
 msgstr "Fitur"
 
@@ -341,16 +342,16 @@ msgstr "Dapatkan kabar terbaru dari Mozilla:"
 msgid "Find the latest news about Firefox."
 msgstr "Dapatkan kabar terbaru dari Firefox."
 
-#: apps/feedback/__init__.py:14
+#: apps/input/__init__.py:160
 msgid "Firefox"
 msgstr "Firefox"
 
-#: apps/search/views.py:92 apps/search/views.py:111
+#: apps/search/views.py:91 apps/search/views.py:110
 msgid "Firefox Input"
 msgstr "Firefox Input"
 
 #. L10n: This is the title to the Search ATOM feed.
-#: apps/search/views.py:110
+#: apps/search/views.py:109
 msgid "Firefox Input: '{query}'"
 msgstr "Firefox Input: '{query}'"
 
@@ -404,7 +405,7 @@ msgstr "Buka"
 msgid "Go Back"
 msgstr "Kembali"
 
-#: apps/input/__init__.py:144
+#: apps/input/__init__.py:151
 msgid "Good"
 msgstr "Baik"
 
@@ -418,9 +419,7 @@ msgstr "Punya gagasan untuk menjadikan Firefox lebih baik? Beritahu kami!"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:135
 msgid "Have an idea how Firefox for Mobile could be better? Let us know!"
-msgstr ""
-"Punya gagasan untuk menjadikan Firefox untuk Seluler lebih baik? Beritahu "
-"kami!"
+msgstr "Punya gagasan untuk menjadikan Firefox untuk Seluler lebih baik? Beritahu kami!"
 
 #: templates/about.html:7
 msgid "Hello!"
@@ -430,31 +429,29 @@ msgstr "Hai!"
 msgid "Hit Ctrl+C (Cmd+C on Mac) to copy and close."
 msgstr "Tekan tombol Ctrl+C (Cmd+C di Mac) untuk menyalin dan menutup."
 
-#: apps/input/__init__.py:126
+#: apps/input/__init__.py:133
 msgid "How frequently Firefox crashes or loses data"
 msgstr "Seberapa sering Firefox mati tiba-tiba atau kehilangan data"
 
-#: apps/input/__init__.py:105
+#: apps/input/__init__.py:112
 msgid "How long Firefox takes to start running"
 msgstr "Seberapa lama waktu membuka Firefox pertama kali"
 
-#: apps/input/__init__.py:112
+#: apps/input/__init__.py:119
 msgid "How long it takes for web pages to load"
 msgstr "Berapa lama waktu yang dibutuhkan untuk memuat laman web"
 
-#: apps/input/__init__.py:119
+#: apps/input/__init__.py:126
 msgid "How quickly web pages respond once they have loaded"
 msgstr "Seberapa responsif laman web setelah termuat"
 
-#: apps/input/__init__.py:133
+#: apps/input/__init__.py:140
 msgid "How well Firefox's built-in features serve your needs"
 msgstr "Seberapa baik fitur-fitur Firefox memenuhi kebutuhan Anda"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:33
 msgid "How would you rate these aspects of Firefox for Mobile?"
-msgstr ""
-"Berapa nilai yang Anda berikan untuk aspek tentang Firefox untuk Seluler "
-"berikut?"
+msgstr "Berapa nilai yang Anda berikan untuk aspek tentang Firefox untuk Seluler berikut?"
 
 #: apps/feedback/templates/feedback/release_index.html:38
 msgid "How would you rate these aspects of Firefox?"
@@ -468,11 +465,22 @@ msgstr "Maaf, kami tidak dapat menemukan apa yang Anda cari."
 msgid "I'm sorry, there was an error with your search."
 msgstr "Maaf, ada kesalahan pada pencarian Anda."
 
+#: apps/input/__init__.py:77 apps/search/views.py:223 apps/themes/templates/themes/theme_list.html:10
+msgid "Idea"
+msgstr ""
+
+#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:38 apps/themes/views.py:39
+msgid "Ideas"
+msgstr ""
+
+#: apps/themes/views.py:40
+#, fuzzy
+msgid "Ideas only"
+msgstr "Hanya masalah"
+
 #: templates/csrf_error.html:24
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-msgstr ""
-"Jika masalahnya tetap ada, mohon <a href=\"%(bug_url)s\">kirimkan laporan "
-"bug</a>. Terima kasih!"
+msgstr "Jika masalahnya tetap ada, mohon <a href=\"%(bug_url)s\">kirimkan laporan bug</a>. Terima kasih!"
 
 #: apps/search/templates/search/unavailable.html:17
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
@@ -483,7 +491,8 @@ msgid "If you have additional information how to reproduce this problem, please 
 msgstr "Jika Anda memiliki informasi lainnya tentang langkah-langkah untuk mereproduksi masalah ini, mohon <a href=\"%(bug_url)s\">kirimkan laporan bug</a>. Terima kasih!"
 
 #: apps/feedback/templates/feedback/feedback.html:86
-msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
+#, fuzzy
+msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_idea)s\">idea box</a>!"
 msgstr "Jika Anda memiliki ide, kirimkan saja lewat <a href=\"%(url_suggestion)s\">kotak saran</a>."
 
 #: apps/feedback/templates/feedback/release_index.html:24
@@ -514,21 +523,21 @@ msgstr "Dasbor Input"
 msgid "Internal Server Error"
 msgstr "Galat Server Internal"
 
-#: apps/feedback/views.py:104 apps/feedback/views.py:171
+#: apps/feedback/views.py:109 apps/feedback/views.py:176
 msgid "Invalid feedback type"
 msgstr "Jenis saran tidak valid"
 
-#: apps/feedback/helpers.py:39 apps/input/__init__.py:63 apps/themes/templates/themes/theme_list.html:12 apps/website_issues/templates/website_issues/includes/single_site.html:14
+#: apps/feedback/helpers.py:39 apps/input/__init__.py:70 apps/themes/templates/themes/theme_list.html:12 apps/website_issues/templates/website_issues/includes/single_site.html:14
 msgid "Issue"
 msgstr "Masalah"
 
 #. Formerly called "sad"
-#: apps/dashboard/views.py:53 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/search/views.py:223
-#: apps/themes/views.py:34 apps/website_issues/templates/website_issues/sites.html:35
+#: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/search/views.py:222
+#: apps/themes/views.py:34 apps/website_issues/templates/website_issues/sites.html:37
 msgid "Issues"
 msgstr "Masalah"
 
-#: apps/themes/views.py:34 apps/website_issues/templates/website_issues/sites.html:35
+#: apps/themes/views.py:34 apps/website_issues/templates/website_issues/sites.html:37
 msgid "Issues only"
 msgstr "Hanya masalah"
 
@@ -567,7 +576,7 @@ msgstr "Pernyataan Hukum"
 msgid "Let's be friends!"
 msgstr "Yuk berkenalan!"
 
-#: apps/feedback/__init__.py:110
+#: apps/input/__init__.py:264
 msgid "Linux"
 msgstr "Linux"
 
@@ -591,11 +600,11 @@ msgstr "Kode Pelokalan"
 msgid "Locale:"
 msgstr "Kode Pelokalan:"
 
-#: apps/feedback/__init__.py:92
+#: apps/input/__init__.py:243
 msgid "Mac OS X"
 msgstr "Mac OS X"
 
-#: apps/feedback/__init__.py:98
+#: apps/input/__init__.py:250
 msgid "Maemo"
 msgstr "Maemo"
 
@@ -608,7 +617,7 @@ msgstr "Pembuat"
 msgid "Messages"
 msgstr "Pesan"
 
-#: apps/feedback/__init__.py:29
+#: apps/input/__init__.py:176
 msgid "Mobile"
 msgstr "Mobile"
 
@@ -616,11 +625,11 @@ msgstr "Mobile"
 msgid "More Locales"
 msgstr "Kode Pelokalan Lainnya"
 
-#: apps/dashboard/templates/dashboard/message_list.html:30 apps/themes/templates/themes/theme_list.html:28
+#: apps/dashboard/templates/dashboard/message_list.html:29 apps/themes/templates/themes/theme_list.html:28
 msgid "More Options"
 msgstr "Opsi Lainnya"
 
-#: apps/website_issues/templates/website_issues/sites.html:91
+#: apps/website_issues/templates/website_issues/sites.html:77
 msgid "More sites..."
 msgstr "Situs lainnya..."
 
@@ -628,7 +637,7 @@ msgstr "Situs lainnya..."
 msgid "Next Page &raquo;"
 msgstr "Laman Selanjutnya &raquo;"
 
-#: apps/input/__init__.py:28
+#: apps/input/__init__.py:30
 msgid "Nightly Channel"
 msgstr "Kanal Pengembangan"
 
@@ -641,21 +650,17 @@ msgstr "Kapan saja"
 msgid "No results found"
 msgstr "Tidak ada hasil ditemukan"
 
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:27
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:29
 msgid "No results found!"
 msgstr "Tidak ada hasil ditemukan!"
 
-#: apps/dashboard/templates/dashboard/message_list.html:52 apps/themes/templates/themes/theme_list.html:43
+#: apps/dashboard/templates/dashboard/message_list.html:51 apps/themes/templates/themes/theme_list.html:41
 msgid "No search results found."
 msgstr "Tidak ada hasil yang sesuai."
 
 #: templates/404.html:4
 msgid "Not Found"
 msgstr "Tak Ditemukan"
-
-#: apps/search/forms.py:68
-msgid "OS:"
-msgstr "OS:"
 
 #. Refers to terms often mentioned in feedback.
 #: apps/dashboard/templates/dashboard/themes.html:3 apps/dashboard/templates/dashboard/mobile/themes.html:2
@@ -687,10 +692,11 @@ msgid "Open Data"
 msgstr "Data Terbuka"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:68
-msgid "Or submit your ideas with our <a href=\"%(url_suggestion)s\">suggestion box</a>!"
+#, fuzzy
+msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
 msgstr "Atau kirimkan ide Anda lewat <a href=\"%(url_suggestion)s\">kotak saran</a> kami!"
 
-#: apps/feedback/__init__.py:116
+#: apps/input/__init__.py:271
 msgid "Other"
 msgstr "Lainnya"
 
@@ -702,7 +708,11 @@ msgstr "Bahasa lainnya:"
 msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
 msgstr "Mesin pencari kami mungkin lagi <em>ngadat</em>. Anda dapat memulai lagi lewat <a href=\"%(url)s\">dasbor</a> dan mencobanya lagi nanti."
 
-#: apps/input/__init__.py:111
+#: apps/search/forms.py:68
+msgid "PLATFORM:"
+msgstr ""
+
+#: apps/input/__init__.py:118
 msgid "Page Load Time"
 msgstr "Waktu Pemuatan Laman"
 
@@ -714,7 +724,7 @@ msgstr "Planet Mozilla"
 msgid "Platform"
 msgstr "Platform"
 
-#: apps/website_issues/templates/website_issues/sites.html:42
+#: apps/website_issues/templates/website_issues/sites.html:44
 msgid "Platforms"
 msgstr "Platform"
 
@@ -730,22 +740,26 @@ msgstr "Pilih jenis saran yang ingin Anda kirimkan kepada kami:"
 msgid "Please ensure that there is no personally identifiable information here."
 msgstr "Pastikan tidak ada informasi yang merujuk ke data pribadi."
 
+#: apps/feedback/forms.py:159
+msgid "Please rate at least one item."
+msgstr ""
+
 #: templates/404.html:9 templates/500.html:14
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 msgstr "Silakan mulai dari awal lewat <a href=\"%(dashboard_url)s\">dasbor</a>."
 
-#: apps/input/__init__.py:141
+#: apps/input/__init__.py:148
 msgid "Poor"
 msgstr "Jelek"
 
 #. Formerly called "happy"
-#: apps/dashboard/views.py:52 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:56
-#: apps/search/forms.py:36 apps/search/views.py:222 apps/themes/views.py:29 apps/themes/templates/themes/theme_list.html:8 apps/website_issues/templates/website_issues/sites.html:34
+#: apps/dashboard/views.py:53 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:63
+#: apps/search/forms.py:36 apps/search/views.py:221 apps/themes/views.py:29 apps/themes/templates/themes/theme_list.html:8 apps/website_issues/templates/website_issues/sites.html:36
 #: apps/website_issues/templates/website_issues/includes/single_site.html:12
 msgid "Praise"
 msgstr "Suka"
 
-#: apps/themes/views.py:29 apps/website_issues/templates/website_issues/sites.html:34
+#: apps/themes/views.py:29 apps/website_issues/templates/website_issues/sites.html:36
 msgid "Praise only"
 msgstr "Hanya suka"
 
@@ -761,7 +775,7 @@ msgstr "Loncat ke kaki laman"
 msgid "Proceed to main content"
 msgstr "Loncat ke isi utama"
 
-#: apps/search/templates/search/search.html:20 apps/themes/templates/themes/index.html:10 apps/website_issues/templates/website_issues/sites.html:20 templates/includes/filters.html:6
+#: apps/search/templates/search/search.html:20 apps/themes/templates/themes/index.html:10 apps/website_issues/templates/website_issues/sites.html:22 templates/includes/filters.html:6
 msgid "Product"
 msgstr "Produk"
 
@@ -773,7 +787,7 @@ msgstr "Produk:"
 msgid "Provide us some details about the problem and we'll try to fix it."
 msgstr "Tuliskan beberapa detail masalahnya dan kami akan mencoba memperbaikinya."
 
-#: apps/search/client.py:198
+#: apps/search/client.py:207
 msgid "Query has timed out."
 msgstr "Tenggang waktu kueri telah habis."
 
@@ -782,11 +796,11 @@ msgstr "Tenggang waktu kueri telah habis."
 msgid "Rate Your Experience"
 msgstr "Beri Peringkat Pengalaman Anda"
 
-#: apps/input/__init__.py:77
+#: apps/input/__init__.py:84
 msgid "Rating"
 msgstr "Peringkat"
 
-#: apps/input/__init__.py:18
+#: apps/input/__init__.py:20
 msgid "Release Channel"
 msgstr "Kanal Rilis"
 
@@ -799,7 +813,7 @@ msgstr "Laporkan Penyalahgunaan Merek Dagang"
 msgid "Report a Site Issue"
 msgstr "Laporkan Masalah pada Situs"
 
-#: apps/input/__init__.py:118
+#: apps/input/__init__.py:125
 msgid "Responsiveness"
 msgstr "Tingkat Keresponsifan"
 
@@ -811,7 +825,7 @@ msgstr "Cari"
 msgid "Search Results"
 msgstr "Hasil Pencarian"
 
-#: apps/search/views.py:93
+#: apps/search/views.py:92
 msgid "Search Results in Firefox Beta Feedback."
 msgstr "Hasil Pencarian untuk Saran Firefox Versi Beta."
 
@@ -823,7 +837,7 @@ msgstr "Layanan Pencarian Tidak Tersedia"
 msgid "Search by keyword"
 msgstr "Cari berdasarkan kata kunci"
 
-#: apps/website_issues/forms.py:44
+#: apps/website_issues/forms.py:42
 msgctxt "website_issues_search"
 msgid "Search for domain"
 msgstr "Cari domain"
@@ -855,17 +869,18 @@ msgstr "Kirimkan Ide"
 msgid "Show/Hide Options"
 msgstr "Bentangkan/Sembunyikan Opsi"
 
-#: apps/website_issues/templates/website_issues/sites.html:4 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/includes/sites_list.html:12
+#: apps/website_issues/templates/website_issues/sites.html:6 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/includes/sites_list.html:16
 #: templates/base.html:39 templates/includes/nav_buttons.html:4
 msgid "Sites"
 msgstr "Situs"
 
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:14
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:12
 msgid "Sites with only one message"
 msgstr "Situs hanya dengan satu pesan"
 
 #: apps/feedback/templates/feedback/feedback.html:29
-msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please make your suggestion below:"
+#, fuzzy
+msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please enter your idea below:"
 msgstr "Ah, Anda punya saran untuk memperbaiki Firefox? Keren banget! Masukkan saran Anda di bawah ini:"
 
 #: templates/about.html:34
@@ -873,15 +888,15 @@ msgid "Source Code"
 msgstr "Kode Sumber"
 
 #. L10n: Sphinx is the name of the search engine software.
-#: apps/search/client.py:201
+#: apps/search/client.py:210
 msgid "Sphinx threw an unknown exception: %s"
 msgstr "Sphinx telah melemparkan eksepsi yang tak dikenal: %s"
 
-#: apps/input/__init__.py:125
+#: apps/input/__init__.py:132
 msgid "Stability"
 msgstr "Kestabilan"
 
-#: apps/input/__init__.py:104
+#: apps/input/__init__.py:111
 msgid "Start-Up Time"
 msgstr "Waktu Memulai"
 
@@ -907,18 +922,6 @@ msgstr "Kirim Saran Anda"
 #: apps/feedback/templates/feedback/mobile/release_index.html:65 apps/feedback/templates/feedback/mobile/release_index.html:116 apps/feedback/templates/feedback/mobile/release_index.html:158
 msgid "Submitting Feedback"
 msgstr "Mengirim Saran"
-
-#: apps/input/__init__.py:70 apps/search/views.py:224 apps/themes/templates/themes/theme_list.html:10
-msgid "Suggestion"
-msgstr "Saran"
-
-#: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:38 apps/themes/views.py:39
-msgid "Suggestions"
-msgstr "Saran"
-
-#: apps/themes/views.py:40
-msgid "Suggestions only"
-msgstr "Hanya saran"
 
 #: apps/feedback/templates/feedback/feedback.html:19
 msgid "Super! It's great to hear that you like our pre-released browser. Please explain what you specifically like!"
@@ -954,10 +957,8 @@ msgid ""
 "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable cookies "
 "in Firefox, then try again."
 msgstr ""
-"Alasan yang umum untuk galat ini adalah jika peramban Anda telah disetel "
-"untuk <strong>tidak menerima kuki</strong> dari kami. Silakan ikuti <a "
-"href=\"%(cookies_url)s\">panduan berikut</a> untuk mengaktifkan kuki di "
-"Firefox, lalu coba lagi."
+"Alasan yang umum untuk galat ini adalah jika peramban Anda telah disetel untuk <strong>tidak menerima kuki</strong> dari kami. Silakan ikuti <a href=\"%(cookies_url)s\">panduan berikut</a> untuk "
+"mengaktifkan kuki di Firefox, lalu coba lagi."
 
 #: apps/themes/templates/themes/theme.html:4 apps/themes/templates/themes/theme.html:17 apps/website_issues/templates/website_issues/theme.html:19
 msgid "Theme"
@@ -973,9 +974,7 @@ msgstr "Tema"
 
 #: templates/csrf_error.html:8
 msgid "There was an error verifying your CSRF token. Your request could not be processed. We apologize for the inconvenience!"
-msgstr ""
-"Terjadi galat saat memverifikasi token CSRF Anda. Permintaan Anda tidak "
-"dapat diproses. Mohon maaf atas ketidaknyamanan yang terjadi."
+msgstr "Terjadi galat saat memverifikasi token CSRF Anda. Permintaan Anda tidak dapat diproses. Mohon maaf atas ketidaknyamanan yang terjadi."
 
 #: apps/feedback/templates/feedback/need_beta.html:14
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
@@ -999,7 +998,7 @@ msgid "Toggle"
 msgstr "Bentangkan/Sembunyikan"
 
 #. Link to Google Translator
-#: apps/dashboard/templates/dashboard/message_list.html:37 apps/themes/templates/themes/theme_list.html:33
+#: apps/dashboard/templates/dashboard/message_list.html:36 apps/themes/templates/themes/theme_list.html:31
 msgid "Translate Message"
 msgstr "Terjemahkan Pesan"
 
@@ -1007,7 +1006,7 @@ msgstr "Terjemahkan Pesan"
 msgid "Trends"
 msgstr "Tren"
 
-#: apps/dashboard/templates/dashboard/message_list.html:42
+#: apps/dashboard/templates/dashboard/message_list.html:41
 msgid "Tweet This"
 msgstr "Twitkan"
 
@@ -1016,11 +1015,11 @@ msgid "Twitter"
 msgstr "Twitter"
 
 #: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
-#: apps/website_issues/templates/website_issues/sites.html:30
+#: apps/website_issues/templates/website_issues/sites.html:32
 msgid "Type of Feedback"
 msgstr "Jenis Saran"
 
-#: apps/website_issues/templates/website_issues/sites.html:86
+#: apps/website_issues/templates/website_issues/sites.html:72
 msgid "Uncommon Sites"
 msgstr "Situs yang Tidak Umum"
 
@@ -1037,7 +1036,7 @@ msgstr "User-Agent"
 msgid "User agent copied"
 msgstr "User-agent disalin"
 
-#: apps/feedback/views.py:48
+#: apps/feedback/views.py:44
 msgid "User-Agent request header must be set."
 msgstr "Header permintaan User-Agent harus disetel."
 
@@ -1053,7 +1052,7 @@ msgstr "Kunjungi <a href=\"%(dashboard_url)s\">Dasbor Saran Firefox</a>"
 msgid "Want to see where your feedback goes?"
 msgstr "Ingin tahu kemana saja saran Anda menuju?"
 
-#: apps/feedback/forms.py:99
+#: apps/feedback/forms.py:97
 msgid "We already got your feedback! Thanks."
 msgstr "Kami sudah menyimpan saran Anda! Terima kasih ya."
 
@@ -1095,15 +1094,15 @@ msgstr "Waktu"
 msgid "While Visiting"
 msgstr "Saat Membuka"
 
-#: apps/feedback/__init__.py:80
+#: apps/input/__init__.py:229
 msgid "Windows 7"
 msgstr "Windows 7"
 
-#: apps/feedback/__init__.py:86
+#: apps/input/__init__.py:236
 msgid "Windows Vista"
 msgstr "Windows Vista"
 
-#: apps/feedback/__init__.py:74
+#: apps/input/__init__.py:222
 msgid "Windows XP"
 msgstr "Windows XP"
 
@@ -1134,7 +1133,7 @@ msgstr "Saran Anda akan digunakan untuk memperbaiki pengalaman pada versi Firefo
 msgid "just now"
 msgstr "baru saja"
 
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:28
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:30
 msgid "reset my search"
 msgstr "ulangi pencarian dari awal"
 
@@ -1166,11 +1165,11 @@ msgstr "{day}<br/>Rata-rata {num}"
 msgid "{num} opinions on {day}"
 msgstr "{num} pendapat pada {day}"
 
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:54
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:56
 msgid "{percentage}% issues"
 msgstr "{percentage}% masalah"
 
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:52
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:54
 msgid "{percentage}% praise"
 msgstr "{percentage}% suka"
 
@@ -1179,6 +1178,10 @@ msgstr "{percentage}% suka"
 
 #~ msgid "&laquo; previous"
 #~ msgstr "&laquo; sebelumnya"
+
+#~ msgctxt "os_choice"
+#~ msgid "-- all --"
+#~ msgstr "-- semua --"
 
 #~ msgctxt "dashboard_period"
 #~ msgid "1 day"
@@ -1218,6 +1221,9 @@ msgstr "{percentage}% suka"
 #~ msgid "Due to software constraints, we can only show the last 1000 messages for this search query."
 #~ msgstr "Oleh karena ada keterbatasan perangkat lunak, kami hanya dapat menampilkan 1000 pesan terakhir untuk pencarian ini."
 
+#~ msgid "Enter your suggestions here."
+#~ msgstr "Masukkan saran Anda di sini."
+
 #~ msgid "Latest Beta"
 #~ msgstr "Versi Beta Terbaru"
 
@@ -1236,6 +1242,9 @@ msgstr "{percentage}% suka"
 
 #~ msgid "OS"
 #~ msgstr "SO"
+
+#~ msgid "OS:"
+#~ msgstr "OS:"
 
 #~ msgid "OS: <span class=\"opt\">%(os)s</span>"
 #~ msgstr "SO: <span class=\"opt\">%(os)s</span>"
@@ -1263,6 +1272,15 @@ msgstr "{percentage}% suka"
 
 #~ msgid "Submitted User Agent is not the latest beta version."
 #~ msgstr "User-Agent yang dikirim bukan versi beta terakhir."
+
+#~ msgid "Suggestion"
+#~ msgstr "Saran"
+
+#~ msgid "Suggestions"
+#~ msgstr "Saran"
+
+#~ msgid "Suggestions only"
+#~ msgstr "Hanya saran"
 
 #~ msgid "Translate!"
 #~ msgstr "Terjemahkan!"
