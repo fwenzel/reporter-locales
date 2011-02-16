@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 15:37+0200\n"
-"PO-Revision-Date: 2011-01-26 09:41+0200\n"
+"PO-Revision-Date: 2011-02-16 13:49+0200\n"
 "Last-Translator: saneyuki_s <saneyuki.snyk@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -95,7 +95,7 @@ msgstr[0] "<strong>%(cnt)s</strong> 件のメッセージ"
 
 #: templates/base.html:31
 msgid "<strong>Firefox Beta</strong> Input Dashboard"
-msgstr ""
+msgstr "<strong>Firefox ベータ版</strong> Input ダッシュボード"
 
 #: templates/about.html:9
 msgid ""
@@ -107,16 +107,16 @@ msgstr ""
 
 #: templates/base.html:47
 msgid "<strong>Firefox Release</strong> Input Dashboard"
-msgstr ""
+msgstr "<strong>Firefox リリース版</strong> Input ダッシュボード"
 
 #: templates/includes/welcome.html:2
 msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
 msgstr "<strong>Firefox Input へようこそ！</strong> これは Mozilla の重要な意見収集サイトです。<a href=\"%(about_url)s\">詳しくはこちら...</a>"
 
+# Twitterのアカウントをフォローするかどうかの項目で使用されている。アカウントidと判断。
 #: apps/feedback/templates/feedback/mobile/release_index.html:194
-#, fuzzy
 msgid "@MozMobile"
-msgstr "モバイル"
+msgstr "@MozMobile"
 
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
@@ -174,11 +174,11 @@ msgstr "Android"
 
 #: apps/search/templates/search/release.html:19
 msgid "Average Ratings Over Time"
-msgstr ""
+msgstr "評価の平均の推移"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:28
 msgid "Awesome! Please make your suggestion below:"
-msgstr "ありがとうございます！あなたのご指摘を記入してください:"
+msgstr "ありがとうございます！あなたの提案を記入してください:"
 
 #: apps/website_issues/templates/website_issues/includes/single_site.html:1
 msgid "Back to all sites &raquo;"
@@ -194,10 +194,9 @@ msgstr "{domain} へのフィードバックの一覧に戻る &raquo;"
 
 #: apps/input/__init__.py:23
 msgid "Beta Channel"
-msgstr ""
+msgstr "Beta チャンネル"
 
 #: templates/base.html:54
-#, fuzzy
 msgid "Broken Sites"
 msgstr "うまく表示されない Web サイト"
 
@@ -207,7 +206,7 @@ msgstr "うまく表示されない Web サイト"
 
 #: templates/csrf_error.html:5
 msgid "CSRF Protection Error"
-msgstr ""
+msgstr "CSRF 保護エラー"
 
 #: templates/includes/ua_overlay.html:10
 msgid "Close"
@@ -239,7 +238,6 @@ msgid "Date range:"
 msgstr "期間:"
 
 #: apps/feedback/templates/feedback/release_index.html:130
-#, fuzzy
 msgid "Describe the problem with the site."
 msgstr "Web サイトでどのような問題が起こったかを記述してください。"
 
@@ -256,9 +254,9 @@ msgid "Devices"
 msgstr "デバイス"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:83
-#, fuzzy
 msgid "Does a website look or behave incorrectly in Firefox for Mobile? Provide us some details about the problem and we'll try to fix it."
-msgstr "問題についてのより詳細をお教えください。修正できるよう努力します。"
+msgstr ""
+"Firefox for Mobile で Web サイトが正しく表示されないときは、その問題についての詳細をお教えください。修正できるよう努力します。"
 
 #: apps/feedback/templates/feedback/release_index.html:110
 msgid "Does a website look or behave incorrectly in Firefox?"
@@ -300,14 +298,15 @@ msgstr ""
 "<a href=\"%(legal_url)s\">他のライセンス</a>が明記されている場合を除き、このサイト上のコンテンツは、<br/><a href=\"%(license_url)s\">クリエイティブコモンズ　表示-継承 3.0</a>、またはそれ以降のバー"
 "ジョンの下でライセンスされます。"
 
+# リリース版ページのヘッダーのカテゴリ
 #: templates/base.html:53
-#, fuzzy
 msgid "Experience"
-msgstr "あなたの Web 体験を評価してください"
+msgstr "ユーザー体験"
 
+# リリース版ページトップの項目。グラフと併せて表示される。
 #: apps/search/templates/search/release.html:15
 msgid "Experience Ratings"
-msgstr ""
+msgstr "ユーザー体験の評価"
 
 #: apps/feedback/templates/feedback/release_index.html:244
 msgid "Facebook"
@@ -330,9 +329,8 @@ msgid "Feedback"
 msgstr "フィードバック"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:186
-#, fuzzy
 msgid "Feedback Dashboard"
-msgstr "ダッシュボード"
+msgstr "フィードバックダッシュボード"
 
 #: apps/feedback/validators.py:36
 msgid "Feedback must not contain HTML."
@@ -380,13 +378,12 @@ msgid "Firefox makes me sad because ..."
 msgstr "Firefox の悪い点は..."
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:202
-#, fuzzy
 msgid "Firefox on Facebook"
-msgstr "Firefox ロゴ"
+msgstr "Firefox on Facebook"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:193
 msgid "Follow us on Twitter."
-msgstr ""
+msgstr "Twitter で私たちをフォローする。"
 
 #. refers to time-based search filters (e.g., "for last: 1d")
 #: apps/dashboard/templates/dashboard/mobile/when.html:3
@@ -394,14 +391,12 @@ msgid "For last:"
 msgstr "最新のフィードバック:"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:101 apps/feedback/templates/feedback/mobile/release_index.html:145
-#, fuzzy
 msgid "For your privacy, please ensure that no personally identifiable information is included in your feedback."
-msgstr "あなたの個人情報を保護するため、個人を特定可能な情報をフィードバックに含めないようにしてください。"
+msgstr "あなたのプライバシーを保護するため、個人を特定可能な情報をフィードバックに含めないようにしてください。"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:209
-#, fuzzy
 msgid "Get the latest news on Firefox."
-msgstr "Firefox についての最新情報をみる。"
+msgstr "Firefox についての最新情報を見る。"
 
 #: templates/includes/channel_switcher.html:13 templates/includes/footer_release.html:16 templates/includes/lang_switcher.html:10
 msgid "Go"
@@ -425,7 +420,6 @@ msgid "Have an idea how Firefox could be better? Let us know!"
 msgstr "Firefox をより良いものにするためのアイデアをお持ちですか？ ぜひ、お知らせください！"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:135
-#, fuzzy
 msgid "Have an idea how Firefox for Mobile could be better? Let us know!"
 msgstr "Firefox をより良いものにするためのアイデアをお持ちですか？ ぜひ、お知らせください！"
 
@@ -458,7 +452,6 @@ msgid "How well Firefox's built-in features serve your needs"
 msgstr "Firefox に組み込まれた機能はどのくらい有用でしたか"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:33
-#, fuzzy
 msgid "How would you rate these aspects of Firefox for Mobile?"
 msgstr "これらの Firefox の特徴をどの程度評価しますか？"
 
@@ -475,7 +468,6 @@ msgid "I'm sorry, there was an error with your search."
 msgstr "申し訳ありません。検索時にエラーが発生しました。"
 
 #: templates/csrf_error.html:24
-#, fuzzy
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
 msgstr "問題が繰り返し起こるときは、<a href=\"%(bug_url)s\">バグとして報告</a>し、あなたがアクセスした URL を教えてください。"
 
@@ -570,7 +562,7 @@ msgstr "法的事項"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:201
 msgid "Let's be friends!"
-msgstr ""
+msgstr "友達になる"
 
 #: apps/feedback/__init__.py:110
 msgid "Linux"
@@ -578,16 +570,15 @@ msgstr "Linux"
 
 #: apps/search/templates/search/release.html:30
 msgid "Loading chart data."
-msgstr ""
+msgstr "グラフデータを読み込んでいます。"
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:9
 msgid "Loading feedback history..."
 msgstr "フィードバック履歴を読み込んでいます..."
 
 #: apps/search/templates/search/includes/ratings_chart.html:12
-#, fuzzy
 msgid "Loading ratings history..."
-msgstr "フィードバック履歴を読み込んでいます..."
+msgstr "評価の履歴を読み込んでいます..."
 
 #: apps/dashboard/templates/dashboard/locales.html:17 apps/dashboard/templates/dashboard/mobile/locales.html:9
 msgid "Locale"
@@ -636,7 +627,7 @@ msgstr "次のページ &raquo;"
 
 #: apps/input/__init__.py:28
 msgid "Nightly Channel"
-msgstr ""
+msgstr "Nightly チャンネル"
 
 #. short for an indefinite date range
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:12
@@ -644,7 +635,6 @@ msgid "No date limit"
 msgstr "期限なし"
 
 #: apps/search/templates/search/release.html:37
-#, fuzzy
 msgid "No results found"
 msgstr "検索条件に一致するものは見つかりませんでした。"
 
@@ -796,7 +786,7 @@ msgstr "評価"
 
 #: apps/input/__init__.py:18
 msgid "Release Channel"
-msgstr ""
+msgstr "Release チャンネル"
 
 #: templates/base_mobile_old.html:58 templates/base_old.html:65 templates/includes/footer.html:10
 msgid "Report Trademark Abuse"
@@ -804,7 +794,6 @@ msgstr "商標の不正利用を報告"
 
 #: apps/feedback/templates/feedback/release_index.html:17 apps/feedback/templates/feedback/release_index.html:108 apps/feedback/templates/feedback/mobile/release_index.html:17
 #: apps/feedback/templates/feedback/mobile/release_index.html:82
-#, fuzzy
 msgid "Report a Site Issue"
 msgstr "うまく表示されない Web サイトを報告"
 
@@ -842,9 +831,8 @@ msgid "See all opinions"
 msgstr "すべての意見を見る"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:185
-#, fuzzy
 msgid "See where your feedback goes."
-msgstr "あなたのフィードバックの送信先を確認しますか？"
+msgstr "あなたのフィードバックの送信先を確認する"
 
 #: apps/search/forms.py:64
 msgid "Sentiment:"
@@ -964,6 +952,9 @@ msgid ""
 "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable cookies "
 "in Firefox, then try again."
 msgstr ""
+"このエラーが起こる原因として、ブラウザの設定でこのサイトの <strong>Cookie "
+"の受け入れを拒否している</strong>可能性があります。<a href=\"%(cookies_url)s\">以下の指示</a>に従って "
+"Firefox の Cookie を有効にしてから、再度お試しください。"
 
 #: apps/themes/templates/themes/theme.html:4 apps/themes/templates/themes/theme.html:17 apps/website_issues/templates/website_issues/theme.html:19
 msgid "Theme"
@@ -979,7 +970,7 @@ msgstr "テーマ"
 
 #: templates/csrf_error.html:8
 msgid "There was an error verifying your CSRF token. Your request could not be processed. We apologize for the inconvenience!"
-msgstr ""
+msgstr "CSRF トークンの検証中にエラーが発生したため、リクエストを処理できませんでした。ご不便をおかけして申し訳ございません。"
 
 #: apps/feedback/templates/feedback/need_beta.html:14
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
@@ -1086,7 +1077,6 @@ msgid "What is the URL of the broken site?"
 msgstr "うまく表示されないサイトの URL は？"
 
 #: apps/feedback/templates/feedback/release_index.html:124
-#, fuzzy
 msgid "What is the URL of the site?"
 msgstr "うまく表示されないサイトの URL は？"
 
@@ -1165,7 +1155,7 @@ msgstr[0] "{0} 分前"
 
 #: apps/search/templates/search/release.html:28
 msgid "{day}<br/>Average of {num}"
-msgstr ""
+msgstr "{day}<br/> {num} の平均値"
 
 # 統計グラフ中の、特定の日付と、その日のフィードバック数。
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:3 apps/search/templates/search/includes/ratings_chart.html:4
