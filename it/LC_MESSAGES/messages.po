@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 15:36+0200\n"
-"PO-Revision-Date: 2011-02-05 10:26+0200\n"
+"PO-Revision-Date: 2011-02-17 21:49+0200\n"
 "Last-Translator: Francesco <francesco.lodolo@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -64,7 +64,6 @@ msgid "-- all --"
 msgstr "-- qualsiasi --"
 
 #: apps/search/forms.py:42
-#, fuzzy
 msgctxt "platform_choice"
 msgid "-- all --"
 msgstr "-- qualsiasi --"
@@ -183,9 +182,8 @@ msgid "Average Ratings Over Time"
 msgstr "Media valutazione nel tempo"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:28
-#, fuzzy
 msgid "Awesome! Please enter your idea below:"
-msgstr "Splendido. Inviaci il tuo suggerimento:"
+msgstr "Splendido. Descrivi la tua idea:"
 
 #: apps/website_issues/templates/website_issues/includes/single_site.html:1
 msgid "Back to all sites &raquo;"
@@ -285,9 +283,8 @@ msgid "Enter your feedback here."
 msgstr "Inserisci qui i tuoi commenti e suggerimenti."
 
 #: apps/feedback/forms.py:132 apps/feedback/forms.py:189
-#, fuzzy
 msgid "Enter your ideas here."
-msgstr "Inserisci qui i tuoi commenti e suggerimenti."
+msgstr "Inserisci qui le tue idee."
 
 #: apps/feedback/forms.py:173
 msgid "Example: Images were not loading, but the rest of the page was."
@@ -474,16 +471,15 @@ msgstr "Siamo spiacenti, si è verificato un errore durante la ricerca."
 
 #: apps/input/__init__.py:77 apps/search/views.py:223 apps/themes/templates/themes/theme_list.html:10
 msgid "Idea"
-msgstr ""
+msgstr "Idea"
 
 #: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:38 apps/themes/views.py:39
 msgid "Ideas"
-msgstr ""
+msgstr "Idee"
 
 #: apps/themes/views.py:40
-#, fuzzy
 msgid "Ideas only"
-msgstr "Solo problemi"
+msgstr "Solo idee"
 
 #: templates/csrf_error.html:24
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
@@ -498,9 +494,10 @@ msgid "If you have additional information how to reproduce this problem, please 
 msgstr "Se hai altre informazioni utili per riprodurre il problema, <a href=\"%(bug_url)s\">invia una segnalazione.</a> Grazie!"
 
 #: apps/feedback/templates/feedback/feedback.html:86
-#, fuzzy
 msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_idea)s\">idea box</a>!"
-msgstr "Se invece vuoi condividere con noi una tua idea, inviacela utilizzando il <a href=\"%(url_suggestion)s\">modulo per i suggerimenti</a>."
+msgstr ""
+"Se invece vuoi condividere con noi una tua idea, inviacela utilizzando la <a "
+"href=\"%(url_idea)s\">scatola dei suggerimenti</a>."
 
 #: apps/feedback/templates/feedback/release_index.html:24
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
@@ -701,9 +698,10 @@ msgid "Open Data"
 msgstr "Open Data"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:68
-#, fuzzy
 msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
-msgstr "Oppure inviaci la tua idea utilizzando il <a href=\"%(url_suggestion)s\">modulo per i suggerimenti</a>."
+msgstr ""
+"Oppure inviaci la tua idea utilizzando la <a href=\"%(url_idea)s\">scatola dei "
+"suggerimenti</a>."
 
 #: apps/input/__init__.py:271
 msgid "Other"
@@ -719,7 +717,7 @@ msgstr "Il nostro motore di ricerca potrebbe non essere momentaneamente disponib
 
 #: apps/search/forms.py:68
 msgid "PLATFORM:"
-msgstr ""
+msgstr "Piattaforma:"
 
 #: apps/input/__init__.py:118
 msgid "Page Load Time"
@@ -751,7 +749,7 @@ msgstr "Assicurati che non sia presente alcuna informazione personale."
 
 #: apps/feedback/forms.py:159
 msgid "Please rate at least one item."
-msgstr ""
+msgstr "Dai un voto ad almeno un elemento."
 
 #: templates/404.html:9 templates/500.html:14
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
@@ -888,9 +886,10 @@ msgid "Sites with only one message"
 msgstr "Siti con un solo messaggio"
 
 #: apps/feedback/templates/feedback/feedback.html:29
-#, fuzzy
 msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please enter your idea below:"
-msgstr "Vuoi consigliarci un modo per migliorare Firefox? Splendido. Inserisci il tuo suggerimento:"
+msgstr ""
+"Vuoi consigliarci un modo per migliorare Firefox? Splendido. Descrivi la tua "
+"idea:"
 
 #: templates/about.html:34
 msgid "Source Code"
