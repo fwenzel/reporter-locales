@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-12-22 23:23+0200\n"
-"PO-Revision-Date: 2011-02-17 22:24+0200\n"
+"PO-Revision-Date: 2011-02-18 09:22+0200\n"
 "Last-Translator: Edin <edo@mozilla-hr.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -501,6 +501,8 @@ msgstr "Ideje jedino"
 #: templates/csrf_error.html:24
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
 msgstr ""
+"Ukoliko se problem nastavi događati <a href=\"%(bug_url)s\">prijavite bug.</a> "
+"Hvala!"
 
 #: apps/search/templates/search/unavailable.html:17
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
@@ -517,6 +519,8 @@ msgstr ""
 #: apps/feedback/templates/feedback/feedback.html:86
 msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_idea)s\">idea box</a>!"
 msgstr ""
+"Ukoliko želite nam ponuditi ideju umjesto toga, molimo pošaljite nam poruku "
+"preko naše <a href=\"%(url_idea)s\">kutije za prijedloge</a>!"
 
 #: apps/feedback/templates/feedback/release_index.html:24
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
@@ -733,6 +737,8 @@ msgstr "Otvori podatke"
 #: apps/feedback/templates/feedback/mobile/feedback.html:68
 msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
 msgstr ""
+"Ili podnesite vaše ideje sa našom <a href=\"%(url_idea)s\">kutijom za "
+"prijedloge</a>!"
 
 #: apps/input/__init__.py:271
 msgid "Other"
@@ -924,6 +930,8 @@ msgstr "Stranice samo s jednom porukom"
 #: apps/feedback/templates/feedback/feedback.html:29
 msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please enter your idea below:"
 msgstr ""
+"Dakle, želite predložiti kako možemo poboljšati Firefox? Izvrsno! Molimo "
+"unesite vašu prijedlog ispod:"
 
 #: templates/about.html:34
 msgid "Source Code"
@@ -1003,6 +1011,10 @@ msgid ""
 "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable cookies "
 "in Firefox, then try again."
 msgstr ""
+"Vjerojatni uzrok ove pogreške je da vaš preglednik je podešen da <strong>ne "
+"prihvaća kolačiće</strong> od nas. Molimo slijedite <a href=\"%"
+"(cookies_url)s\">ove upute</a> da omogućite kolačiće u Firefoxu i nakon toga "
+"pokušajte ponovno."
 
 #: apps/themes/templates/themes/theme.html:4 apps/themes/templates/themes/theme.html:17 apps/website_issues/templates/website_issues/theme.html:19
 msgid "Theme"
@@ -1019,6 +1031,8 @@ msgstr "Teme"
 #: templates/csrf_error.html:8
 msgid "There was an error verifying your CSRF token. Your request could not be processed. We apologize for the inconvenience!"
 msgstr ""
+"Dogodila se pogreška pri verifikaciji vašeg CSRF tokena. Vaš zahtjev nije "
+"mogao biti obrađen. Ispričavamo se zbog neugodnosti!"
 
 #: apps/feedback/templates/feedback/need_beta.html:14
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
