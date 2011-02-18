@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 15:37+0200\n"
-"PO-Revision-Date: 2011-02-08 12:48+0200\n"
+"PO-Revision-Date: 2011-02-18 18:54+0200\n"
 "Last-Translator: Γιώργος Φιωτάκης <fiotakis@otenet.gr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -28,19 +28,24 @@ msgid_plural "%(count)s similar"
 msgstr[0] "{count} συναφές"
 msgstr[1] "{count} συναφή"
 
-#: apps/themes/templates/themes/theme_list.html:16 apps/website_issues/templates/website_issues/includes/single_site.html:21
+#: apps/themes/templates/themes/theme_list.html:16
+#: apps/website_issues/templates/website_issues/includes/single_site.html:21
 msgid "%(count)s similar message"
 msgid_plural "%(count)s similar messages"
 msgstr[0] "{count} συναφές μήνυμα"
 msgstr[1] "{count} συναφή μηνύματα"
 
 #. A quasi strftime string for a full date.
-#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:5 apps/search/templates/search/release.html:25 apps/search/templates/search/includes/ratings_chart.html:6
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:5
+#: apps/search/templates/search/release.html:25
+#: apps/search/templates/search/includes/ratings_chart.html:6
 msgid "%e %B %Y"
 msgstr "%e %B %Y"
 
 #. A quasi strftime string for a short date (no year).
-#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:7 apps/search/templates/search/release.html:27 apps/search/templates/search/includes/ratings_chart.html:8
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:7
+#: apps/search/templates/search/release.html:27
+#: apps/search/templates/search/includes/ratings_chart.html:8
 msgid "%e %b"
 msgstr "%e %b"
 
@@ -48,15 +53,20 @@ msgstr "%e %b"
 msgid "&infin;"
 msgstr "&infin;"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:35 apps/search/templates/search/mobile/search.html:38
+#: apps/dashboard/templates/dashboard/mobile/beta.html:35
+#: apps/search/templates/search/mobile/search.html:38
 msgid "&laquo; Newer Feedback"
 msgstr "&laquo; Νεότερα σχόλια"
 
-#: apps/dashboard/templates/dashboard/beta.html:24 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:63
+#: apps/dashboard/templates/dashboard/beta.html:24
+#: apps/input/templates/input/pager.html:3
+#: apps/search/templates/search/search.html:63
 msgid "&laquo; Newer Messages"
 msgstr "&laquo; Νεότερα μηνύματα"
 
-#: apps/themes/templates/themes/theme.html:28 apps/website_issues/templates/website_issues/theme.html:30 apps/website_issues/templates/website_issues/includes/paginate_sites.html:3
+#: apps/themes/templates/themes/theme.html:28
+#: apps/website_issues/templates/website_issues/theme.html:30
+#: apps/website_issues/templates/website_issues/includes/paginate_sites.html:3
 msgid "&laquo; Previous Page"
 msgstr "&laquo; προηγούμενη σελίδα"
 
@@ -66,7 +76,6 @@ msgid "-- all --"
 msgstr "-- όλες --"
 
 #: apps/search/forms.py:42
-#, fuzzy
 msgctxt "platform_choice"
 msgid "-- all --"
 msgstr "-- όλες --"
@@ -76,7 +85,10 @@ msgctxt "sentiment_choice"
 msgid "-- all --"
 msgstr "-- όλες --"
 
-#: apps/search/forms.py:22 apps/search/forms.py:24 apps/search/forms.py:28 apps/search/forms.py:30
+#: apps/search/forms.py:22
+#: apps/search/forms.py:24
+#: apps/search/forms.py:28
+#: apps/search/forms.py:30
 msgctxt "version_choice"
 msgid "-- all --"
 msgstr "-- όλες --"
@@ -104,13 +116,8 @@ msgid "<strong>Firefox Beta</strong> Input Dashboard"
 msgstr "<strong>Δοκιμαστικές εκδόσεις Firefox</strong> - Ταμπλό σχολίων"
 
 #: templates/about.html:9
-msgid ""
-"<strong>Firefox Input</strong> is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it "
-"through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
-msgstr ""
-"Το <strong>Firefox Input</strong> είναι το βασικό σύστημα υποβολής σχολίων του Mozilla. Έχει ρυθμιστεί ώστε να είναι ο ευκολότερος τρόπος επικοινωνίας σχετικά με την εμπειρία σας στη χρήση του "
-"Firefox, τις σελίδες που βλέπετε και του τι μπορεί να κάνει το ίδρυμα Mozilla για να τα βελτιώσει όλα αυτά. Το σύστημα αυτό είναι διαθέσιμο με ένα μεγάλος εύρος μηχανισμών και για τα τρία βασικά "
-"κανάλια δημιουργίας."
+msgid "<strong>Firefox Input</strong> is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
+msgstr "Το <strong>Firefox Input</strong> είναι το βασικό σύστημα υποβολής σχολίων του Mozilla. Έχει ρυθμιστεί ώστε να είναι ο ευκολότερος τρόπος επικοινωνίας σχετικά με την εμπειρία σας στη χρήση του Firefox, τις σελίδες που βλέπετε και του τι μπορεί να κάνει το ίδρυμα Mozilla για να τα βελτιώσει όλα αυτά. Το σύστημα αυτό είναι διαθέσιμο με ένα μεγάλος εύρος μηχανισμών και για τα τρία βασικά κανάλια δημιουργίας."
 
 #: templates/base.html:47
 msgid "<strong>Firefox Release</strong> Input Dashboard"
@@ -128,7 +135,8 @@ msgstr "@MozMobile"
 msgid "ATOM feed for this search"
 msgstr "Ροή ΑΤΟΜ της αναζήτησης"
 
-#: templates/about.html:3 templates/includes/footer.html:11
+#: templates/about.html:3
+#: templates/includes/footer.html:11
 msgid "About Firefox Input"
 msgstr "Περί Firefox Input"
 
@@ -144,7 +152,8 @@ msgstr "Να προστεθεί το URL της τελευταίας σελίδ�
 msgid "Advanced"
 msgstr "Για προχωρημένους"
 
-#: apps/themes/views.py:24 apps/themes/views.py:51
+#: apps/themes/views.py:24
+#: apps/themes/views.py:51
 msgid "All"
 msgstr "Όλα"
 
@@ -162,7 +171,8 @@ msgstr "Όλα"
 msgid "All Platforms"
 msgstr "ολες οι πλατφορμες"
 
-#: apps/themes/views.py:24 apps/website_issues/templates/website_issues/sites.html:35
+#: apps/themes/views.py:24
+#: apps/website_issues/templates/website_issues/sites.html:35
 msgid "All feedback"
 msgstr "Όλα τα σχόλια"
 
@@ -184,7 +194,6 @@ msgid "Average Ratings Over Time"
 msgstr "Μεσος ορος βαθμολογιων γενικα"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:28
-#, fuzzy
 msgid "Awesome! Please enter your idea below:"
 msgstr "Θαυμάσια, υποβάλετε την πρόταση σας παρακάτω:"
 
@@ -204,7 +213,9 @@ msgstr "Πίσω σε {domain} &raquo;"
 msgid "Beta Channel"
 msgstr "Δοκιμαστικές εκδόσεις"
 
-#: apps/website_issues/templates/website_issues/sites.html:5 apps/website_issues/templates/website_issues/includes/sites_list.html:14 templates/base.html:54
+#: apps/website_issues/templates/website_issues/sites.html:5
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:14
+#: templates/base.html:54
 msgid "Broken Sites"
 msgstr "«Σπασμένες» σελίδες"
 
@@ -253,7 +264,8 @@ msgstr "Περιγράψτε το πρόβλημα με τη σελίδα."
 msgid "Describe the problem with the website."
 msgstr "Περιγράψτε το πρόβλημα με τη σελίδα."
 
-#: apps/feedback/templates/feedback/release_index.html:181 apps/feedback/templates/feedback/mobile/release_index.html:140
+#: apps/feedback/templates/feedback/release_index.html:181
+#: apps/feedback/templates/feedback/mobile/release_index.html:140
 msgid "Describe your idea below."
 msgstr "Περιγράψτε την ιδέα σας παρακάτω."
 
@@ -273,7 +285,8 @@ msgstr "Μήπως κάποια σελίδα εμφανίζεται ή συμπ�
 msgid "Don't Care"
 msgstr "Δεν με ενδιαφέρει"
 
-#: apps/feedback/templates/feedback/need_beta.html:3 apps/feedback/templates/feedback/mobile/need_beta.html:3
+#: apps/feedback/templates/feedback/need_beta.html:3
+#: apps/feedback/templates/feedback/mobile/need_beta.html:3
 msgid "Download Beta"
 msgstr "Λήψη δοκιμαστικής έκδοσης"
 
@@ -281,14 +294,15 @@ msgstr "Λήψη δοκιμαστικής έκδοσης"
 msgid "Download Firefox"
 msgstr "Λήψη του Firefox"
 
-#: apps/feedback/forms.py:106 apps/feedback/forms.py:119
+#: apps/feedback/forms.py:106
+#: apps/feedback/forms.py:119
 msgid "Enter your feedback here."
 msgstr "Εισάγετε το σχόλιο σας εδώ."
 
-#: apps/feedback/forms.py:132 apps/feedback/forms.py:189
-#, fuzzy
+#: apps/feedback/forms.py:132
+#: apps/feedback/forms.py:189
 msgid "Enter your ideas here."
-msgstr "Εισάγετε το σχόλιο σας εδώ."
+msgstr "Εισάγετε τις προτάσεις σας εδώ."
 
 #: apps/feedback/forms.py:173
 msgid "Example: Images were not loading, but the rest of the page was."
@@ -298,13 +312,11 @@ msgstr "Παράδειγμα: Οι εικόνες δεν φορτώθηκαν α
 msgid "Excellent"
 msgstr "Θαυμάσια"
 
-#: templates/base_mobile_old.html:61 templates/base_old.html:68 templates/includes/footer.html:14
-msgid ""
-"Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
-"any later version."
-msgstr ""
-"Εκτός από όπου <a href=\"%(legal_url)s\">ορίζεται</a> διαφορετικά, το περιεχόμενο του ιστότοπου παρέχεται σύμφωνα με την άδεια <br/> <a href=\"%(license_url)s\">Creative Commons αναφορά προέλευσης "
-"- παρόμοια διανομή 3.0</a> ή μεταγενέστερη."
+#: templates/base_mobile_old.html:61
+#: templates/base_old.html:68
+#: templates/includes/footer.html:14
+msgid "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any later version."
+msgstr "Εκτός από όπου <a href=\"%(legal_url)s\">ορίζεται</a> διαφορετικά, το περιεχόμενο του ιστότοπου παρέχεται σύμφωνα με την άδεια <br/> <a href=\"%(license_url)s\">Creative Commons αναφορά προέλευσης - παρόμοια διανομή 3.0</a> ή μεταγενέστερη."
 
 #: templates/base.html:53
 msgid "Experience"
@@ -327,7 +339,8 @@ msgstr "Μέτριος"
 msgid "Features"
 msgstr "Χαρακτηριστικά"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:6 apps/search/templates/search/mobile/search.html:6
+#: apps/dashboard/templates/dashboard/mobile/beta.html:6
+#: apps/search/templates/search/mobile/search.html:6
 msgid "Feed"
 msgstr "Σχόλιο"
 
@@ -343,7 +356,8 @@ msgstr "Ταμπλό σχολίων"
 msgid "Feedback must not contain HTML."
 msgstr "Τα σχόλια δεν μπορούν να περιέχουν κώδικα HTML."
 
-#: apps/feedback/templates/feedback/thanks.html:17 apps/feedback/templates/feedback/mobile/thanks.html:12
+#: apps/feedback/templates/feedback/thanks.html:17
+#: apps/feedback/templates/feedback/mobile/thanks.html:12
 msgid "Find out the latest news from Mozilla:"
 msgstr "Δείτε τα πιο πρόσφατα νέα του Mozilla:"
 
@@ -355,7 +369,8 @@ msgstr "Δείτε τα πιο πρόσφατα νέα του Firefox:"
 msgid "Firefox"
 msgstr "Firefox"
 
-#: apps/search/views.py:91 apps/search/views.py:110
+#: apps/search/views.py:91
+#: apps/search/views.py:110
 msgid "Firefox Input"
 msgstr "Firefox Input"
 
@@ -368,19 +383,23 @@ msgstr "Firefox Input: '{query}'"
 msgid "Firefox Logo"
 msgstr "Λογότυπο Firefox"
 
-#: apps/feedback/templates/feedback/mobile/beta_index.html:13 apps/feedback/templates/feedback/mobile/beta_index.html:15
+#: apps/feedback/templates/feedback/mobile/beta_index.html:13
+#: apps/feedback/templates/feedback/mobile/beta_index.html:15
 msgid "Firefox makes me happy ..."
 msgstr "Ο  Firefox με ευχαριστεί..."
 
-#: apps/feedback/templates/feedback/beta_index.html:13 apps/feedback/templates/feedback/beta_index.html:15
+#: apps/feedback/templates/feedback/beta_index.html:13
+#: apps/feedback/templates/feedback/beta_index.html:15
 msgid "Firefox makes me happy because ..."
 msgstr "Ο Firefox με ευχαριστεί γιατί..."
 
-#: apps/feedback/templates/feedback/mobile/beta_index.html:18 apps/feedback/templates/feedback/mobile/beta_index.html:20
+#: apps/feedback/templates/feedback/mobile/beta_index.html:18
+#: apps/feedback/templates/feedback/mobile/beta_index.html:20
 msgid "Firefox makes me sad ..."
 msgstr "Ο Firefox με δυσαρεστεί..."
 
-#: apps/feedback/templates/feedback/beta_index.html:19 apps/feedback/templates/feedback/beta_index.html:21
+#: apps/feedback/templates/feedback/beta_index.html:19
+#: apps/feedback/templates/feedback/beta_index.html:21
 msgid "Firefox makes me sad because ..."
 msgstr "Ο Firefox με δυσαρεστεί γιατί..."
 
@@ -397,7 +416,8 @@ msgstr "Ακολουθήστε μας στο Twitter."
 msgid "For last:"
 msgstr "Για τις τελευταίες:"
 
-#: apps/feedback/templates/feedback/mobile/release_index.html:101 apps/feedback/templates/feedback/mobile/release_index.html:145
+#: apps/feedback/templates/feedback/mobile/release_index.html:101
+#: apps/feedback/templates/feedback/mobile/release_index.html:145
 msgid "For your privacy, please ensure that no personally identifiable information is included in your feedback."
 msgstr "Για την προστασία του ιδιωτικού σας απορρήτου, παρακαλούμε βεβαιωθείτε ότι δεν συμπεριλαμβάνετε πληροφορίες ταυτοποίησης στα σχόλια σας."
 
@@ -405,12 +425,18 @@ msgstr "Για την προστασία του ιδιωτικού σας απο
 msgid "Get the latest news on Firefox."
 msgstr "Δείτε τα νέα του Firefox."
 
-#: templates/includes/channel_switcher.html:13 templates/includes/footer_release.html:16 templates/includes/lang_switcher.html:10
+#: templates/includes/channel_switcher.html:13
+#: templates/includes/footer_release.html:16
+#: templates/includes/lang_switcher.html:10
 msgid "Go"
 msgstr "Εμπρός"
 
-#: apps/feedback/templates/feedback/release_index.html:40 apps/feedback/templates/feedback/release_index.html:114 apps/feedback/templates/feedback/release_index.html:171
-#: apps/feedback/templates/feedback/mobile/release_index.html:28 apps/feedback/templates/feedback/mobile/release_index.html:78 apps/feedback/templates/feedback/mobile/release_index.html:130
+#: apps/feedback/templates/feedback/release_index.html:40
+#: apps/feedback/templates/feedback/release_index.html:114
+#: apps/feedback/templates/feedback/release_index.html:171
+#: apps/feedback/templates/feedback/mobile/release_index.html:28
+#: apps/feedback/templates/feedback/mobile/release_index.html:78
+#: apps/feedback/templates/feedback/mobile/release_index.html:130
 msgid "Go Back"
 msgstr "Μετάβαση πίσω"
 
@@ -475,18 +501,22 @@ msgstr "Λυπούμαστε αλλά δεν βρέθηκε αυτό που ζη
 msgid "I'm sorry, there was an error with your search."
 msgstr "Λυπούμαστε αλλά παρουσιάστηκε σφάλμα στην αναζήτηση σας."
 
-#: apps/input/__init__.py:77 apps/search/views.py:223 apps/themes/templates/themes/theme_list.html:10
+#: apps/input/__init__.py:77
+#: apps/search/views.py:223
+#: apps/themes/templates/themes/theme_list.html:10
 msgid "Idea"
-msgstr ""
+msgstr "Πρόταση"
 
-#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:38 apps/themes/views.py:39
+#: apps/dashboard/views.py:55
+#: apps/dashboard/templates/dashboard/overview.html:40
+#: apps/search/forms.py:38
+#: apps/themes/views.py:39
 msgid "Ideas"
-msgstr ""
+msgstr "Προτάσεις"
 
 #: apps/themes/views.py:40
-#, fuzzy
 msgid "Ideas only"
-msgstr "Μόνο προβλήματα"
+msgstr "Μόνο προτάσεις"
 
 #: templates/csrf_error.html:24
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
@@ -501,7 +531,6 @@ msgid "If you have additional information how to reproduce this problem, please 
 msgstr "Αν έχετε πρόσθετες πληροφορίες για το πως μπορούμε να αναπαράγουμε το πρόβλημα, σας παρακαλούμε να <a href=\"%(bug_url)s\">καταχωρίσετε ένα bug.</a> Ευχαριστούμε!"
 
 #: apps/feedback/templates/feedback/feedback.html:86
-#, fuzzy
 msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_idea)s\">idea box</a>!"
 msgstr "Αν θέλετε να μας προτείνετε μια καλύτερη ιδέα, σας παρακαλούμε να την υποβάλετε μέσω του <a href=\"%(url_suggestion)s\">πλαισίου προτάσεων</a>!"
 
@@ -525,7 +554,8 @@ msgstr "Αν ακολουθήσατε ένα προβληματικό δεσμό
 msgid "Include the following error message in your bug report:"
 msgstr "Συμπεριλάβετε το ακόλουθο μήνυμα σφάλματος στην αναφορά του bug που θα κάνετε:"
 
-#: templates/base_mobile_old.html:30 templates/base_old.html:35
+#: templates/base_mobile_old.html:30
+#: templates/base_old.html:35
 msgid "Input Dashboard"
 msgstr "Ταμπλό εισαγωγής"
 
@@ -533,21 +563,31 @@ msgstr "Ταμπλό εισαγωγής"
 msgid "Internal Server Error"
 msgstr "Εσωτερικό σφάλμα διακομιστή"
 
-#: apps/feedback/views.py:109 apps/feedback/views.py:176
+#: apps/feedback/views.py:109
+#: apps/feedback/views.py:176
 msgid "Invalid feedback type"
 msgstr "Μη έγκυρος τύπος σχολίου"
 
-#: apps/feedback/helpers.py:39 apps/input/__init__.py:70 apps/themes/templates/themes/theme_list.html:12 apps/website_issues/templates/website_issues/includes/single_site.html:14
+#: apps/feedback/helpers.py:39
+#: apps/input/__init__.py:70
+#: apps/themes/templates/themes/theme_list.html:12
+#: apps/website_issues/templates/website_issues/includes/single_site.html:14
 msgid "Issue"
 msgstr "Πρόβλημα"
 
 #. Formerly called "sad"
-#: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/search/views.py:222
-#: apps/themes/views.py:34 apps/website_issues/templates/website_issues/sites.html:37
+#: apps/dashboard/views.py:54
+#: apps/dashboard/templates/dashboard/overview.html:27
+#: apps/dashboard/templates/dashboard/mobile/overview.html:15
+#: apps/search/forms.py:37
+#: apps/search/views.py:222
+#: apps/themes/views.py:34
+#: apps/website_issues/templates/website_issues/sites.html:37
 msgid "Issues"
 msgstr "Προβλήματα"
 
-#: apps/themes/views.py:34 apps/website_issues/templates/website_issues/sites.html:37
+#: apps/themes/views.py:34
+#: apps/website_issues/templates/website_issues/sites.html:37
 msgid "Issues only"
 msgstr "Μόνο προβλήματα"
 
@@ -578,7 +618,9 @@ msgstr "Τελευταία ημέρα"
 msgid "Latest Feedback"
 msgstr "Τελευταια σχολια"
 
-#: templates/base_mobile_old.html:57 templates/base_old.html:64 templates/includes/footer.html:9
+#: templates/base_mobile_old.html:57
+#: templates/base_old.html:64
+#: templates/includes/footer.html:9
 msgid "Legal Notices"
 msgstr "Νομικές σημειώσεις"
 
@@ -602,7 +644,8 @@ msgstr "Γίνεται φόρτωση του ιστορικού σχολίων..
 msgid "Loading ratings history..."
 msgstr "Γίνεται φόρτωση του ιστορικού βαθμολόγησης..."
 
-#: apps/dashboard/templates/dashboard/locales.html:17 apps/dashboard/templates/dashboard/mobile/locales.html:9
+#: apps/dashboard/templates/dashboard/locales.html:17
+#: apps/dashboard/templates/dashboard/mobile/locales.html:9
 msgid "Locale"
 msgstr "Γλωσσα"
 
@@ -635,7 +678,8 @@ msgstr "Κινητό"
 msgid "More Locales"
 msgstr "Περισσότερες γλώσσες"
 
-#: apps/dashboard/templates/dashboard/message_list.html:29 apps/themes/templates/themes/theme_list.html:28
+#: apps/dashboard/templates/dashboard/message_list.html:29
+#: apps/themes/templates/themes/theme_list.html:28
 msgid "More Options"
 msgstr "Περισσότερες επιλογές"
 
@@ -643,7 +687,9 @@ msgstr "Περισσότερες επιλογές"
 msgid "More sites..."
 msgstr "Περισσότεροι ιστότοποι"
 
-#: apps/themes/templates/themes/theme.html:36 apps/website_issues/templates/website_issues/theme.html:38 apps/website_issues/templates/website_issues/includes/paginate_sites.html:11
+#: apps/themes/templates/themes/theme.html:36
+#: apps/website_issues/templates/website_issues/theme.html:38
+#: apps/website_issues/templates/website_issues/includes/paginate_sites.html:11
 msgid "Next Page &raquo;"
 msgstr "Επόμενη σελίδα &raquo;"
 
@@ -666,7 +712,8 @@ msgstr "Δεν βρεθηκαν αποτελεσματα!"
 msgid "No results found!"
 msgstr "Δεν βρεθηκαν αποτελεσματα!"
 
-#: apps/dashboard/templates/dashboard/message_list.html:51 apps/themes/templates/themes/theme_list.html:41
+#: apps/dashboard/templates/dashboard/message_list.html:51
+#: apps/themes/templates/themes/theme_list.html:41
 msgid "No search results found."
 msgstr "Δεν βρέθηκαν αποτελέσματα."
 
@@ -675,7 +722,8 @@ msgid "Not Found"
 msgstr "Δεν βρέθηκε"
 
 #. Refers to terms often mentioned in feedback.
-#: apps/dashboard/templates/dashboard/themes.html:3 apps/dashboard/templates/dashboard/mobile/themes.html:2
+#: apps/dashboard/templates/dashboard/themes.html:3
+#: apps/dashboard/templates/dashboard/mobile/themes.html:2
 msgid "Often Mentioned"
 msgstr "Συχνα αναφερομενα"
 
@@ -689,15 +737,16 @@ msgstr "Σας ευχαριστούμε που θέλετε να μας προσ
 
 #: apps/feedback/templates/feedback/mobile/need_beta.html:9
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
-msgstr ""
-"Θέλετε λοιπόν να μας προσφέρετε τα σχόλια σας, θαυμάσια! Θα χρειαστείτε όμως την πιο πρόσφατη δοκιμαστική έκδοση. Απλά <a href=\"%(url)s\">κάντε λήψη</a> από τη σελίδα των δοκιμαστικών μας "
-"εκδόσεων. "
+msgstr "Θέλετε λοιπόν να μας προσφέρετε τα σχόλια σας, θαυμάσια! Θα χρειαστείτε όμως την πιο πρόσφατη δοκιμαστική έκδοση. Απλά <a href=\"%(url)s\">κάντε λήψη</a> από τη σελίδα των δοκιμαστικών μας εκδόσεων. "
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:36 apps/search/templates/search/mobile/search.html:48
+#: apps/dashboard/templates/dashboard/mobile/beta.html:36
+#: apps/search/templates/search/mobile/search.html:48
 msgid "Older Feedback &raquo;"
 msgstr "Παλιότερα σχόλια &raquo;"
 
-#: apps/dashboard/templates/dashboard/beta.html:25 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:73
+#: apps/dashboard/templates/dashboard/beta.html:25
+#: apps/input/templates/input/pager.html:11
+#: apps/search/templates/search/search.html:73
 msgid "Older Messages &raquo;"
 msgstr "Παλιότερα μηνύματα &raquo;"
 
@@ -707,15 +756,15 @@ msgid "Open Data"
 msgstr "Ανοικτα δεδομενα"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:68
-#, fuzzy
 msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
-msgstr "Ή υποβάλετε τις ιδέες σας μέσω του <a href=\"%(url_suggestion)s\">πλαισίου προτάσεων</a> μας!"
+msgstr "Ή υποβάλετε τις προτάσεις σας μέσω του <a href=\"%(url_suggestion)s\">πλαισίου προτάσεων</a> μας!"
 
 #: apps/input/__init__.py:271
 msgid "Other"
 msgstr "Άλλη"
 
-#: templates/includes/footer_release.html:5 templates/includes/lang_switcher.html:2
+#: templates/includes/footer_release.html:5
+#: templates/includes/lang_switcher.html:2
 msgid "Other languages:"
 msgstr "Άλλες γλώσσες:"
 
@@ -725,17 +774,20 @@ msgstr "Η μηχανή αναζήτησης μας ίσως δεν είναι �
 
 #: apps/search/forms.py:68
 msgid "PLATFORM:"
-msgstr ""
+msgstr "ΠΛΑΤΦΟΡΜΑ:"
 
 #: apps/input/__init__.py:118
 msgid "Page Load Time"
 msgstr "Χρόνος φόρτωσης σελίδας"
 
-#: apps/feedback/templates/feedback/release_index.html:245 apps/feedback/templates/feedback/mobile/release_index.html:210
+#: apps/feedback/templates/feedback/release_index.html:245
+#: apps/feedback/templates/feedback/mobile/release_index.html:210
 msgid "Planet Mozilla"
 msgstr "Planet Mozilla"
 
-#: apps/dashboard/templates/dashboard/platforms.html:12 apps/dashboard/templates/dashboard/mobile/platforms.html:8 apps/themes/templates/themes/index.html:24
+#: apps/dashboard/templates/dashboard/platforms.html:12
+#: apps/dashboard/templates/dashboard/mobile/platforms.html:8
+#: apps/themes/templates/themes/index.html:24
 msgid "Platform"
 msgstr "Πλατφορμα"
 
@@ -751,15 +803,17 @@ msgstr "Σας παρακαλούμε να επιλέξετε ένα από το
 msgid "Please choose the type of feedback that you would like to submit to us:"
 msgstr "Παρακαλούμε επιλέξτε τον τύπο σχολίων που θέλετε να υποβάλετε:"
 
-#: apps/feedback/templates/feedback/feedback.html:77 apps/feedback/templates/feedback/mobile/feedback.html:59
+#: apps/feedback/templates/feedback/feedback.html:77
+#: apps/feedback/templates/feedback/mobile/feedback.html:59
 msgid "Please ensure that there is no personally identifiable information here."
 msgstr "Σας παρακαλούμε να βεβαιωθείτε ότι δεν αποστέλλετε πληροφορίες που να σας ταυτοποιούν."
 
 #: apps/feedback/forms.py:159
 msgid "Please rate at least one item."
-msgstr ""
+msgstr "Παρακαλούμε βαθμολογήστε τουλάχιστον ένα στοιχείο"
 
-#: templates/404.html:9 templates/500.html:14
+#: templates/404.html:9
+#: templates/500.html:14
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 msgstr "Παρακαλούμε ξεκινήστε από την αρχή στο <a href=\"%(dashboard_url)s\">ταμπλό</a>."
 
@@ -768,29 +822,47 @@ msgid "Poor"
 msgstr "Φτωχός"
 
 #. Formerly called "happy"
-#: apps/dashboard/views.py:53 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:63
-#: apps/search/forms.py:36 apps/search/views.py:221 apps/themes/views.py:29 apps/themes/templates/themes/theme_list.html:8 apps/website_issues/templates/website_issues/sites.html:36
+#: apps/dashboard/views.py:53
+#: apps/dashboard/templates/dashboard/overview.html:13
+#: apps/dashboard/templates/dashboard/mobile/overview.html:8
+#: apps/feedback/helpers.py:36
+#: apps/input/__init__.py:63
+#: apps/search/forms.py:36
+#: apps/search/views.py:221
+#: apps/themes/views.py:29
+#: apps/themes/templates/themes/theme_list.html:8
+#: apps/website_issues/templates/website_issues/sites.html:36
 #: apps/website_issues/templates/website_issues/includes/single_site.html:12
 msgid "Praise"
 msgstr "Έπαινοι"
 
-#: apps/themes/views.py:29 apps/website_issues/templates/website_issues/sites.html:36
+#: apps/themes/views.py:29
+#: apps/website_issues/templates/website_issues/sites.html:36
 msgid "Praise only"
 msgstr "Μόνο έπαινοι"
 
-#: templates/base_mobile_old.html:56 templates/base_old.html:63 templates/includes/footer.html:8
+#: templates/base_mobile_old.html:56
+#: templates/base_old.html:63
+#: templates/includes/footer.html:8
 msgid "Privacy Policy"
 msgstr "Πολιτική απορρήτου"
 
-#: templates/base.html:23 templates/base_mobile_old.html:20 templates/base_old.html:23
+#: templates/base.html:23
+#: templates/base_mobile_old.html:20
+#: templates/base_old.html:23
 msgid "Proceed to footer"
 msgstr "Μετάβαση στο υποσέλιδο"
 
-#: templates/base.html:22 templates/base_mobile_old.html:19 templates/base_old.html:22
+#: templates/base.html:22
+#: templates/base_mobile_old.html:19
+#: templates/base_old.html:22
 msgid "Proceed to main content"
 msgstr "Μετάβαση στο κυρίως περιεχόμενο"
 
-#: apps/search/templates/search/search.html:20 apps/themes/templates/themes/index.html:10 apps/website_issues/templates/website_issues/sites.html:22 templates/includes/filters.html:6
+#: apps/search/templates/search/search.html:20
+#: apps/themes/templates/themes/index.html:10
+#: apps/website_issues/templates/website_issues/sites.html:22
+#: templates/includes/filters.html:6
 msgid "Product"
 msgstr "Προϊον:"
 
@@ -806,7 +878,9 @@ msgstr "Δώστε μας μερικές λεπτομέρειες για το π
 msgid "Query has timed out."
 msgstr "Τέλος χρόνου αναζήτησης."
 
-#: apps/feedback/templates/feedback/release_index.html:16 apps/feedback/templates/feedback/release_index.html:37 apps/feedback/templates/feedback/mobile/release_index.html:16
+#: apps/feedback/templates/feedback/release_index.html:16
+#: apps/feedback/templates/feedback/release_index.html:37
+#: apps/feedback/templates/feedback/mobile/release_index.html:16
 #: apps/feedback/templates/feedback/mobile/release_index.html:32
 msgid "Rate Your Experience"
 msgstr "Βαθμολογήστε την εμπειρία που είχατε"
@@ -819,11 +893,15 @@ msgstr "Βαθμολόγηση"
 msgid "Release Channel"
 msgstr "Κανονικές εκδόσεις"
 
-#: templates/base_mobile_old.html:58 templates/base_old.html:65 templates/includes/footer.html:10
+#: templates/base_mobile_old.html:58
+#: templates/base_old.html:65
+#: templates/includes/footer.html:10
 msgid "Report Trademark Abuse"
 msgstr "Αναφορά παραβίασης εμπορικών σημάτων"
 
-#: apps/feedback/templates/feedback/release_index.html:17 apps/feedback/templates/feedback/release_index.html:108 apps/feedback/templates/feedback/mobile/release_index.html:17
+#: apps/feedback/templates/feedback/release_index.html:17
+#: apps/feedback/templates/feedback/release_index.html:108
+#: apps/feedback/templates/feedback/mobile/release_index.html:17
 #: apps/feedback/templates/feedback/mobile/release_index.html:82
 msgid "Report a Site Issue"
 msgstr "Αναφορά προβληματικής σελίδας"
@@ -836,7 +914,8 @@ msgstr "Ικανότητα απόκρισης"
 msgid "Search"
 msgstr "Αναζήτηση"
 
-#: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:49
+#: apps/search/templates/search/search.html:5
+#: apps/search/templates/search/search.html:49
 msgid "Search Results"
 msgstr "Αποτελεσματα αναζητησης"
 
@@ -876,7 +955,9 @@ msgctxt "date_range_set"
 msgid "Set"
 msgstr "Ορισμός"
 
-#: apps/feedback/templates/feedback/release_index.html:18 apps/feedback/templates/feedback/release_index.html:168 apps/feedback/templates/feedback/mobile/release_index.html:18
+#: apps/feedback/templates/feedback/release_index.html:18
+#: apps/feedback/templates/feedback/release_index.html:168
+#: apps/feedback/templates/feedback/mobile/release_index.html:18
 #: apps/feedback/templates/feedback/mobile/release_index.html:134
 msgid "Share an Idea"
 msgstr "Μοιραστείτε μια ιδέα"
@@ -885,8 +966,11 @@ msgstr "Μοιραστείτε μια ιδέα"
 msgid "Show/Hide Options"
 msgstr "Προβολή/απόκρυψη επιλογών"
 
-#: apps/website_issues/templates/website_issues/sites.html:6 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/includes/sites_list.html:16
-#: templates/base.html:39 templates/includes/nav_buttons.html:4
+#: apps/website_issues/templates/website_issues/sites.html:6
+#: apps/website_issues/templates/website_issues/theme.html:4
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:16
+#: templates/base.html:39
+#: templates/includes/nav_buttons.html:4
 msgid "Sites"
 msgstr "Ιστοτοποι"
 
@@ -895,7 +979,6 @@ msgid "Sites with only one message"
 msgstr "Ιστοτοποι με ενα μονο μηνυμα"
 
 #: apps/feedback/templates/feedback/feedback.html:29
-#, fuzzy
 msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please enter your idea below:"
 msgstr "Θέλετε να κάνετε μια πρόταση για να βελτιώσουμε τον Firefox; Θαυμάσια! Παρακαλούμε υποβάλετε την στο παρακάτω πεδίο:"
 
@@ -917,26 +1000,46 @@ msgstr "Σταθερότητα"
 msgid "Start-Up Time"
 msgstr "Χρόνος εκκίνησης"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:7 apps/search/templates/search/mobile/search.html:7
+#: apps/dashboard/templates/dashboard/mobile/beta.html:7
+#: apps/search/templates/search/mobile/search.html:7
 msgid "Statistics"
 msgstr "Στατιστικά"
 
-#: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:79
-#: apps/feedback/templates/feedback/release_index.html:3 apps/feedback/templates/feedback/release_index.html:96 apps/feedback/templates/feedback/release_index.html:97
-#: apps/feedback/templates/feedback/release_index.html:156 apps/feedback/templates/feedback/release_index.html:157 apps/feedback/templates/feedback/release_index.html:207
-#: apps/feedback/templates/feedback/release_index.html:208 apps/feedback/templates/feedback/mobile/beta_index.html:3 apps/feedback/templates/feedback/mobile/feedback.html:3
-#: apps/feedback/templates/feedback/mobile/feedback.html:61 apps/feedback/templates/feedback/mobile/release_index.html:3 apps/feedback/templates/feedback/mobile/release_index.html:65
-#: apps/feedback/templates/feedback/mobile/release_index.html:66 apps/feedback/templates/feedback/mobile/release_index.html:116 apps/feedback/templates/feedback/mobile/release_index.html:117
-#: apps/feedback/templates/feedback/mobile/release_index.html:158 apps/feedback/templates/feedback/mobile/release_index.html:159 templates/base_feedback_release_mobile.html:15
+#: apps/feedback/templates/feedback/beta_index.html:3
+#: apps/feedback/templates/feedback/feedback.html:3
+#: apps/feedback/templates/feedback/feedback.html:79
+#: apps/feedback/templates/feedback/release_index.html:3
+#: apps/feedback/templates/feedback/release_index.html:96
+#: apps/feedback/templates/feedback/release_index.html:97
+#: apps/feedback/templates/feedback/release_index.html:156
+#: apps/feedback/templates/feedback/release_index.html:157
+#: apps/feedback/templates/feedback/release_index.html:207
+#: apps/feedback/templates/feedback/release_index.html:208
+#: apps/feedback/templates/feedback/mobile/beta_index.html:3
+#: apps/feedback/templates/feedback/mobile/feedback.html:3
+#: apps/feedback/templates/feedback/mobile/feedback.html:61
+#: apps/feedback/templates/feedback/mobile/release_index.html:3
+#: apps/feedback/templates/feedback/mobile/release_index.html:65
+#: apps/feedback/templates/feedback/mobile/release_index.html:66
+#: apps/feedback/templates/feedback/mobile/release_index.html:116
+#: apps/feedback/templates/feedback/mobile/release_index.html:117
+#: apps/feedback/templates/feedback/mobile/release_index.html:158
+#: apps/feedback/templates/feedback/mobile/release_index.html:159
+#: templates/base_feedback_release_mobile.html:15
 msgid "Submit Feedback"
 msgstr "Υποβολή σχολίου"
 
-#: apps/feedback/templates/feedback/release_index.html:10 apps/feedback/templates/feedback/mobile/release_index.html:10
+#: apps/feedback/templates/feedback/release_index.html:10
+#: apps/feedback/templates/feedback/mobile/release_index.html:10
 msgid "Submit Your Feedback"
 msgstr "Υποβολή του σχολίου σας"
 
-#: apps/feedback/templates/feedback/release_index.html:96 apps/feedback/templates/feedback/release_index.html:156 apps/feedback/templates/feedback/release_index.html:207
-#: apps/feedback/templates/feedback/mobile/release_index.html:65 apps/feedback/templates/feedback/mobile/release_index.html:116 apps/feedback/templates/feedback/mobile/release_index.html:158
+#: apps/feedback/templates/feedback/release_index.html:96
+#: apps/feedback/templates/feedback/release_index.html:156
+#: apps/feedback/templates/feedback/release_index.html:207
+#: apps/feedback/templates/feedback/mobile/release_index.html:65
+#: apps/feedback/templates/feedback/mobile/release_index.html:116
+#: apps/feedback/templates/feedback/mobile/release_index.html:158
 msgid "Submitting Feedback"
 msgstr "Υποβολή σχολίου"
 
@@ -948,7 +1051,9 @@ msgstr "Θαυμάσια! Μας αρέσει που είστε ευχαριστ
 msgid "Super! Please tell us more!"
 msgstr "Θαυμάσια! Σας παρακαλούμε να μας πείτε λεπτομέρειες!"
 
-#: apps/feedback/templates/feedback/release_index.html:219 apps/feedback/templates/feedback/thanks.html:3 apps/feedback/templates/feedback/mobile/release_index.html:171
+#: apps/feedback/templates/feedback/release_index.html:219
+#: apps/feedback/templates/feedback/thanks.html:3
+#: apps/feedback/templates/feedback/mobile/release_index.html:171
 #: apps/feedback/templates/feedback/mobile/thanks.html:3
 msgid "Thanks for Your Feedback"
 msgstr "Σας ευχαριστούμε για τα σχόλια σας"
@@ -957,7 +1062,8 @@ msgstr "Σας ευχαριστούμε για τα σχόλια σας"
 msgid "Thanks for helping Mozilla make your experience better!"
 msgstr "Σας ευχαριστούμε που βοηθάτε το ίδρυμα Mozilla  να βελτιώσει την εμπειρία σας με τα προϊόντα του!"
 
-#: apps/feedback/templates/feedback/thanks.html:7 apps/feedback/templates/feedback/mobile/thanks.html:8
+#: apps/feedback/templates/feedback/thanks.html:7
+#: apps/feedback/templates/feedback/mobile/thanks.html:8
 msgid "Thanks for sending us your feedback!"
 msgstr "Σας ευχαριστούμε που μας στείλατε τα σχόλια σας!"
 
@@ -970,14 +1076,12 @@ msgid "The code for the Firefox Input web application can be found <a href=\"%(s
 msgstr "Ο κώδικας της δικτυακής εφαρμογής Firefox Input είναι διαθέσιμος στο <a href=\"%(source_url)s\">GitHub</a>!"
 
 #: templates/csrf_error.html:15
-msgid ""
-"The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable cookies "
-"in Firefox, then try again."
-msgstr ""
-"Η πιο πιθανή αιτία στην οποία οφείλεται αυτό το σφάλμα, είναι το ότι ο περιηγητής σας <strong>δεν μας επιτρέπει την αποθήκευση cookie</strong>. Σας παρακαλούμε να ακολουθήσετε <a href="
-"\"%(cookies_url)s\">αυτές τις οδηγίες</a> για να ενεργοποιήσετε την αποδοχή cookies στον Firefox και να προσπαθήσετε ξανά."
+msgid "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable cookies in Firefox, then try again."
+msgstr "Η πιο πιθανή αιτία στην οποία οφείλεται αυτό το σφάλμα, είναι το ότι ο περιηγητής σας <strong>δεν μας επιτρέπει την αποθήκευση cookie</strong>. Σας παρακαλούμε να ακολουθήσετε <a href=\"%(cookies_url)s\">αυτές τις οδηγίες</a> για να ενεργοποιήσετε την αποδοχή cookies στον Firefox και να προσπαθήσετε ξανά."
 
-#: apps/themes/templates/themes/theme.html:4 apps/themes/templates/themes/theme.html:17 apps/website_issues/templates/website_issues/theme.html:19
+#: apps/themes/templates/themes/theme.html:4
+#: apps/themes/templates/themes/theme.html:17
+#: apps/website_issues/templates/website_issues/theme.html:19
 msgid "Theme"
 msgstr "Θεμα"
 
@@ -985,7 +1089,8 @@ msgstr "Θεμα"
 msgid "Theme for {domain}"
 msgstr "Θέμα για το {domain}"
 
-#: apps/themes/templates/themes/index.html:2 templates/base.html:38
+#: apps/themes/templates/themes/index.html:2
+#: templates/base.html:38
 msgid "Themes"
 msgstr "Θέματα"
 
@@ -1001,7 +1106,8 @@ msgstr "Για να συμμετέχετε, απλά πηγαίνετε στη �
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
 msgstr "Γι να το κάνετε αυτό, απλά πηγαίνετε στη σελίδα λήψεων και εγκαταστήστε/ενημερώστε την <a href=\"%(url)s\">πιο πρόσφατη έκδοση του Firefox!</a>"
 
-#: apps/feedback/templates/feedback/release_index.html:137 apps/feedback/templates/feedback/release_index.html:188
+#: apps/feedback/templates/feedback/release_index.html:137
+#: apps/feedback/templates/feedback/release_index.html:188
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
 msgstr "Για την προστασία του ιδιωτικού σας απορρήτου, παρακαλούμε βεβαιωθείτε ότι δεν συμπεριλαμβάνετε πληροφορίες ταυτοποίησης στα σχόλια σας."
 
@@ -1015,11 +1121,13 @@ msgid "Toggle"
 msgstr "Εναλλαγή"
 
 #. Link to Google Translator
-#: apps/dashboard/templates/dashboard/message_list.html:36 apps/themes/templates/themes/theme_list.html:31
+#: apps/dashboard/templates/dashboard/message_list.html:36
+#: apps/themes/templates/themes/theme_list.html:31
 msgid "Translate Message"
 msgstr "Μετάφραση μηνύματος"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:8 apps/search/templates/search/mobile/search.html:8
+#: apps/dashboard/templates/dashboard/mobile/beta.html:8
+#: apps/search/templates/search/mobile/search.html:8
 msgid "Trends"
 msgstr "Τάσεις"
 
@@ -1031,7 +1139,9 @@ msgstr "Δημοσίευση στο tweeter"
 msgid "Twitter"
 msgstr "Twitter"
 
-#: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
+#: apps/dashboard/templates/dashboard/overview.html:2
+#: apps/dashboard/templates/dashboard/mobile/overview.html:2
+#: apps/themes/templates/themes/index.html:16
 #: apps/website_issues/templates/website_issues/sites.html:32
 msgid "Type of Feedback"
 msgstr "Τυπος σχολιων"
@@ -1040,7 +1150,11 @@ msgstr "Τυπος σχολιων"
 msgid "Uncommon Sites"
 msgstr "Ιστοτοποι μιας αναφορας"
 
-#: apps/dashboard/templates/dashboard/devices.html:8 apps/dashboard/templates/dashboard/manufacturers.html:9 apps/feedback/helpers.py:16 apps/search/forms.py:45 apps/search/forms.py:48
+#: apps/dashboard/templates/dashboard/devices.html:8
+#: apps/dashboard/templates/dashboard/manufacturers.html:9
+#: apps/feedback/helpers.py:16
+#: apps/search/forms.py:45
+#: apps/search/forms.py:48
 #: apps/search/forms.py:53
 msgid "Unknown"
 msgstr "Άγνωστη"
@@ -1078,18 +1192,16 @@ msgid "We are sorry that you have not had a good experience with our browser. Pl
 msgstr "Λυπούμαστε που δεν ήταν καλή η εμπειρία σας με τον περιηγητή μας. Σας παρακαλούμε να μας πείτε γιατί, για να τον βελτιώσουμε!"
 
 #: templates/about.html:27
-msgid ""
-"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
-"please <a href=\"%(data_url)s\">contact us</a>!"
-msgstr ""
-"Θα θέλαμε να πειραματιστούμε περισσότερο μ' αυτά τα δεδομένα αλλά η ομάδα μας είναι μικρή. Χρειαζόμαστε λοιπόν συγκεκριμένα αιτήματα για ερωτήσεις που θέλετε να απαντηθούν! Αν θέλετε να "
-"πειραματιστείτε με τα δεδομένα μας, σας παρακαλούμε να <a href=\"%(data_url)s\">επικοινωνήσετε μαζί μας</a>!"
+msgid "We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, please <a href=\"%(data_url)s\">contact us</a>!"
+msgstr "Θα θέλαμε να πειραματιστούμε περισσότερο μ' αυτά τα δεδομένα αλλά η ομάδα μας είναι μικρή. Χρειαζόμαστε λοιπόν συγκεκριμένα αιτήματα για ερωτήσεις που θέλετε να απαντηθούν! Αν θέλετε να πειραματιστείτε με τα δεδομένα μας, σας παρακαλούμε να <a href=\"%(data_url)s\">επικοινωνήσετε μαζί μας</a>!"
 
-#: templates/base.html:5 templates/base_mobile.html:6
+#: templates/base.html:5
+#: templates/base_mobile.html:6
 msgid "Welcome"
 msgstr "Καλώς ορίσατε!"
 
-#: templates/base_mobile_old.html:5 templates/base_old.html:5
+#: templates/base_mobile_old.html:5
+#: templates/base_old.html:5
 msgid "Welcome!"
 msgstr "Καλώς ορίσατε!"
 
@@ -1107,7 +1219,8 @@ msgid "When"
 msgstr "Χρονικη περιοδος"
 
 #. Refers to sites that were reported in feedback.
-#: apps/dashboard/templates/dashboard/sites.html:3 apps/dashboard/templates/dashboard/mobile/sites.html:2
+#: apps/dashboard/templates/dashboard/sites.html:3
+#: apps/dashboard/templates/dashboard/mobile/sites.html:2
 msgid "While Visiting"
 msgstr "Κατα την επισκεψη"
 
@@ -1125,11 +1238,10 @@ msgstr "Windows XP"
 
 #: apps/feedback/validators.py:27
 msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
-msgstr ""
-"Το σχόλιο σας περιέχει υβριστικές εκφράσεις (%s). Για να μας βοηθήσετε να βελτιώσουμε τα προϊόντα μας, σας παρακαλούμε να χρησιμοποιείτε εκφράσεις που να μας επιτρέπουν να προβούμε σε ενέργειες ή "
-"στο σχεδιασμό ενεργειών με βάση τα σχόλια σας. Σας ευχαριστούμε!"
+msgstr "Το σχόλιο σας περιέχει υβριστικές εκφράσεις (%s). Για να μας βοηθήσετε να βελτιώσουμε τα προϊόντα μας, σας παρακαλούμε να χρησιμοποιείτε εκφράσεις που να μας επιτρέπουν να προβούμε σε ενέργειες ή στο σχεδιασμό ενεργειών με βάση τα σχόλια σας. Σας ευχαριστούμε!"
 
-#: apps/feedback/templates/feedback/release_index.html:11 apps/feedback/templates/feedback/mobile/release_index.html:11
+#: apps/feedback/templates/feedback/release_index.html:11
+#: apps/feedback/templates/feedback/mobile/release_index.html:11
 msgid "Your feedback helps us improve Firefox."
 msgstr "Τα σχόλια σας μας βοηθούν να βελτιώσουμε τον Firefox."
 
@@ -1139,11 +1251,10 @@ msgstr "Το σχόλιο σας περιέχει ένα URL. Σας παρακ�
 
 #: apps/feedback/validators.py:43
 msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
-msgstr ""
-"Το σχόλιο σας μάλλον περιέχει μια διεύθυνση ηλεκτρονικού ταχυδρομείου. Σας παρακαλούμε να την αφαιρέσετε καθώς και όσα άλλα προσωπικά δεδομένα έχετε εισάγει στο κείμενο και να προσπαθήσετε ξανά. "
-"Σας ευχαριστούμε!"
+msgstr "Το σχόλιο σας μάλλον περιέχει μια διεύθυνση ηλεκτρονικού ταχυδρομείου. Σας παρακαλούμε να την αφαιρέσετε καθώς και όσα άλλα προσωπικά δεδομένα έχετε εισάγει στο κείμενο και να προσπαθήσετε ξανά. Σας ευχαριστούμε!"
 
-#: apps/feedback/templates/feedback/release_index.html:222 apps/feedback/templates/feedback/mobile/release_index.html:173
+#: apps/feedback/templates/feedback/release_index.html:222
+#: apps/feedback/templates/feedback/mobile/release_index.html:173
 msgid "Your feedback will be used to create a better experience in future releases of Firefox."
 msgstr "Τα σχόλια σας θα χρησιμοποιηθούν για να κάνουμε καλύτερες τις επόμενες εκδόσεις του Firefox."
 
@@ -1183,7 +1294,8 @@ msgstr[1] "Πριν {0} λεπτά"
 msgid "{day}<br/>Average of {num}"
 msgstr "{day}<br/>Μέσος όρος {num}"
 
-#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:3 apps/search/templates/search/includes/ratings_chart.html:4
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:3
+#: apps/search/templates/search/includes/ratings_chart.html:4
 msgid "{num} opinions on {day}"
 msgstr "{num} σχόλια στις {day}"
 
@@ -1203,25 +1315,26 @@ msgstr "{percentage}% έπαινοι"
 
 #~ msgid "&laquo; previous"
 #~ msgstr "&laquo; προηγούμενη"
-
 #~ msgctxt "os_choice"
+
 #~ msgid "-- all --"
 #~ msgstr "-- όλα --"
-
 #~ msgctxt "dashboard_period"
+
 #~ msgid "1 day"
 #~ msgstr "1 ημέρα"
-
 #~ msgctxt "dashboard_period"
+
 #~ msgid "1 month"
 #~ msgstr "1 μήνας"
-
 #~ msgctxt "dashboard_period"
+
 #~ msgid "1 week"
 #~ msgstr "1 εβδομάδα"
 
 #, fuzzy
 #~ msgctxt "version_choice"
+
 #~ msgid "7d"
 #~ msgstr "7ημ."
 
@@ -1259,6 +1372,7 @@ msgstr "{percentage}% έπαινοι"
 #~ msgstr "Γλώσσα: {locale}"
 
 #~ msgid "Most Recent Message"
+
 #~ msgid_plural "Last %(count)s Messages"
 #~ msgstr[0] "{count} πρόσφατο μήνυμα"
 #~ msgstr[1] "{count} πρόσφατα μηνύματα"
@@ -1325,8 +1439,8 @@ msgstr "{percentage}% έπαινοι"
 
 #~ msgid "all"
 #~ msgstr "όλα"
-
 #~ msgctxt "dashboard_period"
+
 #~ msgid "all"
 #~ msgstr "όλες"
 
