@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-21 07:57+0200\n"
-"PO-Revision-Date: 2011-02-06 11:52+0200\n"
+"PO-Revision-Date: 2011-02-20 21:57+0200\n"
 "Last-Translator: Toni <toniher@softcatala.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -64,7 +64,6 @@ msgid "-- all --"
 msgstr "-- totes --"
 
 #: apps/search/forms.py:42
-#, fuzzy
 msgctxt "platform_choice"
 msgid "-- all --"
 msgstr "-- totes --"
@@ -181,7 +180,6 @@ msgid "Average Ratings Over Time"
 msgstr "Valoracions mitjanes al llarg del temps"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:28
-#, fuzzy
 msgid "Awesome! Please enter your idea below:"
 msgstr "Fantàstic! Feu un suggeriment a continuació:"
 
@@ -283,7 +281,6 @@ msgid "Enter your feedback here."
 msgstr "Introduïu el vostre comentari a continuació."
 
 #: apps/feedback/forms.py:132 apps/feedback/forms.py:189
-#, fuzzy
 msgid "Enter your ideas here."
 msgstr "Introduïu el vostre comentari a continuació."
 
@@ -472,16 +469,15 @@ msgstr "Ho sentim, s'ha produït un error en la cerca."
 
 #: apps/input/__init__.py:77 apps/search/views.py:223 apps/themes/templates/themes/theme_list.html:10
 msgid "Idea"
-msgstr ""
+msgstr "Idea"
 
 #: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:38 apps/themes/views.py:39
 msgid "Ideas"
-msgstr ""
+msgstr "Idees"
 
 #: apps/themes/views.py:40
-#, fuzzy
 msgid "Ideas only"
-msgstr "Només problemes"
+msgstr "Només idees"
 
 #: templates/csrf_error.html:24
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
@@ -496,7 +492,6 @@ msgid "If you have additional information how to reproduce this problem, please 
 msgstr "Si disposeu d'informació addicional per reproduir el problema, <a href=\"%(bug_url)s\">ompliu-ne un informe d'error</a>. Gràcies!"
 
 #: apps/feedback/templates/feedback/feedback.html:86
-#, fuzzy
 msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_idea)s\">idea box</a>!"
 msgstr "Si teniu cap idea per aportar-nos, envieu-nos-la a través de la <a href=\"%(url_suggestion)s\">bústia de suggeriments</a>!"
 
@@ -697,7 +692,6 @@ msgid "Open Data"
 msgstr "Dades obertes"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:68
-#, fuzzy
 msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
 msgstr "O trameteu les vostres idees des de la nostra <a href=\"%(url_suggestion)s\">bústia de suggeriments</a>!"
 
@@ -715,7 +709,7 @@ msgstr "El motor de cerca no es troba actualment disponible. Aneu al <a href=\"%
 
 #: apps/search/forms.py:68
 msgid "PLATFORM:"
-msgstr ""
+msgstr "Plataforma:"
 
 #: apps/input/__init__.py:118
 msgid "Page Load Time"
@@ -747,7 +741,7 @@ msgstr "Assegureu-vos que no inclogueu cap informació personal que pugui revela
 
 #: apps/feedback/forms.py:159
 msgid "Please rate at least one item."
-msgstr ""
+msgstr "Valoreu com a mínim un element."
 
 #: templates/404.html:9 templates/500.html:14
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
@@ -884,9 +878,10 @@ msgid "Sites with only one message"
 msgstr "Llocs amb només un missatge"
 
 #: apps/feedback/templates/feedback/feedback.html:29
-#, fuzzy
 msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please enter your idea below:"
-msgstr "Que voleu fer un suggeriment per millorar el Firefox? Fantàstic! Feu el vostre suggeriment a continuació:"
+msgstr ""
+"Que voleu fer un suggeriment per millorar el Firefox? Fantàstic! Escriviu-lo "
+"a continuació:"
 
 #: templates/about.html:34
 msgid "Source Code"
