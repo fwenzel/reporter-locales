@@ -3,15 +3,15 @@ msgstr ""
 "Project-Id-Version: Firefox Input\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 18:31+0200\n"
-"PO-Revision-Date: 2011-02-18 22:33+0100\n"
-"Last-Translator: Pavel Cvrček <pcvrcek@mozilla.cz>\n"
+"PO-Revision-Date: 2011-02-20 13:40+0200\n"
+"Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
 "Language-Team: cs <info@mozilla.cz>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Pootle 2.1.4\n"
+"X-Generator: Pootle 2.1.5\n"
 
 #: apps/website_issues/templates/website_issues/includes/sites_list.html:45
 msgid "%(count)s message"
@@ -119,7 +119,12 @@ msgstr "<strong>Firefox Beta</strong> Input Dashboard"
 
 #: templates/about.html:9
 msgid "<strong>Firefox Input</strong> is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
-msgstr "<strong>Firefox Input</strong> je aplikace na sběr reakcí. Byla vytvořena pro jednosměrnou komunikaci o zkušenostech s používáním Firefoxu, prohlížením Internetu a o tom, co Mozilla může v této oblasti zlepšit. Systém je dostupný pro řadu forem odeslání na třech hlavních kanálech sestavení aplikace."
+msgstr ""
+"<strong>Firefox Input</strong> je aplikace na sběr reakcí. Byla vytvořena "
+"pro jednosměrnou komunikaci o zkušenosti s používáním Firefoxu, prohlížením "
+"Internetu a o tom, co Mozilla může v této oblasti zlepšit. Systém je "
+"dostupný pro řadu forem odeslání na třech hlavních kanálech sestavení "
+"aplikace."
 
 #: templates/base.html:47
 msgid "<strong>Firefox Release</strong> Input Dashboard"
@@ -1107,7 +1112,9 @@ msgstr "Pro ochranu vašeho soukromí se ujistěte, že ve vaší reakci nejsou 
 
 #: templates/about.html:18
 msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(feedback_url)s\">the feedback submission page</a>!"
-msgstr "Pro zaslání reakce k vaší verze Firefoxu přejděte na <a href=\"%(feedback_url)s\">stránku odeslání reakce</a>!"
+msgstr ""
+"Pro zaslání reakce k vaší verzi Firefoxu přejděte na <a href=\"%"
+"(feedback_url)s\">stránku odeslání reakce</a>!"
 
 #. Link text for showing/hiding options
 #: apps/dashboard/templates/includes/filter_box_toggle.html:6
@@ -1306,19 +1313,25 @@ msgstr "{percentage}% chvála"
 
 #~ msgid "&laquo; Next Page"
 #~ msgstr "&laquo; Další stránka"
+
 #~ msgid "&laquo; Previous Page;"
 #~ msgstr "&laquo; Předchozí stránka;"
+
 #~ msgid "&laquo; previous"
 #~ msgstr "&laquo; předchozí"
+
 #~ msgctxt "os_choice"
 #~ msgid "-- all --"
 #~ msgstr "-- vše --"
+
 #~ msgctxt "dashboard_period"
 #~ msgid "1 day"
 #~ msgstr "1 den"
+
 #~ msgctxt "dashboard_period"
 #~ msgid "1 month"
 #~ msgstr "1 měsíc"
+
 #~ msgctxt "dashboard_period"
 #~ msgid "1 week"
 #~ msgstr "1 týden"
@@ -1327,96 +1340,139 @@ msgstr "{percentage}% chvála"
 #~ msgctxt "version_choice"
 #~ msgid "7d"
 #~ msgstr "7d"
+
 #~ msgid "<a href=\"%(url)s\">Total</a>: %(count)s"
 #~ msgstr "<a href=\"%(url)s\">Celkem</a>: %(count)s"
+
 #~ msgid "Beta"
 #~ msgstr "Beta"
+
 #~ msgid "Clusters of Opinions"
 #~ msgstr "Seskupené reakce"
+
 #~ msgid "Dates: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
 #~ msgstr "Data: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
+
 #~ msgid "Demographics"
 #~ msgstr "Demografie"
+
 #~ msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
 #~ msgstr "Popis: <span class=\"opt\">\"%(query)s\"</span>;"
+
 #~ msgid "Due to software constraints, we can only show the last 1000 messages for this search query."
 #~ msgstr "Vzhledem k omezení software lze u vašeho vyhledávání zobrazit nejvýše 1000 zpráv."
+
 #~ msgid "Enter your suggestions here."
 #~ msgstr "Zde napište svůj nápad."
+
 #~ msgid "Latest Beta"
 #~ msgstr "Poslední betaverze"
+
 #~ msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
 #~ msgstr "Jazyk: <span class=\"opt\">%(locale)s</span>;"
+
 #~ msgid "Locale: {locale}"
 #~ msgstr "Jazyk: {locale}"
+
 #~ msgid "Most Recent Message"
 #~ msgid_plural "Last %(count)s Messages"
 #~ msgstr[0] "Poslední zpráva"
 #~ msgstr[1] "Poslední %(count)s zprávy"
 #~ msgstr[2] "Posledních %(count)s zpráv"
+
 #~ msgid "No clusters of opinions found."
 #~ msgstr "Nebyly nalezeny žádné seskupené názory."
+
 #~ msgid "OS"
 #~ msgstr "OS"
+
 #~ msgid "OS:"
 #~ msgstr "OS:"
+
 #~ msgid "OS: <span class=\"opt\">%(os)s</span>"
 #~ msgstr "OS: <span class=\"opt\">%(os)s</span>"
+
 #~ msgid "OS: {os_name}"
 #~ msgstr "OS: {os_name}"
+
 #~ msgid "Opinion"
 #~ msgstr "Názor"
+
 #~ msgid "Overview"
 #~ msgstr "Přehled"
+
 #~ msgid "Please enable JavaScript to view this page."
 #~ msgstr "Pro zobrazení této stránky prosím povolte JavaScript"
+
 #~ msgid "Previous Page &raquo;"
 #~ msgstr "Předchozí stránka &raquo;"
+
 #~ msgid "Show more"
 #~ msgstr "Zobrazit více zpráv"
+
 #~ msgid "Showing the first {count}"
 #~ msgstr "Zobrazit prvních {count}"
+
 #~ msgid "Submitted User Agent is not the latest beta version."
 #~ msgstr "Přijmutý user agent neodpovídá poslední betaverzi."
+
 #~ msgid "Suggestion"
 #~ msgstr "Návrh"
+
 #~ msgid "Suggestions"
 #~ msgstr "Návrhy"
+
 #~ msgid "Suggestions only"
 #~ msgstr "Pouze návrhy"
+
 #~ msgid "Translate!"
 #~ msgstr "Přeložit!"
+
 #~ msgid "UA"
 #~ msgstr "UA"
+
 #~ msgid "URL"
 #~ msgstr "URL"
+
 #~ msgid "User agent string was not recognizable."
 #~ msgstr "User agent řetězec nebyl rozpoznán."
+
 #~ msgid "Version"
 #~ msgstr "Verze"
+
 #~ msgid "all"
 #~ msgstr "vše"
+
 #~ msgctxt "dashboard_period"
 #~ msgid "all"
 #~ msgstr "vše"
+
 #~ msgid "happy"
 #~ msgstr "šťastný"
+
 #~ msgid "happy face"
 #~ msgstr "veselá tvář"
+
 #~ msgid "next &raquo;"
 #~ msgstr "další &raquo;"
+
 #~ msgid "page %(pagenum)s of %(total)s"
 #~ msgstr "stránka %(pagenum)s z %(total)s"
+
 #~ msgid "sad"
 #~ msgstr "smutný"
+
 #~ msgid "sad face"
 #~ msgstr "smutná tvář"
+
 #~ msgid "visit &rarr;"
 #~ msgstr "navštívit &rarr;"
+
 #~ msgid "{0} opinions for Firefox {1} {2}"
 #~ msgstr "{0} názory pro Firefox {1} {2}"
+
 #~ msgid "{0} opinions similar to <q>{1}</q>"
 #~ msgstr "{0} názory podobných <q>{1}</q>"
+
 #~ msgid "{0} similar messages"
 #~ msgstr "%(count)s podobných zpráv"
-
