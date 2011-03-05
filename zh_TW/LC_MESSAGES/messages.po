@@ -112,7 +112,7 @@ msgstr "<strong>Firefox Release</strong> Input Dashboard"
 msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
 msgstr "<strong>歡迎使用 Firefox Input！</strong> 這是 Mozilla 主要使用的使用者回饋機制。 <a href=\"%(about_url)s\">了解更多資訊…</a>"
 
-#: apps/feedback/templates/feedback/mobile/release_index.html:194
+#: apps/feedback/templates/feedback/mobile/release_index.html:197
 msgid "@MozMobile"
 msgstr "@MozMobile"
 
@@ -136,7 +136,7 @@ msgstr "新增最後開啟網頁的網址？"
 msgid "Advanced"
 msgstr "進階"
 
-#: apps/themes/views.py:24 apps/themes/views.py:51
+#: apps/themes/views.py:28 apps/themes/views.py:52
 msgid "All"
 msgstr "全部"
 
@@ -150,11 +150,11 @@ msgctxt "sites_search_all_platforms"
 msgid "All"
 msgstr "全部"
 
-#: apps/themes/views.py:51
+#: apps/themes/views.py:52
 msgid "All Platforms"
 msgstr "所有平台"
 
-#: apps/themes/views.py:24 apps/website_issues/templates/website_issues/sites.html:35
+#: apps/themes/views.py:28 apps/website_issues/templates/website_issues/sites.html:35
 msgid "All feedback"
 msgstr "全部的使用者回饋"
 
@@ -194,7 +194,7 @@ msgstr "回到 {domain} &raquo;"
 msgid "Beta Channel"
 msgstr "Beta 頻道"
 
-#: apps/website_issues/templates/website_issues/sites.html:5 apps/website_issues/templates/website_issues/includes/sites_list.html:14 templates/base.html:54
+#: apps/website_issues/templates/website_issues/sites.html:5 apps/website_issues/templates/website_issues/includes/sites_list.html:14 templates/base.html:55
 msgid "Broken Sites"
 msgstr "壞掉的網站"
 
@@ -214,7 +214,7 @@ msgstr "關閉"
 msgid "Clusters"
 msgstr "意見群"
 
-#: apps/themes/templates/themes/index.html:35
+#: apps/themes/templates/themes/index.html:37
 msgid "Common Themes"
 msgstr "常見類型"
 
@@ -235,15 +235,15 @@ msgstr "Dashboard"
 msgid "Date range:"
 msgstr "日期範圍："
 
-#: apps/feedback/templates/feedback/release_index.html:130
+#: apps/feedback/templates/feedback/release_index.html:131
 msgid "Describe the problem with the site."
 msgstr "請描述網站的問題。"
 
-#: apps/feedback/templates/feedback/mobile/release_index.html:96
+#: apps/feedback/templates/feedback/mobile/release_index.html:97
 msgid "Describe the problem with the website."
 msgstr "請描述網站的問題。"
 
-#: apps/feedback/templates/feedback/release_index.html:181 apps/feedback/templates/feedback/mobile/release_index.html:140
+#: apps/feedback/templates/feedback/release_index.html:183 apps/feedback/templates/feedback/mobile/release_index.html:142
 msgid "Describe your idea below."
 msgstr "請在下面描述您的想法。"
 
@@ -251,11 +251,11 @@ msgstr "請在下面描述您的想法。"
 msgid "Devices"
 msgstr "裝置"
 
-#: apps/feedback/templates/feedback/mobile/release_index.html:83
+#: apps/feedback/templates/feedback/mobile/release_index.html:84
 msgid "Does a website look or behave incorrectly in Firefox for Mobile? Provide us some details about the problem and we'll try to fix it."
 msgstr "您常用的網站在 Firefox for Mobile 當中也能正常運作嗎？請提供我們一些關於問題的詳情，我們會試著修復。"
 
-#: apps/feedback/templates/feedback/release_index.html:110
+#: apps/feedback/templates/feedback/release_index.html:111
 msgid "Does a website look or behave incorrectly in Firefox?"
 msgstr "是否有網站在 Firefox 當中看起來不正常，或是用起來怪怪的？"
 
@@ -301,7 +301,7 @@ msgstr "體驗"
 msgid "Experience Ratings"
 msgstr "體驗評等"
 
-#: apps/feedback/templates/feedback/release_index.html:244
+#: apps/feedback/templates/feedback/release_index.html:247
 msgid "Facebook"
 msgstr "Facebook"
 
@@ -321,7 +321,7 @@ msgstr "消息來源 (Feed)"
 msgid "Feedback"
 msgstr "意見回饋"
 
-#: apps/feedback/templates/feedback/mobile/release_index.html:186
+#: apps/feedback/templates/feedback/mobile/release_index.html:189
 msgid "Feedback Dashboard"
 msgstr "Feedback Dashboard"
 
@@ -333,7 +333,7 @@ msgstr "回饋內容不得包含 HTML。"
 msgid "Find out the latest news from Mozilla:"
 msgstr "閱讀 Mozilla 的最新消息："
 
-#: apps/feedback/templates/feedback/release_index.html:241
+#: apps/feedback/templates/feedback/release_index.html:244
 msgid "Find the latest news about Firefox."
 msgstr "閱讀 Firefox 的最新消息。"
 
@@ -341,12 +341,12 @@ msgstr "閱讀 Firefox 的最新消息。"
 msgid "Firefox"
 msgstr "Firefox"
 
-#: apps/search/views.py:91 apps/search/views.py:110
+#: apps/search/views.py:114 apps/search/views.py:133
 msgid "Firefox Input"
 msgstr "Firefox Input"
 
 #. L10n: This is the title to the Search ATOM feed.
-#: apps/search/views.py:109
+#: apps/search/views.py:132
 msgid "Firefox Input: '{query}'"
 msgstr "Firefox Input: '{query}'"
 
@@ -370,11 +370,11 @@ msgstr "Firefox 讓我覺得難過…"
 msgid "Firefox makes me sad because ..."
 msgstr "Firefox 讓我覺得難過，因為…"
 
-#: apps/feedback/templates/feedback/mobile/release_index.html:202
+#: apps/feedback/templates/feedback/mobile/release_index.html:205
 msgid "Firefox on Facebook"
 msgstr "Facebook 上的 Firefox"
 
-#: apps/feedback/templates/feedback/mobile/release_index.html:193
+#: apps/feedback/templates/feedback/mobile/release_index.html:196
 msgid "Follow us on Twitter."
 msgstr "在 Twitter 追蹤我們:"
 
@@ -383,11 +383,15 @@ msgstr "在 Twitter 追蹤我們:"
 msgid "For last:"
 msgstr "在最近:"
 
-#: apps/feedback/templates/feedback/mobile/release_index.html:101 apps/feedback/templates/feedback/mobile/release_index.html:145
+#: apps/feedback/templates/feedback/mobile/release_index.html:102 apps/feedback/templates/feedback/mobile/release_index.html:147
 msgid "For your privacy, please ensure that no personally identifiable information is included in your feedback."
 msgstr "為了保護您的隱私，請確定您要送出的回饋當中沒有可供識別的個人資訊。"
 
-#: apps/feedback/templates/feedback/mobile/release_index.html:209
+#: apps/themes/templates/themes/index.html:37
+msgid "Frequent Ideas"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/release_index.html:212
 msgid "Get the latest news on Firefox."
 msgstr "取得 Firefox 的最新消息。"
 
@@ -395,8 +399,8 @@ msgstr "取得 Firefox 的最新消息。"
 msgid "Go"
 msgstr "前往"
 
-#: apps/feedback/templates/feedback/release_index.html:40 apps/feedback/templates/feedback/release_index.html:114 apps/feedback/templates/feedback/release_index.html:171
-#: apps/feedback/templates/feedback/mobile/release_index.html:28 apps/feedback/templates/feedback/mobile/release_index.html:78 apps/feedback/templates/feedback/mobile/release_index.html:130
+#: apps/feedback/templates/feedback/release_index.html:40 apps/feedback/templates/feedback/release_index.html:115 apps/feedback/templates/feedback/release_index.html:173
+#: apps/feedback/templates/feedback/mobile/release_index.html:28 apps/feedback/templates/feedback/mobile/release_index.html:79 apps/feedback/templates/feedback/mobile/release_index.html:132
 msgid "Go Back"
 msgstr "回到上一頁"
 
@@ -408,11 +412,11 @@ msgstr "滿意"
 msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
 msgstr "在特定網站上出現問題？請填寫網址，讓我們更快發現問題！"
 
-#: apps/feedback/templates/feedback/release_index.html:169
+#: apps/feedback/templates/feedback/release_index.html:171
 msgid "Have an idea how Firefox could be better? Let us know!"
 msgstr "有什麼能讓 Firefox 變得更好的點子嗎？請讓我們知道！"
 
-#: apps/feedback/templates/feedback/mobile/release_index.html:135
+#: apps/feedback/templates/feedback/mobile/release_index.html:137
 msgid "Have an idea how Firefox for Mobile could be better? Let us know!"
 msgstr "有什麼能讓 Firefox for Mobile 變得更好的點子嗎？請讓我們知道！"
 
@@ -460,15 +464,15 @@ msgstr "很抱歉，但我找不到您想找的東西。"
 msgid "I'm sorry, there was an error with your search."
 msgstr "很抱歉，搜尋時發生錯誤。"
 
-#: apps/input/__init__.py:77 apps/search/views.py:223 apps/themes/templates/themes/theme_list.html:10
+#: apps/input/__init__.py:77 apps/search/views.py:247 apps/themes/templates/themes/theme_list.html:10
 msgid "Idea"
 msgstr "點子"
 
-#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:38 apps/themes/views.py:39
+#: apps/dashboard/views.py:56 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:38 apps/themes/views.py:40 templates/base.html:54
 msgid "Ideas"
 msgstr "點子"
 
-#: apps/themes/views.py:40
+#: apps/themes/views.py:41
 msgid "Ideas only"
 msgstr "只有點子"
 
@@ -525,12 +529,12 @@ msgid "Issue"
 msgstr "有問題"
 
 #. Formerly called "sad"
-#: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/search/views.py:222
-#: apps/themes/views.py:34 apps/website_issues/templates/website_issues/sites.html:37
+#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/search/views.py:246
+#: apps/themes/views.py:36 apps/website_issues/templates/website_issues/sites.html:37
 msgid "Issues"
 msgstr "有問題"
 
-#: apps/themes/views.py:34 apps/website_issues/templates/website_issues/sites.html:37
+#: apps/themes/views.py:37 apps/website_issues/templates/website_issues/sites.html:37
 msgid "Issues only"
 msgstr "只有問題"
 
@@ -565,7 +569,7 @@ msgstr "最新的意見回饋"
 msgid "Legal Notices"
 msgstr "法律聲明"
 
-#: apps/feedback/templates/feedback/mobile/release_index.html:201
+#: apps/feedback/templates/feedback/mobile/release_index.html:204
 msgid "Let's be friends!"
 msgstr "交個朋友吧！"
 
@@ -708,11 +712,11 @@ msgstr "平台:"
 msgid "Page Load Time"
 msgstr "頁面載入時間"
 
-#: apps/feedback/templates/feedback/release_index.html:245 apps/feedback/templates/feedback/mobile/release_index.html:210
+#: apps/feedback/templates/feedback/release_index.html:248 apps/feedback/templates/feedback/mobile/release_index.html:213
 msgid "Planet Mozilla"
 msgstr "Planet Mozilla"
 
-#: apps/dashboard/templates/dashboard/platforms.html:12 apps/dashboard/templates/dashboard/mobile/platforms.html:8 apps/themes/templates/themes/index.html:24
+#: apps/dashboard/templates/dashboard/platforms.html:12 apps/dashboard/templates/dashboard/mobile/platforms.html:8 apps/themes/templates/themes/index.html:25
 msgid "Platform"
 msgstr "平台"
 
@@ -745,13 +749,13 @@ msgid "Poor"
 msgstr "非常不滿意"
 
 #. Formerly called "happy"
-#: apps/dashboard/views.py:53 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:63
-#: apps/search/forms.py:36 apps/search/views.py:221 apps/themes/views.py:29 apps/themes/templates/themes/theme_list.html:8 apps/website_issues/templates/website_issues/sites.html:36
+#: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:63
+#: apps/search/forms.py:36 apps/search/views.py:245 apps/themes/views.py:32 apps/themes/templates/themes/theme_list.html:8 apps/website_issues/templates/website_issues/sites.html:36
 #: apps/website_issues/templates/website_issues/includes/single_site.html:12
 msgid "Praise"
 msgstr "讚"
 
-#: apps/themes/views.py:29 apps/website_issues/templates/website_issues/sites.html:36
+#: apps/themes/views.py:33 apps/website_issues/templates/website_issues/sites.html:36
 msgid "Praise only"
 msgstr "只有讚"
 
@@ -775,11 +779,11 @@ msgstr "產品："
 msgid "Product:"
 msgstr "產品："
 
-#: apps/feedback/templates/feedback/release_index.html:111
+#: apps/feedback/templates/feedback/release_index.html:112
 msgid "Provide us some details about the problem and we'll try to fix it."
 msgstr "請提供我們關於這個問題的更多資訊，我們會試著把它修好。"
 
-#: apps/search/client.py:207
+#: apps/search/client.py:209
 msgid "Query has timed out."
 msgstr "查詢已經逾時。"
 
@@ -800,8 +804,8 @@ msgstr "Release 頻道"
 msgid "Report Trademark Abuse"
 msgstr "回報商標濫用"
 
-#: apps/feedback/templates/feedback/release_index.html:17 apps/feedback/templates/feedback/release_index.html:108 apps/feedback/templates/feedback/mobile/release_index.html:17
-#: apps/feedback/templates/feedback/mobile/release_index.html:82
+#: apps/feedback/templates/feedback/release_index.html:17 apps/feedback/templates/feedback/release_index.html:109 apps/feedback/templates/feedback/mobile/release_index.html:17
+#: apps/feedback/templates/feedback/mobile/release_index.html:83
 msgid "Report a Site Issue"
 msgstr "回報壞掉的網站"
 
@@ -817,7 +821,7 @@ msgstr "搜尋"
 msgid "Search Results"
 msgstr "搜尋結果"
 
-#: apps/search/views.py:92
+#: apps/search/views.py:115
 msgid "Search Results in Firefox Beta Feedback."
 msgstr "Firefox Beta 使用者回饋的搜尋結果。"
 
@@ -838,7 +842,7 @@ msgstr "搜尋網域"
 msgid "See all opinions"
 msgstr "看看所有意見"
 
-#: apps/feedback/templates/feedback/mobile/release_index.html:185
+#: apps/feedback/templates/feedback/mobile/release_index.html:188
 msgid "See where your feedback goes."
 msgstr "想看看您所回饋的東西跑到哪了嗎？"
 
@@ -852,8 +856,8 @@ msgctxt "date_range_set"
 msgid "Set"
 msgstr "設定"
 
-#: apps/feedback/templates/feedback/release_index.html:18 apps/feedback/templates/feedback/release_index.html:168 apps/feedback/templates/feedback/mobile/release_index.html:18
-#: apps/feedback/templates/feedback/mobile/release_index.html:134
+#: apps/feedback/templates/feedback/release_index.html:18 apps/feedback/templates/feedback/release_index.html:170 apps/feedback/templates/feedback/mobile/release_index.html:18
+#: apps/feedback/templates/feedback/mobile/release_index.html:136
 msgid "Share an Idea"
 msgstr "分享點子"
 
@@ -879,7 +883,7 @@ msgid "Source Code"
 msgstr "原始碼"
 
 #. L10n: Sphinx is the name of the search engine software.
-#: apps/search/client.py:210
+#: apps/search/client.py:212
 msgid "Sphinx threw an unknown exception: %s"
 msgstr "Sphinx 傳出未知的意外: %s"
 
@@ -896,12 +900,12 @@ msgid "Statistics"
 msgstr "統計"
 
 #: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:79
-#: apps/feedback/templates/feedback/release_index.html:3 apps/feedback/templates/feedback/release_index.html:96 apps/feedback/templates/feedback/release_index.html:97
-#: apps/feedback/templates/feedback/release_index.html:156 apps/feedback/templates/feedback/release_index.html:157 apps/feedback/templates/feedback/release_index.html:207
-#: apps/feedback/templates/feedback/release_index.html:208 apps/feedback/templates/feedback/mobile/beta_index.html:3 apps/feedback/templates/feedback/mobile/feedback.html:3
-#: apps/feedback/templates/feedback/mobile/feedback.html:61 apps/feedback/templates/feedback/mobile/release_index.html:3 apps/feedback/templates/feedback/mobile/release_index.html:65
-#: apps/feedback/templates/feedback/mobile/release_index.html:66 apps/feedback/templates/feedback/mobile/release_index.html:116 apps/feedback/templates/feedback/mobile/release_index.html:117
-#: apps/feedback/templates/feedback/mobile/release_index.html:158 apps/feedback/templates/feedback/mobile/release_index.html:159 templates/base_feedback_release_mobile.html:15
+#: apps/feedback/templates/feedback/release_index.html:3 apps/feedback/templates/feedback/release_index.html:97 apps/feedback/templates/feedback/release_index.html:98
+#: apps/feedback/templates/feedback/release_index.html:158 apps/feedback/templates/feedback/release_index.html:159 apps/feedback/templates/feedback/release_index.html:210
+#: apps/feedback/templates/feedback/release_index.html:211 apps/feedback/templates/feedback/mobile/beta_index.html:3 apps/feedback/templates/feedback/mobile/feedback.html:3
+#: apps/feedback/templates/feedback/mobile/feedback.html:61 apps/feedback/templates/feedback/mobile/release_index.html:3 apps/feedback/templates/feedback/mobile/release_index.html:66
+#: apps/feedback/templates/feedback/mobile/release_index.html:67 apps/feedback/templates/feedback/mobile/release_index.html:118 apps/feedback/templates/feedback/mobile/release_index.html:119
+#: apps/feedback/templates/feedback/mobile/release_index.html:161 apps/feedback/templates/feedback/mobile/release_index.html:162 templates/base_feedback_release_mobile.html:15
 msgid "Submit Feedback"
 msgstr "傳送意見回饋"
 
@@ -909,8 +913,9 @@ msgstr "傳送意見回饋"
 msgid "Submit Your Feedback"
 msgstr "傳送您的意見回饋"
 
-#: apps/feedback/templates/feedback/release_index.html:96 apps/feedback/templates/feedback/release_index.html:156 apps/feedback/templates/feedback/release_index.html:207
-#: apps/feedback/templates/feedback/mobile/release_index.html:65 apps/feedback/templates/feedback/mobile/release_index.html:116 apps/feedback/templates/feedback/mobile/release_index.html:158
+#. Submitting... is a text shown while waiting for the sending to complete.
+#: apps/feedback/templates/feedback/release_index.html:97 apps/feedback/templates/feedback/release_index.html:158 apps/feedback/templates/feedback/release_index.html:210
+#: apps/feedback/templates/feedback/mobile/release_index.html:66 apps/feedback/templates/feedback/mobile/release_index.html:118 apps/feedback/templates/feedback/mobile/release_index.html:161
 msgid "Submitting Feedback"
 msgstr "正在傳送意見回饋"
 
@@ -922,7 +927,7 @@ msgstr "太棒了！真高興您喜歡我們預先釋出的瀏覽器。請寫下
 msgid "Super! Please tell us more!"
 msgstr "太棒了！請再多告訴我們一些東西！"
 
-#: apps/feedback/templates/feedback/release_index.html:219 apps/feedback/templates/feedback/thanks.html:3 apps/feedback/templates/feedback/mobile/release_index.html:171
+#: apps/feedback/templates/feedback/release_index.html:222 apps/feedback/templates/feedback/thanks.html:3 apps/feedback/templates/feedback/mobile/release_index.html:174
 #: apps/feedback/templates/feedback/mobile/thanks.html:3
 msgid "Thanks for Your Feedback"
 msgstr "感謝您的回饋"
@@ -973,7 +978,7 @@ msgstr "要加入 Beta 計畫，只要到我們的下載頁面安裝或更新<a 
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
 msgstr "要加入 Beta 計畫，只要到我們的下載頁面安裝或更新<a href=\"%(url)s\">最新的 Firefox</a> 即可！"
 
-#: apps/feedback/templates/feedback/release_index.html:137 apps/feedback/templates/feedback/release_index.html:188
+#: apps/feedback/templates/feedback/release_index.html:138 apps/feedback/templates/feedback/release_index.html:190
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
 msgstr "為了保護您的隱私，請確定您要送出的回饋當中沒有可供識別的個人資訊。"
 
@@ -999,11 +1004,11 @@ msgstr "趨勢"
 msgid "Tweet This"
 msgstr "推一下"
 
-#: apps/feedback/templates/feedback/release_index.html:243
+#: apps/feedback/templates/feedback/release_index.html:246
 msgid "Twitter"
 msgstr "Twitter"
 
-#: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
+#: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:17
 #: apps/website_issues/templates/website_issues/sites.html:32
 msgid "Type of Feedback"
 msgstr "使用者回饋類型"
@@ -1033,11 +1038,11 @@ msgstr "Request Header 中需設定 User-Agent。"
 msgid "Version:"
 msgstr "版本: "
 
-#: apps/feedback/templates/feedback/release_index.html:234
+#: apps/feedback/templates/feedback/release_index.html:237
 msgid "Visit the <a href=\"%(dashboard_url)s\">Firefox Feedback Dashboard</a>"
 msgstr "請看看 <a href=\"%(dashboard_url)s\">Firefox Feedback Dashboard</a>"
 
-#: apps/feedback/templates/feedback/release_index.html:232
+#: apps/feedback/templates/feedback/release_index.html:235
 msgid "Want to see where your feedback goes?"
 msgstr "想看看您所回饋的東西跑到哪了嗎？"
 
@@ -1063,11 +1068,11 @@ msgstr "歡迎"
 msgid "Welcome!"
 msgstr "歡迎！"
 
-#: apps/feedback/templates/feedback/mobile/release_index.html:90
+#: apps/feedback/templates/feedback/mobile/release_index.html:91
 msgid "What is the URL of the broken site?"
 msgstr "壞掉的網站的網址是什麼？"
 
-#: apps/feedback/templates/feedback/release_index.html:124
+#: apps/feedback/templates/feedback/release_index.html:125
 msgid "What is the URL of the site?"
 msgstr "壞掉的網站的網址是什麼？"
 
@@ -1109,7 +1114,7 @@ msgstr "您的回饋內容似乎包含網址。請將包含網址的所有個人
 msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr "您的回饋內容似乎包含電子郵件地址。請將電子郵件地址和其他類似的個人資訊從內容中移除，然後再試一次。感謝！"
 
-#: apps/feedback/templates/feedback/release_index.html:222 apps/feedback/templates/feedback/mobile/release_index.html:173
+#: apps/feedback/templates/feedback/release_index.html:225 apps/feedback/templates/feedback/mobile/release_index.html:176
 msgid "Your feedback will be used to create a better experience in future releases of Firefox."
 msgstr "您的回饋將會在未來的 Firefox 版本當中被用來建立更優秀的體驗。"
 
