@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 15:37+0200\n"
-"PO-Revision-Date: 2011-02-16 17:47+0200\n"
+"PO-Revision-Date: 2011-03-11 02:45+0200\n"
 "Last-Translator: saneyuki_s <saneyuki.snyk@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -62,7 +62,6 @@ msgid "-- all --"
 msgstr "-- すべて --"
 
 #: apps/search/forms.py:42
-#, fuzzy
 msgctxt "platform_choice"
 msgid "-- all --"
 msgstr "-- すべて --"
@@ -178,9 +177,8 @@ msgid "Average Ratings Over Time"
 msgstr "評価の平均の推移"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:28
-#, fuzzy
 msgid "Awesome! Please enter your idea below:"
-msgstr "ありがとうございます！あなたの提案を記入してください:"
+msgstr "ありがとうございます！あなたの意見を記入してください:"
 
 #: apps/website_issues/templates/website_issues/includes/single_site.html:1
 msgid "Back to all sites &raquo;"
@@ -194,9 +192,10 @@ msgstr "テーマの一覧に戻る &raquo;"
 msgid "Back to {domain} &raquo;"
 msgstr "{domain} へのフィードバックの一覧に戻る &raquo;"
 
+# フィードバックされた版ごとの情報を切り替える
 #: apps/input/__init__.py:25
 msgid "Beta Channel"
-msgstr "Beta チャンネル"
+msgstr "ベータ版"
 
 #: apps/website_issues/templates/website_issues/sites.html:5 apps/website_issues/templates/website_issues/includes/sites_list.html:14 templates/base.html:55
 msgid "Broken Sites"
@@ -241,11 +240,11 @@ msgstr "期間:"
 
 #: apps/feedback/templates/feedback/release_index.html:131
 msgid "Describe the problem with the site."
-msgstr "Web サイトでどのような問題が起こったかを記述してください。"
+msgstr "Web サイトでどのような問題が起こりましたか？"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:97
 msgid "Describe the problem with the website."
-msgstr "Web サイトでどのような問題が起こったかを記述してください。"
+msgstr "Web サイトでどのような問題が起こりましたか？"
 
 #: apps/feedback/templates/feedback/release_index.html:183 apps/feedback/templates/feedback/mobile/release_index.html:142
 msgid "Describe your idea below."
@@ -280,9 +279,8 @@ msgid "Enter your feedback here."
 msgstr "フィードバックをこちらに入力してください。"
 
 #: apps/feedback/forms.py:132 apps/feedback/forms.py:189
-#, fuzzy
 msgid "Enter your ideas here."
-msgstr "フィードバックをこちらに入力してください。"
+msgstr "あなたの意見をここに記入してください。"
 
 #: apps/feedback/forms.py:173
 msgid "Example: Images were not loading, but the rest of the page was."
@@ -398,7 +396,7 @@ msgstr "あなたのプライバシーを保護するため、個人を特定可
 
 #: apps/themes/templates/themes/index.html:37
 msgid "Frequent Ideas"
-msgstr ""
+msgstr "よくある意見"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:212
 msgid "Get the latest news on Firefox."
@@ -423,11 +421,11 @@ msgstr "特定の Web サイトで問題が起こる場合は、URL を追加し
 
 #: apps/feedback/templates/feedback/release_index.html:171
 msgid "Have an idea how Firefox could be better? Let us know!"
-msgstr "Firefox をより良いものにするためのアイデアをお持ちですか？ ぜひ、お知らせください！"
+msgstr "Firefox をより良いものにするための意見をお持ちですか？ ぜひ、お知らせください！"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:137
 msgid "Have an idea how Firefox for Mobile could be better? Let us know!"
-msgstr "Firefox をより良いものにするためのアイデアをお持ちですか？ ぜひ、お知らせください！"
+msgstr "Firefox をより良いものにするための意見をお持ちですか？ ぜひ、お知らせください！"
 
 #: templates/about.html:7
 msgid "Hello!"
@@ -475,16 +473,15 @@ msgstr "申し訳ありません。検索時にエラーが発生しました。
 
 #: apps/input/__init__.py:77 apps/search/views.py:247 apps/themes/templates/themes/theme_list.html:10
 msgid "Idea"
-msgstr ""
+msgstr "意見"
 
 #: apps/dashboard/views.py:56 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:38 apps/themes/views.py:40 templates/base.html:54
 msgid "Ideas"
-msgstr ""
+msgstr "意見"
 
 #: apps/themes/views.py:41
-#, fuzzy
 msgid "Ideas only"
-msgstr "悪い点のみ"
+msgstr "意見のみ"
 
 #: templates/csrf_error.html:24
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
@@ -499,17 +496,19 @@ msgid "If you have additional information how to reproduce this problem, please 
 msgstr "この問題を再現する方法についての追加の情報がある場合は、<a href=\"%(bug_url)s\">バグ報告</a> をしてください。ご協力ありがとうございます！"
 
 #: apps/feedback/templates/feedback/feedback.html:86
-#, fuzzy
 msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_idea)s\">idea box</a>!"
-msgstr "他に何か提案がある場合は、<a href=\"%(url_idea)s\">提案ボックス</a> からお知らせください！"
+msgstr "他に何か意見がある場合は、<a href=\"%(url_idea)s\">意見ボックス</a> からお知らせください！"
 
 #: apps/feedback/templates/feedback/release_index.html:24
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
-msgstr "Firefox で起こる問題に助けが必要な場合は、<a href=\"%(support_url)s\">Firefox サポート</a> サイトをご利用ください。"
+msgstr ""
+"Firefox で起こる問題にヘルプが必要な場合は、<a href=\"%(support_url)s\">Firefox サポート</a> "
+"サイトをご利用ください。"
 
 #: apps/feedback/templates/feedback/beta_index.html:25
 msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
-msgstr "Firefox について問題を抱えていたり助けが必要な場合は、<a href=\"%(support_url)s\">サポートページ</a>をご利用ください。"
+msgstr ""
+"Firefox で起こる問題にヘルプが必要な場合は、<a href=\"%(support_url)s\">サポートページ</a>をご利用ください。"
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
@@ -647,7 +646,7 @@ msgstr "次のページ &raquo;"
 
 #: apps/input/__init__.py:30
 msgid "Nightly Channel"
-msgstr "Nightly チャンネル"
+msgstr "開発版"
 
 #. short for an indefinite date range
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:12
@@ -701,9 +700,8 @@ msgid "Open Data"
 msgstr "Open Data"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:68
-#, fuzzy
 msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
-msgstr "もしくは、あなたの提案を <a href=\"%(url_idea)s\">提案ボックス</a> から投稿してください！"
+msgstr "または、あなたの意見を <a href=\"%(url_idea)s\">意見ボックス</a> から投稿してください！"
 
 #: apps/input/__init__.py:271
 msgid "Other"
@@ -719,7 +717,7 @@ msgstr "現在、検索エンジンを使用することができない可能性
 
 #: apps/search/forms.py:68
 msgid "PLATFORM:"
-msgstr ""
+msgstr "プラットフォーム:"
 
 #: apps/input/__init__.py:118
 msgid "Page Load Time"
@@ -749,9 +747,10 @@ msgstr "送信するフィードバックの種類を選んでください:"
 msgid "Please ensure that there is no personally identifiable information here."
 msgstr "個人を特定できる情報が入力されていないことを確認してください。"
 
+# "Rate Your Experience"で、ひとつも評価を決めずに送信した場合のエラーメッセージ
 #: apps/feedback/forms.py:159
 msgid "Please rate at least one item."
-msgstr ""
+msgstr "少なくとも1つの項目について評価してください。"
 
 #: templates/404.html:9 templates/500.html:14
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
@@ -794,16 +793,17 @@ msgstr "製品:"
 
 #: apps/feedback/templates/feedback/release_index.html:112
 msgid "Provide us some details about the problem and we'll try to fix it."
-msgstr "問題についてのより詳細をお教えください。修正できるよう努力します。"
+msgstr "問題についての詳細をお教えください。修正できるよう努力します。"
 
 #: apps/search/client.py:209
 msgid "Query has timed out."
 msgstr "検索はタイムアウトしました。"
 
+# フィートバック分類を示すボタンのキャプション
 #: apps/feedback/templates/feedback/release_index.html:16 apps/feedback/templates/feedback/release_index.html:37 apps/feedback/templates/feedback/mobile/release_index.html:16
 #: apps/feedback/templates/feedback/mobile/release_index.html:32
 msgid "Rate Your Experience"
-msgstr "あなたの Web 体験を評価してください"
+msgstr "Web 体験を評価する"
 
 #: apps/input/__init__.py:84
 msgid "Rating"
@@ -872,7 +872,7 @@ msgstr "期間を設定"
 #: apps/feedback/templates/feedback/release_index.html:18 apps/feedback/templates/feedback/release_index.html:170 apps/feedback/templates/feedback/mobile/release_index.html:18
 #: apps/feedback/templates/feedback/mobile/release_index.html:136
 msgid "Share an Idea"
-msgstr "提案を共有"
+msgstr "意見を共有する"
 
 #: apps/dashboard/templates/includes/filter_box_toggle.html:4
 msgid "Show/Hide Options"
@@ -888,9 +888,8 @@ msgid "Sites with only one message"
 msgstr "メッセージが 1 つしか寄せられていない Web サイト"
 
 #: apps/feedback/templates/feedback/feedback.html:29
-#, fuzzy
 msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please enter your idea below:"
-msgstr "Firefox をより良くするための提案ですね？ ありがとうございます！ 提案を以下に記入してください:"
+msgstr "Firefox をより良くするための意見ですね？ ありがとうございます！ 意見を以下に記入してください:"
 
 #: templates/about.html:34
 msgid "Source Code"
@@ -923,9 +922,10 @@ msgstr "統計情報"
 msgid "Submit Feedback"
 msgstr "フィードバックを送る"
 
+# フィードバック送信ページの見出し
 #: apps/feedback/templates/feedback/release_index.html:10 apps/feedback/templates/feedback/mobile/release_index.html:10
 msgid "Submit Your Feedback"
-msgstr "あなたのフィードバックを送信"
+msgstr "フィードバックを送る"
 
 #. Submitting... is a text shown while waiting for the sending to complete.
 #: apps/feedback/templates/feedback/release_index.html:97 apps/feedback/templates/feedback/release_index.html:158 apps/feedback/templates/feedback/release_index.html:210
