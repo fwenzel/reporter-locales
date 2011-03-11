@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-21 13:51+0200\n"
-"PO-Revision-Date: 2011-03-09 00:03+0200\n"
+"PO-Revision-Date: 2011-03-11 22:30+0200\n"
 "Last-Translator: Kemcy <kmcreg@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -44,17 +44,14 @@ msgid "&infin;"
 msgstr "&infin;"
 
 #: apps/dashboard/templates/dashboard/mobile/beta.html:35 apps/search/templates/search/mobile/search.html:38
-#, fuzzy
 msgid "&laquo; Newer Feedback"
-msgstr "&laquo; 上一页"
+msgstr "&laquo; 较新的反馈"
 
 #: apps/dashboard/templates/dashboard/beta.html:24 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:63
-#, fuzzy
 msgid "&laquo; Newer Messages"
-msgstr "&laquo; 上一页"
+msgstr "&laquo; 较新的消息"
 
 #: apps/themes/templates/themes/theme.html:28 apps/website_issues/templates/website_issues/theme.html:30 apps/website_issues/templates/website_issues/includes/paginate_sites.html:3
-#, fuzzy
 msgid "&laquo; Previous Page"
 msgstr "&laquo; 上一页"
 
@@ -64,7 +61,6 @@ msgid "-- all --"
 msgstr "-- 全部 --"
 
 #: apps/search/forms.py:42
-#, fuzzy
 msgctxt "platform_choice"
 msgid "-- all --"
 msgstr "-- 全部 --"
@@ -92,14 +88,13 @@ msgid "7d"
 msgstr "7 天"
 
 #: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
-#, fuzzy
 msgid "<strong>%(cnt)s</strong> message"
 msgid_plural "<strong>%(cnt)s</strong> messages"
-msgstr[0] "最近 {count} 条消息"
+msgstr[0] "<strong>%(cnt)s</strong>条消息"
 
 #: templates/base.html:31
 msgid "<strong>Firefox Beta</strong> Input Dashboard"
-msgstr ""
+msgstr "<strong>Firefox 测试版</strong> Input 仪表盘"
 
 #: templates/about.html:9
 msgid ""
@@ -111,32 +106,29 @@ msgstr ""
 
 #: templates/base.html:47
 msgid "<strong>Firefox Release</strong> Input Dashboard"
-msgstr ""
+msgstr "<strong>Firefox 正式版</strong> Input 仪表盘"
 
 #: templates/includes/welcome.html:2
 msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
 msgstr ""
-"<strong>欢迎来到 Firefox Input！</strong> 这是 Mozilla 主要的用户反馈程序。<a href=\"%"
+"<strong>欢迎来到Firefox Input！</strong> 这是Mozilla主要的用户反馈程序。<a href=\"%"
 "(about_url)s\">了解更多...</a>"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:197
-#, fuzzy
 msgid "@MozMobile"
-msgstr "移动设备"
+msgstr "@MozMobile"
 
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
 msgstr "此搜索的 ATOM RSS 收取点"
 
 #: templates/about.html:3 templates/includes/footer.html:11
-#, fuzzy
 msgid "About Firefox Input"
-msgstr "Firefox"
+msgstr "关于Firefox Input"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:26
-#, fuzzy
 msgid "Ack! Please tell us what to fix!"
-msgstr "抱歉！请告诉我们更多信息！"
+msgstr "喔！请告诉我们要修正什么！"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:40
 msgid "Add URL of last visited page?"
@@ -147,18 +139,15 @@ msgid "Advanced"
 msgstr "高级"
 
 #: apps/themes/views.py:28 apps/themes/views.py:52
-#, fuzzy
 msgid "All"
 msgstr "全部"
 
 #: apps/website_issues/templates/website_issues/sites.html:35
-#, fuzzy
 msgctxt "sites_search_all_feedback"
 msgid "All"
 msgstr "全部"
 
 #: apps/website_issues/templates/website_issues/sites.html:47
-#, fuzzy
 msgctxt "sites_search_all_platforms"
 msgid "All"
 msgstr "全部"
@@ -185,11 +174,11 @@ msgstr "Android"
 
 #: apps/search/templates/search/release.html:19
 msgid "Average Ratings Over Time"
-msgstr ""
+msgstr "一段时间的平均评级"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:28
 msgid "Awesome! Please enter your idea below:"
-msgstr ""
+msgstr "棒极了！请在下面输入您的点子："
 
 #: apps/website_issues/templates/website_issues/includes/single_site.html:1
 msgid "Back to all sites &raquo;"
@@ -205,11 +194,11 @@ msgstr "返回到 {domain} &raquo;"
 
 #: apps/input/__init__.py:25
 msgid "Beta Channel"
-msgstr ""
+msgstr "测试版频道"
 
 #: apps/website_issues/templates/website_issues/sites.html:5 apps/website_issues/templates/website_issues/includes/sites_list.html:14 templates/base.html:55
 msgid "Broken Sites"
-msgstr ""
+msgstr "不正常显示的网站"
 
 #: apps/input/__init__.py:91
 msgid "Broken Website"
@@ -217,7 +206,7 @@ msgstr "不正常显示的网站"
 
 #: templates/csrf_error.html:5
 msgid "CSRF Protection Error"
-msgstr ""
+msgstr "跨站请求伪造保护错误"
 
 #: templates/includes/ua_overlay.html:10
 msgid "Close"
@@ -241,17 +230,16 @@ msgid "Custom"
 msgstr "自定义"
 
 #: templates/base_mobile.html:20
-#, fuzzy
 msgid "Dashboard"
-msgstr "Input 仪表盘"
+msgstr "仪表盘"
 
 #: apps/search/forms.py:74
 msgid "Date range:"
-msgstr "时间段："
+msgstr "日期范围："
 
 #: apps/feedback/templates/feedback/release_index.html:131
 msgid "Describe the problem with the site."
-msgstr ""
+msgstr "描述该站点的问题。"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:97
 msgid "Describe the problem with the website."
@@ -267,7 +255,7 @@ msgstr "设备"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:84
 msgid "Does a website look or behave incorrectly in Firefox for Mobile? Provide us some details about the problem and we'll try to fix it."
-msgstr ""
+msgstr "有网站在Firefox移动版中看起来不正常，或者用起来怪怪的？请提供一些具体信息好让我们修正它。"
 
 #: apps/feedback/templates/feedback/release_index.html:111
 msgid "Does a website look or behave incorrectly in Firefox?"
@@ -282,18 +270,16 @@ msgid "Download Beta"
 msgstr "下载测试版"
 
 #: apps/feedback/templates/feedback/need_release.html:3
-#, fuzzy
 msgid "Download Firefox"
-msgstr "下载测试版"
+msgstr "下载Firefox"
 
 #: apps/feedback/forms.py:106 apps/feedback/forms.py:119
 msgid "Enter your feedback here."
-msgstr "请再次输入您的回馈。"
+msgstr "请在这里输入您的反馈。"
 
 #: apps/feedback/forms.py:132 apps/feedback/forms.py:189
-#, fuzzy
 msgid "Enter your ideas here."
-msgstr "请再次输入您的回馈。"
+msgstr "请在这里输入您的点子。"
 
 #: apps/feedback/forms.py:173
 msgid "Example: Images were not loading, but the rest of the page was."
@@ -307,15 +293,17 @@ msgstr "棒极了"
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
 "any later version."
-msgstr "除非特别 <a href=\"%(legal_url)s\">指出</a>，本站的内容均使用 <br/> <a href=\"%(license_url)s\">创作共用 署名 - 相同方式共享 3.0</a> 或更新的版本授权."
+msgstr ""
+"除非特别<a href=\"%(legal_url)s\">指出</a>，本站的内容均使用<br/><a href=\"%"
+"(license_url)s\">知识共享署名份额许可证第3.0版</a>或更新的版本授权。"
 
 #: templates/base.html:53
 msgid "Experience"
-msgstr ""
+msgstr "体验"
 
 #: apps/search/templates/search/release.html:15
 msgid "Experience Ratings"
-msgstr ""
+msgstr "体验评分"
 
 #: apps/feedback/templates/feedback/release_index.html:247
 msgid "Facebook"
@@ -330,19 +318,16 @@ msgid "Features"
 msgstr "特点"
 
 #: apps/dashboard/templates/dashboard/mobile/beta.html:6 apps/search/templates/search/mobile/search.html:6
-#, fuzzy
 msgid "Feed"
-msgstr "提交反馈"
+msgstr "收取点"
 
 #: templates/base.html:37
-#, fuzzy
 msgid "Feedback"
-msgstr "提交反馈"
+msgstr "反馈"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:189
-#, fuzzy
 msgid "Feedback Dashboard"
-msgstr "Input 仪表盘"
+msgstr "反馈仪表盘"
 
 #: apps/feedback/validators.py:36
 msgid "Feedback must not contain HTML."
@@ -353,18 +338,16 @@ msgid "Find out the latest news from Mozilla:"
 msgstr "查看来自 Mozilla 的最新消息："
 
 #: apps/feedback/templates/feedback/release_index.html:244
-#, fuzzy
 msgid "Find the latest news about Firefox."
-msgstr "查看来自 Mozilla 的最新消息："
+msgstr "查看关于Firefox的最新消息。"
 
 #: apps/input/__init__.py:160
 msgid "Firefox"
 msgstr "Firefox"
 
 #: apps/search/views.py:114 apps/search/views.py:133
-#, fuzzy
 msgid "Firefox Input"
-msgstr "Firefox"
+msgstr "Firefox Input"
 
 #. L10n: This is the title to the Search ATOM feed.
 #: apps/search/views.py:132
@@ -372,9 +355,8 @@ msgid "Firefox Input: '{query}'"
 msgstr "Firefox Input：“{query}”"
 
 #: apps/feedback/templates/feedback/beta_index.html:24
-#, fuzzy
 msgid "Firefox Logo"
-msgstr "Firefox"
+msgstr "Firefox标志"
 
 #: apps/feedback/templates/feedback/mobile/beta_index.html:13 apps/feedback/templates/feedback/mobile/beta_index.html:15
 msgid "Firefox makes me happy ..."
@@ -393,13 +375,12 @@ msgid "Firefox makes me sad because ..."
 msgstr "Firefox 让我不高兴，因为..."
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:205
-#, fuzzy
 msgid "Firefox on Facebook"
-msgstr "Firefox"
+msgstr "Facebook上的Firefox"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:196
 msgid "Follow us on Twitter."
-msgstr ""
+msgstr "在Twitter上关注我们。"
 
 #. refers to time-based search filters (e.g., "for last: 1d")
 #: apps/dashboard/templates/dashboard/mobile/when.html:3
@@ -407,22 +388,20 @@ msgid "For last:"
 msgstr "在最近："
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:102 apps/feedback/templates/feedback/mobile/release_index.html:147
-#, fuzzy
 msgid "For your privacy, please ensure that no personally identifiable information is included in your feedback."
-msgstr "请确认您没有输入一些个人的标识信息。"
+msgstr "为了您的隐私，请确认您的反馈中没有包含任何个人身份信息。"
 
 #: apps/themes/templates/themes/index.html:37
 msgid "Frequent Ideas"
-msgstr ""
+msgstr "常见点子"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:212
-#, fuzzy
 msgid "Get the latest news on Firefox."
-msgstr "查看来自 Mozilla 的最新消息："
+msgstr "获取关于Firefox的最新消息。"
 
 #: templates/includes/channel_switcher.html:13 templates/includes/footer_release.html:16 templates/includes/lang_switcher.html:10
 msgid "Go"
-msgstr "OK"
+msgstr "前往"
 
 #: apps/feedback/templates/feedback/release_index.html:40 apps/feedback/templates/feedback/release_index.html:115 apps/feedback/templates/feedback/release_index.html:173
 #: apps/feedback/templates/feedback/mobile/release_index.html:28 apps/feedback/templates/feedback/mobile/release_index.html:79 apps/feedback/templates/feedback/mobile/release_index.html:132
@@ -443,7 +422,7 @@ msgstr "有什么能让 Firefox 变得更好的想法吗？告诉我们！"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:137
 msgid "Have an idea how Firefox for Mobile could be better? Let us know!"
-msgstr ""
+msgstr "您有个点子能让Firefox移动版变得更棒？来告诉我们！"
 
 #: templates/about.html:7
 msgid "Hello!"
@@ -475,15 +454,15 @@ msgstr "Firefox 内置的功能在多大程度上满足您的需要"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:33
 msgid "How would you rate these aspects of Firefox for Mobile?"
-msgstr ""
+msgstr "您如何评价Firefox移动版的这些方面？"
 
 #: apps/feedback/templates/feedback/release_index.html:38
 msgid "How would you rate these aspects of Firefox?"
-msgstr "您给 Firefox 的这些因素打多少分？"
+msgstr "您给 Firefox 的这些方面打多少分？"
 
 #: templates/404.html:6
 msgid "I'm sorry, I could not find what you were looking for."
-msgstr "抱歉，我们无法找到您查询的记录。"
+msgstr "抱歉，我们找不到您想找的东西。"
 
 #: apps/search/templates/search/unavailable.html:7
 msgid "I'm sorry, there was an error with your search."
@@ -491,21 +470,19 @@ msgstr "抱歉，搜索时出错。"
 
 #: apps/input/__init__.py:77 apps/search/views.py:247 apps/themes/templates/themes/theme_list.html:10
 msgid "Idea"
-msgstr ""
+msgstr "点子"
 
 #: apps/dashboard/views.py:56 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:38 apps/themes/views.py:40 templates/base.html:54
 msgid "Ideas"
-msgstr ""
+msgstr "点子"
 
 #: apps/themes/views.py:41
-#, fuzzy
 msgid "Ideas only"
-msgstr "问题"
+msgstr "仅点子"
 
 #: templates/csrf_error.html:24
-#, fuzzy
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-msgstr "如果问题持续，请 <a href=\"%(bug_url)s\">提交一个缺陷报告</a>，并给出您无法访问的 URL。"
+msgstr "如果问题仍然存在，请<a href=\"%(bug_url)s\">提交缺陷报告。</a> 谢谢！"
 
 #: apps/search/templates/search/unavailable.html:17
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
@@ -513,11 +490,11 @@ msgstr "如果问题持续，请 <a href=\"%(bug_url)s\">提交一个缺陷报�
 
 #: templates/500.html:20
 msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-msgstr "如果您有更多的关于如何重现改问题的信息，请<a href=\"%(bug_url)s\">提交一个缺陷报告。</a> 谢谢！"
+msgstr "如果您有更多的关于如何重现该问题的信息，请<a href=\"%(bug_url)s\">提交一个缺陷报告</a>。谢谢！"
 
 #: apps/feedback/templates/feedback/feedback.html:86
 msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_idea)s\">idea box</a>!"
-msgstr ""
+msgstr "如果您是要给我们提供一个点子，请通过<a href=\"%(url_idea)s\">点子留言板</a>发送给我们！"
 
 #: apps/feedback/templates/feedback/release_index.html:24
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
@@ -530,7 +507,7 @@ msgstr "如果您需要帮助或者有什么 Firefox 的问题，请访问我们
 
 #: apps/feedback/templates/feedback/thanks.html:10
 msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
-msgstr "如果您想知道您的反馈信息被发送到了何处，请查看 <a href=\"%(url)s\">Firefox Input 仪表盘</a>."
+msgstr "如果您想知道您的反馈信息被发送到了何处，请查看<a href=\"%(url)s\">Firefox Input仪表盘</a>。"
 
 #: templates/404.html:14
 msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
@@ -553,7 +530,6 @@ msgid "Invalid feedback type"
 msgstr "无效的反馈分类"
 
 #: apps/feedback/helpers.py:39 apps/input/__init__.py:70 apps/themes/templates/themes/theme_list.html:12 apps/website_issues/templates/website_issues/includes/single_site.html:14
-#, fuzzy
 msgid "Issue"
 msgstr "问题"
 
@@ -564,9 +540,8 @@ msgid "Issues"
 msgstr "问题"
 
 #: apps/themes/views.py:37 apps/website_issues/templates/website_issues/sites.html:37
-#, fuzzy
 msgid "Issues only"
-msgstr "问题"
+msgstr "仅问题"
 
 #: apps/feedback/templates/feedback/beta_index.html:7
 msgid "It's great to hear you want to help Mozilla make your experience better!"
@@ -574,7 +549,7 @@ msgstr "我们很荣幸您有意愿帮助 Mozilla 改善您的用户体验！"
 
 #: apps/feedback/templates/feedback/feedback.html:48
 msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
-msgstr "您知道能在此测试版 Firefox 上表现更好的站点？请添加 URL，以便于我们跟进，谢谢！"
+msgstr "您知道能在此测试版Firefox上表现更好的站点？请添加URL，以便于我们跟进，谢谢！"
 
 #. short for 30 days
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:9
@@ -588,14 +563,12 @@ msgstr "最近 7 天"
 
 #. short for 1 day
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:3
-#, fuzzy
 msgid "Last day"
-msgstr "1 天"
+msgstr "前一天"
 
 #: apps/dashboard/templates/dashboard/beta.html:14
-#, fuzzy
 msgid "Latest Feedback"
-msgstr "提交反馈"
+msgstr "最新反馈"
 
 #: templates/base_mobile_old.html:57 templates/base_old.html:64 templates/includes/footer.html:9
 msgid "Legal Notices"
@@ -603,7 +576,7 @@ msgstr "法律声明"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:204
 msgid "Let's be friends!"
-msgstr ""
+msgstr "让我们成为朋友吧！"
 
 #: apps/input/__init__.py:264
 msgid "Linux"
@@ -611,7 +584,7 @@ msgstr "Linux"
 
 #: apps/search/templates/search/release.html:30
 msgid "Loading chart data."
-msgstr ""
+msgstr "正在载入图表数据。"
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:9
 msgid "Loading feedback history..."
@@ -619,7 +592,7 @@ msgstr "正在载入反馈历史..."
 
 #: apps/search/templates/search/includes/ratings_chart.html:12
 msgid "Loading ratings history..."
-msgstr ""
+msgstr "正在载入评分历史"
 
 #: apps/dashboard/templates/dashboard/locales.html:17 apps/dashboard/templates/dashboard/mobile/locales.html:9
 msgid "Locale"
@@ -648,12 +621,11 @@ msgstr "消息"
 
 #: apps/input/__init__.py:176
 msgid "Mobile"
-msgstr "移动设备"
+msgstr "移动版"
 
 #: apps/dashboard/templates/dashboard/locales.html:29
-#, fuzzy
 msgid "More Locales"
-msgstr "区域设置"
+msgstr "更多语言"
 
 #: apps/dashboard/templates/dashboard/message_list.html:29 apps/themes/templates/themes/theme_list.html:28
 msgid "More Options"
@@ -664,13 +636,12 @@ msgid "More sites..."
 msgstr "更多站点..."
 
 #: apps/themes/templates/themes/theme.html:36 apps/website_issues/templates/website_issues/theme.html:38 apps/website_issues/templates/website_issues/includes/paginate_sites.html:11
-#, fuzzy
 msgid "Next Page &raquo;"
 msgstr "下一页 &raquo;"
 
 #: apps/input/__init__.py:30
 msgid "Nightly Channel"
-msgstr ""
+msgstr "每夜版频道"
 
 #. short for an indefinite date range
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:12
@@ -678,18 +649,16 @@ msgid "No date limit"
 msgstr "不限制日期"
 
 #: apps/search/templates/search/release.html:37
-#, fuzzy
 msgid "No results found"
-msgstr "无符合条件的结果。"
+msgstr "没有找到结果"
 
 #: apps/website_issues/templates/website_issues/includes/sites_list.html:29
-#, fuzzy
 msgid "No results found!"
-msgstr "无符合条件的结果。"
+msgstr "没有找到结果！"
 
 #: apps/dashboard/templates/dashboard/message_list.html:51 apps/themes/templates/themes/theme_list.html:41
 msgid "No search results found."
-msgstr "无符合条件的结果。"
+msgstr "没有找到搜索结果。"
 
 #: templates/404.html:4
 msgid "Not Found"
@@ -701,27 +670,24 @@ msgid "Often Mentioned"
 msgstr "经常被提及的"
 
 #: apps/feedback/templates/feedback/need_release.html:8
-#, fuzzy
 msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-msgstr "噢！您想要对我们下一个版本的 Firefox 提供反馈。谢谢！请加入我们的最新测试版。"
+msgstr "噢！看来您想要对Firefox提供反馈。谢谢，但您需要使用最新版。"
 
 #: apps/feedback/templates/feedback/need_beta.html:8
 msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
-msgstr "噢！您想要对我们下一个版本的 Firefox 提供反馈。谢谢！请加入我们的最新测试版。"
+msgstr "噢！看来您想要对我们下一个版本的Firefox提供反馈。谢谢！但您需要使用最新测试版。"
 
 #: apps/feedback/templates/feedback/mobile/need_beta.html:9
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
-msgstr "噢！您想要提供反馈。您需要使用最新的测试版！请访问我们的测试版页面并<a href=\"%(url)s\">下载！</a>"
+msgstr "噢！看来您想要提供反馈。您需要使用最新的测试版！请访问我们的测试版页面并<a href=\"%(url)s\">下载！</a>"
 
 #: apps/dashboard/templates/dashboard/mobile/beta.html:36 apps/search/templates/search/mobile/search.html:48
-#, fuzzy
 msgid "Older Feedback &raquo;"
-msgstr "下一页 &raquo;"
+msgstr "更早的反馈 &raquo;"
 
 #: apps/dashboard/templates/dashboard/beta.html:25 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:73
-#, fuzzy
 msgid "Older Messages &raquo;"
-msgstr "下一页 &raquo;"
+msgstr "更早的信息 &raquo;"
 
 #: templates/about.html:24
 msgid "Open Data"
@@ -729,7 +695,7 @@ msgstr "打开数据"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:68
 msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
-msgstr ""
+msgstr "或者通过<a href=\"%(url_idea)s\">点子留言板</a>发送您的点子！"
 
 #: apps/input/__init__.py:271
 msgid "Other"
@@ -741,11 +707,11 @@ msgstr "其它语言："
 
 #: apps/search/templates/search/unavailable.html:10
 msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
-msgstr "我们的搜索引擎暂时不可用，您可以访问<a href=\"%(url)s\">仪表盘</a> 并稍后重试。"
+msgstr "我们的搜索引擎暂时不可用，您可以访问<a href=\"%(url)s\">仪表盘</a>并稍后重试。"
 
 #: apps/search/forms.py:68
 msgid "PLATFORM:"
-msgstr ""
+msgstr "PLATFORM："
 
 #: apps/input/__init__.py:118
 msgid "Page Load Time"
@@ -765,7 +731,7 @@ msgstr "平台"
 
 #: apps/feedback/templates/feedback/beta_index.html:9
 msgid "Please choose one of the following types of feedback that you would like to submit to us:"
-msgstr "请选择一个您要提交的反馈分类："
+msgstr "请在下面选择一个您要提交的反馈分类："
 
 #: apps/feedback/templates/feedback/mobile/beta_index.html:10
 msgid "Please choose the type of feedback that you would like to submit to us:"
@@ -777,11 +743,11 @@ msgstr "请确认您没有输入一些个人的标识信息。"
 
 #: apps/feedback/forms.py:159
 msgid "Please rate at least one item."
-msgstr ""
+msgstr "请至少给一个项目打分。"
 
 #: templates/404.html:9 templates/500.html:14
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
-msgstr "请访问 <a href=\"%(dashboard_url)s\">仪表盘</a>。"
+msgstr "请访问<a href=\"%(dashboard_url)s\">仪表盘</a>。"
 
 #: apps/input/__init__.py:148
 msgid "Poor"
@@ -792,12 +758,11 @@ msgstr "糟糕"
 #: apps/search/forms.py:36 apps/search/views.py:245 apps/themes/views.py:32 apps/themes/templates/themes/theme_list.html:8 apps/website_issues/templates/website_issues/sites.html:36
 #: apps/website_issues/templates/website_issues/includes/single_site.html:12
 msgid "Praise"
-msgstr "赞"
+msgstr "赞扬"
 
 #: apps/themes/views.py:33 apps/website_issues/templates/website_issues/sites.html:36
-#, fuzzy
 msgid "Praise only"
-msgstr "赞"
+msgstr "仅赞扬"
 
 #: templates/base_mobile_old.html:56 templates/base_old.html:63 templates/includes/footer.html:8
 msgid "Privacy Policy"
@@ -812,9 +777,8 @@ msgid "Proceed to main content"
 msgstr "继续至主要内容"
 
 #: apps/search/templates/search/search.html:20 apps/themes/templates/themes/index.html:10 apps/website_issues/templates/website_issues/sites.html:22 templates/includes/filters.html:6
-#, fuzzy
 msgid "Product"
-msgstr "产品："
+msgstr "产品"
 
 #: apps/search/forms.py:60
 msgid "Product:"
@@ -839,7 +803,7 @@ msgstr "评分"
 
 #: apps/input/__init__.py:20
 msgid "Release Channel"
-msgstr ""
+msgstr "正式版频道"
 
 #: templates/base_mobile_old.html:58 templates/base_old.html:65 templates/includes/footer.html:10
 msgid "Report Trademark Abuse"
@@ -847,9 +811,8 @@ msgstr "滥用商标举报"
 
 #: apps/feedback/templates/feedback/release_index.html:17 apps/feedback/templates/feedback/release_index.html:109 apps/feedback/templates/feedback/mobile/release_index.html:17
 #: apps/feedback/templates/feedback/mobile/release_index.html:83
-#, fuzzy
 msgid "Report a Site Issue"
-msgstr "滥用商标举报"
+msgstr "报告站点问题"
 
 #: apps/input/__init__.py:125
 msgid "Responsiveness"
@@ -865,31 +828,28 @@ msgstr "搜索结果"
 
 #: apps/search/views.py:115
 msgid "Search Results in Firefox Beta Feedback."
-msgstr "Firefox 测试版反馈的搜索结果。"
+msgstr "Firefox测试版反馈的搜索结果。"
 
 #: apps/search/templates/search/unavailable.html:5
 msgid "Search Unavailable"
 msgstr "搜索暂不可用"
 
 #: apps/search/forms.py:59
-#, fuzzy
 msgid "Search by keyword"
-msgstr "搜索条件"
+msgstr "用关键词搜索"
 
 #: apps/website_issues/forms.py:42
-#, fuzzy
 msgctxt "website_issues_search"
 msgid "Search for domain"
-msgstr "搜索条件"
+msgstr "对域名搜索"
 
 #: apps/themes/templates/themes/theme_list.html:14
 msgid "See all opinions"
 msgstr "查看全部的观点"
 
 #: apps/feedback/templates/feedback/mobile/release_index.html:188
-#, fuzzy
 msgid "See where your feedback goes."
-msgstr "请再次输入您的回馈。"
+msgstr "查看您的反馈去了哪里。"
 
 #: apps/search/forms.py:64
 msgid "Sentiment:"
@@ -908,7 +868,7 @@ msgstr "分享一个点子"
 
 #: apps/dashboard/templates/includes/filter_box_toggle.html:4
 msgid "Show/Hide Options"
-msgstr "显示/隐藏 选项"
+msgstr "显示/隐藏选项"
 
 #: apps/website_issues/templates/website_issues/sites.html:6 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/includes/sites_list.html:16
 #: templates/base.html:39 templates/includes/nav_buttons.html:4
@@ -921,7 +881,7 @@ msgstr "只有一条消息的站点"
 
 #: apps/feedback/templates/feedback/feedback.html:29
 msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please enter your idea below:"
-msgstr ""
+msgstr "看来您有一条能让Firefox更好的建议？棒极了！请在下面输入："
 
 #: templates/about.html:34
 msgid "Source Code"
@@ -930,7 +890,7 @@ msgstr "源代码"
 #. L10n: Sphinx is the name of the search engine software.
 #: apps/search/client.py:212
 msgid "Sphinx threw an unknown exception: %s"
-msgstr "Sphinx 抛出了一个未知的异常： %s"
+msgstr "Sphinx给出了一个未知的异常：%s"
 
 #: apps/input/__init__.py:132
 msgid "Stability"
@@ -955,16 +915,14 @@ msgid "Submit Feedback"
 msgstr "提交反馈"
 
 #: apps/feedback/templates/feedback/release_index.html:10 apps/feedback/templates/feedback/mobile/release_index.html:10
-#, fuzzy
 msgid "Submit Your Feedback"
-msgstr "提交反馈"
+msgstr "提交您的反馈"
 
 #. Submitting... is a text shown while waiting for the sending to complete.
 #: apps/feedback/templates/feedback/release_index.html:97 apps/feedback/templates/feedback/release_index.html:158 apps/feedback/templates/feedback/release_index.html:210
 #: apps/feedback/templates/feedback/mobile/release_index.html:66 apps/feedback/templates/feedback/mobile/release_index.html:118 apps/feedback/templates/feedback/mobile/release_index.html:161
-#, fuzzy
 msgid "Submitting Feedback"
-msgstr "提交反馈"
+msgstr "正在提交反馈"
 
 #: apps/feedback/templates/feedback/feedback.html:19
 msgid "Super! It's great to hear that you like our pre-released browser. Please explain what you specifically like!"
@@ -981,7 +939,7 @@ msgstr "感谢您的反馈"
 
 #: apps/feedback/templates/feedback/mobile/beta_index.html:8
 msgid "Thanks for helping Mozilla make your experience better!"
-msgstr "谢谢您帮助 Mozilla 改善您的用户体验！"
+msgstr "谢谢您帮助Mozilla改善您的用户体验！"
 
 #: apps/feedback/templates/feedback/thanks.html:7 apps/feedback/templates/feedback/mobile/thanks.html:8
 msgid "Thanks for sending us your feedback!"
@@ -993,22 +951,23 @@ msgstr "谢谢！"
 
 #: templates/about.html:37
 msgid "The code for the Firefox Input web application can be found <a href=\"%(source_url)s\">on GitHub</a>!"
-msgstr "Firefox Input 网络应用程序的源代码可以在 <a href=\"%(source_url)s\">GitHub</a> 中找到！"
+msgstr "Firefox Input网络应用程序的源代码可以在<a href=\"%(source_url)s\">GitHub</a>中找到！"
 
 #: templates/csrf_error.html:15
 msgid ""
 "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable cookies "
 "in Firefox, then try again."
 msgstr ""
+"该错误最可能的原因是您的浏览器被设置为<strong>不接受我们的cookie</strong>。请按<a href=\"%"
+"(cookies_url)s\">提示</a>在Firefox中启用cookies，然后重试。"
 
 #: apps/themes/templates/themes/theme.html:4 apps/themes/templates/themes/theme.html:17 apps/website_issues/templates/website_issues/theme.html:19
 msgid "Theme"
 msgstr "主题"
 
 #: apps/website_issues/templates/website_issues/theme.html:22
-#, fuzzy
 msgid "Theme for {domain}"
-msgstr "搜索条件"
+msgstr "关于{domain}的主题"
 
 #: apps/themes/templates/themes/index.html:2 templates/base.html:38
 msgid "Themes"
@@ -1016,25 +975,23 @@ msgstr "主题"
 
 #: templates/csrf_error.html:8
 msgid "There was an error verifying your CSRF token. Your request could not be processed. We apologize for the inconvenience!"
-msgstr ""
+msgstr "验证您的CSRF令牌时发生错误。您的请求不能被处理。对此带来的不便，我们深表歉意！"
 
 #: apps/feedback/templates/feedback/need_beta.html:14
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
-msgstr "您只需访问我们的下载页面，并安装或更新至<a href=\"%(url)s\">最新测试版 Firefox！</a>"
+msgstr "您只需访问我们的下载页面，然后安装或更新到<a href=\"%(url)s\">Firefox的最新测试版！</a>"
 
 #: apps/feedback/templates/feedback/need_release.html:14
-#, fuzzy
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-msgstr "您只需访问我们的下载页面，并安装或更新至<a href=\"%(url)s\">最新测试版 Firefox！</a>"
+msgstr "您只需访问我们的下载页面，并安装或更新至<a href=\"%(url)s\">Firefox的最新测试版！</a>"
 
 #: apps/feedback/templates/feedback/release_index.html:138 apps/feedback/templates/feedback/release_index.html:190
-#, fuzzy
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
-msgstr "请确认您没有输入一些个人的标识信息。"
+msgstr "为了保护您的隐私，请确认您的反馈中没有包含任何个人身份信息。"
 
 #: templates/about.html:18
 msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(feedback_url)s\">the feedback submission page</a>!"
-msgstr "要针对您的 Firefox 版本提供反馈，请转到 <a href=\"%(feedback_url)s\">反馈提交页面</a>!"
+msgstr "要针对您的Firefox版本提供反馈，请转到 <a href=\"%(feedback_url)s\">反馈提交页面</a>!"
 
 #. Link text for showing/hiding options
 #: apps/dashboard/templates/includes/filter_box_toggle.html:6
@@ -1043,9 +1000,8 @@ msgstr "切换"
 
 #. Link to Google Translator
 #: apps/dashboard/templates/dashboard/message_list.html:36 apps/themes/templates/themes/theme_list.html:31
-#, fuzzy
 msgid "Translate Message"
-msgstr "翻译！"
+msgstr "翻译信息"
 
 #: apps/dashboard/templates/dashboard/mobile/beta.html:8 apps/search/templates/search/mobile/search.html:8
 msgid "Trends"
@@ -1053,7 +1009,7 @@ msgstr "趋势"
 
 #: apps/dashboard/templates/dashboard/message_list.html:41
 msgid "Tweet This"
-msgstr "发布到 Twitter"
+msgstr "发布到Twitter"
 
 #: apps/feedback/templates/feedback/release_index.html:246
 msgid "Twitter"
@@ -1061,9 +1017,8 @@ msgstr "Twitter"
 
 #: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:17
 #: apps/website_issues/templates/website_issues/sites.html:32
-#, fuzzy
 msgid "Type of Feedback"
-msgstr "感谢您的反馈"
+msgstr "反馈类型"
 
 #: apps/website_issues/templates/website_issues/sites.html:72
 msgid "Uncommon Sites"
@@ -1071,7 +1026,6 @@ msgstr "不常用站点"
 
 #: apps/dashboard/templates/dashboard/devices.html:8 apps/dashboard/templates/dashboard/manufacturers.html:9 apps/feedback/helpers.py:16 apps/search/forms.py:45 apps/search/forms.py:48
 #: apps/search/forms.py:53
-#, fuzzy
 msgid "Unknown"
 msgstr "未知"
 
@@ -1081,34 +1035,31 @@ msgstr "User Agent"
 
 #: templates/includes/ua_overlay.html:9
 msgid "User agent copied"
-msgstr "User agent 已复制"
+msgstr "User agent已复制"
 
 #: apps/feedback/views.py:44
 msgid "User-Agent request header must be set."
-msgstr "必须设置用户代理请求的头部信息。"
+msgstr "必须设置User-Agent请求的头部信息。"
 
 #: apps/search/forms.py:62
 msgid "Version:"
 msgstr "版本："
 
 #: apps/feedback/templates/feedback/release_index.html:237
-#, fuzzy
 msgid "Visit the <a href=\"%(dashboard_url)s\">Firefox Feedback Dashboard</a>"
-msgstr "请访问 <a href=\"%(dashboard_url)s\">仪表盘</a>。"
+msgstr "请访问<a href=\"%(dashboard_url)s\">Firefox反馈仪表盘</a>。"
 
 #: apps/feedback/templates/feedback/release_index.html:235
-#, fuzzy
 msgid "Want to see where your feedback goes?"
-msgstr "请再次输入您的回馈。"
+msgstr "想知道您的反馈发送到了哪里吗？"
 
 #: apps/feedback/forms.py:97
 msgid "We already got your feedback! Thanks."
 msgstr "我们收到了您的反馈！谢谢。"
 
 #: apps/feedback/templates/feedback/feedback.html:24
-#, fuzzy
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
-msgstr "很抱歉您使用我们浏览器时的不愉快体验。能否告诉我们为什么，以便我们改进它，谢谢！"
+msgstr "很抱歉您使用我们浏览器时没有获得愉快的体验。请告诉我们为什么，以便我们改进它，谢谢！"
 
 #: templates/about.html:27
 msgid ""
@@ -1119,9 +1070,8 @@ msgstr ""
 "(data_url)s\">联系我们</a>！"
 
 #: templates/base.html:5 templates/base_mobile.html:6
-#, fuzzy
 msgid "Welcome"
-msgstr "欢迎！"
+msgstr "欢迎"
 
 #: templates/base_mobile_old.html:5 templates/base_old.html:5
 msgid "Welcome!"
@@ -1133,7 +1083,7 @@ msgstr "显示不正常的网站的URL是什么？"
 
 #: apps/feedback/templates/feedback/release_index.html:125
 msgid "What is the URL of the site?"
-msgstr ""
+msgstr "网站的URL是什么？"
 
 #. Title for a time-based search filter
 #: apps/dashboard/templates/dashboard/when.html:2
@@ -1163,7 +1113,7 @@ msgstr "您的评论包含不适当的言辞（%s）。为了帮助我们改进�
 
 #: apps/feedback/templates/feedback/release_index.html:11 apps/feedback/templates/feedback/mobile/release_index.html:11
 msgid "Your feedback helps us improve Firefox."
-msgstr "有了您的反馈 Firefox 才能更出众。"
+msgstr "有了您的反馈Firefox才能更出众。"
 
 #: apps/feedback/validators.py:52
 msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
@@ -1175,7 +1125,7 @@ msgstr "你的反馈似乎包含一个电子邮件地址。请删除它以及其
 
 #: apps/feedback/templates/feedback/release_index.html:225 apps/feedback/templates/feedback/mobile/release_index.html:176
 msgid "Your feedback will be used to create a better experience in future releases of Firefox."
-msgstr "我们将基于您的反馈在未来版本的 Firefox 中提供更优秀的用户体验。"
+msgstr "我们将基于您的反馈在未来版本的Firefox中提供更优秀的用户体验。"
 
 #. L10n: This means an event that happened only a few seconds ago.
 #: apps/input/helpers.py:86
@@ -1208,7 +1158,7 @@ msgstr[0] "{0} 分钟前"
 
 #: apps/search/templates/search/release.html:28
 msgid "{day}<br/>Average of {num}"
-msgstr ""
+msgstr "{day}<br/>基于{num}的平均值"
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:3 apps/search/templates/search/includes/ratings_chart.html:4
 msgid "{num} opinions on {day}"
@@ -1216,11 +1166,11 @@ msgstr "在{day}有{num}个点子"
 
 #: apps/website_issues/templates/website_issues/includes/sites_list.html:56
 msgid "{percentage}% issues"
-msgstr "{percentage}% 的问题"
+msgstr "{percentage}%的问题"
 
 #: apps/website_issues/templates/website_issues/includes/sites_list.html:54
 msgid "{percentage}% praise"
-msgstr "{percentage}% 的褒扬"
+msgstr "{percentage}%的褒扬"
 
 #, fuzzy
 #~ msgid "&laquo; Previous Page;"
