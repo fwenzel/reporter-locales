@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-21 07:58+0200\n"
-"PO-Revision-Date: 2011-03-05 05:49+0200\n"
+"PO-Revision-Date: 2011-05-16 20:10+0200\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.1.5\n"
+"X-Generator: Pootle 2.1.6\n"
 
 #. Formerly called "happy"
 #: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:33
@@ -223,12 +223,11 @@ msgstr "我們已經收到您的回饋！感謝您。"
 
 #: apps/feedback/forms.py:105
 msgid "Please describe what you liked."
-msgstr ""
+msgstr "請描述您喜歡什麼地方"
 
 #: apps/feedback/forms.py:121
-#, fuzzy
 msgid "Please describe your problem below."
-msgstr "請在下面描述您的點子。"
+msgstr "請在下面描述您的問題。"
 
 #: apps/feedback/forms.py:137
 msgid "Describe your idea below."
@@ -306,33 +305,28 @@ msgid "To do that, simply go to our download page and install/update to the <a h
 msgstr "要加入 Beta 計畫，只要到我們的下載頁面安裝或更新<a href=\"%(url)s\">最新的 Firefox</a> 即可！"
 
 #: apps/feedback/templates/feedback/feedback-form.html:6 apps/feedback/templates/feedback/index.html:21
-#, fuzzy
 msgid "Firefox Made Me Happy"
-msgstr "Firefox 讓我覺得高興…"
+msgstr "Firefox 讓我覺得高興"
 
 #: apps/feedback/templates/feedback/feedback-form.html:8 apps/feedback/templates/feedback/index.html:22
-#, fuzzy
 msgid "Firefox Made Me Sad"
-msgstr "Firefox 讓我覺得難過…"
+msgstr "Firefox 讓我覺得難過"
 
 #: apps/feedback/templates/feedback/feedback-form.html:10 apps/feedback/templates/feedback/index.html:23
 msgid "I Have an Idea for Firefox"
-msgstr ""
+msgstr "我有個 Firefox 的點子"
 
 #: apps/feedback/templates/feedback/feedback-form.html:15
-#, fuzzy
 msgid "Super! It's great to hear that you like our pre-released browser."
-msgstr "太棒了！真高興您喜歡我們預先釋出的瀏覽器。請寫下您特別喜愛的地方吧！"
+msgstr "太棒了！真高興您喜歡我們預先釋出的瀏覽器。"
 
 #: apps/feedback/templates/feedback/feedback-form.html:17
-#, fuzzy
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it."
 msgstr "很抱歉，我們的瀏覽器沒有帶給您良好的體驗。請告訴我們原因，以利未來的改進！"
 
 #: apps/feedback/templates/feedback/feedback-form.html:19
-#, fuzzy
 msgid "Have an idea how Firefox could be better? Let us know."
-msgstr "有什麼能讓 Firefox 變得更好的點子嗎？請讓我們知道！"
+msgstr "有什麼能讓 Firefox 變得更好的點子嗎？請讓我們知道。"
 
 #: apps/feedback/templates/feedback/feedback-form.html:23
 msgid "Go Back"
@@ -340,11 +334,11 @@ msgstr "回到上一頁"
 
 #: apps/feedback/templates/feedback/feedback-form.html:43
 msgid "Include the URL of a site that worked better."
-msgstr ""
+msgstr "請包含以往能執行得更好的網站網址。"
 
 #: apps/feedback/templates/feedback/feedback-form.html:45
 msgid "Include the URL of the site with the problem."
-msgstr ""
+msgstr "請包涵有問題的網站的網址。"
 
 #: apps/feedback/templates/feedback/feedback-form.html:56
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
@@ -355,14 +349,12 @@ msgid "Submitting Feedback"
 msgstr "正在傳送意見回饋"
 
 #: apps/feedback/templates/feedback/feedback-form.html:82
-#, fuzzy
 msgid "If you have an idea to offer us instead, please use our"
-msgstr "若您如果有什麼點子可以提供給我們，請直接透過 <a href=\"%(url_idea)s\">意見箱</a> 告訴我們！"
+msgstr "若您如果有什麼點子可以提供給我們，請使用我們的"
 
 #: apps/feedback/templates/feedback/feedback-form.html:83
-#, fuzzy
 msgid "suggestion box"
-msgstr "建議"
+msgstr "意見箱"
 
 #: apps/feedback/templates/feedback/feedback.html:19
 msgid "Super! It's great to hear that you like our pre-released browser. Please explain what you specifically like!"
@@ -405,7 +397,6 @@ msgid "If you need help or have a problem with Firefox, please visit <a href=\"%
 msgstr "若您有 Firefox 的相關問題需要幫助，請看看 <a href=\"%(support_url)s\"> Firefox 技術支援</a>。"
 
 #: apps/feedback/templates/feedback/thanks.html:6
-#, fuzzy
 msgid "Thanks"
 msgstr "感謝！"
 
@@ -414,28 +405,24 @@ msgid "Thanks for Your Feedback"
 msgstr "感謝您的回饋"
 
 #: apps/feedback/templates/feedback/thanks.html:17
-#, fuzzy
 msgid "Your feedback will be used to create a"
-msgstr "您的回饋將會在未來的 Firefox 版本當中被用來建立更優秀的體驗。"
+msgstr "您的回饋將會在未來的 Firefox 版本當中"
 
 #: apps/feedback/templates/feedback/thanks.html:18
-#, fuzzy
 msgid "better experience in future releases of Firefox."
-msgstr "您的回饋將會在未來的 Firefox 版本當中被用來建立更優秀的體驗。"
+msgstr "被用來建立更優秀的體驗。"
 
 #: apps/feedback/templates/feedback/thanks.html:24
 msgid "Have more to say?"
-msgstr ""
+msgstr "還有東西想告訴我們嗎？"
 
 #: apps/feedback/templates/feedback/thanks.html:26
-#, fuzzy
 msgid "Feel free to <a href=\"%(fb_url)s\">submit more feedback</a>"
-msgstr "請看看 <a href=\"%(dashboard_url)s\">Firefox Feedback Dashboard</a>"
+msgstr "歡迎 <a href=\"%(fb_url)s\">送出更多意見回饋</a>"
 
 #: apps/feedback/templates/feedback/thanks.html:35
-#, fuzzy
 msgid "Visit the <a href=\"%(dash_url)s\">Firefox Feedback Dashboard</a>"
-msgstr "請看看 <a href=\"%(dashboard_url)s\">Firefox Feedback Dashboard</a>"
+msgstr "看看 <a href=\"%(dashboard_url)s\">Firefox Feedback Dashboard</a>"
 
 #: apps/feedback/templates/feedback/thanks.html:42
 msgid "Find the latest news about Firefox."
@@ -907,9 +894,8 @@ msgid "Proceed to footer"
 msgstr "跳轉到頁尾"
 
 #: templates/base.html:30
-#, fuzzy
 msgid "<strong>Firefox</strong> Input Dashboard"
-msgstr "<strong>Firefox Beta</strong> Input Dashboard"
+msgstr "<strong>Firefox</strong> Input Dashboard"
 
 #: templates/base.html:36
 msgid "Feedback"
