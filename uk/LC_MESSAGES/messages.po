@@ -12,86 +12,190 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:45
-msgid "%(count)s message"
-msgid_plural "%(count)s messages"
-msgstr[0] "%(count)s повідомлення"
-msgstr[1] "%(count)s повідомлення"
-msgstr[2] "%(count)s повідомлень"
+#. Formerly called "happy"
+#: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:33
+#: apps/search/forms.py:32 apps/search/views.py:224 apps/themes/views.py:30 apps/themes/templates/themes/theme_list.html:8 apps/website_issues/templates/website_issues/sites.html:36
+#: apps/website_issues/templates/website_issues/includes/single_site.html:12
+msgid "Praise"
+msgstr "Хвала"
 
-#. "similar" refers to "similar messages".
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:69
-msgid "%(count)s similar"
-msgid_plural "%(count)s similar"
-msgstr[0] "%(count)s схоже"
-msgstr[1] "%(count)s схожих"
-msgstr[2] "%(count)s схожих"
+#. Formerly called "sad"
+#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:33 apps/search/views.py:225
+#: apps/themes/views.py:34 apps/website_issues/templates/website_issues/sites.html:37
+msgid "Issues"
+msgstr "Проблеми"
 
-#: apps/themes/templates/themes/theme_list.html:16 apps/website_issues/templates/website_issues/includes/single_site.html:21
-msgid "%(count)s similar message"
-msgid_plural "%(count)s similar messages"
-msgstr[0] "%(count)s схоже повідомлення"
-msgstr[1] "%(count)s схожих повідомлення"
-msgstr[2] "%(count)s схожих повідомлень"
-
-#. A quasi strftime string for a full date.
-#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:5 apps/search/templates/search/release.html:25 apps/search/templates/search/includes/ratings_chart.html:6
-msgid "%e %B %Y"
+#: apps/dashboard/views.py:56 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:34 apps/themes/views.py:38
+msgid "Ideas"
 msgstr ""
 
-#. A quasi strftime string for a short date (no year).
-#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:7 apps/search/templates/search/release.html:27 apps/search/templates/search/includes/ratings_chart.html:8
-msgid "%e %b"
-msgstr ""
-
-#: apps/dashboard/templates/dashboard/includes/when_selectors.html:12
-msgid "&infin;"
-msgstr ""
-
-#: apps/dashboard/templates/dashboard/mobile/beta.html:35 apps/search/templates/search/mobile/search.html:38
-msgid "&laquo; Newer Feedback"
-msgstr "&laquo; Новіші відгуки"
+#: apps/dashboard/templates/dashboard/beta.html:14
+msgid "Latest Feedback"
+msgstr "Останні відгуки"
 
 #: apps/dashboard/templates/dashboard/beta.html:24 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:63
 msgid "&laquo; Newer Messages"
 msgstr "&laquo; Новіші повідомлення"
 
-#: apps/themes/templates/themes/theme.html:28 apps/website_issues/templates/website_issues/theme.html:30 apps/website_issues/templates/website_issues/includes/paginate_sites.html:3
-msgid "&laquo; Previous Page"
-msgstr "&laquo; Попередня сторінка"
+#: apps/dashboard/templates/dashboard/beta.html:25 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:73
+msgid "Older Messages &raquo;"
+msgstr "Старіші повідомлення &raquo;"
 
-#: apps/search/forms.py:52
-msgctxt "locale_choice"
-msgid "-- all --"
-msgstr "-- всі --"
+#: apps/dashboard/templates/dashboard/devices.html:8 apps/dashboard/templates/dashboard/manufacturers.html:9 apps/feedback/helpers.py:16 apps/search/forms.py:41 apps/search/forms.py:44
+#: apps/search/forms.py:49
+msgid "Unknown"
+msgstr "невідомо"
 
-#: apps/search/forms.py:42
-#, fuzzy
-msgctxt "platform_choice"
-msgid "-- all --"
-msgstr "-- всі --"
+#: apps/dashboard/templates/dashboard/devices.html:15
+msgid "Devices"
+msgstr "Пристрої"
 
-#: apps/search/forms.py:35
-msgctxt "sentiment_choice"
-msgid "-- all --"
-msgstr "-- всі --"
+#: apps/dashboard/templates/dashboard/locales.html:17 apps/dashboard/templates/dashboard/mobile/locales.html:9
+msgid "Locale"
+msgstr "Локаль"
 
-#: apps/search/forms.py:22 apps/search/forms.py:24 apps/search/forms.py:28 apps/search/forms.py:30
-msgctxt "version_choice"
-msgid "-- all --"
-msgstr "-- всі --"
+#: apps/dashboard/templates/dashboard/locales.html:29
+msgid "More Locales"
+msgstr "Інші локалі"
+
+#: apps/dashboard/templates/dashboard/manufacturers.html:16
+msgid "Manufacturer"
+msgstr "Виробник"
+
+#: apps/dashboard/templates/dashboard/message_list.html:29 apps/themes/templates/themes/theme_list.html:28
+msgid "More Options"
+msgstr "Більше варіантів"
+
+#: apps/dashboard/templates/dashboard/message_list.html:32
+msgid "Copy User Agent"
+msgstr "Копіювати user-agent"
+
+#. Link to Google Translator
+#: apps/dashboard/templates/dashboard/message_list.html:36 apps/themes/templates/themes/theme_list.html:31
+msgid "Translate Message"
+msgstr "Перекласти повідомлення"
+
+#: apps/dashboard/templates/dashboard/message_list.html:41
+msgid "Tweet This"
+msgstr "Затвітити це"
+
+#: apps/dashboard/templates/dashboard/message_list.html:51 apps/themes/templates/themes/theme_list.html:41
+msgid "No search results found."
+msgstr "Результатів пошуку не знайдено."
+
+#. Title text for a complete message count.
+#: apps/dashboard/templates/dashboard/opinion_count.html:3
+msgid "Messages"
+msgstr "Повідомлення"
+
+#: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
+#: apps/website_issues/templates/website_issues/sites.html:32
+msgid "Type of Feedback"
+msgstr "Тип відгуку"
+
+#: apps/dashboard/templates/dashboard/platforms.html:12 apps/dashboard/templates/dashboard/mobile/platforms.html:8 apps/themes/templates/themes/index.html:24
+msgid "Platform"
+msgstr "Платформа"
+
+#. Refers to sites that were reported in feedback.
+#: apps/dashboard/templates/dashboard/sites.html:3 apps/dashboard/templates/dashboard/mobile/sites.html:2
+msgid "While Visiting"
+msgstr "Під час відвідування"
+
+#. Refers to terms often mentioned in feedback.
+#: apps/dashboard/templates/dashboard/themes.html:3 apps/dashboard/templates/dashboard/mobile/themes.html:2
+msgid "Often Mentioned"
+msgstr "Часто згадувані"
+
+#. Title for a time-based search filter
+#: apps/dashboard/templates/dashboard/when.html:2
+msgid "When"
+msgstr "Коли"
+
+#. Tooltip for custom date range button
+#: apps/dashboard/templates/dashboard/when.html:9
+msgid "Custom"
+msgstr "Вказати діапазон дат"
+
+#. Button text for setting a custom date range.
+#: apps/dashboard/templates/dashboard/when.html:17
+msgctxt "date_range_set"
+msgid "Set"
+msgstr "Встановити"
+
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:4 apps/search/templates/search/includes/ratings_chart.html:4
+msgid "{num} opinions on {day}"
+msgstr "{num} думок на {day}"
+
+#. A quasi strftime string for a full date.
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:6 apps/search/templates/search/includes/ratings_chart.html:6
+msgid "%e %B %Y"
+msgstr ""
+
+#. A quasi strftime string for a short date (no year).
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:8 apps/search/templates/search/includes/ratings_chart.html:8
+msgid "%e %b"
+msgstr ""
+
+#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:10
+msgid "Loading feedback history..."
+msgstr "Завантажується історія відгуків…"
+
+#. short for 1 day
+#: apps/dashboard/templates/dashboard/includes/when_selectors.html:3
+msgid "Last day"
+msgstr "Останній день"
 
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:3
 msgid "1d"
 msgstr "1 д."
 
-#: apps/dashboard/templates/dashboard/includes/when_selectors.html:9
-msgid "30d"
-msgstr "30 д."
+#. short for 7 days
+#: apps/dashboard/templates/dashboard/includes/when_selectors.html:6
+msgid "Last 7 days"
+msgstr "Останні 7 днів"
 
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:6
 msgid "7d"
 msgstr "7 д."
+
+#. short for 30 days
+#: apps/dashboard/templates/dashboard/includes/when_selectors.html:9
+msgid "Last 30 days"
+msgstr "Останні 30 днів"
+
+#: apps/dashboard/templates/dashboard/includes/when_selectors.html:9
+msgid "30d"
+msgstr "30 д."
+
+#. short for an indefinite date range
+#: apps/dashboard/templates/dashboard/includes/when_selectors.html:12
+msgid "No date limit"
+msgstr "Без обмеження дати"
+
+#: apps/dashboard/templates/dashboard/includes/when_selectors.html:12
+msgid "&infin;"
+msgstr ""
+
+#: apps/dashboard/templates/dashboard/mobile/beta.html:6 apps/search/templates/search/mobile/search.html:6
+msgid "Feed"
+msgstr "Лента"
+
+#: apps/dashboard/templates/dashboard/mobile/beta.html:7 apps/search/templates/search/mobile/search.html:7
+msgid "Statistics"
+msgstr "Статистика"
+
+#: apps/dashboard/templates/dashboard/mobile/beta.html:8 apps/search/templates/search/mobile/search.html:8
+msgid "Trends"
+msgstr "Тренди"
+
+#: apps/dashboard/templates/dashboard/mobile/beta.html:35 apps/search/templates/search/mobile/search.html:38
+msgid "&laquo; Newer Feedback"
+msgstr "&laquo; Новіші відгуки"
+
+#: apps/dashboard/templates/dashboard/mobile/beta.html:36 apps/search/templates/search/mobile/search.html:48
+msgid "Older Feedback &raquo;"
+msgstr "Старіші відгуки &raquo;"
 
 #: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
 msgid "<strong>%(cnt)s</strong> message"
@@ -100,9 +204,686 @@ msgstr[0] "<strong>%(cnt)s</strong> повідомлення"
 msgstr[1] "<strong>%(cnt)s</strong> повідомлення"
 msgstr[2] "<strong>%(cnt)s</strong> повідомлень"
 
-#: templates/base.html:31
-msgid "<strong>Firefox Beta</strong> Input Dashboard"
-msgstr "<strong>Firefox Beta</strong> — панель відгуків"
+#. refers to time-based search filters (e.g., "for last: 1d")
+#: apps/dashboard/templates/dashboard/mobile/when.html:3
+msgid "For last:"
+msgstr "За останні:"
+
+#: apps/dashboard/templates/includes/filter_box_toggle.html:4
+msgid "Show/Hide Options"
+msgstr "Показати/приховати варіанти"
+
+#. Link text for showing/hiding options
+#: apps/dashboard/templates/includes/filter_box_toggle.html:6
+msgid "Toggle"
+msgstr "Перемкнути"
+
+#: apps/feedback/forms.py:94
+msgid "We already got your feedback! Thanks."
+msgstr "Ми вже отримали ваш відгук! Дякуємо."
+
+#: apps/feedback/forms.py:105
+msgid "Please describe what you liked."
+msgstr ""
+
+#: apps/feedback/forms.py:121
+#, fuzzy
+msgid "Please describe your problem below."
+msgstr "Опишіть ідею нижче."
+
+#: apps/feedback/forms.py:137
+msgid "Describe your idea below."
+msgstr "Опишіть ідею нижче."
+
+#: apps/feedback/helpers.py:39 apps/input/__init__.py:40 apps/themes/templates/themes/theme_list.html:12 apps/website_issues/templates/website_issues/includes/single_site.html:14
+msgid "Issue"
+msgstr "Проблема"
+
+#: apps/feedback/validators.py:27
+msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
+msgstr ""
+"Ваш коментар містить лайку (%s). Для того щоб допомогти нам покращити наші продукти, будь ласка, використовуйте слова котрі допомогають спланувати дію відповідно до вашого конструктивного відгуку. "
+"Дякуємо!"
+
+#: apps/feedback/validators.py:36
+msgid "Feedback must not contain HTML."
+msgstr "Відгук не може містити HTML."
+
+#: apps/feedback/validators.py:43
+msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
+msgstr "Ваш відгук, схоже, містить адресу ел.пошти. Будь ласка, вилучте ці та інші особисті дані з тексту, тоді спробуйте ще раз. Дякуємо!"
+
+#: apps/feedback/validators.py:52
+msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
+msgstr "Ваш відгук, схоже, містить URL. Будь ласка, вилучте ці та інші особисті дані з тексту, тоді спробуйте ще раз. Дякуємо!"
+
+#: apps/feedback/views.py:41
+msgid "User-Agent request header must be set."
+msgstr "Заголовок запиту User-Agent має бути заповнений."
+
+#: apps/feedback/views.py:91
+msgid "Invalid feedback type"
+msgstr "Неправильний тип відгуку"
+
+#: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback-form.html:70 apps/feedback/templates/feedback/feedback-form.html:74
+#: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:78 apps/feedback/templates/feedback/index.html:6
+#: apps/feedback/templates/feedback/mobile/beta_index.html:3 apps/feedback/templates/feedback/mobile/feedback.html:3 apps/feedback/templates/feedback/mobile/feedback.html:60
+#: templates/base_feedback_release_mobile.html:15
+msgid "Submit Feedback"
+msgstr "Надіслати відгук"
+
+#: apps/feedback/templates/feedback/beta_index.html:7
+msgid "It's great to hear you want to help Mozilla make your experience better!"
+msgstr "Як чудово що ви вирішили допомогти Мозіллі зробити продукт кращим!"
+
+#: apps/feedback/templates/feedback/beta_index.html:9
+msgid "Please choose one of the following types of feedback that you would like to submit to us:"
+msgstr "Будь ласка оберіть один з наступних типів відгуку, котрий ви б хотіли нам надіслати:"
+
+#: apps/feedback/templates/feedback/beta_index.html:13 apps/feedback/templates/feedback/beta_index.html:15
+msgid "Firefox makes me happy because ..."
+msgstr "Firefox мене порадував тим…"
+
+#: apps/feedback/templates/feedback/beta_index.html:19 apps/feedback/templates/feedback/beta_index.html:21
+msgid "Firefox makes me sad because ..."
+msgstr "Firefox мене засмутив тим що…"
+
+#: apps/feedback/templates/feedback/beta_index.html:24
+msgid "Firefox Logo"
+msgstr "Лого Firefox"
+
+#: apps/feedback/templates/feedback/beta_index.html:25
+msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
+msgstr "Якщо ви потребуєте допомоги або маєте проблему з Firefox, відвідайте нашу <a href=\"%(support_url)s\">сторінку підтримки</a>."
+
+#: apps/feedback/templates/feedback/download.html:3
+msgid "Download Firefox"
+msgstr "Завантажити Firefox"
+
+#: apps/feedback/templates/feedback/download.html:8
+msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
+msgstr "О! Отже, ви хочете надати нам відгук про Firefox. Дякуємо, але вам потрібно коритуватись нашою найостаннішою версією."
+
+#: apps/feedback/templates/feedback/download.html:14
+msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
+msgstr "Щоб зробити це, просто перейдіть на нашу сторінку завантажень та встановіть/оновіть Firefox до <a href=\"%(url)s\">останньої версії!</a>"
+
+#: apps/feedback/templates/feedback/feedback-form.html:6 apps/feedback/templates/feedback/index.html:21
+#, fuzzy
+msgid "Firefox Made Me Happy"
+msgstr "Firefox мене порадував…"
+
+#: apps/feedback/templates/feedback/feedback-form.html:8 apps/feedback/templates/feedback/index.html:22
+#, fuzzy
+msgid "Firefox Made Me Sad"
+msgstr "Firefox мене засмутив…"
+
+#: apps/feedback/templates/feedback/feedback-form.html:10 apps/feedback/templates/feedback/index.html:23
+msgid "I Have an Idea for Firefox"
+msgstr ""
+
+#: apps/feedback/templates/feedback/feedback-form.html:15
+#, fuzzy
+msgid "Super! It's great to hear that you like our pre-released browser."
+msgstr "Супер! Як приємно чути що вам подобається наш ще не випущений браузер. Будь ласка, розкажіть що саме вам сподобалось!"
+
+#: apps/feedback/templates/feedback/feedback-form.html:17
+#, fuzzy
+msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it."
+msgstr "Нам шкода, що наш браузер не справив на вас добре враження. Будь ласка, розкажіть чому, щоб ми змогли його покращити!"
+
+#: apps/feedback/templates/feedback/feedback-form.html:19
+#, fuzzy
+msgid "Have an idea how Firefox could be better? Let us know."
+msgstr "Маєте ідею як зробити Firefox кращим? Дайте нам знати!"
+
+#: apps/feedback/templates/feedback/feedback-form.html:23
+msgid "Go Back"
+msgstr "Назад"
+
+#: apps/feedback/templates/feedback/feedback-form.html:43
+msgid "Include the URL of a site that worked better."
+msgstr ""
+
+#: apps/feedback/templates/feedback/feedback-form.html:45
+msgid "Include the URL of the site with the problem."
+msgstr ""
+
+#: apps/feedback/templates/feedback/feedback-form.html:56
+msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
+msgstr "Для захисту вашої конфіденційності, упевніться, що в відгуку нема ніяких особистих ідентифікуючих даних."
+
+#: apps/feedback/templates/feedback/feedback-form.html:69
+msgid "Submitting Feedback"
+msgstr "Надсилання відгуку"
+
+#: apps/feedback/templates/feedback/feedback-form.html:82
+#, fuzzy
+msgid "If you have an idea to offer us instead, please use our"
+msgstr "Якщо у вас натомість є ідея, будь ласка пришліть її нам з допомогою нашої <a href=\"%(url_idea)s\">скриньки для пропозицій</a>!"
+
+#: apps/feedback/templates/feedback/feedback-form.html:83
+#, fuzzy
+msgid "suggestion box"
+msgstr "Пропозиція"
+
+#: apps/feedback/templates/feedback/feedback.html:19
+msgid "Super! It's great to hear that you like our pre-released browser. Please explain what you specifically like!"
+msgstr "Супер! Як приємно чути що вам подобається наш ще не випущений браузер. Будь ласка, розкажіть що саме вам сподобалось!"
+
+#: apps/feedback/templates/feedback/feedback.html:24
+msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
+msgstr "Нам шкода, що наш браузер не справив на вас добре враження. Будь ласка, розкажіть чому, щоб ми змогли його покращити!"
+
+#: apps/feedback/templates/feedback/feedback.html:29
+#, fuzzy
+msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please enter your idea below:"
+msgstr "Отже, ви б хотіли внести пропозицію про те як покращити Firefox? Супер! Введіть вашу пропозицію нижче:"
+
+#: apps/feedback/templates/feedback/feedback.html:47
+msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
+msgstr "Знаєте сайт, що працює краще в цій беті, ніж у попередній вірсії Firefox? Будь ласка додайте URL, щоб ми були в курсі!"
+
+#: apps/feedback/templates/feedback/feedback.html:55
+msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
+msgstr "Маєте проблеми з певним сайтом? Будь ласка, додайте URL, щоб ми змогли знайти цю проблему швидше!"
+
+#: apps/feedback/templates/feedback/feedback.html:76 apps/feedback/templates/feedback/mobile/feedback.html:58
+msgid "Please ensure that there is no personally identifiable information here."
+msgstr "Будь ласка, упевніться, що тут нема ніяких особистих ідентифікуючих даних."
+
+#: apps/feedback/templates/feedback/feedback.html:85
+#, fuzzy
+msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_idea)s\">idea box</a>!"
+msgstr "Якщо у вас натомість є ідея, будь ласка пришліть її нам з допомогою нашої <a href=\"%(url_idea)s\">скриньки для пропозицій</a>!"
+
+#: apps/feedback/templates/feedback/index.html:15
+msgid "Submit Your Feedback"
+msgstr "Надішліть ваш відгук"
+
+#: apps/feedback/templates/feedback/index.html:16
+msgid "Your feedback helps us improve Firefox."
+msgstr "Ваш відгук допоможе нам покращити Firefox."
+
+#: apps/feedback/templates/feedback/index.html:29
+msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
+msgstr "Якщо ви потребуєте допомоги або маєте проблему з Firefox, відвідайте нашу <a href=\"%(support_url)s\">сторінку підтримки</a>."
+
+#: apps/feedback/templates/feedback/thanks.html:6
+#, fuzzy
+msgid "Thanks"
+msgstr "Дякуємо!"
+
+#: apps/feedback/templates/feedback/thanks.html:15 apps/feedback/templates/feedback/mobile/thanks.html:3
+msgid "Thanks for Your Feedback"
+msgstr "Дякуємо за ваш відгук"
+
+#: apps/feedback/templates/feedback/thanks.html:17
+#, fuzzy
+msgid "Your feedback will be used to create a"
+msgstr "Ваш відгук буде використано щоб створити кращі версії Firefox у майбутньому."
+
+#: apps/feedback/templates/feedback/thanks.html:18
+#, fuzzy
+msgid "better experience in future releases of Firefox."
+msgstr "Ваш відгук буде використано щоб створити кращі версії Firefox у майбутньому."
+
+#: apps/feedback/templates/feedback/thanks.html:24
+msgid "Have more to say?"
+msgstr ""
+
+#: apps/feedback/templates/feedback/thanks.html:26
+#, fuzzy
+msgid "Feel free to <a href=\"%(fb_url)s\">submit more feedback</a>"
+msgstr "Відвідайте <a href=\"%(dashboard_url)s\">Панель Firefox Feedback</a>"
+
+#: apps/feedback/templates/feedback/thanks.html:35
+#, fuzzy
+msgid "Visit the <a href=\"%(dash_url)s\">Firefox Feedback Dashboard</a>"
+msgstr "Відвідайте <a href=\"%(dashboard_url)s\">Панель Firefox Feedback</a>"
+
+#: apps/feedback/templates/feedback/thanks.html:42
+msgid "Find the latest news about Firefox."
+msgstr "Дізнайтесь останні новини про Firefox."
+
+#: apps/feedback/templates/feedback/mobile/beta_index.html:8
+msgid "Thanks for helping Mozilla make your experience better!"
+msgstr "дякуємо що допомогаєте зробити продукти Mozilla кращими!"
+
+#: apps/feedback/templates/feedback/mobile/beta_index.html:10
+msgid "Please choose the type of feedback that you would like to submit to us:"
+msgstr "Будь ласка оберіть тип відгуку який би ви хотіли нам надіслати:"
+
+#: apps/feedback/templates/feedback/mobile/beta_index.html:13 apps/feedback/templates/feedback/mobile/beta_index.html:15
+msgid "Firefox makes me happy ..."
+msgstr "Firefox мене порадував…"
+
+#: apps/feedback/templates/feedback/mobile/beta_index.html:18 apps/feedback/templates/feedback/mobile/beta_index.html:20
+msgid "Firefox makes me sad ..."
+msgstr "Firefox мене засмутив…"
+
+#: apps/feedback/templates/feedback/mobile/download.html:3
+msgid "Download Beta"
+msgstr "Завантажити бету"
+
+#: apps/feedback/templates/feedback/mobile/download.html:9
+msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
+msgstr "О! Отже, ви хочете надати нам відгук. Вам потрібна найостанніша Бета! Завітайте на сторінку бети та <a href=\"%(url)s\">завантажте її!</a>"
+
+#: apps/feedback/templates/feedback/mobile/feedback.html:24
+msgid "Super! Please tell us more!"
+msgstr "Супер! Будь ласка детальніше!"
+
+#: apps/feedback/templates/feedback/mobile/feedback.html:26
+msgid "Ack! Please tell us what to fix!"
+msgstr "Шкода! Розкажіть детальніше!"
+
+#: apps/feedback/templates/feedback/mobile/feedback.html:28
+#, fuzzy
+msgid "Awesome! Please enter your idea below:"
+msgstr "Супер! Будь ласка введіть вашу пропозицію нижче:"
+
+#: apps/feedback/templates/feedback/mobile/feedback.html:39
+msgid "Add URL of last visited page?"
+msgstr "Додати URL останньої відвіданої сторінки?"
+
+#: apps/feedback/templates/feedback/mobile/feedback.html:67
+#, fuzzy
+msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
+msgstr "Чи надішліть ваші ідеї через нашу <a href=\"%(url_idea)s\">скриньку для пропозицій</a>!"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:8
+msgid "Thanks for sending us your feedback!"
+msgstr "Дякуємо що надіслали нам ваш відгук!"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:12
+msgid "Find out the latest news from Mozilla:"
+msgstr "Дізнайтесь останні новини від Mozilla:"
+
+#: apps/input/__init__.py:47 apps/search/views.py:226 apps/themes/templates/themes/theme_list.html:10
+msgid "Idea"
+msgstr ""
+
+#: apps/input/__init__.py:54
+msgid "Rating"
+msgstr "Оцінка"
+
+#: apps/input/__init__.py:61
+msgid "Broken Website"
+msgstr "Поламаний сайт"
+
+#: apps/input/__init__.py:78
+msgid "Firefox"
+msgstr "Firefox"
+
+#: apps/input/__init__.py:100
+msgid "Mobile"
+msgstr "Мобільний"
+
+#: apps/input/__init__.py:152
+msgid "Windows XP"
+msgstr "Windows XP"
+
+#: apps/input/__init__.py:159
+msgid "Windows 7"
+msgstr "Windows 7"
+
+#: apps/input/__init__.py:166
+msgid "Windows Vista"
+msgstr "Windows Vista"
+
+#: apps/input/__init__.py:173
+msgid "Mac OS X"
+msgstr "Mac OS X"
+
+#: apps/input/__init__.py:180
+msgid "Maemo"
+msgstr "Maemo"
+
+#: apps/input/__init__.py:187
+msgid "Android"
+msgstr "Android"
+
+#: apps/input/__init__.py:194
+msgid "Linux"
+msgstr "Linux"
+
+#: apps/input/__init__.py:201
+msgid "Other"
+msgstr "Інше"
+
+#: apps/input/helpers.py:71
+msgid "{0} day ago"
+msgid_plural "{0} days ago"
+msgstr[0] "{0} день тому"
+msgstr[1] "{0} дні тому"
+msgstr[2] "{0} днів тому"
+
+#: apps/input/helpers.py:77
+msgid "{0} hour ago"
+msgid_plural "{0} hours ago"
+msgstr[0] "{0} годину тому"
+msgstr[1] "{0} години тому"
+msgstr[2] "{0} годин тому"
+
+#: apps/input/helpers.py:80
+msgid "{0} minute ago"
+msgid_plural "{0} minutes ago"
+msgstr[0] "{0} хвилину тому"
+msgstr[1] "{0} хвилини тому"
+msgstr[2] "{0} хвилин тому"
+
+#. L10n: This means an event that happened only a few seconds ago.
+#: apps/input/helpers.py:84
+msgid "just now"
+msgstr "щойно"
+
+#: apps/search/client.py:210
+msgid "Query has timed out."
+msgstr "Час запиту сплив."
+
+#. L10n: Sphinx is the name of the search engine software.
+#: apps/search/client.py:213
+msgid "Sphinx threw an unknown exception: %s"
+msgstr "Sphinx викинув невідомий виняток: %s"
+
+#: apps/search/forms.py:21 apps/search/forms.py:25
+msgctxt "version_choice"
+msgid "-- all --"
+msgstr "-- всі --"
+
+#: apps/search/forms.py:31
+msgctxt "sentiment_choice"
+msgid "-- all --"
+msgstr "-- всі --"
+
+#: apps/search/forms.py:38
+#, fuzzy
+msgctxt "platform_choice"
+msgid "-- all --"
+msgstr "-- всі --"
+
+#: apps/search/forms.py:48
+msgctxt "locale_choice"
+msgid "-- all --"
+msgstr "-- всі --"
+
+#: apps/search/forms.py:55
+msgid "Search by keyword"
+msgstr "Пошуковий запит"
+
+#: apps/search/forms.py:56 apps/website_issues/forms.py:55
+msgid "Product:"
+msgstr "Продукт:"
+
+#: apps/search/forms.py:58 apps/website_issues/forms.py:58
+msgid "Version:"
+msgstr "Версія:"
+
+#: apps/search/forms.py:60
+msgid "Sentiment:"
+msgstr "Почуття:"
+
+#: apps/search/forms.py:62
+msgid "Locale:"
+msgstr "Локаль:"
+
+#: apps/search/forms.py:64
+msgid "PLATFORM:"
+msgstr ""
+
+#: apps/search/forms.py:70
+msgid "Date range:"
+msgstr "Проміжок часу:"
+
+#. L10n: This indicates the second part of a date range.
+#: apps/search/forms.py:73
+msgid "to"
+msgstr "до"
+
+#: apps/search/views.py:93 apps/search/views.py:112
+msgid "Firefox Input"
+msgstr "Firefox Input"
+
+#: apps/search/views.py:94
+msgid "Search Results in Firefox Beta Feedback."
+msgstr "Шукати результати у відгуках на Firefox Beta"
+
+#. L10n: This is the title to the Search ATOM feed.
+#: apps/search/views.py:111
+msgid "Firefox Input: '{query}'"
+msgstr "Firefox Input: '{query}'"
+
+#: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:49
+msgid "Search Results"
+msgstr "Результати пошуку"
+
+#: apps/search/templates/search/search.html:10
+msgid "ATOM feed for this search"
+msgstr "ATOM-лента для цього пошуку"
+
+#: apps/search/templates/search/search.html:20 apps/themes/templates/themes/index.html:10 apps/website_issues/templates/website_issues/sites.html:22 templates/includes/filters.html:6
+msgid "Product"
+msgstr "Продукт:"
+
+#: apps/search/templates/search/search_form.html:19
+msgid "Search"
+msgstr "Пошук"
+
+#: apps/search/templates/search/search_form.html:28
+msgid "Advanced"
+msgstr "Додатково"
+
+#: apps/search/templates/search/unavailable.html:5
+msgid "Search Unavailable"
+msgstr "Пошук недоступний"
+
+#: apps/search/templates/search/unavailable.html:7
+msgid "I'm sorry, there was an error with your search."
+msgstr "Перепрошуємо, але під час пошуку сталася помилка."
+
+#: apps/search/templates/search/unavailable.html:10
+msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
+msgstr "Наша пошукова система може бути наразі недоступна. Ви можете вернутись до <a href=\"%(url)s\">панелі</a> та спробувати ще раз пізніше."
+
+#: apps/search/templates/search/unavailable.html:17
+msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
+msgstr "Якщо проблема не зникає, будь ласка <a href=\"%(bug_url)s\">опишіть ваду</a>, вказавши запитуваний URL."
+
+#: apps/search/templates/search/unavailable.html:24
+msgid "Include the following error message in your bug report:"
+msgstr "Додати наступне повідомлення про помилку до вашого звіту про ваду:"
+
+#: apps/search/templates/search/unavailable.html:28
+msgid "Thanks!"
+msgstr "Дякуємо!"
+
+#: apps/search/templates/search/includes/ratings_chart.html:12
+msgid "Loading ratings history..."
+msgstr "Завантажується історія відгуків…"
+
+#: apps/themes/views.py:26 apps/themes/views.py:50
+msgid "All"
+msgstr "всі"
+
+#: apps/themes/views.py:26 apps/website_issues/templates/website_issues/sites.html:35
+msgid "All feedback"
+msgstr "Всі відгуки"
+
+#: apps/themes/views.py:31 apps/website_issues/templates/website_issues/sites.html:36
+msgid "Praise only"
+msgstr "Лише хвала"
+
+#: apps/themes/views.py:35 apps/website_issues/templates/website_issues/sites.html:37
+msgid "Issues only"
+msgstr "Тільки проблеми"
+
+#: apps/themes/views.py:39
+#, fuzzy
+msgid "Ideas only"
+msgstr "Тільки проблеми"
+
+#: apps/themes/views.py:50
+msgid "All Platforms"
+msgstr "Всі платформи"
+
+#: apps/themes/templates/themes/index.html:2 templates/base.html:37
+msgid "Themes"
+msgstr "Теми"
+
+#: apps/themes/templates/themes/index.html:35
+msgid "Common Themes"
+msgstr "Часті теми"
+
+#: apps/themes/templates/themes/theme.html:4 apps/themes/templates/themes/theme.html:17 apps/website_issues/templates/website_issues/theme.html:19
+msgid "Theme"
+msgstr "Тема"
+
+#: apps/themes/templates/themes/theme.html:15
+msgid "Back to all themes &raquo;"
+msgstr "Назад до всіх тем &raquo;"
+
+#: apps/themes/templates/themes/theme.html:28 apps/website_issues/templates/website_issues/theme.html:30 apps/website_issues/templates/website_issues/includes/paginate_sites.html:3
+msgid "&laquo; Previous Page"
+msgstr "&laquo; Попередня сторінка"
+
+#: apps/themes/templates/themes/theme.html:36 apps/website_issues/templates/website_issues/theme.html:38 apps/website_issues/templates/website_issues/includes/paginate_sites.html:12
+msgid "Next Page &raquo;"
+msgstr "Наступна сторінка &raquo;"
+
+#: apps/themes/templates/themes/theme_list.html:14
+msgid "See all opinions"
+msgstr "Побачити всі думки"
+
+#: apps/themes/templates/themes/theme_list.html:16 apps/website_issues/templates/website_issues/includes/single_site.html:21
+msgid "%(count)s similar message"
+msgid_plural "%(count)s similar messages"
+msgstr[0] "%(count)s схоже повідомлення"
+msgstr[1] "%(count)s схожих повідомлення"
+msgstr[2] "%(count)s схожих повідомлень"
+
+#: apps/website_issues/forms.py:36
+msgctxt "website_issues_search"
+msgid "Search for domain"
+msgstr "Пошуковий запит"
+
+#: apps/website_issues/templates/website_issues/sites.html:5 apps/website_issues/templates/website_issues/includes/sites_list.html:14
+msgid "Broken Sites"
+msgstr "Поламані сайти"
+
+#: apps/website_issues/templates/website_issues/sites.html:6 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/includes/sites_list.html:16
+#: templates/base.html:38 templates/includes/nav_buttons.html:4
+msgid "Sites"
+msgstr "Сайти"
+
+#: apps/website_issues/templates/website_issues/sites.html:35
+msgctxt "sites_search_all_feedback"
+msgid "All"
+msgstr "всі"
+
+#: apps/website_issues/templates/website_issues/sites.html:44
+msgid "Platforms"
+msgstr "Платформи"
+
+#: apps/website_issues/templates/website_issues/sites.html:47
+msgctxt "sites_search_all_platforms"
+msgid "All"
+msgstr "всі"
+
+#: apps/website_issues/templates/website_issues/sites.html:47
+msgid "All platforms"
+msgstr "Всі платформи"
+
+#: apps/website_issues/templates/website_issues/sites.html:72
+msgid "Uncommon Sites"
+msgstr "Нетипові сайти"
+
+#: apps/website_issues/templates/website_issues/sites.html:77
+msgid "More sites..."
+msgstr "Більше сайтів…"
+
+#: apps/website_issues/templates/website_issues/theme.html:17
+msgid "Back to {domain} &raquo;"
+msgstr "Назад до {domain} &raquo;"
+
+#: apps/website_issues/templates/website_issues/theme.html:22
+msgid "Theme for {domain}"
+msgstr "Тема про {domain}"
+
+#: apps/website_issues/templates/website_issues/includes/single_site.html:1
+msgid "Back to all sites &raquo;"
+msgstr "Назад до всіх сайтів &raquo;"
+
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:12
+msgid "Sites with only one message"
+msgstr "Сайти з лише одним повідомленням"
+
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:29
+msgid "No results found!"
+msgstr "Результатів пошуку не знайдено!"
+
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:30
+msgid "reset my search"
+msgstr "скинути мій пошук"
+
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:46
+msgid "%(count)s message"
+msgid_plural "%(count)s messages"
+msgstr[0] "%(count)s повідомлення"
+msgstr[1] "%(count)s повідомлення"
+msgstr[2] "%(count)s повідомлень"
+
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:55
+msgid "{percentage}% praise"
+msgstr "{percentage}% хвали"
+
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:57
+msgid "{percentage}% issues"
+msgstr "{percentage}% проблем"
+
+#. "similar" refers to "similar messages".
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:70
+msgid "%(count)s similar"
+msgid_plural "%(count)s similar"
+msgstr[0] "%(count)s схоже"
+msgstr[1] "%(count)s схожих"
+msgstr[2] "%(count)s схожих"
+
+#: templates/404.html:4
+msgid "Not Found"
+msgstr "Не знайдено"
+
+#: templates/404.html:6
+msgid "I'm sorry, I could not find what you were looking for."
+msgstr "Перепрошую, але я не можу знайти те що ви шукали."
+
+#: templates/404.html:9 templates/500.html:14
+msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
+msgstr "Будь ласка, перепочніть з <a href=\"%(dashboard_url)s\">панелі</a>."
+
+#: templates/404.html:14
+msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+msgstr "Якщо ви слідували за битим посиланням, будь ласка <a href=\"%(bug_url)s\">опишіть ваду.</a> Дякуємо!"
+
+#: templates/500.html:4
+msgid "Internal Server Error"
+msgstr "Внутрішня помилка сервера"
+
+#: templates/500.html:7
+msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
+msgstr "В програмі сталася неочікувана помилка. Вона була записана, про неї було повідомлено адміністратору. Перепрошуємо за незручність!"
+
+#: templates/500.html:20
+msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+msgstr "Якщо ви маєте додаткову інформацію щодо того як відтворити цю проблему, будь ласка <a href=\"%(bug_url)s\">опишіть ваду.</a> Дякуємо!"
+
+#: templates/about.html:3 templates/includes/footer.html:11
+msgid "About Firefox Input"
+msgstr "Про Firefox Input"
+
+#: templates/about.html:7
+msgid "Hello!"
+msgstr "Привіт!"
 
 #: templates/about.html:9
 msgid ""
@@ -112,965 +893,13 @@ msgstr ""
 "<strong>Firefox Input</strong> is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it "
 "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
 
-#: templates/base.html:47
-msgid "<strong>Firefox Release</strong> Input Dashboard"
-msgstr "<strong>Firefox Release</strong> — панель відгуків"
-
-#: templates/includes/welcome.html:2
-msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
-msgstr "<strong>Ласкаво просимо до Firefox Input!</strong> Це основний канал мозіловського зворотнього зв’язку з користувачами. <a href=\"%(about_url)s\">Докладніше…</a>"
-
-#: apps/feedback/templates/feedback/mobile/release_index.html:197
-msgid "@MozMobile"
-msgstr "@MozMobile"
-
-#: apps/search/templates/search/search.html:10
-msgid "ATOM feed for this search"
-msgstr "ATOM-лента для цього пошуку"
-
-#: templates/about.html:3 templates/includes/footer.html:11
-msgid "About Firefox Input"
-msgstr "Про Firefox Input"
-
-#: apps/feedback/templates/feedback/mobile/feedback.html:26
-msgid "Ack! Please tell us what to fix!"
-msgstr "Шкода! Розкажіть детальніше!"
-
-#: apps/feedback/templates/feedback/mobile/feedback.html:40
-msgid "Add URL of last visited page?"
-msgstr "Додати URL останньої відвіданої сторінки?"
-
-#: apps/search/templates/search/search_form.html:28
-msgid "Advanced"
-msgstr "Додатково"
-
-#: apps/themes/views.py:28 apps/themes/views.py:52
-msgid "All"
-msgstr "всі"
-
-#: apps/website_issues/templates/website_issues/sites.html:35
-msgctxt "sites_search_all_feedback"
-msgid "All"
-msgstr "всі"
-
-#: apps/website_issues/templates/website_issues/sites.html:47
-msgctxt "sites_search_all_platforms"
-msgid "All"
-msgstr "всі"
-
-#: apps/themes/views.py:52
-msgid "All Platforms"
-msgstr "Всі платформи"
-
-#: apps/themes/views.py:28 apps/website_issues/templates/website_issues/sites.html:35
-msgid "All feedback"
-msgstr "Всі відгуки"
-
-#: apps/website_issues/templates/website_issues/sites.html:47
-msgid "All platforms"
-msgstr "Всі платформи"
-
-#: templates/500.html:7
-msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
-msgstr "В програмі сталася неочікувана помилка. Вона була записана, про неї було повідомлено адміністратору. Перепрошуємо за незручність!"
-
-#: apps/input/__init__.py:257
-msgid "Android"
-msgstr "Android"
-
-#: apps/search/templates/search/release.html:19
-msgid "Average Ratings Over Time"
-msgstr "Середні оцінки за часом"
-
-#: apps/feedback/templates/feedback/mobile/feedback.html:28
-#, fuzzy
-msgid "Awesome! Please enter your idea below:"
-msgstr "Супер! Будь ласка введіть вашу пропозицію нижче:"
-
-#: apps/website_issues/templates/website_issues/includes/single_site.html:1
-msgid "Back to all sites &raquo;"
-msgstr "Назад до всіх сайтів &raquo;"
-
-#: apps/themes/templates/themes/theme.html:15
-msgid "Back to all themes &raquo;"
-msgstr "Назад до всіх тем &raquo;"
-
-#: apps/website_issues/templates/website_issues/theme.html:17
-msgid "Back to {domain} &raquo;"
-msgstr "Назад до {domain} &raquo;"
-
-#: apps/input/__init__.py:25
-msgid "Beta Channel"
-msgstr ""
-
-#: apps/website_issues/templates/website_issues/sites.html:5 apps/website_issues/templates/website_issues/includes/sites_list.html:14 templates/base.html:55
-msgid "Broken Sites"
-msgstr "Поламані сайти"
-
-#: apps/input/__init__.py:91
-msgid "Broken Website"
-msgstr "Поламаний сайт"
-
-#: templates/csrf_error.html:5
-msgid "CSRF Protection Error"
-msgstr "Помилка захисту CSRF"
-
-#: templates/includes/ua_overlay.html:10
-msgid "Close"
-msgstr "Закрити"
-
-#: templates/includes/nav_buttons.html:2
-msgid "Clusters"
-msgstr "Кластери"
-
-#: apps/themes/templates/themes/index.html:37
-msgid "Common Themes"
-msgstr "Часті теми"
-
-#: apps/dashboard/templates/dashboard/message_list.html:32
-msgid "Copy User Agent"
-msgstr "Копіювати user-agent"
-
-#. Tooltip for custom date range button
-#: apps/dashboard/templates/dashboard/when.html:9
-msgid "Custom"
-msgstr "Вказати діапазон дат"
-
-#: templates/base_mobile.html:20
-msgid "Dashboard"
-msgstr "Панель відгуків"
-
-#: apps/search/forms.py:74
-msgid "Date range:"
-msgstr "Проміжок часу:"
-
-#: apps/feedback/templates/feedback/release_index.html:131
-msgid "Describe the problem with the site."
-msgstr "Опишіть проблему з сайтом."
-
-#: apps/feedback/templates/feedback/mobile/release_index.html:97
-msgid "Describe the problem with the website."
-msgstr "Опишіть проблему з сайтом."
-
-#: apps/feedback/templates/feedback/release_index.html:183 apps/feedback/templates/feedback/mobile/release_index.html:142
-msgid "Describe your idea below."
-msgstr "Опишіть ідею нижче."
-
-#: apps/dashboard/templates/dashboard/devices.html:15
-msgid "Devices"
-msgstr "Пристрої"
-
-#: apps/feedback/templates/feedback/mobile/release_index.html:84
-msgid "Does a website look or behave incorrectly in Firefox for Mobile? Provide us some details about the problem and we'll try to fix it."
-msgstr "Чи сайт виглядає або працює неправильно у Firefox for Mobile? Надайте нам трохи подробиць про проблему щоб ми змогли спробувати її виправити."
-
-#: apps/feedback/templates/feedback/release_index.html:111
-msgid "Does a website look or behave incorrectly in Firefox?"
-msgstr "Чи сайт виглядає або працює неправильно у Firefox?"
-
-#: apps/input/__init__.py:150
-msgid "Don't Care"
-msgstr "Неважливо"
-
-#: apps/feedback/templates/feedback/need_beta.html:3 apps/feedback/templates/feedback/mobile/need_beta.html:3
-msgid "Download Beta"
-msgstr "Завантажити бету"
-
-#: apps/feedback/templates/feedback/need_release.html:3
-msgid "Download Firefox"
-msgstr "Завантажити Firefox"
-
-#: apps/feedback/forms.py:106 apps/feedback/forms.py:119
-msgid "Enter your feedback here."
-msgstr "Введіть свій відгук тут."
-
-#: apps/feedback/forms.py:132 apps/feedback/forms.py:189
-#, fuzzy
-msgid "Enter your ideas here."
-msgstr "Введіть свій відгук тут."
-
-#: apps/feedback/forms.py:173
-msgid "Example: Images were not loading, but the rest of the page was."
-msgstr "Приклад: малюнки не завантажуються, а решта сайта нормальна."
-
-#: apps/input/__init__.py:152
-msgid "Excellent"
-msgstr "Відмінно"
-
-#: templates/base_mobile_old.html:61 templates/base_old.html:68 templates/includes/footer.html:14
-msgid ""
-"Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
-"any later version."
-msgstr ""
-"Якщо не зазначено <a href=\"%(legal_url)s\">інакше</a>, вміст цього сайта ліцензовано під ліцензією <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike v3.0</a> чи будь-якою "
-"пізнішою версією."
-
-#: templates/base.html:53
-msgid "Experience"
-msgstr "Оцінка"
-
-#: apps/search/templates/search/release.html:15
-msgid "Experience Ratings"
-msgstr "Оцінки роботи"
-
-#: apps/feedback/templates/feedback/release_index.html:247
-msgid "Facebook"
-msgstr "Facebook"
-
-#: apps/input/__init__.py:149
-msgid "Fair"
-msgstr "Нормально"
-
-#: apps/input/__init__.py:139
-msgid "Features"
-msgstr "Можливості"
-
-#: apps/dashboard/templates/dashboard/mobile/beta.html:6 apps/search/templates/search/mobile/search.html:6
-msgid "Feed"
-msgstr "Лента"
-
-#: templates/base.html:37
-msgid "Feedback"
-msgstr "Відгуки"
-
-#: apps/feedback/templates/feedback/mobile/release_index.html:189
-msgid "Feedback Dashboard"
-msgstr "Панель відгуків"
-
-#: apps/feedback/validators.py:36
-msgid "Feedback must not contain HTML."
-msgstr "Відгук не може містити HTML."
-
-#: apps/feedback/templates/feedback/thanks.html:17 apps/feedback/templates/feedback/mobile/thanks.html:12
-msgid "Find out the latest news from Mozilla:"
-msgstr "Дізнайтесь останні новини від Mozilla:"
-
-#: apps/feedback/templates/feedback/release_index.html:244
-msgid "Find the latest news about Firefox."
-msgstr "Дізнайтесь останні новини про Firefox."
-
-#: apps/input/__init__.py:160
-msgid "Firefox"
-msgstr "Firefox"
-
-#: apps/search/views.py:114 apps/search/views.py:133
-msgid "Firefox Input"
-msgstr "Firefox Input"
-
-#. L10n: This is the title to the Search ATOM feed.
-#: apps/search/views.py:132
-msgid "Firefox Input: '{query}'"
-msgstr "Firefox Input: '{query}'"
-
-#: apps/feedback/templates/feedback/beta_index.html:24
-msgid "Firefox Logo"
-msgstr "Лого Firefox"
-
-#: apps/feedback/templates/feedback/mobile/beta_index.html:13 apps/feedback/templates/feedback/mobile/beta_index.html:15
-msgid "Firefox makes me happy ..."
-msgstr "Firefox мене порадував…"
-
-#: apps/feedback/templates/feedback/beta_index.html:13 apps/feedback/templates/feedback/beta_index.html:15
-msgid "Firefox makes me happy because ..."
-msgstr "Firefox мене порадував тим…"
-
-#: apps/feedback/templates/feedback/mobile/beta_index.html:18 apps/feedback/templates/feedback/mobile/beta_index.html:20
-msgid "Firefox makes me sad ..."
-msgstr "Firefox мене засмутив…"
-
-#: apps/feedback/templates/feedback/beta_index.html:19 apps/feedback/templates/feedback/beta_index.html:21
-msgid "Firefox makes me sad because ..."
-msgstr "Firefox мене засмутив тим що…"
-
-#: apps/feedback/templates/feedback/mobile/release_index.html:205
-msgid "Firefox on Facebook"
-msgstr "Firefox на Facebook"
-
-#: apps/feedback/templates/feedback/mobile/release_index.html:196
-msgid "Follow us on Twitter."
-msgstr "Слідуйте за нами у Твітері."
-
-#. refers to time-based search filters (e.g., "for last: 1d")
-#: apps/dashboard/templates/dashboard/mobile/when.html:3
-msgid "For last:"
-msgstr "За останні:"
-
-#: apps/feedback/templates/feedback/mobile/release_index.html:102 apps/feedback/templates/feedback/mobile/release_index.html:147
-msgid "For your privacy, please ensure that no personally identifiable information is included in your feedback."
-msgstr "Заради вашої конфіденційності, упевніться, що в відгуку нема ніяких особистих ідентифікуючих даних."
-
-#: apps/themes/templates/themes/index.html:37
-msgid "Frequent Ideas"
-msgstr ""
-
-#: apps/feedback/templates/feedback/mobile/release_index.html:212
-msgid "Get the latest news on Firefox."
-msgstr "Дізнайтесь останні новини про Firefox."
-
-#: templates/includes/channel_switcher.html:13 templates/includes/footer_release.html:16 templates/includes/lang_switcher.html:10
-msgid "Go"
-msgstr "Перейти"
-
-#: apps/feedback/templates/feedback/release_index.html:40 apps/feedback/templates/feedback/release_index.html:115 apps/feedback/templates/feedback/release_index.html:173
-#: apps/feedback/templates/feedback/mobile/release_index.html:28 apps/feedback/templates/feedback/mobile/release_index.html:79 apps/feedback/templates/feedback/mobile/release_index.html:132
-msgid "Go Back"
-msgstr "Назад"
-
-#: apps/input/__init__.py:151
-msgid "Good"
-msgstr "Добре"
-
-#: apps/feedback/templates/feedback/feedback.html:56
-msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
-msgstr "Маєте проблеми з певним сайтом? Будь ласка, додайте URL, щоб ми змогли знайти цю проблему швидше!"
-
-#: apps/feedback/templates/feedback/release_index.html:171
-msgid "Have an idea how Firefox could be better? Let us know!"
-msgstr "Маєте ідею як зробити Firefox кращим? Дайте нам знати!"
-
-#: apps/feedback/templates/feedback/mobile/release_index.html:137
-msgid "Have an idea how Firefox for Mobile could be better? Let us know!"
-msgstr "Маєте ідею як зробити Firefox for Mobile кращим? Дайте нам знати!"
-
-#: templates/about.html:7
-msgid "Hello!"
-msgstr "Привіт!"
-
-#: templates/includes/ua_overlay.html:7
-msgid "Hit Ctrl+C (Cmd+C on Mac) to copy and close."
-msgstr "Натисніть Ctrl+C (Cmd+C на Маку) щоб скопіювати та закрити."
-
-#: apps/input/__init__.py:133
-msgid "How frequently Firefox crashes or loses data"
-msgstr "Як часто Firefox падає чи втрачає дані"
-
-#: apps/input/__init__.py:112
-msgid "How long Firefox takes to start running"
-msgstr "Як довго Firefox запускається"
-
-#: apps/input/__init__.py:119
-msgid "How long it takes for web pages to load"
-msgstr "Як довго завантажуються веб-сторінки"
-
-#: apps/input/__init__.py:126
-msgid "How quickly web pages respond once they have loaded"
-msgstr "Як швидко завантажені веб-сторінки відгукаються на ваші дії"
-
-#: apps/input/__init__.py:140
-msgid "How well Firefox's built-in features serve your needs"
-msgstr "Як добре вбудовані в Firefox можливості задовольняють ваші потреби"
-
-#: apps/feedback/templates/feedback/mobile/release_index.html:33
-msgid "How would you rate these aspects of Firefox for Mobile?"
-msgstr "Як ви оцінюєте ці аспекти Firefox for Mobile?"
-
-#: apps/feedback/templates/feedback/release_index.html:38
-msgid "How would you rate these aspects of Firefox?"
-msgstr "Як ви оцінюєте ці аспекти Firefox?"
-
-#: templates/404.html:6
-msgid "I'm sorry, I could not find what you were looking for."
-msgstr "Перепрошую, але я не можу знайти те що ви шукали."
-
-#: apps/search/templates/search/unavailable.html:7
-msgid "I'm sorry, there was an error with your search."
-msgstr "Перепрошуємо, але під час пошуку сталася помилка."
-
-#: apps/input/__init__.py:77 apps/search/views.py:247 apps/themes/templates/themes/theme_list.html:10
-msgid "Idea"
-msgstr ""
-
-#: apps/dashboard/views.py:56 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:38 apps/themes/views.py:40 templates/base.html:54
-msgid "Ideas"
-msgstr ""
-
-#: apps/themes/views.py:41
-#, fuzzy
-msgid "Ideas only"
-msgstr "Тільки проблеми"
-
-#: templates/csrf_error.html:24
-msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-msgstr "Якщо проблема не зникає, будь ласка <a href=\"%(bug_url)s\">опишіть ваду</a>, вказавши запитуваний URL."
-
-#: apps/search/templates/search/unavailable.html:17
-msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
-msgstr "Якщо проблема не зникає, будь ласка <a href=\"%(bug_url)s\">опишіть ваду</a>, вказавши запитуваний URL."
-
-#: templates/500.html:20
-msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-msgstr "Якщо ви маєте додаткову інформацію щодо того як відтворити цю проблему, будь ласка <a href=\"%(bug_url)s\">опишіть ваду.</a> Дякуємо!"
-
-#: apps/feedback/templates/feedback/feedback.html:86
-#, fuzzy
-msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_idea)s\">idea box</a>!"
-msgstr "Якщо у вас натомість є ідея, будь ласка пришліть її нам з допомогою нашої <a href=\"%(url_idea)s\">скриньки для пропозицій</a>!"
-
-#: apps/feedback/templates/feedback/release_index.html:24
-msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
-msgstr "Якщо ви потребуєте допомоги або маєте проблему з Firefox, відвідайте нашу <a href=\"%(support_url)s\">сторінку підтримки</a>."
-
-#: apps/feedback/templates/feedback/beta_index.html:25
-msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
-msgstr "Якщо ви потребуєте допомоги або маєте проблему з Firefox, відвідайте нашу <a href=\"%(support_url)s\">сторінку підтримки</a>."
-
-#: apps/feedback/templates/feedback/thanks.html:10
-msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
-msgstr "Якщо ви хочете подивитись, куди було надіслано ваш відгук, гляньте на нашу <a href=\"%(url)s\">Панель відгуків Firefox</a>."
-
-#: templates/404.html:14
-msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-msgstr "Якщо ви слідували за битим посиланням, будь ласка <a href=\"%(bug_url)s\">опишіть ваду.</a> Дякуємо!"
-
-#: apps/search/templates/search/unavailable.html:24
-msgid "Include the following error message in your bug report:"
-msgstr "Додати наступне повідомлення про помилку до вашого звіту про ваду:"
-
-#: templates/base_mobile_old.html:30 templates/base_old.html:35
-msgid "Input Dashboard"
-msgstr "Панель відгуків"
-
-#: templates/500.html:4
-msgid "Internal Server Error"
-msgstr "Внутрішня помилка сервера"
-
-#: apps/feedback/views.py:109 apps/feedback/views.py:176
-msgid "Invalid feedback type"
-msgstr "Неправильний тип відгуку"
-
-#: apps/feedback/helpers.py:39 apps/input/__init__.py:70 apps/themes/templates/themes/theme_list.html:12 apps/website_issues/templates/website_issues/includes/single_site.html:14
-msgid "Issue"
-msgstr "Проблема"
-
-#. Formerly called "sad"
-#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:37 apps/search/views.py:246
-#: apps/themes/views.py:36 apps/website_issues/templates/website_issues/sites.html:37
-msgid "Issues"
-msgstr "Проблеми"
-
-#: apps/themes/views.py:37 apps/website_issues/templates/website_issues/sites.html:37
-msgid "Issues only"
-msgstr "Тільки проблеми"
-
-#: apps/feedback/templates/feedback/beta_index.html:7
-msgid "It's great to hear you want to help Mozilla make your experience better!"
-msgstr "Як чудово що ви вирішили допомогти Мозіллі зробити продукт кращим!"
-
-#: apps/feedback/templates/feedback/feedback.html:48
-msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
-msgstr "Знаєте сайт, що працює краще в цій беті, ніж у попередній вірсії Firefox? Будь ласка додайте URL, щоб ми були в курсі!"
-
-#. short for 30 days
-#: apps/dashboard/templates/dashboard/includes/when_selectors.html:9
-msgid "Last 30 days"
-msgstr "Останні 30 днів"
-
-#. short for 7 days
-#: apps/dashboard/templates/dashboard/includes/when_selectors.html:6
-msgid "Last 7 days"
-msgstr "Останні 7 днів"
-
-#. short for 1 day
-#: apps/dashboard/templates/dashboard/includes/when_selectors.html:3
-msgid "Last day"
-msgstr "Останній день"
-
-#: apps/dashboard/templates/dashboard/beta.html:14
-msgid "Latest Feedback"
-msgstr "Останні відгуки"
-
-#: templates/base_mobile_old.html:57 templates/base_old.html:64 templates/includes/footer.html:9
-msgid "Legal Notices"
-msgstr "Юридичні примітки"
-
-#: apps/feedback/templates/feedback/mobile/release_index.html:204
-msgid "Let's be friends!"
-msgstr "Давайте дружити!"
-
-#: apps/input/__init__.py:264
-msgid "Linux"
-msgstr "Linux"
-
-#: apps/search/templates/search/release.html:30
-msgid "Loading chart data."
-msgstr "Завантаження даних графіку."
-
-#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:9
-msgid "Loading feedback history..."
-msgstr "Завантажується історія відгуків…"
-
-#: apps/search/templates/search/includes/ratings_chart.html:12
-msgid "Loading ratings history..."
-msgstr "Завантажується історія відгуків…"
-
-#: apps/dashboard/templates/dashboard/locales.html:17 apps/dashboard/templates/dashboard/mobile/locales.html:9
-msgid "Locale"
-msgstr "Локаль"
-
-#: apps/search/forms.py:66
-msgid "Locale:"
-msgstr "Локаль:"
-
-#: apps/input/__init__.py:243
-msgid "Mac OS X"
-msgstr "Mac OS X"
-
-#: apps/input/__init__.py:250
-msgid "Maemo"
-msgstr "Maemo"
-
-#: apps/dashboard/templates/dashboard/manufacturers.html:16
-msgid "Manufacturer"
-msgstr "Виробник"
-
-#. Title text for a complete message count.
-#: apps/dashboard/templates/dashboard/opinion_count.html:3
-msgid "Messages"
-msgstr "Повідомлення"
-
-#: apps/input/__init__.py:176
-msgid "Mobile"
-msgstr "Мобільний"
-
-#: apps/dashboard/templates/dashboard/locales.html:29
-msgid "More Locales"
-msgstr "Інші локалі"
-
-#: apps/dashboard/templates/dashboard/message_list.html:29 apps/themes/templates/themes/theme_list.html:28
-msgid "More Options"
-msgstr "Більше варіантів"
-
-#: apps/website_issues/templates/website_issues/sites.html:77
-msgid "More sites..."
-msgstr "Більше сайтів…"
-
-#: apps/themes/templates/themes/theme.html:36 apps/website_issues/templates/website_issues/theme.html:38 apps/website_issues/templates/website_issues/includes/paginate_sites.html:11
-msgid "Next Page &raquo;"
-msgstr "Наступна сторінка &raquo;"
-
-#: apps/input/__init__.py:30
-msgid "Nightly Channel"
-msgstr "Канал нічних збірок"
-
-#. short for an indefinite date range
-#: apps/dashboard/templates/dashboard/includes/when_selectors.html:12
-msgid "No date limit"
-msgstr "Без обмеження дати"
-
-#: apps/search/templates/search/release.html:37
-msgid "No results found"
-msgstr "Результатів пошуку не знайдено."
-
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:29
-msgid "No results found!"
-msgstr "Результатів пошуку не знайдено!"
-
-#: apps/dashboard/templates/dashboard/message_list.html:51 apps/themes/templates/themes/theme_list.html:41
-msgid "No search results found."
-msgstr "Результатів пошуку не знайдено."
-
-#: templates/404.html:4
-msgid "Not Found"
-msgstr "Не знайдено"
-
-#. Refers to terms often mentioned in feedback.
-#: apps/dashboard/templates/dashboard/themes.html:3 apps/dashboard/templates/dashboard/mobile/themes.html:2
-msgid "Often Mentioned"
-msgstr "Часто згадувані"
-
-#: apps/feedback/templates/feedback/need_release.html:8
-msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-msgstr "О! Отже, ви хочете надати нам відгук про Firefox. Дякуємо, але вам потрібно коритуватись нашою найостаннішою версією."
-
-#: apps/feedback/templates/feedback/need_beta.html:8
-msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
-msgstr "О! Отже, ви хочете надати нам відгук стосовно наступної версії Firefox. Дякуємо, але вам потрібно коритуватись нашою найостаннішою бетою."
-
-#: apps/feedback/templates/feedback/mobile/need_beta.html:9
-msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
-msgstr "О! Отже, ви хочете надати нам відгук. Вам потрібна найостанніша Бета! Завітайте на сторінку бети та <a href=\"%(url)s\">завантажте її!</a>"
-
-#: apps/dashboard/templates/dashboard/mobile/beta.html:36 apps/search/templates/search/mobile/search.html:48
-msgid "Older Feedback &raquo;"
-msgstr "Старіші відгуки &raquo;"
-
-#: apps/dashboard/templates/dashboard/beta.html:25 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:73
-msgid "Older Messages &raquo;"
-msgstr "Старіші повідомлення &raquo;"
-
-#: templates/about.html:24
-msgid "Open Data"
-msgstr "Відкриті дані"
-
-#: apps/feedback/templates/feedback/mobile/feedback.html:68
-#, fuzzy
-msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
-msgstr "Чи надішліть ваші ідеї через нашу <a href=\"%(url_idea)s\">скриньку для пропозицій</a>!"
-
-#: apps/input/__init__.py:271
-msgid "Other"
-msgstr "Інше"
-
-#: templates/includes/footer_release.html:5 templates/includes/lang_switcher.html:2
-msgid "Other languages:"
-msgstr "Інші мови:"
-
-#: apps/search/templates/search/unavailable.html:10
-msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
-msgstr "Наша пошукова система може бути наразі недоступна. Ви можете вернутись до <a href=\"%(url)s\">панелі</a> та спробувати ще раз пізніше."
-
-#: apps/search/forms.py:68
-msgid "PLATFORM:"
-msgstr ""
-
-#: apps/input/__init__.py:118
-msgid "Page Load Time"
-msgstr "Час завантаження сторінок"
-
-#: apps/feedback/templates/feedback/release_index.html:248 apps/feedback/templates/feedback/mobile/release_index.html:213
-msgid "Planet Mozilla"
-msgstr "Planet Mozilla"
-
-#: apps/dashboard/templates/dashboard/platforms.html:12 apps/dashboard/templates/dashboard/mobile/platforms.html:8 apps/themes/templates/themes/index.html:25
-msgid "Platform"
-msgstr "Платформа"
-
-#: apps/website_issues/templates/website_issues/sites.html:44
-msgid "Platforms"
-msgstr "Платформи"
-
-#: apps/feedback/templates/feedback/beta_index.html:9
-msgid "Please choose one of the following types of feedback that you would like to submit to us:"
-msgstr "Будь ласка оберіть один з наступних типів відгуку, котрий ви б хотіли нам надіслати:"
-
-#: apps/feedback/templates/feedback/mobile/beta_index.html:10
-msgid "Please choose the type of feedback that you would like to submit to us:"
-msgstr "Будь ласка оберіть тип відгуку який би ви хотіли нам надіслати:"
-
-#: apps/feedback/templates/feedback/feedback.html:77 apps/feedback/templates/feedback/mobile/feedback.html:59
-msgid "Please ensure that there is no personally identifiable information here."
-msgstr "Будь ласка, упевніться, що тут нема ніяких особистих ідентифікуючих даних."
-
-#: apps/feedback/forms.py:159
-msgid "Please rate at least one item."
-msgstr ""
-
-#: templates/404.html:9 templates/500.html:14
-msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
-msgstr "Будь ласка, перепочніть з <a href=\"%(dashboard_url)s\">панелі</a>."
-
-#: apps/input/__init__.py:148
-msgid "Poor"
-msgstr "Погано"
-
-#. Formerly called "happy"
-#: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:63
-#: apps/search/forms.py:36 apps/search/views.py:245 apps/themes/views.py:32 apps/themes/templates/themes/theme_list.html:8 apps/website_issues/templates/website_issues/sites.html:36
-#: apps/website_issues/templates/website_issues/includes/single_site.html:12
-msgid "Praise"
-msgstr "Хвала"
-
-#: apps/themes/views.py:33 apps/website_issues/templates/website_issues/sites.html:36
-msgid "Praise only"
-msgstr "Лише хвала"
-
-#: templates/base_mobile_old.html:56 templates/base_old.html:63 templates/includes/footer.html:8
-msgid "Privacy Policy"
-msgstr "Політика конфіденційності"
-
-#: templates/base.html:23 templates/base_mobile_old.html:20 templates/base_old.html:23
-msgid "Proceed to footer"
-msgstr "Перейти вниз"
-
-#: templates/base.html:22 templates/base_mobile_old.html:19 templates/base_old.html:22
-msgid "Proceed to main content"
-msgstr "Перейти до головного вмісту"
-
-#: apps/search/templates/search/search.html:20 apps/themes/templates/themes/index.html:10 apps/website_issues/templates/website_issues/sites.html:22 templates/includes/filters.html:6
-msgid "Product"
-msgstr "Продукт:"
-
-#: apps/search/forms.py:60
-msgid "Product:"
-msgstr "Продукт:"
-
-#: apps/feedback/templates/feedback/release_index.html:112
-msgid "Provide us some details about the problem and we'll try to fix it."
-msgstr "Надайте нам трохи подробиць про проблему, щоб ми змогли її починити."
-
-#: apps/search/client.py:209
-msgid "Query has timed out."
-msgstr "Час запиту сплив."
-
-#: apps/feedback/templates/feedback/release_index.html:16 apps/feedback/templates/feedback/release_index.html:37 apps/feedback/templates/feedback/mobile/release_index.html:16
-#: apps/feedback/templates/feedback/mobile/release_index.html:32
-msgid "Rate Your Experience"
-msgstr "Оцініти ваші враження"
-
-#: apps/input/__init__.py:84
-msgid "Rating"
-msgstr "Оцінка"
-
-#: apps/input/__init__.py:20
-msgid "Release Channel"
-msgstr "Канал релізів"
-
-#: templates/base_mobile_old.html:58 templates/base_old.html:65 templates/includes/footer.html:10
-msgid "Report Trademark Abuse"
-msgstr "Повідомити про порушення прав на торгову марку"
-
-#: apps/feedback/templates/feedback/release_index.html:17 apps/feedback/templates/feedback/release_index.html:109 apps/feedback/templates/feedback/mobile/release_index.html:17
-#: apps/feedback/templates/feedback/mobile/release_index.html:83
-msgid "Report a Site Issue"
-msgstr "Повідомити про проблему з сайтом"
-
-#: apps/input/__init__.py:125
-msgid "Responsiveness"
-msgstr "Відгукливість"
-
-#: apps/search/templates/search/search_form.html:19
-msgid "Search"
-msgstr "Пошук"
-
-#: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:49
-msgid "Search Results"
-msgstr "Результати пошуку"
-
-#: apps/search/views.py:115
-msgid "Search Results in Firefox Beta Feedback."
-msgstr "Шукати результати у відгуках на Firefox Beta"
-
-#: apps/search/templates/search/unavailable.html:5
-msgid "Search Unavailable"
-msgstr "Пошук недоступний"
-
-#: apps/search/forms.py:59
-msgid "Search by keyword"
-msgstr "Пошуковий запит"
-
-#: apps/website_issues/forms.py:42
-msgctxt "website_issues_search"
-msgid "Search for domain"
-msgstr "Пошуковий запит"
-
-#: apps/themes/templates/themes/theme_list.html:14
-msgid "See all opinions"
-msgstr "Побачити всі думки"
-
-#: apps/feedback/templates/feedback/mobile/release_index.html:188
-msgid "See where your feedback goes."
-msgstr "Дізнатись куди йдуть ваші відгуки."
-
-#: apps/search/forms.py:64
-msgid "Sentiment:"
-msgstr "Почуття:"
-
-#. Button text for setting a custom date range.
-#: apps/dashboard/templates/dashboard/when.html:17
-msgctxt "date_range_set"
-msgid "Set"
-msgstr "Встановити"
-
-#: apps/feedback/templates/feedback/release_index.html:18 apps/feedback/templates/feedback/release_index.html:170 apps/feedback/templates/feedback/mobile/release_index.html:18
-#: apps/feedback/templates/feedback/mobile/release_index.html:136
-msgid "Share an Idea"
-msgstr "Поділитись ідеєю"
-
-#: apps/dashboard/templates/includes/filter_box_toggle.html:4
-msgid "Show/Hide Options"
-msgstr "Показати/приховати варіанти"
-
-#: apps/website_issues/templates/website_issues/sites.html:6 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/includes/sites_list.html:16
-#: templates/base.html:39 templates/includes/nav_buttons.html:4
-msgid "Sites"
-msgstr "Сайти"
-
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:12
-msgid "Sites with only one message"
-msgstr "Сайти з лише одним повідомленням"
-
-#: apps/feedback/templates/feedback/feedback.html:29
-#, fuzzy
-msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please enter your idea below:"
-msgstr "Отже, ви б хотіли внести пропозицію про те як покращити Firefox? Супер! Введіть вашу пропозицію нижче:"
-
-#: templates/about.html:34
-msgid "Source Code"
-msgstr "Початковий код"
-
-#. L10n: Sphinx is the name of the search engine software.
-#: apps/search/client.py:212
-msgid "Sphinx threw an unknown exception: %s"
-msgstr "Sphinx викинув невідомий виняток: %s"
-
-#: apps/input/__init__.py:132
-msgid "Stability"
-msgstr "Стабільність"
-
-#: apps/input/__init__.py:111
-msgid "Start-Up Time"
-msgstr "Час запуску"
-
-#: apps/dashboard/templates/dashboard/mobile/beta.html:7 apps/search/templates/search/mobile/search.html:7
-msgid "Statistics"
-msgstr "Статистика"
-
-#: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:79
-#: apps/feedback/templates/feedback/release_index.html:3 apps/feedback/templates/feedback/release_index.html:97 apps/feedback/templates/feedback/release_index.html:98
-#: apps/feedback/templates/feedback/release_index.html:158 apps/feedback/templates/feedback/release_index.html:159 apps/feedback/templates/feedback/release_index.html:210
-#: apps/feedback/templates/feedback/release_index.html:211 apps/feedback/templates/feedback/mobile/beta_index.html:3 apps/feedback/templates/feedback/mobile/feedback.html:3
-#: apps/feedback/templates/feedback/mobile/feedback.html:61 apps/feedback/templates/feedback/mobile/release_index.html:3 apps/feedback/templates/feedback/mobile/release_index.html:66
-#: apps/feedback/templates/feedback/mobile/release_index.html:67 apps/feedback/templates/feedback/mobile/release_index.html:118 apps/feedback/templates/feedback/mobile/release_index.html:119
-#: apps/feedback/templates/feedback/mobile/release_index.html:161 apps/feedback/templates/feedback/mobile/release_index.html:162 templates/base_feedback_release_mobile.html:15
-msgid "Submit Feedback"
-msgstr "Надіслати відгук"
-
-#: apps/feedback/templates/feedback/release_index.html:10 apps/feedback/templates/feedback/mobile/release_index.html:10
-msgid "Submit Your Feedback"
-msgstr "Надішліть ваш відгук"
-
-#. Submitting... is a text shown while waiting for the sending to complete.
-#: apps/feedback/templates/feedback/release_index.html:97 apps/feedback/templates/feedback/release_index.html:158 apps/feedback/templates/feedback/release_index.html:210
-#: apps/feedback/templates/feedback/mobile/release_index.html:66 apps/feedback/templates/feedback/mobile/release_index.html:118 apps/feedback/templates/feedback/mobile/release_index.html:161
-msgid "Submitting Feedback"
-msgstr "Надсилання відгуку"
-
-#: apps/feedback/templates/feedback/feedback.html:19
-msgid "Super! It's great to hear that you like our pre-released browser. Please explain what you specifically like!"
-msgstr "Супер! Як приємно чути що вам подобається наш ще не випущений браузер. Будь ласка, розкажіть що саме вам сподобалось!"
-
-#: apps/feedback/templates/feedback/mobile/feedback.html:24
-msgid "Super! Please tell us more!"
-msgstr "Супер! Будь ласка детальніше!"
-
-#: apps/feedback/templates/feedback/release_index.html:222 apps/feedback/templates/feedback/thanks.html:3 apps/feedback/templates/feedback/mobile/release_index.html:174
-#: apps/feedback/templates/feedback/mobile/thanks.html:3
-msgid "Thanks for Your Feedback"
-msgstr "Дякуємо за ваш відгук"
-
-#: apps/feedback/templates/feedback/mobile/beta_index.html:8
-msgid "Thanks for helping Mozilla make your experience better!"
-msgstr "дякуємо що допомогаєте зробити продукти Mozilla кращими!"
-
-#: apps/feedback/templates/feedback/thanks.html:7 apps/feedback/templates/feedback/mobile/thanks.html:8
-msgid "Thanks for sending us your feedback!"
-msgstr "Дякуємо що надіслали нам ваш відгук!"
-
-#: apps/search/templates/search/unavailable.html:28
-msgid "Thanks!"
-msgstr "Дякуємо!"
-
-#: templates/about.html:37
-msgid "The code for the Firefox Input web application can be found <a href=\"%(source_url)s\">on GitHub</a>!"
-msgstr ""
-
-#: templates/csrf_error.html:15
-msgid ""
-"The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable cookies "
-"in Firefox, then try again."
-msgstr ""
-"Найвірогідніша причина цієї помилки це те, що ваш браузер налаштований <strong>не приймати куки</strong> від нас. Зверніться до <a href=\"%(cookies_url)s\">цих інструкції</a> про те, як увімкнути "
-"куки в Firefox та спробуйте ще раз."
-
-#: apps/themes/templates/themes/theme.html:4 apps/themes/templates/themes/theme.html:17 apps/website_issues/templates/website_issues/theme.html:19
-msgid "Theme"
-msgstr "Тема"
-
-#: apps/website_issues/templates/website_issues/theme.html:22
-msgid "Theme for {domain}"
-msgstr "Тема про {domain}"
-
-#: apps/themes/templates/themes/index.html:2 templates/base.html:38
-msgid "Themes"
-msgstr "Теми"
-
-#: templates/csrf_error.html:8
-msgid "There was an error verifying your CSRF token. Your request could not be processed. We apologize for the inconvenience!"
-msgstr "Під час перевірки вашого CSRF-токену сталась помилка. Ваш запит не може бути оброблений. Перепрошуємо за незручності!"
-
-#: apps/feedback/templates/feedback/need_beta.html:14
-msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
-msgstr "Щоб зробити це, просто перейдіть на нашу сторінку завантажень та встановіть <a href=\"%(url)s\">останню бету Firefox!</a>"
-
-#: apps/feedback/templates/feedback/need_release.html:14
-msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-msgstr "Щоб зробити це, просто перейдіть на нашу сторінку завантажень та встановіть/оновіть Firefox до <a href=\"%(url)s\">останньої версії!</a>"
-
-#: apps/feedback/templates/feedback/release_index.html:138 apps/feedback/templates/feedback/release_index.html:190
-msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
-msgstr "Для захисту вашої конфіденційності, упевніться, що в відгуку нема ніяких особистих ідентифікуючих даних."
-
 #: templates/about.html:18
 msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(feedback_url)s\">the feedback submission page</a>!"
 msgstr "Щоб надіслати відгук про вашу версію Firefox, перейдіть на <a href=\"%(feedback_url)s\">сторінку надсилання відгуків</a>."
 
-#. Link text for showing/hiding options
-#: apps/dashboard/templates/includes/filter_box_toggle.html:6
-msgid "Toggle"
-msgstr "Перемкнути"
-
-#. Link to Google Translator
-#: apps/dashboard/templates/dashboard/message_list.html:36 apps/themes/templates/themes/theme_list.html:31
-msgid "Translate Message"
-msgstr "Перекласти повідомлення"
-
-#: apps/dashboard/templates/dashboard/mobile/beta.html:8 apps/search/templates/search/mobile/search.html:8
-msgid "Trends"
-msgstr "Тренди"
-
-#: apps/dashboard/templates/dashboard/message_list.html:41
-msgid "Tweet This"
-msgstr "Затвітити це"
-
-#: apps/feedback/templates/feedback/release_index.html:246
-msgid "Twitter"
-msgstr "Twitter"
-
-#: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:17
-#: apps/website_issues/templates/website_issues/sites.html:32
-msgid "Type of Feedback"
-msgstr "Тип відгуку"
-
-#: apps/website_issues/templates/website_issues/sites.html:72
-msgid "Uncommon Sites"
-msgstr "Нетипові сайти"
-
-#: apps/dashboard/templates/dashboard/devices.html:8 apps/dashboard/templates/dashboard/manufacturers.html:9 apps/feedback/helpers.py:16 apps/search/forms.py:45 apps/search/forms.py:48
-#: apps/search/forms.py:53
-msgid "Unknown"
-msgstr "невідомо"
-
-#: templates/includes/ua_overlay.html:3
-msgid "User Agent"
-msgstr "User Agent"
-
-#: templates/includes/ua_overlay.html:9
-msgid "User agent copied"
-msgstr "User agent скопійовано"
-
-#: apps/feedback/views.py:44
-msgid "User-Agent request header must be set."
-msgstr "Заголовок запиту User-Agent має бути заповнений."
-
-#: apps/search/forms.py:62
-msgid "Version:"
-msgstr "Версія:"
-
-#: apps/feedback/templates/feedback/release_index.html:237
-msgid "Visit the <a href=\"%(dashboard_url)s\">Firefox Feedback Dashboard</a>"
-msgstr "Відвідайте <a href=\"%(dashboard_url)s\">Панель Firefox Feedback</a>"
-
-#: apps/feedback/templates/feedback/release_index.html:235
-msgid "Want to see where your feedback goes?"
-msgstr "Хочете дізнатись куди піде ваш відгук?"
-
-#: apps/feedback/forms.py:97
-msgid "We already got your feedback! Thanks."
-msgstr "Ми вже отримали ваш відгук! Дякуємо."
-
-#: apps/feedback/templates/feedback/feedback.html:24
-msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
-msgstr "Нам шкода, що наш браузер не справив на вас добре враження. Будь ласка, розкажіть чому, щоб ми змогли його покращити!"
+#: templates/about.html:24
+msgid "Open Data"
+msgstr "Відкриті дані"
 
 #: templates/about.html:27
 msgid ""
@@ -1080,116 +909,284 @@ msgstr ""
 "Ми б залюбки експериментували з даними далі, але нас лише кілька чоловік. Тож нам потрібні ваші запити про те, на які питання вам ціково взнати відповіді! Якщо ви б теж хотіли поекспериментувати з "
 "нашими даними, будь ласка, <a href=\"%(data_url)s\">зв’яжіться з нами</a>!"
 
+#: templates/about.html:34
+msgid "Source Code"
+msgstr "Початковий код"
+
+#: templates/about.html:37
+msgid "The code for the Firefox Input web application can be found <a href=\"%(source_url)s\">on GitHub</a>!"
+msgstr ""
+
 #: templates/base.html:5 templates/base_mobile.html:6
 msgid "Welcome"
 msgstr "Ласкаво просимо"
+
+#: templates/base.html:22 templates/base_mobile_old.html:19 templates/base_old.html:22
+msgid "Proceed to main content"
+msgstr "Перейти до головного вмісту"
+
+#: templates/base.html:23 templates/base_mobile_old.html:20 templates/base_old.html:23
+msgid "Proceed to footer"
+msgstr "Перейти вниз"
+
+#: templates/base.html:30
+#, fuzzy
+msgid "<strong>Firefox</strong> Input Dashboard"
+msgstr "<strong>Firefox Beta</strong> — панель відгуків"
+
+#: templates/base.html:36
+msgid "Feedback"
+msgstr "Відгуки"
+
+#: templates/base_mobile.html:20
+msgid "Dashboard"
+msgstr "Панель відгуків"
 
 #: templates/base_mobile_old.html:5 templates/base_old.html:5
 msgid "Welcome!"
 msgstr "Ласкаво просимо!"
 
-#: apps/feedback/templates/feedback/mobile/release_index.html:91
-msgid "What is the URL of the broken site?"
-msgstr "URL поламаного сайта?"
+#: templates/base_mobile_old.html:30 templates/base_old.html:35
+msgid "Input Dashboard"
+msgstr "Панель відгуків"
 
-#: apps/feedback/templates/feedback/release_index.html:125
-msgid "What is the URL of the site?"
-msgstr "URL сайта?"
+#: templates/base_mobile_old.html:56 templates/base_old.html:63 templates/includes/footer.html:8
+msgid "Privacy Policy"
+msgstr "Політика конфіденційності"
 
-#. Title for a time-based search filter
-#: apps/dashboard/templates/dashboard/when.html:2
-msgid "When"
-msgstr "Коли"
+#: templates/base_mobile_old.html:57 templates/base_old.html:64 templates/includes/footer.html:9
+msgid "Legal Notices"
+msgstr "Юридичні примітки"
 
-#. Refers to sites that were reported in feedback.
-#: apps/dashboard/templates/dashboard/sites.html:3 apps/dashboard/templates/dashboard/mobile/sites.html:2
-msgid "While Visiting"
-msgstr "Під час відвідування"
+#: templates/base_mobile_old.html:58 templates/base_old.html:65 templates/includes/footer.html:10
+msgid "Report Trademark Abuse"
+msgstr "Повідомити про порушення прав на торгову марку"
 
-#: apps/input/__init__.py:229
-msgid "Windows 7"
-msgstr "Windows 7"
-
-#: apps/input/__init__.py:236
-msgid "Windows Vista"
-msgstr "Windows Vista"
-
-#: apps/input/__init__.py:222
-msgid "Windows XP"
-msgstr "Windows XP"
-
-#: apps/feedback/validators.py:27
-msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
+#: templates/base_mobile_old.html:61 templates/base_old.html:68 templates/includes/footer.html:14
+msgid ""
+"Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
+"any later version."
 msgstr ""
-"Ваш коментар містить лайку (%s). Для того щоб допомогти нам покращити наші продукти, будь ласка, використовуйте слова котрі допомогають спланувати дію відповідно до вашого конструктивного відгуку. "
-"Дякуємо!"
+"Якщо не зазначено <a href=\"%(legal_url)s\">інакше</a>, вміст цього сайта ліцензовано під ліцензією <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike v3.0</a> чи будь-якою "
+"пізнішою версією."
 
-#: apps/feedback/templates/feedback/release_index.html:11 apps/feedback/templates/feedback/mobile/release_index.html:11
-msgid "Your feedback helps us improve Firefox."
-msgstr "Ваш відгук допоможе нам покращити Firefox."
+#: templates/csrf_error.html:5
+msgid "CSRF Protection Error"
+msgstr "Помилка захисту CSRF"
 
-#: apps/feedback/validators.py:52
-msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
-msgstr "Ваш відгук, схоже, містить URL. Будь ласка, вилучте ці та інші особисті дані з тексту, тоді спробуйте ще раз. Дякуємо!"
+#: templates/csrf_error.html:8
+msgid "There was an error verifying your CSRF token. Your request could not be processed. We apologize for the inconvenience!"
+msgstr "Під час перевірки вашого CSRF-токену сталась помилка. Ваш запит не може бути оброблений. Перепрошуємо за незручності!"
 
-#: apps/feedback/validators.py:43
-msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
-msgstr "Ваш відгук, схоже, містить адресу ел.пошти. Будь ласка, вилучте ці та інші особисті дані з тексту, тоді спробуйте ще раз. Дякуємо!"
+#: templates/csrf_error.html:15
+msgid ""
+"The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable cookies "
+"in Firefox, then try again."
+msgstr ""
+"Найвірогідніша причина цієї помилки це те, що ваш браузер налаштований <strong>не приймати куки</strong> від нас. Зверніться до <a href=\"%(cookies_url)s\">цих інструкції</a> про те, як увімкнути "
+"куки в Firefox та спробуйте ще раз."
 
-#: apps/feedback/templates/feedback/release_index.html:225 apps/feedback/templates/feedback/mobile/release_index.html:176
-msgid "Your feedback will be used to create a better experience in future releases of Firefox."
-msgstr "Ваш відгук буде використано щоб створити кращі версії Firefox у майбутньому."
+#: templates/csrf_error.html:24
+msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+msgstr "Якщо проблема не зникає, будь ласка <a href=\"%(bug_url)s\">опишіть ваду</a>, вказавши запитуваний URL."
 
-#. L10n: This means an event that happened only a few seconds ago.
-#: apps/input/helpers.py:86
-msgid "just now"
-msgstr "щойно"
+#: templates/includes/footer_feedback.html:5 templates/includes/lang_switcher.html:2
+msgid "Other languages:"
+msgstr "Інші мови:"
 
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:30
-msgid "reset my search"
-msgstr "скинути мій пошук"
+#: templates/includes/footer_feedback.html:16 templates/includes/lang_switcher.html:10
+msgid "Go"
+msgstr "Перейти"
 
-#. L10n: This indicates the second part of a date range.
-#: apps/search/forms.py:77
-msgid "to"
-msgstr "до"
+#: templates/includes/nav_buttons.html:2
+msgid "Clusters"
+msgstr "Кластери"
 
-#: apps/input/helpers.py:73
-msgid "{0} day ago"
-msgid_plural "{0} days ago"
-msgstr[0] "{0} день тому"
-msgstr[1] "{0} дні тому"
-msgstr[2] "{0} днів тому"
+#: templates/includes/ua_overlay.html:3
+msgid "User Agent"
+msgstr "User Agent"
 
-#: apps/input/helpers.py:79
-msgid "{0} hour ago"
-msgid_plural "{0} hours ago"
-msgstr[0] "{0} годину тому"
-msgstr[1] "{0} години тому"
-msgstr[2] "{0} годин тому"
+#: templates/includes/ua_overlay.html:7
+msgid "Hit Ctrl+C (Cmd+C on Mac) to copy and close."
+msgstr "Натисніть Ctrl+C (Cmd+C на Маку) щоб скопіювати та закрити."
 
-#: apps/input/helpers.py:82
-msgid "{0} minute ago"
-msgid_plural "{0} minutes ago"
-msgstr[0] "{0} хвилину тому"
-msgstr[1] "{0} хвилини тому"
-msgstr[2] "{0} хвилин тому"
+#: templates/includes/ua_overlay.html:9
+msgid "User agent copied"
+msgstr "User agent скопійовано"
 
-#: apps/search/templates/search/release.html:28
-msgid "{day}<br/>Average of {num}"
-msgstr "{day}<br/>Середнє з {num}"
+#: templates/includes/ua_overlay.html:10
+msgid "Close"
+msgstr "Закрити"
 
-#: apps/dashboard/templates/dashboard/includes/feedback_chart.html:3 apps/search/templates/search/includes/ratings_chart.html:4
-msgid "{num} opinions on {day}"
-msgstr "{num} думок на {day}"
+#: templates/includes/welcome.html:2
+msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
+msgstr "<strong>Ласкаво просимо до Firefox Input!</strong> Це основний канал мозіловського зворотнього зв’язку з користувачами. <a href=\"%(about_url)s\">Докладніше…</a>"
 
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:56
-msgid "{percentage}% issues"
-msgstr "{percentage}% проблем"
+#~ msgid "<strong>Firefox Release</strong> Input Dashboard"
+#~ msgstr "<strong>Firefox Release</strong> — панель відгуків"
 
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:54
-msgid "{percentage}% praise"
-msgstr "{percentage}% хвали"
+#~ msgid "@MozMobile"
+#~ msgstr "@MozMobile"
+
+#~ msgid "Average Ratings Over Time"
+#~ msgstr "Середні оцінки за часом"
+
+#~ msgid "Describe the problem with the site."
+#~ msgstr "Опишіть проблему з сайтом."
+
+#~ msgid "Describe the problem with the website."
+#~ msgstr "Опишіть проблему з сайтом."
+
+#~ msgid "Does a website look or behave incorrectly in Firefox for Mobile? Provide us some details about the problem and we'll try to fix it."
+#~ msgstr "Чи сайт виглядає або працює неправильно у Firefox for Mobile? Надайте нам трохи подробиць про проблему щоб ми змогли спробувати її виправити."
+
+#~ msgid "Does a website look or behave incorrectly in Firefox?"
+#~ msgstr "Чи сайт виглядає або працює неправильно у Firefox?"
+
+#~ msgid "Don't Care"
+#~ msgstr "Неважливо"
+
+#~ msgid "Enter your feedback here."
+#~ msgstr "Введіть свій відгук тут."
+
+#, fuzzy
+#~ msgid "Enter your ideas here."
+#~ msgstr "Введіть свій відгук тут."
+
+#~ msgid "Example: Images were not loading, but the rest of the page was."
+#~ msgstr "Приклад: малюнки не завантажуються, а решта сайта нормальна."
+
+#~ msgid "Excellent"
+#~ msgstr "Відмінно"
+
+#~ msgid "Experience"
+#~ msgstr "Оцінка"
+
+#~ msgid "Experience Ratings"
+#~ msgstr "Оцінки роботи"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "Fair"
+#~ msgstr "Нормально"
+
+#~ msgid "Features"
+#~ msgstr "Можливості"
+
+#~ msgid "Feedback Dashboard"
+#~ msgstr "Панель відгуків"
+
+#~ msgid "Firefox on Facebook"
+#~ msgstr "Firefox на Facebook"
+
+#~ msgid "Follow us on Twitter."
+#~ msgstr "Слідуйте за нами у Твітері."
+
+#~ msgid "For your privacy, please ensure that no personally identifiable information is included in your feedback."
+#~ msgstr "Заради вашої конфіденційності, упевніться, що в відгуку нема ніяких особистих ідентифікуючих даних."
+
+#~ msgid "Get the latest news on Firefox."
+#~ msgstr "Дізнайтесь останні новини про Firefox."
+
+#~ msgid "Good"
+#~ msgstr "Добре"
+
+#~ msgid "Have an idea how Firefox for Mobile could be better? Let us know!"
+#~ msgstr "Маєте ідею як зробити Firefox for Mobile кращим? Дайте нам знати!"
+
+#~ msgid "How frequently Firefox crashes or loses data"
+#~ msgstr "Як часто Firefox падає чи втрачає дані"
+
+#~ msgid "How long Firefox takes to start running"
+#~ msgstr "Як довго Firefox запускається"
+
+#~ msgid "How long it takes for web pages to load"
+#~ msgstr "Як довго завантажуються веб-сторінки"
+
+#~ msgid "How quickly web pages respond once they have loaded"
+#~ msgstr "Як швидко завантажені веб-сторінки відгукаються на ваші дії"
+
+#~ msgid "How well Firefox's built-in features serve your needs"
+#~ msgstr "Як добре вбудовані в Firefox можливості задовольняють ваші потреби"
+
+#~ msgid "How would you rate these aspects of Firefox for Mobile?"
+#~ msgstr "Як ви оцінюєте ці аспекти Firefox for Mobile?"
+
+#~ msgid "How would you rate these aspects of Firefox?"
+#~ msgstr "Як ви оцінюєте ці аспекти Firefox?"
+
+#~ msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
+#~ msgstr "Якщо ви хочете подивитись, куди було надіслано ваш відгук, гляньте на нашу <a href=\"%(url)s\">Панель відгуків Firefox</a>."
+
+#~ msgid "Let's be friends!"
+#~ msgstr "Давайте дружити!"
+
+#~ msgid "Loading chart data."
+#~ msgstr "Завантаження даних графіку."
+
+#~ msgid "Nightly Channel"
+#~ msgstr "Канал нічних збірок"
+
+#~ msgid "No results found"
+#~ msgstr "Результатів пошуку не знайдено."
+
+#~ msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
+#~ msgstr "О! Отже, ви хочете надати нам відгук стосовно наступної версії Firefox. Дякуємо, але вам потрібно коритуватись нашою найостаннішою бетою."
+
+#~ msgid "Page Load Time"
+#~ msgstr "Час завантаження сторінок"
+
+#~ msgid "Planet Mozilla"
+#~ msgstr "Planet Mozilla"
+
+#~ msgid "Poor"
+#~ msgstr "Погано"
+
+#~ msgid "Provide us some details about the problem and we'll try to fix it."
+#~ msgstr "Надайте нам трохи подробиць про проблему, щоб ми змогли її починити."
+
+#~ msgid "Rate Your Experience"
+#~ msgstr "Оцініти ваші враження"
+
+#~ msgid "Release Channel"
+#~ msgstr "Канал релізів"
+
+#~ msgid "Report a Site Issue"
+#~ msgstr "Повідомити про проблему з сайтом"
+
+#~ msgid "Responsiveness"
+#~ msgstr "Відгукливість"
+
+#~ msgid "See where your feedback goes."
+#~ msgstr "Дізнатись куди йдуть ваші відгуки."
+
+#~ msgid "Share an Idea"
+#~ msgstr "Поділитись ідеєю"
+
+#~ msgid "Stability"
+#~ msgstr "Стабільність"
+
+#~ msgid "Start-Up Time"
+#~ msgstr "Час запуску"
+
+#~ msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
+#~ msgstr "Щоб зробити це, просто перейдіть на нашу сторінку завантажень та встановіть <a href=\"%(url)s\">останню бету Firefox!</a>"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "Want to see where your feedback goes?"
+#~ msgstr "Хочете дізнатись куди піде ваш відгук?"
+
+#~ msgid "What is the URL of the broken site?"
+#~ msgstr "URL поламаного сайта?"
+
+#~ msgid "What is the URL of the site?"
+#~ msgstr "URL сайта?"
+
+#~ msgid "{day}<br/>Average of {num}"
+#~ msgstr "{day}<br/>Середнє з {num}"
 
 #~ msgctxt "os_choice"
 #~ msgid "-- all --"
@@ -1200,9 +1197,6 @@ msgstr "{percentage}% хвали"
 
 #~ msgid "OS:"
 #~ msgstr "ОС:"
-
-#~ msgid "Suggestion"
-#~ msgstr "Пропозиція"
 
 #~ msgid "Suggestions"
 #~ msgstr "Пропозиція"
