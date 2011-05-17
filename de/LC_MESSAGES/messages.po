@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-03-24 15:10+0200\n"
+"PO-Revision-Date: 2011-05-17 23:19+0200\n"
 "Last-Translator: Thomas <thomas.lendo@gmail.com>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.1.5\n"
+"X-Generator: Pootle 2.1.6\n"
 
 #. Formerly called "happy"
 #: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:33
@@ -223,12 +223,11 @@ msgstr "Wir haben Ihren Kommentar bereits erhalten! Danke."
 
 #: apps/feedback/forms.py:105
 msgid "Please describe what you liked."
-msgstr ""
+msgstr "Bitte beschreiben Sie, was Ihnen gefällt."
 
 #: apps/feedback/forms.py:121
-#, fuzzy
 msgid "Please describe your problem below."
-msgstr "Beschreiben Sie Ihren Vorschlag."
+msgstr "Bitte beschreiben Sie Ihr Problem."
 
 #: apps/feedback/forms.py:137
 msgid "Describe your idea below."
@@ -308,33 +307,33 @@ msgid "To do that, simply go to our download page and install/update to the <a h
 msgstr "Um daran teilzunehmen, gehen Sie einfach zu unserer Download-Seite und laden Sie die <a href=\"%(url)s\">neueste Firefox-Version</a> herunter!"
 
 #: apps/feedback/templates/feedback/feedback-form.html:6 apps/feedback/templates/feedback/index.html:21
-#, fuzzy
 msgid "Firefox Made Me Happy"
-msgstr "Firefox macht mich glücklich ..."
+msgstr "Firefox macht mich glücklich"
 
 #: apps/feedback/templates/feedback/feedback-form.html:8 apps/feedback/templates/feedback/index.html:22
-#, fuzzy
 msgid "Firefox Made Me Sad"
-msgstr "Firefox macht mich traurig ..."
+msgstr "Firefox macht mich traurig"
 
 #: apps/feedback/templates/feedback/feedback-form.html:10 apps/feedback/templates/feedback/index.html:23
 msgid "I Have an Idea for Firefox"
-msgstr ""
+msgstr "Ich habe einen Vorschlag zu Firefox"
 
 #: apps/feedback/templates/feedback/feedback-form.html:15
-#, fuzzy
 msgid "Super! It's great to hear that you like our pre-released browser."
-msgstr "Super! Wir freuen uns, dass Sie unseren neuen Browser mögen. Bitte erklären Sie, was genau Ihnen gefällt!"
+msgstr ""
+"Super! Wir freuen uns, dass Sie die Vorabversion unseres Browsers mögen."
 
 #: apps/feedback/templates/feedback/feedback-form.html:17
-#, fuzzy
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it."
-msgstr "Es tut uns leid, dass Sie keine gute Erfahrung mit unserem Browser hatten. Bitte sagen Sie uns warum, sodass wir es verbessern können!"
+msgstr ""
+"Es tut uns leid, dass Sie keine gute Erfahrung mit unserem Browser hatten. "
+"Bitte sagen Sie uns warum, sodass wir es verbessern können."
 
 #: apps/feedback/templates/feedback/feedback-form.html:19
-#, fuzzy
 msgid "Have an idea how Firefox could be better? Let us know."
-msgstr "Haben Sie einen Vorschlag, durch den Firefox verbessert werden könnte? Lassen Sie es uns wissen!"
+msgstr ""
+"Haben Sie einen Vorschlag, durch den Firefox verbessert werden könnte? "
+"Lassen Sie es uns wissen."
 
 #: apps/feedback/templates/feedback/feedback-form.html:23
 msgid "Go Back"
@@ -342,11 +341,11 @@ msgstr "Zurück"
 
 #: apps/feedback/templates/feedback/feedback-form.html:43
 msgid "Include the URL of a site that worked better."
-msgstr ""
+msgstr "Fügen Sie die URL einer Website ein, die besser funktioniert."
 
 #: apps/feedback/templates/feedback/feedback-form.html:45
 msgid "Include the URL of the site with the problem."
-msgstr ""
+msgstr "Fügen Sie die URL der Website mit dem Problem ein."
 
 #: apps/feedback/templates/feedback/feedback-form.html:56
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
@@ -357,14 +356,14 @@ msgid "Submitting Feedback"
 msgstr "Kommentar wird abgeschickt"
 
 #: apps/feedback/templates/feedback/feedback-form.html:82
-#, fuzzy
 msgid "If you have an idea to offer us instead, please use our"
-msgstr "Wenn Sie uns stattdessen einen Vorschlag mitteilen möchten, senden Sie ihn mittels unserer <a href=\"%(url_idea)s\">Vorschlags-Funktion</a>!"
+msgstr ""
+"Wenn Sie uns stattdessen einen Vorschlag mitteilen möchten, senden Sie ihn "
+"mittels unserer"
 
 #: apps/feedback/templates/feedback/feedback-form.html:83
-#, fuzzy
 msgid "suggestion box"
-msgstr "Vorschlag"
+msgstr "Vorschlags-Funktion"
 
 #: apps/feedback/templates/feedback/feedback.html:19
 msgid "Super! It's great to hear that you like our pre-released browser. Please explain what you specifically like!"
@@ -407,37 +406,32 @@ msgid "If you need help or have a problem with Firefox, please visit <a href=\"%
 msgstr "Wenn Sie Hilfe brauchen oder ein Problem mit Firefox haben, besuchen Sie die <a href=\"%(support_url)s\">Firefox-Hilfe</a>."
 
 #: apps/feedback/templates/feedback/thanks.html:6
-#, fuzzy
 msgid "Thanks"
-msgstr "Vielen Dank!"
+msgstr "Danke"
 
 #: apps/feedback/templates/feedback/thanks.html:15 apps/feedback/templates/feedback/mobile/thanks.html:3
 msgid "Thanks for Your Feedback"
 msgstr "Danke für Ihren Kommentar"
 
 #: apps/feedback/templates/feedback/thanks.html:17
-#, fuzzy
 msgid "Your feedback will be used to create a"
-msgstr "Ihr Kommentar wird verwendet, um zukünftige Versionen von Firefox für die Benutzer zu verbessern."
+msgstr "Ihr Kommentar wird verwendet, um zukünftige Versionen"
 
 #: apps/feedback/templates/feedback/thanks.html:18
-#, fuzzy
 msgid "better experience in future releases of Firefox."
-msgstr "Ihr Kommentar wird verwendet, um zukünftige Versionen von Firefox für die Benutzer zu verbessern."
+msgstr "von Firefox für die Benutzer zu verbessern."
 
 #: apps/feedback/templates/feedback/thanks.html:24
 msgid "Have more to say?"
-msgstr ""
+msgstr "Möchten Sie uns mehr sagen?"
 
 #: apps/feedback/templates/feedback/thanks.html:26
-#, fuzzy
 msgid "Feel free to <a href=\"%(fb_url)s\">submit more feedback</a>"
-msgstr "Gehen Sie zur <a href=\"%(dashboard_url)s\">Firefox-Feedback-Hauptseite</a>"
+msgstr "Zögern Sie nicht, uns <a href=\"%(fb_url)s\">mehr Feedback zu geben</a>"
 
 #: apps/feedback/templates/feedback/thanks.html:35
-#, fuzzy
 msgid "Visit the <a href=\"%(dash_url)s\">Firefox Feedback Dashboard</a>"
-msgstr "Gehen Sie zur <a href=\"%(dashboard_url)s\">Firefox-Feedback-Hauptseite</a>"
+msgstr "Gehen Sie zur <a href=\"%(dash_url)s\">Firefox-Feedback-Hauptseite</a>"
 
 #: apps/feedback/templates/feedback/thanks.html:42
 msgid "Find the latest news about Firefox."
@@ -918,9 +912,8 @@ msgid "Proceed to footer"
 msgstr "Weiter zur Fußzeile"
 
 #: templates/base.html:30
-#, fuzzy
 msgid "<strong>Firefox</strong> Input Dashboard"
-msgstr "<strong>Firefox Beta</strong> Input Dashboard"
+msgstr "<strong>Firefox</strong> Input-Hauptseite"
 
 #: templates/base.html:36
 msgid "Feedback"
@@ -936,7 +929,7 @@ msgstr "Willkommen!"
 
 #: templates/base_mobile_old.html:30 templates/base_old.html:35
 msgid "Input Dashboard"
-msgstr "Input-Übersicht"
+msgstr "Input-Hauptseite"
 
 #: templates/base_mobile_old.html:56 templates/base_old.html:63 templates/includes/footer.html:8
 msgid "Privacy Policy"
