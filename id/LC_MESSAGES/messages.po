@@ -221,16 +221,16 @@ msgstr "Bentangkan/Sembunyikan"
 msgid "We already got your feedback! Thanks."
 msgstr "Kami sudah menyimpan saran Anda! Terima kasih ya."
 
-#: apps/feedback/forms.py:105
+#: apps/feedback/forms.py:106
 msgid "Please describe what you liked."
 msgstr ""
 
-#: apps/feedback/forms.py:121
+#: apps/feedback/forms.py:123
 #, fuzzy
 msgid "Please describe your problem below."
 msgstr "Uraikan gagasan Anda di bawah ini."
 
-#: apps/feedback/forms.py:137
+#: apps/feedback/forms.py:140
 msgid "Describe your idea below."
 msgstr "Uraikan gagasan Anda di bawah ini."
 
@@ -260,14 +260,10 @@ msgstr "Nampaknya saran Anda berisi alamat URL. Mohon alamat tersebut dan data p
 msgid "User-Agent request header must be set."
 msgstr "Header permintaan User-Agent harus disetel."
 
-#: apps/feedback/views.py:91
-msgid "Invalid feedback type"
-msgstr "Jenis saran tidak valid"
-
-#: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback-form.html:70 apps/feedback/templates/feedback/feedback-form.html:74
+#: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback-form.html:71 apps/feedback/templates/feedback/feedback-form.html:75
 #: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:78 apps/feedback/templates/feedback/index.html:6
 #: apps/feedback/templates/feedback/mobile/beta_index.html:3 apps/feedback/templates/feedback/mobile/feedback.html:3 apps/feedback/templates/feedback/mobile/feedback.html:60
-#: templates/base_feedback_release_mobile.html:15
+#: apps/feedback/templates/feedback/mobile/index.html:3 templates/base_feedback_release_mobile.html:15
 msgid "Submit Feedback"
 msgstr "Kirim Saran"
 
@@ -340,28 +336,28 @@ msgstr "Punya gagasan untuk menjadikan Firefox lebih baik? Beritahu kami!"
 msgid "Go Back"
 msgstr "Kembali"
 
-#: apps/feedback/templates/feedback/feedback-form.html:43
+#: apps/feedback/templates/feedback/feedback-form.html:44
 msgid "Include the URL of a site that worked better."
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:45
+#: apps/feedback/templates/feedback/feedback-form.html:46
 msgid "Include the URL of the site with the problem."
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:56
+#: apps/feedback/templates/feedback/feedback-form.html:57
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
 msgstr "Untuk melindungi privasi Anda, pastikan tidak ada informasi yang merujuk ke data pribadi pada isian saran Anda."
 
-#: apps/feedback/templates/feedback/feedback-form.html:69
+#: apps/feedback/templates/feedback/feedback-form.html:70
 msgid "Submitting Feedback"
 msgstr "Mengirim Saran"
 
-#: apps/feedback/templates/feedback/feedback-form.html:82
+#: apps/feedback/templates/feedback/feedback-form.html:83
 #, fuzzy
 msgid "If you have an idea to offer us instead, please use our"
 msgstr "Jika Anda memiliki gagasan, kirimkan saja lewat <a href=\"%(url_idea)s\">kotak saran</a>."
 
-#: apps/feedback/templates/feedback/feedback-form.html:83
+#: apps/feedback/templates/feedback/feedback-form.html:84
 #, fuzzy
 msgid "suggestion box"
 msgstr "Saran"
@@ -467,6 +463,49 @@ msgstr "Unduh Versi Beta"
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
 msgstr "Ow! Anda ingin mengirimkan saran? Anda harus menggunakan versi Firefox Beta terbaru! Buka saja laman versi beta kami dan <a href=\"%(url)s\">unduh ke komputer Anda!</a>!"
 
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:9 apps/feedback/templates/feedback/mobile/thanks.html:16
+#, fuzzy
+msgid "Back to Feedback"
+msgstr "Saran Terbaru"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:15 apps/feedback/templates/feedback/mobile/index.html:18 apps/feedback/templates/feedback/mobile/thanks.html:22
+#, fuzzy
+msgid "Give Feedback"
+msgstr "Saran"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:25
+msgid "We're glad Firefox for Mobile made you happy! Please tell us what you liked."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:27
+#, fuzzy
+msgid "We're sorry Firefox for Mobile made you sad. Please tell us what happened so we can fix it."
+msgstr "Mohon maaf jika Anda masih belum mendapatkan pengalaman memuaskan dengan peramban kami. Mohon beri kami saran agar kami dapat memperbaikinya!"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:29
+msgid "We love ideas for Firefox for Mobile! Please descibe your idea below."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:36
+#, fuzzy
+msgid "Got an idea? <a href=\"%(url)s\">Submit it instead.</a>"
+msgstr "Kunjungi <a href=\"%(dashboard_url)s\">Dasbor Saran Firefox</a>"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:57
+#, fuzzy
+msgid "Include your last visited site?"
+msgstr "Tambahkan URL dari laman terakhir yang dikunjungi?"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:67
+#, fuzzy
+msgid "For your privacy, please don't include any personally identifiable information in your feedback."
+msgstr "Untuk melindungi privasi Anda, pastikan tidak ada informasi yang merujuk ke data pribadi pada isian saran Anda."
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:81
+#, fuzzy
+msgid "Send Feedback"
+msgstr "Saran"
+
 #: apps/feedback/templates/feedback/mobile/feedback.html:24
 msgid "Super! Please tell us more!"
 msgstr "Keren! Ceritakan lebih banyak ya!"
@@ -487,13 +526,66 @@ msgstr "Tambahkan URL dari laman terakhir yang dikunjungi?"
 msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
 msgstr "Atau kirimkan ide Anda lewat <a href=\"%(url_idea)s\">kotak saran</a> kami!"
 
-#: apps/feedback/templates/feedback/mobile/thanks.html:8
-msgid "Thanks for sending us your feedback!"
+#: apps/feedback/templates/feedback/mobile/index.html:26
+msgid "We love feedback about Firefox for Mobile! What would you like to tell us?"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/index.html:36
+#, fuzzy
+msgid "Firefox made me happy"
+msgstr "Firefox menyenangkan ..."
+
+#: apps/feedback/templates/feedback/mobile/index.html:41
+#, fuzzy
+msgid "Firefox made me sad"
+msgstr "Firefox membuatku kecewa ..."
+
+#: apps/feedback/templates/feedback/mobile/index.html:46
+msgid "I have an idea for Firefox"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/index.html:54
+#, fuzzy
+msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(url)s\">Firefox Support</a>."
+msgstr "Jika Anda membutuhkan bantuan atau mengalami masalah dengan Firefox, kunjungi <a href=\"%(support_url)s\">Firefox Support</a>."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:29
+#, fuzzy
+msgid "Thanks for sharing your feedback!"
 msgstr "Terima kasih telah mengirimkan saran Anda!"
 
-#: apps/feedback/templates/feedback/mobile/thanks.html:12
-msgid "Find out the latest news from Mozilla:"
-msgstr "Dapatkan kabar terbaru dari Mozilla:"
+#: apps/feedback/templates/feedback/mobile/thanks.html:30
+msgid "Want to know what's going on with Firefox for Mobile? We have many ways of staying in touch:"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:36
+msgid "See where your feedback goes."
+msgstr "Ingin tahu kemana saja saran Anda menuju?"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:37
+msgid "Feedback Dashboard"
+msgstr "Dasbor Saran"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:43
+msgid "Follow us on Twitter."
+msgstr "Ikuti kami di Twitter."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:50
+#, fuzzy
+msgid "Let's be friends."
+msgstr "Yuk berkenalan!"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:51
+msgid "Firefox on Facebook"
+msgstr "Firefox di Facebook"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:57
+msgid "Get the latest news on Firefox."
+msgstr "Dapatkan kabar terbaru dari Firefox."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:58
+msgid "Planet Mozilla"
+msgstr "Planet Mozilla"
 
 #: apps/input/__init__.py:47 apps/search/views.py:226 apps/themes/templates/themes/theme_list.html:10
 msgid "Idea"
@@ -919,7 +1011,7 @@ msgstr "<strong>Firefox Beta</strong> Dasbor Input"
 msgid "Feedback"
 msgstr "Saran"
 
-#: templates/base_mobile.html:20
+#: templates/base_mobile.html:21
 msgid "Dashboard"
 msgstr "Dasbor"
 
@@ -1003,6 +1095,12 @@ msgstr "Tutup"
 msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
 msgstr "<strong>Selamat datang di Firefox Input!</strong> Firefox Input adalah aplikasi untuk mengirimkan umpan balik pengguna Mozilla. <a href=\"%(about_url)s\">Pelajari lebih lanjut...</a>"
 
+#~ msgid "Invalid feedback type"
+#~ msgstr "Jenis saran tidak valid"
+
+#~ msgid "Find out the latest news from Mozilla:"
+#~ msgstr "Dapatkan kabar terbaru dari Mozilla:"
+
 #~ msgid "<strong>Firefox Release</strong> Input Dashboard"
 #~ msgstr "<strong>Firefox Rilis</strong> Dasbor Input"
 
@@ -1057,21 +1155,6 @@ msgstr "<strong>Selamat datang di Firefox Input!</strong> Firefox Input adalah a
 #~ msgid "Features"
 #~ msgstr "Fitur"
 
-#~ msgid "Feedback Dashboard"
-#~ msgstr "Dasbor Saran"
-
-#~ msgid "Firefox on Facebook"
-#~ msgstr "Firefox di Facebook"
-
-#~ msgid "Follow us on Twitter."
-#~ msgstr "Ikuti kami di Twitter."
-
-#~ msgid "For your privacy, please ensure that no personally identifiable information is included in your feedback."
-#~ msgstr "Untuk melindungi privasi Anda, pastikan tidak ada informasi yang merujuk ke data pribadi pada isian saran Anda."
-
-#~ msgid "Get the latest news on Firefox."
-#~ msgstr "Dapatkan kabar terbaru dari Firefox."
-
 #~ msgid "Good"
 #~ msgstr "Baik"
 
@@ -1102,9 +1185,6 @@ msgstr "<strong>Selamat datang di Firefox Input!</strong> Firefox Input adalah a
 #~ msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
 #~ msgstr "Jika Anda ingin melihat kemana saran Anda dikirimkan, silakan lihat <a href=\"%(url)s\">Dasbor Firefox Input</a> kami."
 
-#~ msgid "Let's be friends!"
-#~ msgstr "Yuk berkenalan!"
-
 #~ msgid "Loading chart data."
 #~ msgstr "Memuat data bagan."
 
@@ -1119,9 +1199,6 @@ msgstr "<strong>Selamat datang di Firefox Input!</strong> Firefox Input adalah a
 
 #~ msgid "Page Load Time"
 #~ msgstr "Waktu Pemuatan Laman"
-
-#~ msgid "Planet Mozilla"
-#~ msgstr "Planet Mozilla"
 
 #~ msgid "Please rate at least one item."
 #~ msgstr "Pilih salah satu untuk diperingkat."
@@ -1143,9 +1220,6 @@ msgstr "<strong>Selamat datang di Firefox Input!</strong> Firefox Input adalah a
 
 #~ msgid "Responsiveness"
 #~ msgstr "Tingkat Keresponsifan"
-
-#~ msgid "See where your feedback goes."
-#~ msgstr "Ingin tahu kemana saja saran Anda menuju?"
 
 #~ msgid "Share an Idea"
 #~ msgstr "Kirimkan Ide"

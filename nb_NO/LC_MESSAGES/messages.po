@@ -222,16 +222,16 @@ msgstr "Slå av/på"
 msgid "We already got your feedback! Thanks."
 msgstr "Vi har allerede mottatt tilbakemeldingen din! Takk."
 
-#: apps/feedback/forms.py:105
+#: apps/feedback/forms.py:106
 msgid "Please describe what you liked."
 msgstr ""
 
-#: apps/feedback/forms.py:121
+#: apps/feedback/forms.py:123
 #, fuzzy
 msgid "Please describe your problem below."
 msgstr "Beskriv ideen din under."
 
-#: apps/feedback/forms.py:137
+#: apps/feedback/forms.py:140
 msgid "Describe your idea below."
 msgstr "Beskriv ideen din under."
 
@@ -259,14 +259,10 @@ msgstr "Tilbakemeldingen din ser ut til å inneholde en URL. Fjern denne og evt.
 msgid "User-Agent request header must be set."
 msgstr "User Agent-headeren må være satt i forespørselen."
 
-#: apps/feedback/views.py:91
-msgid "Invalid feedback type"
-msgstr "Ugyldig tilbakemelding-type"
-
-#: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback-form.html:70 apps/feedback/templates/feedback/feedback-form.html:74
+#: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback-form.html:71 apps/feedback/templates/feedback/feedback-form.html:75
 #: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:78 apps/feedback/templates/feedback/index.html:6
 #: apps/feedback/templates/feedback/mobile/beta_index.html:3 apps/feedback/templates/feedback/mobile/feedback.html:3 apps/feedback/templates/feedback/mobile/feedback.html:60
-#: templates/base_feedback_release_mobile.html:15
+#: apps/feedback/templates/feedback/mobile/index.html:3 templates/base_feedback_release_mobile.html:15
 msgid "Submit Feedback"
 msgstr "Send tilbakemelding"
 
@@ -339,28 +335,28 @@ msgstr "Har du en ide om hvordan Firefox kan bli bedre? La oss høre!"
 msgid "Go Back"
 msgstr "Gå tilbake"
 
-#: apps/feedback/templates/feedback/feedback-form.html:43
+#: apps/feedback/templates/feedback/feedback-form.html:44
 msgid "Include the URL of a site that worked better."
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:45
+#: apps/feedback/templates/feedback/feedback-form.html:46
 msgid "Include the URL of the site with the problem."
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:56
+#: apps/feedback/templates/feedback/feedback-form.html:57
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
 msgstr "Sjekk at du ikke oppgir noen personlig identifiserbar informasjon i tilbakemeldingen."
 
-#: apps/feedback/templates/feedback/feedback-form.html:69
+#: apps/feedback/templates/feedback/feedback-form.html:70
 msgid "Submitting Feedback"
 msgstr "Sender tilbakemelding"
 
-#: apps/feedback/templates/feedback/feedback-form.html:82
+#: apps/feedback/templates/feedback/feedback-form.html:83
 #, fuzzy
 msgid "If you have an idea to offer us instead, please use our"
 msgstr "Dersom du har en ide du vil gi til oss, send den til oss gjennom <a href=\"%(url_idea)s\">ideboksen</a>!"
 
-#: apps/feedback/templates/feedback/feedback-form.html:83
+#: apps/feedback/templates/feedback/feedback-form.html:84
 #, fuzzy
 msgid "suggestion box"
 msgstr "Forslag"
@@ -466,6 +462,49 @@ msgstr "Last ned betaen"
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
 msgstr "Åh! Så du ønsker å gi oss tilbakemelding. Du trenger den siste betaen! Gå til beta-nettsiden og <a href=\"%(url)s\">last den ned!</a>"
 
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:9 apps/feedback/templates/feedback/mobile/thanks.html:16
+#, fuzzy
+msgid "Back to Feedback"
+msgstr "Nyeste tilbakemeldinger"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:15 apps/feedback/templates/feedback/mobile/index.html:18 apps/feedback/templates/feedback/mobile/thanks.html:22
+#, fuzzy
+msgid "Give Feedback"
+msgstr "Tilbakemelding"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:25
+msgid "We're glad Firefox for Mobile made you happy! Please tell us what you liked."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:27
+#, fuzzy
+msgid "We're sorry Firefox for Mobile made you sad. Please tell us what happened so we can fix it."
+msgstr "Vi er lei for å høre at du ikke hadde en god opplevelse med nettleseren vår. Fortell oss hvorfor, slik at vi kan rette det!"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:29
+msgid "We love ideas for Firefox for Mobile! Please descibe your idea below."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:36
+#, fuzzy
+msgid "Got an idea? <a href=\"%(url)s\">Submit it instead.</a>"
+msgstr "Besøk <a href=\"%(dashboard_url)s\">Firefox tilbakemelding-instrumentbord</a>"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:57
+#, fuzzy
+msgid "Include your last visited site?"
+msgstr "Legg til URL-en til nettsiden du besøkte sist?"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:67
+#, fuzzy
+msgid "For your privacy, please don't include any personally identifiable information in your feedback."
+msgstr "Sjekk at du ikke oppgir noen personlig identifiserbar informasjon i tilbakemeldingen."
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:81
+#, fuzzy
+msgid "Send Feedback"
+msgstr "Tilbakemelding"
+
 #: apps/feedback/templates/feedback/mobile/feedback.html:24
 msgid "Super! Please tell us more!"
 msgstr "Supert! Fortell oss mer!"
@@ -486,13 +525,66 @@ msgstr "Legg til URL-en til nettsiden du besøkte sist?"
 msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
 msgstr "Eller legg ideene dine i <a href=\"%(url_idea)s\">ideboksen</a>!"
 
-#: apps/feedback/templates/feedback/mobile/thanks.html:8
-msgid "Thanks for sending us your feedback!"
+#: apps/feedback/templates/feedback/mobile/index.html:26
+msgid "We love feedback about Firefox for Mobile! What would you like to tell us?"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/index.html:36
+#, fuzzy
+msgid "Firefox made me happy"
+msgstr "Firefox gjør meg glad ..."
+
+#: apps/feedback/templates/feedback/mobile/index.html:41
+#, fuzzy
+msgid "Firefox made me sad"
+msgstr "Firefox gjør meg trist ..."
+
+#: apps/feedback/templates/feedback/mobile/index.html:46
+msgid "I have an idea for Firefox"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/index.html:54
+#, fuzzy
+msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(url)s\">Firefox Support</a>."
+msgstr "Dersom du trenger hjelp eller har et problem med Firefox, besøk <a href=\"%(support_url)s\">Firefox Support</a>."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:29
+#, fuzzy
+msgid "Thanks for sharing your feedback!"
 msgstr "Takk for at du sender oss din tilbakemelding!"
 
-#: apps/feedback/templates/feedback/mobile/thanks.html:12
-msgid "Find out the latest news from Mozilla:"
-msgstr "Få de siste nyhetene fra Mozilla:"
+#: apps/feedback/templates/feedback/mobile/thanks.html:30
+msgid "Want to know what's going on with Firefox for Mobile? We have many ways of staying in touch:"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:36
+msgid "See where your feedback goes."
+msgstr "Se hvor tilbakemeldingen din havner."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:37
+msgid "Feedback Dashboard"
+msgstr "Instrumentbord"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:43
+msgid "Follow us on Twitter."
+msgstr "Følg oss på Twitter."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:50
+#, fuzzy
+msgid "Let's be friends."
+msgstr "La oss være venner!"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:51
+msgid "Firefox on Facebook"
+msgstr "Firefox på Facebook"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:57
+msgid "Get the latest news on Firefox."
+msgstr "Få de siste nyhetene om Firefox."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:58
+msgid "Planet Mozilla"
+msgstr "Planet Mozilla"
 
 #: apps/input/__init__.py:47 apps/search/views.py:226 apps/themes/templates/themes/theme_list.html:10
 msgid "Idea"
@@ -924,7 +1016,7 @@ msgstr "<strong>Firefox Beta</strong> Input-instrumentbord"
 msgid "Feedback"
 msgstr "Tilbakemelding"
 
-#: templates/base_mobile.html:20
+#: templates/base_mobile.html:21
 msgid "Dashboard"
 msgstr "Instrumentbord"
 
@@ -1008,6 +1100,12 @@ msgstr "Lukk"
 msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
 msgstr "<strong>Velkommen til Firefox Input!</strong> Dette er Mozillas primære tilbakemeldingsapplikasjon. <a href=\"%(about_url)s\">Les mer ...</a>"
 
+#~ msgid "Invalid feedback type"
+#~ msgstr "Ugyldig tilbakemelding-type"
+
+#~ msgid "Find out the latest news from Mozilla:"
+#~ msgstr "Få de siste nyhetene fra Mozilla:"
+
 #~ msgid "<strong>Firefox Release</strong> Input Dashboard"
 #~ msgstr "<strong>Firefox-utgivelser</strong> Input-instrumentbord"
 
@@ -1062,23 +1160,8 @@ msgstr "<strong>Velkommen til Firefox Input!</strong> Dette er Mozillas primære
 #~ msgid "Features"
 #~ msgstr "Funksjoner"
 
-#~ msgid "Feedback Dashboard"
-#~ msgstr "Instrumentbord"
-
-#~ msgid "Firefox on Facebook"
-#~ msgstr "Firefox på Facebook"
-
-#~ msgid "Follow us on Twitter."
-#~ msgstr "Følg oss på Twitter."
-
-#~ msgid "For your privacy, please ensure that no personally identifiable information is included in your feedback."
-#~ msgstr "Sjekk at du ikke oppgir noen personlig identifiserbar informasjon i tilbakemeldingen."
-
 #~ msgid "Frequent Ideas"
 #~ msgstr "Ofte foreslåtte ideer"
-
-#~ msgid "Get the latest news on Firefox."
-#~ msgstr "Få de siste nyhetene om Firefox."
 
 #~ msgid "Good"
 #~ msgstr "Bra"
@@ -1110,9 +1193,6 @@ msgstr "<strong>Velkommen til Firefox Input!</strong> Dette er Mozillas primære
 #~ msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
 #~ msgstr "Dersom du ønsker å se hvor tilbakemeldingen din ble sendt kan du se vårt <a href=\"%(url)s\">Firefox Input-instrumentbord</a>."
 
-#~ msgid "Let's be friends!"
-#~ msgstr "La oss være venner!"
-
 #~ msgid "Loading chart data."
 #~ msgstr "Laster diagramdata."
 
@@ -1127,9 +1207,6 @@ msgstr "<strong>Velkommen til Firefox Input!</strong> Dette er Mozillas primære
 
 #~ msgid "Page Load Time"
 #~ msgstr "Sidelastingstid"
-
-#~ msgid "Planet Mozilla"
-#~ msgstr "Planet Mozilla"
 
 #~ msgid "Please rate at least one item."
 #~ msgstr "Ranger minst ett element."
@@ -1151,9 +1228,6 @@ msgstr "<strong>Velkommen til Firefox Input!</strong> Dette er Mozillas primære
 
 #~ msgid "Responsiveness"
 #~ msgstr "Responsivitet"
-
-#~ msgid "See where your feedback goes."
-#~ msgstr "Se hvor tilbakemeldingen din havner."
 
 #~ msgid "Share an Idea"
 #~ msgstr "Del en ide"

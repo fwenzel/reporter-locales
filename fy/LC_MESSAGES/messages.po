@@ -222,16 +222,16 @@ msgstr "Wiksel"
 msgid "We already got your feedback! Thanks."
 msgstr "Wy hawwe jo kommentaar al! Tankewol."
 
-#: apps/feedback/forms.py:105
+#: apps/feedback/forms.py:106
 msgid "Please describe what you liked."
 msgstr ""
 
-#: apps/feedback/forms.py:121
+#: apps/feedback/forms.py:123
 #, fuzzy
 msgid "Please describe your problem below."
 msgstr "Beskriuw hjirûnder jo idee."
 
-#: apps/feedback/forms.py:137
+#: apps/feedback/forms.py:140
 msgid "Describe your idea below."
 msgstr "Beskriuw hjirûnder jo idee."
 
@@ -260,14 +260,10 @@ msgstr "Jo kommentaar liket in URL te befatten. Smyt dizze fuort fergelykbere pe
 msgid "User-Agent request header must be set."
 msgstr "De useragent-fersykheader moat ynsteld wêze."
 
-#: apps/feedback/views.py:91
-msgid "Invalid feedback type"
-msgstr "Unjildich type kommentaar"
-
-#: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback-form.html:70 apps/feedback/templates/feedback/feedback-form.html:74
+#: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback-form.html:71 apps/feedback/templates/feedback/feedback-form.html:75
 #: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:78 apps/feedback/templates/feedback/index.html:6
 #: apps/feedback/templates/feedback/mobile/beta_index.html:3 apps/feedback/templates/feedback/mobile/feedback.html:3 apps/feedback/templates/feedback/mobile/feedback.html:60
-#: templates/base_feedback_release_mobile.html:15
+#: apps/feedback/templates/feedback/mobile/index.html:3 templates/base_feedback_release_mobile.html:15
 msgid "Submit Feedback"
 msgstr "Kommentaar yntsjinje"
 
@@ -340,28 +336,28 @@ msgstr "Hawwe jo in idee oer it ferbetterjen fan Firefox? Lit it ús witte!"
 msgid "Go Back"
 msgstr "Weromgean"
 
-#: apps/feedback/templates/feedback/feedback-form.html:43
+#: apps/feedback/templates/feedback/feedback-form.html:44
 msgid "Include the URL of a site that worked better."
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:45
+#: apps/feedback/templates/feedback/feedback-form.html:46
 msgid "Include the URL of the site with the problem."
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:56
+#: apps/feedback/templates/feedback/feedback-form.html:57
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
 msgstr "Soargje derfoar om jo privacy te beskermen, dat der gjin persoanlike gegevens yn jo kommentaar opnommen binne."
 
-#: apps/feedback/templates/feedback/feedback-form.html:69
+#: apps/feedback/templates/feedback/feedback-form.html:70
 msgid "Submitting Feedback"
 msgstr "Kommentaar yntsjinne"
 
-#: apps/feedback/templates/feedback/feedback-form.html:82
+#: apps/feedback/templates/feedback/feedback-form.html:83
 #, fuzzy
 msgid "If you have an idea to offer us instead, please use our"
 msgstr "As jo ús yn stee dêrfan in idee melde wolle, stjoer it ús dan ta fia ús <a href=\"%(url_idea)s\">foarstelfjild</a>!"
 
-#: apps/feedback/templates/feedback/feedback-form.html:83
+#: apps/feedback/templates/feedback/feedback-form.html:84
 #, fuzzy
 msgid "suggestion box"
 msgstr "Foarstel"
@@ -467,6 +463,49 @@ msgstr "Bèta ynlade"
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
 msgstr "Oh! Dus jo wolle ús kommentaar jaan. Dan hawwe jo de meast resinte Bèta-ferzje nedich! Gean nei ús bèta-side en <a href=\"%(url)s\">laad dizze yn!</a>"
 
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:9 apps/feedback/templates/feedback/mobile/thanks.html:16
+#, fuzzy
+msgid "Back to Feedback"
+msgstr "Meast resinte kommentaar"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:15 apps/feedback/templates/feedback/mobile/index.html:18 apps/feedback/templates/feedback/mobile/thanks.html:22
+#, fuzzy
+msgid "Give Feedback"
+msgstr "Kommentaar"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:25
+msgid "We're glad Firefox for Mobile made you happy! Please tell us what you liked."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:27
+#, fuzzy
+msgid "We're sorry Firefox for Mobile made you sad. Please tell us what happened so we can fix it."
+msgstr "It spyt ús dat jo gjin goede ûnderfining hân hawwe mei ús browser. Fertel ús a.j.b. wêrom, sadat wy dit ferbetterje kinne!"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:29
+msgid "We love ideas for Firefox for Mobile! Please descibe your idea below."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:36
+#, fuzzy
+msgid "Got an idea? <a href=\"%(url)s\">Submit it instead.</a>"
+msgstr "Besykje it <a href=\"%(dashboard_url)s\">Firefox-kommentaardashboerd</a>"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:57
+#, fuzzy
+msgid "Include your last visited site?"
+msgstr "URL fan lêst besochte side tafoegje?"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:67
+#, fuzzy
+msgid "For your privacy, please don't include any personally identifiable information in your feedback."
+msgstr "Soargje derfoar om jo privacy te beskermen, dat der gjin persoanlike gegevens yn jo kommentaar opnommen binne."
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:81
+#, fuzzy
+msgid "Send Feedback"
+msgstr "Kommentaar"
+
 #: apps/feedback/templates/feedback/mobile/feedback.html:24
 msgid "Super! Please tell us more!"
 msgstr "Geweldich! Fertel ús a.j.b. mear!"
@@ -487,13 +526,66 @@ msgstr "URL fan lêst besochte side tafoegje?"
 msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
 msgstr "Of tsjinje jo ideeën yn fia ús <a href=\"%(url_idea)s\">ideeënfjild</a>!"
 
-#: apps/feedback/templates/feedback/mobile/thanks.html:8
-msgid "Thanks for sending us your feedback!"
+#: apps/feedback/templates/feedback/mobile/index.html:26
+msgid "We love feedback about Firefox for Mobile! What would you like to tell us?"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/index.html:36
+#, fuzzy
+msgid "Firefox made me happy"
+msgstr "Firefox makket my bliid…"
+
+#: apps/feedback/templates/feedback/mobile/index.html:41
+#, fuzzy
+msgid "Firefox made me sad"
+msgstr "Firefox makket my tryst ..."
+
+#: apps/feedback/templates/feedback/mobile/index.html:46
+msgid "I have an idea for Firefox"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/index.html:54
+#, fuzzy
+msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(url)s\">Firefox Support</a>."
+msgstr "As jo help nedich of in probleem mei Firefox hawwe, besykje dan <a href=\"%(support_url)s\">Firefox-stipe</a>."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:29
+#, fuzzy
+msgid "Thanks for sharing your feedback!"
 msgstr "Tank foar it ynstjoeren fan jo kommentaar!"
 
-#: apps/feedback/templates/feedback/mobile/thanks.html:12
-msgid "Find out the latest news from Mozilla:"
-msgstr "Lês it lêste nijs fan Mozilla:"
+#: apps/feedback/templates/feedback/mobile/thanks.html:30
+msgid "Want to know what's going on with Firefox for Mobile? We have many ways of staying in touch:"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:36
+msgid "See where your feedback goes."
+msgstr "Besjoch wêr't jo kommentaar hinne giet."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:37
+msgid "Feedback Dashboard"
+msgstr "Dashboerd"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:43
+msgid "Follow us on Twitter."
+msgstr "Folgje ús op Twitter."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:50
+#, fuzzy
+msgid "Let's be friends."
+msgstr "Litte wy freonen wurde!"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:51
+msgid "Firefox on Facebook"
+msgstr "Firefox op Facebook"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:57
+msgid "Get the latest news on Firefox."
+msgstr "Lês it lêste nijs oer Firefox."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:58
+msgid "Planet Mozilla"
+msgstr "Planet Mozilla"
 
 #: apps/input/__init__.py:47 apps/search/views.py:226 apps/themes/templates/themes/theme_list.html:10
 msgid "Idea"
@@ -925,7 +1017,7 @@ msgstr "<strong>Firefox bèta</strong> Ynput-dashboerd"
 msgid "Feedback"
 msgstr "Kommentaar"
 
-#: templates/base_mobile.html:20
+#: templates/base_mobile.html:21
 msgid "Dashboard"
 msgstr "Dashboard"
 
@@ -1009,6 +1101,12 @@ msgstr "Slute"
 msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
 msgstr "<strong>Wolkom by Firefox Input!</strong> Dit is Mozilla's primêre brûkerskommentaarapplikaasje. <a href=\"%(about_url)s\">Lês mear...</a>"
 
+#~ msgid "Invalid feedback type"
+#~ msgstr "Unjildich type kommentaar"
+
+#~ msgid "Find out the latest news from Mozilla:"
+#~ msgstr "Lês it lêste nijs fan Mozilla:"
+
 #~ msgid "<strong>Firefox Release</strong> Input Dashboard"
 #~ msgstr "<strong>Firefox Release</strong> Ynput-dashboerd"
 
@@ -1063,23 +1161,8 @@ msgstr "<strong>Wolkom by Firefox Input!</strong> Dit is Mozilla's primêre brû
 #~ msgid "Features"
 #~ msgstr "Funksjes"
 
-#~ msgid "Feedback Dashboard"
-#~ msgstr "Dashboerd"
-
-#~ msgid "Firefox on Facebook"
-#~ msgstr "Firefox op Facebook"
-
-#~ msgid "Follow us on Twitter."
-#~ msgstr "Folgje ús op Twitter."
-
-#~ msgid "For your privacy, please ensure that no personally identifiable information is included in your feedback."
-#~ msgstr "Soargje derfoar om jo privacy te beskermen, dat der gjin persoanlike gegevens yn jo kommentaar opnommen binne."
-
 #~ msgid "Frequent Ideas"
 #~ msgstr "Mannichfâldige ideeën"
-
-#~ msgid "Get the latest news on Firefox."
-#~ msgstr "Lês it lêste nijs oer Firefox."
 
 #~ msgid "Good"
 #~ msgstr "Goed"
@@ -1111,9 +1194,6 @@ msgstr "<strong>Wolkom by Firefox Input!</strong> Dit is Mozilla's primêre brû
 #~ msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
 #~ msgstr "As jo sjen wolle wêr't jo kommentaar nei ta stjoerd is, sjoch dan op ús <a href=\"%(url)s\">Firefox-ynfierdashboard</a>."
 
-#~ msgid "Let's be friends!"
-#~ msgstr "Litte wy freonen wurde!"
-
 #~ msgid "Loading chart data."
 #~ msgstr "Kaartgegevens wurde laden."
 
@@ -1128,9 +1208,6 @@ msgstr "<strong>Wolkom by Firefox Input!</strong> Dit is Mozilla's primêre brû
 
 #~ msgid "Page Load Time"
 #~ msgstr "Sidelaadtiid"
-
-#~ msgid "Planet Mozilla"
-#~ msgstr "Planet Mozilla"
 
 #~ msgid "Please rate at least one item."
 #~ msgstr "Beoardiel op syn minst ien item."
@@ -1152,9 +1229,6 @@ msgstr "<strong>Wolkom by Firefox Input!</strong> Dit is Mozilla's primêre brû
 
 #~ msgid "Responsiveness"
 #~ msgstr "Responsiviteit"
-
-#~ msgid "See where your feedback goes."
-#~ msgstr "Besjoch wêr't jo kommentaar hinne giet."
 
 #~ msgid "Share an Idea"
 #~ msgstr "Diel in idee"

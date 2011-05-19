@@ -225,16 +225,16 @@ msgstr "Scoránaigh"
 msgid "We already got your feedback! Thanks."
 msgstr "Fuaireamar do chuid aiseolais cheana!  Go raibh maith agat."
 
-#: apps/feedback/forms.py:105
+#: apps/feedback/forms.py:106
 msgid "Please describe what you liked."
 msgstr ""
 
-#: apps/feedback/forms.py:121
+#: apps/feedback/forms.py:123
 #, fuzzy
 msgid "Please describe your problem below."
 msgstr "Déan cur síos ar do smaoineamh thíos."
 
-#: apps/feedback/forms.py:137
+#: apps/feedback/forms.py:140
 msgid "Describe your idea below."
 msgstr "Déan cur síos ar do smaoineamh thíos."
 
@@ -264,14 +264,10 @@ msgstr "Dealraíonn sé go bhfuil URL i do chuid aiseolais. Bain amach é agus a
 msgid "User-Agent request header must be set."
 msgstr "Ní mór don cheanntásc User-Agent a bheith socraithe."
 
-#: apps/feedback/views.py:91
-msgid "Invalid feedback type"
-msgstr "Cineál neamhbhailí aiseolais"
-
-#: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback-form.html:70 apps/feedback/templates/feedback/feedback-form.html:74
+#: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback-form.html:71 apps/feedback/templates/feedback/feedback-form.html:75
 #: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:78 apps/feedback/templates/feedback/index.html:6
 #: apps/feedback/templates/feedback/mobile/beta_index.html:3 apps/feedback/templates/feedback/mobile/feedback.html:3 apps/feedback/templates/feedback/mobile/feedback.html:60
-#: templates/base_feedback_release_mobile.html:15
+#: apps/feedback/templates/feedback/mobile/index.html:3 templates/base_feedback_release_mobile.html:15
 msgid "Submit Feedback"
 msgstr "Seol aiseolas chugainn"
 
@@ -344,28 +340,28 @@ msgstr "An bhfuil smaointe agat faoi conas is féidir Firefox a fheabhsú?  Abai
 msgid "Go Back"
 msgstr "Ar Ais"
 
-#: apps/feedback/templates/feedback/feedback-form.html:43
+#: apps/feedback/templates/feedback/feedback-form.html:44
 msgid "Include the URL of a site that worked better."
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:45
+#: apps/feedback/templates/feedback/feedback-form.html:46
 msgid "Include the URL of the site with the problem."
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:56
+#: apps/feedback/templates/feedback/feedback-form.html:57
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
 msgstr "Le do phríobháideacht a chosaint, bí cinnte nár chuir tú aon fhaisnéis inaitheanta phearsanta i do chuid aiseolais."
 
-#: apps/feedback/templates/feedback/feedback-form.html:69
+#: apps/feedback/templates/feedback/feedback-form.html:70
 msgid "Submitting Feedback"
 msgstr "Aiseolas á sheoladh"
 
-#: apps/feedback/templates/feedback/feedback-form.html:82
+#: apps/feedback/templates/feedback/feedback-form.html:83
 #, fuzzy
 msgid "If you have an idea to offer us instead, please use our"
 msgstr "Má tá do smaoineamh féin agat, seol chugainn é trínár <a href=\"%(url_idea)s\">mbosca smaointe</a>!"
 
-#: apps/feedback/templates/feedback/feedback-form.html:83
+#: apps/feedback/templates/feedback/feedback-form.html:84
 msgid "suggestion box"
 msgstr ""
 
@@ -470,6 +466,49 @@ msgstr "Íosluchtaigh an Leagan Béite"
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
 msgstr "Má tá tú ag iarraidh aiseolas a thabhairt dúinn, caithfidh tú an leagan béite is déanaí a úsáid! Déan cuairt ar an leathanach béite agus <a href=\"%(url)s\">íosluchtaigh é!</a>"
 
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:9 apps/feedback/templates/feedback/mobile/thanks.html:16
+#, fuzzy
+msgid "Back to Feedback"
+msgstr "Aiseolas Is Déanaí"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:15 apps/feedback/templates/feedback/mobile/index.html:18 apps/feedback/templates/feedback/mobile/thanks.html:22
+#, fuzzy
+msgid "Give Feedback"
+msgstr "Aiseolas"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:25
+msgid "We're glad Firefox for Mobile made you happy! Please tell us what you liked."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:27
+#, fuzzy
+msgid "We're sorry Firefox for Mobile made you sad. Please tell us what happened so we can fix it."
+msgstr "Tá fíorbhrón orainn nach bhfuil tú sásta lenár mbrabhsálaí. Inis dúinn cén fáth nach bhfuil, agus déanfaimid ár ndícheall an fhadhb a réiteach!"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:29
+msgid "We love ideas for Firefox for Mobile! Please descibe your idea below."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:36
+#, fuzzy
+msgid "Got an idea? <a href=\"%(url)s\">Submit it instead.</a>"
+msgstr "Déan cuairt ar <a href=\"%(dashboard_url)s\">Phainéal Aiseolais Firefox</a>"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:57
+#, fuzzy
+msgid "Include your last visited site?"
+msgstr "An bhfuil fonn ort URL an leathanaigh is déanaí a chur san áireamh?"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:67
+#, fuzzy
+msgid "For your privacy, please don't include any personally identifiable information in your feedback."
+msgstr "Le do phríobháideacht a chosaint, bí cinnte nár chuir tú aon fhaisnéis inaitheanta phearsanta i do chuid aiseolais."
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:81
+#, fuzzy
+msgid "Send Feedback"
+msgstr "Aiseolas"
+
 #: apps/feedback/templates/feedback/mobile/feedback.html:24
 msgid "Super! Please tell us more!"
 msgstr "Iontach! Inis tuilleadh dúinn!"
@@ -490,13 +529,66 @@ msgstr "An bhfuil fonn ort URL an leathanaigh is déanaí a chur san áireamh?"
 msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
 msgstr "Nó tabhair do chuid smaointe dúinn trínár <a href=\"%(url_idea)s\">mbosca smaointe</a>!"
 
-#: apps/feedback/templates/feedback/mobile/thanks.html:8
-msgid "Thanks for sending us your feedback!"
+#: apps/feedback/templates/feedback/mobile/index.html:26
+msgid "We love feedback about Firefox for Mobile! What would you like to tell us?"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/index.html:36
+#, fuzzy
+msgid "Firefox made me happy"
+msgstr "Cuireann Firefox aoibhneas orm de bharr..."
+
+#: apps/feedback/templates/feedback/mobile/index.html:41
+#, fuzzy
+msgid "Firefox made me sad"
+msgstr "Cuireann Firefox brón orm de bharr..."
+
+#: apps/feedback/templates/feedback/mobile/index.html:46
+msgid "I have an idea for Firefox"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/index.html:54
+#, fuzzy
+msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(url)s\">Firefox Support</a>."
+msgstr "Má tá cabhair uait nó tá fadhb agat le Firefox, tabhair cuairt ar <a href=\"%(support_url)s\">Shuíomh Tacaíochta Firefox</a>."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:29
+#, fuzzy
+msgid "Thanks for sharing your feedback!"
 msgstr "Go raibh maith agat as an aiseolas!"
 
-#: apps/feedback/templates/feedback/mobile/thanks.html:12
-msgid "Find out the latest news from Mozilla:"
-msgstr "Faigh an nuacht is déanaí ó Mhozilla:"
+#: apps/feedback/templates/feedback/mobile/thanks.html:30
+msgid "Want to know what's going on with Firefox for Mobile? We have many ways of staying in touch:"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:36
+msgid "See where your feedback goes."
+msgstr "An áit ina n-úsáidtear do chuid aiseolais."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:37
+msgid "Feedback Dashboard"
+msgstr "Painéal an Aiseolais"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:43
+msgid "Follow us on Twitter."
+msgstr "Bí dár leanúint ar Twitter."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:50
+#, fuzzy
+msgid "Let's be friends."
+msgstr "Bí i do chara!"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:51
+msgid "Firefox on Facebook"
+msgstr "Firefox ar Facebook"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:57
+msgid "Get the latest news on Firefox."
+msgstr "Faigh an nuacht is déanaí faoi Firefox."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:58
+msgid "Planet Mozilla"
+msgstr "Planet Mozilla"
 
 #: apps/input/__init__.py:47 apps/search/views.py:226 apps/themes/templates/themes/theme_list.html:10
 msgid "Idea"
@@ -948,7 +1040,7 @@ msgstr "Painéal Aiseolais <strong>Firefox Béite</strong>"
 msgid "Feedback"
 msgstr "Aiseolas"
 
-#: templates/base_mobile.html:20
+#: templates/base_mobile.html:21
 msgid "Dashboard"
 msgstr "Painéal"
 
@@ -1032,6 +1124,12 @@ msgstr "Dún"
 msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
 msgstr "<strong>Fáilte go Suíomh Aiseolais Firefox!</strong> Seo é príomhchóras aiseolais Mhozilla. <a href=\"%(about_url)s\">Tuilleadh eolais...</a>"
 
+#~ msgid "Invalid feedback type"
+#~ msgstr "Cineál neamhbhailí aiseolais"
+
+#~ msgid "Find out the latest news from Mozilla:"
+#~ msgstr "Faigh an nuacht is déanaí ó Mhozilla:"
+
 #~ msgid "Enter your feedback here."
 #~ msgstr "Cuir do chuid aiseolais anseo."
 
@@ -1083,9 +1181,6 @@ msgstr "<strong>Fáilte go Suíomh Aiseolais Firefox!</strong> Seo é príomhch�
 #~ msgid "Facebook"
 #~ msgstr "Facebook"
 
-#~ msgid "Planet Mozilla"
-#~ msgstr "Planet Mozilla"
-
 #~ msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
 #~ msgstr "Má tá fonn ort an áit ina n-úsáidtear do chuid aiseolais a fheiceáil, déan cuairt ar <a href=\"%(url)s\">Phainéal Aiseolais Firefox</a>."
 
@@ -1101,32 +1196,11 @@ msgstr "<strong>Fáilte go Suíomh Aiseolais Firefox!</strong> Seo é príomhch�
 #~ msgid "Describe the problem with the website."
 #~ msgstr "Déan cur síos ar an bhfadhb leis an suíomh."
 
-#~ msgid "For your privacy, please ensure that no personally identifiable information is included in your feedback."
-#~ msgstr "Le do phríobháideacht a chosaint, bí cinnte nár chuir tú aon fhaisnéis inaitheanta phearsanta i do chuid aiseolais."
-
 #~ msgid "Have an idea how Firefox for Mobile could be better? Let us know!"
 #~ msgstr "An bhfuil smaointe agat faoi conas is féidir Firefox Soghluaiste a fheabhsú?  Abair leat!"
 
-#~ msgid "See where your feedback goes."
-#~ msgstr "An áit ina n-úsáidtear do chuid aiseolais."
-
-#~ msgid "Feedback Dashboard"
-#~ msgstr "Painéal an Aiseolais"
-
-#~ msgid "Follow us on Twitter."
-#~ msgstr "Bí dár leanúint ar Twitter."
-
 #~ msgid "@MozMobile"
 #~ msgstr "@MozMobile"
-
-#~ msgid "Let's be friends!"
-#~ msgstr "Bí i do chara!"
-
-#~ msgid "Firefox on Facebook"
-#~ msgstr "Firefox ar Facebook"
-
-#~ msgid "Get the latest news on Firefox."
-#~ msgstr "Faigh an nuacht is déanaí faoi Firefox."
 
 #~ msgid "Release Channel"
 #~ msgstr "Príomhchainéal"

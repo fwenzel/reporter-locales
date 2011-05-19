@@ -221,16 +221,16 @@ msgstr "토글"
 msgid "We already got your feedback! Thanks."
 msgstr "평가 의견을 주셔서 감사합니다."
 
-#: apps/feedback/forms.py:105
+#: apps/feedback/forms.py:106
 msgid "Please describe what you liked."
 msgstr ""
 
-#: apps/feedback/forms.py:121
+#: apps/feedback/forms.py:123
 #, fuzzy
 msgid "Please describe your problem below."
 msgstr "여러분의 생각을 입력해 주세요."
 
-#: apps/feedback/forms.py:137
+#: apps/feedback/forms.py:140
 msgid "Describe your idea below."
 msgstr "여러분의 생각을 입력해 주세요."
 
@@ -258,14 +258,10 @@ msgstr "의견란에 URL을 포함하고 있습니다. 만약 개인 데이터�
 msgid "User-Agent request header must be set."
 msgstr "웹브라우저 종류가 설정되어 있지 않습니다."
 
-#: apps/feedback/views.py:91
-msgid "Invalid feedback type"
-msgstr "유효하지 않은 의견 형식"
-
-#: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback-form.html:70 apps/feedback/templates/feedback/feedback-form.html:74
+#: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback-form.html:71 apps/feedback/templates/feedback/feedback-form.html:75
 #: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:78 apps/feedback/templates/feedback/index.html:6
 #: apps/feedback/templates/feedback/mobile/beta_index.html:3 apps/feedback/templates/feedback/mobile/feedback.html:3 apps/feedback/templates/feedback/mobile/feedback.html:60
-#: templates/base_feedback_release_mobile.html:15
+#: apps/feedback/templates/feedback/mobile/index.html:3 templates/base_feedback_release_mobile.html:15
 msgid "Submit Feedback"
 msgstr "의견 보내기"
 
@@ -338,28 +334,28 @@ msgstr "Firefox를 위한 좋은 아이디어가 있으면 알려 주십시오!"
 msgid "Go Back"
 msgstr "앞으로"
 
-#: apps/feedback/templates/feedback/feedback-form.html:43
+#: apps/feedback/templates/feedback/feedback-form.html:44
 msgid "Include the URL of a site that worked better."
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:45
+#: apps/feedback/templates/feedback/feedback-form.html:46
 msgid "Include the URL of the site with the problem."
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:56
+#: apps/feedback/templates/feedback/feedback-form.html:57
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
 msgstr "개인 정보 보호를 위해 본 사이트는 개인 식별 정보를 요구하지 않습니다."
 
-#: apps/feedback/templates/feedback/feedback-form.html:69
+#: apps/feedback/templates/feedback/feedback-form.html:70
 msgid "Submitting Feedback"
 msgstr "의견 보내는 중"
 
-#: apps/feedback/templates/feedback/feedback-form.html:82
+#: apps/feedback/templates/feedback/feedback-form.html:83
 #, fuzzy
 msgid "If you have an idea to offer us instead, please use our"
 msgstr "여러분에게 더 나은 아이디어가 있으면 <a href=\"%(url_idea)s\">아이디어 창구</a>로 보내 주십시오!"
 
-#: apps/feedback/templates/feedback/feedback-form.html:83
+#: apps/feedback/templates/feedback/feedback-form.html:84
 msgid "suggestion box"
 msgstr ""
 
@@ -464,6 +460,49 @@ msgstr "베타 무료 다운로드"
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
 msgstr "Firefox에 대한 의견을 제공해 주셔서 감사합니다. <a href=\"%(url)s\">다운로드</a>해서 확인해 주십시오!"
 
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:9 apps/feedback/templates/feedback/mobile/thanks.html:16
+#, fuzzy
+msgid "Back to Feedback"
+msgstr "최근 의견"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:15 apps/feedback/templates/feedback/mobile/index.html:18 apps/feedback/templates/feedback/mobile/thanks.html:22
+#, fuzzy
+msgid "Give Feedback"
+msgstr "사용자 의견"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:25
+msgid "We're glad Firefox for Mobile made you happy! Please tell us what you liked."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:27
+#, fuzzy
+msgid "We're sorry Firefox for Mobile made you sad. Please tell us what happened so we can fix it."
+msgstr "베타 버전에서 부정적인 결과를 드려서 매우 죄송합니다. 개선점을 알려 주시면 다음 버전에서 향상시키기 위해 노력하겠습니다!"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:29
+msgid "We love ideas for Firefox for Mobile! Please descibe your idea below."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:36
+#, fuzzy
+msgid "Got an idea? <a href=\"%(url)s\">Submit it instead.</a>"
+msgstr "<a href=\"%(dashboard_url)s\">Firefox 도움말</a>에서 시작하세요."
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:57
+#, fuzzy
+msgid "Include your last visited site?"
+msgstr "마지막 방문 페이지 URL을 추가하시겠습니까?"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:67
+#, fuzzy
+msgid "For your privacy, please don't include any personally identifiable information in your feedback."
+msgstr "개인 정보 보호를 위해 본 사이트는 개인 식별 정보를 요구하지 않습니다."
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:81
+#, fuzzy
+msgid "Send Feedback"
+msgstr "사용자 의견"
+
 #: apps/feedback/templates/feedback/mobile/feedback.html:24
 msgid "Super! Please tell us more!"
 msgstr "감사합니다. 더 자세히 알려주세요."
@@ -484,13 +523,66 @@ msgstr "마지막 방문 페이지 URL을 추가하시겠습니까?"
 msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
 msgstr "또는 <a href=\"%(url_idea)s\">아이디어 창구</a>를 이용하세요!"
 
-#: apps/feedback/templates/feedback/mobile/thanks.html:8
-msgid "Thanks for sending us your feedback!"
+#: apps/feedback/templates/feedback/mobile/index.html:26
+msgid "We love feedback about Firefox for Mobile! What would you like to tell us?"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/index.html:36
+#, fuzzy
+msgid "Firefox made me happy"
+msgstr "Firefox가 좋습니다 ..."
+
+#: apps/feedback/templates/feedback/mobile/index.html:41
+#, fuzzy
+msgid "Firefox made me sad"
+msgstr "Firefox가 좋지 않습니다..."
+
+#: apps/feedback/templates/feedback/mobile/index.html:46
+msgid "I have an idea for Firefox"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/index.html:54
+#, fuzzy
+msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(url)s\">Firefox Support</a>."
+msgstr "Firefox 사용에 문제가 있으시면 <a href=\"%(support_url)s\">사용자 지원</a>페이지를 참고하십시오."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:29
+#, fuzzy
+msgid "Thanks for sharing your feedback!"
 msgstr "의견을 주셔서 감사합니다!"
 
-#: apps/feedback/templates/feedback/mobile/thanks.html:12
-msgid "Find out the latest news from Mozilla:"
-msgstr "Mozilla 최근 소식 보기:"
+#: apps/feedback/templates/feedback/mobile/thanks.html:30
+msgid "Want to know what's going on with Firefox for Mobile? We have many ways of staying in touch:"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:36
+msgid "See where your feedback goes."
+msgstr "여기에 의견을 작성해 주십시오."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:37
+msgid "Feedback Dashboard"
+msgstr "사용자 평가 서비스"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:43
+msgid "Follow us on Twitter."
+msgstr "Twitter 팔로잉"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:50
+#, fuzzy
+msgid "Let's be friends."
+msgstr "친구 되기"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:51
+msgid "Firefox on Facebook"
+msgstr "Facebook 계정"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:57
+msgid "Get the latest news on Firefox."
+msgstr "Firefox 최근 소식 보기:"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:58
+msgid "Planet Mozilla"
+msgstr "Mozilla 블로그"
 
 #: apps/input/__init__.py:47 apps/search/views.py:226 apps/themes/templates/themes/theme_list.html:10
 msgid "Idea"
@@ -916,7 +1008,7 @@ msgstr "<strong>Firefox 베타</strong> Input 통계"
 msgid "Feedback"
 msgstr "사용자 의견"
 
-#: templates/base_mobile.html:20
+#: templates/base_mobile.html:21
 msgid "Dashboard"
 msgstr "사용자 평가 서비스"
 
@@ -996,6 +1088,12 @@ msgstr "닫기"
 msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
 msgstr "<strong>Firefox 사용자 평가</strong>에 오신것을 환영 합니다. Mozilla 제품에 대한 사용자 의견을 받는 곳입니다. <a href=\"%(about_url)s\">더 자세히 보기...</a>"
 
+#~ msgid "Invalid feedback type"
+#~ msgstr "유효하지 않은 의견 형식"
+
+#~ msgid "Find out the latest news from Mozilla:"
+#~ msgstr "Mozilla 최근 소식 보기:"
+
 #~ msgid "<strong>Firefox Release</strong> Input Dashboard"
 #~ msgstr "<strong>Firefox 정식버전</strong> Input 사용자 통계"
 
@@ -1050,23 +1148,8 @@ msgstr "<strong>Firefox 사용자 평가</strong>에 오신것을 환영 합니�
 #~ msgid "Features"
 #~ msgstr "주요 기능"
 
-#~ msgid "Feedback Dashboard"
-#~ msgstr "사용자 평가 서비스"
-
-#~ msgid "Firefox on Facebook"
-#~ msgstr "Facebook 계정"
-
-#~ msgid "Follow us on Twitter."
-#~ msgstr "Twitter 팔로잉"
-
-#~ msgid "For your privacy, please ensure that no personally identifiable information is included in your feedback."
-#~ msgstr "개인 정보 보호를 위해 본 사이트는 개인 식별 정보를 요구하지 않습니다."
-
 #~ msgid "Frequent Ideas"
 #~ msgstr "자주 올라오는 아이디어"
-
-#~ msgid "Get the latest news on Firefox."
-#~ msgstr "Firefox 최근 소식 보기:"
 
 #~ msgid "Good"
 #~ msgstr "좋음"
@@ -1098,9 +1181,6 @@ msgstr "<strong>Firefox 사용자 평가</strong>에 오신것을 환영 합니�
 #~ msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
 #~ msgstr "여러분이 보낸 의견을 보시고 싶으시면 <a href=\"%(url)s\">Firefox 사용자 평가 사이트</a>를 참고하십시오."
 
-#~ msgid "Let's be friends!"
-#~ msgstr "친구 되기"
-
 #~ msgid "Loading chart data."
 #~ msgstr "차트 읽는 중"
 
@@ -1115,9 +1195,6 @@ msgstr "<strong>Firefox 사용자 평가</strong>에 오신것을 환영 합니�
 
 #~ msgid "Page Load Time"
 #~ msgstr "페이지 로딩 시간"
-
-#~ msgid "Planet Mozilla"
-#~ msgstr "Mozilla 블로그"
 
 #~ msgid "Please rate at least one item."
 #~ msgstr "한 항목 이상을 평가해 주십시오."
@@ -1139,9 +1216,6 @@ msgstr "<strong>Firefox 사용자 평가</strong>에 오신것을 환영 합니�
 
 #~ msgid "Responsiveness"
 #~ msgstr "반응도"
-
-#~ msgid "See where your feedback goes."
-#~ msgstr "여기에 의견을 작성해 주십시오."
 
 #~ msgid "Share an Idea"
 #~ msgstr "아이디어 보내기"

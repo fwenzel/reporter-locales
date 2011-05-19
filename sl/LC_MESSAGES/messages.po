@@ -10,8 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.1.6\n"
 
 #. Formerly called "happy"
@@ -225,15 +224,15 @@ msgstr "Vkl/izkl"
 msgid "We already got your feedback! Thanks."
 msgstr "Vaše Povratne informacije smo že dobili! Hvala."
 
-#: apps/feedback/forms.py:105
+#: apps/feedback/forms.py:106
 msgid "Please describe what you liked."
 msgstr "Opišite prosim, kaj vam je bilo všeč."
 
-#: apps/feedback/forms.py:121
+#: apps/feedback/forms.py:123
 msgid "Please describe your problem below."
 msgstr "Opišite prosim spodaj svoj problem."
 
-#: apps/feedback/forms.py:137
+#: apps/feedback/forms.py:140
 msgid "Describe your idea below."
 msgstr "Opišite spodaj svojo idejo."
 
@@ -263,14 +262,10 @@ msgstr "Vaše povratne informacije zgleda vsebujejo URL. Odstranite ga prosim iz
 msgid "User-Agent request header must be set."
 msgstr "Glava uporabniškega agenta za zahtevo mora biti nastavljena."
 
-#: apps/feedback/views.py:91
-msgid "Invalid feedback type"
-msgstr "Neveljavna vrsta povratne informacije"
-
-#: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback-form.html:70 apps/feedback/templates/feedback/feedback-form.html:74
+#: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback-form.html:71 apps/feedback/templates/feedback/feedback-form.html:75
 #: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:78 apps/feedback/templates/feedback/index.html:6
 #: apps/feedback/templates/feedback/mobile/beta_index.html:3 apps/feedback/templates/feedback/mobile/feedback.html:3 apps/feedback/templates/feedback/mobile/feedback.html:60
-#: templates/base_feedback_release_mobile.html:15
+#: apps/feedback/templates/feedback/mobile/index.html:3 templates/base_feedback_release_mobile.html:15
 msgid "Submit Feedback"
 msgstr "Pošlji povratne informacije"
 
@@ -324,14 +319,11 @@ msgstr "Imam idejo za Firefox"
 
 #: apps/feedback/templates/feedback/feedback-form.html:15
 msgid "Super! It's great to hear that you like our pre-released browser."
-msgstr ""
-"Super! Lepo je slišati, da vam je naša predhodna inačica brskalnika všeč."
+msgstr "Super! Lepo je slišati, da vam je naša predhodna inačica brskalnika všeč."
 
 #: apps/feedback/templates/feedback/feedback-form.html:17
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it."
-msgstr ""
-"Žal nam je, da z našim brskalnikom niste imeli dobrih izkušenj. Povejte nam, "
-"za kaj je pri tem šlo, da problem lahko odpravimo."
+msgstr "Žal nam je, da z našim brskalnikom niste imeli dobrih izkušenj. Povejte nam, za kaj je pri tem šlo, da problem lahko odpravimo."
 
 #: apps/feedback/templates/feedback/feedback-form.html:19
 msgid "Have an idea how Firefox could be better? Let us know."
@@ -341,27 +333,27 @@ msgstr "Imate kako idejo, kako lahko Firefox izboljšamo? Oglasite se nam."
 msgid "Go Back"
 msgstr "Pojdi nazaj"
 
-#: apps/feedback/templates/feedback/feedback-form.html:43
+#: apps/feedback/templates/feedback/feedback-form.html:44
 msgid "Include the URL of a site that worked better."
 msgstr "Navedite URL strani, ki je bila v tem smislu boljša."
 
-#: apps/feedback/templates/feedback/feedback-form.html:45
+#: apps/feedback/templates/feedback/feedback-form.html:46
 msgid "Include the URL of the site with the problem."
 msgstr "Navedite URL spletnega mesta s problemom."
 
-#: apps/feedback/templates/feedback/feedback-form.html:56
+#: apps/feedback/templates/feedback/feedback-form.html:57
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
 msgstr "Da bi zaščitili vašo zasebnost, vas prosimo, da v svoje povratne informacije ne dodajate podatkov, ki vas lahko identificirajo."
 
-#: apps/feedback/templates/feedback/feedback-form.html:69
+#: apps/feedback/templates/feedback/feedback-form.html:70
 msgid "Submitting Feedback"
 msgstr "Pošiljanje povratnih informacij"
 
-#: apps/feedback/templates/feedback/feedback-form.html:82
+#: apps/feedback/templates/feedback/feedback-form.html:83
 msgid "If you have an idea to offer us instead, please use our"
 msgstr "Če imate namesto tega kakšno idejo, jo prosim sporočite prek našega"
 
-#: apps/feedback/templates/feedback/feedback-form.html:83
+#: apps/feedback/templates/feedback/feedback-form.html:84
 msgid "suggestion box"
 msgstr "predala za predloge"
 
@@ -431,9 +423,7 @@ msgstr "Veseli bomo <a href=\"%(fb_url)s\">dodatnih povratnih informacij</a>"
 
 #: apps/feedback/templates/feedback/thanks.html:35
 msgid "Visit the <a href=\"%(dash_url)s\">Firefox Feedback Dashboard</a>"
-msgstr ""
-"Obiščite <a href=\"%(dash_url)s\">Kontrolno tablo za povratne informacije o "
-"Firefoxu</a>"
+msgstr "Obiščite <a href=\"%(dash_url)s\">Kontrolno tablo za povratne informacije o Firefoxu</a>"
 
 #: apps/feedback/templates/feedback/thanks.html:42
 msgid "Find the latest news about Firefox."
@@ -463,6 +453,49 @@ msgstr "Prenesi Beta"
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
 msgstr "Oh! Želite nam torej nuditi povratne informacije. Potrebovali boste najnovejšo Beta! Skočite na našo beta stran in si <a href=\"%(url)s\">jo prenesite!</a>"
 
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:9 apps/feedback/templates/feedback/mobile/thanks.html:16
+#, fuzzy
+msgid "Back to Feedback"
+msgstr "Najnovejše povratne informacije"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:15 apps/feedback/templates/feedback/mobile/index.html:18 apps/feedback/templates/feedback/mobile/thanks.html:22
+#, fuzzy
+msgid "Give Feedback"
+msgstr "Povratne informacije"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:25
+msgid "We're glad Firefox for Mobile made you happy! Please tell us what you liked."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:27
+#, fuzzy
+msgid "We're sorry Firefox for Mobile made you sad. Please tell us what happened so we can fix it."
+msgstr "Žal nam je, da z našim brskalnikom niste imeli dobrih izkušenj. Povejte nam, za kaj je pri tem šlo, da problem lahko odpravimo."
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:29
+msgid "We love ideas for Firefox for Mobile! Please descibe your idea below."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:36
+#, fuzzy
+msgid "Got an idea? <a href=\"%(url)s\">Submit it instead.</a>"
+msgstr "Veseli bomo <a href=\"%(fb_url)s\">dodatnih povratnih informacij</a>"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:57
+#, fuzzy
+msgid "Include your last visited site?"
+msgstr "Naj dodam URL nazadnje obiskane strani?"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:67
+#, fuzzy
+msgid "For your privacy, please don't include any personally identifiable information in your feedback."
+msgstr "Da ne škudjete svoji zasebnosti, se prepričajte, da v sporočilu ni kakih osebnih podatkov."
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:81
+#, fuzzy
+msgid "Send Feedback"
+msgstr "Povratne informacije"
+
 #: apps/feedback/templates/feedback/mobile/feedback.html:24
 msgid "Super! Please tell us more!"
 msgstr "Super! Povejte nam prosim še kaj!"
@@ -483,13 +516,67 @@ msgstr "Naj dodam URL nazadnje obiskane strani?"
 msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
 msgstr "Ali pa pošljite svoje ideje v naš <a href=\"%(url_idea)s\">poštni predal za ideje</a>!"
 
-#: apps/feedback/templates/feedback/mobile/thanks.html:8
-msgid "Thanks for sending us your feedback!"
+#: apps/feedback/templates/feedback/mobile/index.html:26
+msgid "We love feedback about Firefox for Mobile! What would you like to tell us?"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/index.html:36
+#, fuzzy
+msgid "Firefox made me happy"
+msgstr "Firefox me je razveselil"
+
+#: apps/feedback/templates/feedback/mobile/index.html:41
+#, fuzzy
+msgid "Firefox made me sad"
+msgstr "Firefox me je razžalostil"
+
+#: apps/feedback/templates/feedback/mobile/index.html:46
+#, fuzzy
+msgid "I have an idea for Firefox"
+msgstr "Imam idejo za Firefox"
+
+#: apps/feedback/templates/feedback/mobile/index.html:54
+#, fuzzy
+msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(url)s\">Firefox Support</a>."
+msgstr "Če potrebujete pomoč ali imate težave z Firefoxom, obiščite <a href=\"%(support_url)s\">podporo za Firefox</a>."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:29
+#, fuzzy
+msgid "Thanks for sharing your feedback!"
 msgstr "Hvala, ker ste nam poslali svoje mnenje!"
 
-#: apps/feedback/templates/feedback/mobile/thanks.html:12
-msgid "Find out the latest news from Mozilla:"
-msgstr "Oglejte si najnovejše novice o Mozilli:"
+#: apps/feedback/templates/feedback/mobile/thanks.html:30
+msgid "Want to know what's going on with Firefox for Mobile? We have many ways of staying in touch:"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:36
+msgid "See where your feedback goes."
+msgstr "Oglejte si, kam gre vaše mnenje."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:37
+msgid "Feedback Dashboard"
+msgstr "Kontrolna tabla za povratne informacije "
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:43
+msgid "Follow us on Twitter."
+msgstr "Sledite nam na Twitterju."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:50
+#, fuzzy
+msgid "Let's be friends."
+msgstr "Bodimo prijatelji!"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:51
+msgid "Firefox on Facebook"
+msgstr "Firefox na Facebooku"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:57
+msgid "Get the latest news on Firefox."
+msgstr "Oglejte si najnovejše novice o Mozilli."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:58
+msgid "Planet Mozilla"
+msgstr "Planet Mozilla"
 
 #: apps/input/__init__.py:47 apps/search/views.py:226 apps/themes/templates/themes/theme_list.html:10
 msgid "Idea"
@@ -932,7 +1019,7 @@ msgstr "<strong>Firefox</strong> vhodna kontrolna tabla"
 msgid "Feedback"
 msgstr "Povratne informacije"
 
-#: templates/base_mobile.html:20
+#: templates/base_mobile.html:21
 msgid "Dashboard"
 msgstr "Kontrolna tabla"
 
@@ -1016,6 +1103,12 @@ msgstr "Zapri"
 msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
 msgstr "<strong>Dobrodošli v Firefox Input!</strong> To je glavna aplikacija Mozille za povratniške informacije uporabnikov Mozilla. <a href=\"%(about_url)s\">Več o tem...</a>"
 
+#~ msgid "Invalid feedback type"
+#~ msgstr "Neveljavna vrsta povratne informacije"
+
+#~ msgid "Find out the latest news from Mozilla:"
+#~ msgstr "Oglejte si najnovejše novice o Mozilli:"
+
 #~ msgid "<strong>Firefox Release</strong> Input Dashboard"
 #~ msgstr "<strong>Firefox - izdaja</strong> vhodna kontrolna tabla"
 
@@ -1070,21 +1163,6 @@ msgstr "<strong>Dobrodošli v Firefox Input!</strong> To je glavna aplikacija Mo
 #~ msgid "Features"
 #~ msgstr "Funkcije"
 
-#~ msgid "Feedback Dashboard"
-#~ msgstr "Kontrolna tabla za povratne informacije "
-
-#~ msgid "Firefox on Facebook"
-#~ msgstr "Firefox na Facebooku"
-
-#~ msgid "Follow us on Twitter."
-#~ msgstr "Sledite nam na Twitterju."
-
-#~ msgid "For your privacy, please ensure that no personally identifiable information is included in your feedback."
-#~ msgstr "Da ne škudjete svoji zasebnosti, se prepričajte, da v sporočilu ni kakih osebnih podatkov."
-
-#~ msgid "Get the latest news on Firefox."
-#~ msgstr "Oglejte si najnovejše novice o Mozilli."
-
 #~ msgid "Good"
 #~ msgstr "Dobro"
 
@@ -1115,9 +1193,6 @@ msgstr "<strong>Dobrodošli v Firefox Input!</strong> To je glavna aplikacija Mo
 #~ msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
 #~ msgstr "Če želite videti, kam ste svojo povratno informacijo poslali, si oglejte našo <a href=\"%(url)s\">Kontrolno tablo za Firefox Input</a>."
 
-#~ msgid "Let's be friends!"
-#~ msgstr "Bodimo prijatelji!"
-
 #~ msgid "Loading chart data."
 #~ msgstr "Nalaganje podatkov za grafikon."
 
@@ -1132,9 +1207,6 @@ msgstr "<strong>Dobrodošli v Firefox Input!</strong> To je glavna aplikacija Mo
 
 #~ msgid "Page Load Time"
 #~ msgstr "Čas nalaganja strani "
-
-#~ msgid "Planet Mozilla"
-#~ msgstr "Planet Mozilla"
 
 #~ msgid "Please rate at least one item."
 #~ msgstr "Ocenite prosim vsaj eno postavko."
@@ -1156,9 +1228,6 @@ msgstr "<strong>Dobrodošli v Firefox Input!</strong> To je glavna aplikacija Mo
 
 #~ msgid "Responsiveness"
 #~ msgstr "Odzivnost"
-
-#~ msgid "See where your feedback goes."
-#~ msgstr "Oglejte si, kam gre vaše mnenje."
 
 #~ msgid "Share an Idea"
 #~ msgstr "Delite svojo idejo z drugimi"

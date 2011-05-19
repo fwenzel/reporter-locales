@@ -224,16 +224,16 @@ msgstr "Εναλλαγή"
 msgid "We already got your feedback! Thanks."
 msgstr "Έχουμε ήδη λάβει το σχόλιο σας! Σας ευχαριστούμε."
 
-#: apps/feedback/forms.py:105
+#: apps/feedback/forms.py:106
 msgid "Please describe what you liked."
 msgstr ""
 
-#: apps/feedback/forms.py:121
+#: apps/feedback/forms.py:123
 #, fuzzy
 msgid "Please describe your problem below."
 msgstr "Περιγράψτε την ιδέα σας παρακάτω."
 
-#: apps/feedback/forms.py:137
+#: apps/feedback/forms.py:140
 msgid "Describe your idea below."
 msgstr "Περιγράψτε την ιδέα σας παρακάτω."
 
@@ -265,14 +265,10 @@ msgstr "Το σχόλιο σας περιέχει ένα URL. Σας παρακ�
 msgid "User-Agent request header must be set."
 msgstr "Θα πρέπει να έχει οριστεί η κεφαλίδα απόκρισης του User-Agent."
 
-#: apps/feedback/views.py:91
-msgid "Invalid feedback type"
-msgstr "Μη έγκυρος τύπος σχολίου"
-
-#: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback-form.html:70 apps/feedback/templates/feedback/feedback-form.html:74
+#: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback-form.html:71 apps/feedback/templates/feedback/feedback-form.html:75
 #: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:78 apps/feedback/templates/feedback/index.html:6
 #: apps/feedback/templates/feedback/mobile/beta_index.html:3 apps/feedback/templates/feedback/mobile/feedback.html:3 apps/feedback/templates/feedback/mobile/feedback.html:60
-#: templates/base_feedback_release_mobile.html:15
+#: apps/feedback/templates/feedback/mobile/index.html:3 templates/base_feedback_release_mobile.html:15
 msgid "Submit Feedback"
 msgstr "Υποβολή σχολίου"
 
@@ -345,28 +341,28 @@ msgstr "Έχετε μια ιδέα που θα έκανε τον Firefox καλ�
 msgid "Go Back"
 msgstr "Μετάβαση πίσω"
 
-#: apps/feedback/templates/feedback/feedback-form.html:43
+#: apps/feedback/templates/feedback/feedback-form.html:44
 msgid "Include the URL of a site that worked better."
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:45
+#: apps/feedback/templates/feedback/feedback-form.html:46
 msgid "Include the URL of the site with the problem."
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:56
+#: apps/feedback/templates/feedback/feedback-form.html:57
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
 msgstr "Για την προστασία του ιδιωτικού σας απορρήτου, παρακαλούμε βεβαιωθείτε ότι δεν συμπεριλαμβάνετε πληροφορίες ταυτοποίησης στα σχόλια σας."
 
-#: apps/feedback/templates/feedback/feedback-form.html:69
+#: apps/feedback/templates/feedback/feedback-form.html:70
 msgid "Submitting Feedback"
 msgstr "Υποβολή σχολίου"
 
-#: apps/feedback/templates/feedback/feedback-form.html:82
+#: apps/feedback/templates/feedback/feedback-form.html:83
 #, fuzzy
 msgid "If you have an idea to offer us instead, please use our"
 msgstr "Αν θέλετε να μας προτείνετε μια καλύτερη ιδέα, σας παρακαλούμε να την υποβάλετε μέσω του <a href=\"%(url_idea)s\">πλαισίου προτάσεων</a>!"
 
-#: apps/feedback/templates/feedback/feedback-form.html:83
+#: apps/feedback/templates/feedback/feedback-form.html:84
 #, fuzzy
 msgid "suggestion box"
 msgstr "Πρόταση"
@@ -474,6 +470,49 @@ msgstr ""
 "Θέλετε λοιπόν να μας προσφέρετε τα σχόλια σας, θαυμάσια! Θα χρειαστείτε όμως την πιο πρόσφατη δοκιμαστική έκδοση. Απλά <a href=\"%(url)s\">κάντε λήψη</a> από τη σελίδα των δοκιμαστικών μας "
 "εκδόσεων. "
 
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:9 apps/feedback/templates/feedback/mobile/thanks.html:16
+#, fuzzy
+msgid "Back to Feedback"
+msgstr "Τελευταια σχολια"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:15 apps/feedback/templates/feedback/mobile/index.html:18 apps/feedback/templates/feedback/mobile/thanks.html:22
+#, fuzzy
+msgid "Give Feedback"
+msgstr "Σχόλιο"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:25
+msgid "We're glad Firefox for Mobile made you happy! Please tell us what you liked."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:27
+#, fuzzy
+msgid "We're sorry Firefox for Mobile made you sad. Please tell us what happened so we can fix it."
+msgstr "Λυπούμαστε που δεν ήταν καλή η εμπειρία σας με τον περιηγητή μας. Σας παρακαλούμε να μας πείτε γιατί, για να τον βελτιώσουμε!"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:29
+msgid "We love ideas for Firefox for Mobile! Please descibe your idea below."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:36
+#, fuzzy
+msgid "Got an idea? <a href=\"%(url)s\">Submit it instead.</a>"
+msgstr "Επισκεφθείτε το <a href=\"%(dashboard_url)s\">ταμπλό υποβολής σχολίων για τον Firefox</a>"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:57
+#, fuzzy
+msgid "Include your last visited site?"
+msgstr "Να προστεθεί το URL της τελευταίας σελίδας που επισκεφθείκατε;"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:67
+#, fuzzy
+msgid "For your privacy, please don't include any personally identifiable information in your feedback."
+msgstr "Για την προστασία του ιδιωτικού σας απορρήτου, παρακαλούμε βεβαιωθείτε ότι δεν συμπεριλαμβάνετε πληροφορίες ταυτοποίησης στα σχόλια σας."
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:81
+#, fuzzy
+msgid "Send Feedback"
+msgstr "Σχόλιο"
+
 #: apps/feedback/templates/feedback/mobile/feedback.html:24
 msgid "Super! Please tell us more!"
 msgstr "Θαυμάσια! Σας παρακαλούμε να μας πείτε λεπτομέρειες!"
@@ -494,13 +533,66 @@ msgstr "Να προστεθεί το URL της τελευταίας σελίδ�
 msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
 msgstr "Ή υποβάλετε τις προτάσεις σας μέσω του <a href=\"%(url_idea)s\">πλαισίου προτάσεων</a> μας!"
 
-#: apps/feedback/templates/feedback/mobile/thanks.html:8
-msgid "Thanks for sending us your feedback!"
+#: apps/feedback/templates/feedback/mobile/index.html:26
+msgid "We love feedback about Firefox for Mobile! What would you like to tell us?"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/index.html:36
+#, fuzzy
+msgid "Firefox made me happy"
+msgstr "Ο  Firefox με ευχαριστεί..."
+
+#: apps/feedback/templates/feedback/mobile/index.html:41
+#, fuzzy
+msgid "Firefox made me sad"
+msgstr "Ο Firefox με δυσαρεστεί..."
+
+#: apps/feedback/templates/feedback/mobile/index.html:46
+msgid "I have an idea for Firefox"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/index.html:54
+#, fuzzy
+msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(url)s\">Firefox Support</a>."
+msgstr "Αν χρειάζεστε βοήθεια ή έχετε κάποιο πρόβλημα με τον Firefox, επισκεφθείτε τις σελίδες <a href=\"%(support_url)s\">υποστήριξης του Firefox</a>."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:29
+#, fuzzy
+msgid "Thanks for sharing your feedback!"
 msgstr "Σας ευχαριστούμε που μας στείλατε τα σχόλια σας!"
 
-#: apps/feedback/templates/feedback/mobile/thanks.html:12
-msgid "Find out the latest news from Mozilla:"
-msgstr "Δείτε τα πιο πρόσφατα νέα του Mozilla:"
+#: apps/feedback/templates/feedback/mobile/thanks.html:30
+msgid "Want to know what's going on with Firefox for Mobile? We have many ways of staying in touch:"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:36
+msgid "See where your feedback goes."
+msgstr "Δείτε που καταχωρούνται τα σχόλια σας."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:37
+msgid "Feedback Dashboard"
+msgstr "Ταμπλό σχολίων"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:43
+msgid "Follow us on Twitter."
+msgstr "Ακολουθήστε μας στο Twitter."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:50
+#, fuzzy
+msgid "Let's be friends."
+msgstr "Ελάτε να γίνουμε φίλοι!"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:51
+msgid "Firefox on Facebook"
+msgstr "Ο Firefox στο Facebook"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:57
+msgid "Get the latest news on Firefox."
+msgstr "Δείτε τα νέα του Firefox."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:58
+msgid "Planet Mozilla"
+msgstr "Planet Mozilla"
 
 #: apps/input/__init__.py:47 apps/search/views.py:226 apps/themes/templates/themes/theme_list.html:10
 msgid "Idea"
@@ -938,7 +1030,7 @@ msgstr "<strong>Δοκιμαστικές εκδόσεις Firefox</strong> - Τ�
 msgid "Feedback"
 msgstr "Σχόλιο"
 
-#: templates/base_mobile.html:20
+#: templates/base_mobile.html:21
 msgid "Dashboard"
 msgstr "Ταμπλό"
 
@@ -1022,6 +1114,12 @@ msgstr "Κλείσιμο"
 msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
 msgstr "<strong>Καλώς ορίσατε στο Firefox Input!</strong> Αυτή  είναι η πρωτεύουσα εφαρμογή υποβολής σχολίων χρηστών του Mozilla. <a href=\"%(about_url)s\">Μάθετε περισσότερα...</a>"
 
+#~ msgid "Invalid feedback type"
+#~ msgstr "Μη έγκυρος τύπος σχολίου"
+
+#~ msgid "Find out the latest news from Mozilla:"
+#~ msgstr "Δείτε τα πιο πρόσφατα νέα του Mozilla:"
+
 #~ msgid "<strong>Firefox Release</strong> Input Dashboard"
 #~ msgstr "<strong>Κανονικές εκδόσεις Firefox</strong> - Ταμπλό σχολίων"
 
@@ -1078,23 +1176,8 @@ msgstr "<strong>Καλώς ορίσατε στο Firefox Input!</strong> Αυτ�
 #~ msgid "Features"
 #~ msgstr "Χαρακτηριστικά"
 
-#~ msgid "Feedback Dashboard"
-#~ msgstr "Ταμπλό σχολίων"
-
-#~ msgid "Firefox on Facebook"
-#~ msgstr "Ο Firefox στο Facebook"
-
-#~ msgid "Follow us on Twitter."
-#~ msgstr "Ακολουθήστε μας στο Twitter."
-
-#~ msgid "For your privacy, please ensure that no personally identifiable information is included in your feedback."
-#~ msgstr "Για την προστασία του ιδιωτικού σας απορρήτου, παρακαλούμε βεβαιωθείτε ότι δεν συμπεριλαμβάνετε πληροφορίες ταυτοποίησης στα σχόλια σας."
-
 #~ msgid "Frequent Ideas"
 #~ msgstr "Συχνά εμφανιζόμενες ιδέες"
-
-#~ msgid "Get the latest news on Firefox."
-#~ msgstr "Δείτε τα νέα του Firefox."
 
 #~ msgid "Good"
 #~ msgstr "Καλός"
@@ -1126,9 +1209,6 @@ msgstr "<strong>Καλώς ορίσατε στο Firefox Input!</strong> Αυτ�
 #~ msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
 #~ msgstr "Αν θέλετε να δείτε που απεστάλησαν τα σχόλια σας, δείτε το <a href=\"%(url)s\">ταμπλό εισαγωγής σχολίων για τον Firefox</a>."
 
-#~ msgid "Let's be friends!"
-#~ msgstr "Ελάτε να γίνουμε φίλοι!"
-
 #~ msgid "Loading chart data."
 #~ msgstr "Γίνεται φόρτωση δεδομένων γραφήματος."
 
@@ -1144,9 +1224,6 @@ msgstr "<strong>Καλώς ορίσατε στο Firefox Input!</strong> Αυτ�
 
 #~ msgid "Page Load Time"
 #~ msgstr "Χρόνος φόρτωσης σελίδας"
-
-#~ msgid "Planet Mozilla"
-#~ msgstr "Planet Mozilla"
 
 #~ msgid "Please rate at least one item."
 #~ msgstr "Παρακαλούμε βαθμολογήστε τουλάχιστον ένα στοιχείο"
@@ -1168,9 +1245,6 @@ msgstr "<strong>Καλώς ορίσατε στο Firefox Input!</strong> Αυτ�
 
 #~ msgid "Responsiveness"
 #~ msgstr "Ικανότητα απόκρισης"
-
-#~ msgid "See where your feedback goes."
-#~ msgstr "Δείτε που καταχωρούνται τα σχόλια σας."
 
 #~ msgid "Share an Idea"
 #~ msgstr "Μοιραστείτε μια ιδέα"

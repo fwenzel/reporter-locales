@@ -230,15 +230,15 @@ msgstr "بدّل"
 msgid "We already got your feedback! Thanks."
 msgstr "وصلنا تعليقك! شكرًا لك."
 
-#: apps/feedback/forms.py:105
+#: apps/feedback/forms.py:106
 msgid "Please describe what you liked."
 msgstr ""
 
-#: apps/feedback/forms.py:121
+#: apps/feedback/forms.py:123
 msgid "Please describe your problem below."
 msgstr ""
 
-#: apps/feedback/forms.py:137
+#: apps/feedback/forms.py:140
 msgid "Describe your idea below."
 msgstr ""
 
@@ -266,15 +266,10 @@ msgstr "يبدو أن تعليقك يحتوي على وصلة موقع. أزله
 msgid "User-Agent request header must be set."
 msgstr "يجب أن تكون ترويسة طلب عميل المستخدم مضبوطة."
 
-#: apps/feedback/views.py:91
-#, fuzzy
-msgid "Invalid feedback type"
-msgstr "كل التعليق"
-
-#: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback-form.html:70 apps/feedback/templates/feedback/feedback-form.html:74
+#: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback-form.html:71 apps/feedback/templates/feedback/feedback-form.html:75
 #: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:78 apps/feedback/templates/feedback/index.html:6
 #: apps/feedback/templates/feedback/mobile/beta_index.html:3 apps/feedback/templates/feedback/mobile/feedback.html:3 apps/feedback/templates/feedback/mobile/feedback.html:60
-#: templates/base_feedback_release_mobile.html:15
+#: apps/feedback/templates/feedback/mobile/index.html:3 templates/base_feedback_release_mobile.html:15
 msgid "Submit Feedback"
 msgstr "أرسِل التعليق"
 
@@ -349,29 +344,29 @@ msgstr ""
 msgid "Go Back"
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:43
+#: apps/feedback/templates/feedback/feedback-form.html:44
 msgid "Include the URL of a site that worked better."
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:45
+#: apps/feedback/templates/feedback/feedback-form.html:46
 msgid "Include the URL of the site with the problem."
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:56
+#: apps/feedback/templates/feedback/feedback-form.html:57
 #, fuzzy
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
 msgstr "تحقق رجاءً من عدم وجود معلومات شخصية هنا."
 
-#: apps/feedback/templates/feedback/feedback-form.html:69
+#: apps/feedback/templates/feedback/feedback-form.html:70
 #, fuzzy
 msgid "Submitting Feedback"
 msgstr "أرسِل التعليق"
 
-#: apps/feedback/templates/feedback/feedback-form.html:82
+#: apps/feedback/templates/feedback/feedback-form.html:83
 msgid "If you have an idea to offer us instead, please use our"
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:83
+#: apps/feedback/templates/feedback/feedback-form.html:84
 msgid "suggestion box"
 msgstr ""
 
@@ -477,6 +472,49 @@ msgstr "نزّل بيتا"
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
 msgstr "حسنًا إذًا! تريدنا إخبارنا بتعليقاتك. ستحتاج إلى تنزيل آخر بيتا. اذهب إلى صفحة البيتا <a href=\"%(url)s\">ونزلها!</a>"
 
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:9 apps/feedback/templates/feedback/mobile/thanks.html:16
+#, fuzzy
+msgid "Back to Feedback"
+msgstr "أحدث تعليق"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:15 apps/feedback/templates/feedback/mobile/index.html:18 apps/feedback/templates/feedback/mobile/thanks.html:22
+#, fuzzy
+msgid "Give Feedback"
+msgstr "التعليق"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:25
+msgid "We're glad Firefox for Mobile made you happy! Please tell us what you liked."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:27
+#, fuzzy
+msgid "We're sorry Firefox for Mobile made you sad. Please tell us what happened so we can fix it."
+msgstr "نعتذر لأن تجربتك مع متصفحنا لم تكن جيدة. أخبرنا بالسبب رجاءً لكي نستطيع تحسينه!"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:29
+msgid "We love ideas for Firefox for Mobile! Please descibe your idea below."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:36
+#, fuzzy
+msgid "Got an idea? <a href=\"%(url)s\">Submit it instead.</a>"
+msgstr "يُرجى أن تبدأ من جديد في <a href=\"%(dashboard_url)s\">لوحة التحكم</a>."
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:57
+#, fuzzy
+msgid "Include your last visited site?"
+msgstr "تريد إضافة عنوان آخر صفحة زرتها؟"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:67
+#, fuzzy
+msgid "For your privacy, please don't include any personally identifiable information in your feedback."
+msgstr "تحقق رجاءً من عدم وجود معلومات شخصية هنا."
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:81
+#, fuzzy
+msgid "Send Feedback"
+msgstr "التعليق"
+
 #: apps/feedback/templates/feedback/mobile/feedback.html:24
 msgid "Super! Please tell us more!"
 msgstr "رائع! أخبرنا بالمزيد رجاءً!"
@@ -497,13 +535,69 @@ msgstr "تريد إضافة عنوان آخر صفحة زرتها؟"
 msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
 msgstr ""
 
-#: apps/feedback/templates/feedback/mobile/thanks.html:8
-msgid "Thanks for sending us your feedback!"
+#: apps/feedback/templates/feedback/mobile/index.html:26
+msgid "We love feedback about Firefox for Mobile! What would you like to tell us?"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/index.html:36
+#, fuzzy
+msgid "Firefox made me happy"
+msgstr "فَيَرفُكس أسعدني..."
+
+#: apps/feedback/templates/feedback/mobile/index.html:41
+#, fuzzy
+msgid "Firefox made me sad"
+msgstr "فَيَرفُكس أحزنني..."
+
+#: apps/feedback/templates/feedback/mobile/index.html:46
+msgid "I have an idea for Firefox"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/index.html:54
+#, fuzzy
+msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(url)s\">Firefox Support</a>."
+msgstr "إن أردت المساعدة أو واجهت مشكلة في فَيَرفُكس، زُر <a href=\"%(support_url)s\">صفحة الدعم</a>."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:29
+#, fuzzy
+msgid "Thanks for sharing your feedback!"
 msgstr "شكرًا على إرسال تعليقك إلينا!"
 
-#: apps/feedback/templates/feedback/mobile/thanks.html:12
-msgid "Find out the latest news from Mozilla:"
+#: apps/feedback/templates/feedback/mobile/thanks.html:30
+msgid "Want to know what's going on with Firefox for Mobile? We have many ways of staying in touch:"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:36
+#, fuzzy
+msgid "See where your feedback goes."
+msgstr "أدخِل تعليقك هنا."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:37
+#, fuzzy
+msgid "Feedback Dashboard"
+msgstr "لوحة التحكم"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:43
+msgid "Follow us on Twitter."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:50
+msgid "Let's be friends."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:51
+#, fuzzy
+msgid "Firefox on Facebook"
+msgstr "شعار فَيَرفُكس"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:57
+#, fuzzy
+msgid "Get the latest news on Firefox."
 msgstr "استكشف آخر الأخبار عن موزيلا:"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:58
+msgid "Planet Mozilla"
+msgstr ""
 
 #: apps/input/__init__.py:47 apps/search/views.py:226 apps/themes/templates/themes/theme_list.html:10
 msgid "Idea"
@@ -961,7 +1055,7 @@ msgstr ""
 msgid "Feedback"
 msgstr "التعليق"
 
-#: templates/base_mobile.html:20
+#: templates/base_mobile.html:21
 msgid "Dashboard"
 msgstr "لوحة التحكم"
 
@@ -1044,6 +1138,13 @@ msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user
 msgstr ""
 
 #, fuzzy
+#~ msgid "Invalid feedback type"
+#~ msgstr "كل التعليق"
+
+#~ msgid "Find out the latest news from Mozilla:"
+#~ msgstr "استكشف آخر الأخبار عن موزيلا:"
+
+#, fuzzy
 #~ msgid "@MozMobile"
 #~ msgstr "الجوّال"
 
@@ -1053,22 +1154,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Enter your ideas here."
 #~ msgstr "أدخِل تعليقك هنا."
-
-#, fuzzy
-#~ msgid "Feedback Dashboard"
-#~ msgstr "لوحة التحكم"
-
-#, fuzzy
-#~ msgid "Firefox on Facebook"
-#~ msgstr "شعار فَيَرفُكس"
-
-#, fuzzy
-#~ msgid "For your privacy, please ensure that no personally identifiable information is included in your feedback."
-#~ msgstr "تحقق رجاءً من عدم وجود معلومات شخصية هنا."
-
-#, fuzzy
-#~ msgid "Get the latest news on Firefox."
-#~ msgstr "استكشف آخر الأخبار عن موزيلا:"
 
 #~ msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
 #~ msgstr "إن كنت تريد أن تعرف إلى أين ذهب تعليقك، ألقِ نظرة على <a href=\"%(url)s\">لوحة تحكم تعليقات فَيَرفُكس</a>."
@@ -1083,10 +1168,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Report a Site Issue"
 #~ msgstr "بلّغ عن إساءة استخدام للعلامات التجارية"
-
-#, fuzzy
-#~ msgid "See where your feedback goes."
-#~ msgstr "أدخِل تعليقك هنا."
 
 #~ msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
 #~ msgstr "لفعل ذلك، اذهب ببساطة إلى صفحة التنزيل ونزّل <a href=\"%(url)s\">آخر فَيَرفُكس بيتا!</a>"

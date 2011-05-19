@@ -223,15 +223,15 @@ msgstr "Alternare"
 msgid "We already got your feedback! Thanks."
 msgstr "Am primit deja părerea dumneavoastră! Vă mulțumim."
 
-#: apps/feedback/forms.py:105
+#: apps/feedback/forms.py:106
 msgid "Please describe what you liked."
 msgstr ""
 
-#: apps/feedback/forms.py:121
+#: apps/feedback/forms.py:123
 msgid "Please describe your problem below."
 msgstr ""
 
-#: apps/feedback/forms.py:137
+#: apps/feedback/forms.py:140
 msgid "Describe your idea below."
 msgstr ""
 
@@ -261,15 +261,10 @@ msgstr "Comentariul dumneavoastră pare să conțină o adresă. Vă rugăm să 
 msgid "User-Agent request header must be set."
 msgstr ""
 
-#: apps/feedback/views.py:91
-#, fuzzy
-msgid "Invalid feedback type"
-msgstr "Toate reacțiile"
-
-#: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback-form.html:70 apps/feedback/templates/feedback/feedback-form.html:74
+#: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback-form.html:71 apps/feedback/templates/feedback/feedback-form.html:75
 #: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:78 apps/feedback/templates/feedback/index.html:6
 #: apps/feedback/templates/feedback/mobile/beta_index.html:3 apps/feedback/templates/feedback/mobile/feedback.html:3 apps/feedback/templates/feedback/mobile/feedback.html:60
-#: templates/base_feedback_release_mobile.html:15
+#: apps/feedback/templates/feedback/mobile/index.html:3 templates/base_feedback_release_mobile.html:15
 msgid "Submit Feedback"
 msgstr "Trimite părerea ta"
 
@@ -345,28 +340,28 @@ msgstr ""
 msgid "Go Back"
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:43
+#: apps/feedback/templates/feedback/feedback-form.html:44
 msgid "Include the URL of a site that worked better."
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:45
+#: apps/feedback/templates/feedback/feedback-form.html:46
 msgid "Include the URL of the site with the problem."
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:56
+#: apps/feedback/templates/feedback/feedback-form.html:57
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:69
+#: apps/feedback/templates/feedback/feedback-form.html:70
 #, fuzzy
 msgid "Submitting Feedback"
 msgstr "Trimite părerea ta"
 
-#: apps/feedback/templates/feedback/feedback-form.html:82
+#: apps/feedback/templates/feedback/feedback-form.html:83
 msgid "If you have an idea to offer us instead, please use our"
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:83
+#: apps/feedback/templates/feedback/feedback-form.html:84
 msgid "suggestion box"
 msgstr ""
 
@@ -473,6 +468,48 @@ msgstr "Descarcă versiunea Beta"
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
 msgstr "Oh! Deci vreți să ne spuneți ceva despre Firefox Beta. Vă trebuie întâi ultima versiune beta! Mergeți la pagina noastră beta și <a href=\"%(url)s\">descărcați-o!</a>"
 
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:9 apps/feedback/templates/feedback/mobile/thanks.html:16
+#, fuzzy
+msgid "Back to Feedback"
+msgstr "Cele mai noi reacții"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:15 apps/feedback/templates/feedback/mobile/index.html:18 apps/feedback/templates/feedback/mobile/thanks.html:22
+#, fuzzy
+msgid "Give Feedback"
+msgstr "Reacţii"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:25
+msgid "We're glad Firefox for Mobile made you happy! Please tell us what you liked."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:27
+#, fuzzy
+msgid "We're sorry Firefox for Mobile made you sad. Please tell us what happened so we can fix it."
+msgstr "Ne pare rău că nu ați avut o experiență plăcută cu programul nostru de navigare. Vă rugăm să ne spuneți de ce, ca să putem rezolva problema!"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:29
+msgid "We love ideas for Firefox for Mobile! Please descibe your idea below."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:36
+#, fuzzy
+msgid "Got an idea? <a href=\"%(url)s\">Submit it instead.</a>"
+msgstr "Vă rugăm să reveniți la <a href=\"%(dashboard_url)s\">tabloul de bord</a>."
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:57
+#, fuzzy
+msgid "Include your last visited site?"
+msgstr "Adăugați adresa ultimului sait vizitat?"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:67
+msgid "For your privacy, please don't include any personally identifiable information in your feedback."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:81
+#, fuzzy
+msgid "Send Feedback"
+msgstr "Reacţii"
+
 #: apps/feedback/templates/feedback/mobile/feedback.html:24
 msgid "Super! Please tell us more!"
 msgstr "Super! Vă rugăm să ne spuneți mai mult!"
@@ -494,13 +531,69 @@ msgstr "Adăugați adresa ultimului sait vizitat?"
 msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
 msgstr ""
 
-#: apps/feedback/templates/feedback/mobile/thanks.html:8
-msgid "Thanks for sending us your feedback!"
+#: apps/feedback/templates/feedback/mobile/index.html:26
+msgid "We love feedback about Firefox for Mobile! What would you like to tell us?"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/index.html:36
+#, fuzzy
+msgid "Firefox made me happy"
+msgstr "Firefox mă face fericit ..."
+
+#: apps/feedback/templates/feedback/mobile/index.html:41
+#, fuzzy
+msgid "Firefox made me sad"
+msgstr "Firefox mă întristează ..."
+
+#: apps/feedback/templates/feedback/mobile/index.html:46
+msgid "I have an idea for Firefox"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/index.html:54
+#, fuzzy
+msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(url)s\">Firefox Support</a>."
+msgstr "Dacă aveți nevoie de ajutor sau aveți o problemă cu Firefox, vă rugăm vizitați <a href=\"%(support_url)s\">pagina noastră de suport</a>."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:29
+#, fuzzy
+msgid "Thanks for sharing your feedback!"
 msgstr "Vă mulțumim pentru că ne-ați împărtășit părerea dumneavoastră!"
 
-#: apps/feedback/templates/feedback/mobile/thanks.html:12
-msgid "Find out the latest news from Mozilla:"
+#: apps/feedback/templates/feedback/mobile/thanks.html:30
+msgid "Want to know what's going on with Firefox for Mobile? We have many ways of staying in touch:"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:36
+#, fuzzy
+msgid "See where your feedback goes."
+msgstr "Scrieți reacția dumneavoastră aici."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:37
+#, fuzzy
+msgid "Feedback Dashboard"
+msgstr "Tablou de bord"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:43
+msgid "Follow us on Twitter."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:50
+msgid "Let's be friends."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:51
+#, fuzzy
+msgid "Firefox on Facebook"
+msgstr "Sigla Firefox"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:57
+#, fuzzy
+msgid "Get the latest news on Firefox."
 msgstr "Află ultimele noutăți de la Mozilla:"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:58
+msgid "Planet Mozilla"
+msgstr ""
 
 #: apps/input/__init__.py:47 apps/search/views.py:226 apps/themes/templates/themes/theme_list.html:10
 msgid "Idea"
@@ -943,7 +1036,7 @@ msgstr ""
 msgid "Feedback"
 msgstr "Reacţii"
 
-#: templates/base_mobile.html:20
+#: templates/base_mobile.html:21
 msgid "Dashboard"
 msgstr "Tablou de bord"
 
@@ -1025,6 +1118,13 @@ msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user
 msgstr ""
 
 #, fuzzy
+#~ msgid "Invalid feedback type"
+#~ msgstr "Toate reacțiile"
+
+#~ msgid "Find out the latest news from Mozilla:"
+#~ msgstr "Află ultimele noutăți de la Mozilla:"
+
+#, fuzzy
 #~ msgid "@MozMobile"
 #~ msgstr "Mobil"
 
@@ -1035,18 +1135,6 @@ msgstr ""
 #~ msgid "Enter your ideas here."
 #~ msgstr "Scrieți reacția dumneavoastră aici."
 
-#, fuzzy
-#~ msgid "Feedback Dashboard"
-#~ msgstr "Tablou de bord"
-
-#, fuzzy
-#~ msgid "Firefox on Facebook"
-#~ msgstr "Sigla Firefox"
-
-#, fuzzy
-#~ msgid "Get the latest news on Firefox."
-#~ msgstr "Află ultimele noutăți de la Mozilla:"
-
 #~ msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
 #~ msgstr "Dacă doriți să vedeți unde s-a salvat reacția dumneavoastră, aruncați o privire pe <a href=\"%(url)s\">tabloul de bord al reacțiilor la Firefox</a>."
 
@@ -1056,10 +1144,6 @@ msgstr ""
 
 #~ msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
 #~ msgstr "Oh! Deci vreți să ne spuneți ceva despre versiunea următoare de Firefox. Vă mulțumim, însă înainte trebuie să aveți instalată ultima versiune beta."
-
-#, fuzzy
-#~ msgid "See where your feedback goes."
-#~ msgstr "Scrieți reacția dumneavoastră aici."
 
 #~ msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
 #~ msgstr "Pentru a face asta, pur și simplu mergeți la pagina de descărcare și instalați sau treceți la <a href=\"%(url)s\">ultimul Firefox Beta!</a>"

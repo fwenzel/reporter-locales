@@ -221,16 +221,16 @@ msgstr "Bật tắt"
 msgid "We already got your feedback! Thanks."
 msgstr "Chúng tôi đã nhận được phản hồi của bạn! Xin cảm ơn."
 
-#: apps/feedback/forms.py:105
+#: apps/feedback/forms.py:106
 msgid "Please describe what you liked."
 msgstr ""
 
-#: apps/feedback/forms.py:121
+#: apps/feedback/forms.py:123
 #, fuzzy
 msgid "Please describe your problem below."
 msgstr "Mô tả ý kiến của bạn bên dưới."
 
-#: apps/feedback/forms.py:137
+#: apps/feedback/forms.py:140
 msgid "Describe your idea below."
 msgstr "Mô tả ý kiến của bạn bên dưới."
 
@@ -260,14 +260,10 @@ msgstr "Dường như phản hồi của bạn có chứa một URL. Vui lòng x
 msgid "User-Agent request header must be set."
 msgstr "Đầu đề yêu cầu của chuỗi Đại diện Người dùng phải được thiết lập."
 
-#: apps/feedback/views.py:91
-msgid "Invalid feedback type"
-msgstr "Kiểu phản hồi không hợp lệ"
-
-#: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback-form.html:70 apps/feedback/templates/feedback/feedback-form.html:74
+#: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback-form.html:71 apps/feedback/templates/feedback/feedback-form.html:75
 #: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:78 apps/feedback/templates/feedback/index.html:6
 #: apps/feedback/templates/feedback/mobile/beta_index.html:3 apps/feedback/templates/feedback/mobile/feedback.html:3 apps/feedback/templates/feedback/mobile/feedback.html:60
-#: templates/base_feedback_release_mobile.html:15
+#: apps/feedback/templates/feedback/mobile/index.html:3 templates/base_feedback_release_mobile.html:15
 msgid "Submit Feedback"
 msgstr "Gửi Phản Hồi"
 
@@ -340,28 +336,28 @@ msgstr "Có sáng kiến giúp Firefox có thể trở nên tốt hơn? Hãy cho
 msgid "Go Back"
 msgstr "Quay lại"
 
-#: apps/feedback/templates/feedback/feedback-form.html:43
+#: apps/feedback/templates/feedback/feedback-form.html:44
 msgid "Include the URL of a site that worked better."
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:45
+#: apps/feedback/templates/feedback/feedback-form.html:46
 msgid "Include the URL of the site with the problem."
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:56
+#: apps/feedback/templates/feedback/feedback-form.html:57
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
 msgstr "Để bảo vệ sự riêng tư của bạn, vui lòng chắc chắn rằng không có thông tin nhận dạng cá nhân nào trong phản hồi của bạn"
 
-#: apps/feedback/templates/feedback/feedback-form.html:69
+#: apps/feedback/templates/feedback/feedback-form.html:70
 msgid "Submitting Feedback"
 msgstr "Đang gửi Phản hồi"
 
-#: apps/feedback/templates/feedback/feedback-form.html:82
+#: apps/feedback/templates/feedback/feedback-form.html:83
 #, fuzzy
 msgid "If you have an idea to offer us instead, please use our"
 msgstr "Nếu bạn có ý kiến cho chúng tôi, vui lòng gửi tới chúng tôi thông qua <a href=\"%(url_idea)s\">hộp ý kiến</a>!"
 
-#: apps/feedback/templates/feedback/feedback-form.html:83
+#: apps/feedback/templates/feedback/feedback-form.html:84
 #, fuzzy
 msgid "suggestion box"
 msgstr "Đề xuất"
@@ -467,6 +463,49 @@ msgstr "Tải xuống Beta"
 msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
 msgstr "Ồ! Vậy là bạn muốn cung cấp phản hồi cho chúng tôi. Bạn sẽ cần bản Beta mới nhất! Hãy tới trang beta của chúng tôi và <a href=\"%(url)s\">tải xuống!</a>"
 
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:9 apps/feedback/templates/feedback/mobile/thanks.html:16
+#, fuzzy
+msgid "Back to Feedback"
+msgstr "Phản hồi Mới nhất"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:15 apps/feedback/templates/feedback/mobile/index.html:18 apps/feedback/templates/feedback/mobile/thanks.html:22
+#, fuzzy
+msgid "Give Feedback"
+msgstr "Phản hồi"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:25
+msgid "We're glad Firefox for Mobile made you happy! Please tell us what you liked."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:27
+#, fuzzy
+msgid "We're sorry Firefox for Mobile made you sad. Please tell us what happened so we can fix it."
+msgstr "Chúng tôi rất tiếc là bạn đã không có trải nghiệm tốt với trình duyệt của chúng tôi. Vui lòng cho chúng tôi biết tại sao, để chúng tôi có thể sửa nó!"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:29
+msgid "We love ideas for Firefox for Mobile! Please descibe your idea below."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:36
+#, fuzzy
+msgid "Got an idea? <a href=\"%(url)s\">Submit it instead.</a>"
+msgstr "Vào <a href=\"%(dashboard_url)s\">Bảng thống kê Phản hồi Firefox</a>"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:57
+#, fuzzy
+msgid "Include your last visited site?"
+msgstr "Thêm URL của trang đã vào cuối cùng?"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:67
+#, fuzzy
+msgid "For your privacy, please don't include any personally identifiable information in your feedback."
+msgstr "Vì sự riêng tư của bạn, vui lòng chắc chắn rằng không có thông tin nhận dạng cá nhân nào trong phản hồi của bạn."
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:81
+#, fuzzy
+msgid "Send Feedback"
+msgstr "Phản hồi"
+
 #: apps/feedback/templates/feedback/mobile/feedback.html:24
 msgid "Super! Please tell us more!"
 msgstr "Quá hay! Vui lòng cho chúng tôi biết thêm!"
@@ -487,13 +526,66 @@ msgstr "Thêm URL của trang đã vào cuối cùng?"
 msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
 msgstr "Hoặc gửi ý kiến của bạn bằng <a href=\"%(url_idea)s\">hộp ý kiến</a> của chúng tôi!"
 
-#: apps/feedback/templates/feedback/mobile/thanks.html:8
-msgid "Thanks for sending us your feedback!"
+#: apps/feedback/templates/feedback/mobile/index.html:26
+msgid "We love feedback about Firefox for Mobile! What would you like to tell us?"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/index.html:36
+#, fuzzy
+msgid "Firefox made me happy"
+msgstr "Firefox làm tôi vui ..."
+
+#: apps/feedback/templates/feedback/mobile/index.html:41
+#, fuzzy
+msgid "Firefox made me sad"
+msgstr "Firefox làm tôi chán ..."
+
+#: apps/feedback/templates/feedback/mobile/index.html:46
+msgid "I have an idea for Firefox"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/index.html:54
+#, fuzzy
+msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(url)s\">Firefox Support</a>."
+msgstr "Nếu bạn cần trợ giúp hoặc có vấn đề với Firefox, vui lòng vào <a href=\"%(support_url)s\">Hỗ Trợ Firefox</a>."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:29
+#, fuzzy
+msgid "Thanks for sharing your feedback!"
 msgstr "Cảm ơn đã gửi cho chúng tôi phản hồi của bạn!"
 
-#: apps/feedback/templates/feedback/mobile/thanks.html:12
-msgid "Find out the latest news from Mozilla:"
-msgstr "Tìm hiểu tin tức mới nhất từ Mozilla."
+#: apps/feedback/templates/feedback/mobile/thanks.html:30
+msgid "Want to know what's going on with Firefox for Mobile? We have many ways of staying in touch:"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:36
+msgid "See where your feedback goes."
+msgstr "Xem phản hồi của bạn đi đâu."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:37
+msgid "Feedback Dashboard"
+msgstr "Bảng thống kê Phản hồi"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:43
+msgid "Follow us on Twitter."
+msgstr "Theo đuôi chúng tôi trên Twitter."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:50
+#, fuzzy
+msgid "Let's be friends."
+msgstr "Làm bạn với nhau nhé!"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:51
+msgid "Firefox on Facebook"
+msgstr "Firefox trên Facebook"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:57
+msgid "Get the latest news on Firefox."
+msgstr "Tìm hiểu tin tức mới nhất về Firefox."
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:58
+msgid "Planet Mozilla"
+msgstr "Planet Mozilla"
 
 #: apps/input/__init__.py:47 apps/search/views.py:226 apps/themes/templates/themes/theme_list.html:10
 msgid "Idea"
@@ -919,7 +1011,7 @@ msgstr "<strong>Firefox Beta</strong> Bảng thống kê Đầu vào"
 msgid "Feedback"
 msgstr "Phản hồi"
 
-#: templates/base_mobile.html:20
+#: templates/base_mobile.html:21
 msgid "Dashboard"
 msgstr "Bảng thống kê"
 
@@ -1003,6 +1095,12 @@ msgstr "Đóng"
 msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
 msgstr "<strong>Chào mừng đến Firefox Input!</strong> Đây là chương trình phản hồi người dùng chính của Mozilla. <a href=\"%(about_url)s\">Tìm hiểu thêm...</a>"
 
+#~ msgid "Invalid feedback type"
+#~ msgstr "Kiểu phản hồi không hợp lệ"
+
+#~ msgid "Find out the latest news from Mozilla:"
+#~ msgstr "Tìm hiểu tin tức mới nhất từ Mozilla."
+
 #~ msgid "<strong>Firefox Release</strong> Input Dashboard"
 #~ msgstr "<strong>Firefox Release</strong> Bảng thống kê Đầu vào"
 
@@ -1057,23 +1155,8 @@ msgstr "<strong>Chào mừng đến Firefox Input!</strong> Đây là chương t
 #~ msgid "Features"
 #~ msgstr "Tính năng"
 
-#~ msgid "Feedback Dashboard"
-#~ msgstr "Bảng thống kê Phản hồi"
-
-#~ msgid "Firefox on Facebook"
-#~ msgstr "Firefox trên Facebook"
-
-#~ msgid "Follow us on Twitter."
-#~ msgstr "Theo đuôi chúng tôi trên Twitter."
-
-#~ msgid "For your privacy, please ensure that no personally identifiable information is included in your feedback."
-#~ msgstr "Vì sự riêng tư của bạn, vui lòng chắc chắn rằng không có thông tin nhận dạng cá nhân nào trong phản hồi của bạn."
-
 #~ msgid "Frequent Ideas"
 #~ msgstr "Ý kiến Thường xuyên"
-
-#~ msgid "Get the latest news on Firefox."
-#~ msgstr "Tìm hiểu tin tức mới nhất về Firefox."
 
 #~ msgid "Good"
 #~ msgstr "Tốt"
@@ -1105,9 +1188,6 @@ msgstr "<strong>Chào mừng đến Firefox Input!</strong> Đây là chương t
 #~ msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
 #~ msgstr "Nếu bạn muốn biết góp ý của mình được gửi tới đâu, hãy nhìn trang <a href=\"%(url)s\">Bảng thống kê Firefox Input</a> của chúng tôi."
 
-#~ msgid "Let's be friends!"
-#~ msgstr "Làm bạn với nhau nhé!"
-
 #~ msgid "Loading chart data."
 #~ msgstr "Đang mở dữ liệu biểu đồ."
 
@@ -1122,9 +1202,6 @@ msgstr "<strong>Chào mừng đến Firefox Input!</strong> Đây là chương t
 
 #~ msgid "Page Load Time"
 #~ msgstr "Thời gian Tải Trang"
-
-#~ msgid "Planet Mozilla"
-#~ msgstr "Planet Mozilla"
 
 #~ msgid "Please rate at least one item."
 #~ msgstr "Vui lòng đánh giá ít nhất một mục."
@@ -1146,9 +1223,6 @@ msgstr "<strong>Chào mừng đến Firefox Input!</strong> Đây là chương t
 
 #~ msgid "Responsiveness"
 #~ msgstr "Phản ứng"
-
-#~ msgid "See where your feedback goes."
-#~ msgstr "Xem phản hồi của bạn đi đâu."
 
 #~ msgid "Share an Idea"
 #~ msgstr "Chia sẻ một Ý kiến"
