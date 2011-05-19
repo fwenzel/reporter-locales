@@ -249,15 +249,15 @@ msgstr ""
 msgid "We already got your feedback! Thanks."
 msgstr ""
 
-#: apps/feedback/forms.py:105
+#: apps/feedback/forms.py:106
 msgid "Please describe what you liked."
 msgstr ""
 
-#: apps/feedback/forms.py:121
+#: apps/feedback/forms.py:123
 msgid "Please describe your problem below."
 msgstr ""
 
-#: apps/feedback/forms.py:137
+#: apps/feedback/forms.py:140
 msgid "Describe your idea below."
 msgstr ""
 
@@ -295,19 +295,16 @@ msgstr ""
 msgid "User-Agent request header must be set."
 msgstr ""
 
-#: apps/feedback/views.py:91
-msgid "Invalid feedback type"
-msgstr ""
-
 #: apps/feedback/templates/feedback/beta_index.html:3
-#: apps/feedback/templates/feedback/feedback-form.html:70
-#: apps/feedback/templates/feedback/feedback-form.html:74
+#: apps/feedback/templates/feedback/feedback-form.html:71
+#: apps/feedback/templates/feedback/feedback-form.html:75
 #: apps/feedback/templates/feedback/feedback.html:3
 #: apps/feedback/templates/feedback/feedback.html:78
 #: apps/feedback/templates/feedback/index.html:6
 #: apps/feedback/templates/feedback/mobile/beta_index.html:3
 #: apps/feedback/templates/feedback/mobile/feedback.html:3
 #: apps/feedback/templates/feedback/mobile/feedback.html:60
+#: apps/feedback/templates/feedback/mobile/index.html:3
 #: templates/base_feedback_release_mobile.html:15
 msgid "Submit Feedback"
 msgstr ""
@@ -392,29 +389,29 @@ msgstr ""
 msgid "Go Back"
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:43
+#: apps/feedback/templates/feedback/feedback-form.html:44
 msgid "Include the URL of a site that worked better."
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:45
+#: apps/feedback/templates/feedback/feedback-form.html:46
 msgid "Include the URL of the site with the problem."
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:56
+#: apps/feedback/templates/feedback/feedback-form.html:57
 msgid ""
 "To protect your privacy, please ensure that no personally identifiable "
 "information is included in your feedback."
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:69
+#: apps/feedback/templates/feedback/feedback-form.html:70
 msgid "Submitting Feedback"
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:82
+#: apps/feedback/templates/feedback/feedback-form.html:83
 msgid "If you have an idea to offer us instead, please use our"
 msgstr ""
 
-#: apps/feedback/templates/feedback/feedback-form.html:83
+#: apps/feedback/templates/feedback/feedback-form.html:84
 msgid "suggestion box"
 msgstr ""
 
@@ -479,7 +476,6 @@ msgid "Thanks"
 msgstr ""
 
 #: apps/feedback/templates/feedback/thanks.html:15
-#: apps/feedback/templates/feedback/mobile/thanks.html:3
 msgid "Thanks for Your Feedback"
 msgstr ""
 
@@ -535,6 +531,48 @@ msgid ""
 "over to our beta page and <a href=\"%(url)s\">download it!</a>"
 msgstr ""
 
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:9
+msgid "Back to Feedback"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:15
+#: apps/feedback/templates/feedback/mobile/index.html:18
+msgid "Give Feedback"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:25
+msgid ""
+"We're glad Firefox for Mobile made you happy! Please tell us what you liked."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:27
+msgid ""
+"We're sorry Firefox for Mobile made you sad. Please tell us what happened so "
+"we can fix it."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:29
+msgid "We love ideas for Firefox for Mobile! Please descibe your idea below."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:36
+msgid "Got an idea? <a href=\"%(url)s\">Submit it instead.</a>"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:57
+msgid "Include your last visited site?"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:67
+msgid ""
+"For your privacy, please don't include any personally identifiable "
+"information in your feedback."
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:81
+msgid "Send Feedback"
+msgstr ""
+
 #: apps/feedback/templates/feedback/mobile/feedback.html:24
 msgid "Super! Please tell us more!"
 msgstr ""
@@ -555,12 +593,27 @@ msgstr ""
 msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
 msgstr ""
 
-#: apps/feedback/templates/feedback/mobile/thanks.html:8
-msgid "Thanks for sending us your feedback!"
+#: apps/feedback/templates/feedback/mobile/index.html:26
+msgid ""
+"We love feedback about Firefox for Mobile! What would you like to tell us?"
 msgstr ""
 
-#: apps/feedback/templates/feedback/mobile/thanks.html:12
-msgid "Find out the latest news from Mozilla:"
+#: apps/feedback/templates/feedback/mobile/index.html:36
+msgid "Firefox made me happy"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/index.html:41
+msgid "Firefox made me sad"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/index.html:46
+msgid "I have an idea for Firefox"
+msgstr ""
+
+#: apps/feedback/templates/feedback/mobile/index.html:54
+msgid ""
+"If you need help or have a problem with Firefox, please visit <a href=\"%"
+"(url)s\">Firefox Support</a>."
 msgstr ""
 
 #: apps/input/__init__.py:47
@@ -1040,7 +1093,7 @@ msgstr ""
 msgid "Feedback"
 msgstr ""
 
-#: templates/base_mobile.html:20
+#: templates/base_mobile.html:21
 msgid "Dashboard"
 msgstr ""
 
