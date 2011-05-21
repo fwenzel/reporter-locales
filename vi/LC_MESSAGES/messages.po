@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-20 16:58+0200\n"
-"PO-Revision-Date: 2011-03-21 10:08+0200\n"
+"PO-Revision-Date: 2011-05-21 02:55+0200\n"
 "Last-Translator: Hùng. <loveleeyoungae@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.1.5\n"
+"X-Generator: Pootle 2.1.6\n"
 
 #. Formerly called "happy"
 #: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:33
@@ -223,12 +223,11 @@ msgstr "Chúng tôi đã nhận được phản hồi của bạn! Xin cảm ơn
 
 #: apps/feedback/forms.py:106
 msgid "Please describe what you liked."
-msgstr ""
+msgstr "Vui lòng mô tả những điều bạn thích."
 
 #: apps/feedback/forms.py:123
-#, fuzzy
 msgid "Please describe your problem below."
-msgstr "Mô tả ý kiến của bạn bên dưới."
+msgstr "Vui lòng mô tả vấn đề của bạn bên dưới."
 
 #: apps/feedback/forms.py:140
 msgid "Describe your idea below."
@@ -304,33 +303,34 @@ msgid "To do that, simply go to our download page and install/update to the <a h
 msgstr "Để làm việc đó, chỉ cần vào trang tải xuống của chúng tôi và cài đặt/cập nhật <a href=\"%(url)s\">phiên bản Firefox mới nhất!</a>"
 
 #: apps/feedback/templates/feedback/feedback-form.html:6 apps/feedback/templates/feedback/index.html:21
-#, fuzzy
 msgid "Firefox Made Me Happy"
-msgstr "Firefox làm tôi vui ..."
+msgstr "Firefox Làm Tôi Vui"
 
 #: apps/feedback/templates/feedback/feedback-form.html:8 apps/feedback/templates/feedback/index.html:22
-#, fuzzy
 msgid "Firefox Made Me Sad"
-msgstr "Firefox làm tôi chán ..."
+msgstr "Firefox Làm Tôi Thất Vọng"
 
 #: apps/feedback/templates/feedback/feedback-form.html:10 apps/feedback/templates/feedback/index.html:23
 msgid "I Have an Idea for Firefox"
-msgstr ""
+msgstr "Tôi Có Một Ý Kiến Cho Firefox"
 
 #: apps/feedback/templates/feedback/feedback-form.html:15
-#, fuzzy
 msgid "Super! It's great to hear that you like our pre-released browser."
-msgstr "Tuyệt! Thật vui khi biết rằng bạn thích trình duyệt thử nghiệm của chúng tôi. Vui lòng nêu lí do cho những điểm mà bạn đặc biệt thích nhé!"
+msgstr ""
+"Tuyệt! Thật vui khi biết rằng bạn thích trình duyệt thử nghiệm của chúng "
+"tôi."
 
 #: apps/feedback/templates/feedback/feedback-form.html:17
-#, fuzzy
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it."
-msgstr "Chúng tôi rất tiếc là bạn đã không có trải nghiệm tốt với trình duyệt của chúng tôi. Vui lòng cho chúng tôi biết tại sao, để chúng tôi có thể sửa nó!"
+msgstr ""
+"Chúng tôi rất tiếc là bạn đã không có trải nghiệm tốt với trình duyệt của "
+"chúng tôi. Vui lòng cho chúng tôi biết tại sao, để chúng tôi có thể sửa."
 
 #: apps/feedback/templates/feedback/feedback-form.html:19
-#, fuzzy
 msgid "Have an idea how Firefox could be better? Let us know."
-msgstr "Có sáng kiến giúp Firefox có thể trở nên tốt hơn? Hãy cho chúng tôi biết!"
+msgstr ""
+"Có sáng kiến giúp Firefox có thể trở nên tốt hơn? Xin hãy cho chúng tôi "
+"biết."
 
 #: apps/feedback/templates/feedback/feedback-form.html:23
 msgid "Go Back"
@@ -338,11 +338,11 @@ msgstr "Quay lại"
 
 #: apps/feedback/templates/feedback/feedback-form.html:44
 msgid "Include the URL of a site that worked better."
-msgstr ""
+msgstr "Bao gồm URL của một trang đã hoạt động tốt hơn."
 
 #: apps/feedback/templates/feedback/feedback-form.html:46
 msgid "Include the URL of the site with the problem."
-msgstr ""
+msgstr "Bao gồm URL của trang có vấn đề này."
 
 #: apps/feedback/templates/feedback/feedback-form.html:57
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
@@ -353,14 +353,12 @@ msgid "Submitting Feedback"
 msgstr "Đang gửi Phản hồi"
 
 #: apps/feedback/templates/feedback/feedback-form.html:83
-#, fuzzy
 msgid "If you have an idea to offer us instead, please use our"
-msgstr "Nếu bạn có ý kiến cho chúng tôi, vui lòng gửi tới chúng tôi thông qua <a href=\"%(url_idea)s\">hộp ý kiến</a>!"
+msgstr "Nếu bạn có ý kiến cho chúng tôi, vui lòng dùng"
 
 #: apps/feedback/templates/feedback/feedback-form.html:84
-#, fuzzy
 msgid "suggestion box"
-msgstr "Đề xuất"
+msgstr "hộp đề xuất"
 
 #: apps/feedback/templates/feedback/feedback.html:19
 msgid "Super! It's great to hear that you like our pre-released browser. Please explain what you specifically like!"
@@ -403,35 +401,30 @@ msgid "If you need help or have a problem with Firefox, please visit <a href=\"%
 msgstr "Nếu bạn cần trợ giúp hoặc có vấn đề với Firefox, vui lòng vào <a href=\"%(support_url)s\">Hỗ Trợ Firefox</a>."
 
 #: apps/feedback/templates/feedback/thanks.html:6
-#, fuzzy
 msgid "Thanks"
-msgstr "Cảm ơn!"
+msgstr "Cảm ơn"
 
 #: apps/feedback/templates/feedback/thanks.html:15 apps/feedback/templates/feedback/mobile/thanks.html:3
 msgid "Thanks for Your Feedback"
 msgstr "Cảm ơn về Phản Hồi của Bạn"
 
 #: apps/feedback/templates/feedback/thanks.html:17
-#, fuzzy
 msgid "Your feedback will be used to create a"
-msgstr "Phản hồi của bạn sẽ được dùng để tạo một trải nghiệm tốt hơn trong các bản phát hành tương lai của Firefox."
+msgstr "Phản hồi của bạn sẽ được dùng để tạo một"
 
 #: apps/feedback/templates/feedback/thanks.html:18
-#, fuzzy
 msgid "better experience in future releases of Firefox."
-msgstr "Phản hồi của bạn sẽ được dùng để tạo một trải nghiệm tốt hơn trong các bản phát hành tương lai của Firefox."
+msgstr "trải nghiệm tốt hơn trong các bản phát hành tương lai của Firefox."
 
 #: apps/feedback/templates/feedback/thanks.html:24
 msgid "Have more to say?"
-msgstr ""
+msgstr "Còn nhiều điều muốn nói?"
 
 #: apps/feedback/templates/feedback/thanks.html:26
-#, fuzzy
 msgid "Feel free to <a href=\"%(fb_url)s\">submit more feedback</a>"
-msgstr "Vào <a href=\"%(dashboard_url)s\">Bảng thống kê Phản hồi Firefox</a>"
+msgstr "Xin cứ thoải mái <a href=\"%(fb_url)s\">gửi thêm phản hồi</a>"
 
 #: apps/feedback/templates/feedback/thanks.html:35
-#, fuzzy
 msgid "Visit the <a href=\"%(dash_url)s\">Firefox Feedback Dashboard</a>"
 msgstr "Vào <a href=\"%(dashboard_url)s\">Bảng thống kê Phản hồi Firefox</a>"
 
@@ -464,47 +457,48 @@ msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head 
 msgstr "Ồ! Vậy là bạn muốn cung cấp phản hồi cho chúng tôi. Bạn sẽ cần bản Beta mới nhất! Hãy tới trang beta của chúng tôi và <a href=\"%(url)s\">tải xuống!</a>"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:9 apps/feedback/templates/feedback/mobile/thanks.html:16
-#, fuzzy
 msgid "Back to Feedback"
-msgstr "Phản hồi Mới nhất"
+msgstr "Trở lại Phản hồi"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:15 apps/feedback/templates/feedback/mobile/index.html:18 apps/feedback/templates/feedback/mobile/thanks.html:22
-#, fuzzy
 msgid "Give Feedback"
-msgstr "Phản hồi"
+msgstr "Gửi phản hồi"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:25
 msgid "We're glad Firefox for Mobile made you happy! Please tell us what you liked."
 msgstr ""
+"Chúng tôi mừng là Firefox cho Di động đã làm bạn vui! Xin vui lòng cho chúng "
+"tôi biết những điều bạn thích."
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:27
-#, fuzzy
 msgid "We're sorry Firefox for Mobile made you sad. Please tell us what happened so we can fix it."
-msgstr "Chúng tôi rất tiếc là bạn đã không có trải nghiệm tốt với trình duyệt của chúng tôi. Vui lòng cho chúng tôi biết tại sao, để chúng tôi có thể sửa nó!"
+msgstr ""
+"Chúng tôi rất tiếc là Firefox cho Di động đã làm bạn thất vọng. Vui lòng cho "
+"chúng tôi biết tại sao, để chúng tôi có thể sửa."
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:29
 msgid "We love ideas for Firefox for Mobile! Please descibe your idea below."
 msgstr ""
+"Chúng tôi quý trọng các ý kiến về Firefox cho Di động! Vui lòng mô tả ý kiến "
+"của bạn bên dưới."
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:36
-#, fuzzy
 msgid "Got an idea? <a href=\"%(url)s\">Submit it instead.</a>"
-msgstr "Vào <a href=\"%(dashboard_url)s\">Bảng thống kê Phản hồi Firefox</a>"
+msgstr "Có ý kiến? <a href=\"%(url)s\">Hãy gửi nó lên.</a>"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:57
-#, fuzzy
 msgid "Include your last visited site?"
-msgstr "Thêm URL của trang đã vào cuối cùng?"
+msgstr "Bao gồm trang đã vào gần đây nhất của bạn?"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:67
-#, fuzzy
 msgid "For your privacy, please don't include any personally identifiable information in your feedback."
-msgstr "Vì sự riêng tư của bạn, vui lòng chắc chắn rằng không có thông tin nhận dạng cá nhân nào trong phản hồi của bạn."
+msgstr ""
+"Vì sự riêng tư của bạn, vui lòng không gửi kèm bất kì thông tin nhận dạng cá "
+"nhân nào trong phản hồi của bạn."
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:81
-#, fuzzy
 msgid "Send Feedback"
-msgstr "Phản hồi"
+msgstr "Gửi phản hồi"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:24
 msgid "Super! Please tell us more!"
@@ -529,34 +523,36 @@ msgstr "Hoặc gửi ý kiến của bạn bằng <a href=\"%(url_idea)s\">hộp
 #: apps/feedback/templates/feedback/mobile/index.html:26
 msgid "We love feedback about Firefox for Mobile! What would you like to tell us?"
 msgstr ""
+"Chúng tôi quý trọng phản hồi về Firefox cho Di động! Bạn muốn nói cho chúng "
+"tôi những gì?"
 
 #: apps/feedback/templates/feedback/mobile/index.html:36
-#, fuzzy
 msgid "Firefox made me happy"
-msgstr "Firefox làm tôi vui ..."
+msgstr "Firefox làm tôi vui"
 
 #: apps/feedback/templates/feedback/mobile/index.html:41
-#, fuzzy
 msgid "Firefox made me sad"
-msgstr "Firefox làm tôi chán ..."
+msgstr "Firefox làm tôi thất vọng"
 
 #: apps/feedback/templates/feedback/mobile/index.html:46
 msgid "I have an idea for Firefox"
-msgstr ""
+msgstr "Tôi có một ý kiến cho Firefox"
 
 #: apps/feedback/templates/feedback/mobile/index.html:54
-#, fuzzy
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(url)s\">Firefox Support</a>."
-msgstr "Nếu bạn cần trợ giúp hoặc có vấn đề với Firefox, vui lòng vào <a href=\"%(support_url)s\">Hỗ Trợ Firefox</a>."
+msgstr ""
+"Nếu bạn cần trợ giúp hoặc có vấn đề với Firefox, vui lòng vào <a href=\"%"
+"(url)s\">Hỗ Trợ Firefox</a>."
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:29
-#, fuzzy
 msgid "Thanks for sharing your feedback!"
-msgstr "Cảm ơn đã gửi cho chúng tôi phản hồi của bạn!"
+msgstr "Cảm ơn đã chia sẻ phản hồi của bạn!"
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:30
 msgid "Want to know what's going on with Firefox for Mobile? We have many ways of staying in touch:"
 msgstr ""
+"Muốn biết những gì đang diễn ra với Firefox cho Di động? Chúng tôi có nhiều "
+"cách để giữ kết nối:"
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:36
 msgid "See where your feedback goes."
@@ -571,9 +567,8 @@ msgid "Follow us on Twitter."
 msgstr "Theo đuôi chúng tôi trên Twitter."
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:50
-#, fuzzy
 msgid "Let's be friends."
-msgstr "Làm bạn với nhau nhé!"
+msgstr "Làm bạn với nhau nhé."
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:51
 msgid "Firefox on Facebook"
@@ -1003,9 +998,8 @@ msgid "Proceed to footer"
 msgstr "Đi tới chân trang"
 
 #: templates/base.html:30
-#, fuzzy
 msgid "<strong>Firefox</strong> Input Dashboard"
-msgstr "<strong>Firefox Beta</strong> Bảng thống kê Đầu vào"
+msgstr "Bảng thống kê <strong>Firefox</strong> Input"
 
 #: templates/base.html:36
 msgid "Feedback"
