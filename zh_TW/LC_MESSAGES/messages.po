@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-21 07:58+0200\n"
-"PO-Revision-Date: 2011-05-23 06:35+0200\n"
+"PO-Revision-Date: 2011-05-23 06:42+0200\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -470,7 +470,7 @@ msgstr "我們喜歡收到有關 Firefox 行動版的點子！請在下面描述
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:36
 msgid "Got an idea? <a href=\"%(url)s\">Submit it instead.</a>"
-msgstr "有點子嗎？<a href=\"%(fb_url)s\">送出意見回饋。</a>"
+msgstr "有點子嗎？<a href=\"%(url)s\">送出意見回饋。</a>"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:57
 msgid "Include your last visited site?"
@@ -522,7 +522,7 @@ msgstr "我有個關於 Firefox 的點子"
 
 #: apps/feedback/templates/feedback/mobile/index.html:54
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(url)s\">Firefox Support</a>."
-msgstr "若您有 Firefox 的相關問題需要幫助，請看看 <a href=\"%(support_url)s\"> Firefox 技術支援</a>。"
+msgstr "若您有 Firefox 的相關問題需要幫助，請看看 <a href=\"%(url)s\">Firefox 技術支援</a>。"
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:29
 msgid "Thanks for sharing your feedback!"
@@ -741,7 +741,7 @@ msgstr "我們的搜尋引擎目前可能暫時無法使用。您可以從 <a hr
 
 #: apps/search/templates/search/unavailable.html:17
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
-msgstr "如果問題持續發生，請<a href=\"%(bug_url)s\">送交一份臭蟲報告</a>，並附上您欲瀏覽的網址。"
+msgstr "如果問題持續發生，請 <a href=\"%(bug_url)s\">送交一份臭蟲報告</a>，並附上您欲瀏覽的網址。"
 
 #: apps/search/templates/search/unavailable.html:24
 msgid "Include the following error message in your bug report:"
@@ -909,7 +909,7 @@ msgstr "請從 <a href=\"%(dashboard_url)s\">dashboard</a> 重新開始。"
 
 #: templates/404.html:14
 msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-msgstr "如果您是從損壞的頁面鏈結連到此頁，請<a href=\"%(bug_url)s\">送交一份臭蟲報告</a>。感謝！"
+msgstr "如果您是從損壞的頁面鏈結連到此頁，請 <a href=\"%(bug_url)s\">送交一份臭蟲報告</a>。感謝！"
 
 #: templates/500.html:4
 msgid "Internal Server Error"
@@ -921,7 +921,7 @@ msgstr "應用程式發生一個未知的錯誤。這個錯誤已被記錄，管
 
 #: templates/500.html:20
 msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-msgstr "如果您擁有重現問題的相關資訊，請<a href=\"%(bug_url)s\">送交一份臭蟲報告</a>。感謝！"
+msgstr "如果您擁有重現問題的相關資訊，請 <a href=\"%(bug_url)s\">送交一份臭蟲報告</a>。感謝！"
 
 #: templates/about.html:3 templates/includes/footer.html:11
 msgid "About Firefox Input"
@@ -1027,7 +1027,7 @@ msgstr "通常最可能造成此問題的原因是您的瀏覽器設定了 <stro
 
 #: templates/csrf_error.html:24
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-msgstr "如果問題持續發生，請<a href=\"%(bug_url)s\">送交一份臭蟲報告</a>，感謝您！"
+msgstr "如果問題持續發生，請 <a href=\"%(bug_url)s\">送交一份臭蟲報告</a>，感謝您！"
 
 #: templates/includes/footer_feedback.html:5 templates/includes/lang_switcher.html:2
 msgid "Other languages:"
