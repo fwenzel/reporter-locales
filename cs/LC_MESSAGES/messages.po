@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Firefox Input\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 18:31+0200\n"
-"PO-Revision-Date: 2011-03-05 23:00+0200\n"
+"PO-Revision-Date: 2011-05-23 22:28+0200\n"
 "Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
 "Language-Team: cs <info@mozilla.cz>\n"
 "Language: cs\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Pootle 2.1.5\n"
+"X-Generator: Pootle 2.1.6\n"
 
 #. Formerly called "happy"
 #: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:33
@@ -225,12 +225,11 @@ msgstr "Již jsme vaši reakci získali. Díky!"
 
 #: apps/feedback/forms.py:106
 msgid "Please describe what you liked."
-msgstr ""
+msgstr "Popište prosím, co se vám líbilo."
 
 #: apps/feedback/forms.py:123
-#, fuzzy
 msgid "Please describe your problem below."
-msgstr "Níže popište svůj nápad."
+msgstr "Popište prosím níže svůj problém."
 
 #: apps/feedback/forms.py:140
 msgid "Describe your idea below."
@@ -304,33 +303,30 @@ msgid "To do that, simply go to our download page and install/update to the <a h
 msgstr "Pro jeho získání jednoduše přejděte na naši stránku ke stažení a nainstalujte si <a href=\"%(url)s\">poslední verzi</a>!"
 
 #: apps/feedback/templates/feedback/feedback-form.html:6 apps/feedback/templates/feedback/index.html:21
-#, fuzzy
 msgid "Firefox Made Me Happy"
-msgstr "Firefox mě činí šťastným ..."
+msgstr "Firefox mě činí šťastným"
 
 #: apps/feedback/templates/feedback/feedback-form.html:8 apps/feedback/templates/feedback/index.html:22
-#, fuzzy
 msgid "Firefox Made Me Sad"
-msgstr "Firefox mě zklamal ..."
+msgstr "Firefox mě zklamal"
 
 #: apps/feedback/templates/feedback/feedback-form.html:10 apps/feedback/templates/feedback/index.html:23
 msgid "I Have an Idea for Firefox"
-msgstr ""
+msgstr "Mám nápad ohledně Firefoxu"
 
 #: apps/feedback/templates/feedback/feedback-form.html:15
-#, fuzzy
 msgid "Super! It's great to hear that you like our pre-released browser."
-msgstr "Skvělé! Je hezké slyšet, že se vám vývojová verze prohlížeče líbí. Řekněte nám, co se vám konkrétně líbí!"
+msgstr "Skvělé! Je hezké slyšet, že se vám vývojová verze prohlížeče líbí."
 
 #: apps/feedback/templates/feedback/feedback-form.html:17
-#, fuzzy
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it."
-msgstr "Je nám líto, že máte špatnou zkušenost s našim prohlížečem. Řekněte nám prosím proč, abychom to mohli změnit! "
+msgstr ""
+"Je nám líto, že máte špatnou zkušenost s našim prohlížečem. Řekněte nám "
+"prosím proč, abychom to mohli změnit."
 
 #: apps/feedback/templates/feedback/feedback-form.html:19
-#, fuzzy
 msgid "Have an idea how Firefox could be better? Let us know."
-msgstr "Máte nápad, jak učinit Firefox lepším? Dejte nám vědět!"
+msgstr "Máte nápad, jak učinit Firefox lepším? Dejte nám vědět."
 
 #: apps/feedback/templates/feedback/feedback-form.html:23
 msgid "Go Back"
@@ -338,11 +334,11 @@ msgstr "Přejít zpět"
 
 #: apps/feedback/templates/feedback/feedback-form.html:44
 msgid "Include the URL of a site that worked better."
-msgstr ""
+msgstr "Zahrnout URL stránky, která fungovala lépe."
 
 #: apps/feedback/templates/feedback/feedback-form.html:46
 msgid "Include the URL of the site with the problem."
-msgstr ""
+msgstr "Zahrnout URL stránky s problémem."
 
 #: apps/feedback/templates/feedback/feedback-form.html:57
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
@@ -353,14 +349,12 @@ msgid "Submitting Feedback"
 msgstr "Probíhá odesílání reakce"
 
 #: apps/feedback/templates/feedback/feedback-form.html:83
-#, fuzzy
 msgid "If you have an idea to offer us instead, please use our"
-msgstr "Pokud nám na místo toho chcete poslat nápad, pošlete jej skrze <a href=\"%(url_idea)s\">formulář pro zadání návrhu</a>!"
+msgstr "Pokud nám na místo toho chcete poslat nápad, pošlete jej skrze"
 
 #: apps/feedback/templates/feedback/feedback-form.html:84
-#, fuzzy
 msgid "suggestion box"
-msgstr "Návrh"
+msgstr "pole pro zasílání návrhů"
 
 #: apps/feedback/templates/feedback/feedback.html:19
 msgid "Super! It's great to hear that you like our pre-released browser. Please explain what you specifically like!"
@@ -403,37 +397,32 @@ msgid "If you need help or have a problem with Firefox, please visit <a href=\"%
 msgstr "Pokud potřebujete pomoc nebo máte problém s Firefoxem, navštivte naše <a href=\"%(support_url)s\">stránky podpory</a>."
 
 #: apps/feedback/templates/feedback/thanks.html:6
-#, fuzzy
 msgid "Thanks"
-msgstr "Děkujeme!"
+msgstr "Děkujeme"
 
 #: apps/feedback/templates/feedback/thanks.html:15 apps/feedback/templates/feedback/mobile/thanks.html:3
 msgid "Thanks for Your Feedback"
 msgstr "Děkujeme za vaši reakci."
 
 #: apps/feedback/templates/feedback/thanks.html:17
-#, fuzzy
 msgid "Your feedback will be used to create a"
-msgstr "Vaše reakce bude použita pro vylepšení budoucích verzí Firefoxu."
+msgstr "Vaše reakce bude použita pro vylepšení"
 
 #: apps/feedback/templates/feedback/thanks.html:18
-#, fuzzy
 msgid "better experience in future releases of Firefox."
-msgstr "Vaše reakce bude použita pro vylepšení budoucích verzí Firefoxu."
+msgstr " budoucích verzí Firefoxu."
 
 #: apps/feedback/templates/feedback/thanks.html:24
 msgid "Have more to say?"
-msgstr ""
+msgstr "Chcete říci více?"
 
 #: apps/feedback/templates/feedback/thanks.html:26
-#, fuzzy
 msgid "Feel free to <a href=\"%(fb_url)s\">submit more feedback</a>"
-msgstr "Navštívit <a href=\"%(dashboard_url)s\">nástěnku Firefox Feedback</a>"
+msgstr "Nebojte se využít <a href=\"%(fb_url)s\">možnosti zaslat další reakci</a>"
 
 #: apps/feedback/templates/feedback/thanks.html:35
-#, fuzzy
 msgid "Visit the <a href=\"%(dash_url)s\">Firefox Feedback Dashboard</a>"
-msgstr "Navštívit <a href=\"%(dashboard_url)s\">nástěnku Firefox Feedback</a>"
+msgstr "Navštivte <a href=\"%(dash_url)s\">nástěnku Firefox Feedback</a>"
 
 #: apps/feedback/templates/feedback/thanks.html:42
 msgid "Find the latest news about Firefox."
@@ -464,47 +453,46 @@ msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head 
 msgstr "Zdá se, že chcete přidat reakci, ale k tomu potřebujete poslední betaverzi! Navštivte naši stránku o betě  a <a href=\"%(url)s\">stáhněte si ji</a>!"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:9 apps/feedback/templates/feedback/mobile/thanks.html:16
-#, fuzzy
 msgid "Back to Feedback"
-msgstr "Poslední reakce"
+msgstr "Zpět na reakce"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:15 apps/feedback/templates/feedback/mobile/index.html:18 apps/feedback/templates/feedback/mobile/thanks.html:22
-#, fuzzy
 msgid "Give Feedback"
-msgstr "Reakce"
+msgstr "Poskytnou reakci"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:25
 msgid "We're glad Firefox for Mobile made you happy! Please tell us what you liked."
 msgstr ""
+"Jsme rádi, že se vám Firefox pro mobily líbí! Řekněte nám, co se vám na něm "
+"líbí."
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:27
-#, fuzzy
 msgid "We're sorry Firefox for Mobile made you sad. Please tell us what happened so we can fix it."
-msgstr "Je nám líto, že máte špatnou zkušenost s našim prohlížečem. Řekněte nám prosím proč, abychom to mohli změnit! "
+msgstr ""
+"Je nám líto, že máte špatnou zkušenost s Firefoxem pro mobily. Řekněte nám "
+"prosím proč, abychom to mohli změnit."
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:29
 msgid "We love ideas for Firefox for Mobile! Please descibe your idea below."
 msgstr ""
+"Jsme rádi, že máte nápad na zlepšení Firefoxu pro mobily. Níže prosím "
+"napište svůj nápad."
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:36
-#, fuzzy
 msgid "Got an idea? <a href=\"%(url)s\">Submit it instead.</a>"
-msgstr "Navštívit <a href=\"%(dashboard_url)s\">nástěnku Firefox Feedback</a>"
+msgstr "Máte nápad? <a href=\"%(url)s\">Pošlete nám ho.</a>"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:57
-#, fuzzy
 msgid "Include your last visited site?"
-msgstr "Přidat URL poslední navštívené stránky?"
+msgstr "Zahrnout poslední vámi navštívenou stránku?"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:67
-#, fuzzy
 msgid "For your privacy, please don't include any personally identifiable information in your feedback."
 msgstr "Pro ochranu vašeho soukromí se ujistěte, že ve vaší reakci nejsou zahrnuty žádné osobní identifikační údaje."
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:81
-#, fuzzy
 msgid "Send Feedback"
-msgstr "Reakce"
+msgstr "Poslat reakci"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:24
 msgid "Super! Please tell us more!"
@@ -529,34 +517,35 @@ msgstr "Nebo nám zašlete své nápady pomocí <a href=\"%(url_idea)s\">formul�
 #: apps/feedback/templates/feedback/mobile/index.html:26
 msgid "We love feedback about Firefox for Mobile! What would you like to tell us?"
 msgstr ""
+"Za vaši reakci na Firefox pro mobily jsme rádi. Co byste nám rádi sdělili?"
 
 #: apps/feedback/templates/feedback/mobile/index.html:36
-#, fuzzy
 msgid "Firefox made me happy"
-msgstr "Firefox mě činí šťastným ..."
+msgstr "Firefox mě činí šťastným"
 
 #: apps/feedback/templates/feedback/mobile/index.html:41
-#, fuzzy
 msgid "Firefox made me sad"
-msgstr "Firefox mě zklamal ..."
+msgstr "Firefox mě zklamal"
 
 #: apps/feedback/templates/feedback/mobile/index.html:46
 msgid "I have an idea for Firefox"
-msgstr ""
+msgstr "Mám nápad k Firefoxu"
 
 #: apps/feedback/templates/feedback/mobile/index.html:54
-#, fuzzy
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(url)s\">Firefox Support</a>."
-msgstr "Pokud potřebujete pomoc nebo máte problém s Firefoxem, navštivte naše <a href=\"%(support_url)s\">stránky podpory</a>."
+msgstr ""
+"Pokud potřebujete pomoc nebo máte problém s Firefoxem, navštivte naše <a "
+"href=\"%(url)s\">stránky podpory</a>."
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:29
-#, fuzzy
 msgid "Thanks for sharing your feedback!"
 msgstr "Děkujeme za odeslání reakce!"
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:30
 msgid "Want to know what's going on with Firefox for Mobile? We have many ways of staying in touch:"
 msgstr ""
+"Chcete vědět, co se děje okolo Firefoxu pro mobily? Existuje řada způsobů, "
+"jak zůstat v obraze:"
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:36
 msgid "See where your feedback goes."
@@ -571,9 +560,8 @@ msgid "Follow us on Twitter."
 msgstr "Sledujte nás na Twitteru"
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:50
-#, fuzzy
 msgid "Let's be friends."
-msgstr "Buďte přátelští!"
+msgstr "Buďte přátelští."
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:51
 msgid "Firefox on Facebook"
@@ -1013,9 +1001,8 @@ msgid "Proceed to footer"
 msgstr "Přechod na patičku"
 
 #: templates/base.html:30
-#, fuzzy
 msgid "<strong>Firefox</strong> Input Dashboard"
-msgstr "<strong>Firefox Beta</strong> Input Dashboard"
+msgstr "<strong>Firefox</strong> Input Dashboard"
 
 #: templates/base.html:36
 msgid "Feedback"
