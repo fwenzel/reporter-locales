@@ -3,14 +3,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-20 10:48+0200\n"
-"PO-Revision-Date: 2010-08-24 21:41+0200\n"
+"PO-Revision-Date: 2011-05-24 00:31+0200\n"
 "Last-Translator: Enrique <eu@keko.me>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Pootle 2.0.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.1.6\n"
 
 #. Formerly called "happy"
 #: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:33
@@ -27,45 +28,40 @@ msgstr "Problemas"
 
 #: apps/dashboard/views.py:56 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:34 apps/themes/views.py:38
 msgid "Ideas"
-msgstr ""
+msgstr "Ideas"
 
 #: apps/dashboard/templates/dashboard/beta.html:14
-#, fuzzy
 msgid "Latest Feedback"
-msgstr "Enviar opinión"
+msgstr "Última opinión"
 
 #: apps/dashboard/templates/dashboard/beta.html:24 apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:63
-#, fuzzy
 msgid "&laquo; Newer Messages"
-msgstr "&laquo; Mensaxes antigas"
+msgstr "&laquo; Mensaxes máis recentes"
 
 #: apps/dashboard/templates/dashboard/beta.html:25 apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:73
-#, fuzzy
 msgid "Older Messages &raquo;"
-msgstr "Novas mensaxes &raquo;"
+msgstr "Mensaxes máis antigas &raquo;"
 
 #: apps/dashboard/templates/dashboard/devices.html:8 apps/dashboard/templates/dashboard/manufacturers.html:9 apps/feedback/helpers.py:16 apps/search/forms.py:41 apps/search/forms.py:44
 #: apps/search/forms.py:49
-#, fuzzy
 msgid "Unknown"
-msgstr "descoñecido"
+msgstr "Descoñecido"
 
 #: apps/dashboard/templates/dashboard/devices.html:15
 msgid "Devices"
-msgstr ""
+msgstr "Dispositivos"
 
 #: apps/dashboard/templates/dashboard/locales.html:17 apps/dashboard/templates/dashboard/mobile/locales.html:9
 msgid "Locale"
 msgstr "Idioma"
 
 #: apps/dashboard/templates/dashboard/locales.html:29
-#, fuzzy
 msgid "More Locales"
-msgstr "Idioma"
+msgstr "Máis idiomas"
 
 #: apps/dashboard/templates/dashboard/manufacturers.html:16
 msgid "Manufacturer"
-msgstr ""
+msgstr "Fabricante"
 
 #: apps/dashboard/templates/dashboard/message_list.html:29 apps/themes/templates/themes/theme_list.html:28
 msgid "More Options"
@@ -77,9 +73,8 @@ msgstr "Copiar axente de usuario"
 
 #. Link to Google Translator
 #: apps/dashboard/templates/dashboard/message_list.html:36 apps/themes/templates/themes/theme_list.html:31
-#, fuzzy
 msgid "Translate Message"
-msgstr "Traducir!"
+msgstr "Traducir a mensaxe"
 
 #: apps/dashboard/templates/dashboard/message_list.html:41
 msgid "Tweet This"
@@ -87,7 +82,7 @@ msgstr ""
 
 #: apps/dashboard/templates/dashboard/message_list.html:51 apps/themes/templates/themes/theme_list.html:41
 msgid "No search results found."
-msgstr "Non se encontraron resultados."
+msgstr "Non se atoparon resultados."
 
 #. Title text for a complete message count.
 #: apps/dashboard/templates/dashboard/opinion_count.html:3
@@ -96,9 +91,8 @@ msgstr "Mensaxes"
 
 #: apps/dashboard/templates/dashboard/overview.html:2 apps/dashboard/templates/dashboard/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
 #: apps/website_issues/templates/website_issues/sites.html:32
-#, fuzzy
 msgid "Type of Feedback"
-msgstr "Grazas pola súa opinión"
+msgstr "Tipo de opinión"
 
 #: apps/dashboard/templates/dashboard/platforms.html:12 apps/dashboard/templates/dashboard/mobile/platforms.html:8 apps/themes/templates/themes/index.html:24
 msgid "Platform"
@@ -128,31 +122,30 @@ msgstr "Personalizado"
 #: apps/dashboard/templates/dashboard/when.html:17
 msgctxt "date_range_set"
 msgid "Set"
-msgstr "Pór"
+msgstr "Período"
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:4 apps/search/templates/search/includes/ratings_chart.html:4
 msgid "{num} opinions on {day}"
-msgstr ""
+msgstr "{num} opinións o {day}"
 
 #. A quasi strftime string for a full date.
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:6 apps/search/templates/search/includes/ratings_chart.html:6
 msgid "%e %B %Y"
-msgstr ""
+msgstr "%e %B %Y"
 
 #. A quasi strftime string for a short date (no year).
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:8 apps/search/templates/search/includes/ratings_chart.html:8
 msgid "%e %b"
-msgstr ""
+msgstr "%e %b"
 
 #: apps/dashboard/templates/dashboard/includes/feedback_chart.html:10
 msgid "Loading feedback history..."
-msgstr ""
+msgstr "Cargando o historial de opinións..."
 
 #. short for 1 day
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:3
-#, fuzzy
 msgid "Last day"
-msgstr "1 día"
+msgstr "Último día"
 
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:3
 msgid "1d"
@@ -179,41 +172,37 @@ msgstr "30 días"
 #. short for an indefinite date range
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:12
 msgid "No date limit"
-msgstr ""
+msgstr "Sen data límite"
 
 #: apps/dashboard/templates/dashboard/includes/when_selectors.html:12
 msgid "&infin;"
-msgstr ""
+msgstr "&infin;"
 
 #: apps/dashboard/templates/dashboard/mobile/beta.html:6 apps/search/templates/search/mobile/search.html:6
-#, fuzzy
 msgid "Feed"
-msgstr "Enviar opinión"
+msgstr "Fonte"
 
 #: apps/dashboard/templates/dashboard/mobile/beta.html:7 apps/search/templates/search/mobile/search.html:7
 msgid "Statistics"
-msgstr ""
+msgstr "Estatísticas"
 
 #: apps/dashboard/templates/dashboard/mobile/beta.html:8 apps/search/templates/search/mobile/search.html:8
 msgid "Trends"
 msgstr "Tendencias"
 
 #: apps/dashboard/templates/dashboard/mobile/beta.html:35 apps/search/templates/search/mobile/search.html:38
-#, fuzzy
 msgid "&laquo; Newer Feedback"
-msgstr "&laquo; Mensaxes antigas"
+msgstr "&laquo; Opinións máis recentes"
 
 #: apps/dashboard/templates/dashboard/mobile/beta.html:36 apps/search/templates/search/mobile/search.html:48
-#, fuzzy
 msgid "Older Feedback &raquo;"
-msgstr "Novas mensaxes &raquo;"
+msgstr "Opinións máis antigas &raquo;"
 
 #: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
-#, fuzzy
 msgid "<strong>%(cnt)s</strong> message"
 msgid_plural "<strong>%(cnt)s</strong> messages"
-msgstr[0] "Últimas {count} mensaxes"
-msgstr[1] "Últimas {count} mensaxes"
+msgstr[0] "<strong>%(cnt)s</strong> mensaxe"
+msgstr[1] "<strong>%(cnt)s</strong> mensaxes"
 
 #. refers to time-based search filters (e.g., "for last: 1d")
 #: apps/dashboard/templates/dashboard/mobile/when.html:3
@@ -235,20 +224,19 @@ msgstr "Xa temos a súa opinión! Grazas."
 
 #: apps/feedback/forms.py:106
 msgid "Please describe what you liked."
-msgstr ""
+msgstr "Describa o que lle gustou."
 
 #: apps/feedback/forms.py:123
 msgid "Please describe your problem below."
-msgstr ""
+msgstr "A continuación describa o seu problema."
 
 #: apps/feedback/forms.py:140
 msgid "Describe your idea below."
-msgstr ""
+msgstr "A continuación describa a súa idea."
 
 #: apps/feedback/helpers.py:39 apps/input/__init__.py:40 apps/themes/templates/themes/theme_list.html:12 apps/website_issues/templates/website_issues/includes/single_site.html:14
-#, fuzzy
 msgid "Issue"
-msgstr "Problemas"
+msgstr "Incidencia"
 
 #: apps/feedback/validators.py:27
 msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
@@ -279,65 +267,69 @@ msgstr "Enviar opinión"
 
 #: apps/feedback/templates/feedback/beta_index.html:7
 msgid "It's great to hear you want to help Mozilla make your experience better!"
-msgstr ""
+msgstr "É xenial saber que quere axudar a Mozilla a mellorar a súa experiencia!"
 
 #: apps/feedback/templates/feedback/beta_index.html:9
 msgid "Please choose one of the following types of feedback that you would like to submit to us:"
-msgstr ""
+msgstr "Escolla un dos seguintes tipos de opinión que lle gustaría enviarnos:"
 
 #: apps/feedback/templates/feedback/beta_index.html:13 apps/feedback/templates/feedback/beta_index.html:15
 msgid "Firefox makes me happy because ..."
-msgstr ""
+msgstr "O Firefox faime feliz porque ..."
 
 #: apps/feedback/templates/feedback/beta_index.html:19 apps/feedback/templates/feedback/beta_index.html:21
 msgid "Firefox makes me sad because ..."
-msgstr ""
+msgstr "O Firefox entristéceme porque ..."
 
 #: apps/feedback/templates/feedback/beta_index.html:24
-#, fuzzy
 msgid "Firefox Logo"
-msgstr "Firefox"
+msgstr "Logo do Firefox"
 
 #: apps/feedback/templates/feedback/beta_index.html:25
 msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
 msgstr ""
+"Se precisa axuda ou ten algún problema co Firefox, visite a nosa <a href=\"%"
+"(support_url)s\">páxina de asistencia</a>."
 
 #: apps/feedback/templates/feedback/download.html:3
-#, fuzzy
 msgid "Download Firefox"
-msgstr "Descargar a Beta"
+msgstr "Descargar o Firefox"
 
 #: apps/feedback/templates/feedback/download.html:8
-#, fuzzy
 msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-msgstr "Vaia! Entón quere ofrecernos a súa opinión sobre a próxima versión do Firefox. Grazas, pero necesita formar parte do noso programa de probas."
+msgstr ""
+"Vaia! Entón quere ofrecernos a súa opinión sobre o Firefox. Grazas, pero "
+"precisa usar a nosa última versión."
 
 #: apps/feedback/templates/feedback/download.html:14
-#, fuzzy
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-msgstr "Para unirse, simplemente vaia a nosa páxina de descargas e obteña <a href=\"%(url)s\">a última beta do Firefox!</a>"
+msgstr ""
+"Para facer isto, simplemente vaia a nosa páxina de descargas e "
+"instale/actualice <a href=\"%(url)s\">a última versión do Firefox!</a>"
 
 #: apps/feedback/templates/feedback/feedback-form.html:6 apps/feedback/templates/feedback/index.html:21
 msgid "Firefox Made Me Happy"
-msgstr ""
+msgstr "O Firefox faime feliz"
 
 #: apps/feedback/templates/feedback/feedback-form.html:8 apps/feedback/templates/feedback/index.html:22
 msgid "Firefox Made Me Sad"
-msgstr ""
+msgstr "O Firefox entristéceme"
 
 #: apps/feedback/templates/feedback/feedback-form.html:10 apps/feedback/templates/feedback/index.html:23
 msgid "I Have an Idea for Firefox"
-msgstr ""
+msgstr "Teño unha idea para o Firefox"
 
 #: apps/feedback/templates/feedback/feedback-form.html:15
-#, fuzzy
 msgid "Super! It's great to hear that you like our pre-released browser."
-msgstr "Fantástico! É xenial escoitar que lle gusta versión preliminar do novo navegador. Explícanos o que lle gustou concretamente!"
+msgstr ""
+"Fantástico! É xenial escoitar que lle gusta a versión preliminar do noso "
+"navegador."
 
 #: apps/feedback/templates/feedback/feedback-form.html:17
-#, fuzzy
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it."
-msgstr "Sentimos que non tivera unha boa experiencia co noso navegador. Contenos o porque e así poderemos melloralo!"
+msgstr ""
+"Sentimos que non tivera unha boa experiencia co noso navegador. Contenos o "
+"porque e así poderemos melloralo."
 
 #: apps/feedback/templates/feedback/feedback-form.html:19
 msgid "Have an idea how Firefox could be better? Let us know."
@@ -345,46 +337,49 @@ msgstr ""
 
 #: apps/feedback/templates/feedback/feedback-form.html:23
 msgid "Go Back"
-msgstr ""
+msgstr "Retroceder"
 
 #: apps/feedback/templates/feedback/feedback-form.html:44
 msgid "Include the URL of a site that worked better."
-msgstr ""
+msgstr "Inclúa o URL dun sitio web que traballe mellor."
 
 #: apps/feedback/templates/feedback/feedback-form.html:46
 msgid "Include the URL of the site with the problem."
-msgstr ""
+msgstr "Inclúa o URL do sitio co problema."
 
 #: apps/feedback/templates/feedback/feedback-form.html:57
-#, fuzzy
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
-msgstr "Asegúrese de que non hai información persoal que o poida identificar aquí."
+msgstr ""
+"Para protexer a súa privacidade, asegúrese de que non hai información que o "
+"poida identificar na súa opinión."
 
 #: apps/feedback/templates/feedback/feedback-form.html:70
-#, fuzzy
 msgid "Submitting Feedback"
-msgstr "Enviar opinión"
+msgstr "Enviando opinión"
 
 #: apps/feedback/templates/feedback/feedback-form.html:83
 msgid "If you have an idea to offer us instead, please use our"
-msgstr ""
+msgstr "Se no seu lugar ten unha idea para ofrecernos, use a nosa"
 
 #: apps/feedback/templates/feedback/feedback-form.html:84
 msgid "suggestion box"
-msgstr ""
+msgstr "caixa de suxestións"
 
 #: apps/feedback/templates/feedback/feedback.html:19
 msgid "Super! It's great to hear that you like our pre-released browser. Please explain what you specifically like!"
-msgstr "Fantástico! É xenial escoitar que lle gusta versión preliminar do novo navegador. Explícanos o que lle gustou concretamente!"
+msgstr ""
+"Fantástico! É xenial escoitar que lle gusta versión preliminar do noso "
+"navegador. Explícanos o que lle gustou concretamente!"
 
 #: apps/feedback/templates/feedback/feedback.html:24
-#, fuzzy
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
 msgstr "Sentimos que non tivera unha boa experiencia co noso navegador. Contenos o porque e así poderemos melloralo!"
 
 #: apps/feedback/templates/feedback/feedback.html:29
 msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please enter your idea below:"
 msgstr ""
+"Entón, gustaríalle facer unha suxestión sobre como mellorar o Firefox? "
+"Xenial! A continuación escriba a súa idea:"
 
 #: apps/feedback/templates/feedback/feedback.html:47
 msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
@@ -392,33 +387,38 @@ msgstr "Coñece algún sitio web que funcione mellor nesta beta que en versións
 
 #: apps/feedback/templates/feedback/feedback.html:55
 msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
-msgstr "Tivo un problema cun sitio web específico? Engada o seu URL e poderemos encontrar o seu problema máis rápido!"
+msgstr ""
+"Tivo algunha incidencia cun sitio web específico? Engada o seu URL e "
+"poderemos atopar a incidencia máis rápido!"
 
 #: apps/feedback/templates/feedback/feedback.html:76 apps/feedback/templates/feedback/mobile/feedback.html:58
 msgid "Please ensure that there is no personally identifiable information here."
-msgstr "Asegúrese de que non hai información persoal que o poida identificar aquí."
+msgstr ""
+"Asegúrese de que aquí non hai información persoal que o poida identificar."
 
 #: apps/feedback/templates/feedback/feedback.html:85
 msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_idea)s\">idea box</a>!"
 msgstr ""
+"Se no seu lugar ten unha idea para ofrecernos, envíenola a través da nosa <a "
+"href=\"%(url_idea)s\">caixa de ideas</a>!"
 
 #: apps/feedback/templates/feedback/index.html:15
-#, fuzzy
 msgid "Submit Your Feedback"
-msgstr "Enviar opinión"
+msgstr "Enviar a súa opinión"
 
 #: apps/feedback/templates/feedback/index.html:16
 msgid "Your feedback helps us improve Firefox."
-msgstr ""
+msgstr "A súa opinión axúdanos a mellora Firefox."
 
 #: apps/feedback/templates/feedback/index.html:29
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
 msgstr ""
+"Se precisa axuda ou ten algún problema co Firefox, visite a <a href=\"%"
+"(support_url)s\">asistencia do Firefox</a>."
 
 #: apps/feedback/templates/feedback/thanks.html:6
-#, fuzzy
 msgid "Thanks"
-msgstr "Grazas!"
+msgstr "Grazas"
 
 #: apps/feedback/templates/feedback/thanks.html:15 apps/feedback/templates/feedback/mobile/thanks.html:3
 msgid "Thanks for Your Feedback"
@@ -426,46 +426,43 @@ msgstr "Grazas pola súa opinión"
 
 #: apps/feedback/templates/feedback/thanks.html:17
 msgid "Your feedback will be used to create a"
-msgstr ""
+msgstr "A súa opinión usarase para crear unha"
 
 #: apps/feedback/templates/feedback/thanks.html:18
 msgid "better experience in future releases of Firefox."
-msgstr ""
+msgstr "mellor experiencia en futuras versións do Firefox."
 
 #: apps/feedback/templates/feedback/thanks.html:24
 msgid "Have more to say?"
-msgstr ""
+msgstr "Ten algo máis que dicir?"
 
 #: apps/feedback/templates/feedback/thanks.html:26
-#, fuzzy
 msgid "Feel free to <a href=\"%(fb_url)s\">submit more feedback</a>"
-msgstr "Volve a iniciar no <a href=\"%(dashboard_url)s\">taboleiro</a>."
+msgstr "Síntase libre para <a href=\"%(fb_url)s\">enviar máis opinións</a>"
 
 #: apps/feedback/templates/feedback/thanks.html:35
-#, fuzzy
 msgid "Visit the <a href=\"%(dash_url)s\">Firefox Feedback Dashboard</a>"
-msgstr "Volve a iniciar no <a href=\"%(dashboard_url)s\">taboleiro</a>."
+msgstr "Visite o <a href=\"%(dash_url)s\">taboleiro de opinións do Firefox</a>"
 
 #: apps/feedback/templates/feedback/thanks.html:42
-#, fuzzy
 msgid "Find the latest news about Firefox."
-msgstr "Encontre as últimas novas de Mozilla:"
+msgstr "Atope as últimas novas sobre o Firefox."
 
 #: apps/feedback/templates/feedback/mobile/beta_index.html:8
 msgid "Thanks for helping Mozilla make your experience better!"
-msgstr ""
+msgstr "Grazas por axudar a Mozilla a mellorar a súa experiencia!"
 
 #: apps/feedback/templates/feedback/mobile/beta_index.html:10
 msgid "Please choose the type of feedback that you would like to submit to us:"
-msgstr ""
+msgstr "Escolla o tipo de opinión que lle gustaría enviarnos:"
 
 #: apps/feedback/templates/feedback/mobile/beta_index.html:13 apps/feedback/templates/feedback/mobile/beta_index.html:15
 msgid "Firefox makes me happy ..."
-msgstr ""
+msgstr "O Firefox faime feliz ..."
 
 #: apps/feedback/templates/feedback/mobile/beta_index.html:18 apps/feedback/templates/feedback/mobile/beta_index.html:20
 msgid "Firefox makes me sad ..."
-msgstr ""
+msgstr "O Firefox entristéceme ..."
 
 #: apps/feedback/templates/feedback/mobile/download.html:3
 msgid "Download Beta"
@@ -476,45 +473,46 @@ msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head 
 msgstr "Vaia! Entón quere ofrecernos a súa opinión. Precisará a última Beta! Diríxase a páxina da nosa beta e <a href=\"%(url)s\">descárguea!</a>"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:9 apps/feedback/templates/feedback/mobile/thanks.html:16
-#, fuzzy
 msgid "Back to Feedback"
-msgstr "Enviar opinión"
+msgstr "Volver a opinións"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:15 apps/feedback/templates/feedback/mobile/index.html:18 apps/feedback/templates/feedback/mobile/thanks.html:22
-#, fuzzy
 msgid "Give Feedback"
-msgstr "Enviar opinión"
+msgstr "Dar opinión"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:25
 msgid "We're glad Firefox for Mobile made you happy! Please tell us what you liked."
 msgstr ""
+"Estamos encantados de que lle gustara o Firefox para móbiles! Cóntenos o que "
+"lle gustou."
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:27
-#, fuzzy
 msgid "We're sorry Firefox for Mobile made you sad. Please tell us what happened so we can fix it."
-msgstr "Sentimos que non tivera unha boa experiencia co noso navegador. Contenos o porque e así poderemos melloralo!"
+msgstr ""
+"Sentimos moito que non lle gustara o Firefox para móbiles. Cóntenos o que "
+"pasou para poder arranxalo."
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:29
 msgid "We love ideas for Firefox for Mobile! Please descibe your idea below."
 msgstr ""
+"Encántannos as ideas sobre o Firefox para móbiles! A continuación describa a "
+"súa idea."
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:36
-#, fuzzy
 msgid "Got an idea? <a href=\"%(url)s\">Submit it instead.</a>"
-msgstr "Volve a iniciar no <a href=\"%(dashboard_url)s\">taboleiro</a>."
+msgstr "Ten unha idea? <a href=\"%(url)s\">Envíenola.</a>"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:57
-#, fuzzy
 msgid "Include your last visited site?"
-msgstr "Engada o URL da última páxina visitada?"
+msgstr "Incluír o último sitio visitado?"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:67
-#, fuzzy
 msgid "For your privacy, please don't include any personally identifiable information in your feedback."
-msgstr "Asegúrese de que non hai información persoal que o poida identificar aquí."
+msgstr ""
+"Para protexer a súa privacidade, non inclúa información persoal que o poida "
+"identificar na súa opinión."
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:81
-#, fuzzy
 msgid "Send Feedback"
 msgstr "Enviar opinión"
 
@@ -523,95 +521,96 @@ msgid "Super! Please tell us more!"
 msgstr "Xenial! Contenos máis!"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:26
-#, fuzzy
 msgid "Ack! Please tell us what to fix!"
-msgstr "Sentímolo! Contenos máis!"
+msgstr "Arg! Cóntenos o que hai que arranxar!"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:28
 msgid "Awesome! Please enter your idea below:"
-msgstr ""
+msgstr "Incríbel! A continuación escriba a súa idea:"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:39
 msgid "Add URL of last visited page?"
-msgstr "Engada o URL da última páxina visitada?"
+msgstr "Engadir o URL da última páxina visitada?"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:67
 msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
 msgstr ""
+"Ou enviar as súas ideas a través da nosa <a href=\"%(url_idea)s\">caixa de "
+"ideas</a>!"
 
 #: apps/feedback/templates/feedback/mobile/index.html:26
 msgid "We love feedback about Firefox for Mobile! What would you like to tell us?"
 msgstr ""
+"Encántannos as súas opinións sobre o Firefox para móbiles! Gustaríalle "
+"contarnos algo?"
 
 #: apps/feedback/templates/feedback/mobile/index.html:36
 msgid "Firefox made me happy"
-msgstr ""
+msgstr "O Firefox faime feliz"
 
 #: apps/feedback/templates/feedback/mobile/index.html:41
 msgid "Firefox made me sad"
-msgstr ""
+msgstr "O Firefox entristéceme"
 
 #: apps/feedback/templates/feedback/mobile/index.html:46
 msgid "I have an idea for Firefox"
-msgstr ""
+msgstr "Teño unha idea para o Firefox"
 
 #: apps/feedback/templates/feedback/mobile/index.html:54
-#, fuzzy
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(url)s\">Firefox Support</a>."
-msgstr "Se quere ver onde se enviou a súa opinión, bote unha ollada ao <a href=\"%(url)s\">taboleiro do Firefox Input</a>."
+msgstr ""
+"Se precisa axuda ou ten algún problema co Firefox, visite a <a href=\"%"
+"(url)s\">asistencia do Firefox</a>."
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:29
-#, fuzzy
 msgid "Thanks for sharing your feedback!"
-msgstr "Grazas por enviarnos a súa opinión!"
+msgstr "Grazas por compartir a súa opinión!"
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:30
 msgid "Want to know what's going on with Firefox for Mobile? We have many ways of staying in touch:"
 msgstr ""
+"Quere saber que sucede co Firefox para móbiles? Ten moitas formas de estar "
+"en contacto:"
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:36
-#, fuzzy
 msgid "See where your feedback goes."
-msgstr "Escriba a súa opinión aquí."
+msgstr "Vexa a onde vai a súa opinión."
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:37
-#, fuzzy
 msgid "Feedback Dashboard"
-msgstr "Taboleiro do Input"
+msgstr "Taboleiro de opinións"
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:43
 msgid "Follow us on Twitter."
-msgstr ""
+msgstr "Séguenos no Twitter."
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:50
 msgid "Let's be friends."
-msgstr ""
+msgstr "Sexamos amigos."
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:51
-#, fuzzy
 msgid "Firefox on Facebook"
-msgstr "Firefox"
+msgstr "Firefox no Facebook"
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:57
-#, fuzzy
 msgid "Get the latest news on Firefox."
-msgstr "Encontre as últimas novas de Mozilla:"
+msgstr "Obteña as últimas novas sobre Firefox."
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:58
 msgid "Planet Mozilla"
-msgstr ""
+msgstr "Planet Mozilla"
 
 #: apps/input/__init__.py:47 apps/search/views.py:226 apps/themes/templates/themes/theme_list.html:10
 msgid "Idea"
-msgstr ""
+msgstr "Idea"
 
 #: apps/input/__init__.py:54
 msgid "Rating"
-msgstr ""
+msgstr "Puntuación"
 
 #: apps/input/__init__.py:61
 msgid "Broken Website"
-msgstr ""
+msgstr "Sitio web roto"
 
 #: apps/input/__init__.py:78
 msgid "Firefox"
@@ -639,11 +638,11 @@ msgstr "Mac OS X"
 
 #: apps/input/__init__.py:180
 msgid "Maemo"
-msgstr ""
+msgstr "Maemo"
 
 #: apps/input/__init__.py:187
 msgid "Android"
-msgstr ""
+msgstr "Android"
 
 #: apps/input/__init__.py:194
 msgid "Linux"
@@ -654,34 +653,31 @@ msgid "Other"
 msgstr "Outro"
 
 #: apps/input/helpers.py:71
-#, fuzzy
 msgid "{0} day ago"
 msgid_plural "{0} days ago"
-msgstr[0] "fai {0}"
-msgstr[1] "fai {0}"
+msgstr[0] "fai {0} día"
+msgstr[1] "fai {0} días"
 
 #: apps/input/helpers.py:77
-#, fuzzy
 msgid "{0} hour ago"
 msgid_plural "{0} hours ago"
-msgstr[0] "fai {0}"
-msgstr[1] "fai {0}"
+msgstr[0] "fai {0} hora"
+msgstr[1] "fai {0} horas"
 
 #: apps/input/helpers.py:80
-#, fuzzy
 msgid "{0} minute ago"
 msgid_plural "{0} minutes ago"
-msgstr[0] "fai {0}"
-msgstr[1] "fai {0}"
+msgstr[0] "fai {0} minuto"
+msgstr[1] "fai {0} minutos"
 
 #. L10n: This means an event that happened only a few seconds ago.
 #: apps/input/helpers.py:84
 msgid "just now"
-msgstr ""
+msgstr "agora mesmo"
 
 #: apps/search/client.py:210
 msgid "Query has timed out."
-msgstr "A consulta excedeu o tempo de espera."
+msgstr "A consulta esgotou o tempo de espera."
 
 #. L10n: Sphinx is the name of the search engine software.
 #: apps/search/client.py:213
@@ -699,10 +695,9 @@ msgid "-- all --"
 msgstr "-- todos --"
 
 #: apps/search/forms.py:38
-#, fuzzy
 msgctxt "platform_choice"
 msgid "-- all --"
-msgstr "-- todos --"
+msgstr "-- todas --"
 
 #: apps/search/forms.py:48
 msgctxt "locale_choice"
@@ -710,9 +705,8 @@ msgid "-- all --"
 msgstr "-- todos --"
 
 #: apps/search/forms.py:55
-#, fuzzy
 msgid "Search by keyword"
-msgstr "Termos de busca"
+msgstr "Busca por palabra chave"
 
 #: apps/search/forms.py:56 apps/website_issues/forms.py:55
 msgid "Product:"
@@ -724,7 +718,7 @@ msgstr "Versión:"
 
 #: apps/search/forms.py:60
 msgid "Sentiment:"
-msgstr "Opinión:"
+msgstr "Parecer:"
 
 #: apps/search/forms.py:62
 msgid "Locale:"
@@ -732,7 +726,7 @@ msgstr "Idioma:"
 
 #: apps/search/forms.py:64
 msgid "PLATFORM:"
-msgstr ""
+msgstr "PLATAFORMA:"
 
 #: apps/search/forms.py:70
 msgid "Date range:"
@@ -744,9 +738,8 @@ msgid "to"
 msgstr "ao"
 
 #: apps/search/views.py:93 apps/search/views.py:112
-#, fuzzy
 msgid "Firefox Input"
-msgstr "Firefox"
+msgstr "Firefox Input"
 
 #: apps/search/views.py:94
 msgid "Search Results in Firefox Beta Feedback."
@@ -766,9 +759,8 @@ msgid "ATOM feed for this search"
 msgstr "Canal ATOM para esta busca"
 
 #: apps/search/templates/search/search.html:20 apps/themes/templates/themes/index.html:10 apps/website_issues/templates/website_issues/sites.html:22 templates/includes/filters.html:6
-#, fuzzy
 msgid "Product"
-msgstr "Produto:"
+msgstr "Produto"
 
 #: apps/search/templates/search/search_form.html:19
 msgid "Search"
@@ -788,15 +780,20 @@ msgstr "Sentímolo, produciuse un erro coa súa busca."
 
 #: apps/search/templates/search/unavailable.html:10
 msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
-msgstr "Actualmente o noso motor de busca podería estar non dispoñíbel. Poderías volver a iniciar no <a href=\"%(url)s\">taboleiro</a> e tentalo de novo máis tarde."
+msgstr ""
+"Actualmente o noso motor de busca podería estar non dispoñíbel. Podería "
+"volver a iniciar no <a href=\"%(url)s\">taboleiro</a> e tentalo de novo máis "
+"tarde."
 
 #: apps/search/templates/search/unavailable.html:17
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
-msgstr "Se o problema persiste, escriba <a href=\"%(bug_url)s\">un informe de erro</a>, indicando o URL o que estaba intentando acceder."
+msgstr ""
+"Se o problema persiste, escriba <a href=\"%(bug_url)s\">un informe de "
+"erro</a>, indicando o URL ao que estaba tentando acceder."
 
 #: apps/search/templates/search/unavailable.html:24
 msgid "Include the following error message in your bug report:"
-msgstr "Inclúa a seguinte mensaxe de erro no teu informe:"
+msgstr "Inclúa a seguinte mensaxe de erro no seu informe:"
 
 #: apps/search/templates/search/unavailable.html:28
 msgid "Thanks!"
@@ -804,86 +801,74 @@ msgstr "Grazas!"
 
 #: apps/search/templates/search/includes/ratings_chart.html:12
 msgid "Loading ratings history..."
-msgstr ""
+msgstr "Cargando o historial de valoracións..."
 
 #: apps/themes/views.py:26 apps/themes/views.py:50
-#, fuzzy
 msgid "All"
-msgstr "todo"
+msgstr "Todo"
 
 #: apps/themes/views.py:26 apps/website_issues/templates/website_issues/sites.html:35
 msgid "All feedback"
 msgstr "Todas as opinións"
 
 #: apps/themes/views.py:31 apps/website_issues/templates/website_issues/sites.html:36
-#, fuzzy
 msgid "Praise only"
-msgstr "Loanza"
+msgstr "Só loanzas"
 
 #: apps/themes/views.py:35 apps/website_issues/templates/website_issues/sites.html:37
-#, fuzzy
 msgid "Issues only"
-msgstr "Problemas"
+msgstr "Só incidencias"
 
 #: apps/themes/views.py:39
-#, fuzzy
 msgid "Ideas only"
-msgstr "Problemas"
+msgstr "Só ideas"
 
 #: apps/themes/views.py:50
-#, fuzzy
 msgid "All Platforms"
-msgstr "Plataforma"
+msgstr "Todas as plataformas"
 
 #: apps/themes/templates/themes/index.html:2 templates/base.html:37
 msgid "Themes"
 msgstr "Temas"
 
 #: apps/themes/templates/themes/index.html:35
-#, fuzzy
 msgid "Common Themes"
-msgstr "Temas"
+msgstr "Temas comúns"
 
 #: apps/themes/templates/themes/theme.html:4 apps/themes/templates/themes/theme.html:17 apps/website_issues/templates/website_issues/theme.html:19
 msgid "Theme"
 msgstr "Tema"
 
 #: apps/themes/templates/themes/theme.html:15
-#, fuzzy
 msgid "Back to all themes &raquo;"
-msgstr "Volver a todos os sitios &raquo;"
+msgstr "Volver a todos os temas &raquo;"
 
 #: apps/themes/templates/themes/theme.html:28 apps/website_issues/templates/website_issues/theme.html:30 apps/website_issues/templates/website_issues/includes/paginate_sites.html:3
-#, fuzzy
 msgid "&laquo; Previous Page"
-msgstr "&laquo; anterior"
+msgstr "&laquo; Páxina anterior"
 
 #: apps/themes/templates/themes/theme.html:36 apps/website_issues/templates/website_issues/theme.html:38 apps/website_issues/templates/website_issues/includes/paginate_sites.html:12
-#, fuzzy
 msgid "Next Page &raquo;"
-msgstr "seguinte &raquo;"
+msgstr "Seguinte páxina &raquo;"
 
 #: apps/themes/templates/themes/theme_list.html:14
 msgid "See all opinions"
-msgstr ""
+msgstr "Ver todas as opinións"
 
 #: apps/themes/templates/themes/theme_list.html:16 apps/website_issues/templates/website_issues/includes/single_site.html:21
-#, fuzzy
 msgid "%(count)s similar message"
 msgid_plural "%(count)s similar messages"
-msgstr[0] "Últimas {count} mensaxes"
-msgstr[1] "Últimas {count} mensaxes"
+msgstr[0] "%(count)s mensaxe semellante"
+msgstr[1] "%(count)s mensaxes semellantes"
 
 #: apps/website_issues/forms.py:36
-#, fuzzy
 msgctxt "website_issues_search"
 msgid "Search for domain"
-msgstr "Termos de busca"
+msgstr "Buscar por dominio"
 
 #: apps/website_issues/templates/website_issues/sites.html:5 apps/website_issues/templates/website_issues/includes/sites_list.html:14
-#, fuzzy
 msgid "Broken Sites"
-msgstr "Sitios pouco frecuentes"
+msgstr "Sitios rotos"
 
 #: apps/website_issues/templates/website_issues/sites.html:6 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/includes/sites_list.html:16
 #: templates/base.html:38 templates/includes/nav_buttons.html:4
@@ -891,26 +876,22 @@ msgid "Sites"
 msgstr "Sitios"
 
 #: apps/website_issues/templates/website_issues/sites.html:35
-#, fuzzy
 msgctxt "sites_search_all_feedback"
 msgid "All"
-msgstr "todo"
+msgstr "Todo"
 
 #: apps/website_issues/templates/website_issues/sites.html:44
-#, fuzzy
 msgid "Platforms"
-msgstr "Plataforma"
+msgstr "Plataformas"
 
 #: apps/website_issues/templates/website_issues/sites.html:47
-#, fuzzy
 msgctxt "sites_search_all_platforms"
 msgid "All"
-msgstr "todo"
+msgstr "Todo"
 
 #: apps/website_issues/templates/website_issues/sites.html:47
-#, fuzzy
 msgid "All platforms"
-msgstr "Plataforma"
+msgstr "Todas as plataformas"
 
 #: apps/website_issues/templates/website_issues/sites.html:72
 msgid "Uncommon Sites"
@@ -925,9 +906,8 @@ msgid "Back to {domain} &raquo;"
 msgstr "Volver a {domain} &raquo;"
 
 #: apps/website_issues/templates/website_issues/theme.html:22
-#, fuzzy
 msgid "Theme for {domain}"
-msgstr "Termos de busca"
+msgstr "Tema para {domain}"
 
 #: apps/website_issues/templates/website_issues/includes/single_site.html:1
 msgid "Back to all sites &raquo;"
@@ -938,44 +918,41 @@ msgid "Sites with only one message"
 msgstr "Sitios cunha soa mensaxe"
 
 #: apps/website_issues/templates/website_issues/includes/sites_list.html:29
-#, fuzzy
 msgid "No results found!"
-msgstr "Non se encontraron resultados."
+msgstr "Non se atoparon resultados!"
 
 #: apps/website_issues/templates/website_issues/includes/sites_list.html:30
 msgid "reset my search"
 msgstr "restabelecer a miña busca"
 
 #: apps/website_issues/templates/website_issues/includes/sites_list.html:46
-#, fuzzy
 msgid "%(count)s message"
 msgid_plural "%(count)s messages"
-msgstr[0] "Últimas {count} mensaxes"
-msgstr[1] "Últimas {count} mensaxes"
+msgstr[0] "%(count)s mensaxe"
+msgstr[1] "%(count)s mensaxes"
 
 #: apps/website_issues/templates/website_issues/includes/sites_list.html:55
 msgid "{percentage}% praise"
-msgstr "{percentage}% louvanza"
+msgstr "{percentage}% loanza"
 
 #: apps/website_issues/templates/website_issues/includes/sites_list.html:57
 msgid "{percentage}% issues"
-msgstr "{percentage}% problemas"
+msgstr "{percentage}% incidencias"
 
 #. "similar" refers to "similar messages".
 #: apps/website_issues/templates/website_issues/includes/sites_list.html:70
-#, fuzzy
 msgid "%(count)s similar"
 msgid_plural "%(count)s similar"
-msgstr[0] "Últimas {count} mensaxes"
-msgstr[1] "Últimas {count} mensaxes"
+msgstr[0] "%(count)s semellante"
+msgstr[1] "%(count)s semellantes"
 
 #: templates/404.html:4
 msgid "Not Found"
-msgstr "Non se encontrou"
+msgstr "Non se atopou"
 
 #: templates/404.html:6
 msgid "I'm sorry, I could not find what you were looking for."
-msgstr "Síntoo, non foi posíbel encontrar o que estaba buscando."
+msgstr "Síntoo, non foi posíbel atopar o que estaba buscando."
 
 #: templates/404.html:9 templates/500.html:14
 msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
@@ -991,34 +968,44 @@ msgstr "Erro interno do servidor"
 
 #: templates/500.html:7
 msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
-msgstr "Produciuse un erro non controlado no aplicativo. Rexistrouse o erro e notificóuselle a un administrador. Desculpámonos polos inconvenientes!"
+msgstr ""
+"Produciuse un erro non controlado no aplicativo. Rexistrouse o erro e "
+"notificóuselle a un administrador. Pedímoslle desculpas polos "
+"inconvenientes!"
 
 #: templates/500.html:20
 msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
 msgstr "Se tes información adicional sobre como se produciu este problema, escribe <a href=\"%(bug_url)s\">un informe de erro.</a> Grazas!"
 
 #: templates/about.html:3 templates/includes/footer.html:11
-#, fuzzy
 msgid "About Firefox Input"
-msgstr "Firefox"
+msgstr "Sobre o Firefox Input"
 
 #: templates/about.html:7
 msgid "Hello!"
-msgstr ""
+msgstr "Hola!"
 
 #: templates/about.html:9
 msgid ""
 "<strong>Firefox Input</strong> is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it "
 "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
 msgstr ""
+"O <strong>Firefox Input</strong> é o principal mecanismo de Mozilla para a "
+"recollida de opinións. Está preparado para ser un método de comunicación dun "
+"so sentido sobre as súas experiencias usando o Firefox, a Internet que ve a "
+"través del e o que Mozilla pode facer para melloralas. O sistema está "
+"dispoñíbel a través dunha ampla variedade de mecanismos de envío nos tres "
+"canais principais de binarios."
 
 #: templates/about.html:18
 msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(feedback_url)s\">the feedback submission page</a>!"
 msgstr ""
+"Para enviar opinións sobre a súa versión do Firefox, vaia a <a href=\"%"
+"(feedback_url)s\">páxina de envío de opinións</a>!"
 
 #: templates/about.html:24
 msgid "Open Data"
-msgstr ""
+msgstr "Datos abertos"
 
 #: templates/about.html:27
 msgid ""
@@ -1028,16 +1015,17 @@ msgstr ""
 
 #: templates/about.html:34
 msgid "Source Code"
-msgstr ""
+msgstr "Código fonte"
 
 #: templates/about.html:37
 msgid "The code for the Firefox Input web application can be found <a href=\"%(source_url)s\">on GitHub</a>!"
 msgstr ""
+"O código do aplicativo web Firefox Input pode atoparse <a href=\"%"
+"(source_url)s\">en GitHub</a>!"
 
 #: templates/base.html:5 templates/base_mobile.html:6
-#, fuzzy
 msgid "Welcome"
-msgstr "Benvida!"
+msgstr "Benvida"
 
 #: templates/base.html:22 templates/base_mobile_old.html:19 templates/base_old.html:22
 msgid "Proceed to main content"
@@ -1049,17 +1037,15 @@ msgstr "Ir ao pé da páxina"
 
 #: templates/base.html:30
 msgid "<strong>Firefox</strong> Input Dashboard"
-msgstr ""
+msgstr "Taboleiro do <strong>Firefox</strong> Input"
 
 #: templates/base.html:36
-#, fuzzy
 msgid "Feedback"
-msgstr "Enviar opinión"
+msgstr "Opinión"
 
 #: templates/base_mobile.html:21
-#, fuzzy
 msgid "Dashboard"
-msgstr "Taboleiro do Input"
+msgstr "Taboleiro"
 
 #: templates/base_mobile_old.html:5 templates/base_old.html:5
 msgid "Welcome!"
@@ -1091,11 +1077,13 @@ msgstr ""
 
 #: templates/csrf_error.html:5
 msgid "CSRF Protection Error"
-msgstr ""
+msgstr "Erro de protección CSRF"
 
 #: templates/csrf_error.html:8
 msgid "There was an error verifying your CSRF token. Your request could not be processed. We apologize for the inconvenience!"
 msgstr ""
+"Produciuse un erro ao verificar o seu token CSRF. Non foi posíbel procesar a "
+"súa solicitude. Pedímoslle desculpas polos inconvenientes!"
 
 #: templates/csrf_error.html:15
 msgid ""
@@ -1104,9 +1092,10 @@ msgid ""
 msgstr ""
 
 #: templates/csrf_error.html:24
-#, fuzzy
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-msgstr "Se o problema persiste, escriba <a href=\"%(bug_url)s\">un informe de erro</a>, indicando o URL o que estaba intentando acceder."
+msgstr ""
+"Se o problema persiste, escriba <a href=\"%(bug_url)s\">un informe de "
+"erro.</a> Grazas!"
 
 #: templates/includes/footer_feedback.html:5 templates/includes/lang_switcher.html:2
 msgid "Other languages:"
@@ -1121,25 +1110,28 @@ msgid "Clusters"
 msgstr "Grupos"
 
 #: templates/includes/ua_overlay.html:3
-#, fuzzy
 msgid "User Agent"
-msgstr "Copiar axente de usuario"
+msgstr "Axente de usuario"
 
 #: templates/includes/ua_overlay.html:7
 msgid "Hit Ctrl+C (Cmd+C on Mac) to copy and close."
-msgstr ""
+msgstr "Prema CTRL+C (CMD+C en Mac) para copiar e pechar."
 
 #: templates/includes/ua_overlay.html:9
 msgid "User agent copied"
-msgstr ""
+msgstr "Axente de usuario copiado"
 
 #: templates/includes/ua_overlay.html:10
 msgid "Close"
-msgstr ""
+msgstr "Pechar"
 
 #: templates/includes/welcome.html:2
+#, fuzzy
 msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
 msgstr ""
+"<strong>Benvida ao Firefox Input!</strong> Este é o principal aplicativo de "
+"Mozilla para recopilar as opinións dos usuarios. <a href=\"%"
+"(about_url)s\">Obteña máis información...</a>"
 
 #, fuzzy
 #~ msgid "Invalid feedback type"
