@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 15:37+0200\n"
-"PO-Revision-Date: 2011-04-12 10:08+0200\n"
+"PO-Revision-Date: 2011-05-27 11:26+0200\n"
 "Last-Translator: saneyuki_s <saneyuki.snyk@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.1.5\n"
+"X-Generator: Pootle 2.1.6\n"
 
 #. Formerly called "happy"
 #: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:33
@@ -45,7 +45,7 @@ msgstr "過去のメッセージ &raquo;"
 #: apps/dashboard/templates/dashboard/devices.html:8 apps/dashboard/templates/dashboard/manufacturers.html:9 apps/feedback/helpers.py:16 apps/search/forms.py:41 apps/search/forms.py:44
 #: apps/search/forms.py:49
 msgid "Unknown"
-msgstr "不明"
+msgstr "未知"
 
 #: apps/dashboard/templates/dashboard/devices.html:15
 msgid "Devices"
@@ -226,12 +226,11 @@ msgstr "フィードバックは既に受信しています。ご協力ありが
 
 #: apps/feedback/forms.py:106
 msgid "Please describe what you liked."
-msgstr ""
+msgstr "気に入った点を記入してください。"
 
 #: apps/feedback/forms.py:123
-#, fuzzy
 msgid "Please describe your problem below."
-msgstr "改善案を記入してください。"
+msgstr "問題を記述してください。"
 
 #: apps/feedback/forms.py:140
 msgid "Describe your idea below."
@@ -305,33 +304,28 @@ msgid "To do that, simply go to our download page and install/update to the <a h
 msgstr "そのためには、ダウンロードページから <a href=\"%(url)s\">最新バージョンの Firefox をダウンロード</a> してインストールしてください！"
 
 #: apps/feedback/templates/feedback/feedback-form.html:6 apps/feedback/templates/feedback/index.html:21
-#, fuzzy
 msgid "Firefox Made Me Happy"
-msgstr "Firefox の良い点は..."
+msgstr "Firefox の良い点"
 
 #: apps/feedback/templates/feedback/feedback-form.html:8 apps/feedback/templates/feedback/index.html:22
-#, fuzzy
 msgid "Firefox Made Me Sad"
-msgstr "Firefox の悪い点は..."
+msgstr "Firefox の悪い点"
 
 #: apps/feedback/templates/feedback/feedback-form.html:10 apps/feedback/templates/feedback/index.html:23
 msgid "I Have an Idea for Firefox"
-msgstr ""
+msgstr "Firefox への提案"
 
 #: apps/feedback/templates/feedback/feedback-form.html:15
-#, fuzzy
 msgid "Super! It's great to hear that you like our pre-released browser."
 msgstr "プレリリース版のブラウザを気に入っていただきありがとうございます！ あなたが特に気に入った点について教えてください。"
 
 #: apps/feedback/templates/feedback/feedback-form.html:17
-#, fuzzy
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it."
-msgstr "私たちのブラウザで充分な使い心地が得られなかったことをお詫び申し上げます。改善のために修正すべき点とその理由を教えてください。"
+msgstr "私たちのブラウザが快適に動作しなかったことをお詫び申し上げます。改善のために修正すべき点とその理由を教えてください。"
 
 #: apps/feedback/templates/feedback/feedback-form.html:19
-#, fuzzy
 msgid "Have an idea how Firefox could be better? Let us know."
-msgstr "Firefox をより良いものにするための意見をお持ちですか？ ぜひ、お知らせください！"
+msgstr "Firefox をより良いものにするための意見をお持ちですか？ ぜひ、お知らせください。"
 
 #: apps/feedback/templates/feedback/feedback-form.html:23
 msgid "Go Back"
@@ -339,11 +333,11 @@ msgstr "戻る"
 
 #: apps/feedback/templates/feedback/feedback-form.html:44
 msgid "Include the URL of a site that worked better."
-msgstr ""
+msgstr "より快適に動作した Web サイト の URL を含めてください。"
 
 #: apps/feedback/templates/feedback/feedback-form.html:46
 msgid "Include the URL of the site with the problem."
-msgstr ""
+msgstr "動作に問題のあった Web サイト の URL を含めてください。"
 
 #: apps/feedback/templates/feedback/feedback-form.html:57
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
@@ -354,14 +348,12 @@ msgid "Submitting Feedback"
 msgstr "フィードバックを送信"
 
 #: apps/feedback/templates/feedback/feedback-form.html:83
-#, fuzzy
 msgid "If you have an idea to offer us instead, please use our"
-msgstr "他に何か意見がある場合は、<a href=\"%(url_idea)s\">意見ボックス</a> からお知らせください！"
+msgstr "何か提案がある場合は、こちらからお願いします。"
 
 #: apps/feedback/templates/feedback/feedback-form.html:84
-#, fuzzy
 msgid "suggestion box"
-msgstr "提案"
+msgstr "提案フォーム"
 
 #: apps/feedback/templates/feedback/feedback.html:19
 msgid "Super! It's great to hear that you like our pre-released browser. Please explain what you specifically like!"
@@ -405,37 +397,34 @@ msgid "If you need help or have a problem with Firefox, please visit <a href=\"%
 msgstr "Firefox で起こる問題にヘルプが必要な場合は、<a href=\"%(support_url)s\">Firefox サポート</a> サイトをご利用ください。"
 
 #: apps/feedback/templates/feedback/thanks.html:6
-#, fuzzy
 msgid "Thanks"
-msgstr "ありがとうございます！"
+msgstr "ありがとうございます"
 
 #: apps/feedback/templates/feedback/thanks.html:15 apps/feedback/templates/feedback/mobile/thanks.html:3
 msgid "Thanks for Your Feedback"
 msgstr "フィードバックありがとうございます"
 
+# 上下に分割されている個所
 #: apps/feedback/templates/feedback/thanks.html:17
-#, fuzzy
 msgid "Your feedback will be used to create a"
-msgstr "あなたのフィードバックは将来の Firefox リリースでより良い Web 体験を実現するために利用されます。"
+msgstr "あなたのフィードバックは"
 
+# 上下に分割されている個所
 #: apps/feedback/templates/feedback/thanks.html:18
-#, fuzzy
 msgid "better experience in future releases of Firefox."
-msgstr "あなたのフィードバックは将来の Firefox リリースでより良い Web 体験を実現するために利用されます。"
+msgstr "将来の Firefox でのより良い Web 体験を実現するために利用されます。"
 
 #: apps/feedback/templates/feedback/thanks.html:24
 msgid "Have more to say?"
-msgstr ""
+msgstr "他に意見がありますか？"
 
 #: apps/feedback/templates/feedback/thanks.html:26
-#, fuzzy
 msgid "Feel free to <a href=\"%(fb_url)s\">submit more feedback</a>"
-msgstr "<a href=\"%(dashboard_url)s\">Firefox フィードバックダッシュボード</a> を開く"
+msgstr "気軽に<a href=\"%(dashboard_url)s\">さらなるフィードバックをお寄せください</a> "
 
 #: apps/feedback/templates/feedback/thanks.html:35
-#, fuzzy
 msgid "Visit the <a href=\"%(dash_url)s\">Firefox Feedback Dashboard</a>"
-msgstr "<a href=\"%(dashboard_url)s\">Firefox フィードバックダッシュボード</a> を開く"
+msgstr "<a href=\"%(dashboard_url)s\">Firefox フィードバックダッシュボード</a> を見る"
 
 #: apps/feedback/templates/feedback/thanks.html:42
 msgid "Find the latest news about Firefox."
@@ -451,11 +440,11 @@ msgstr "送信するフィードバックの種類を選んでください:"
 
 #: apps/feedback/templates/feedback/mobile/beta_index.html:13 apps/feedback/templates/feedback/mobile/beta_index.html:15
 msgid "Firefox makes me happy ..."
-msgstr "Firefox の良い点は..."
+msgstr "Firefox の良い点"
 
 #: apps/feedback/templates/feedback/mobile/beta_index.html:18 apps/feedback/templates/feedback/mobile/beta_index.html:20
 msgid "Firefox makes me sad ..."
-msgstr "Firefox の悪い点は..."
+msgstr "Firefox の悪い点"
 
 #: apps/feedback/templates/feedback/mobile/download.html:3
 msgid "Download Beta"
@@ -467,51 +456,44 @@ msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head 
 msgstr "申し訳ありませんが、フィードバックを送信していただくには Firefox の最新のベータ版が必要です。ベータ版のページへと進み、<a href=\"%(url)s\">ダウンロード</a>してください。"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:9 apps/feedback/templates/feedback/mobile/thanks.html:16
-#, fuzzy
 msgid "Back to Feedback"
-msgstr "最新のフィードバック"
+msgstr "フィードバックに戻る"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:15 apps/feedback/templates/feedback/mobile/index.html:18 apps/feedback/templates/feedback/mobile/thanks.html:22
-#, fuzzy
 msgid "Give Feedback"
-msgstr "フィードバック"
+msgstr "フィードバックの提供"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:25
 msgid "We're glad Firefox for Mobile made you happy! Please tell us what you liked."
-msgstr ""
+msgstr "Firefox for Mobile が快適に動作したことを私たちも嬉しく思います！　あなたが良いと感じた点を教えてください。"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:27
-#, fuzzy
 msgid "We're sorry Firefox for Mobile made you sad. Please tell us what happened so we can fix it."
-msgstr "私たちのブラウザで充分な使い心地が得られなかったことをお詫び申し上げます。改善のために修正すべき点とその理由を教えてください。"
+msgstr "Firefox for Mobile が快適に動作しなかったことをお詫び申し上げます。改善のために修正すべき点と理由を教えてください。"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:29
 msgid "We love ideas for Firefox for Mobile! Please descibe your idea below."
-msgstr ""
+msgstr "Firefox for Mobile への提案を受け付けています！ 下にあなたの提案を記入してください。"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:36
-#, fuzzy
 msgid "Got an idea? <a href=\"%(url)s\">Submit it instead.</a>"
-msgstr "<a href=\"%(dashboard_url)s\">Firefox フィードバックダッシュボード</a> を開く"
+msgstr "何が提案がある場合は<a href=\"%(url)s\">こちらから</a>。"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:57
-#, fuzzy
 msgid "Include your last visited site?"
-msgstr "最後に訪れたページの URL を追加しますか？"
+msgstr "最後に訪れたページの URL を含めますか？"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:67
-#, fuzzy
 msgid "For your privacy, please don't include any personally identifiable information in your feedback."
-msgstr "あなたのプライバシーを保護するため、個人を特定可能な情報をフィードバックに含めないようにしてください。"
+msgstr "あなたのプライバシー保護のため、個人を特定できる情報をフィードバックに含めないようにしてください。"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:81
-#, fuzzy
 msgid "Send Feedback"
-msgstr "フィードバック"
+msgstr "フィードバックを送る"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:24
 msgid "Super! Please tell us more!"
-msgstr "すばらしい！ そう感じたところを詳しく教えてください！"
+msgstr "すばらしい！ そう感じた点を教えてください！"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:26
 msgid "Ack! Please tell us what to fix!"
@@ -527,39 +509,37 @@ msgstr "最後に訪れたページの URL を追加しますか？"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:67
 msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
-msgstr "または、あなたの意見を <a href=\"%(url_idea)s\">意見ボックス</a> から投稿してください！"
+msgstr "または、あなたの意見を <a href=\"%(url_idea)s\">提案ボックス</a> から送信してください！"
 
 #: apps/feedback/templates/feedback/mobile/index.html:26
 msgid "We love feedback about Firefox for Mobile! What would you like to tell us?"
-msgstr ""
+msgstr "Firefox for Mobile についてのフィードバックを募集しています！ なにかお気付きの点はありますか？"
 
 #: apps/feedback/templates/feedback/mobile/index.html:36
-#, fuzzy
 msgid "Firefox made me happy"
-msgstr "Firefox の良い点は..."
+msgstr "Firefox の良い点"
 
 #: apps/feedback/templates/feedback/mobile/index.html:41
-#, fuzzy
 msgid "Firefox made me sad"
-msgstr "Firefox の悪い点は..."
+msgstr "Firefox の悪い点"
 
 #: apps/feedback/templates/feedback/mobile/index.html:46
 msgid "I have an idea for Firefox"
-msgstr ""
+msgstr "Firefox への提案"
 
 #: apps/feedback/templates/feedback/mobile/index.html:54
-#, fuzzy
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(url)s\">Firefox Support</a>."
-msgstr "Firefox で起こる問題にヘルプが必要な場合は、<a href=\"%(support_url)s\">Firefox サポート</a> サイトをご利用ください。"
+msgstr ""
+"Firefox で起こる問題にヘルプが必要な場合は、<a href=\"%(support_url)s\">Firefox "
+"サポートサイト</a>をご利用ください。"
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:29
-#, fuzzy
 msgid "Thanks for sharing your feedback!"
-msgstr "フィードバックを提供していただき、ありがとうございます！"
+msgstr "フィードバックの提供ありがとうございます！"
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:30
 msgid "Want to know what's going on with Firefox for Mobile? We have many ways of staying in touch:"
-msgstr ""
+msgstr "Firefox for Mobile について何が起きているか興味がありませんか？　以下のリンクで知ることができます。"
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:36
 msgid "See where your feedback goes."
@@ -574,7 +554,6 @@ msgid "Follow us on Twitter."
 msgstr "Twitter で私たちをフォローする。"
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:50
-#, fuzzy
 msgid "Let's be friends."
 msgstr "友達になる"
 
@@ -772,7 +751,7 @@ msgstr "現在、検索エンジンを使用することができない可能性
 
 #: apps/search/templates/search/unavailable.html:17
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
-msgstr "問題が繰り返し起こるときは、<a href=\"%(bug_url)s\">バグとして報告</a>し、あなたがアクセスした URL を教えてください。"
+msgstr "問題が繰り返し起こるときは、<a href=\"%(bug_url)s\">バグ報告</a>にて、あなたがアクセスした URL を教えてください。"
 
 #: apps/search/templates/search/unavailable.html:24
 msgid "Include the following error message in your bug report:"
@@ -804,7 +783,7 @@ msgstr "悪い点のみ"
 
 #: apps/themes/views.py:39
 msgid "Ideas only"
-msgstr "意見のみ"
+msgstr "提案のみ"
 
 #: apps/themes/views.py:50
 msgid "All Platforms"
@@ -1007,9 +986,8 @@ msgid "Proceed to footer"
 msgstr "フッタ部分へジャンプする"
 
 #: templates/base.html:30
-#, fuzzy
 msgid "<strong>Firefox</strong> Input Dashboard"
-msgstr "<strong>Firefox ベータ版</strong> Input ダッシュボード"
+msgstr "<strong>Firefox</strong> Input ダッシュボード"
 
 #: templates/base.html:36
 msgid "Feedback"
@@ -1025,7 +1003,7 @@ msgstr "ようこそ！"
 
 #: templates/base_mobile_old.html:30 templates/base_old.html:35
 msgid "Input Dashboard"
-msgstr "Input Dashboard"
+msgstr "Input ダッシュボード"
 
 #: templates/base_mobile_old.html:56 templates/base_old.html:63 templates/includes/footer.html:8
 msgid "Privacy Policy"
