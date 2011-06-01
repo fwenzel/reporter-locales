@@ -13,19 +13,19 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.6.0\n"
 
 #. Formerly called "happy"
-#: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:33
+#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:33
 #: apps/search/forms.py:32 apps/search/views.py:224 apps/themes/views.py:30 apps/themes/templates/themes/theme_list.html:8 apps/website_issues/templates/website_issues/sites.html:36
 #: apps/website_issues/templates/website_issues/includes/single_site.html:12
 msgid "Praise"
 msgstr "Ros"
 
 #. Formerly called "sad"
-#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:33 apps/search/views.py:225
+#: apps/dashboard/views.py:56 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:33 apps/search/views.py:225
 #: apps/themes/views.py:34 apps/website_issues/templates/website_issues/sites.html:37
 msgid "Issues"
 msgstr "Problemer"
 
-#: apps/dashboard/views.py:56 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:34 apps/themes/views.py:38
+#: apps/dashboard/views.py:57 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:34 apps/themes/views.py:38
 msgid "Ideas"
 msgstr ""
 
@@ -441,12 +441,25 @@ msgstr ""
 msgid "Feel free to <a href=\"%(fb_url)s\">submit more feedback</a>"
 msgstr "Start forfra i <a href=\"%(dashboard_url)s\">kontrolpanelet</a>."
 
+#: apps/feedback/templates/feedback/thanks.html:33
+msgid "Contribute to Mozilla."
+msgstr ""
+
 #: apps/feedback/templates/feedback/thanks.html:35
+msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>"
+msgstr ""
+
+#: apps/feedback/templates/feedback/thanks.html:42
+#, fuzzy
+msgid "Want to see where your feedback goes?"
+msgstr "Skriv din feedback her."
+
+#: apps/feedback/templates/feedback/thanks.html:44
 #, fuzzy
 msgid "Visit the <a href=\"%(dash_url)s\">Firefox Feedback Dashboard</a>"
 msgstr "Start forfra i <a href=\"%(dashboard_url)s\">kontrolpanelet</a>."
 
-#: apps/feedback/templates/feedback/thanks.html:42
+#: apps/feedback/templates/feedback/thanks.html:51
 #, fuzzy
 msgid "Find the latest news about Firefox."
 msgstr "Se de seneste nyheder fra Mozilla:"
@@ -617,39 +630,39 @@ msgstr ""
 msgid "Firefox"
 msgstr "Firefox"
 
-#: apps/input/__init__.py:100
+#: apps/input/__init__.py:101
 msgid "Mobile"
 msgstr "Mobilen"
 
-#: apps/input/__init__.py:152
+#: apps/input/__init__.py:154
 msgid "Windows XP"
 msgstr "Windows XP"
 
-#: apps/input/__init__.py:159
+#: apps/input/__init__.py:161
 msgid "Windows 7"
 msgstr "Windows 7"
 
-#: apps/input/__init__.py:166
+#: apps/input/__init__.py:168
 msgid "Windows Vista"
 msgstr "Windows Vista"
 
-#: apps/input/__init__.py:173
+#: apps/input/__init__.py:175
 msgid "Mac OS X"
 msgstr "Mac OS X"
 
-#: apps/input/__init__.py:180
+#: apps/input/__init__.py:182
 msgid "Maemo"
 msgstr ""
 
-#: apps/input/__init__.py:187
+#: apps/input/__init__.py:189
 msgid "Android"
 msgstr ""
 
-#: apps/input/__init__.py:194
+#: apps/input/__init__.py:196
 msgid "Linux"
 msgstr "Linux"
 
-#: apps/input/__init__.py:201
+#: apps/input/__init__.py:203
 msgid "Other"
 msgstr "Andet"
 
@@ -1158,10 +1171,6 @@ msgstr ""
 
 #~ msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
 #~ msgstr "For at gøre dette, gå til vores download-side og installer eller opdater til den <a href=\"%(url)s\">seneste Firefox beta!</a>"
-
-#, fuzzy
-#~ msgid "Want to see where your feedback goes?"
-#~ msgstr "Skriv din feedback her."
 
 #, fuzzy
 #~ msgid "&laquo; Previous Page;"

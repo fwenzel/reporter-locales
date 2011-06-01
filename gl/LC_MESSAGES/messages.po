@@ -14,19 +14,19 @@ msgstr ""
 "X-Generator: Pootle 2.1.6\n"
 
 #. Formerly called "happy"
-#: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:33
+#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:33
 #: apps/search/forms.py:32 apps/search/views.py:224 apps/themes/views.py:30 apps/themes/templates/themes/theme_list.html:8 apps/website_issues/templates/website_issues/sites.html:36
 #: apps/website_issues/templates/website_issues/includes/single_site.html:12
 msgid "Praise"
 msgstr "Loanza"
 
 #. Formerly called "sad"
-#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:33 apps/search/views.py:225
+#: apps/dashboard/views.py:56 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:33 apps/search/views.py:225
 #: apps/themes/views.py:34 apps/website_issues/templates/website_issues/sites.html:37
 msgid "Issues"
 msgstr "Incidencias"
 
-#: apps/dashboard/views.py:56 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:34 apps/themes/views.py:38
+#: apps/dashboard/views.py:57 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:34 apps/themes/views.py:38
 msgid "Ideas"
 msgstr "Ideas"
 
@@ -287,9 +287,7 @@ msgstr "Logo do Firefox"
 
 #: apps/feedback/templates/feedback/beta_index.html:25
 msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
-msgstr ""
-"Se precisa axuda ou ten algún problema co Firefox, visite a nosa <a href=\"%"
-"(support_url)s\">páxina de asistencia</a>."
+msgstr "Se precisa axuda ou ten algún problema co Firefox, visite a nosa <a href=\"%(support_url)s\">páxina de asistencia</a>."
 
 #: apps/feedback/templates/feedback/download.html:3
 msgid "Download Firefox"
@@ -297,15 +295,11 @@ msgstr "Descargar o Firefox"
 
 #: apps/feedback/templates/feedback/download.html:8
 msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-msgstr ""
-"Vaia! Entón quere ofrecernos a súa opinión sobre o Firefox. Grazas, pero "
-"precisa usar a nosa última versión."
+msgstr "Vaia! Entón quere ofrecernos a súa opinión sobre o Firefox. Grazas, pero precisa usar a nosa última versión."
 
 #: apps/feedback/templates/feedback/download.html:14
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-msgstr ""
-"Para facer isto, simplemente vaia a nosa páxina de descargas e "
-"instale/actualice <a href=\"%(url)s\">a última versión do Firefox!</a>"
+msgstr "Para facer isto, simplemente vaia a nosa páxina de descargas e instale/actualice <a href=\"%(url)s\">a última versión do Firefox!</a>"
 
 #: apps/feedback/templates/feedback/feedback-form.html:6 apps/feedback/templates/feedback/index.html:21
 msgid "Firefox Made Me Happy"
@@ -321,15 +315,11 @@ msgstr "Teño unha idea para o Firefox"
 
 #: apps/feedback/templates/feedback/feedback-form.html:15
 msgid "Super! It's great to hear that you like our pre-released browser."
-msgstr ""
-"Fantástico! É xenial escoitar que lle gusta a versión preliminar do noso "
-"navegador."
+msgstr "Fantástico! É xenial escoitar que lle gusta a versión preliminar do noso navegador."
 
 #: apps/feedback/templates/feedback/feedback-form.html:17
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it."
-msgstr ""
-"Sentimos que non tivera unha boa experiencia co noso navegador. Contenos o "
-"porque e así poderemos melloralo."
+msgstr "Sentimos que non tivera unha boa experiencia co noso navegador. Contenos o porque e así poderemos melloralo."
 
 #: apps/feedback/templates/feedback/feedback-form.html:19
 msgid "Have an idea how Firefox could be better? Let us know."
@@ -349,9 +339,7 @@ msgstr "Inclúa o URL do sitio co problema."
 
 #: apps/feedback/templates/feedback/feedback-form.html:57
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
-msgstr ""
-"Para protexer a súa privacidade, asegúrese de que non hai información que o "
-"poida identificar na súa opinión."
+msgstr "Para protexer a súa privacidade, asegúrese de que non hai información que o poida identificar na súa opinión."
 
 #: apps/feedback/templates/feedback/feedback-form.html:70
 msgid "Submitting Feedback"
@@ -367,9 +355,7 @@ msgstr "caixa de suxestións"
 
 #: apps/feedback/templates/feedback/feedback.html:19
 msgid "Super! It's great to hear that you like our pre-released browser. Please explain what you specifically like!"
-msgstr ""
-"Fantástico! É xenial escoitar que lle gusta versión preliminar do noso "
-"navegador. Explícanos o que lle gustou concretamente!"
+msgstr "Fantástico! É xenial escoitar que lle gusta versión preliminar do noso navegador. Explícanos o que lle gustou concretamente!"
 
 #: apps/feedback/templates/feedback/feedback.html:24
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
@@ -377,9 +363,7 @@ msgstr "Sentimos que non tivera unha boa experiencia co noso navegador. Contenos
 
 #: apps/feedback/templates/feedback/feedback.html:29
 msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please enter your idea below:"
-msgstr ""
-"Entón, gustaríalle facer unha suxestión sobre como mellorar o Firefox? "
-"Xenial! A continuación escriba a súa idea:"
+msgstr "Entón, gustaríalle facer unha suxestión sobre como mellorar o Firefox? Xenial! A continuación escriba a súa idea:"
 
 #: apps/feedback/templates/feedback/feedback.html:47
 msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
@@ -387,20 +371,15 @@ msgstr "Coñece algún sitio web que funcione mellor nesta beta que en versións
 
 #: apps/feedback/templates/feedback/feedback.html:55
 msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
-msgstr ""
-"Tivo algunha incidencia cun sitio web específico? Engada o seu URL e "
-"poderemos atopar a incidencia máis rápido!"
+msgstr "Tivo algunha incidencia cun sitio web específico? Engada o seu URL e poderemos atopar a incidencia máis rápido!"
 
 #: apps/feedback/templates/feedback/feedback.html:76 apps/feedback/templates/feedback/mobile/feedback.html:58
 msgid "Please ensure that there is no personally identifiable information here."
-msgstr ""
-"Asegúrese de que aquí non hai información persoal que o poida identificar."
+msgstr "Asegúrese de que aquí non hai información persoal que o poida identificar."
 
 #: apps/feedback/templates/feedback/feedback.html:85
 msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_idea)s\">idea box</a>!"
-msgstr ""
-"Se no seu lugar ten unha idea para ofrecernos, envíenola a través da nosa <a "
-"href=\"%(url_idea)s\">caixa de ideas</a>!"
+msgstr "Se no seu lugar ten unha idea para ofrecernos, envíenola a través da nosa <a href=\"%(url_idea)s\">caixa de ideas</a>!"
 
 #: apps/feedback/templates/feedback/index.html:15
 msgid "Submit Your Feedback"
@@ -412,9 +391,7 @@ msgstr "A súa opinión axúdanos a mellora Firefox."
 
 #: apps/feedback/templates/feedback/index.html:29
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
-msgstr ""
-"Se precisa axuda ou ten algún problema co Firefox, visite a <a href=\"%"
-"(support_url)s\">asistencia do Firefox</a>."
+msgstr "Se precisa axuda ou ten algún problema co Firefox, visite a <a href=\"%(support_url)s\">asistencia do Firefox</a>."
 
 #: apps/feedback/templates/feedback/thanks.html:6
 msgid "Thanks"
@@ -440,11 +417,25 @@ msgstr "Ten algo máis que dicir?"
 msgid "Feel free to <a href=\"%(fb_url)s\">submit more feedback</a>"
 msgstr "Síntase libre para <a href=\"%(fb_url)s\">enviar máis opinións</a>"
 
+#: apps/feedback/templates/feedback/thanks.html:33
+#, fuzzy
+msgid "Contribute to Mozilla."
+msgstr "Planet Mozilla"
+
 #: apps/feedback/templates/feedback/thanks.html:35
+msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>"
+msgstr ""
+
+#: apps/feedback/templates/feedback/thanks.html:42
+#, fuzzy
+msgid "Want to see where your feedback goes?"
+msgstr "Escriba a súa opinión aquí."
+
+#: apps/feedback/templates/feedback/thanks.html:44
 msgid "Visit the <a href=\"%(dash_url)s\">Firefox Feedback Dashboard</a>"
 msgstr "Visite o <a href=\"%(dash_url)s\">taboleiro de opinións do Firefox</a>"
 
-#: apps/feedback/templates/feedback/thanks.html:42
+#: apps/feedback/templates/feedback/thanks.html:51
 msgid "Find the latest news about Firefox."
 msgstr "Atope as últimas novas sobre o Firefox."
 
@@ -482,21 +473,15 @@ msgstr "Dar opinión"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:25
 msgid "We're glad Firefox for Mobile made you happy! Please tell us what you liked."
-msgstr ""
-"Estamos encantados de que lle gustara o Firefox para móbiles! Cóntenos o que "
-"lle gustou."
+msgstr "Estamos encantados de que lle gustara o Firefox para móbiles! Cóntenos o que lle gustou."
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:27
 msgid "We're sorry Firefox for Mobile made you sad. Please tell us what happened so we can fix it."
-msgstr ""
-"Sentimos moito que non lle gustara o Firefox para móbiles. Cóntenos o que "
-"pasou para poder arranxalo."
+msgstr "Sentimos moito que non lle gustara o Firefox para móbiles. Cóntenos o que pasou para poder arranxalo."
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:29
 msgid "We love ideas for Firefox for Mobile! Please descibe your idea below."
-msgstr ""
-"Encántannos as ideas sobre o Firefox para móbiles! A continuación describa a "
-"súa idea."
+msgstr "Encántannos as ideas sobre o Firefox para móbiles! A continuación describa a súa idea."
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:36
 msgid "Got an idea? <a href=\"%(url)s\">Submit it instead.</a>"
@@ -508,9 +493,7 @@ msgstr "Incluír o último sitio visitado?"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:67
 msgid "For your privacy, please don't include any personally identifiable information in your feedback."
-msgstr ""
-"Para protexer a súa privacidade, non inclúa información persoal que o poida "
-"identificar na súa opinión."
+msgstr "Para protexer a súa privacidade, non inclúa información persoal que o poida identificar na súa opinión."
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:81
 msgid "Send Feedback"
@@ -534,15 +517,11 @@ msgstr "Engadir o URL da última páxina visitada?"
 
 #: apps/feedback/templates/feedback/mobile/feedback.html:67
 msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
-msgstr ""
-"Ou enviar as súas ideas a través da nosa <a href=\"%(url_idea)s\">caixa de "
-"ideas</a>!"
+msgstr "Ou enviar as súas ideas a través da nosa <a href=\"%(url_idea)s\">caixa de ideas</a>!"
 
 #: apps/feedback/templates/feedback/mobile/index.html:26
 msgid "We love feedback about Firefox for Mobile! What would you like to tell us?"
-msgstr ""
-"Encántannos as súas opinións sobre o Firefox para móbiles! Gustaríalle "
-"contarnos algo?"
+msgstr "Encántannos as súas opinións sobre o Firefox para móbiles! Gustaríalle contarnos algo?"
 
 #: apps/feedback/templates/feedback/mobile/index.html:36
 msgid "Firefox made me happy"
@@ -558,9 +537,7 @@ msgstr "Teño unha idea para o Firefox"
 
 #: apps/feedback/templates/feedback/mobile/index.html:54
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(url)s\">Firefox Support</a>."
-msgstr ""
-"Se precisa axuda ou ten algún problema co Firefox, visite a <a href=\"%"
-"(url)s\">asistencia do Firefox</a>."
+msgstr "Se precisa axuda ou ten algún problema co Firefox, visite a <a href=\"%(url)s\">asistencia do Firefox</a>."
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:29
 msgid "Thanks for sharing your feedback!"
@@ -568,9 +545,7 @@ msgstr "Grazas por compartir a súa opinión!"
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:30
 msgid "Want to know what's going on with Firefox for Mobile? We have many ways of staying in touch:"
-msgstr ""
-"Quere saber que sucede co Firefox para móbiles? Ten moitas formas de estar "
-"en contacto:"
+msgstr "Quere saber que sucede co Firefox para móbiles? Ten moitas formas de estar en contacto:"
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:36
 msgid "See where your feedback goes."
@@ -616,39 +591,39 @@ msgstr "Sitio web roto"
 msgid "Firefox"
 msgstr "Firefox"
 
-#: apps/input/__init__.py:100
+#: apps/input/__init__.py:101
 msgid "Mobile"
 msgstr "Móbil"
 
-#: apps/input/__init__.py:152
+#: apps/input/__init__.py:154
 msgid "Windows XP"
 msgstr "Windows XP"
 
-#: apps/input/__init__.py:159
+#: apps/input/__init__.py:161
 msgid "Windows 7"
 msgstr "Windows 7"
 
-#: apps/input/__init__.py:166
+#: apps/input/__init__.py:168
 msgid "Windows Vista"
 msgstr "Windows Vista"
 
-#: apps/input/__init__.py:173
+#: apps/input/__init__.py:175
 msgid "Mac OS X"
 msgstr "Mac OS X"
 
-#: apps/input/__init__.py:180
+#: apps/input/__init__.py:182
 msgid "Maemo"
 msgstr "Maemo"
 
-#: apps/input/__init__.py:187
+#: apps/input/__init__.py:189
 msgid "Android"
 msgstr "Android"
 
-#: apps/input/__init__.py:194
+#: apps/input/__init__.py:196
 msgid "Linux"
 msgstr "Linux"
 
-#: apps/input/__init__.py:201
+#: apps/input/__init__.py:203
 msgid "Other"
 msgstr "Outro"
 
@@ -780,16 +755,11 @@ msgstr "Sentímolo, produciuse un erro coa súa busca."
 
 #: apps/search/templates/search/unavailable.html:10
 msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
-msgstr ""
-"Actualmente o noso motor de busca podería estar non dispoñíbel. Podería "
-"volver a iniciar no <a href=\"%(url)s\">taboleiro</a> e tentalo de novo máis "
-"tarde."
+msgstr "Actualmente o noso motor de busca podería estar non dispoñíbel. Podería volver a iniciar no <a href=\"%(url)s\">taboleiro</a> e tentalo de novo máis tarde."
 
 #: apps/search/templates/search/unavailable.html:17
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
-msgstr ""
-"Se o problema persiste, escriba <a href=\"%(bug_url)s\">un informe de "
-"erro</a>, indicando o URL ao que estaba tentando acceder."
+msgstr "Se o problema persiste, escriba <a href=\"%(bug_url)s\">un informe de erro</a>, indicando o URL ao que estaba tentando acceder."
 
 #: apps/search/templates/search/unavailable.html:24
 msgid "Include the following error message in your bug report:"
@@ -968,10 +938,7 @@ msgstr "Erro interno do servidor"
 
 #: templates/500.html:7
 msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
-msgstr ""
-"Produciuse un erro non controlado no aplicativo. Rexistrouse o erro e "
-"notificóuselle a un administrador. Pedímoslle desculpas polos "
-"inconvenientes!"
+msgstr "Produciuse un erro non controlado no aplicativo. Rexistrouse o erro e notificóuselle a un administrador. Pedímoslle desculpas polos inconvenientes!"
 
 #: templates/500.html:20
 msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
@@ -990,18 +957,13 @@ msgid ""
 "<strong>Firefox Input</strong> is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it "
 "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
 msgstr ""
-"O <strong>Firefox Input</strong> é o principal mecanismo de Mozilla para a "
-"recollida de opinións. Está preparado para ser un método de comunicación dun "
-"so sentido sobre as súas experiencias usando o Firefox, a Internet que ve a "
-"través del e o que Mozilla pode facer para melloralas. O sistema está "
-"dispoñíbel a través dunha ampla variedade de mecanismos de envío nos tres "
-"canais principais de binarios."
+"O <strong>Firefox Input</strong> é o principal mecanismo de Mozilla para a recollida de opinións. Está preparado para ser un método de comunicación dun so sentido sobre as súas experiencias usando "
+"o Firefox, a Internet que ve a través del e o que Mozilla pode facer para melloralas. O sistema está dispoñíbel a través dunha ampla variedade de mecanismos de envío nos tres canais principais de "
+"binarios."
 
 #: templates/about.html:18
 msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(feedback_url)s\">the feedback submission page</a>!"
-msgstr ""
-"Para enviar opinións sobre a súa versión do Firefox, vaia a <a href=\"%"
-"(feedback_url)s\">páxina de envío de opinións</a>!"
+msgstr "Para enviar opinións sobre a súa versión do Firefox, vaia a <a href=\"%(feedback_url)s\">páxina de envío de opinións</a>!"
 
 #: templates/about.html:24
 msgid "Open Data"
@@ -1019,9 +981,7 @@ msgstr "Código fonte"
 
 #: templates/about.html:37
 msgid "The code for the Firefox Input web application can be found <a href=\"%(source_url)s\">on GitHub</a>!"
-msgstr ""
-"O código do aplicativo web Firefox Input pode atoparse <a href=\"%"
-"(source_url)s\">en GitHub</a>!"
+msgstr "O código do aplicativo web Firefox Input pode atoparse <a href=\"%(source_url)s\">en GitHub</a>!"
 
 #: templates/base.html:5 templates/base_mobile.html:6
 msgid "Welcome"
@@ -1081,9 +1041,7 @@ msgstr "Erro de protección CSRF"
 
 #: templates/csrf_error.html:8
 msgid "There was an error verifying your CSRF token. Your request could not be processed. We apologize for the inconvenience!"
-msgstr ""
-"Produciuse un erro ao verificar o seu token CSRF. Non foi posíbel procesar a "
-"súa solicitude. Pedímoslle desculpas polos inconvenientes!"
+msgstr "Produciuse un erro ao verificar o seu token CSRF. Non foi posíbel procesar a súa solicitude. Pedímoslle desculpas polos inconvenientes!"
 
 #: templates/csrf_error.html:15
 msgid ""
@@ -1093,9 +1051,7 @@ msgstr ""
 
 #: templates/csrf_error.html:24
 msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-msgstr ""
-"Se o problema persiste, escriba <a href=\"%(bug_url)s\">un informe de "
-"erro.</a> Grazas!"
+msgstr "Se o problema persiste, escriba <a href=\"%(bug_url)s\">un informe de erro.</a> Grazas!"
 
 #: templates/includes/footer_feedback.html:5 templates/includes/lang_switcher.html:2
 msgid "Other languages:"
@@ -1128,10 +1084,7 @@ msgstr "Pechar"
 #: templates/includes/welcome.html:2
 #, fuzzy
 msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
-msgstr ""
-"<strong>Benvida ao Firefox Input!</strong> Este é o principal aplicativo de "
-"Mozilla para recopilar as opinións dos usuarios. <a href=\"%"
-"(about_url)s\">Obteña máis información...</a>"
+msgstr "<strong>Benvida ao Firefox Input!</strong> Este é o principal aplicativo de Mozilla para recopilar as opinións dos usuarios. <a href=\"%(about_url)s\">Obteña máis información...</a>"
 
 #, fuzzy
 #~ msgid "Invalid feedback type"
@@ -1164,10 +1117,6 @@ msgstr ""
 
 #~ msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
 #~ msgstr "Para unirse, simplemente vaia a nosa páxina de descargas e obteña <a href=\"%(url)s\">a última beta do Firefox!</a>"
-
-#, fuzzy
-#~ msgid "Want to see where your feedback goes?"
-#~ msgstr "Escriba a súa opinión aquí."
 
 #~ msgid "&laquo; Next Page"
 #~ msgstr "&laquo; Seguinte páxina"

@@ -13,19 +13,19 @@ msgstr ""
 "X-Generator: Pootle 2.1.6\n"
 
 #. Formerly called "happy"
-#: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:33
+#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:33
 #: apps/search/forms.py:32 apps/search/views.py:224 apps/themes/views.py:30 apps/themes/templates/themes/theme_list.html:8 apps/website_issues/templates/website_issues/sites.html:36
 #: apps/website_issues/templates/website_issues/includes/single_site.html:12
 msgid "Praise"
 msgstr "Lob"
 
 #. Formerly called "sad"
-#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:33 apps/search/views.py:225
+#: apps/dashboard/views.py:56 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:33 apps/search/views.py:225
 #: apps/themes/views.py:34 apps/website_issues/templates/website_issues/sites.html:37
 msgid "Issues"
 msgstr "Probleme"
 
-#: apps/dashboard/views.py:56 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:34 apps/themes/views.py:38
+#: apps/dashboard/views.py:57 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:34 apps/themes/views.py:38
 msgid "Ideas"
 msgstr "Vorschläge"
 
@@ -418,11 +418,24 @@ msgstr "Möchten Sie uns mehr sagen?"
 msgid "Feel free to <a href=\"%(fb_url)s\">submit more feedback</a>"
 msgstr "Zögern Sie nicht, uns <a href=\"%(fb_url)s\">mehr Feedback zu geben</a>"
 
+#: apps/feedback/templates/feedback/thanks.html:33
+#, fuzzy
+msgid "Contribute to Mozilla."
+msgstr "Mozilla-Planet"
+
 #: apps/feedback/templates/feedback/thanks.html:35
+msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>"
+msgstr ""
+
+#: apps/feedback/templates/feedback/thanks.html:42
+msgid "Want to see where your feedback goes?"
+msgstr "Möchten Sie sehen, wohin Ihr Kommentar gesendet wird?"
+
+#: apps/feedback/templates/feedback/thanks.html:44
 msgid "Visit the <a href=\"%(dash_url)s\">Firefox Feedback Dashboard</a>"
 msgstr "Gehen Sie zur <a href=\"%(dash_url)s\">Firefox-Feedback-Hauptseite</a>"
 
-#: apps/feedback/templates/feedback/thanks.html:42
+#: apps/feedback/templates/feedback/thanks.html:51
 msgid "Find the latest news about Firefox."
 msgstr "Hier finden Sie die neuesten Nachrichten über Firefox."
 
@@ -460,26 +473,19 @@ msgstr "Feedback geben"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:25
 msgid "We're glad Firefox for Mobile made you happy! Please tell us what you liked."
-msgstr ""
-"Es freut uns, dass Firefox für Mobilgeräte Sie glücklich gemacht hat! Bitte "
-"sagen Sie uns, was Sie mögen."
+msgstr "Es freut uns, dass Firefox für Mobilgeräte Sie glücklich gemacht hat! Bitte sagen Sie uns, was Sie mögen."
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:27
 msgid "We're sorry Firefox for Mobile made you sad. Please tell us what happened so we can fix it."
-msgstr ""
-"Es tut uns leid, dass Firefox für Mobilgeräte Sie traurig gemacht hat. Bitte "
-"sagen Sie uns was passiert ist, sodass wir es verbessern können."
+msgstr "Es tut uns leid, dass Firefox für Mobilgeräte Sie traurig gemacht hat. Bitte sagen Sie uns was passiert ist, sodass wir es verbessern können."
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:29
 msgid "We love ideas for Firefox for Mobile! Please descibe your idea below."
-msgstr ""
-"Wir lieben Ideen für Firefox für Mobilgeräte! Bitte beschreiben Sie im "
-"folgenden Ihre Idee."
+msgstr "Wir lieben Ideen für Firefox für Mobilgeräte! Bitte beschreiben Sie im folgenden Ihre Idee."
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:36
 msgid "Got an idea? <a href=\"%(url)s\">Submit it instead.</a>"
-msgstr ""
-"Haben Sie eine Idee? <a href=\"%(url)s\">Übermitteln Sie sie stattdessen.</a>"
+msgstr "Haben Sie eine Idee? <a href=\"%(url)s\">Übermitteln Sie sie stattdessen.</a>"
 
 #: apps/feedback/templates/feedback/mobile/feedback-form.html:57
 msgid "Include your last visited site?"
@@ -515,9 +521,7 @@ msgstr "Oder senden Sie uns Ihren Vorschlag über unseren <a href=\"%(url_idea)s
 
 #: apps/feedback/templates/feedback/mobile/index.html:26
 msgid "We love feedback about Firefox for Mobile! What would you like to tell us?"
-msgstr ""
-"Wir lieben Feedback zu Firefox für Mobilgeräte! Was möchten Sie uns "
-"mitteilen?"
+msgstr "Wir lieben Feedback zu Firefox für Mobilgeräte! Was möchten Sie uns mitteilen?"
 
 #: apps/feedback/templates/feedback/mobile/index.html:36
 msgid "Firefox made me happy"
@@ -533,9 +537,7 @@ msgstr "Ich habe einen Vorschlag zu Firefox"
 
 #: apps/feedback/templates/feedback/mobile/index.html:54
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(url)s\">Firefox Support</a>."
-msgstr ""
-"Wenn Sie Hilfe brauchen oder ein Problem mit Firefox haben, besuchen Sie "
-"bitte die <a href=\"%(support_url)s\">Firefox-Hilfe</a>."
+msgstr "Wenn Sie Hilfe brauchen oder ein Problem mit Firefox haben, besuchen Sie bitte die <a href=\"%(support_url)s\">Firefox-Hilfe</a>."
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:29
 msgid "Thanks for sharing your feedback!"
@@ -543,9 +545,7 @@ msgstr "Danke, dass Sie uns Ihre Meinung mitgeteilt haben!"
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:30
 msgid "Want to know what's going on with Firefox for Mobile? We have many ways of staying in touch:"
-msgstr ""
-"Möchten Sie wissen, was mit Firefox für Mobilgeräte los ist? Es gibt viele "
-"Möglichkeiten, wie Sie mit uns in Verbindung bleiben können:"
+msgstr "Möchten Sie wissen, was mit Firefox für Mobilgeräte los ist? Es gibt viele Möglichkeiten, wie Sie mit uns in Verbindung bleiben können:"
 
 #: apps/feedback/templates/feedback/mobile/thanks.html:36
 msgid "See where your feedback goes."
@@ -591,39 +591,39 @@ msgstr "Fehlerhafte Website"
 msgid "Firefox"
 msgstr "Firefox"
 
-#: apps/input/__init__.py:100
+#: apps/input/__init__.py:101
 msgid "Mobile"
 msgstr "Mobile"
 
-#: apps/input/__init__.py:152
+#: apps/input/__init__.py:154
 msgid "Windows XP"
 msgstr "Windows XP"
 
-#: apps/input/__init__.py:159
+#: apps/input/__init__.py:161
 msgid "Windows 7"
 msgstr "Windows 7"
 
-#: apps/input/__init__.py:166
+#: apps/input/__init__.py:168
 msgid "Windows Vista"
 msgstr "Windows Vista"
 
-#: apps/input/__init__.py:173
+#: apps/input/__init__.py:175
 msgid "Mac OS X"
 msgstr "Mac OS X"
 
-#: apps/input/__init__.py:180
+#: apps/input/__init__.py:182
 msgid "Maemo"
 msgstr "Maemo"
 
-#: apps/input/__init__.py:187
+#: apps/input/__init__.py:189
 msgid "Android"
 msgstr "Android"
 
-#: apps/input/__init__.py:194
+#: apps/input/__init__.py:196
 msgid "Linux"
 msgstr "Linux"
 
-#: apps/input/__init__.py:201
+#: apps/input/__init__.py:203
 msgid "Other"
 msgstr "Andere"
 
@@ -1232,9 +1232,6 @@ msgstr "<strong>Willkommen bei Firefox Input!</strong> Dies ist Mozillas primär
 
 #~ msgid "Twitter"
 #~ msgstr "Twitter"
-
-#~ msgid "Want to see where your feedback goes?"
-#~ msgstr "Möchten Sie sehen, wohin Ihr Kommentar gesendet wird?"
 
 #~ msgid "What is the URL of the broken site?"
 #~ msgstr "Wie lautet die URL der fehlerhaften Website?"
