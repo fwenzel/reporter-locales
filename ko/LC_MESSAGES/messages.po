@@ -14,19 +14,19 @@ msgstr ""
 "X-Generator: Pootle 2.1.5\n"
 
 #. Formerly called "happy"
-#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:33
-#: apps/search/forms.py:32 apps/search/views.py:224 apps/themes/views.py:30 apps/themes/templates/themes/theme_list.html:8 apps/website_issues/templates/website_issues/sites.html:36
+#: apps/dashboard/views.py:60 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:33
+#: apps/search/forms.py:32 apps/search/views.py:229 apps/themes/views.py:30 apps/themes/templates/themes/theme_list.html:8 apps/website_issues/templates/website_issues/sites.html:36
 #: apps/website_issues/templates/website_issues/includes/single_site.html:12
 msgid "Praise"
 msgstr "긍정적 의견"
 
 #. Formerly called "sad"
-#: apps/dashboard/views.py:56 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:33 apps/search/views.py:225
+#: apps/dashboard/views.py:61 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:33 apps/search/views.py:230
 #: apps/themes/views.py:34 apps/website_issues/templates/website_issues/sites.html:37
 msgid "Issues"
 msgstr "이슈"
 
-#: apps/dashboard/views.py:57 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:34 apps/themes/views.py:38
+#: apps/dashboard/views.py:62 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:34 apps/themes/views.py:38
 msgid "Ideas"
 msgstr "아이디어"
 
@@ -63,32 +63,32 @@ msgstr "언어별"
 msgid "Manufacturer"
 msgstr "제조사"
 
-#: apps/dashboard/templates/dashboard/message_list.html:29 apps/themes/templates/themes/theme_list.html:28
+#: apps/dashboard/templates/dashboard/message_list.html:26 apps/themes/templates/themes/theme_list.html:28
 msgid "More Options"
 msgstr "고급 옵션"
 
-#: apps/dashboard/templates/dashboard/message_list.html:32
+#: apps/dashboard/templates/dashboard/message_list.html:29
 msgid "Copy User Agent"
 msgstr "프로그램명 복사"
 
 #. Link to Google Translator
-#: apps/dashboard/templates/dashboard/message_list.html:36 apps/themes/templates/themes/theme_list.html:31
+#: apps/dashboard/templates/dashboard/message_list.html:33 apps/feedback/templates/feedback/mobile/opinion.html:43 apps/themes/templates/themes/theme_list.html:31
 msgid "Translate Message"
 msgstr "번역하기"
 
-#: apps/dashboard/templates/dashboard/message_list.html:41
+#: apps/dashboard/templates/dashboard/message_list.html:38 apps/feedback/templates/feedback/mobile/opinion.html:48
 msgid "Tweet This"
 msgstr "트윗 보내기"
 
-#: apps/dashboard/templates/dashboard/message_list.html:52 apps/themes/templates/themes/theme_list.html:41
+#: apps/dashboard/templates/dashboard/message_list.html:48 apps/dashboard/templates/dashboard/mobile/message_list.html:31 apps/themes/templates/themes/theme_list.html:41
 msgid "No search results found."
 msgstr "검색 결과가 없습니다."
 
-#: apps/dashboard/templates/dashboard/message_list.html:54
+#: apps/dashboard/templates/dashboard/message_list.html:50
 msgid "You can adjust your search criteria or use fewer filters to find more opinions."
 msgstr ""
 
-#: apps/dashboard/templates/dashboard/message_list.html:56
+#: apps/dashboard/templates/dashboard/message_list.html:52
 msgid "Note: Recently released versions of Firefox may have less feedback."
 msgstr ""
 
@@ -115,6 +115,10 @@ msgstr "웹 사이트별"
 #: apps/dashboard/templates/dashboard/themes.html:3 apps/dashboard/templates/dashboard/mobile/themes.html:2
 msgid "Often Mentioned"
 msgstr "평가 주제별"
+
+#: apps/dashboard/templates/dashboard/versions.html:3 apps/themes/views.py:26 apps/themes/views.py:50
+msgid "All"
+msgstr "전체"
 
 #. Title for a time-based search filter
 #: apps/dashboard/templates/dashboard/when.html:2
@@ -186,30 +190,63 @@ msgstr "기간 제한 없음"
 msgid "&infin;"
 msgstr "&infin;"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:6 apps/search/templates/search/mobile/search.html:6
+#: apps/dashboard/templates/dashboard/mobile/beta.html:9 apps/search/templates/search/mobile/search.html:13
+#, fuzzy
+msgid "Clear Search"
+msgstr "검색"
+
+#: apps/dashboard/templates/dashboard/mobile/beta.html:16 apps/search/templates/search/mobile/search.html:20
 msgid "Feed"
 msgstr "RSS피드"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:7 apps/search/templates/search/mobile/search.html:7
+#: apps/dashboard/templates/dashboard/mobile/beta.html:19 apps/search/templates/search/mobile/search.html:23
 msgid "Statistics"
 msgstr "통계"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:8 apps/search/templates/search/mobile/search.html:8
+#: apps/dashboard/templates/dashboard/mobile/beta.html:22 apps/search/templates/search/mobile/search.html:26
 msgid "Trends"
 msgstr "경향"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:35 apps/search/templates/search/mobile/search.html:38
+#: apps/dashboard/templates/dashboard/mobile/beta.html:25 apps/search/templates/search/mobile/search.html:29
+msgid "Settings"
+msgstr ""
+
+#: apps/dashboard/templates/dashboard/mobile/beta.html:38 apps/search/templates/search/mobile/search.html:43
 msgid "&laquo; Newer Feedback"
 msgstr "&laquo; 이전 의견"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:36 apps/search/templates/search/mobile/search.html:48
+#: apps/dashboard/templates/dashboard/mobile/beta.html:39 apps/search/templates/search/mobile/search.html:53
 msgid "Older Feedback &raquo;"
 msgstr "다음 의견 &raquo;"
+
+#: apps/dashboard/templates/dashboard/mobile/beta.html:69 apps/search/templates/search/search.html:20 apps/search/templates/search/mobile/search.html:92 apps/themes/templates/themes/index.html:10
+#: apps/website_issues/templates/website_issues/sites.html:22 templates/includes/filters.html:6
+msgid "Product"
+msgstr "제품 이름:"
+
+#: apps/dashboard/templates/dashboard/mobile/beta.html:75 apps/search/templates/search/mobile/search.html:98
+#, fuzzy
+msgid "Version"
+msgstr "버전:"
+
+#: apps/dashboard/templates/dashboard/mobile/beta.html:84 apps/search/templates/search/mobile/search.html:107
+msgid "Switch to Desktop Dashboard"
+msgstr ""
+
+#: apps/dashboard/templates/dashboard/mobile/locales.html:22
+#, fuzzy
+msgid "Show More Locales"
+msgstr "언어별"
 
 #: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
 msgid "<strong>%(cnt)s</strong> message"
 msgid_plural "<strong>%(cnt)s</strong> messages"
 msgstr[0] "메시지 <strong>%(cnt)s</strong>개 "
+
+#: apps/dashboard/templates/dashboard/mobile/platforms.html:22
+#, fuzzy
+msgid "Show More Platforms"
+msgstr "플랫폼"
 
 #. refers to time-based search filters (e.g., "for last: 1d")
 #: apps/dashboard/templates/dashboard/mobile/when.html:3
@@ -225,20 +262,20 @@ msgstr "보이기/숨기기 설정"
 msgid "Toggle"
 msgstr "토글"
 
-#: apps/feedback/forms.py:94
+#: apps/feedback/forms.py:96
 msgid "We already got your feedback! Thanks."
 msgstr "평가 의견을 주셔서 감사합니다."
 
-#: apps/feedback/forms.py:106
+#: apps/feedback/forms.py:108
 msgid "Please describe what you liked."
 msgstr ""
 
-#: apps/feedback/forms.py:123
+#: apps/feedback/forms.py:125
 #, fuzzy
 msgid "Please describe your problem below."
 msgstr "여러분의 생각을 입력해 주세요."
 
-#: apps/feedback/forms.py:140
+#: apps/feedback/forms.py:142
 msgid "Describe your idea below."
 msgstr "여러분의 생각을 입력해 주세요."
 
@@ -246,19 +283,23 @@ msgstr "여러분의 생각을 입력해 주세요."
 msgid "Issue"
 msgstr "이슈"
 
-#: apps/feedback/validators.py:27
+#: apps/feedback/validators.py:38
 msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
 msgstr "의견 내용 중에 욕설(%s)이 담겨져 있습니다. 제품 개선을 위해 건설적인 의견을 보내 주시면 대단히 감사하겠습니다."
 
-#: apps/feedback/validators.py:36
+#: apps/feedback/validators.py:47
 msgid "Feedback must not contain HTML."
 msgstr "의견란에는 HTML을 포함해서는 안됩니다."
 
-#: apps/feedback/validators.py:43
+#: apps/feedback/validators.py:54
 msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr "의견란에 메일 주소를 포함하고 있습니다. 만약 개인 데이터를 담고 있다면 다시 한번 확인해 주십시오."
 
-#: apps/feedback/validators.py:52
+#: apps/feedback/validators.py:63
+msgid "URLs with IP addresses must contain public IP addresses."
+msgstr ""
+
+#: apps/feedback/validators.py:70
 msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr "의견란에 URL을 포함하고 있습니다. 만약 개인 데이터를 담고 있다면 다시 한번 확인해 주십시오."
 
@@ -576,6 +617,10 @@ msgstr ""
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(url)s\">Firefox Support</a>."
 msgstr "Firefox 사용에 문제가 있으시면 <a href=\"%(support_url)s\">사용자 지원</a>페이지를 참고하십시오."
 
+#: apps/feedback/templates/feedback/mobile/opinion.html:9 templates/base_mobile.html:22
+msgid "Dashboard"
+msgstr "사용자 평가 서비스"
+
 #: apps/feedback/templates/feedback/mobile/thanks.html:29
 #, fuzzy
 msgid "Thanks for sharing your feedback!"
@@ -614,7 +659,7 @@ msgstr "Firefox 최근 소식 보기:"
 msgid "Planet Mozilla"
 msgstr "Mozilla 블로그"
 
-#: apps/input/__init__.py:47 apps/search/views.py:226 apps/themes/templates/themes/theme_list.html:10
+#: apps/input/__init__.py:47 apps/search/views.py:231 apps/themes/templates/themes/theme_list.html:10
 msgid "Idea"
 msgstr "아이디어"
 
@@ -666,23 +711,23 @@ msgstr "리눅스"
 msgid "Other"
 msgstr "기타"
 
-#: apps/input/helpers.py:71
+#: apps/input/helpers.py:87
 msgid "{0} day ago"
 msgid_plural "{0} days ago"
 msgstr[0] "{0}일 전"
 
-#: apps/input/helpers.py:77
+#: apps/input/helpers.py:93
 msgid "{0} hour ago"
 msgid_plural "{0} hours ago"
 msgstr[0] "{0}시간 전"
 
-#: apps/input/helpers.py:80
+#: apps/input/helpers.py:96
 msgid "{0} minute ago"
 msgid_plural "{0} minutes ago"
 msgstr[0] "{0}분 전"
 
 #. L10n: This means an event that happened only a few seconds ago.
-#: apps/input/helpers.py:84
+#: apps/input/helpers.py:100
 msgid "just now"
 msgstr "지금"
 
@@ -748,16 +793,16 @@ msgstr "데이터 범위:"
 msgid "to"
 msgstr "-"
 
-#: apps/search/views.py:93 apps/search/views.py:112
+#: apps/search/views.py:94 apps/search/views.py:113
 msgid "Firefox Input"
 msgstr "Firefox 사용자 평가"
 
-#: apps/search/views.py:94
+#: apps/search/views.py:95
 msgid "Search Results in Firefox Beta Feedback."
 msgstr "Firefox 베타 채널 검색 결과"
 
 #. L10n: This is the title to the Search ATOM feed.
-#: apps/search/views.py:111
+#: apps/search/views.py:112
 msgid "Firefox Input: '{query}'"
 msgstr "Firefox 사용자 평가: '{query}'"
 
@@ -768,10 +813,6 @@ msgstr "검색 결과"
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
 msgstr "검색 결과 ATOM 피드"
-
-#: apps/search/templates/search/search.html:20 apps/themes/templates/themes/index.html:10 apps/website_issues/templates/website_issues/sites.html:22 templates/includes/filters.html:6
-msgid "Product"
-msgstr "제품 이름:"
 
 #: apps/search/templates/search/search_form.html:19
 msgid "Search"
@@ -808,10 +849,6 @@ msgstr "감사합니다!"
 #: apps/search/templates/search/includes/ratings_chart.html:12
 msgid "Loading ratings history..."
 msgstr "평가 기록 읽는 중..."
-
-#: apps/themes/views.py:26 apps/themes/views.py:50
-msgid "All"
-msgstr "전체"
 
 #: apps/themes/views.py:26 apps/website_issues/templates/website_issues/sites.html:35
 msgid "All feedback"
@@ -1017,7 +1054,7 @@ msgstr "소스 코드"
 msgid "The code for the Firefox Input web application can be found <a href=\"%(source_url)s\">on GitHub</a>!"
 msgstr "Firefox Input의 소스 코드는 <a href=\"%(source_url)s\">GitHub</a>에서 보실 수 있습니다."
 
-#: templates/base.html:5 templates/base_mobile.html:6
+#: templates/base.html:5 templates/base_mobile.html:7
 msgid "Welcome"
 msgstr "어서오세요!"
 
@@ -1037,10 +1074,6 @@ msgstr "<strong>Firefox 베타</strong> Input 통계"
 #: templates/base.html:36
 msgid "Feedback"
 msgstr "사용자 의견"
-
-#: templates/base_mobile.html:21
-msgid "Dashboard"
-msgstr "사용자 평가 서비스"
 
 #: templates/base_mobile_old.html:5 templates/base_old.html:5
 msgid "Welcome!"
@@ -1383,10 +1416,6 @@ msgstr "<strong>Firefox 사용자 평가</strong>에 오신것을 환영 합니�
 
 #~ msgid "User agent string was not recognizable."
 #~ msgstr "웹브라우저 종류를 인식할 수 없습니다."
-
-#, fuzzy
-#~ msgid "Version"
-#~ msgstr "버전:"
 
 #~ msgid "all"
 #~ msgstr "전체"

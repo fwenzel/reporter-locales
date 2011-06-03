@@ -14,19 +14,19 @@ msgstr ""
 "X-Generator: Pootle 2.1.6\n"
 
 #. Formerly called "happy"
-#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:33
-#: apps/search/forms.py:32 apps/search/views.py:224 apps/themes/views.py:30 apps/themes/templates/themes/theme_list.html:8 apps/website_issues/templates/website_issues/sites.html:36
+#: apps/dashboard/views.py:60 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:33
+#: apps/search/forms.py:32 apps/search/views.py:229 apps/themes/views.py:30 apps/themes/templates/themes/theme_list.html:8 apps/website_issues/templates/website_issues/sites.html:36
 #: apps/website_issues/templates/website_issues/includes/single_site.html:12
 msgid "Praise"
 msgstr "Lloances"
 
 #. Formerly called "sad"
-#: apps/dashboard/views.py:56 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:33 apps/search/views.py:225
+#: apps/dashboard/views.py:61 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:33 apps/search/views.py:230
 #: apps/themes/views.py:34 apps/website_issues/templates/website_issues/sites.html:37
 msgid "Issues"
 msgstr "Problemes"
 
-#: apps/dashboard/views.py:57 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:34 apps/themes/views.py:38
+#: apps/dashboard/views.py:62 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:34 apps/themes/views.py:38
 msgid "Ideas"
 msgstr "Idees"
 
@@ -63,32 +63,32 @@ msgstr "Més llengües"
 msgid "Manufacturer"
 msgstr "Fabricant"
 
-#: apps/dashboard/templates/dashboard/message_list.html:29 apps/themes/templates/themes/theme_list.html:28
+#: apps/dashboard/templates/dashboard/message_list.html:26 apps/themes/templates/themes/theme_list.html:28
 msgid "More Options"
 msgstr "Més opcions"
 
-#: apps/dashboard/templates/dashboard/message_list.html:32
+#: apps/dashboard/templates/dashboard/message_list.html:29
 msgid "Copy User Agent"
 msgstr "Copia l'agent d'usuari"
 
 #. Link to Google Translator
-#: apps/dashboard/templates/dashboard/message_list.html:36 apps/themes/templates/themes/theme_list.html:31
+#: apps/dashboard/templates/dashboard/message_list.html:33 apps/feedback/templates/feedback/mobile/opinion.html:43 apps/themes/templates/themes/theme_list.html:31
 msgid "Translate Message"
 msgstr "Tradueix el missatge"
 
-#: apps/dashboard/templates/dashboard/message_list.html:41
+#: apps/dashboard/templates/dashboard/message_list.html:38 apps/feedback/templates/feedback/mobile/opinion.html:48
 msgid "Tweet This"
 msgstr "Piula-ho al Twitter"
 
-#: apps/dashboard/templates/dashboard/message_list.html:52 apps/themes/templates/themes/theme_list.html:41
+#: apps/dashboard/templates/dashboard/message_list.html:48 apps/dashboard/templates/dashboard/mobile/message_list.html:31 apps/themes/templates/themes/theme_list.html:41
 msgid "No search results found."
 msgstr "No s'ha trobat cap coincidència."
 
-#: apps/dashboard/templates/dashboard/message_list.html:54
+#: apps/dashboard/templates/dashboard/message_list.html:50
 msgid "You can adjust your search criteria or use fewer filters to find more opinions."
 msgstr ""
 
-#: apps/dashboard/templates/dashboard/message_list.html:56
+#: apps/dashboard/templates/dashboard/message_list.html:52
 msgid "Note: Recently released versions of Firefox may have less feedback."
 msgstr ""
 
@@ -115,6 +115,10 @@ msgstr "Mentre visitava"
 #: apps/dashboard/templates/dashboard/themes.html:3 apps/dashboard/templates/dashboard/mobile/themes.html:2
 msgid "Often Mentioned"
 msgstr "Esmentat sovint"
+
+#: apps/dashboard/templates/dashboard/versions.html:3 apps/themes/views.py:26 apps/themes/views.py:50
+msgid "All"
+msgstr "Tot"
 
 #. Title for a time-based search filter
 #: apps/dashboard/templates/dashboard/when.html:2
@@ -186,31 +190,64 @@ msgstr "Sense data límit"
 msgid "&infin;"
 msgstr "&infin;"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:6 apps/search/templates/search/mobile/search.html:6
+#: apps/dashboard/templates/dashboard/mobile/beta.html:9 apps/search/templates/search/mobile/search.html:13
+#, fuzzy
+msgid "Clear Search"
+msgstr "Cerca"
+
+#: apps/dashboard/templates/dashboard/mobile/beta.html:16 apps/search/templates/search/mobile/search.html:20
 msgid "Feed"
 msgstr "Canal"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:7 apps/search/templates/search/mobile/search.html:7
+#: apps/dashboard/templates/dashboard/mobile/beta.html:19 apps/search/templates/search/mobile/search.html:23
 msgid "Statistics"
 msgstr "Estadístiques"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:8 apps/search/templates/search/mobile/search.html:8
+#: apps/dashboard/templates/dashboard/mobile/beta.html:22 apps/search/templates/search/mobile/search.html:26
 msgid "Trends"
 msgstr "Tendències"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:35 apps/search/templates/search/mobile/search.html:38
+#: apps/dashboard/templates/dashboard/mobile/beta.html:25 apps/search/templates/search/mobile/search.html:29
+msgid "Settings"
+msgstr ""
+
+#: apps/dashboard/templates/dashboard/mobile/beta.html:38 apps/search/templates/search/mobile/search.html:43
 msgid "&laquo; Newer Feedback"
 msgstr "&laquo; Opinions recents"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:36 apps/search/templates/search/mobile/search.html:48
+#: apps/dashboard/templates/dashboard/mobile/beta.html:39 apps/search/templates/search/mobile/search.html:53
 msgid "Older Feedback &raquo;"
 msgstr "Comentaris més antics &raquo;"
+
+#: apps/dashboard/templates/dashboard/mobile/beta.html:69 apps/search/templates/search/search.html:20 apps/search/templates/search/mobile/search.html:92 apps/themes/templates/themes/index.html:10
+#: apps/website_issues/templates/website_issues/sites.html:22 templates/includes/filters.html:6
+msgid "Product"
+msgstr "Producte"
+
+#: apps/dashboard/templates/dashboard/mobile/beta.html:75 apps/search/templates/search/mobile/search.html:98
+#, fuzzy
+msgid "Version"
+msgstr "Versió:"
+
+#: apps/dashboard/templates/dashboard/mobile/beta.html:84 apps/search/templates/search/mobile/search.html:107
+msgid "Switch to Desktop Dashboard"
+msgstr ""
+
+#: apps/dashboard/templates/dashboard/mobile/locales.html:22
+#, fuzzy
+msgid "Show More Locales"
+msgstr "Més llengües"
 
 #: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
 msgid "<strong>%(cnt)s</strong> message"
 msgid_plural "<strong>%(cnt)s</strong> messages"
 msgstr[0] "<strong>%(cnt)s</strong> missatge"
 msgstr[1] "<strong>%(cnt)s</strong> missatges"
+
+#: apps/dashboard/templates/dashboard/mobile/platforms.html:22
+#, fuzzy
+msgid "Show More Platforms"
+msgstr "Plataformes"
 
 #. refers to time-based search filters (e.g., "for last: 1d")
 #: apps/dashboard/templates/dashboard/mobile/when.html:3
@@ -226,19 +263,19 @@ msgstr "Mostra/amaga les opcions"
 msgid "Toggle"
 msgstr "Commuta"
 
-#: apps/feedback/forms.py:94
+#: apps/feedback/forms.py:96
 msgid "We already got your feedback! Thanks."
 msgstr "Hem rebut el vostre comentari! Gràcies."
 
-#: apps/feedback/forms.py:106
+#: apps/feedback/forms.py:108
 msgid "Please describe what you liked."
 msgstr "Descriviu què us ha agradat."
 
-#: apps/feedback/forms.py:123
+#: apps/feedback/forms.py:125
 msgid "Please describe your problem below."
 msgstr "Descriviu el vostre problema a sota."
 
-#: apps/feedback/forms.py:140
+#: apps/feedback/forms.py:142
 msgid "Describe your idea below."
 msgstr "Descriviu la vostra idea a continuació."
 
@@ -246,21 +283,25 @@ msgstr "Descriviu la vostra idea a continuació."
 msgid "Issue"
 msgstr "Problema"
 
-#: apps/feedback/validators.py:27
+#: apps/feedback/validators.py:38
 msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
 msgstr ""
 "El vostre comentari conté paraules ofensives (%s). Amb la finalitat d'ajudar-nos a millorar el nostre producte, millor empreu paraules que ens ajudin a prendre accions a partir d'una opinió "
 "constructiva. Gràcies!"
 
-#: apps/feedback/validators.py:36
+#: apps/feedback/validators.py:47
 msgid "Feedback must not contain HTML."
 msgstr "No es permet codi HTML als comentaris."
 
-#: apps/feedback/validators.py:43
+#: apps/feedback/validators.py:54
 msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr "Sembla que al vostre comentari hi ha una adreça de correu electrònic. Torneu-ho a provar una vegada hàgiu esborrat qualsevol dada personal. Gràcies!"
 
-#: apps/feedback/validators.py:52
+#: apps/feedback/validators.py:63
+msgid "URLs with IP addresses must contain public IP addresses."
+msgstr ""
+
+#: apps/feedback/validators.py:70
 msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr "Sembla que el vostre comentari conté una adreça URL. Torneu-ho a provar una vegada hàgiu esborrat l'URL o qualsevol altra dada personal. Gràcies!"
 
@@ -561,6 +602,10 @@ msgstr "Tinc una idea pel Firefox"
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(url)s\">Firefox Support</a>."
 msgstr "Si necessiteu ajuda o teniu cap problema amb el Firefox, visiteu la <a href=\"%(url)s\">pàgina d'assistència del Firefox</a>."
 
+#: apps/feedback/templates/feedback/mobile/opinion.html:9 templates/base_mobile.html:22
+msgid "Dashboard"
+msgstr "Tauler de comentaris"
+
 #: apps/feedback/templates/feedback/mobile/thanks.html:29
 msgid "Thanks for sharing your feedback!"
 msgstr "Gràcies per enviar el comentari!"
@@ -597,7 +642,7 @@ msgstr "Descobriu les darreres notícies del Firefox."
 msgid "Planet Mozilla"
 msgstr "Planeta Mozilla"
 
-#: apps/input/__init__.py:47 apps/search/views.py:226 apps/themes/templates/themes/theme_list.html:10
+#: apps/input/__init__.py:47 apps/search/views.py:231 apps/themes/templates/themes/theme_list.html:10
 msgid "Idea"
 msgstr "Idea"
 
@@ -649,26 +694,26 @@ msgstr "Linux"
 msgid "Other"
 msgstr "Altre"
 
-#: apps/input/helpers.py:71
+#: apps/input/helpers.py:87
 msgid "{0} day ago"
 msgid_plural "{0} days ago"
 msgstr[0] "fa {0} dia"
 msgstr[1] "fa {0} dies"
 
-#: apps/input/helpers.py:77
+#: apps/input/helpers.py:93
 msgid "{0} hour ago"
 msgid_plural "{0} hours ago"
 msgstr[0] "fa {0} hora"
 msgstr[1] "fa {0} hores"
 
-#: apps/input/helpers.py:80
+#: apps/input/helpers.py:96
 msgid "{0} minute ago"
 msgid_plural "{0} minutes ago"
 msgstr[0] "fa {0} minut"
 msgstr[1] "fa {0} minuts"
 
 #. L10n: This means an event that happened only a few seconds ago.
-#: apps/input/helpers.py:84
+#: apps/input/helpers.py:100
 msgid "just now"
 msgstr "ara mateix"
 
@@ -734,16 +779,16 @@ msgstr "Interval de dates:"
 msgid "to"
 msgstr "al"
 
-#: apps/search/views.py:93 apps/search/views.py:112
+#: apps/search/views.py:94 apps/search/views.py:113
 msgid "Firefox Input"
 msgstr "Firefox Input"
 
-#: apps/search/views.py:94
+#: apps/search/views.py:95
 msgid "Search Results in Firefox Beta Feedback."
 msgstr "Cerca resultats a les opinions del Firefox Beta."
 
 #. L10n: This is the title to the Search ATOM feed.
-#: apps/search/views.py:111
+#: apps/search/views.py:112
 msgid "Firefox Input: '{query}'"
 msgstr "Firefox Input: '{query}'"
 
@@ -754,10 +799,6 @@ msgstr "Resultats de la cerca"
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
 msgstr "Canal ATOM d'aquesta cerca"
-
-#: apps/search/templates/search/search.html:20 apps/themes/templates/themes/index.html:10 apps/website_issues/templates/website_issues/sites.html:22 templates/includes/filters.html:6
-msgid "Product"
-msgstr "Producte"
 
 #: apps/search/templates/search/search_form.html:19
 msgid "Search"
@@ -794,10 +835,6 @@ msgstr "Gràcies!"
 #: apps/search/templates/search/includes/ratings_chart.html:12
 msgid "Loading ratings history..."
 msgstr "S'està carregant l'historial de valoracions..."
-
-#: apps/themes/views.py:26 apps/themes/views.py:50
-msgid "All"
-msgstr "Tot"
 
 #: apps/themes/views.py:26 apps/website_issues/templates/website_issues/sites.html:35
 msgid "All feedback"
@@ -1007,7 +1044,7 @@ msgstr "Codi font"
 msgid "The code for the Firefox Input web application can be found <a href=\"%(source_url)s\">on GitHub</a>!"
 msgstr "El codi de l'aplicació web Firefox Input es troba <a href=\"%(source_url)s\">al GitHub</a>!"
 
-#: templates/base.html:5 templates/base_mobile.html:6
+#: templates/base.html:5 templates/base_mobile.html:7
 msgid "Welcome"
 msgstr "Us donem la benvinguda"
 
@@ -1026,10 +1063,6 @@ msgstr "Tauler d'entrada del <strong>Firefox</strong>"
 #: templates/base.html:36
 msgid "Feedback"
 msgstr "Opinió"
-
-#: templates/base_mobile.html:21
-msgid "Dashboard"
-msgstr "Tauler de comentaris"
 
 #: templates/base_mobile_old.html:5 templates/base_old.html:5
 msgid "Welcome!"
@@ -1381,10 +1414,6 @@ msgstr "<strong>Us donem la benvinguda al Firefox Input!</strong> L'aplicació p
 
 #~ msgid "User agent string was not recognizable."
 #~ msgstr "No s'ha reconegut correctament l'agent d'usuari."
-
-#, fuzzy
-#~ msgid "Version"
-#~ msgstr "Versió:"
 
 #~ msgid "all"
 #~ msgstr "tot"

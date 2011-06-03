@@ -15,19 +15,19 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 
 #. Formerly called "happy"
-#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:33
-#: apps/search/forms.py:32 apps/search/views.py:224 apps/themes/views.py:30 apps/themes/templates/themes/theme_list.html:8 apps/website_issues/templates/website_issues/sites.html:36
+#: apps/dashboard/views.py:60 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:33
+#: apps/search/forms.py:32 apps/search/views.py:229 apps/themes/views.py:30 apps/themes/templates/themes/theme_list.html:8 apps/website_issues/templates/website_issues/sites.html:36
 #: apps/website_issues/templates/website_issues/includes/single_site.html:12
 msgid "Praise"
 msgstr "Нравится"
 
 #. Formerly called "sad"
-#: apps/dashboard/views.py:56 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:33 apps/search/views.py:225
+#: apps/dashboard/views.py:61 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:33 apps/search/views.py:230
 #: apps/themes/views.py:34 apps/website_issues/templates/website_issues/sites.html:37
 msgid "Issues"
 msgstr "Проблемы"
 
-#: apps/dashboard/views.py:57 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:34 apps/themes/views.py:38
+#: apps/dashboard/views.py:62 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:34 apps/themes/views.py:38
 msgid "Ideas"
 msgstr "Идеи"
 
@@ -64,32 +64,32 @@ msgstr "Другие локали"
 msgid "Manufacturer"
 msgstr "Производитель"
 
-#: apps/dashboard/templates/dashboard/message_list.html:29 apps/themes/templates/themes/theme_list.html:28
+#: apps/dashboard/templates/dashboard/message_list.html:26 apps/themes/templates/themes/theme_list.html:28
 msgid "More Options"
 msgstr "Больше настроек"
 
-#: apps/dashboard/templates/dashboard/message_list.html:32
+#: apps/dashboard/templates/dashboard/message_list.html:29
 msgid "Copy User Agent"
 msgstr "Копировать User Agent"
 
 #. Link to Google Translator
-#: apps/dashboard/templates/dashboard/message_list.html:36 apps/themes/templates/themes/theme_list.html:31
+#: apps/dashboard/templates/dashboard/message_list.html:33 apps/feedback/templates/feedback/mobile/opinion.html:43 apps/themes/templates/themes/theme_list.html:31
 msgid "Translate Message"
 msgstr "Перевести сообщение"
 
-#: apps/dashboard/templates/dashboard/message_list.html:41
+#: apps/dashboard/templates/dashboard/message_list.html:38 apps/feedback/templates/feedback/mobile/opinion.html:48
 msgid "Tweet This"
 msgstr "Твитнуть это"
 
-#: apps/dashboard/templates/dashboard/message_list.html:52 apps/themes/templates/themes/theme_list.html:41
+#: apps/dashboard/templates/dashboard/message_list.html:48 apps/dashboard/templates/dashboard/mobile/message_list.html:31 apps/themes/templates/themes/theme_list.html:41
 msgid "No search results found."
 msgstr "Поиск не принёс результатов."
 
-#: apps/dashboard/templates/dashboard/message_list.html:54
+#: apps/dashboard/templates/dashboard/message_list.html:50
 msgid "You can adjust your search criteria or use fewer filters to find more opinions."
 msgstr ""
 
-#: apps/dashboard/templates/dashboard/message_list.html:56
+#: apps/dashboard/templates/dashboard/message_list.html:52
 msgid "Note: Recently released versions of Firefox may have less feedback."
 msgstr ""
 
@@ -116,6 +116,10 @@ msgstr "При посещении"
 #: apps/dashboard/templates/dashboard/themes.html:3 apps/dashboard/templates/dashboard/mobile/themes.html:2
 msgid "Often Mentioned"
 msgstr "Часто упоминаемые"
+
+#: apps/dashboard/templates/dashboard/versions.html:3 apps/themes/views.py:26 apps/themes/views.py:50
+msgid "All"
+msgstr "Все"
 
 #. Title for a time-based search filter
 #: apps/dashboard/templates/dashboard/when.html:2
@@ -187,25 +191,52 @@ msgstr "Без лимита даты"
 msgid "&infin;"
 msgstr "&infin;"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:6 apps/search/templates/search/mobile/search.html:6
+#: apps/dashboard/templates/dashboard/mobile/beta.html:9 apps/search/templates/search/mobile/search.html:13
+#, fuzzy
+msgid "Clear Search"
+msgstr "Поиск"
+
+#: apps/dashboard/templates/dashboard/mobile/beta.html:16 apps/search/templates/search/mobile/search.html:20
 msgid "Feed"
 msgstr "Лента"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:7 apps/search/templates/search/mobile/search.html:7
+#: apps/dashboard/templates/dashboard/mobile/beta.html:19 apps/search/templates/search/mobile/search.html:23
 msgid "Statistics"
 msgstr "Статистика"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:8 apps/search/templates/search/mobile/search.html:8
+#: apps/dashboard/templates/dashboard/mobile/beta.html:22 apps/search/templates/search/mobile/search.html:26
 msgid "Trends"
 msgstr "Тренды"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:35 apps/search/templates/search/mobile/search.html:38
+#: apps/dashboard/templates/dashboard/mobile/beta.html:25 apps/search/templates/search/mobile/search.html:29
+msgid "Settings"
+msgstr ""
+
+#: apps/dashboard/templates/dashboard/mobile/beta.html:38 apps/search/templates/search/mobile/search.html:43
 msgid "&laquo; Newer Feedback"
 msgstr "&laquo; Новые отзывы"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:36 apps/search/templates/search/mobile/search.html:48
+#: apps/dashboard/templates/dashboard/mobile/beta.html:39 apps/search/templates/search/mobile/search.html:53
 msgid "Older Feedback &raquo;"
 msgstr "Старые отзывы &raquo;"
+
+#: apps/dashboard/templates/dashboard/mobile/beta.html:69 apps/search/templates/search/search.html:20 apps/search/templates/search/mobile/search.html:92 apps/themes/templates/themes/index.html:10
+#: apps/website_issues/templates/website_issues/sites.html:22 templates/includes/filters.html:6
+msgid "Product"
+msgstr "Продукт"
+
+#: apps/dashboard/templates/dashboard/mobile/beta.html:75 apps/search/templates/search/mobile/search.html:98
+msgid "Version"
+msgstr "Версия"
+
+#: apps/dashboard/templates/dashboard/mobile/beta.html:84 apps/search/templates/search/mobile/search.html:107
+msgid "Switch to Desktop Dashboard"
+msgstr ""
+
+#: apps/dashboard/templates/dashboard/mobile/locales.html:22
+#, fuzzy
+msgid "Show More Locales"
+msgstr "Другие локали"
 
 #: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
 msgid "<strong>%(cnt)s</strong> message"
@@ -213,6 +244,11 @@ msgid_plural "<strong>%(cnt)s</strong> messages"
 msgstr[0] "<strong>%(cnt)s</strong> сообщение"
 msgstr[1] "<strong>%(cnt)s</strong> сообщения"
 msgstr[2] "<strong>%(cnt)s</strong> сообщений"
+
+#: apps/dashboard/templates/dashboard/mobile/platforms.html:22
+#, fuzzy
+msgid "Show More Platforms"
+msgstr "Платформы"
 
 #. refers to time-based search filters (e.g., "for last: 1d")
 #: apps/dashboard/templates/dashboard/mobile/when.html:3
@@ -228,19 +264,19 @@ msgstr "Показать/скрыть настройки"
 msgid "Toggle"
 msgstr "Переключить"
 
-#: apps/feedback/forms.py:94
+#: apps/feedback/forms.py:96
 msgid "We already got your feedback! Thanks."
 msgstr "Мы уже получили ваш отзыв! Спасибо."
 
-#: apps/feedback/forms.py:106
+#: apps/feedback/forms.py:108
 msgid "Please describe what you liked."
 msgstr "Пожалуйста, опишите, что вам понравилось."
 
-#: apps/feedback/forms.py:123
+#: apps/feedback/forms.py:125
 msgid "Please describe your problem below."
 msgstr "Пожалуйста, опишите ниже свою проблему."
 
-#: apps/feedback/forms.py:140
+#: apps/feedback/forms.py:142
 msgid "Describe your idea below."
 msgstr "Опишите ниже вашу идею."
 
@@ -248,21 +284,25 @@ msgstr "Опишите ниже вашу идею."
 msgid "Issue"
 msgstr "Проблема"
 
-#: apps/feedback/validators.py:27
+#: apps/feedback/validators.py:38
 msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
 msgstr ""
 "Ваш комментарий содержит нецензурные выражения (%s). Чтобы помочь нам улучшить наши продукты, пожалуйста используйте слова, которые помогут нам действовать или планировать, основываясь на вашей "
 "конструктивной критике. Спасибо!"
 
-#: apps/feedback/validators.py:36
+#: apps/feedback/validators.py:47
 msgid "Feedback must not contain HTML."
 msgstr "Отзыв не должен содержать HTML."
 
-#: apps/feedback/validators.py:43
+#: apps/feedback/validators.py:54
 msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr "Ваш отзыв, похоже, содержит адрес электронной почты. Пожалуйста, удалите его и другие похожие персональные данные из текста и попробуйте снова. Спасибо!"
 
-#: apps/feedback/validators.py:52
+#: apps/feedback/validators.py:63
+msgid "URLs with IP addresses must contain public IP addresses."
+msgstr ""
+
+#: apps/feedback/validators.py:70
 msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
 msgstr "Ваш отзыв, похоже, содержит веб-адрес (URL). Пожалуйста, удалите его и другие похожие персональные данные из текста и попробуйте снова. Спасибо!"
 
@@ -559,6 +599,10 @@ msgstr "У меня есть идея для Firefox"
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(url)s\">Firefox Support</a>."
 msgstr "Если вам нужна помощь или у вас возникла проблема с Firefox, пожалуйста, посетите <a href=\"%(url)s\">страницу поддержки Firefox</a>."
 
+#: apps/feedback/templates/feedback/mobile/opinion.html:9 templates/base_mobile.html:22
+msgid "Dashboard"
+msgstr "Панель"
+
 #: apps/feedback/templates/feedback/mobile/thanks.html:29
 msgid "Thanks for sharing your feedback!"
 msgstr "Спасибо, что отправили нам ваш отзыв!"
@@ -595,7 +639,7 @@ msgstr "Узнайте последние новости о Firefox."
 msgid "Planet Mozilla"
 msgstr "Планета Mozilla"
 
-#: apps/input/__init__.py:47 apps/search/views.py:226 apps/themes/templates/themes/theme_list.html:10
+#: apps/input/__init__.py:47 apps/search/views.py:231 apps/themes/templates/themes/theme_list.html:10
 msgid "Idea"
 msgstr "Идея"
 
@@ -647,21 +691,21 @@ msgstr "Linux"
 msgid "Other"
 msgstr "Другая"
 
-#: apps/input/helpers.py:71
+#: apps/input/helpers.py:87
 msgid "{0} day ago"
 msgid_plural "{0} days ago"
 msgstr[0] "{0} день назад"
 msgstr[1] "{0} дня назад"
 msgstr[2] "{0} дней назад"
 
-#: apps/input/helpers.py:77
+#: apps/input/helpers.py:93
 msgid "{0} hour ago"
 msgid_plural "{0} hours ago"
 msgstr[0] "{0} час назад"
 msgstr[1] "{0} часа назад"
 msgstr[2] "{0} часов назад"
 
-#: apps/input/helpers.py:80
+#: apps/input/helpers.py:96
 msgid "{0} minute ago"
 msgid_plural "{0} minutes ago"
 msgstr[0] "{0} минута назад"
@@ -669,7 +713,7 @@ msgstr[1] "{0} минуты назад"
 msgstr[2] "{0} минут назад"
 
 #. L10n: This means an event that happened only a few seconds ago.
-#: apps/input/helpers.py:84
+#: apps/input/helpers.py:100
 msgid "just now"
 msgstr "прямо сейчас"
 
@@ -735,16 +779,16 @@ msgstr "Диапазон дат:"
 msgid "to"
 msgstr "по"
 
-#: apps/search/views.py:93 apps/search/views.py:112
+#: apps/search/views.py:94 apps/search/views.py:113
 msgid "Firefox Input"
 msgstr "Мнения о Firefox"
 
-#: apps/search/views.py:94
+#: apps/search/views.py:95
 msgid "Search Results in Firefox Beta Feedback."
 msgstr "Результаты поиска в отзывах о Firefox Бета."
 
 #. L10n: This is the title to the Search ATOM feed.
-#: apps/search/views.py:111
+#: apps/search/views.py:112
 msgid "Firefox Input: '{query}'"
 msgstr "Мнения о Firefox: '{query}'"
 
@@ -755,10 +799,6 @@ msgstr "Результаты поиска"
 #: apps/search/templates/search/search.html:10
 msgid "ATOM feed for this search"
 msgstr "Лента ATOM для этого поиска"
-
-#: apps/search/templates/search/search.html:20 apps/themes/templates/themes/index.html:10 apps/website_issues/templates/website_issues/sites.html:22 templates/includes/filters.html:6
-msgid "Product"
-msgstr "Продукт"
 
 #: apps/search/templates/search/search_form.html:19
 msgid "Search"
@@ -795,10 +835,6 @@ msgstr "Спасибо!"
 #: apps/search/templates/search/includes/ratings_chart.html:12
 msgid "Loading ratings history..."
 msgstr "Загрузка истории оценок..."
-
-#: apps/themes/views.py:26 apps/themes/views.py:50
-msgid "All"
-msgstr "Все"
 
 #: apps/themes/views.py:26 apps/website_issues/templates/website_issues/sites.html:35
 msgid "All feedback"
@@ -1011,7 +1047,7 @@ msgstr "Исходный код"
 msgid "The code for the Firefox Input web application can be found <a href=\"%(source_url)s\">on GitHub</a>!"
 msgstr "Код веб-приложения Firefox Input можно найти <a href=\"%(source_url)s\">на GitHub</a>!"
 
-#: templates/base.html:5 templates/base_mobile.html:6
+#: templates/base.html:5 templates/base_mobile.html:7
 msgid "Welcome"
 msgstr "Добро пожаловать"
 
@@ -1030,10 +1066,6 @@ msgstr "Панель отзывов <strong>Firefox</strong>"
 #: templates/base.html:36
 msgid "Feedback"
 msgstr "Отзывы"
-
-#: templates/base_mobile.html:21
-msgid "Dashboard"
-msgstr "Панель"
 
 #: templates/base_mobile_old.html:5 templates/base_old.html:5
 msgid "Welcome!"
@@ -1426,9 +1458,6 @@ msgstr "<strong>Добро пожаловать в Firefox Input!</strong> Эт�
 
 #~ msgid "Suggestions only"
 #~ msgstr "Только предложения"
-
-#~ msgid "Version"
-#~ msgstr "Версия"
 
 #~ msgid "happy"
 #~ msgstr "доволен"
