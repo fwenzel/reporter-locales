@@ -14,19 +14,19 @@ msgstr ""
 "X-Generator: Pootle 2.1.6\n"
 
 #. Formerly called "happy"
-#: apps/dashboard/views.py:60 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:33
+#: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:33
 #: apps/search/forms.py:32 apps/search/views.py:229 apps/themes/views.py:30 apps/themes/templates/themes/theme_list.html:8 apps/website_issues/templates/website_issues/sites.html:36
 #: apps/website_issues/templates/website_issues/includes/single_site.html:12
 msgid "Praise"
 msgstr "Elogio"
 
 #. Formerly called "sad"
-#: apps/dashboard/views.py:61 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:33 apps/search/views.py:230
+#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:33 apps/search/views.py:230
 #: apps/themes/views.py:34 apps/website_issues/templates/website_issues/sites.html:37
 msgid "Issues"
 msgstr "Problemas"
 
-#: apps/dashboard/views.py:62 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:34 apps/themes/views.py:38
+#: apps/dashboard/views.py:56 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:34 apps/themes/views.py:38
 msgid "Ideas"
 msgstr "Ideias"
 
@@ -80,15 +80,15 @@ msgstr "Traduzir mensagem"
 msgid "Tweet This"
 msgstr "Tuitar isto"
 
-#: apps/dashboard/templates/dashboard/message_list.html:48 apps/dashboard/templates/dashboard/mobile/message_list.html:31 apps/themes/templates/themes/theme_list.html:41
+#: apps/dashboard/templates/dashboard/message_list.html:48 apps/dashboard/templates/dashboard/mobile/message_list.html:32 apps/themes/templates/themes/theme_list.html:41
 msgid "No search results found."
 msgstr "Nenhum resultado encontrado."
 
-#: apps/dashboard/templates/dashboard/message_list.html:50
+#: apps/dashboard/templates/dashboard/message_list.html:50 apps/dashboard/templates/dashboard/mobile/message_list.html:34
 msgid "You can adjust your search criteria or use fewer filters to find more opinions."
 msgstr ""
 
-#: apps/dashboard/templates/dashboard/message_list.html:52
+#: apps/dashboard/templates/dashboard/message_list.html:52 apps/dashboard/templates/dashboard/mobile/message_list.html:36
 msgid "Note: Recently released versions of Firefox may have less feedback."
 msgstr ""
 
@@ -282,9 +282,8 @@ msgstr "Problema"
 #: apps/feedback/validators.py:38
 msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
 msgstr ""
-"O seu comentário contém palavrões (%s). Para nos ajudar a melhorar nossos "
-"produtos, por favor use palavras que nos ajudem a criar uma ação ou algo a "
-"fazer a partir de sua opinião construtiva. Obrigado!"
+"O seu comentário contém palavrões (%s). Para nos ajudar a melhorar nossos produtos, por favor use palavras que nos ajudem a criar uma ação ou algo a fazer a partir de sua opinião construtiva. "
+"Obrigado!"
 
 #: apps/feedback/validators.py:47
 msgid "Feedback must not contain HTML."
@@ -292,9 +291,7 @@ msgstr "A opinião não pode conter marcações HTML."
 
 #: apps/feedback/validators.py:54
 msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
-msgstr ""
-"A sua opinião parece conter um endereço de email. Por favor, remova esse e "
-"outros dados pessoais similares do texto e tente novamente. Obrigado!"
+msgstr "A sua opinião parece conter um endereço de email. Por favor, remova esse e outros dados pessoais similares do texto e tente novamente. Obrigado!"
 
 #: apps/feedback/validators.py:63
 msgid "URLs with IP addresses must contain public IP addresses."
@@ -302,10 +299,7 @@ msgstr ""
 
 #: apps/feedback/validators.py:70
 msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
-msgstr ""
-"A sua opinião parece conter um endereço da internet (URL). Por favor, remova "
-"esse e outros dados pessoais similares do texto e tente novamente. "
-"Obrigado!"
+msgstr "A sua opinião parece conter um endereço da internet (URL). Por favor, remova esse e outros dados pessoais similares do texto e tente novamente. Obrigado!"
 
 #: apps/feedback/views.py:41
 msgid "User-Agent request header must be set."
@@ -320,15 +314,11 @@ msgstr "Enviar opinião"
 
 #: apps/feedback/templates/feedback/beta_index.html:7
 msgid "It's great to hear you want to help Mozilla make your experience better!"
-msgstr ""
-"É muito bom saber que você gostaria de ajudar a Mozilla a tornar a sua "
-"experiência melhor!"
+msgstr "É muito bom saber que você gostaria de ajudar a Mozilla a tornar a sua experiência melhor!"
 
 #: apps/feedback/templates/feedback/beta_index.html:9
 msgid "Please choose one of the following types of feedback that you would like to submit to us:"
-msgstr ""
-"Por favor, escolha um dos seguintes tipos de opinião que você gostaria de "
-"enviar:"
+msgstr "Por favor, escolha um dos seguintes tipos de opinião que você gostaria de enviar:"
 
 #: apps/feedback/templates/feedback/beta_index.html:13 apps/feedback/templates/feedback/beta_index.html:15
 msgid "Firefox makes me happy because ..."
@@ -344,9 +334,7 @@ msgstr "Logotipo do Firefox"
 
 #: apps/feedback/templates/feedback/beta_index.html:25
 msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
-msgstr ""
-"Se você precisar de ajuda ou tiver algum problema com o Firefox, visite a "
-"nossa <a href=\"%(support_url)s\">página de suporte</a>."
+msgstr "Se você precisar de ajuda ou tiver algum problema com o Firefox, visite a nossa <a href=\"%(support_url)s\">página de suporte</a>."
 
 #: apps/feedback/templates/feedback/download.html:3
 msgid "Download Firefox"
@@ -354,15 +342,11 @@ msgstr "Baixar o Firefox"
 
 #: apps/feedback/templates/feedback/download.html:8
 msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-msgstr ""
-"Ah! Então você quer oferecer a sua opinião sobre o Firefox. Obrigado, mas "
-"você precisa estar utilizando a versão mais recente."
+msgstr "Ah! Então você quer oferecer a sua opinião sobre o Firefox. Obrigado, mas você precisa estar utilizando a versão mais recente."
 
 #: apps/feedback/templates/feedback/download.html:14
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-msgstr ""
-"Para fazer isso, basta ir até a página de download e instalar/atualizar para "
-"a <a href=\"%(url)s\">versão mais recente do Firefox!</a>"
+msgstr "Para fazer isso, basta ir até a página de download e instalar/atualizar para a <a href=\"%(url)s\">versão mais recente do Firefox!</a>"
 
 #: apps/feedback/templates/feedback/feedback-form.html:6 apps/feedback/templates/feedback/index.html:21
 msgid "Firefox Made Me Happy"
@@ -378,14 +362,11 @@ msgstr "Eu tenho uma ideia para o Firefox"
 
 #: apps/feedback/templates/feedback/feedback-form.html:15
 msgid "Super! It's great to hear that you like our pre-released browser."
-msgstr ""
-"Super! É ótimo saber que você gosta do nosso navegador de pré-lançamento."
+msgstr "Super! É ótimo saber que você gosta do nosso navegador de pré-lançamento."
 
 #: apps/feedback/templates/feedback/feedback-form.html:17
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it."
-msgstr ""
-"Estamos tristes ao saber que você não teve uma boa experiência com nosso "
-"navegador. Por favor, conte-nos por que para que possamos corrigir."
+msgstr "Estamos tristes ao saber que você não teve uma boa experiência com nosso navegador. Por favor, conte-nos por que para que possamos corrigir."
 
 #: apps/feedback/templates/feedback/feedback-form.html:19
 msgid "Have an idea how Firefox could be better? Let us know."
@@ -405,9 +386,7 @@ msgstr "Inclua o endereço (URL) do site com o problema."
 
 #: apps/feedback/templates/feedback/feedback-form.html:57
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
-msgstr ""
-"Para proteger a sua privacidade, tenha certeza de que nenhuma informação que "
-"possa identificá-lo pessoalmente esteja incluída na sua opinião."
+msgstr "Para proteger a sua privacidade, tenha certeza de que nenhuma informação que possa identificá-lo pessoalmente esteja incluída na sua opinião."
 
 #: apps/feedback/templates/feedback/feedback-form.html:70
 msgid "Submitting Feedback"
@@ -423,27 +402,19 @@ msgstr "caixa de sugestões"
 
 #: apps/feedback/templates/feedback/feedback.html:19
 msgid "Super! It's great to hear that you like our pre-released browser. Please explain what you specifically like!"
-msgstr ""
-"Super! É ótimo saber que você gosta do nosso navegador de pré-lançamento. "
-"Por favor, explique o que você gosta especificamente!"
+msgstr "Super! É ótimo saber que você gosta do nosso navegador de pré-lançamento. Por favor, explique o que você gosta especificamente!"
 
 #: apps/feedback/templates/feedback/feedback.html:24
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
-msgstr ""
-"Estamos tristes ao saber que você não teve uma boa experiência com nosso "
-"navegador. Por favor, conte-nos por que para que possamos corrigir!"
+msgstr "Estamos tristes ao saber que você não teve uma boa experiência com nosso navegador. Por favor, conte-nos por que para que possamos corrigir!"
 
 #: apps/feedback/templates/feedback/feedback.html:29
 msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please enter your idea below:"
-msgstr ""
-"Então você gostaria de dar uma sugestão de como melhorar o Firefox? "
-"Maravilha! Insira sua ideia abaixo:"
+msgstr "Então você gostaria de dar uma sugestão de como melhorar o Firefox? Maravilha! Insira sua ideia abaixo:"
 
 #: apps/feedback/templates/feedback/feedback.html:47
 msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
-msgstr ""
-"Conhece algum site que funcione melhor nesta versão beta do que em versões "
-"anteriores? Adicione o endereço (URL) para que possamos acompanhá-lo!"
+msgstr "Conhece algum site que funcione melhor nesta versão beta do que em versões anteriores? Adicione o endereço (URL) para que possamos acompanhá-lo!"
 
 #: apps/feedback/templates/feedback/feedback.html:55
 msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
