@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-19 15:37+0200\n"
-"PO-Revision-Date: 2011-05-27 11:26+0200\n"
+"PO-Revision-Date: 2011-06-10 13:53+0200\n"
 "Last-Translator: saneyuki_s <saneyuki.snyk@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -18,13 +18,13 @@ msgstr ""
 #: apps/search/forms.py:32 apps/search/views.py:229 apps/themes/views.py:30 apps/themes/templates/themes/theme_list.html:8 apps/website_issues/templates/website_issues/sites.html:36
 #: apps/website_issues/templates/website_issues/includes/single_site.html:12
 msgid "Praise"
-msgstr "良い点"
+msgstr "良いところ"
 
 #. Formerly called "sad"
 #: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:33 apps/search/views.py:230
 #: apps/themes/views.py:34 apps/website_issues/templates/website_issues/sites.html:37
 msgid "Issues"
-msgstr "悪い点"
+msgstr "悪いところ"
 
 #: apps/dashboard/views.py:56 apps/dashboard/templates/dashboard/overview.html:40 apps/search/forms.py:34 apps/themes/views.py:38
 msgid "Ideas"
@@ -86,11 +86,11 @@ msgstr "検索条件に一致するものは見つかりませんでした。"
 
 #: apps/dashboard/templates/dashboard/message_list.html:50 apps/dashboard/templates/dashboard/mobile/message_list.html:34
 msgid "You can adjust your search criteria or use fewer filters to find more opinions."
-msgstr ""
+msgstr "さらなる意見を見つけるために、検索条件の設定もしくは幾つかのフィルタを使用できます。"
 
 #: apps/dashboard/templates/dashboard/message_list.html:52 apps/dashboard/templates/dashboard/mobile/message_list.html:36
 msgid "Note: Recently released versions of Firefox may have less feedback."
-msgstr ""
+msgstr "注意：最近リリースされたバージョンの Firefox に関するフィードバックは少ないかもしれません。"
 
 #. Title text for a complete message count.
 #: apps/dashboard/templates/dashboard/opinion_count.html:3
@@ -194,9 +194,8 @@ msgid "&infin;"
 msgstr "&infin;"
 
 #: apps/dashboard/templates/dashboard/mobile/beta.html:9 apps/search/templates/search/mobile/search.html:13
-#, fuzzy
 msgid "Clear Search"
-msgstr "検索"
+msgstr "検索のリセット"
 
 #: apps/dashboard/templates/dashboard/mobile/beta.html:16 apps/search/templates/search/mobile/search.html:20
 msgid "Feed"
@@ -212,7 +211,7 @@ msgstr "動向"
 
 #: apps/dashboard/templates/dashboard/mobile/beta.html:25 apps/search/templates/search/mobile/search.html:29
 msgid "Settings"
-msgstr ""
+msgstr "設定"
 
 #: apps/dashboard/templates/dashboard/mobile/beta.html:38 apps/search/templates/search/mobile/search.html:43
 msgid "&laquo; Newer Feedback"
@@ -228,18 +227,16 @@ msgid "Product"
 msgstr "製品"
 
 #: apps/dashboard/templates/dashboard/mobile/beta.html:75 apps/search/templates/search/mobile/search.html:98
-#, fuzzy
 msgid "Version"
-msgstr "バージョン:"
+msgstr "バージョン"
 
 #: apps/dashboard/templates/dashboard/mobile/beta.html:84 apps/search/templates/search/mobile/search.html:107
 msgid "Switch to Desktop Dashboard"
-msgstr ""
+msgstr "デスクトップ版のダッシュボードに切り替える"
 
 #: apps/dashboard/templates/dashboard/mobile/locales.html:22
-#, fuzzy
 msgid "Show More Locales"
-msgstr "その他の言語"
+msgstr "その他の言語を表示"
 
 #: apps/dashboard/templates/dashboard/mobile/opinion_count.html:2
 msgid "<strong>%(cnt)s</strong> message"
@@ -247,9 +244,8 @@ msgid_plural "<strong>%(cnt)s</strong> messages"
 msgstr[0] "<strong>%(cnt)s</strong> 件のメッセージ"
 
 #: apps/dashboard/templates/dashboard/mobile/platforms.html:22
-#, fuzzy
 msgid "Show More Platforms"
-msgstr "プラットフォーム"
+msgstr "その他のプラットフォームを表示"
 
 #. refers to time-based search filters (e.g., "for last: 1d")
 #: apps/dashboard/templates/dashboard/mobile/when.html:3
@@ -299,7 +295,7 @@ msgstr "フィードバック文中にメールアドレス が含まれてい�
 
 #: apps/feedback/validators.py:63
 msgid "URLs with IP addresses must contain public IP addresses."
-msgstr ""
+msgstr "IPアドレスによるURLでは、パブリックIPアドレスが含まれなければなりません。"
 
 #: apps/feedback/validators.py:70
 msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
@@ -326,11 +322,11 @@ msgstr "送信するフィードバックの種類を、次のいずれかから
 
 #: apps/feedback/templates/feedback/beta_index.html:13 apps/feedback/templates/feedback/beta_index.html:15
 msgid "Firefox makes me happy because ..."
-msgstr "Firefox の良い点は..."
+msgstr "Firefox の良いところを伝える..."
 
 #: apps/feedback/templates/feedback/beta_index.html:19 apps/feedback/templates/feedback/beta_index.html:21
 msgid "Firefox makes me sad because ..."
-msgstr "Firefox の悪い点は..."
+msgstr "Firefox の悪いところを伝える..."
 
 #: apps/feedback/templates/feedback/beta_index.html:24
 msgid "Firefox Logo"
@@ -354,11 +350,11 @@ msgstr "そのためには、ダウンロードページから <a href=\"%(url)s
 
 #: apps/feedback/templates/feedback/feedback-form.html:6 apps/feedback/templates/feedback/index.html:21
 msgid "Firefox Made Me Happy"
-msgstr "Firefox の良い点"
+msgstr "Firefox の良いところ"
 
 #: apps/feedback/templates/feedback/feedback-form.html:8 apps/feedback/templates/feedback/index.html:22
 msgid "Firefox Made Me Sad"
-msgstr "Firefox の悪い点"
+msgstr "Firefox の悪いところ"
 
 #: apps/feedback/templates/feedback/feedback-form.html:10 apps/feedback/templates/feedback/index.html:23
 msgid "I Have an Idea for Firefox"
@@ -464,13 +460,12 @@ msgid "better experience in future releases of Firefox."
 msgstr "将来の Firefox でのより良い Web 体験を実現するために利用されます。"
 
 #: apps/feedback/templates/feedback/thanks.html:25
-#, fuzzy
 msgid "Share your feedback."
-msgstr "あなたのフィードバックの送信先を確認する"
+msgstr "あなたのフィードバックを共有する"
 
 #: apps/feedback/templates/feedback/thanks.html:31
 msgid "Tweet feedback to your followers"
-msgstr ""
+msgstr "あなたのフォロワーに向けてフィードバックをつぶやく"
 
 #: apps/feedback/templates/feedback/thanks.html:37
 msgid "Have more to say?"
@@ -481,13 +476,12 @@ msgid "Feel free to <a href=\"%(fb_url)s\">submit more feedback</a>"
 msgstr "気軽に<a href=\"%(dashboard_url)s\">さらなるフィードバックをお寄せください</a> "
 
 #: apps/feedback/templates/feedback/thanks.html:46
-#, fuzzy
 msgid "Contribute to Mozilla."
-msgstr "Planet Mozilla"
+msgstr "Mozilla に貢献する。"
 
 #: apps/feedback/templates/feedback/thanks.html:48
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>"
-msgstr ""
+msgstr "<a href=\"%(url)s\">Firefox と Mozilla をより良くする</a>ための方法を学ぶ"
 
 #: apps/feedback/templates/feedback/thanks.html:55
 msgid "Want to see where your feedback goes?"
@@ -511,11 +505,11 @@ msgstr "送信するフィードバックの種類を選んでください:"
 
 #: apps/feedback/templates/feedback/mobile/beta_index.html:13 apps/feedback/templates/feedback/mobile/beta_index.html:15
 msgid "Firefox makes me happy ..."
-msgstr "Firefox の良い点"
+msgstr "Firefox の良い点は..."
 
 #: apps/feedback/templates/feedback/mobile/beta_index.html:18 apps/feedback/templates/feedback/mobile/beta_index.html:20
 msgid "Firefox makes me sad ..."
-msgstr "Firefox の悪い点"
+msgstr "Firefox の悪い点は..."
 
 #: apps/feedback/templates/feedback/mobile/download.html:3
 msgid "Download Beta"
@@ -588,11 +582,11 @@ msgstr "Firefox for Mobile についてのフィードバックを募集して�
 
 #: apps/feedback/templates/feedback/mobile/index.html:36
 msgid "Firefox made me happy"
-msgstr "Firefox の良い点"
+msgstr "Firefox の良いところ"
 
 #: apps/feedback/templates/feedback/mobile/index.html:41
 msgid "Firefox made me sad"
-msgstr "Firefox の悪い点"
+msgstr "Firefox の悪いところ"
 
 #: apps/feedback/templates/feedback/mobile/index.html:46
 msgid "I have an idea for Firefox"
@@ -721,7 +715,7 @@ msgstr "検索はタイムアウトしました。"
 #. L10n: Sphinx is the name of the search engine software.
 #: apps/search/client.py:213
 msgid "Sphinx threw an unknown exception: %s"
-msgstr "Sphinx で未知のエラーが発生しました： %s"
+msgstr "Sphinx 検索サーバで未知のエラーが発生しました： %s"
 
 #: apps/search/forms.py:21 apps/search/forms.py:25
 msgctxt "version_choice"
