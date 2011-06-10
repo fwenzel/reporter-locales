@@ -13,14 +13,14 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.6.0\n"
 
 #. Formerly called "happy"
-#: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:33
+#: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:9 apps/feedback/helpers.py:36 apps/input/__init__.py:33
 #: apps/search/forms.py:32 apps/search/views.py:229 apps/themes/views.py:30 apps/themes/templates/themes/theme_list.html:8 apps/website_issues/templates/website_issues/sites.html:36
 #: apps/website_issues/templates/website_issues/includes/single_site.html:12
 msgid "Praise"
 msgstr "Ros"
 
 #. Formerly called "sad"
-#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:33 apps/search/views.py:230
+#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:17 apps/search/forms.py:33 apps/search/views.py:230
 #: apps/themes/views.py:34 apps/website_issues/templates/website_issues/sites.html:37
 msgid "Issues"
 msgstr "Problemer"
@@ -44,13 +44,13 @@ msgstr "&laquo; forrige"
 msgid "Older Messages &raquo;"
 msgstr "næste &raquo;"
 
-#: apps/dashboard/templates/dashboard/devices.html:8 apps/dashboard/templates/dashboard/manufacturers.html:9 apps/feedback/helpers.py:16 apps/search/forms.py:41 apps/search/forms.py:44
-#: apps/search/forms.py:49
+#: apps/dashboard/templates/dashboard/devices.html:8 apps/dashboard/templates/dashboard/manufacturers.html:9 apps/dashboard/templates/dashboard/mobile/devices.html:8
+#: apps/dashboard/templates/dashboard/mobile/manufacturers.html:9 apps/feedback/helpers.py:16 apps/search/forms.py:41 apps/search/forms.py:44 apps/search/forms.py:49
 #, fuzzy
 msgid "Unknown"
 msgstr "ukendt"
 
-#: apps/dashboard/templates/dashboard/devices.html:15
+#: apps/dashboard/templates/dashboard/devices.html:15 apps/dashboard/templates/dashboard/mobile/devices.html:15
 msgid "Devices"
 msgstr ""
 
@@ -63,7 +63,7 @@ msgstr "Sprog"
 msgid "More Locales"
 msgstr "Sprog"
 
-#: apps/dashboard/templates/dashboard/manufacturers.html:16
+#: apps/dashboard/templates/dashboard/manufacturers.html:16 apps/dashboard/templates/dashboard/mobile/manufacturers.html:16
 msgid "Manufacturer"
 msgstr ""
 
@@ -198,50 +198,50 @@ msgstr ""
 msgid "&infin;"
 msgstr ""
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:9 apps/search/templates/search/mobile/search.html:13
+#: apps/dashboard/templates/dashboard/mobile/beta.html:10 apps/search/templates/search/mobile/search.html:13
 #, fuzzy
 msgid "Clear Search"
 msgstr "Søg"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:16 apps/search/templates/search/mobile/search.html:20
+#: apps/dashboard/templates/dashboard/mobile/beta.html:17 apps/search/templates/search/mobile/search.html:20
 #, fuzzy
 msgid "Feed"
 msgstr "Send feedback"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:19 apps/search/templates/search/mobile/search.html:23
+#: apps/dashboard/templates/dashboard/mobile/beta.html:20 apps/search/templates/search/mobile/search.html:23
 msgid "Statistics"
 msgstr ""
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:22 apps/search/templates/search/mobile/search.html:26
+#: apps/dashboard/templates/dashboard/mobile/beta.html:23 apps/search/templates/search/mobile/search.html:26
 msgid "Trends"
 msgstr "Tendenser"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:25 apps/search/templates/search/mobile/search.html:29
+#: apps/dashboard/templates/dashboard/mobile/beta.html:26 apps/search/templates/search/mobile/search.html:29
 msgid "Settings"
 msgstr ""
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:38 apps/search/templates/search/mobile/search.html:43
+#: apps/dashboard/templates/dashboard/mobile/beta.html:39 apps/search/templates/search/mobile/search.html:43
 #, fuzzy
 msgid "&laquo; Newer Feedback"
 msgstr "&laquo; forrige"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:39 apps/search/templates/search/mobile/search.html:53
+#: apps/dashboard/templates/dashboard/mobile/beta.html:40 apps/search/templates/search/mobile/search.html:53
 #, fuzzy
 msgid "Older Feedback &raquo;"
 msgstr "næste &raquo;"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:69 apps/search/templates/search/search.html:20 apps/search/templates/search/mobile/search.html:92 apps/themes/templates/themes/index.html:10
+#: apps/dashboard/templates/dashboard/mobile/beta.html:77 apps/search/templates/search/search.html:20 apps/search/templates/search/mobile/search.html:99 apps/themes/templates/themes/index.html:10
 #: apps/website_issues/templates/website_issues/sites.html:22 templates/includes/filters.html:6
 #, fuzzy
 msgid "Product"
 msgstr "Produkt:"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:75 apps/search/templates/search/mobile/search.html:98
+#: apps/dashboard/templates/dashboard/mobile/beta.html:83 apps/search/templates/search/mobile/search.html:105
 #, fuzzy
 msgid "Version"
 msgstr "Version:"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:84 apps/search/templates/search/mobile/search.html:107
+#: apps/dashboard/templates/dashboard/mobile/beta.html:92 apps/search/templates/search/mobile/search.html:114
 msgid "Switch to Desktop Dashboard"
 msgstr ""
 

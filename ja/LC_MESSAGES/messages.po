@@ -14,14 +14,14 @@ msgstr ""
 "X-Generator: Pootle 2.1.6\n"
 
 #. Formerly called "happy"
-#: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:8 apps/feedback/helpers.py:36 apps/input/__init__.py:33
+#: apps/dashboard/views.py:54 apps/dashboard/templates/dashboard/overview.html:13 apps/dashboard/templates/dashboard/mobile/overview.html:9 apps/feedback/helpers.py:36 apps/input/__init__.py:33
 #: apps/search/forms.py:32 apps/search/views.py:229 apps/themes/views.py:30 apps/themes/templates/themes/theme_list.html:8 apps/website_issues/templates/website_issues/sites.html:36
 #: apps/website_issues/templates/website_issues/includes/single_site.html:12
 msgid "Praise"
 msgstr "良いところ"
 
 #. Formerly called "sad"
-#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:15 apps/search/forms.py:33 apps/search/views.py:230
+#: apps/dashboard/views.py:55 apps/dashboard/templates/dashboard/overview.html:27 apps/dashboard/templates/dashboard/mobile/overview.html:17 apps/search/forms.py:33 apps/search/views.py:230
 #: apps/themes/views.py:34 apps/website_issues/templates/website_issues/sites.html:37
 msgid "Issues"
 msgstr "悪いところ"
@@ -42,12 +42,12 @@ msgstr "&laquo; 新しいメッセージ"
 msgid "Older Messages &raquo;"
 msgstr "過去のメッセージ &raquo;"
 
-#: apps/dashboard/templates/dashboard/devices.html:8 apps/dashboard/templates/dashboard/manufacturers.html:9 apps/feedback/helpers.py:16 apps/search/forms.py:41 apps/search/forms.py:44
-#: apps/search/forms.py:49
+#: apps/dashboard/templates/dashboard/devices.html:8 apps/dashboard/templates/dashboard/manufacturers.html:9 apps/dashboard/templates/dashboard/mobile/devices.html:8
+#: apps/dashboard/templates/dashboard/mobile/manufacturers.html:9 apps/feedback/helpers.py:16 apps/search/forms.py:41 apps/search/forms.py:44 apps/search/forms.py:49
 msgid "Unknown"
 msgstr "未知"
 
-#: apps/dashboard/templates/dashboard/devices.html:15
+#: apps/dashboard/templates/dashboard/devices.html:15 apps/dashboard/templates/dashboard/mobile/devices.html:15
 msgid "Devices"
 msgstr "デバイス"
 
@@ -59,7 +59,7 @@ msgstr "言語"
 msgid "More Locales"
 msgstr "その他の言語"
 
-#: apps/dashboard/templates/dashboard/manufacturers.html:16
+#: apps/dashboard/templates/dashboard/manufacturers.html:16 apps/dashboard/templates/dashboard/mobile/manufacturers.html:16
 msgid "Manufacturer"
 msgstr "製造業者"
 
@@ -193,44 +193,44 @@ msgstr "期限なし"
 msgid "&infin;"
 msgstr "&infin;"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:9 apps/search/templates/search/mobile/search.html:13
+#: apps/dashboard/templates/dashboard/mobile/beta.html:10 apps/search/templates/search/mobile/search.html:13
 msgid "Clear Search"
 msgstr "検索のリセット"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:16 apps/search/templates/search/mobile/search.html:20
+#: apps/dashboard/templates/dashboard/mobile/beta.html:17 apps/search/templates/search/mobile/search.html:20
 msgid "Feed"
 msgstr "フィード"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:19 apps/search/templates/search/mobile/search.html:23
+#: apps/dashboard/templates/dashboard/mobile/beta.html:20 apps/search/templates/search/mobile/search.html:23
 msgid "Statistics"
 msgstr "統計情報"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:22 apps/search/templates/search/mobile/search.html:26
+#: apps/dashboard/templates/dashboard/mobile/beta.html:23 apps/search/templates/search/mobile/search.html:26
 msgid "Trends"
 msgstr "動向"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:25 apps/search/templates/search/mobile/search.html:29
+#: apps/dashboard/templates/dashboard/mobile/beta.html:26 apps/search/templates/search/mobile/search.html:29
 msgid "Settings"
 msgstr "設定"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:38 apps/search/templates/search/mobile/search.html:43
+#: apps/dashboard/templates/dashboard/mobile/beta.html:39 apps/search/templates/search/mobile/search.html:43
 msgid "&laquo; Newer Feedback"
 msgstr "&laquo; より新しい"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:39 apps/search/templates/search/mobile/search.html:53
+#: apps/dashboard/templates/dashboard/mobile/beta.html:40 apps/search/templates/search/mobile/search.html:53
 msgid "Older Feedback &raquo;"
 msgstr "より古い &raquo;"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:69 apps/search/templates/search/search.html:20 apps/search/templates/search/mobile/search.html:92 apps/themes/templates/themes/index.html:10
+#: apps/dashboard/templates/dashboard/mobile/beta.html:77 apps/search/templates/search/search.html:20 apps/search/templates/search/mobile/search.html:99 apps/themes/templates/themes/index.html:10
 #: apps/website_issues/templates/website_issues/sites.html:22 templates/includes/filters.html:6
 msgid "Product"
 msgstr "製品"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:75 apps/search/templates/search/mobile/search.html:98
+#: apps/dashboard/templates/dashboard/mobile/beta.html:83 apps/search/templates/search/mobile/search.html:105
 msgid "Version"
 msgstr "バージョン"
 
-#: apps/dashboard/templates/dashboard/mobile/beta.html:84 apps/search/templates/search/mobile/search.html:107
+#: apps/dashboard/templates/dashboard/mobile/beta.html:92 apps/search/templates/search/mobile/search.html:114
 msgid "Switch to Desktop Dashboard"
 msgstr "デスクトップ版のダッシュボードに切り替える"
 
